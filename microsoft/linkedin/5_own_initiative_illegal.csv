@@ -1,0 +1,115 @@
+Applicability,Service,Reporting period,Category of illegal content,"Description of the sub-category ""Other""",Number of measures taken at the provider's own initiative,Number of measures taken after detection with solely automated means,Visibility restriction Removal,Visibility restriction Disable,Visibility restriction Demoted,Visibility restriction Age restricted,Visibility restriction Interaction restricted,Visibility restriction Labelled,Visibility restriction Other,Monetary restriction Suspension,Monetary restriction Termination,Monetary restriction Other,Provision of the service Suspension,Provision of the service Termination,Account restriction Suspension,Account restriction Termination,Contextual Information on Number of measures taken at the provider's own initiative,Contextual Information on Number of measures taken after detection with solely automated means,Contextual Information on Visibility restriction Removal,Contextual Information on Visibility restriction Disable,Contextual Information on Visibility restriction Demoted,Contextual Information on Visibility restriction Age restricted,Contextual Information on Visibility restriction Interaction restricted,Contextual Information on Visibility restriction Labelled,Contextual Information on Visibility restriction Other,Contextual Information on Monetary restriction Suspension,Contextual Information on Monetary restriction Termination,Contextual Information on Monetary restriction Other,Contextual Information on Provision of the service Suspension,Contextual Information on Provision of the service Termination,Contextual Information on Account restriction Suspension,Contextual Information on Account restriction Termination
+All,LinkedIn,2025-07-01/2025-12-31,TOTAL,,0,0,0,,0,,,,0,,,,0,0,0,0,"Sheets 5 and 6 report information regarding DSA enforcement measures LinkedIn applied on its own initiative (i.e. absent a Member State order or Article 16 notice) to EU-relevant content during the reporting period. Sheet 5 reports own initiative measures LinkedIn applied on the basis of the law. Sheet 6 reports own initiative measures LinkedIn applied on the basis of its terms of service and policies (together, """"policies"""").  
+
+LinkedIn's policies prohibit a wide range of content that also violates the law. Where content both violates LinkedIn's policies and violates the law, LinkedIn generally relies on its policies as the basis for action.
+
+LinkedIn is committed to keeping its platform and services safe, trusted, and professional. All LinkedIn users are bound by the LinkedIn User Agreement (https://www.linkedin.com/legal/user-agreement). All content on LinkedIn must comply with the LinkedIn Professional Community Policies (https://www.linkedin.com/legal/professional-community-policies), which set out in detail the content LinkedIn permits and does not permit to keep its platform safe, trusted, and professional. In addition to the Professional Community Policies, job posts on LinkedIn must also comply with the LinkedIn Jobs Policies (https://www.linkedin.com/legal/l/jobs-policies), and ads must comply with the LinkedIn Advertising Policies (https://www.linkedin.com/legal/ads-policy).
+
+Except where otherwise noted, ‘content’ addressed in this report includes user-generated content that appears in LinkedIn’s Feed – for example, posts, articles, comments, and newsletters – along with profiles, pages, groups, job posts that appear on LinkedIn’s Jobs Board, and ads. 
+
+LinkedIn applies a three-layer, multidimensional approach to moderate content on LinkedIn:
+- The first layer of protection is automated and proactive prevention. When a member attempts to create a piece of content on LinkedIn, various calls (or signals) are sent to LinkedIn’s machine learning services. These services aim to automatically filter out certain policy-violating content at the time of creation.
+- The second layer of protection is a combination of automated and human-led detection. LinkedIn’s second layer of moderation detects content that is likely to be violative but for which LinkedIn is not sufficiently confident to warrant automatic removal, and sends it for human review.
+- The third layer of protection is human-led detection. In addition to LinkedIn's Article 16 notice and action mechanism for illegal content, if users locate content that they believe violates LinkedIn’s policies, they are able to report it using LinkedIn’s in-product flagging functionality.
+
+The following section provides additional information regarding the measures reported in Columns H through U.
+- Own initiative measure 'Visibility restriction Removal' includes instances where LinkedIn removed content because it violated its policies or the law.
+- Own initiative measure 'Visibility restriction Demoted' includes instances where LinkedIn limited the visibility of content because it violated its policies or the law.
+- Own initiative measure 'Visibility restriction Other' includes instances where LinkedIn applied a sensitive content warning and limited the visibility of content because it violated its policies or the law. A sensitive content warning obscures a post until a member clicks to view the post. 
+- Own initiative measure 'Provision of the service Suspension' includes instances where LinkedIn applied a time-bounded restriction on an account's ability to post content or to post jobs because it violated LinkedIn's policies or the law, but did not restrict the account in full.   
+- Own initiative measure 'Provision of the service Termination' includes instances where LinkedIn applied an indefinite restriction on restriction on an account's ability to post content or to post jobs because it violated LinkedIn's policies or the law, but did not restrict the account in full.
+- Own initiative measure 'Account restriction Suspension' includes instances where LinkedIn applied a time-bounded restriction to an account in full.
+- Own initiative measure 'Account restriction Suspension' includes instances where LinkedIn applied an indefinite restriction to an account in full.
+
+LinkedIn did not apply own initiative measures 'Visibility restriction Disable,' 'Visibility restriction Age restricted,' 'Visibility restriction Interaction restricted,' 'Visibility restriction Labelled,' 'Monetary restriction Suspension,' 'Monetary restriction Termination,' or 'Monetary restriction Other' during the reporting period.
+
+For the purposes of this report, LinkedIn attributes content as EU-relevant content if it is created in the EU, based on the IP address at the time of creation. LinkedIn also attributes content as EU-relevant content, regardless of where the content was created, if it is flagged by a user in the EU during the reporting period, based on the IP address at the time the flag was submitted.",,Own initiative measure 'Visibility restriction Removal' includes instances where LinkedIn removed content because it violated its policies or the law.,LinkedIn did not apply own initiative measure 'Visibility restriction Disable' during the reporting period.,Own initiative measure 'Visibility restriction Demoted' includes instances where LinkedIn limited the visibility of content because it violated its policies or the law.,LinkedIn did not apply own initiative measure 'Visibility restriction Age restricted' during the reporting period.,LinkedIn did not apply own initiative measure 'Visibility restriction Interaction restricted' during the reporting period.,LinkedIn did not apply own initiative measure 'Visibility restriction Labelled' during the reporting period.,Own initiative measure measure 'Visibility restriction Other' includes instances where LinkedIn applied a sensitive content warning and limited the visibility of content because it violated its policies or the law. A sensitive content warning obscures a post until a member clicks to view the post.,LinkedIn did not apply own initiative measure 'Monetary restriction Suspension' during the reporting period.,LinkedIn did not apply own initiative measure 'Monetary restriction Termination' during the reporting period.,LinkedIn did not apply own initiative measure 'Monetary restriction Other' during the reporting period.,"Own initiative measure 'Provision of the service Suspension' includes instances where LinkedIn applied a time-bounded restriction on an account's ability to post content or to post jobs because it violated LinkedIn's policies or the law, but did not restrict the account in full.","Own initiative measure 'Provision of the service Termination' includes instances where LinkedIn applied an indefinite restriction on an account's ability to post content or to post jobs because it violated LinkedIn's policies or the law, but did not restrict the account in full.",Own initiative measure 'Account restriction Suspension' includes instances where LinkedIn applied a time-bounded restriction to an account in full.,Own initiative measure 'Account restriction Termination' includes instances where LinkedIn applied an indefinite restriction to an account in full.
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_ANIMAL_WELFARE,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_ANIMAL_HARM,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_UNLAWFUL_SALE_ANIMALS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_CONSUMER_INFORMATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_HIDDEN_ADVERTISEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_INSUFFICIENT_INFORMATION_ON_TRADERS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_MISLEADING_INFO_GOODS_SERVICES,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_MISLEADING_INFO_CONSUMER_RIGHTS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_NONCOMPLIANCE_PRICING,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_CYBER_VIOLENCE,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CYBER_BULLYING_INTIMIDATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CYBER_HARASSMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CYBER_INCITEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CYBER_STALKING,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_NON_CONSENSUAL_IMAGE_SHARING,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_CYBER_VIOLENCE_AGAINST_WOMEN,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_BULLYING_AGAINST_GIRLS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CYBER_HARASSMENT_AGAINST_WOMEN,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CYBER_STALKING_AGAINST_WOMEN,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_FEMALE_GENDERED_DISINFORMATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_INCITEMENT_AGAINST_WOMEN,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_NON_CONSENSUAL_IMAGE_SHARING_AGAINST_WOMEN,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE_AGAINST_WOMEN,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_DATA_PROTECTION_AND_PRIVACY_VIOLATIONS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_BIOMETRIC_DATA_BREACH,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_DATA_FALSIFICATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_MISSING_PROCESSING_GROUND,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_RIGHT_TO_BE_FORGOTTEN,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_DEFAMATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_DISCRIMINATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_HATE_SPEECH,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_INTELLECTUAL_PROPERTY_INFRINGEMENTS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_COPYRIGHT_INFRINGEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_DESIGN_INFRINGEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_GEOGRAPHIC_INDICATIONS_INFRINGEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_PATENT_INFRINGEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_TRADE_SECRET_INFRINGEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_TRADEMARK_INFRINGEMENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_NEGATIVE_EFFECTS_ON_CIVIC_DISCOURSE_OR_ELECTIONS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_MISINFORMATION_DISINFORMATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_VIOLATION_EU_LAW,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_VIOLATION_NATIONAL_LAW,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_PROTECTION_OF_MINORS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_AGE_SPECIFIC_RESTRICTIONS_MINORS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL_DEEPFAKE,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_GROOMING_SEXUAL_ENTICEMENT_MINORS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_UNSAFE_CHALLENGES,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_RISK_FOR_PUBLIC_SECURITY,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_ILLEGAL_ORGANIZATIONS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_RISK_ENVIRONMENTAL_DAMAGE,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_RISK_PUBLIC_HEALTH,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_TERRORIST_CONTENT,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_IMPERSONATION_ACCOUNT_HIJACKING,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_INAUTHENTIC_ACCOUNTS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_INAUTHENTIC_LISTINGS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_INAUTHENTIC_USER_REVIEWS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_PHISHING,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_PYRAMID_SCHEMES,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_SELF_HARM,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_CONTENT_PROMOTING_EATING_DISORDERS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_SELF_MUTILATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_SUICIDE,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_UNSAFE_AND_PROHIBITED_PRODUCTS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_PROHIBITED_PRODUCTS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_UNSAFE_PRODUCTS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,STATEMENT_CATEGORY_VIOLENCE,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_COORDINATED_HARM,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_INCITEMENT_VIOLENCE_HATRED,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_HUMAN_EXPLOITATION,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_HUMAN_TRAFFICKING,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_TRAFFICKING_WOMEN_GIRLS,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
+All,LinkedIn,2025-07-01/2025-12-31,KEYWORD_OTHER,,0,0,0,,0,,,,0,,,,0,0,0,0,,,,,,,,,,,,,,,,
