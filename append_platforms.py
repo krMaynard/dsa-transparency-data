@@ -18,6 +18,8 @@ Output: ../krMaynard.github.io/data/vlop-dsa.json (in place)
 """
 
 import json
+import os
+import sys
 from datetime import date
 
 import convert
@@ -26,6 +28,11 @@ OUT_FILE = convert.OUT_FILE
 
 
 def main():
+    if not OUT_FILE.exists():
+        print(f"Error: {OUT_FILE} does not exist. Run convert.py first to create it.",
+              file=sys.stderr)
+        sys.exit(1)
+
     with open(OUT_FILE) as f:
         data = json.load(f)
 
@@ -65,14 +72,19 @@ def main():
 
     # Backfill category labels for any category codes newly introduced by the
     # appended services, sourcing descriptions from their 2_categories_names.csv.
-    labels = data["category_labels"]
+    labels = data.get("category_labels", {})
     missing = [c for c in convert.categories if c not in labels]
     if missing:
         for _, dirname in added:
             path = convert.REPORTS_DIR / dirname / "2_categories_names.csv"
             if not path.exists():
                 continue
-            for row in convert.read_csv(path):
+            try:
+                rows = convert.read_csv(path)
+            except Exception as e:
+                print(f"  WARNING: failed to read {path}: {e}")
+                continue
+            for row in rows:
                 code = (convert.get(row, "Category of illegal content / incompatible with the terms and conditions") or "").strip()
                 desc = (convert.get(row, "Category description") or "").strip()
                 if code in missing and desc and code not in labels:
@@ -100,8 +112,17 @@ def main():
         "t7": convert.t7_rows,
     }
 
-    with open(OUT_FILE, "w") as f:
-        json.dump(out, f, separators=(",", ":"))
+    # Atomic write: serialize to a temp file in the same directory, then replace,
+    # so an interrupted run can't corrupt the existing JSON.
+    tmp = OUT_FILE.with_suffix(".tmp")
+    try:
+        with open(tmp, "w") as f:
+            json.dump(out, f, separators=(",", ":"))
+        os.replace(tmp, OUT_FILE)
+    except Exception:
+        if tmp.exists():
+            tmp.unlink()
+        raise
 
     print(f"\nAppended {len(added)} service(s): {[a[0] for a in added]}")
     print(f"Written to {OUT_FILE}")
