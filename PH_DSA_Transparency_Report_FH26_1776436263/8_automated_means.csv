@@ -1,0 +1,35 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,1407.0,"Whilst automated tools assist in screening for, and detecting illegal material, uploaded images and videos cannot be published without being reviewed and approved by our trained staff of moderators. This acts as a quality control mechanism and safeguard for the automated systems"
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,198176.0,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.9796,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,0.0,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,183568.0,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,,
+All,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,
+"Only for providers of hosting services, including online platforms",Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,,
+"Only for providers of hosting services, including online platforms",Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,13188.0,
+"Only for providers of hosting services, including online platforms",Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
+"Only for providers of hosting services, including online platforms",Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
+"Only for providers of hosting services, including online platforms",Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
+Only for providers of online platforms,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,0.0,
+Only for providers of online platforms,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,4.0,
+Only for providers of online platforms,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
+Only for providers of online platforms,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
+Only for providers of online platforms,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,0.0,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,198176.0,The accuracy of content moderation is largely unaffected by Member State language due to our extensive use of automated tools and human moderation. Internal statistics show no significant differences between languages. Offenses are largely language independent
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,SafeGuard,0.963,"Safeguard is Pornhub’s proprietary image recognition technology designed with the purpose of combatting both child sexual abuse imagery and non-consensual content, by preventing the re-uploading of previously fingerprinted content to our platform."
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,SafeGuard,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,SafeGuard,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Safer,0.9556,"Thorn’s Safer product scans images, videos, and related data using machine‑learning models to automatically detect and classify likely child sexual abuse material (CSAM) at scale."
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Safer,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Safer,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,PhotoDNA,1.0,Microsoft’s technology that aids in finding and removing known images of child exploitation.
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,PhotoDNA,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,PhotoDNA,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NCII,1.0,"StopNCII.org: A global initiative (developed by Meta & SWGfL) that prevents the spread of non-consensual intimate images (NCII) online. If any adult (18+) is concerned about their intimate images (or videos) being shared online without consent, they can create a digital fingerprint of their own material and prevent it from being shared across participating platforms. "
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NCII,,
+Only for VLOPs,Pornhub,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NCII,,

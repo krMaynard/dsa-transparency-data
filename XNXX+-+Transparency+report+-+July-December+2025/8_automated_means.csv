@@ -1,0 +1,283 @@
+Applicability,Service,"Reporting period",Section,Indicator,Scope,Value,"Contextual Information"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number",185333,
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number",10233,
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.3671,"Vercucy (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.3179,"Vercucy (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.1093,"Vercucy (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.3471,"Safer (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.7143,"Safer (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.0199,"Safer (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.3682,"GoogleSafety (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.1667,"GoogleSafety (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.0139,"GoogleSafety (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0,"GoogleSafety (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0,"GoogleSafety (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0,"GoogleSafety (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.2552,"Hive (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.116,"Hive (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.0112,"Hive (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0,"Hive (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0,"Hive (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0,"Hive (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means",Own-initiative,185333,
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means",Own-initiative,3914,
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.3671,"Vercucy (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.3179,"Vercucy (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.1093,"Vercucy (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.3471,"Safer (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.7143,"Safer (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.0199,"Safer (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.3682,"GoogleSafety (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.1667,"GoogleSafety (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.0139,"GoogleSafety (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0,"GoogleSafety (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0,"GoogleSafety (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0,"GoogleSafety (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.2552,"Hive (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.116,"Hive (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.0112,"Hive (videos)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0,"Hive (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0,"Hive (images)"
+All,XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0,"Hive (images)"
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","NAM Total",0,
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","NAM Total",6319,
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","NAM Total",,"Not applicable"
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","NAM Total",,"Not applicable"
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","NAM Total",,"Not applicable"
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","NAM Trusted Flagger",0,
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","NAM Trusted Flagger",0,
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","NAM Total",,"Not applicable"
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","NAM Total",,"Not applicable"
+"Only for providers of hosting services, including online platforms",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","NAM Total",,"Not applicable"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: en",47480,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: de",7900,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: pl",3201,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: lt",202,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: cs",81,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: es",13337,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: fr",11214,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: hu",2455,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: ga",3,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: it",19457,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: ro",2434,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: sk",186,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: pt",7145,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: nl",885,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: el",948,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: bg",137,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: sv",561,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: mt",1,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: sl",252,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: da",206,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: hr",889,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: et",219,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: lv",84,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: fi",203,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: es",428,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: en",3221,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: fr",501,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: it",249,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: de",274,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: nl",72,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: ro",97,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: cs",46,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: pl",168,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: sv",30,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: pt",108,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: hu",59,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: hr",17,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: bg",17,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: et",13,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: ga",6,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: sl",5,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: da",11,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: fi",11,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: mt",5,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: el",10,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: sk",13,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: lv",3,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: lt",3,
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0.3667,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.593,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0.5,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.5252,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0.5417,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.3955,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.3506,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0.2857,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.5556,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.3718,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ga,0.4,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hr,0.5294,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.4808,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.3489,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lt,0.1667,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0.25,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",mt,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.302,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.4424,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.3636,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.4269,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sk,0.2273,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0.4286,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.4247,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0.5,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.233,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0.6667,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0.3333,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ga,1,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hr,1,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",it,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pt,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0.3333,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.1165,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0.75,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0.2,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ga,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,1,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"Vercucy (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0.3448,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.5581,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0.5,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.5095,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0.5417,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.3779,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.328,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0.2857,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.5556,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.3526,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ga,0.2,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hr,0.4242,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.4608,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.3274,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lt,0.1667,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0.1667,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",mt,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.2886,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.4239,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.3441,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.3918,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sk,0.2273,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0.4286,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.411,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.9091,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.0485,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"Safer (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0.3667,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.5765,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0.5,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.53,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0.5417,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.3999,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.3486,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0.2857,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.5556,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.3707,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ga,0.2,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hr,0.5172,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.4848,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.3472,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lt,0.1667,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0.25,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",mt,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.3125,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.4412,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.3611,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.4311,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sk,0.2273,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0.4286,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.4306,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",cs,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.1875,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",lt,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.0146,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"GoogleSafety (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.3333,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.4,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.1429,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,1,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,1,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",bg,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",cs,0.3333,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",da,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",el,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.102,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0.0213,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ga,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",it,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",mt,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",nl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pt,0.3333,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ro,0.5,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sk,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sv,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",cs,0.025,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",da,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",el,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.0121,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",et,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fi,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0.0022,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ga,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lv,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",mt,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",nl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pt,0.01,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0.0235,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sl,0,"Hive (videos)"
+"Only for VLOPs",XNXX.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sv,0,"Hive (videos)"
