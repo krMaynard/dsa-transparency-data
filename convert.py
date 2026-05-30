@@ -47,6 +47,11 @@ SERVICE_DEFS = [
     {"name": "Zalando",          "dir":  "zalando",                "platform": "Zalando"},
     {"name": "Temu",             "dir":  "temu",                   "platform": "Temu"},
     {"name": "Snapchat",         "dir":  "snapchat",               "platform": "Snap"},
+    # Adult-content VLOPs (designated Dec 2023 / Jul 2024). Stripchat was de-designated
+    # in 2025 and is intentionally excluded.
+    {"name": "Pornhub",          "dir":  "PH_DSA_Transparency_Report_FH26_1776436263", "platform": "Aylo"},
+    {"name": "XVideos",          "dir":  "XVideos+-+Transparency+report+-+July-December+2025", "platform": "WebGroup Czech Republic"},
+    {"name": "XNXX",             "dir":  "XNXX+-+Transparency+report+-+July-December+2025",     "platform": "NKL Associates"},
 ]
 
 services = []
