@@ -63,7 +63,7 @@ def main():
     def rebuild(table_key, table_n, reprocess):
         existing = data[table_key]
         out = []
-        convert.__dict__[f"t{table_n}_rows"] = out
+        setattr(convert, f"t{table_n}_rows", out)
         # Reprocess surfaced services first (keeps the Google block at the front,
         # matching the original service-ordered layout).
         for idx in sorted(surfaced):

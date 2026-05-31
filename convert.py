@@ -315,7 +315,10 @@ def build_category_labels():
     return labels
 
 
-def process_service_from_dir(svc_idx, d, surfaced=False):
+def process_service_from_dir(svc_idx, d):
+    svc_name = services[svc_idx]
+    svc_def = next((s for s in SERVICE_DEFS if s["name"] == svc_name), {})
+    surfaced = svc_def.get("surfaces", False)
     for path, _ in table_files(d, 3):
         process_t3(svc_idx, read_csv(path))
 
@@ -371,7 +374,7 @@ def main():
             svc_idx = intern(services, svc_name)
             if len(service_platforms) <= svc_idx:
                 service_platforms.append(platform)
-            process_service_from_dir(svc_idx, d, surfaced=svc_def.get("surfaces", False))
+            process_service_from_dir(svc_idx, d)
 
         elif "xlsx" in svc_def:
             xlsx_path = REPORTS_DIR / svc_def["xlsx"]
