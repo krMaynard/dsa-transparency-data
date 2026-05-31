@@ -324,9 +324,19 @@ def process_t8(svc_idx, rows, surface="All"):
 
 
 def process_t9(svc_idx, rows):
+    last_section = ""
+    last_indicator = ""
     for row in rows:
         section = str(get(row, "Section") or "").strip()
         indicator = str(get(row, "Indicator") or "").strip()
+        if section:
+            last_section = section
+        else:
+            section = last_section
+        if indicator:
+            last_indicator = indicator
+        else:
+            indicator = last_indicator
         scope_val = str(get(row, "Scope") or "").strip()
         value = parse_num(get(row, "Value"))
         if not section or not indicator or value is None:
