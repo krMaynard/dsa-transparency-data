@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Convert VLOP DSA report CSVs/xlsx (tables 3-7) to compact JSON for the krMaynard dashboard.
+Convert VLOP DSA report CSVs/xlsx (tables 3-8) to compact JSON for the krMaynard dashboard.
 Usage: python3 convert.py
 Output: ../krMaynard.github.io/data/vlop-dsa.json
 """
@@ -60,13 +60,14 @@ categories = []
 sections = []
 indicators = []
 scopes = []
-surfaces = ["All"]  # report surface/breakdown for t6/t7 rows; index 0 = no breakdown
+surfaces = ["All"]  # report surface/breakdown for t6/t7/t8 rows; index 0 = no breakdown
 
 t3_rows = []
 t4_rows = []
 t5_rows = []
 t6_rows = []
 t7_rows = []
+t8_rows = []
 
 
 def intern(lst, val):
@@ -79,7 +80,8 @@ def intern(lst, val):
 # (organic "Core", "Ads", and for Search a breakdown by action level). The
 # suffix on the filename identifies the surface.
 TABLE_STEM = {3: "member_states_orders", 4: "notices", 5: "own_initiative_illegal",
-              6: "own_initiative_TC", 7: "appeals_and_recidivism"}
+              6: "own_initiative_TC", 7: "appeals_and_recidivism",
+              8: "automated_means"}
 SURFACE_SUFFIX = {
     "_Ads": "Ads",
     "_Domain_Level_Actions": "Domain-level",
@@ -121,7 +123,7 @@ def table_files(d, n, surfaced=False):
             break
     if not matches:
         return []
-    if not surfaced or n not in (6, 7) or len(matches) == 1:
+    if not surfaced or n not in (6, 7, 8) or len(matches) == 1:
         return [(min(matches, key=lambda p: len(p.name)), "All")]
     return [(p, _surface_label(p, n)) for p in matches]
 
@@ -300,6 +302,20 @@ def process_t7(svc_idx, rows, surface="All"):
                          intern(surfaces, surface)])
 
 
+def process_t8(svc_idx, rows, surface="All"):
+    for row in rows:
+        section = str(get(row, "Section") or "").strip()
+        indicator = str(get(row, "Indicator") or "").strip()
+        scope_val = str(get(row, "Scope") or "").strip()
+        value = parse_num(get(row, "Value"))
+        if not section or not indicator or value is None:
+            continue
+        t8_rows.append([svc_idx, intern(sections, section),
+                         intern(indicators, indicator),
+                         intern(scopes, scope_val), value,
+                         intern(surfaces, surface)])
+
+
 def build_category_labels():
     google_maps_dir = next((s["dir"] for s in SERVICE_DEFS if "Google Maps" in s.get("name", "")), None)
     if not google_maps_dir:
@@ -337,6 +353,9 @@ def process_service_from_dir(svc_idx, d):
     for path, surface in table_files(d, 7, surfaced):
         process_t7(svc_idx, read_csv(path), surface=surface)
 
+    for path, surface in table_files(d, 8, surfaced):
+        process_t8(svc_idx, read_csv(path), surface=surface)
+
 
 def process_service_from_xls(svc_idx, xls_path):
     process_t3(svc_idx, read_xls_sheet(xls_path, "3_member_states_orders"))
@@ -347,6 +366,7 @@ def process_service_from_xls(svc_idx, xls_path):
                   "Category of incompatibility with the provider's terms and conditions",
                   t6_rows, surface="All")
     process_t7(svc_idx, read_xls_sheet(xls_path, "7_appeals_and_recidivism"))
+    process_t8(svc_idx, read_xls_sheet(xls_path, "8_automated_means"))
 
 
 def process_service_from_xlsx(svc_idx, xlsx_path):
@@ -358,6 +378,7 @@ def process_service_from_xlsx(svc_idx, xlsx_path):
                   "Category of incompatibility with the provider's terms and conditions",
                   t6_rows, surface="All")
     process_t7(svc_idx, read_xlsx_sheet(xlsx_path, "7_appeals_and_recidivism"))
+    process_t8(svc_idx, read_xlsx_sheet(xlsx_path, "8_automated_means"))
 
 
 def main():
@@ -416,6 +437,7 @@ def main():
         "t5": t5_rows,
         "t6": t6_rows,
         "t7": t7_rows,
+        "t8": t8_rows,
     }
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -430,6 +452,7 @@ def main():
     print(f"  t5 rows: {len(t5_rows)}")
     print(f"  t6 rows: {len(t6_rows)}")
     print(f"  t7 rows: {len(t7_rows)}")
+    print(f"  t8 rows: {len(t8_rows)}")
 
 
 if __name__ == "__main__":
