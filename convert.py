@@ -17,12 +17,12 @@ OUT_FILE = REPORTS_DIR.parent / "krMaynard.github.io" / "data" / "vlop-dsa.json"
 
 # Each entry has name, platform, and either dir (CSV directory) or xlsx (single xlsx file).
 SERVICE_DEFS = [
-    {"name": "Google Maps",      "dir":  "google/maps",            "platform": "Google"},
-    {"name": "Google Play",      "dir":  "google/play",            "platform": "Google"},
-    {"name": "Google Search",    "dir":  "google/search",          "platform": "Google"},
-    {"name": "Google Shopping",  "dir":  "google/shopping",        "platform": "Google"},
-    {"name": "Multi-Services",   "dir":  "google/multi-services",  "platform": "Google"},
-    {"name": "YouTube",          "dir":  "google/youtube",         "platform": "Google"},
+    {"name": "Google Maps",      "dir":  "google/maps",            "platform": "Google", "surfaces": True},
+    {"name": "Google Play",      "dir":  "google/play",            "platform": "Google", "surfaces": True},
+    {"name": "Google Search",    "dir":  "google/search",          "platform": "Google", "surfaces": True},
+    {"name": "Google Shopping",  "dir":  "google/shopping",        "platform": "Google", "surfaces": True},
+    {"name": "Multi-Services",   "dir":  "google/multi-services",  "platform": "Google", "surfaces": True},
+    {"name": "YouTube",          "dir":  "google/youtube",         "platform": "Google", "surfaces": True},
     {"name": "X",                "dir":  "x",                      "platform": "X"},
     {"name": "TikTok",           "dir":  "tiktok",                 "platform": "TikTok"},
     {"name": "Facebook",         "dir":  "meta/facebook",          "platform": "Meta"},
@@ -60,6 +60,7 @@ categories = []
 sections = []
 indicators = []
 scopes = []
+surfaces = ["All"]  # report surface/breakdown for t6/t7 rows; index 0 = no breakdown
 
 t3_rows = []
 t4_rows = []
@@ -74,13 +75,55 @@ def intern(lst, val):
     return lst.index(val)
 
 
-def find_table_file(d, n):
-    """Find table CSV using any of the naming conventions used across platforms."""
+# Google publishes tables 6/7 as several disjoint sub-reports per service
+# (organic "Core", "Ads", and for Search a breakdown by action level). The
+# suffix on the filename identifies the surface.
+TABLE_STEM = {3: "member_states_orders", 4: "notices", 5: "own_initiative_illegal",
+              6: "own_initiative_TC", 7: "appeals_and_recidivism"}
+SURFACE_SUFFIX = {
+    "_Ads": "Ads",
+    "_Domain_Level_Actions": "Domain-level",
+    "_Entity_Level_Actions": "Entity-level",
+    "_Host_Level_Actions": "Host-level",
+    "_Image_Level_Removals": "Image-level",
+    "_Partner_Feed_Domain_Lvl_Action": "Partner feed (domain)",
+    "_Partner_Feed_Item_Level_Action": "Partner feed (item)",
+    "_Profile_Level_Suspensions": "Profile-level",
+    "_Review_Level_Actions": "Review-level",
+    "_URL_Level_Removals": "URL-level",
+}
+
+
+def _surface_label(path, n):
+    rest = path.stem
+    prefix = f"{n}_"
+    if rest.startswith(prefix):
+        rest = rest[len(prefix):]
+    stem = TABLE_STEM.get(n, "")
+    if rest == stem:
+        return "Core"
+    suffix = rest[len(stem):] if rest.startswith(stem) else "_" + rest
+    return SURFACE_SUFFIX.get(suffix, suffix.strip("_").replace("_", " ") or "Core")
+
+
+def table_files(d, n, surfaced=False):
+    """Return [(path, surface_label), ...] for table `n`.
+
+    Non-surfaced tables (everything except Google t6/t7) resolve to a single
+    canonical file labelled "All"; if several variants exist (e.g. Amazon's
+    `_version2`), the shortest filename wins, deterministically. Surfaced
+    tables with multiple sub-reports return one entry per surface.
+    """
+    matches = []
     for pattern in [f"{n}_*.csv", f"*- {n}_*.csv", f"*{n}. *.csv"]:
-        matches = list(d.glob(pattern))
+        matches = sorted(d.glob(pattern))
         if matches:
-            return matches[0]
-    return None
+            break
+    if not matches:
+        return []
+    if not surfaced or n not in (6, 7) or len(matches) == 1:
+        return [(min(matches, key=lambda p: len(p.name)), "All")]
+    return [(p, _surface_label(p, n)) for p in matches]
 
 
 def parse_num(val):
@@ -206,7 +249,7 @@ def process_t4(svc_idx, rows):
                          act_law, tf_act_law, act_tc, tf_act_tc])
 
 
-def process_t5_t6(svc_idx, rows, cat_key, out_rows):
+def process_t5_t6(svc_idx, rows, cat_key, out_rows, surface=None):
     for row in rows:
         cat = str(get(row, cat_key) or "").strip()
         if not cat:
@@ -232,15 +275,18 @@ def process_t5_t6(svc_idx, rows, cat_key, out_rows):
                 acc_susp, acc_term]
         if not any_numeric(nums):
             continue
-        out_rows.append([svc_idx, intern(categories, cat),
-                          measures, automated,
-                          removal, disable, demoted, age_restr, interaction, labelled, vis_other,
-                          mon_susp, mon_term, mon_other,
-                          svc_susp, svc_term,
-                          acc_susp, acc_term])
+        out = [svc_idx, intern(categories, cat),
+               measures, automated,
+               removal, disable, demoted, age_restr, interaction, labelled, vis_other,
+               mon_susp, mon_term, mon_other,
+               svc_susp, svc_term,
+               acc_susp, acc_term]
+        if surface is not None:
+            out.append(intern(surfaces, surface))
+        out_rows.append(out)
 
 
-def process_t7(svc_idx, rows):
+def process_t7(svc_idx, rows, surface="All"):
     for row in rows:
         section = str(get(row, "Section") or "").strip()
         indicator = str(get(row, "Indicator") or "").strip()
@@ -250,7 +296,8 @@ def process_t7(svc_idx, rows):
             continue
         t7_rows.append([svc_idx, intern(sections, section),
                          intern(indicators, indicator),
-                         intern(scopes, scope_val), value])
+                         intern(scopes, scope_val), value,
+                         intern(surfaces, surface)])
 
 
 def build_category_labels():
@@ -269,28 +316,26 @@ def build_category_labels():
 
 
 def process_service_from_dir(svc_idx, d):
-    t3 = find_table_file(d, 3)
-    if t3:
-        process_t3(svc_idx, read_csv(t3))
+    svc_name = services[svc_idx]
+    svc_def = next((s for s in SERVICE_DEFS if s["name"] == svc_name), {})
+    surfaced = svc_def.get("surfaces", False)
+    for path, _ in table_files(d, 3):
+        process_t3(svc_idx, read_csv(path))
 
-    t4 = find_table_file(d, 4)
-    if t4:
-        process_t4(svc_idx, read_csv(t4))
+    for path, _ in table_files(d, 4):
+        process_t4(svc_idx, read_csv(path))
 
-    t5 = find_table_file(d, 5)
-    if t5:
-        process_t5_t6(svc_idx, read_csv(t5),
+    for path, _ in table_files(d, 5):
+        process_t5_t6(svc_idx, read_csv(path),
                        "Category of illegal content", t5_rows)
 
-    t6 = find_table_file(d, 6)
-    if t6:
-        process_t5_t6(svc_idx, read_csv(t6),
+    for path, surface in table_files(d, 6, surfaced):
+        process_t5_t6(svc_idx, read_csv(path),
                        "Category of incompatibility with the provider's terms and conditions",
-                       t6_rows)
+                       t6_rows, surface=surface)
 
-    t7 = find_table_file(d, 7)
-    if t7:
-        process_t7(svc_idx, read_csv(t7))
+    for path, surface in table_files(d, 7, surfaced):
+        process_t7(svc_idx, read_csv(path), surface=surface)
 
 
 def process_service_from_xls(svc_idx, xls_path):
@@ -300,7 +345,7 @@ def process_service_from_xls(svc_idx, xls_path):
                   "Category of illegal content", t5_rows)
     process_t5_t6(svc_idx, read_xls_sheet(xls_path, "6_own_initiative_TC"),
                   "Category of incompatibility with the provider's terms and conditions",
-                  t6_rows)
+                  t6_rows, surface="All")
     process_t7(svc_idx, read_xls_sheet(xls_path, "7_appeals_and_recidivism"))
 
 
@@ -311,7 +356,7 @@ def process_service_from_xlsx(svc_idx, xlsx_path):
                   "Category of illegal content", t5_rows)
     process_t5_t6(svc_idx, read_xlsx_sheet(xlsx_path, "6_own_initiative_TC"),
                   "Category of incompatibility with the provider's terms and conditions",
-                  t6_rows)
+                  t6_rows, surface="All")
     process_t7(svc_idx, read_xlsx_sheet(xlsx_path, "7_appeals_and_recidivism"))
 
 
@@ -365,6 +410,7 @@ def main():
         "sections": sections,
         "indicators": indicators,
         "scopes": scopes,
+        "surfaces": surfaces,
         "t3": t3_rows,
         "t4": t4_rows,
         "t5": t5_rows,

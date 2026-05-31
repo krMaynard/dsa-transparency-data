@@ -76,12 +76,22 @@ python3 convert.py
 
 Requires `openpyxl` and `xlrd`.
 
+**Surfaces.** Google reports tables 6 & 7 as several disjoint sub-reports per service (organic "Core", "Ads", and for Search a breakdown by action level — URL-, domain-, host-level, etc.). Those services are flagged `"surfaces": True` in `SERVICE_DEFS`; the converter emits one row per surface, tagged with a trailing surface index (`surfaces` lookup, index 0 = "All" = no breakdown). Every other service resolves to a single canonical file (the shortest filename, so e.g. Amazon's `_version2` variant is ignored deterministically).
+
 ### append_platforms.py
 
 `append_platforms.py` incrementally appends any `SERVICE_DEFS` entries that are not yet present to an **existing** `vlop-dsa.json`, leaving the services already in the file untouched. It reuses `convert.py`'s table parsers. Use this when you want to add new services without regenerating (and potentially perturbing) the existing ones — the committed JSON predates this archive and a full `convert.py` rebuild does not reproduce it exactly for the Google services.
 
 ```
 python3 append_platforms.py
+```
+
+### add_surfaces.py
+
+`add_surfaces.py` retro-fits the surface dimension onto an **existing** `vlop-dsa.json`: it tags every t6/t7 row with a surface index and replaces each surfaced (Google) service's t6/t7 rows with the full set parsed from every sub-report, leaving tables 3–5, non-Google rows, and the existing index ordering untouched. Used to add surfaces without the full re-intern/reorder a clean `convert.py` rebuild would cause.
+
+```
+python3 add_surfaces.py
 ```
 
 ## Source
