@@ -307,7 +307,13 @@ def process_t8(svc_idx, rows, surface="All"):
         section = str(get(row, "Section") or "").strip()
         indicator = str(get(row, "Indicator") or "").strip()
         scope_val = str(get(row, "Scope") or "").strip()
-        value = parse_num(get(row, "Value"))
+        raw_val = get(row, "Value")
+        value = parse_num(raw_val)
+        if value is None and isinstance(raw_val, str) and " - " in raw_val:
+            parts = raw_val.split(" - ", 1)
+            v1, v2 = parse_num(parts[0].strip()), parse_num(parts[1].strip())
+            if v1 is not None and v2 is not None:
+                value = (v1 + v2) / 2
         if not section or not indicator or value is None:
             continue
         t8_rows.append([svc_idx, intern(sections, section),
