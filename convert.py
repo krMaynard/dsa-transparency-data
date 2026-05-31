@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Convert VLOP DSA report CSVs/xlsx (tables 3-8) to compact JSON for the krMaynard dashboard.
+Convert VLOP DSA report CSVs/xlsx (tables 3-9) to compact JSON for the krMaynard dashboard.
 Usage: python3 convert.py
 Output: ../krMaynard.github.io/data/vlop-dsa.json
 """
@@ -68,6 +68,7 @@ t5_rows = []
 t6_rows = []
 t7_rows = []
 t8_rows = []
+t9_rows = []
 
 
 def intern(lst, val):
@@ -81,7 +82,7 @@ def intern(lst, val):
 # suffix on the filename identifies the surface.
 TABLE_STEM = {3: "member_states_orders", 4: "notices", 5: "own_initiative_illegal",
               6: "own_initiative_TC", 7: "appeals_and_recidivism",
-              8: "automated_means"}
+              8: "automated_means", 9: "human_resources"}
 SURFACE_SUFFIX = {
     "_Ads": "Ads",
     "_Domain_Level_Actions": "Domain-level",
@@ -322,6 +323,19 @@ def process_t8(svc_idx, rows, surface="All"):
                          intern(surfaces, surface)])
 
 
+def process_t9(svc_idx, rows):
+    for row in rows:
+        section = str(get(row, "Section") or "").strip()
+        indicator = str(get(row, "Indicator") or "").strip()
+        scope_val = str(get(row, "Scope") or "").strip()
+        value = parse_num(get(row, "Value"))
+        if not section or not indicator or value is None:
+            continue
+        t9_rows.append([svc_idx, intern(sections, section),
+                         intern(indicators, indicator),
+                         intern(scopes, scope_val), value])
+
+
 def build_category_labels():
     google_maps_dir = next((s["dir"] for s in SERVICE_DEFS if "Google Maps" in s.get("name", "")), None)
     if not google_maps_dir:
@@ -362,6 +376,9 @@ def process_service_from_dir(svc_idx, d):
     for path, surface in table_files(d, 8, surfaced):
         process_t8(svc_idx, read_csv(path), surface=surface)
 
+    for path, _ in table_files(d, 9):
+        process_t9(svc_idx, read_csv(path))
+
 
 def process_service_from_xls(svc_idx, xls_path):
     process_t3(svc_idx, read_xls_sheet(xls_path, "3_member_states_orders"))
@@ -373,6 +390,7 @@ def process_service_from_xls(svc_idx, xls_path):
                   t6_rows, surface="All")
     process_t7(svc_idx, read_xls_sheet(xls_path, "7_appeals_and_recidivism"))
     process_t8(svc_idx, read_xls_sheet(xls_path, "8_automated_means"))
+    process_t9(svc_idx, read_xls_sheet(xls_path, "9_human_resources"))
 
 
 def process_service_from_xlsx(svc_idx, xlsx_path):
@@ -385,6 +403,7 @@ def process_service_from_xlsx(svc_idx, xlsx_path):
                   t6_rows, surface="All")
     process_t7(svc_idx, read_xlsx_sheet(xlsx_path, "7_appeals_and_recidivism"))
     process_t8(svc_idx, read_xlsx_sheet(xlsx_path, "8_automated_means"))
+    process_t9(svc_idx, read_xlsx_sheet(xlsx_path, "9_human_resources"))
 
 
 def main():
@@ -444,6 +463,7 @@ def main():
         "t6": t6_rows,
         "t7": t7_rows,
         "t8": t8_rows,
+        "t9": t9_rows,
     }
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -459,6 +479,7 @@ def main():
     print(f"  t6 rows: {len(t6_rows)}")
     print(f"  t7 rows: {len(t7_rows)}")
     print(f"  t8 rows: {len(t8_rows)}")
+    print(f"  t9 rows: {len(t9_rows)}")
 
 
 if __name__ == "__main__":
