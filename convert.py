@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-Convert VLOP DSA report CSVs/xlsx (tables 3-9) to compact JSON for the krMaynard dashboard.
+Convert VLOP DSA report CSVs/xlsx (tables 3-10) to compact JSON for the krMaynard dashboard.
 Usage: python3 convert.py
 Output: ../krMaynard.github.io/data/vlop-dsa.json
 """
 
 import csv
 import json
+import re
 from pathlib import Path
 
 import openpyxl
@@ -69,6 +70,7 @@ t6_rows = []
 t7_rows = []
 t8_rows = []
 t9_rows = []
+t10_rows = []
 
 
 def intern(lst, val):
@@ -82,7 +84,7 @@ def intern(lst, val):
 # suffix on the filename identifies the surface.
 TABLE_STEM = {3: "member_states_orders", 4: "notices", 5: "own_initiative_illegal",
               6: "own_initiative_TC", 7: "appeals_and_recidivism",
-              8: "automated_means", 9: "human_resources"}
+              8: "automated_means", 9: "human_resources", 10: "AMAR"}
 SURFACE_SUFFIX = {
     "_Ads": "Ads",
     "_Domain_Level_Actions": "Domain-level",
@@ -346,6 +348,84 @@ def process_t9(svc_idx, rows):
                          intern(scopes, scope_val), value])
 
 
+def parse_amar_val(raw):
+    """Parse an AMAR value that may use M-suffix, range, or "> X" notation.
+
+    The < 1000 → ×1e6 heuristic (for platforms like Booking.com that report
+    in millions without an explicit suffix) is applied *only* when the value
+    is derived from a range ("X - Y") or inequality ("> X") — not for bare
+    numbers, which may be genuine small counts (e.g. Zalando's LU=9).
+
+    Also handles European dot-thousands separators (e.g. Zalando "35.852.803").
+    """
+    if raw is None:
+        return None
+    s = str(raw).strip()
+    if not s:
+        return None
+
+    def parse_bound(val_str, scale_if_small=False):
+        val_str = val_str.strip()
+        if not val_str:
+            return None
+        multiplier = 1
+        upper = val_str.upper()
+        if upper.endswith('M'):
+            multiplier = 1_000_000
+            val_str = val_str[:-1].strip()
+        elif upper.endswith('B'):
+            multiplier = 1_000_000_000
+            val_str = val_str[:-1].strip()
+        elif upper.endswith('K'):
+            multiplier = 1_000
+            val_str = val_str[:-1].strip()
+        num = parse_num(val_str)
+        # European dot-thousands separator: "35.852.803" → 35852803
+        if num is None and re.match(r'^\d{1,3}(\.\d{3})+$', val_str):
+            num = parse_num(val_str.replace('.', ''))
+        if num is None:
+            return None
+        val = num * multiplier
+        if scale_if_small and 0 < val < 1000:
+            val *= 1_000_000
+        return val
+
+    def finish(value):
+        if value is None:
+            return None
+        rounded = round(value)
+        return rounded if abs(rounded - value) < 1 else value
+
+    # "> X" or "< X" — strip inequality; apply scale heuristic (value is in millions)
+    if s.startswith('>') or s.startswith('<'):
+        return finish(parse_bound(s[1:].strip(), scale_if_small=True))
+
+    # Range with possibly irregular spacing around '-': "X - Y", "X- Y", "X -Y"
+    if '-' in s and not s.startswith('-'):
+        parts = s.split('-', 1)
+        if len(parts) == 2:
+            v1 = parse_bound(parts[0], scale_if_small=True)
+            v2 = parse_bound(parts[1], scale_if_small=True)
+            if v1 is not None and v2 is not None:
+                return finish((v1 + v2) / 2)
+            return finish(v1 if v1 is not None else v2)
+
+    # Bare value — no scale heuristic (genuine small counts must not be inflated)
+    return finish(parse_bound(s, scale_if_small=False))
+
+
+def process_t10(svc_idx, rows):
+    # t10 row: [svcIdx, scopeIdx, value]
+    for row in rows:
+        scope_val = str(get(row, "Scope") or "").strip()
+        if not scope_val:
+            continue
+        value = parse_amar_val(get(row, "Value"))
+        if value is None:
+            continue
+        t10_rows.append([svc_idx, intern(scopes, scope_val), value])
+
+
 def build_category_labels():
     google_maps_dir = next((s["dir"] for s in SERVICE_DEFS if "Google Maps" in s.get("name", "")), None)
     if not google_maps_dir:
@@ -389,6 +469,9 @@ def process_service_from_dir(svc_idx, d):
     for path, _ in table_files(d, 9):
         process_t9(svc_idx, read_csv(path))
 
+    for path, _ in table_files(d, 10):
+        process_t10(svc_idx, read_csv(path))
+
 
 def process_service_from_xls(svc_idx, xls_path):
     process_t3(svc_idx, read_xls_sheet(xls_path, "3_member_states_orders"))
@@ -401,6 +484,7 @@ def process_service_from_xls(svc_idx, xls_path):
     process_t7(svc_idx, read_xls_sheet(xls_path, "7_appeals_and_recidivism"))
     process_t8(svc_idx, read_xls_sheet(xls_path, "8_automated_means"))
     process_t9(svc_idx, read_xls_sheet(xls_path, "9_human_resources"))
+    process_t10(svc_idx, read_xls_sheet(xls_path, "10_AMAR"))
 
 
 def process_service_from_xlsx(svc_idx, xlsx_path):
@@ -414,6 +498,7 @@ def process_service_from_xlsx(svc_idx, xlsx_path):
     process_t7(svc_idx, read_xlsx_sheet(xlsx_path, "7_appeals_and_recidivism"))
     process_t8(svc_idx, read_xlsx_sheet(xlsx_path, "8_automated_means"))
     process_t9(svc_idx, read_xlsx_sheet(xlsx_path, "9_human_resources"))
+    process_t10(svc_idx, read_xlsx_sheet(xlsx_path, "10_AMAR"))
 
 
 def main():
@@ -474,6 +559,7 @@ def main():
         "t7": t7_rows,
         "t8": t8_rows,
         "t9": t9_rows,
+        "t10": t10_rows,
     }
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -490,6 +576,7 @@ def main():
     print(f"  t7 rows: {len(t7_rows)}")
     print(f"  t8 rows: {len(t8_rows)}")
     print(f"  t9 rows: {len(t9_rows)}")
+    print(f"  t10 rows: {len(t10_rows)}")
 
 
 if __name__ == "__main__":
