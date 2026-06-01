@@ -7,6 +7,7 @@ Output: ../krMaynard.github.io/data/vlop-dsa.json
 
 import csv
 import json
+import re
 from pathlib import Path
 
 import openpyxl
@@ -348,12 +349,14 @@ def process_t9(svc_idx, rows):
 
 
 def parse_amar_val(raw):
-    """Parse an AMAR value that may use M-suffix or range notation.
+    """Parse an AMAR value that may use M-suffix, range, or "> X" notation.
 
-    Some platforms report values in millions (e.g. Temu's '129.7M', '2.3M').
-    Others use "> X" or "X - Y" ranges (e.g. Booking.com).  After stripping
-    known notation, values that remain below 1000 are assumed to be in
-    millions and are multiplied by 1e6.
+    The < 1000 → ×1e6 heuristic (for platforms like Booking.com that report
+    in millions without an explicit suffix) is applied *only* when the value
+    is derived from a range ("X - Y") or inequality ("> X") — not for bare
+    numbers, which may be genuine small counts (e.g. Zalando's LU=9).
+
+    Also handles European dot-thousands separators (e.g. Zalando "35.852.803").
     """
     if raw is None:
         return None
@@ -361,53 +364,54 @@ def parse_amar_val(raw):
     if not s:
         return None
 
-    # Multiplier suffix (M = millions, B = billions, K = thousands)
-    multiplier = 1
-    upper = s.upper()
-    if upper.endswith('M'):
-        multiplier = 1_000_000
-        s = s[:-1].strip()
-    elif upper.endswith('B'):
-        multiplier = 1_000_000_000
-        s = s[:-1].strip()
-    elif upper.endswith('K'):
-        multiplier = 1_000
-        s = s[:-1].strip()
-
-    # "> X" or "< X" — keep the number, discard the inequality
-    if s.startswith('>') or s.startswith('<'):
-        s = s[1:].strip()
-
-    # "X - Y" range — average the bounds (each bound may carry a multiplier suffix handled above)
-    if ' - ' in s:
-        parts = s.split(' - ', 1)
-        v1 = parse_num(parts[0].strip())
-        v2 = parse_num(parts[1].strip())
-        if v1 is not None and v2 is not None:
-            value = (v1 + v2) / 2
-        elif v1 is not None:
-            value = v1
-        elif v2 is not None:
-            value = v2
-        else:
+    def parse_bound(val_str, scale_if_small=False):
+        val_str = val_str.strip()
+        if not val_str:
             return None
-    else:
-        value = parse_num(s)
+        multiplier = 1
+        upper = val_str.upper()
+        if upper.endswith('M'):
+            multiplier = 1_000_000
+            val_str = val_str[:-1].strip()
+        elif upper.endswith('B'):
+            multiplier = 1_000_000_000
+            val_str = val_str[:-1].strip()
+        elif upper.endswith('K'):
+            multiplier = 1_000
+            val_str = val_str[:-1].strip()
+        num = parse_num(val_str)
+        # European dot-thousands separator: "35.852.803" → 35852803
+        if num is None and re.match(r'^\d{1,3}(\.\d{3})+$', val_str):
+            num = parse_num(val_str.replace('.', ''))
+        if num is None:
+            return None
+        val = num * multiplier
+        if scale_if_small and 0 < val < 1000:
+            val *= 1_000_000
+        return val
 
-    if value is None:
-        return None
+    def finish(value):
+        if value is None:
+            return None
+        rounded = round(value)
+        return rounded if abs(rounded - value) < 1 else value
 
-    value = value * multiplier
+    # "> X" or "< X" — strip inequality; apply scale heuristic (value is in millions)
+    if s.startswith('>') or s.startswith('<'):
+        return finish(parse_bound(s[1:].strip(), scale_if_small=True))
 
-    # Heuristic: if an AMAR value is tiny (< 1000 recipients) but non-zero,
-    # the platform likely reported in millions without an explicit suffix
-    # (e.g. Booking.com "2.2 - 2.7" means 2.2–2.7 million).
-    if 0 < value < 1000:
-        value = value * 1_000_000
+    # Range with possibly irregular spacing around '-': "X - Y", "X- Y", "X -Y"
+    if '-' in s and not s.startswith('-'):
+        parts = s.split('-', 1)
+        if len(parts) == 2:
+            v1 = parse_bound(parts[0], scale_if_small=True)
+            v2 = parse_bound(parts[1], scale_if_small=True)
+            if v1 is not None and v2 is not None:
+                return finish((v1 + v2) / 2)
+            return finish(v1 if v1 is not None else v2)
 
-    # Round to nearest integer when within floating-point noise of a whole number
-    rounded = round(value)
-    return rounded if abs(rounded - value) < 1 else value
+    # Bare value — no scale heuristic (genuine small counts must not be inflated)
+    return finish(parse_bound(s, scale_if_small=False))
 
 
 def process_t10(svc_idx, rows):
