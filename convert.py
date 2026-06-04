@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Convert VLOP DSA report CSVs/xlsx (tables 3-10) to compact JSON for the krMaynard dashboard.
+Convert VLOP DSA report CSVs/xlsx (tables 3-11) to compact JSON for the krMaynard dashboard.
 Usage: python3 convert.py
 Output: ../krMaynard.github.io/data/vlop-dsa.json
 """
@@ -71,6 +71,7 @@ t7_rows = []
 t8_rows = []
 t9_rows = []
 t10_rows = []
+t11_rows = []
 
 
 def intern(lst, val):
@@ -84,7 +85,8 @@ def intern(lst, val):
 # suffix on the filename identifies the surface.
 TABLE_STEM = {3: "member_states_orders", 4: "notices", 5: "own_initiative_illegal",
               6: "own_initiative_TC", 7: "appeals_and_recidivism",
-              8: "automated_means", 9: "human_resources", 10: "AMAR"}
+              8: "automated_means", 9: "human_resources", 10: "AMAR",
+              11: "qualitative"}
 SURFACE_SUFFIX = {
     "_Ads": "Ads",
     "_Domain_Level_Actions": "Domain-level",
@@ -379,10 +381,11 @@ def parse_amar_val(raw):
         elif upper.endswith('K'):
             multiplier = 1_000
             val_str = val_str[:-1].strip()
-        num = parse_num(val_str)
         # European dot-thousands separator: "35.852.803" → 35852803
-        if num is None and re.match(r'^\d{1,3}(\.\d{3})+$', val_str):
-            num = parse_num(val_str.replace('.', ''))
+        # Check before parse_num so "35.852" isn't silently kept as a float
+        if re.match(r'^\d{1,3}(\.\d{3})+$', val_str):
+            val_str = val_str.replace('.', '')
+        num = parse_num(val_str)
         if num is None:
             return None
         val = num * multiplier
@@ -408,7 +411,7 @@ def parse_amar_val(raw):
             v2 = parse_bound(parts[1], scale_if_small=True)
             if v1 is not None and v2 is not None:
                 return finish((v1 + v2) / 2)
-            return finish(v1 if v1 is not None else v2)
+            return None
 
     # Bare value — no scale heuristic (genuine small counts must not be inflated)
     return finish(parse_bound(s, scale_if_small=False))
@@ -424,6 +427,19 @@ def process_t10(svc_idx, rows):
         if value is None:
             continue
         t10_rows.append([svc_idx, intern(scopes, scope_val), value])
+
+
+def process_t11(svc_idx, rows):
+    # t11 row: [svcIdx, indicatorIdx, value]
+    for row in rows:
+        ind = str(get(row, "Indicator") or "").strip()
+        ind = ind.replace('’', "'").replace('‘', "'").replace('\xa0', ' ').rstrip()
+        if not ind:
+            continue
+        value = str(get(row, "Value") or "").strip()
+        if not value:
+            continue
+        t11_rows.append([svc_idx, intern(indicators, ind), value])
 
 
 def build_category_labels():
@@ -472,6 +488,9 @@ def process_service_from_dir(svc_idx, d):
     for path, _ in table_files(d, 10):
         process_t10(svc_idx, read_csv(path))
 
+    for path, _ in table_files(d, 11):
+        process_t11(svc_idx, read_csv(path))
+
 
 def process_service_from_xls(svc_idx, xls_path):
     process_t3(svc_idx, read_xls_sheet(xls_path, "3_member_states_orders"))
@@ -485,6 +504,7 @@ def process_service_from_xls(svc_idx, xls_path):
     process_t8(svc_idx, read_xls_sheet(xls_path, "8_automated_means"))
     process_t9(svc_idx, read_xls_sheet(xls_path, "9_human_resources"))
     process_t10(svc_idx, read_xls_sheet(xls_path, "10_AMAR"))
+    process_t11(svc_idx, read_xls_sheet(xls_path, "11_qualitative"))
 
 
 def process_service_from_xlsx(svc_idx, xlsx_path):
@@ -499,6 +519,7 @@ def process_service_from_xlsx(svc_idx, xlsx_path):
     process_t8(svc_idx, read_xlsx_sheet(xlsx_path, "8_automated_means"))
     process_t9(svc_idx, read_xlsx_sheet(xlsx_path, "9_human_resources"))
     process_t10(svc_idx, read_xlsx_sheet(xlsx_path, "10_AMAR"))
+    process_t11(svc_idx, read_xlsx_sheet(xlsx_path, "11_qualitative"))
 
 
 def main():
@@ -560,6 +581,7 @@ def main():
         "t8": t8_rows,
         "t9": t9_rows,
         "t10": t10_rows,
+        "t11": t11_rows,
     }
 
     OUT_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -577,6 +599,7 @@ def main():
     print(f"  t8 rows: {len(t8_rows)}")
     print(f"  t9 rows: {len(t9_rows)}")
     print(f"  t10 rows: {len(t10_rows)}")
+    print(f"  t11 rows: {len(t11_rows)}")
 
 
 if __name__ == "__main__":
