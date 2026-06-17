@@ -33,18 +33,16 @@ SERVICE_DEFS = [
     {"name": "Amazon",           "dir":  "amazon",                 "platform": "Amazon"},
     {"name": "LinkedIn",         "dir":  "microsoft/linkedin",     "platform": "Microsoft"},
     {"name": "Booking.com",      "dir":  "booking-com",            "platform": "Booking.com"},
+    # Apple's only designated VLOP is the App Store; its other products
+    # (Apple Books, iCloud Storage, Apple Podcasts) are not DSA-designated and
+    # are excluded from the dataset.
     {"name": "App Store",        "xlsx": "apple/app-store.xlsx",   "platform": "Apple"},
-    {"name": "Apple Books",      "xlsx": "apple/books.xlsx",       "platform": "Apple"},
-    {"name": "iCloud Storage",   "xlsx": "apple/icloud-storage.xlsx", "platform": "Apple"},
-    {"name": "Apple Podcasts",   "xlsx": "apple/podcasts.xlsx",    "platform": "Apple"},
     {"name": "Bing",             "xlsx": "microsoft/bing.xlsx",    "platform": "Microsoft"},
     {"name": "SHEIN",            "xlsx": "shein.xlsx",             "platform": "Shein"},
+    # Wikimedia's only designated VLOP is Wikipedia; the other wikis (Wikidata,
+    # Wikimedia Commons, Wikiversity, Wikivoyage, Wiktionary) are not
+    # DSA-designated and are excluded from the dataset.
     {"name": "Wikipedia",        "xls":  "wikimedia/wikipedia.xls", "platform": "Wikimedia"},
-    {"name": "Wikidata",         "xls":  "wikimedia/wikidata.xls",  "platform": "Wikimedia"},
-    {"name": "Wikimedia Commons","xls":  "wikimedia/commons.xls",   "platform": "Wikimedia"},
-    {"name": "Wikiversity",      "xls":  "wikimedia/wikiversity.xls", "platform": "Wikimedia"},
-    {"name": "Wikivoyage",       "xls":  "wikimedia/wikivoyage.xls", "platform": "Wikimedia"},
-    {"name": "Wiktionary",       "xls":  "wikimedia/wiktionary.xls", "platform": "Wikimedia"},
     {"name": "Zalando",          "dir":  "zalando",                "platform": "Zalando"},
     {"name": "Temu",             "dir":  "temu",                   "platform": "Temu"},
     {"name": "Snapchat",         "dir":  "snapchat",               "platform": "Snap"},
@@ -528,14 +526,20 @@ def main():
         platform = svc_def["platform"]
         print(f"Processing {svc_name}...")
 
+        # Register every service up front so its id is its fixed position in
+        # SERVICE_DEFS, independent of which sources happen to be present. A
+        # missing source then yields a service with no fact rows rather than
+        # compacting the ids of later services — which would silently misalign
+        # every fact row's service_id against the services array.
+        svc_idx = intern(services, svc_name)
+        if len(service_platforms) <= svc_idx:
+            service_platforms.append(platform)
+
         if "dir" in svc_def:
             d = REPORTS_DIR / svc_def["dir"]
             if not d.exists():
                 print(f"  WARNING: missing {d}")
                 continue
-            svc_idx = intern(services, svc_name)
-            if len(service_platforms) <= svc_idx:
-                service_platforms.append(platform)
             process_service_from_dir(svc_idx, d)
 
         elif "xlsx" in svc_def:
@@ -543,9 +547,6 @@ def main():
             if not xlsx_path.exists():
                 print(f"  WARNING: missing {xlsx_path}")
                 continue
-            svc_idx = intern(services, svc_name)
-            if len(service_platforms) <= svc_idx:
-                service_platforms.append(platform)
             process_service_from_xlsx(svc_idx, xlsx_path)
 
         elif "xls" in svc_def:
@@ -553,9 +554,6 @@ def main():
             if not xls_path.exists():
                 print(f"  WARNING: missing {xls_path}")
                 continue
-            svc_idx = intern(services, svc_name)
-            if len(service_platforms) <= svc_idx:
-                service_platforms.append(platform)
             process_service_from_xls(svc_idx, xls_path)
 
     category_labels = build_category_labels()
