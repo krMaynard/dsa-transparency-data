@@ -33,6 +33,12 @@ Confidence levels:
 No URLs were fabricated. Platforms for which no report could be located are listed
 under "Searched, not found" so the negative result is recorded too.
 
+The relational build (`build_reports_db.py` → `dsa_reports.db`/`.csv`) adds a
+**`harmonised_template`** dimension per platform — whether the report uses the EU
+machine-readable template (Reg. (EU) 2024/2835, Annex I): `yes`/`no`/`partial`/
+`unknown`, derived from the format column with curated VLOP overrides. See the
+repo README.
+
 ## Authoritative index / aggregator sources
 
 The best starting points for finding more report locations:
@@ -250,6 +256,42 @@ VLOP in May 2025 but still publishes.)
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
 | Stripchat | Technius Ltd. (Cyprus) | [Jun 2025](https://support.stripchat.com/hc/en-us/articles/36391881823249-DSA-TRANSPARENCY-REPORT-JUNE-2025) ([Feb 2026](https://support.stripchat.com/hc/en-us/articles/44195482301457), [Dec 2024](https://support.stripchat.com/hc/en-us/articles/31227854549137), [Jun 2024](https://support.stripchat.com/hc/en-us/articles/26200876452753)) | HTML; semi-annual | likely (listed on the EC overview page) |
+
+## Designated VLOPs / VLOSEs
+
+The 25 EU-designated Very Large Online Platforms / Search Engines (45 M+ EU users)
+— the ones whose full reports are archived elsewhere in this repo — included here
+for completeness. They report **semi-annually**; the first EU harmonised
+machine-readable (Annex I) reports were due **end of February 2026** (covering
+H2 2025), so reports up to Aug 2025 are narrative PDF/HTML. Aggregated index: the
+EC [DSA transparency page](https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency).
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| AliExpress | Alibaba (AliExpress) | [Transparency center](https://www.aliexpress.com/p/transparencycenter/transparencyReport.html) | Hub; latest H2 2025 | likely |
+| Amazon Store | Amazon EU S.à r.l. | [Report](https://trustworthyshopping.aboutamazon.com/eu-transparency-report-amazon-jul-dec-2025) | HTML; Jul – Dec 2025 | likely |
+| Apple App Store | Apple Distribution International | [DSA hub](https://www.apple.com/legal/dsa/) | Hub + PDF | likely |
+| Booking.com | Booking.com B.V. | [DSA hub](https://www.booking.com/content/dsa.en-gb.html) | Hub; HTML/PDF | likely |
+| Facebook | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | Hub; latest H2 2025 | likely |
+| Instagram | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | Hub; latest H2 2025 | likely |
+| LinkedIn | LinkedIn Ireland | [Feb 2026 ZIP](https://content.linkedin.com/content/dam/help/tns/en/report/LinkedIn-February-2026-Digital-Services-Act-Transparency-Report.zip) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
+| Pinterest | Pinterest Europe | [Feb 2026 ZIP](https://cdn.sanity.io/files/26f0hyrt/pinpolicy_prod/2c552b2ce80a75c1f9e9741e83da8bdbb5028579.zip) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
+| Snapchat | Snap Group Ltd | [H2 2025 report](https://values.snap.com/privacy/transparency/european-union-h2-2025) | HTML; H2 2025 | likely |
+| TikTok | TikTok Technology Ltd | [DSA hub](https://www.tiktok.com/transparency/en/dsa-transparency/) | Hub; latest H2 2025 | likely |
+| X (Twitter) | Twitter International Unlimited Co. | [DSA report](https://transparency.x.com/en/reports/dsa-transparency-report) | Hub + PDF; latest Feb 2026 | likely |
+| YouTube | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
+| Google Play | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
+| Google Maps | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
+| Google Shopping | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
+| Google Search (VLOSE) | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
+| Bing (VLOSE) | Microsoft Ireland | [EU DSA report](https://www.microsoft.com/en-us/corporate-responsibility/eu-dsa-report-bing) | Latest Feb 2026; prior PDF | likely |
+| Zalando | Zalando SE | [Transparency hub](https://corporate.zalando.com/en/investor-relations/corporate-governance/transparency-hub) | Hub; latest H2 2025 | likely |
+| Shein | Roadget Business (Shein) | [DSA hub](https://euqs.shein.com/digital-service-act-a-1994.html) | Hub; latest H2 2025 | uncertain |
+| Temu | Whaleco / Elementary Innovation | [Transparency center](https://www.temu.com/transparency-center-reports.html) | Hub; Feb 2026 + PDFs | likely |
+| Wikipedia | Wikimedia Foundation | [Feb 2026 XLS](https://foundation.wikimedia.org/wiki/File:Wikipedia_-_DSA_transparency_report_2026-02-28.xls) | XLS (harmonised template); Feb 2026 (H2 2025) | verified |
+| Pornhub | Aylo (Technius Ltd) | [DSA reports](https://help.pornhub.com/hc/en-us/sections/46212654665363-DSA-Transparency-Reports) | HTML; latest Feb 2026 | likely |
+| XVideos | WebGroup Czech Republic | [Mandatory information](https://info.xvideos.net/legal/mandatory-information) | Mandatory-info page; prior PDF | likely |
+| XNXX | WebGroup Czech Republic | [Mandatory information](https://info.xnxx.com/legal/mandatory-information) | Mandatory-info page; prior PDF | likely |
 
 ## Searched, not found / out of scope
 
