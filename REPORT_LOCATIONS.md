@@ -252,7 +252,7 @@ negative result is not re-searched:
 - **Registered as a DSA reporter in the EU database but own report page not located:**
   mobile.de, Willhaben, Fotocasa, Coches.net, Subito.
 - **No findable report:** Allegro, Bol.com, Idealo, Catawiki, Milanuncios, InfoJobs,
-  Joom, Omio, eDreams ODIGEO / Opodo, Agoda, Ticketmaster, See Tickets, Trainline,
+  Omio, eDreams ODIGEO / Opodo, Agoda, Ticketmaster, See Tickets, Trainline,
   Flixbus, Hopper, Klook, Lastminute.com, TheFork,
   OpenTable, TaskRabbit, Freelancer.com, PeoplePerHour, Treatwell, Doctolib,
   ImmobilienScout24, Immowelt, SeLoger, Rightmove, Zoopla, Funda, Pap.fr,
@@ -260,7 +260,7 @@ negative result is not re-searched:
   Habitaclia, GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam,
   GOG, EA, itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
   Odysee, Triller, Likee, Bigo Live, Home24, Tchibo, Bonprix, vidaXL, Conrad,
-  Spartoo, CDON, eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
+  CDON, eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
   Audible, Goodreads, Issuu, Flipboard, Kickstarter, Indiegogo, Ko-fi,
   Buy Me a Coffee, Coursera, Skillshare, Duolingo, Khan Academy, WeTransfer, Mega,
   pCloud, MediaFire, OpenSea, Rarible, Xing, Dribbble, 500px, Giphy, Storytel,
