@@ -36,12 +36,6 @@ CONF_RE = re.compile(r"^(verified|likely|uncertain)\b(.*)$", re.IGNORECASE)
 SCHEMA = """
 PRAGMA foreign_keys = ON;
 
-DROP VIEW  IF EXISTS v_reports;
-DROP TABLE IF EXISTS report_url;
-DROP TABLE IF EXISTS platform;
-DROP TABLE IF EXISTS company;
-DROP TABLE IF EXISTS category;
-
 CREATE TABLE category (
     category_id INTEGER PRIMARY KEY,
     name        TEXT NOT NULL UNIQUE
@@ -102,7 +96,10 @@ def parse_markdown(md_text: str):
             continue
         if not line.startswith("|"):
             continue
-        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        # Split on '|' and drop the empty elements created by the leading and
+        # (optional) trailing pipe — robust to empty cells, which strip('|') is not.
+        raw_cells = [c.strip() for c in line.split("|")]
+        cells = raw_cells[1:-1] if raw_cells and raw_cells[-1] == "" else raw_cells[1:]
         if len(cells) != 5:
             continue
         platform, company, url_cell, fmt, confidence = cells
@@ -136,47 +133,49 @@ def build_db(rows):
     if DB_PATH.exists():
         DB_PATH.unlink()
     conn = sqlite3.connect(DB_PATH)
-    conn.executescript(SCHEMA)
-    cur = conn.cursor()
+    try:
+        conn.executescript(SCHEMA)
+        cur = conn.cursor()
 
-    rows = sorted(rows, key=lambda r: (r["platform"].lower(), r["category"].lower()))
+        rows = sorted(rows, key=lambda r: (r["platform"].lower(), r["category"].lower()))
 
-    cat_ids: dict[str, int] = {}
-    co_ids: dict[str, int] = {}
-    for name in sorted({r["category"] for r in rows}, key=str.lower):
-        cur.execute("INSERT INTO category(name) VALUES (?)", (name,))
-        cat_ids[name] = cur.lastrowid
-    for name in sorted({r["company"] for r in rows}, key=str.lower):
-        cur.execute("INSERT INTO company(name) VALUES (?)", (name,))
-        co_ids[name] = cur.lastrowid
+        cat_ids: dict[str, int] = {}
+        co_ids: dict[str, int] = {}
+        for name in sorted({r["category"] for r in rows}, key=str.lower):
+            cur.execute("INSERT INTO category(name) VALUES (?)", (name,))
+            cat_ids[name] = cur.lastrowid
+        for name in sorted({r["company"] for r in rows}, key=str.lower):
+            cur.execute("INSERT INTO company(name) VALUES (?)", (name,))
+            co_ids[name] = cur.lastrowid
 
-    for r in rows:
-        cur.execute(
-            """INSERT INTO platform
-               (name, company_id, category_id, format_period, confidence, confidence_note)
-               VALUES (?,?,?,?,?,?)""",
-            (r["platform"], co_ids[r["company"]], cat_ids[r["category"]],
-             r["format_period"], r["confidence"], r["confidence_note"]),
-        )
-        pid = cur.lastrowid
-        for label, url in r["links"]:
+        for r in rows:
             cur.execute(
-                "INSERT INTO report_url(platform_id, label, url) VALUES (?,?,?)",
-                (pid, label or None, url),
+                """INSERT INTO platform
+                   (name, company_id, category_id, format_period, confidence, confidence_note)
+                   VALUES (?,?,?,?,?,?)""",
+                (r["platform"], co_ids[r["company"]], cat_ids[r["category"]],
+                 r["format_period"], r["confidence"], r["confidence_note"]),
             )
+            pid = cur.lastrowid
+            for label, url in r["links"]:
+                cur.execute(
+                    "INSERT INTO report_url(platform_id, label, url) VALUES (?,?,?)",
+                    (pid, label or None, url),
+                )
 
-    conn.commit()
-    counts = {
-        t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
-        for t in ("category", "company", "platform", "report_url")
-    }
-    conn.close()
-    return counts
+        conn.commit()
+        counts = {
+            t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
+            for t in ("category", "company", "platform", "report_url")
+        }
+        return counts
+    finally:
+        conn.close()
 
 
 def write_csv(rows):
     flat = []
-    for r in sorted(rows, key=lambda r: r["platform"].lower()):
+    for r in sorted(rows, key=lambda r: (r["platform"].lower(), r["category"].lower())):
         for label, url in r["links"]:
             flat.append({
                 "platform": r["platform"],
