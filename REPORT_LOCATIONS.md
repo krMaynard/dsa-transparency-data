@@ -64,6 +64,9 @@ The best starting points for finding more report locations:
 | Kick | Kick Streaming Pty Ltd (Easygo) | [DSA guide](https://help.kick.com/en/articles/12066402-digital-services-act-dsa-information-guide) | HTML guide referencing the report | likely |
 | Yubo | Twelve App SAS | [Transparency report](https://www.yubo.live/safety/transparency-report) | Bi-annual T&S report (DSA-aligned) | likely |
 | Quora | Quora, Inc. | [DSA Transparency section](https://help.quora.com/hc/en-us/sections/13296037150612-DSA-Transparency) | HTML section; full Art. 15 stats unconfirmed | uncertain |
+| heise forums | Heise Medien GmbH & Co. KG | [DSA transparency](https://www.heise.de/Transparenz-nach-dem-Digital-Services-Act-DSA-10639819.html) | CSV; annual (2024 & 2025) | verified |
+| gutefrage | gutefrage.net GmbH | [Transparenzbericht](https://www.gutefrage.net/company/transparenzbericht) | Annual Art. 15 report | likely |
+| eToro (social/copy-trading) | eToro (Europe) Ltd | [DSA transparency report](https://www.etoro.com/customer-service/regulation-license/dsa-transparency-report/) | PDF set (Art. 15/24 template) | verified |
 
 ## Audio / music streaming
 
@@ -100,6 +103,8 @@ The best starting points for finding more report locations:
 | Galaxus / Digitec | Digitec Galaxus AG | [Report](https://www.galaxus.de/de/page/transparenzbericht-dsa-9020) | HTML (DE/AT) | likely |
 | Douglas | Douglas GmbH | [Report](https://www.douglas.de/de/cp/dsa-transparenzbericht/dsa-transparenzbericht) | HTML | likely |
 | Coolblue | Coolblue B.V. | [Report](https://www.coolblue.nl/transparantierapport) | HTML | likely |
+| Skroutz | Skroutz S.A. (Greece) | [DSA hub](https://www.skroutz.gr/digital-services-act) | PDF + Excel/ZIP; 2024 & 2025 | verified |
+| Ceneo | Ceneo.pl sp. z o.o. (Poland) | [DSA hub](https://info.ceneo.pl/dsa) | XLSX Annex I (EN + PL); 2024 & 2025 | verified |
 | Discogs | Discogs (Zink Media, Inc.) | [Statement](https://support.discogs.com/hc/en-us/articles/12730436158349-EU-Digital-Services-Act-Statement) | HTML; 17 Feb 2024 – 16 Feb 2025 | likely |
 | Reverb | Reverb.com LLC | [DSA page](https://help.reverb.com/hc/en-us/articles/14017920631571-EU-Digital-Services-Act) | HTML; semi-annual | likely |
 | Depop | Depop Ltd | [DSA page](https://depophelp.zendesk.com/hc/en-gb/articles/13057572688273-EU-Digital-Services-Act) | HTML; 2025 | likely |
@@ -135,6 +140,10 @@ The best starting points for finding more report locations:
 | Bolt | Bolt Technology OÜ | [Legal page](https://bolt.eu/en/legal/digital-services-act/) | Legal page; 17 Feb 2024 – 17 Feb 2025 | likely |
 | GetYourGuide | GetYourGuide GmbH / AG | [DSA page](https://www.getyourguide.com/c/dsa/) | HTML; 2024 (Art. 15/24/42) | likely |
 | Skyscanner | Skyscanner Ltd | [DSA hub](https://www.skyscanner.net/media/digital-services-act) | DSA hub (JS-rendered) | likely |
+| HomeToGo | HomeToGo SE | [DSA page](https://www.hometogo.de/dsa/) | XLSX; Art. 24(2) + removals | verified |
+| Novasol | Awaze A/S | [Report](https://www.novasol.com/digital-services-act) | PDF; Feb 2026 (Awaze group) | verified |
+| Belvilla | Awaze Group | [Report (Awaze group)](https://www.novasol.com/digital-services-act) | PDF; Feb 2026 | likely |
+| Interhome | Interhome Group (HomeToGo) | [Legal info](https://www.interhome.group/en-ch/legal-information) | Annual; report referenced | likely |
 
 ## Food delivery & gig / freelance
 
@@ -171,6 +180,9 @@ The best starting points for finding more report locations:
 | Match Group (Tinder, Hinge, OkCupid, Meetic, …) | Match Group | [Resources](https://www.matchgroup-safety.com/resources) | PDF + per-app Excel; 2024 & 2025 | verified |
 | Bumble (Badoo, Fruitz) | Bumble Inc. | [Hub](https://support.bumble.com/hc/en-us/articles/28718583113757-Digital-Services-Act-Transparency-report) ([2025 PDF](https://bumbcdn.com/i/big/dsa/bumble/dsa-transparency-report-2025.pdf)) | PDF + Annex; 2025 | verified |
 | Grindr | Grindr LLC | [Reports](https://help.grindr.com/hc/en-us/articles/38555862683795-Grindr-EU-Digital-Services-Act-Transparency-Reports) | PDF + Excel; annual | likely |
+| Feeld | Feeld Ltd | [DSA report](https://feeld.co/ask-feeld/member-resources/dsa) | ZIP; 2025 full year | verified |
+| Happn | happn SAS | [PDF](https://www.happn.com/customer-support/rapport_2ndTrimestre.pdf) | PDF; S2 2025 | verified |
+| Lovoo | LOVOO GmbH | [PDF](https://www.lovoo.com/de/wp-content/uploads/sites/4/2026/01/LOVOO_Transparenzbericht_2024.pdf) | PDF (DE); 2024 | likely |
 
 ## Developer / software / hosting
 
@@ -295,6 +307,19 @@ negative result is not re-searched:
   Totaljobs, Jobindex, Gab, Truth Social, Minds, Parler, Wykop, Tellonym, Lemon8,
   Bluesky (flagged by the Commission for not publishing the Art. 24 user-number
   disclosure).
+- **CEE / Nordic / Southern-Europe e-commerce (no report found):** Alza, Heureka,
+  Aukro, Mall.cz, Morele.net, Vatera/Jófogás, Fashion Days,
+  Pigu/HobbyHall/Kaup24, Tori.fi, Verkkokauppa, Elgiganten, Komplett, Power.no,
+  Bazos, Sbazar, Pazaruvaj.
+- **Forums / community / Q&A (no report found):** Disqus, Mumsnet, The Student Room,
+  XDA/GSMArena, MyAnimeList, DEV.to, Hashnode, Product Hunt, Genius, ComputerBase,
+  Hardwareluxx, Motor-talk, Hacker News, Discourse (per-community, not central).
+- **Crypto / NFT / fintech (no report found, several likely out of DSA scope):**
+  TradingView, StockTwits, Blur, Magic Eden, Revolut, Public.com, Coinbase
+  (government-requests report only); pure exchanges not "online platforms" — Binance,
+  Kraken, Crypto.com, Bitpanda, Bybit, OKX.
+- **More travel / dating (no report found):** Holidu, Casamundo, Pierre & Vacances /
+  Center Parcs, NockNock, Hily, Once, Lex, Her, Taimi, eHarmony, Jaumo, MeetMe, Twoo.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
