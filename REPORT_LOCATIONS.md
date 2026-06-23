@@ -261,7 +261,7 @@ negative result is not re-searched:
   pCloud, MediaFire, OpenSea, Rarible, Xing, Dribbble, 500px, Giphy, Storytel,
   OnlyFans (general report exists, no DSA-specific one confirmable on its own domain).
 - **Search engines (only an Art. 24(2)/notice page or nothing found):** Brave Search
-  (Art. 17 MAR only), Ecosia (MAR only), Startpage, Kagi, Mojeek, Seznam.cz, Yandex,
+  (Art. 24(2) MAR only), Ecosia (MAR only), Startpage, Kagi, Mojeek, Seznam.cz, Yandex,
   You.com, Swisscows, Perplexity.
 - **Hosting / site builders (no report found):** Webflow, IONOS, Namecheap, Strato,
   Jimdo, BigCommerce, Weebly, Bluehost, SiteGround, DreamHost.
