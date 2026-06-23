@@ -213,7 +213,7 @@ negative result is not re-searched:
 
 - **Only an Art. 11/24(2) notice or contact page (no full report found):** Telegram,
   Wallapop, Kaufland, Stack Overflow, Dropbox, Atlassian/Bitbucket, Substack
-  (placeholder "coming soon"), FreeNow, Bandcamp (trader-info only), Fiverr.
+  (placeholder "coming soon"), FreeNow, Bandcamp (trader-info only).
 - **Registered as a DSA reporter in the EU database but own report page not located:**
   mobile.de, Willhaben, Fotocasa, Coches.net, Subito.
 - **No findable report:** Allegro, Bol.com, Idealo, Catawiki, Milanuncios, InfoJobs,
