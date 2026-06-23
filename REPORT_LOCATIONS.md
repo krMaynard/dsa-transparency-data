@@ -105,23 +105,46 @@ The best starting points for finding more report locations:
 | Fruugo | Fruugo.com Ltd | [Compliance statement](https://www.fruugo.ie/help/detail/dsa-compliance-statement) | HTML; Jun – Dec 2025 | likely |
 | Vivino | Vivino ApS | [Content moderation policy](https://www.vivino.com/legal/content-moderation-policy) | HTML; semi-annual (Art. 24) | likely |
 
-## Classifieds
+## Classifieds, real estate & auto
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
 | Kleinanzeigen | Kleinanzeigen GmbH | [Hub](https://themen.kleinanzeigen.de/transparenzbericht/) | HTML hub + PDFs; semi-annual | likely |
 | OLX | OLX B.V. (Prosus) | [Report](https://www.olx.pl/d/dsa-transparency-report/) | HTML; semi-annual | likely |
+| AutoScout24 | AutoScout24 SE | [PDF](https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf) | PDF (Art. 15/24); Jul – Dec 2024 | verified |
+| Idealista | Idealista S.A.U. | [DSA info](https://www.idealista.com/ayuda/articulos/informacion-de-idealista-en-cumplimiento-del-reglamento-de-servicios-digitales/) | HTML; Art. 15/24 | likely |
 
-## Travel, mobility & accommodation
+## Travel, mobility, accommodation & events
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Airbnb | Airbnb Ireland UC | [PDF](https://assets.airbnb.com/help/Airbnb_Ireland_UC_Transparency_Report_2025Feb14.pdf) | PDF; CY2024 | verified |
+| Expedia | Expedia, Inc. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) | PDF + XLSX; 2024 & 2025 | verified |
+| Hotels.com | Hotels.com, L.P. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) | PDF + XLSX; 2024 & 2025 | verified |
+| Vrbo | EG Vacation Rentals Ireland Ltd. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) | PDF + XLSX; 2024 & 2025 | verified |
+| Trivago | trivago N.V. | [DSA info](https://company.trivago.com/dsa-information/) ([PDF](https://company.trivago.com/wp-content/uploads/2025/03/trivago-DSA-Transparency-Report.pdf)) | PDF; Feb 2025 | verified |
+| Tripadvisor | Tripadvisor LLC | [Report](https://www.tripadvisor.com/TransparencyReport2025) | HTML; 2025 | likely |
+| Viator | Viator, Inc. | [PDF](https://assetlibrary.viator.com/m/523fc4a4d818e6fd/original/Viator_Inc_Digital_Services_Act_Transparency_Report_CY_2024.pdf) | PDF; CY2024 | verified |
+| Hostelworld | Hostelworld | [Security & privacy](https://www.hostelworld.com/legal/security-privacy/) | XLSX; 12 mo to 31 Dec 2025 | verified |
+| Eventbrite | Eventbrite Operations (IE) Ltd. | [PDF](https://www.eventbrite.com/blog/wp-content/uploads/2026/03/Eventbrite-2025-Transparency-Report.pdf) | PDF (EC template); 2024 & 2025 | verified |
 | BlaBlaCar | Comuto SA | [PDF](https://blog.blablacar.fr/wp-content/uploads/2025/02/2024-dsa-transparency-report-blablacar.pdf) | PDF; 2024 | verified |
 | Kayak | KAYAK Software Corp. (Booking Holdings) | [Hub](https://www.kayak.ie/c/digital-services-act/) | PDF; 2026 | verified |
 | Uber Eats | Uber B.V. | [Legal page](https://www.uber.com/legal/en/document/?name=digital-services-act---uber-eats-transparency-report) | Legal page + Drive docs; 2024 & 2025 | verified |
 | Bolt | Bolt Technology OÜ | [Legal page](https://bolt.eu/en/legal/digital-services-act/) | Legal page; 17 Feb 2024 – 17 Feb 2025 | likely |
 | GetYourGuide | GetYourGuide GmbH / AG | [DSA page](https://www.getyourguide.com/c/dsa/) | HTML; 2024 (Art. 15/24/42) | likely |
 | Skyscanner | Skyscanner Ltd | [DSA hub](https://www.skyscanner.net/media/digital-services-act) | DSA hub (JS-rendered) | likely |
+
+## Food delivery & gig / freelance
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| Just Eat Takeaway (Lieferando, Thuisbezorgd) | Just Eat Takeaway.com N.V. | [Governance docs](https://www.justeattakeaway.com/governance/governance-documents/) | ZIP (template); 17 Feb – 31 Dec 2025 | verified |
+| Deliveroo | Deliveroo plc | [PDF](https://dpd-12774-s3.s3.eu-west-2.amazonaws.com/assets/7517/4559/3138/Deliveroo_DSA_Transparency_Report_April2025.pdf) | PDF; Apr 2025 | verified |
+| Glovo | Glovoapp23 S.A. (Delivery Hero) | [Report](https://about.glovoapp.com/culture-and-values/transparency-report/) | PDF; 2025 | verified |
+| Wolt | Wolt Enterprises Oy (DoorDash) | [PDF](https://assets.ctfassets.net/23u853certza/4UBct5Uy0IYtBe4xXSEclg/84a36c8226a026a23859abb166875db6/Wolt_DSA_Transparency_Report2025.pdf) | PDF; 17 Feb 2024 – 17 Feb 2025 | verified |
+| Malt | Malt Community SAS | [Transparency](https://www.malt.fr/c/transparency) | Web report; 2024 & 2025 | likely |
+| Upwork | Upwork Global Inc. | [2025 report](https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours) | XLSX; 2024 & 2025 | likely |
+| Fiverr | Fiverr International Ltd. | [DSA overview](https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview) | HTML overview | uncertain |
 
 ## App stores & gaming
 
@@ -160,12 +183,17 @@ The best starting points for finding more report locations:
 | Indeed | Indeed, Inc. | [Report](https://www.indeed.com/legal/digital-services-act-transparency-report) | HTML; 16 Feb – 31 Dec 2024 | likely |
 | Glassdoor | Glassdoor LLC | [XLSX](https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx) | XLSX; CY2024 | likely |
 
-## Creator / publishing
+## Creator, publishing, education & community
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
 | Patreon | Patreon, Inc. | [DSA page](https://support.patreon.com/hc/en-us/articles/23684794051597-EU-Digital-Services-Act) | HTML; Art. 24 data, Jul – Dec 2025 | likely |
 | Medium | A Medium Corporation | [DSA Information section](https://help.medium.com/hc/en-us/sections/21832701520791-Digital-Service-Act-DSA-Information) | HTML; DSA info/orders | uncertain |
+| Fandom (Wikia) | Fandom, Inc. | [DSA hub](https://www.fandom.com/digital-services-act) ([2024 supplement](https://www.fandom.com/fandom-transparency-report-2024-dsa-supplement)) | HTML; 1 Feb 2024 – 31 Jan 2025 | verified |
+| Wattpad | Wattpad Corp. (Naver) | [Report](https://policies.wattpad.com/transparency-report/) | HTML; to 31 Dec 2025 | verified |
+| Behance | Adobe Inc. | [EU DSA report](https://www.adobe.com/trust/transparency/reports/eu-dsa-report.html) | HTML; 17 Feb – 31 Dec 2024 | verified |
+| Udemy | Udemy, Inc. | [DSA information](https://support.udemy.com/hc/en-us/articles/17923655139095-Digital-Services-Act-Information-European-Union-Users-Only) | HTML; CY2024 | verified |
+| Scribd (Everand, SlideShare) | Scribd, B.V. | [DSA section](https://support.scribd.com/hc/en-us/sections/23708444653588-Publication-of-Information-for-the-European-Digital-Services-Act) | HTML; from late 2024 | verified |
 
 ## Adult content
 
@@ -185,14 +213,23 @@ negative result is not re-searched:
 
 - **Only an Art. 11/24(2) notice or contact page (no full report found):** Telegram,
   Wallapop, Kaufland, Stack Overflow, Dropbox, Atlassian/Bitbucket, Substack
-  (placeholder "coming soon"), FreeNow.
-- **No findable report:** Allegro, Bol.com, Idealo, Willhaben, Subito, Catawiki,
-  Milanuncios, Mobile.de, Fotocasa, InfoJobs, Joom, Omio, eDreams ODIGEO,
-  GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam, GOG, EA,
-  itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
+  (placeholder "coming soon"), FreeNow, Bandcamp (trader-info only).
+- **Registered as a DSA reporter in the EU database but own report page not located:**
+  mobile.de, Willhaben, Fotocasa, Coches.net, Subito.
+- **No findable report:** Allegro, Bol.com, Idealo, Catawiki, Milanuncios, InfoJobs,
+  Joom, Omio, eDreams ODIGEO / Opodo, Agoda, Ticketmaster, See Tickets, Trainline,
+  Flixbus, Hopper, Klook, Lastminute.com, Delivery Hero / foodpanda, TheFork,
+  OpenTable, TaskRabbit, Freelancer.com, PeoplePerHour, Treatwell, Doctolib,
+  ImmobilienScout24, Immowelt, SeLoger, Rightmove, Zoopla, Funda, Pap.fr,
+  Logic-Immo, Otomoto, Standvirtual, Heycar, La Centrale, Hemnet, Daft.ie,
+  Habitaclia, GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam,
+  GOG, EA, itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
   Odysee, Triller, Likee, Bigo Live, Home24, Tchibo, Bonprix, vidaXL, Conrad,
-  Spartoo, CDON, eDarling/Parship, OnlyFans (general report exists, no DSA-specific
-  one confirmable on its own domain).
+  Spartoo, CDON, eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
+  Audible, Goodreads, Issuu, Flipboard, Kickstarter, Indiegogo, Ko-fi,
+  Buy Me a Coffee, Coursera, Skillshare, Duolingo, Khan Academy, WeTransfer, Mega,
+  pCloud, MediaFire, OpenSea, Rarible, Xing, Dribbble, 500px, Giphy, Storytel,
+  OnlyFans (general report exists, no DSA-specific one confirmable on its own domain).
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
