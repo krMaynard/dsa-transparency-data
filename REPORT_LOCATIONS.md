@@ -142,7 +142,7 @@ The best starting points for finding more report locations:
 | Skyscanner | Skyscanner Ltd | [DSA hub](https://www.skyscanner.net/media/digital-services-act) | DSA hub (JS-rendered) | likely |
 | HomeToGo | HomeToGo SE | [DSA page](https://www.hometogo.de/dsa/) | XLSX; Art. 24(2) + removals | verified |
 | Novasol | Awaze A/S | [Report](https://www.novasol.com/digital-services-act) | PDF; Feb 2026 (Awaze group) | verified |
-| Belvilla | Awaze Group | (covered by the Awaze group report — see Novasol) | PDF; Feb 2026 | likely |
+| Belvilla | Awaze Group | [Report (Awaze group)](https://www.novasol.com/digital-services-act) | PDF; Feb 2026 | likely |
 | Interhome | Interhome Group (HomeToGo) | [Legal info](https://www.interhome.group/en-ch/legal-information) | Annual; report referenced | likely |
 
 ## Food delivery & gig / freelance
@@ -308,14 +308,14 @@ negative result is not re-searched:
   Bluesky (flagged by the Commission for not publishing the Art. 24 user-number
   disclosure).
 - **CEE / Nordic / Southern-Europe e-commerce (no report found):** Alza, Heureka,
-  Aukro, Mall.cz, Empik, Morele.net, Vatera/Jófogás, eMAG/Fashion Days,
+  Aukro, Mall.cz, Morele.net, Vatera/Jófogás, Fashion Days,
   Pigu/HobbyHall/Kaup24, Tori.fi, Verkkokauppa, Elgiganten, Komplett, Power.no,
   Bazos, Sbazar, Pazaruvaj.
 - **Forums / community / Q&A (no report found):** Disqus, Mumsnet, The Student Room,
   XDA/GSMArena, MyAnimeList, DEV.to, Hashnode, Product Hunt, Genius, ComputerBase,
   Hardwareluxx, Motor-talk, Hacker News, Discourse (per-community, not central).
 - **Crypto / NFT / fintech (no report found, several likely out of DSA scope):**
-  OpenSea, TradingView, StockTwits, Blur, Magic Eden, Revolut, Public.com, Coinbase
+  TradingView, StockTwits, Blur, Magic Eden, Revolut, Public.com, Coinbase
   (government-requests report only); pure exchanges not "online platforms" — Binance,
   Kraken, Crypto.com, Bitpanda, Bybit, OKX.
 - **More travel / dating (no report found):** Holidu, Casamundo, Pierre & Vacances /
