@@ -156,6 +156,10 @@ The best starting points for finding more report locations:
 | Samsung Galaxy Store | Samsung Electronics | [Regulatory info](https://www.samsung.com/uk/support/regulatory-information/) | PDF; Aug 2025 – Jan 2026 | verified |
 | Epic Games Store | Epic Games, Inc. | [Report](https://safety.epicgames.com/transparency-reports/european-union) | XLSX + hub; Feb 2024 – Feb 2025 | likely |
 | Twitch | Twitch Interactive (Amazon) | [Report](https://safety.twitch.tv/s/article/Twitch-DSA-Transparency-Report-February-2025) | HTML; Feb 2025 | likely |
+| Miniclip | Miniclip SA (Tencent) | [Report](https://www.miniclip.com/dsa-transparency-report) | Landing + ZIP; CY2025 | verified |
+| GameDistribution | Azerion | [Report](https://static.gamedistribution.com/dsa-transparency-report.html) | HTML; CY2024 | verified |
+| Niantic (Pokémon GO, …) | Niantic Inc. | [Report](https://nianticlabs.com/dsa-transparency) | Landing + Excel/PDF; CY2025 | verified |
+| Chess.com | Chess.com, LLC | [DSA compliance](https://www.chess.com/article/view/digital-services-act-compliance) | HTML; Art. 24(2) MAU only | uncertain |
 
 ## Dating
 
@@ -173,6 +177,32 @@ The best starting points for finding more report locations:
 | Cloudflare | Cloudflare, Inc. | [Transparency](https://www.cloudflare.com/transparency/) | XLSX (template); H2 2025 | verified |
 | WordPress.com | Automattic Inc. | [Report](https://transparency.automattic.com/wordpress-dot-com/digital-services-act/) | Web + CSV; Jul – Dec 2025 | verified |
 | Hugging Face | Hugging Face SAS | [Content policy](https://huggingface.co/content-policy) ([2025 PDF](https://cdn-media.huggingface.co/landing/assets/DSA_HF_2025.pdf)) | PDF; 2025 | likely |
+
+## Web hosting, registrars, site builders & infrastructure
+
+(Intermediary/hosting services with Art. 15 reporting duties.)
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| Shopify | Shopify Inc. | [Legal notices](https://www.shopify.com/legal/p2b/legal-notices) | Hub: PDF + XLSX; CY2024 & 2025 | verified |
+| Wix | Wix.com Ltd. | [Report](https://support.wix.com/en/article/dsa-transparency-report-2024) | Web; CY2024 | verified |
+| Squarespace | Squarespace, Inc. | [PDF](https://www.squarespace.com/s/Digital-Services-Act-Report-20250228.pdf) | PDF; 2024 | verified |
+| GoDaddy | GoDaddy Inc. | [Disclosure](https://www.godaddy.com/legal/agreements/digital-services-act-disclosure) | Web; 2024 & 2025 | likely |
+| OVHcloud | OVH Groupe SAS | [PDF](https://corporate.ovhcloud.com/sites/default/files/2025-04/rapport_de_transparence_dsa_ovhcloud_2025.pdf) | PDF + spreadsheet; 17 Feb – 31 Dec 2024 | verified |
+| Hostinger | Hostinger International Ltd. | [Report](https://www.hostinger.com/legal/dsa-transparency-report) | PDF + XLSX; 2024 – 2025 | verified |
+| Akamai | Akamai Technologies, Inc. | [DSA hub](https://www.akamai.com/legal/eu-digital-services-act) | PDF/XLSX; 2024, H1 & H2 2025 | verified |
+| Vercel | Vercel Inc. | [Transparency](https://vercel.com/legal/transparency) | Web; 17 Feb – 15 Dec 2024 | verified |
+| Gandi | Gandi SAS | [Report](https://www.gandi.net/en-US/digital-service-act-transparency-report) | Web + PDF; 2024 & 2025 | verified |
+| Hetzner | Hetzner Online GmbH | [DSA page](https://www.hetzner.com/legal/digital-services-act/) | Contact/notice page only | uncertain |
+| Fastly | Fastly, Inc. | [DMCA/DSA](https://www.fastly.com/dmca-dsa) | Compliance notice only | uncertain |
+
+## Search engines (non-VLOSE)
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| DuckDuckGo | DuckDuckGo, Inc. | [Regulatory reporting](https://duckduckgo.com/duckduckgo-help-pages/r-legal/regulatory-reporting) | XLSX (template); CY2025 (+ 2024 PDF) | verified |
+| Qwant | Qwant (France) | [Report](https://about.qwant.com/legal/rapport-de-transparence-qwant-2025/) | HTML + Excel + PDF; CY2025 | verified |
+| Lilo | Lilo SAS (now Qwant) | [Report](https://lilo.org/rapport-transparence) | HTML + Excel; Sep – Dec 2025 | verified |
 
 ## Reviews & jobs
 
@@ -230,6 +260,18 @@ negative result is not re-searched:
   Buy Me a Coffee, Coursera, Skillshare, Duolingo, Khan Academy, WeTransfer, Mega,
   pCloud, MediaFire, OpenSea, Rarible, Xing, Dribbble, 500px, Giphy, Storytel,
   OnlyFans (general report exists, no DSA-specific one confirmable on its own domain).
+- **Search engines (only an Art. 24(2)/notice page or nothing found):** Brave Search
+  (Art. 17 MAR only), Ecosia (MAR only), Startpage, Kagi, Mojeek, Seznam.cz, Yandex,
+  You.com, Swisscows, Perplexity.
+- **Hosting / site builders (no report found):** Webflow, IONOS, Namecheap, Strato,
+  Jimdo, BigCommerce, Weebly, Bluehost, SiteGround, DreamHost.
+- **Gaming / mod / casual-game / streaming (no report found):** Nexus Mods,
+  CurseForge, Mod.io, Game Jolt, Newgrounds, Poki, CrazyGames, Kongregate,
+  Armor Games, Trovo, DLive, Rooter, Lichess, Garena, Krafton, Supercell.
+- **Stock media / creative / Q&A (no report found):** Shutterstock, Getty Images,
+  iStock, Canva (government-requests report only), Unsplash, Pexels, Pixabay,
+  Freepik, Mixcloud, Audiomack, BandLab, 9GAG, 4chan, Imgur, ResetEra, Brainly,
+  Chegg, Quizlet, Course Hero, ResearchGate, Academia.edu.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
