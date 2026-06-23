@@ -97,3 +97,37 @@ python3 add_surfaces.py
 ## Source
 
 Reports are published by each VLOP on their own transparency page; aggregated index at the EU [DSA Transparency Database](https://transparency.dsa.ec.europa.eu/).
+
+## Non-VLOP report locations
+
+Beyond the VLOPs/VLOSEs archived here, the DSA (Art. 15 & 24) requires **every**
+EU online platform above the small-enterprise threshold to publish a periodic
+transparency report — scattered across each platform's own site, with no single
+official index. [`REPORT_LOCATIONS.md`](REPORT_LOCATIONS.md) catalogues where
+those reports live for ~130 non-VLOP platforms (operating company, report URL(s),
+format/period, and a verified/likely/uncertain confidence rating), grouped by
+category, plus the authoritative EU/aggregator index sources and a categorised
+list of platforms that were searched but had no findable report.
+
+### Relational database
+
+`build_reports_db.py` parses `REPORT_LOCATIONS.md` (the single source of truth)
+into a normalised SQLite database and a flat CSV, both ordered alphabetically:
+
+```
+python3 build_reports_db.py     # writes dsa_reports.db + dsa_reports.csv
+```
+
+- **`dsa_reports.db`** — SQLite, schema in [`schema.sql`](schema.sql): `category`,
+  `company`, and `platform` tables plus a `report_url` table (one platform can
+  have several URLs, e.g. a hub page + a direct file). A `v_reports` view flattens
+  the join alphabetically. Stdlib only — no dependencies.
+- **`dsa_reports.csv`** — one row per report URL, git-friendly and diffable.
+
+Re-run the script after editing `REPORT_LOCATIONS.md` to regenerate both. Example
+query:
+
+```sql
+SELECT platform, company, url FROM v_reports WHERE confidence = 'verified';
+```
+
