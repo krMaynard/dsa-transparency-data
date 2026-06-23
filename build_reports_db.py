@@ -39,8 +39,8 @@ CONF_RE = re.compile(r"^(verified|likely|uncertain)\b(.*)$", re.IGNORECASE)
 # Derived per platform from the recorded "format / period" text, then overridden
 # where we have better ground truth (notably the VLOPs, where the *latest* report
 # is the template even when the field describes an older narrative report).
-_TEMPLATE_YES = ("template", "annex", "machine-readable", "xlsx", "csv", "excel",
-                 "spreadsheet")
+_TEMPLATE_YES = ("template", "annex", "machine-readable", "xlsx", "xls", "csv",
+                 "tsv", "ods", "excel", "spreadsheet")
 _TEMPLATE_UNCLEAR = ("notice", "contact", "unverified", "unconfirmed",
                      "guide referenc", "js-rendered", "referenced", "info/orders",
                      "mau only", "overview", "drive docs", "non-vlop dsa report",
@@ -65,10 +65,12 @@ TEMPLATE_OVERRIDES = {
 }
 
 
-def harmonised_template(name: str, fmt: str) -> str:
+def harmonised_template(name: str, fmt: str | None) -> str:
     """Classify a platform's harmonised-template usage: yes/no/partial/unknown."""
     if name in TEMPLATE_OVERRIDES:
         return TEMPLATE_OVERRIDES[name]
+    if not fmt:
+        return "unknown"
     f = fmt.lower()
     if any(k in f for k in _TEMPLATE_YES):
         return "yes"
