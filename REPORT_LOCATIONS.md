@@ -62,6 +62,7 @@ The best starting points for finding more report locations:
 | Threads | Meta Platforms Ireland Ltd. | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | In Meta's non-VLOP DSA report; periodic | likely |
 | Nextdoor | Nextdoor Holdings, Inc. | [Report](https://help.nextdoor.com/s/article/DSA-Transparency-Report) | HTML; periodic | likely |
 | Kick | Kick Streaming Pty Ltd (Easygo) | [DSA guide](https://help.kick.com/en/articles/12066402-digital-services-act-dsa-information-guide) | HTML guide referencing the report | likely |
+| Yubo | Twelve App SAS | [Transparency report](https://www.yubo.live/safety/transparency-report) | Bi-annual T&S report (DSA-aligned) | likely |
 | Quora | Quora, Inc. | [DSA Transparency section](https://help.quora.com/hc/en-us/sections/13296037150612-DSA-Transparency) | HTML section; full Art. 15 stats unconfirmed | uncertain |
 
 ## Audio / music streaming
@@ -104,6 +105,7 @@ The best starting points for finding more report locations:
 | Depop | Depop Ltd | [DSA page](https://depophelp.zendesk.com/hc/en-gb/articles/13057572688273-EU-Digital-Services-Act) | HTML; 2025 | likely |
 | Fruugo | Fruugo.com Ltd | [Compliance statement](https://www.fruugo.ie/help/detail/dsa-compliance-statement) | HTML; Jun – Dec 2025 | likely |
 | Vivino | Vivino ApS | [Content moderation policy](https://www.vivino.com/legal/content-moderation-policy) | HTML; semi-annual (Art. 24) | likely |
+| DocMorris | DocMorris N.V. | [DSA page](https://www.docmorris.de/digital-services-act) | HTML DSA page; contents unverified | uncertain |
 
 ## Classifieds, real estate & auto
 
@@ -142,6 +144,7 @@ The best starting points for finding more report locations:
 | Deliveroo | Deliveroo plc | [PDF](https://dpd-12774-s3.s3.eu-west-2.amazonaws.com/assets/7517/4559/3138/Deliveroo_DSA_Transparency_Report_April2025.pdf) | PDF; Apr 2025 | verified |
 | Glovo | Glovoapp23 S.A. (Delivery Hero) | [Report](https://about.glovoapp.com/culture-and-values/transparency-report/) | PDF; 2025 | verified |
 | Wolt | Wolt Enterprises Oy (DoorDash) | [PDF](https://assets.ctfassets.net/23u853certza/4UBct5Uy0IYtBe4xXSEclg/84a36c8226a026a23859abb166875db6/Wolt_DSA_Transparency_Report2025.pdf) | PDF; 17 Feb 2024 – 17 Feb 2025 | verified |
+| Delivery Hero (foodora, …) | Delivery Hero SE | [DSA statement](https://www.deliveryhero.com/digital-services-act/) | HTML; content-moderation report + AMAR | likely |
 | Malt | Malt Community SAS | [Transparency](https://www.malt.fr/c/transparency) | Web report; 2024 & 2025 | likely |
 | Upwork | Upwork Global Inc. | [2025 report](https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours) | XLSX; 2024 & 2025 | likely |
 | Fiverr | Fiverr International Ltd. | [DSA overview](https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview) | HTML overview | uncertain |
@@ -193,6 +196,7 @@ The best starting points for finding more report locations:
 | Akamai | Akamai Technologies, Inc. | [DSA hub](https://www.akamai.com/legal/eu-digital-services-act) | PDF/XLSX; 2024, H1 & H2 2025 | verified |
 | Vercel | Vercel Inc. | [Transparency](https://vercel.com/legal/transparency) | Web; 17 Feb – 15 Dec 2024 | verified |
 | Gandi | Gandi SAS | [Report](https://www.gandi.net/en-US/digital-service-act-transparency-report) | Web + PDF; 2024 & 2025 | verified |
+| Alibaba Cloud | Alibaba Cloud (Alibaba.com Singapore) | [DSA compliance](https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information) | PDF; 17 Feb 2024 – 16 Feb 2025 (cloud service, not the Alibaba.com marketplace) | verified |
 | Hetzner | Hetzner Online GmbH | [DSA page](https://www.hetzner.com/legal/digital-services-act/) | Contact/notice page only | uncertain |
 | Fastly | Fastly, Inc. | [DMCA/DSA](https://www.fastly.com/dmca-dsa) | Compliance notice only | uncertain |
 
@@ -212,6 +216,7 @@ The best starting points for finding more report locations:
 | Yelp | Yelp Inc. | [Report](https://www.yelp-support.com/article/Yelp-DSA-Transparency-Report-2025?l=en_GB) | HTML; 2024 & 2025 | likely |
 | Indeed | Indeed, Inc. | [Report](https://www.indeed.com/legal/digital-services-act-transparency-report) | HTML; 16 Feb – 31 Dec 2024 | likely |
 | Glassdoor | Glassdoor LLC | [XLSX](https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx) | XLSX; CY2024 | likely |
+| StepStone | The Stepstone Group GmbH | [Report](https://www.stepstone.de/e-recruiting/en/legal/report-dsa/) | Web transparency report | likely |
 
 ## Creator, publishing, education & community
 
@@ -247,15 +252,15 @@ negative result is not re-searched:
 - **Registered as a DSA reporter in the EU database but own report page not located:**
   mobile.de, Willhaben, Fotocasa, Coches.net, Subito.
 - **No findable report:** Allegro, Bol.com, Idealo, Catawiki, Milanuncios, InfoJobs,
-  Joom, Omio, eDreams ODIGEO / Opodo, Agoda, Ticketmaster, See Tickets, Trainline,
-  Flixbus, Hopper, Klook, Lastminute.com, Delivery Hero / foodpanda, TheFork,
+  Omio, eDreams ODIGEO / Opodo, Agoda, Ticketmaster, See Tickets, Trainline,
+  Flixbus, Hopper, Klook, Lastminute.com, TheFork,
   OpenTable, TaskRabbit, Freelancer.com, PeoplePerHour, Treatwell, Doctolib,
   ImmobilienScout24, Immowelt, SeLoger, Rightmove, Zoopla, Funda, Pap.fr,
   Logic-Immo, Otomoto, Standvirtual, Heycar, La Centrale, Hemnet, Daft.ie,
   Habitaclia, GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam,
   GOG, EA, itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
   Odysee, Triller, Likee, Bigo Live, Home24, Tchibo, Bonprix, vidaXL, Conrad,
-  Spartoo, CDON, eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
+  CDON, eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
   Audible, Goodreads, Issuu, Flipboard, Kickstarter, Indiegogo, Ko-fi,
   Buy Me a Coffee, Coursera, Skillshare, Duolingo, Khan Academy, WeTransfer, Mega,
   pCloud, MediaFire, OpenSea, Rarible, Xing, Dribbble, 500px, Giphy, Storytel,
@@ -272,6 +277,24 @@ negative result is not re-searched:
   iStock, Canva (government-requests report only), Unsplash, Pexels, Pixabay,
   Freepik, Mixcloud, Audiomack, BandLab, 9GAG, 4chan, Imgur, ResetEra, Brainly,
   Chegg, Quizlet, Course Hero, ResearchGate, Academia.edu.
+- **Only an Art. 24(2) recipient notice / contact page (no full report):** Spartoo,
+  Showroomprivé, Privalia, Redbubble, TeePublic, Strava, Jodel.
+- **B2B / cross-border & national retail (no report found):** Alibaba.com marketplace
+  (only Alibaba *Cloud* publishes one — see table), Made-in-China, DHgate, Banggood,
+  Wish, LightInTheBox, Joom, Faire, Ankorstore, Metro Markets, Mercateo/Unite,
+  Gmarket, La Redoute, Fnac/Darty, Empik.
+- **Health / grocery & quick-commerce (no report found):** Shop Apotheke / Redcare,
+  Zur Rose, Picnic, Ocado, Getir, Gorillas, Flink, Flaschenpost, Knuspr/Rohlik,
+  Gousto, HelloFresh, Marley Spoon, Everli, Auchan, E.Leclerc, Albert Heijn, Jumbo,
+  Mercadona.
+- **Fitness / maps / audio / reading (no report found):** Komoot, AllTrails, Wikiloc,
+  TomTom, Citymapper, Foursquare/Swarm, Acast, Podimo, Last.fm, Babelio, LibraryThing,
+  The StoryGraph, Letterboxd, Untappd.
+- **Print-on-demand / jobs / misc social (no report found):** Society6, Zazzle,
+  Spreadshirt, Teespring/Spring, Displate, INPRNT, Welcome to the Jungle, Monster,
+  Totaljobs, Jobindex, Gab, Truth Social, Minds, Parler, Wykop, Tellonym, Lemon8,
+  Bluesky (flagged by the Commission for not publishing the Art. 24 user-number
+  disclosure).
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
