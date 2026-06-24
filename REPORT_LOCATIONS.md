@@ -203,6 +203,13 @@ The best starting points for finding more report locations:
 | Square Enix | Square Enix Ltd. | [Online safety](https://www.square-enix-games.com/en_GB/documents/online-safety) | PDF (Art. 15); Feb 2025 | verified |
 | Konami | Konami Digital Entertainment | [EU DSA hub](https://legal.konami.com/kde/eudsa/) | XLSX/PDF; 2024 & 2025 | verified |
 | Nexon | Nexon | [DSA page](https://playersupport.nexon.com/hc/en-us/articles/46401329736084-Digital-Services-Act) | HTML hub | likely |
+| Level Infinite (PUBG Mobile, Honor of Kings, Arena Breakout, …) | Proxima Beta Europe B.V. (Tencent) | [Arena Breakout report](https://eulaforgames.com/rule/202502110002/ALL) ([PUBG](https://support.pubg.com/hc/en-us/articles/28819731069721-EU-Digital-Services-Act-information)) | In-page Art. 15 per game; 2024 | verified |
+| Honor APPMarket | HONOR Device Co. | [DSA page](https://www.honor.com/uk/legal/dsa/) | HTML + annual reports; 2024 & 2025 | verified |
+| OPPO Community / Theme Store | Guangdong OPPO / HEYTAP | [Online safety](https://www.oppo.com/en/onlinesafety/) | HTML + annual PDF; 2024 | verified |
+| OnePlus Community | OnePlus Technology | [Online safety](https://www.oneplus.com/global/onlinesafety) | HTML + annual PDF; 2024 | verified |
+| Xiaomi GetApps / Mi Community | Xiaomi | [DSA page](https://www.mi.com/global/support/policy/digital-service-act/) | HTML; Art. 15/24 + AMAR | likely |
+| realme Community | realme | [DSA page](https://www.realme.com/global/legal/DigitalServicesAct) | HTML DSA page | likely |
+| Huawei AppGallery | Aspiegel SE (Huawei) | [AMAR disclosure](https://consumer.huawei.com/eu/community/) | HTML; Art. 24(2) AMAR | likely |
 
 ## Dating
 
@@ -241,6 +248,7 @@ The best starting points for finding more report locations:
 | Gandi | Gandi SAS | [Report](https://www.gandi.net/en-US/digital-service-act-transparency-report) | Web + PDF; 2024 & 2025 | verified |
 | Alibaba Cloud | Alibaba Cloud (Alibaba.com Singapore) | [DSA compliance](https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information) | PDF; 17 Feb 2024 – 16 Feb 2025 (cloud service, not the Alibaba.com marketplace) | verified |
 | AWS | Amazon Web Services | [PDF](https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf) | PDF (Art. 15); covers AWS services | verified |
+| Tencent Cloud | Tencent Cloud International | [DSA page](https://www.tencentcloud.com/document/product/301/59018) | HTML + PDF; 2024 & 2025 | verified |
 | iCloud Storage | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
 | Hetzner | Hetzner Online GmbH | [DSA page](https://www.hetzner.com/legal/digital-services-act/) | Contact/notice page only | uncertain |
 | Fastly | Fastly, Inc. | [DMCA/DSA](https://www.fastly.com/dmca-dsa) | Compliance notice only | uncertain |
@@ -454,7 +462,13 @@ negative result is not re-searched:
   Skeb, DMM, Niconico, Cookpad, Kakaku.com, Weverse (HYBE), Kakao Webtoon, KakaoPage,
   Lezhin, Tappytoon, Tapas, AfreecaTV/SOOP, Watcha, Wavve, Naver, Bubble/Dear U.
 - **Game publishers / console (no report found):** Capcom, SEGA, Take-Two/Rockstar,
-  NCsoft, Netmarble, Pearl Abyss, Smilegate, Bandai Namco (Art. 11 contact only).
+  NCsoft, Netmarble, Pearl Abyss, Smilegate, Gameloft, Bandai Namco (Art. 11 contact only).
+- **Chinese platforms (no own DSA report found / heavily bot-blocked):** Miravia,
+  Vova, Geekbuying, Tomtop, Zaful, Rosegal, PatPat, Cider, Newchic, Halara, Newme,
+  Cupshe, Floryday, 1688, Taobao/Tmall, Sammydress; HoYoverse/Genshin (Cognosphere),
+  NetEase Games, Lilith, Moonton, Century Games, Kwai/Kuaishou,
+  Xiaohongshu/RED, Trip.com, QQ/QZone, Bilibili, Douyin; Vivo, Lenovo, Anker, TCL,
+  Huawei Cloud.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
