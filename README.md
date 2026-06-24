@@ -107,7 +107,7 @@ official index. [`REPORT_LOCATIONS.md`](REPORT_LOCATIONS.md) catalogues where
 those reports live for **214 non-VLOP platforms** (232 report URLs; operating
 company, report URL(s), format/period, a verified/likely/uncertain confidence
 rating — 141 verified — and whether the report uses the EU harmonised
-machine-readable template, which **53** of them do), grouped across 16
+machine-readable template, which **54** of them do), grouped across 16
 categories. It also lists the 25 designated VLOPs/VLOSEs for completeness, the
 authoritative EU/aggregator index sources, and a categorised list of platforms
 that were searched but had no findable report.
@@ -143,7 +143,7 @@ SELECT platform, company, url FROM v_reports WHERE confidence = 'verified';
 ### Extracted harmonised-template reports
 
 For the catalogue entries that file the EU harmonised machine-readable template
-(53 platforms), [`harmonised-reports/`](harmonised-reports/) downloads the actual
+(54 platforms), [`harmonised-reports/`](harmonised-reports/) downloads the actual
 report files and normalises them into the canonical 11-section layout — one CSV
 per section under `harmonised-reports/extracted/<platform>/`, plus a
 `manifest.json` and `summary.csv`. `discover_hubs.py` crawls the landing pages
@@ -151,7 +151,7 @@ for direct file links; `extract.py` reads each source (`.xlsx` / legacy `.xls` /
 `.zip`-of-CSVs), mapping sections by template position so localised DE/FR/EL/…
 reports load identically.
 
-**28 of 53 extracted** so far; the rest are bot-walled, geo-fenced, or
+**29 of 54 extracted** so far; the rest are bot-walled, geo-fenced, or
 JS-rendered landing pages (tracked with per-platform status in
 `harmonised-reports/sources.csv`). These extracted reports are loaded into the
 companion [transparency-report-api](https://github.com/krMaynard/transparency-report-api)

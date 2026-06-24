@@ -111,7 +111,7 @@ The best starting points for finding more report locations:
 | Leboncoin | LBC France SAS (Adevinta) | [PDF](https://img.leboncoin.fr/api/v1/lbcpb2/documents/transparency_report-cover_page-FR_version.pdf?rule=cms_pdf) | PDF (FR) | verified |
 | Rakuten France | Rakuten France SAS | [PDF](https://fr.shopping.rakuten.com/cdn/legal/DSA/Rapport_Transparence_1_v1/RAKUTEN_FRANCE_RAPPORT_TRANSPARENCE_2025.pdf) | PDF; 2025 | likely |
 | Boulanger | Boulanger SA | [PDF](https://www.boulanger.com/content/dam/Boulanger/juridique/mentions-legales/rapporttransparence-dsa-2024.pdf) | PDF; CY2024 | likely |
-| Carrefour Marketplace | Carrefour | [Legal notices](https://www.carrefour.fr/mentions-legales) | Linked report; FY2024 & FY2025 | likely |
+| Carrefour Marketplace | Carrefour | [Legal notices](https://www.carrefour.fr/mentions-legales) | XLSX (Annex I template); FY2024 & FY2025 | likely |
 | eMAG | Dante International S.A. | [Report](https://www.emag.ro/info/raport-transparenta-dsa) | HTML + downloads; biannual | likely |
 | Notino | Notino s.r.o. | [Report](https://www.notino.com/dsa-transparency-report/) | HTML/PDF | likely |
 | MediaMarkt / Saturn | MediaMarktSaturn | [Report](https://www.mediamarkt.de/de/shop/dsa-transparenzbericht.html) | HTML | likely |

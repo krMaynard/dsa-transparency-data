@@ -30,18 +30,19 @@ Sheet names are sometimes localised (German for Web.de, French for Veepee), but
 the section *order* is fixed, so the extractor maps by position. This is the same
 table structure as the aggregated VLOP dataset (`t3`–`t11`).
 
-## Status (53 template platforms — see `sources.csv`)
+## Status (54 template platforms — see `sources.csv`)
 
-- **28 extracted** — the 8 direct-file platforms, 19 found by crawling the
-  landing pages (`discover_hubs.py`), and Dailymotion (provided directly):
-  AboutYou, Ceneo, Cloudflare, Dailymotion, DuckDuckGo, Expedia, HomeToGo,
-  Hostelworld, Hostinger, Hotels.com, IMDb, Konami, Lilo, LinkedIn, ManoMano,
-  Match Group (Tinder), Niantic (Pokémon GO), Pinterest, Qwant, Roblox, Shopify,
-  Skroutz, Veepee, Vinted, Vrbo, Web.de, Wikipedia, Yahoo. For multi-brand
-  providers (Match Group, Niantic, Yahoo, DuckDuckGo, Expedia family) we keep one
-  representative/flagship file per catalogue platform. (Dailymotion was catalogued
-  as an HTML/narrative report until its standardized XLSX surfaced, so it had been
-  marked `harmonised_template = no`; the catalogue is now corrected to `yes`.)
+- **29 extracted** — the 8 direct-file platforms, 19 found by crawling the
+  landing pages (`discover_hubs.py`), and Carrefour + Dailymotion (provided
+  directly): AboutYou, Carrefour, Ceneo, Cloudflare, Dailymotion, DuckDuckGo,
+  Expedia, HomeToGo, Hostelworld, Hostinger, Hotels.com, IMDb, Konami, Lilo,
+  LinkedIn, ManoMano, Match Group (Tinder), Niantic (Pokémon GO), Pinterest,
+  Qwant, Roblox, Shopify, Skroutz, Veepee, Vinted, Vrbo, Web.de, Wikipedia,
+  Yahoo. For multi-brand providers (Match Group, Niantic, Yahoo, DuckDuckGo,
+  Expedia family) we keep one representative/flagship file per catalogue
+  platform. (Carrefour Marketplace and Dailymotion were catalogued as
+  linked/HTML reports until their standardized XLSX files surfaced — both
+  corrected to `harmonised_template = yes`.)
 - **4 format-variant** — Discord (renumbers the sections), LINE (a 5-sheet
   variant), WordPress.com (a different report: DMCA / government / IRU requests,
   not the Annex I template), heise (a single combined CSV). Downloaded but not

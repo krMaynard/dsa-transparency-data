@@ -1,0 +1,50 @@
+Applicabilité,Service,Période couverte par le rapport,Section,Indicateur,Champ d’application,Valeur,Informations contextuelles
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures prises par des moyens automatisés uniquement,Nombre total,166,- Suspensions de vendeurs pour cause de standards de qualité de service de la plateforme non respectés sur une durée significative
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures non prises par des moyens automatisés,Nombre total,908,
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Précision,Nombre total,1,"- Système de détection automatisé d'indicateurs de qualité de service, permettant de fixer des seuils sur une durée déterminée et de suspendre les vendeurs tiers si le seuil n'est pas atteint"
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Exactitude,Nombre total,1,
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Rappel,Nombre total,8 critères,"- Délais d'acceptation supérieur à 48h depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Evaluation client inférieure à 3,0/5 depuis 3 mois pour les boutiques ayant reçu au moins 3 évaluations
+- Commandes refusées automatiquement supérieures à 2
+- Taux d'acceptation des commandes inférieur à 90% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Taux d'incident sur les commandes supérieur à 15% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Taux de remboursement sur les commandes supérieur à 15% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Taux de suivi des commandes inférieur à 50% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Temps de réponse supérieur à 48 heures ouvrées depuis 1 mois pour les boutiques ayant enregistré au moins 15 commandes"
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures prises par des moyens automatisés uniquement,Initiative propre,166,- Suspensions de vendeurs pour cause de standards de qualité de service de la plateforme non respectés sur une durée significative
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures non prises par des moyens automatisés,Initiative propre,894,
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Précision,Initiative propre,1,"- Système de détection automatisé d'indicateurs de qualité de service, permettant de fixer des seuils sur une durée déterminée et de suspendre les vendeurs tiers si le seuil n'est pas atteint"
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Exactitude,Initiative propre,1,
+Tous,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Rappel,Initiative propre,8 critères,"- Délais d'acceptation supérieur à 48h depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Evaluation client inférieure à 3,0/5 depuis 3 mois pour les boutiques ayant reçu au moins 3 évaluations
+- Commandes refusées automatiquement supérieures à 2
+- Taux d'acceptation des commandes inférieur à 90% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Taux d'incident sur les commandes supérieur à 15% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Taux de remboursement sur les commandes supérieur à 15% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Taux de suivi des commandes inférieur à 50% depuis 3 mois pour les boutiques ayant enregistré au moins 15 commandes
+- Temps de réponse supérieur à 48 heures ouvrées depuis 1 mois pour les boutiques ayant enregistré au moins 15 commandes"
+"Uniquement pour les fournisseurs de services d’hébergement, y compris les plateformes en ligne",Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de notifications traitées par des moyens automatisés uniquement,MNA - Total,0,
+"Uniquement pour les fournisseurs de services d’hébergement, y compris les plateformes en ligne",Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de notifications non traitées par des moyens automatisés,MNA - Total,14,
+"Uniquement pour les fournisseurs de services d’hébergement, y compris les plateformes en ligne",Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Précision,MNA - Total,,
+"Uniquement pour les fournisseurs de services d’hébergement, y compris les plateformes en ligne",Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Exactitude,MNA - Total,,
+"Uniquement pour les fournisseurs de services d’hébergement, y compris les plateformes en ligne",Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Rappel,MNA - Total,,
+Uniquement pour les fournisseurs de plateformes en ligne,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de notifications traitées par des moyens automatisés uniquement,MNA - Signaleur de confiance,,
+Uniquement pour les fournisseurs de plateformes en ligne,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de notifications non traitées par des moyens automatisés,MNA - Signaleur de confiance,,
+Uniquement pour les fournisseurs de plateformes en ligne,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Précision,MNA - Signaleur de confiance,,
+Uniquement pour les fournisseurs de plateformes en ligne,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Exactitude,MNA - Signaleur de confiance,,
+Uniquement pour les fournisseurs de plateformes en ligne,Marketplace Carrefour.fr,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Rappel,MNA - Signaleur de confiance,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures prises par des moyens automatisés uniquement,bg,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures prises par des moyens automatisés uniquement,[...],,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures prises par des moyens automatisés uniquement,sv,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures non prises par des moyens automatisés,bg,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures non prises par des moyens automatisés,[...],,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Nombre de mesures non prises par des moyens automatisés,sv,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Précision,bg,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Exactitude,[...],,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Rappel,sv,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Précision,bg,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Exactitude,[...],,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Rappel,sv,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Précision,bg,,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Exactitude,[...],,
+Uniquement pour les fournisseurs de VLOP,,2025-01-01/2025-12-31,Recours à des moyens automatisés à des fins de modération des contenus,Précision des moyens automatisés - Rappel,sv,,

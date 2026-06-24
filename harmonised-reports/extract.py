@@ -36,6 +36,7 @@ SECTIONS = [
 SOURCES = {
     "aboutyou":  ("aboutyou.csv.xlsx", "xlsx"),
     "dailymotion": ("dailymotion.xlsx", "xlsx"),
+    "carrefour": ("carrefour.xlsx", "xlsx"),
     "linkedin":  ("linkedin.zip", "zipcsv"),
     "manomano":  ("manomano.xlsx", "xlsx"),
     "pinterest": ("pinterest.zip", "zipcsv"),
