@@ -491,7 +491,7 @@ negative result is not re-searched:
   Mail.ru, OK.ru/Odnoklassniki, Ozon, Wildberries, RuTube, Dzen, Rambler, Kufar,
   Yango, Nebius.
 - **Other CEE / Baltic / Balkan (no findable report; many bot-blocked):** Media Expert,
-  RTV Euro AGD, Pracuj.pl, Otodom, Gratka, Slevomat, Datart, Aukro.cz, Kaufland.cz,
+  RTV Euro AGD, Pracuj.pl, Otodom, Gratka, Slevomat, Datart,
   Modivo/eobuwie, Answear, Bookline; ss.lv, Osta.ee, Skelbiu.lt, Aruodas.lt, City24,
   Njuškalo (HR), Bolha (SI), Index Oglasi, Mimovrste, OLX.bg, Bazar.bg, Car.gr,
   Spitogatos, Publi24, Lajumate, Kainos.lt, Varle.lt, Senukai; KupujemProdajem
