@@ -469,6 +469,14 @@ negative result is not re-searched:
   NetEase Games, Lilith, Moonton, Century Games, Kwai/Kuaishou,
   Xiaohongshu/RED, Trip.com, QQ/QZone, Bilibili, Douyin; Vivo, Lenovo, Anker, TCL,
   Huawei Cloud.
+- **Indian platforms (no report found; most are India-only / out of DSA scope):**
+  EU-present but no findable DSA page — OYO, Pocket FM, Kuku FM, Pratilipi, MakeMyTrip,
+  Cleartrip, Ixigo, InMobi/Glance, ShareChat, Moj; Zoho & Freshworks (GDPR/security
+  material only, no DSA report). India-only / out of scope — Flipkart, Myntra, Meesho,
+  Nykaa, Snapdeal, Ajio, Dream11, MPL, WinZO, Nazara, Gameskraft, Zupee (real-money
+  gaming, barred in most EU states), Shaadi.com, BharatMatrimony, Jeevansathi,
+  WazirX, CoinDCX, CoinSwitch (crypto → MiCA, not DSA), Naukri, BYJU'S, Unacademy,
+  upGrad, JioCinema, JioSaavn, Gaana, Dailyhunt/Josh.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
