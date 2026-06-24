@@ -58,6 +58,10 @@ The best starting points for finding more report locations:
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
 | Discord | Discord Netherlands B.V. | [Hub](https://discord.com/safety-transparency) | ZIP (machine-readable template); 2024 & 2025 | verified |
+| Messenger / Instagram Direct | Meta Platforms Ireland | [Meta non-VLOP reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | In Meta's non-VLOP DSA report; periodic | likely |
+| LINE | LY Corporation | [Report](https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/) | Excel (Art. 15); CY2025 | verified |
+| WeChat | Tencent International Service Europe B.V. | [2026 report](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2026) ([prior](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2025)) | HTML (Art. 15); 2024 & 2025 | verified |
+| IMDb | IMDb.com, Inc. (Amazon) | [DSA info](https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86) | XLSX/CSV; 2024, H1 & H2 2025 | verified |
 | Reddit | Reddit, Inc. | [DSA info / Transparency Center](https://support.reddithelp.com/hc/en-us/articles/23595536875796-Digital-Services-Act-DSA-Information-for-EU-users) | PDF; semi-annual | likely |
 | Viber | Rakuten Viber (Viber Media S.à r.l.) | [Report](https://www.viber.com/en/terms/eu-digital-services-act-dsa-transparency-report/) | HTML + tables; 18 Feb – 31 Dec 2025 | verified |
 | Flickr | SmugMug, Inc. | [Legal / Transparency](https://www.flickr.com/help/legal) | PDF + XLSX; 2024 & 2025 | verified |
@@ -81,6 +85,7 @@ The best starting points for finding more report locations:
 |----------|-------------------|------------|-----------------|------------|
 | Spotify | Spotify AB | [Hub](https://www.spotify.com/safetyandprivacy/transparency) ([2025 reports](https://www.spotify.com/safetyandprivacy/file/eu_2025_dsa_report_introduction_spotify)) | Report files; Art. 15; CY2025 | verified |
 | SoundCloud | SoundCloud Ltd | [Hub](https://soundcloud.com/transparency-reports) ([2025 PDF](https://pages.soundcloud.com/en/transparency-reports/resources/SoundCloud_DSA_Report_2025_EN.pdf)) | PDF; 2025 | verified |
+| Apple Podcasts | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/) | HTML + XLSX; 2024 & Feb 2026 | verified |
 
 ## E-commerce marketplaces & retail
 
@@ -229,6 +234,8 @@ The best starting points for finding more report locations:
 | Vercel | Vercel Inc. | [Transparency](https://vercel.com/legal/transparency) | Web; 17 Feb – 15 Dec 2024 | verified |
 | Gandi | Gandi SAS | [Report](https://www.gandi.net/en-US/digital-service-act-transparency-report) | Web + PDF; 2024 & 2025 | verified |
 | Alibaba Cloud | Alibaba Cloud (Alibaba.com Singapore) | [DSA compliance](https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information) | PDF; 17 Feb 2024 – 16 Feb 2025 (cloud service, not the Alibaba.com marketplace) | verified |
+| AWS | Amazon Web Services | [PDF](https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf) | PDF (Art. 15); covers AWS services | verified |
+| iCloud Storage | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/) | HTML + XLSX; 2024 & Feb 2026 | verified |
 | Hetzner | Hetzner Online GmbH | [DSA page](https://www.hetzner.com/legal/digital-services-act/) | Contact/notice page only | uncertain |
 | Fastly | Fastly, Inc. | [DMCA/DSA](https://www.fastly.com/dmca-dsa) | Compliance notice only | uncertain |
 
@@ -239,6 +246,15 @@ The best starting points for finding more report locations:
 | DuckDuckGo | DuckDuckGo, Inc. | [Regulatory reporting](https://duckduckgo.com/duckduckgo-help-pages/r-legal/regulatory-reporting) | XLSX (template); CY2025 (+ 2024 PDF) | verified |
 | Qwant | Qwant (France) | [Report](https://about.qwant.com/legal/rapport-de-transparence-qwant-2025/) | HTML + Excel + PDF; CY2025 | verified |
 | Lilo | Lilo SAS (now Qwant) | [Report](https://lilo.org/rapport-transparence) | HTML + Excel; Sep – Dec 2025 | verified |
+
+## Browsers, email & portals
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| Yahoo (+ AOL) | Yahoo International Limited | [EU DSA hub](https://www.yahooinc.com/transparency/reports/eu-digital-services-act/index.html) | HTML + PDF + CSV; 17 Feb – 31 Dec 2025 | verified |
+| Mozilla / Firefox | Mozilla Corporation | [Transparency](https://www.mozilla.org/en-US/about/policy/transparency/2024/) | DSA report; CY2024 | verified |
+| GMX | 1&1 Mail & Media GmbH | [Transparenzbericht](https://freephone.gmx.net/transparenzbericht) | ODS (Art. 15); 2024 & 2025 | verified |
+| Web.de | 1&1 Mail & Media GmbH | [Impressum](https://www.web.de/impressum/) ([2025 XLSX](https://s.uicdn.com/pih/legal/2025TransparencyReport.xlsx)) | XLSX (Art. 15); 2025 | verified |
 
 ## Reviews & jobs
 
@@ -263,6 +279,7 @@ The best starting points for finding more report locations:
 | Scribd (Everand, SlideShare) | Scribd, B.V. | [DSA section](https://support.scribd.com/hc/en-us/sections/23708444653588-Publication-of-Information-for-the-European-Digital-Services-Act) | HTML; from late 2024 | verified |
 | Civitai | Civitai, Inc. | [2024 report](https://civitai.com/articles/10372/civitai-2024-transparency-report) | HTML annual report (not DSA template); 2024 | uncertain |
 | SAP Community | SAP SE | [DSA report](https://pages.community.sap.com/resources-legal/dsa-transparency-report-2025) | Web/PDF; 17 Feb – 31 Dec 2025 | verified |
+| Apple Books | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/books/2502/) | HTML + XLSX; 2024 & Feb 2026 | verified |
 
 ## Adult content
 
@@ -416,6 +433,15 @@ negative result is not re-searched:
   Adverts.ie, Gumtree.ie (shared Distilled DSA portal — Art. 24(2)/notice only);
   Gelbe Seiten, Das Örtliche, PagesJaunes/Solocal, Cylex, GoLocal, werkenntden,
   Quoka, Deine-Tierwelt, Bazaraki, Locanto.
+- **Messaging (no DSA content-moderation report found):** Signal (government-requests
+  only), Threema (Swiss BÜPF only), KakaoTalk (privacy report only), CapCut (DSA info
+  page only), Lark, Element/Matrix, Wire, Wickr.
+- **Browsers / portals (no report found):** Opera (security report only), Vivaldi,
+  Proton (Art. 11 contact only).
+- **Big-tech non-VLOP services not separately reported:** Apple Maps, Apple TV, Apple
+  Music; Google Chrome Web Store, Google Drive, Blogger, Google News, Google Photos,
+  Waze (Google reports these only in its aggregate MAR disclosure); Amazon Prime Video,
+  Amazon Music.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
