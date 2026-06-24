@@ -24,6 +24,10 @@ CREATE TABLE platform (
     format_period   TEXT,                       -- e.g. "PDF; CY2024"
     confidence      TEXT NOT NULL CHECK (confidence IN ('verified','likely','uncertain')),
     confidence_note TEXT,                        -- parenthetical caveat, if any
+    -- Uses the EU harmonised machine-readable template (Reg. (EU) 2024/2835,
+    -- Annex I)? 'partial' = latest report only / unverified file.
+    harmonised_template TEXT NOT NULL DEFAULT 'unknown'
+        CHECK (harmonised_template IN ('yes','no','partial','unknown')),
     UNIQUE (name, category_id)
 );
 
@@ -44,6 +48,7 @@ SELECT p.name        AS platform,
        co.name       AS company,
        ca.name       AS category,
        p.confidence  AS confidence,
+       p.harmonised_template,
        p.format_period,
        ru.label      AS url_label,
        ru.url        AS url

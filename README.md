@@ -105,9 +105,11 @@ EU online platform above the small-enterprise threshold to publish a periodic
 transparency report — scattered across each platform's own site, with no single
 official index. [`REPORT_LOCATIONS.md`](REPORT_LOCATIONS.md) catalogues where
 those reports live for ~130 non-VLOP platforms (operating company, report URL(s),
-format/period, and a verified/likely/uncertain confidence rating), grouped by
-category, plus the authoritative EU/aggregator index sources and a categorised
-list of platforms that were searched but had no findable report.
+format/period, a verified/likely/uncertain confidence rating, and whether the
+report uses the EU harmonised machine-readable template), grouped by category. It
+also lists the 25 designated VLOPs/VLOSEs for completeness, the authoritative
+EU/aggregator index sources, and a categorised list of platforms that were
+searched but had no findable report.
 
 ### Relational database
 
@@ -123,6 +125,12 @@ python3 build_reports_db.py     # writes dsa_reports.db + dsa_reports.csv
   have several URLs, e.g. a hub page + a direct file). A `v_reports` view flattens
   the join alphabetically. Stdlib only — no dependencies.
 - **`dsa_reports.csv`** — one row per report URL, git-friendly and diffable.
+
+Each platform carries a **`harmonised_template`** dimension — whether its report
+uses the EU machine-readable template (Reg. (EU) 2024/2835, Annex I): `yes` /
+`no` / `partial` (latest report only / file unverified) / `unknown`. It is derived
+from the recorded format, with a curated override table for the VLOPs (whose first
+harmonised reports were due end of Feb 2026).
 
 Re-run the script after editing `REPORT_LOCATIONS.md` to regenerate both. Example
 query:

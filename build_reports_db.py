@@ -33,6 +33,53 @@ SKIP_SECTIONS = {
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 CONF_RE = re.compile(r"^(verified|likely|uncertain)\b(.*)$", re.IGNORECASE)
 
+# Whether a report uses the EU harmonised machine-readable template
+# (Implementing Regulation (EU) 2024/2835, "Annex I" XLSX/CSV), which applies to
+# data collected from 1 Jul 2025 (first such reports due end of Feb 2026).
+# Derived per platform from the recorded "format / period" text, then overridden
+# where we have better ground truth (notably the VLOPs, where the *latest* report
+# is the template even when the field describes an older narrative report).
+_TEMPLATE_YES = ("template", "annex", "machine-readable", "xlsx", "xls", "csv",
+                 "tsv", "ods", "excel", "spreadsheet")
+_TEMPLATE_UNCLEAR = ("notice", "contact", "unverified", "unconfirmed",
+                     "guide referenc", "js-rendered", "referenced", "info/orders",
+                     "mau only", "overview", "drive docs", "non-vlop dsa report",
+                     "linked report", "t&s report", "web transparency report",
+                     "zip", "annual art. 15 report", "art. 24(2)", "report files",
+                     "dsa info")
+_TEMPLATE_NARRATIVE = ("pdf", "html", "web", "legal page", "report + data")
+
+# Curated overrides (yes / no / partial / unknown). "partial" = the latest
+# (Feb 2026 / H2 2025) report uses the template though earlier ones were narrative
+# and the file was not directly verified.
+TEMPLATE_OVERRIDES = {
+    "LinkedIn": "yes", "Pinterest": "yes", "Wikipedia": "yes",
+    "XVideos": "no", "XNXX": "no",
+    "AliExpress": "partial", "Amazon Store": "partial", "Apple App Store": "partial",
+    "Booking.com": "partial", "Facebook": "partial", "Instagram": "partial",
+    "Snapchat": "partial", "TikTok": "partial", "X (Twitter)": "partial",
+    "YouTube": "partial", "Google Play": "partial", "Google Maps": "partial",
+    "Google Shopping": "partial", "Google Search (VLOSE)": "partial",
+    "Bing (VLOSE)": "partial", "Zalando": "partial", "Shein": "partial",
+    "Temu": "partial", "Pornhub": "partial",
+}
+
+
+def harmonised_template(name: str, fmt: str | None) -> str:
+    """Classify a platform's harmonised-template usage: yes/no/partial/unknown."""
+    if name in TEMPLATE_OVERRIDES:
+        return TEMPLATE_OVERRIDES[name]
+    if not fmt:
+        return "unknown"
+    f = fmt.lower()
+    if any(k in f for k in _TEMPLATE_YES):
+        return "yes"
+    if any(u in f for u in _TEMPLATE_UNCLEAR):
+        return "unknown"
+    if any(k in f for k in _TEMPLATE_NARRATIVE):
+        return "no"
+    return "unknown"
+
 SCHEMA = """
 PRAGMA foreign_keys = ON;
 
@@ -54,6 +101,8 @@ CREATE TABLE platform (
     format_period   TEXT,
     confidence      TEXT NOT NULL CHECK (confidence IN ('verified','likely','uncertain')),
     confidence_note TEXT,
+    harmonised_template TEXT NOT NULL DEFAULT 'unknown'
+        CHECK (harmonised_template IN ('yes','no','partial','unknown')),
     UNIQUE (name, category_id)
 );
 
@@ -74,6 +123,7 @@ SELECT p.name        AS platform,
        co.name       AS company,
        ca.name       AS category,
        p.confidence  AS confidence,
+       p.harmonised_template,
        p.format_period,
        ru.label      AS url_label,
        ru.url        AS url
@@ -151,10 +201,12 @@ def build_db(rows):
         for r in rows:
             cur.execute(
                 """INSERT INTO platform
-                   (name, company_id, category_id, format_period, confidence, confidence_note)
-                   VALUES (?,?,?,?,?,?)""",
+                   (name, company_id, category_id, format_period, confidence,
+                    confidence_note, harmonised_template)
+                   VALUES (?,?,?,?,?,?,?)""",
                 (r["platform"], co_ids[r["company"]], cat_ids[r["category"]],
-                 r["format_period"], r["confidence"], r["confidence_note"]),
+                 r["format_period"], r["confidence"], r["confidence_note"],
+                 harmonised_template(r["platform"], r["format_period"])),
             )
             pid = cur.lastrowid
             for label, url in r["links"]:
@@ -182,6 +234,7 @@ def write_csv(rows):
                 "company": r["company"],
                 "category": r["category"],
                 "confidence": r["confidence"],
+                "harmonised_template": harmonised_template(r["platform"], r["format_period"]),
                 "format_period": r["format_period"],
                 "url_label": label,
                 "url": url,
@@ -189,7 +242,7 @@ def write_csv(rows):
     with CSV_PATH.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=[
             "platform", "company", "category", "confidence",
-            "format_period", "url_label", "url",
+            "harmonised_template", "format_period", "url_label", "url",
         ])
         w.writeheader()
         w.writerows(flat)
