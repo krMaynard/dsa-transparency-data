@@ -474,9 +474,9 @@ negative result is not re-searched:
   Cleartrip, Ixigo, InMobi/Glance, ShareChat, Moj; Zoho & Freshworks (GDPR/security
   material only, no DSA report). India-only / out of scope — Flipkart, Myntra, Meesho,
   Nykaa, Snapdeal, Ajio, Dream11, MPL, WinZO, Nazara, Gameskraft, Zupee (real-money
-  gaming, barred in most EU states), Shaadi.com, BharatMatrimony, Jeevansaathi,
+  gaming, barred in most EU states), Shaadi.com, BharatMatrimony, Jeevansathi,
   WazirX, CoinDCX, CoinSwitch (crypto → MiCA, not DSA), Naukri, BYJU'S, Unacademy,
-  upGrad, JioCinema, JioSaavn, Gaana, DailyHunt/Josh.
+  upGrad, JioCinema, JioSaavn, Gaana, Dailyhunt/Josh.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
