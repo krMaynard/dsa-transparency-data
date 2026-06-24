@@ -51,7 +51,7 @@ The best starting points for finding more report locations:
 | [Tech Policy Press — DSA report tracker](https://www.techpolicy.press/tracking-the-first-digital-services-act-transparency-reports/) | Third-party tracker of the first reports (mainly VLOPs). |
 | [Tremau — DSA tracker](https://tremau.com/resources/dsa-database/) | Vendor tracker of designations + reporting guidance. |
 | [DSA Observatory (Univ. of Amsterdam)](https://dsa-observatory.eu/) | Academic analysis + researcher-built trackers. |
-| [Microsoft — DSA non-VLO report links](https://www.microsoft.com/en-us/digitalsafety/transparency-reports/jurisdictional-reports/dsa-non-vlo-tr-report-links) | Microsoft's own non-VLOP reports (incl. GitHub). |
+| [Microsoft — DSA non-VLO report links](https://www.microsoft.com/en-us/digitalsafety/transparency-reports/jurisdictional-reports/dsa-non-vlo-tr-report-links) | Authoritative company-published catalogue of ~20 Microsoft non-VLOP services' DSA reports (Azure, Edge, Outlook, OneDrive, Teams/Skype, Xbox, Start.gg, GroupMe, M365, Forms, Learn, Community, …), each a resolvable PDF. |
 
 ## Social, messaging, community & video
 
@@ -70,6 +70,7 @@ The best starting points for finding more report locations:
 | Kick | Kick Streaming Pty Ltd (Easygo) | [DSA guide](https://help.kick.com/en/articles/12066402-digital-services-act-dsa-information-guide) | HTML guide referencing the report | likely |
 | Yubo | Twelve App SAS | [Transparency report](https://www.yubo.live/safety/transparency-report) | Bi-annual T&S report (DSA-aligned) | likely |
 | Quora | Quora, Inc. | [DSA Transparency section](https://help.quora.com/hc/en-us/sections/13296037150612-DSA-Transparency) | HTML section; full Art. 15 stats unconfirmed | uncertain |
+| Start.gg / GroupMe | Microsoft | [PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Social-Media-DSA-Transparency-Report-Feb-Dec-2024.pdf) | PDF; Feb – Dec 2024 | verified |
 | heise forums | Heise Medien GmbH & Co. KG | [DSA transparency](https://www.heise.de/Transparenz-nach-dem-Digital-Services-Act-DSA-10639819.html) | CSV; annual (2024 & 2025) | verified |
 | gutefrage | gutefrage.net GmbH | [Transparenzbericht](https://www.gutefrage.net/company/transparenzbericht) | Annual Art. 15 report | likely |
 | eToro (social/copy-trading) | eToro (Europe) Ltd | [DSA transparency report](https://www.etoro.com/customer-service/regulation-license/dsa-transparency-report/) | PDF set (Art. 15/24 template) | verified |
@@ -186,6 +187,7 @@ The best starting points for finding more report locations:
 | Samsung Galaxy Store | Samsung Electronics | [Regulatory info](https://www.samsung.com/uk/support/regulatory-information/) | PDF; Aug 2025 – Jan 2026 | verified |
 | Epic Games Store | Epic Games, Inc. | [Report](https://safety.epicgames.com/transparency-reports/european-union) | XLSX + hub; Feb 2024 – Feb 2025 | likely |
 | Twitch | Twitch Interactive (Amazon) | [Report](https://safety.twitch.tv/s/article/Twitch-DSA-Transparency-Report-February-2025) | HTML; Feb 2025 | likely |
+| Xbox | Microsoft | [PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Xbox-platform-and-Xbox-Game-Studios-DSA-Transparency-Report-2024.pdf) | PDF; 2024 | verified |
 | Miniclip | Miniclip SA (Tencent) | [Report](https://www.miniclip.com/dsa-transparency-report) | Landing + ZIP; CY2025 | verified |
 | GameDistribution | Azerion | [Report](https://static.gamedistribution.com/dsa-transparency-report.html) | HTML; CY2024 | verified |
 | Niantic (Pokémon GO, …) | Niantic Inc. | [Report](https://nianticlabs.com/dsa-transparency) | Landing + Excel/PDF; CY2025 | verified |
@@ -260,6 +262,7 @@ The best starting points for finding more report locations:
 | Udemy | Udemy, Inc. | [DSA information](https://support.udemy.com/hc/en-us/articles/17923655139095-Digital-Services-Act-Information-European-Union-Users-Only) | HTML; CY2024 | verified |
 | Scribd (Everand, SlideShare) | Scribd, B.V. | [DSA section](https://support.scribd.com/hc/en-us/sections/23708444653588-Publication-of-Information-for-the-European-Digital-Services-Act) | HTML; from late 2024 | verified |
 | Civitai | Civitai, Inc. | [2024 report](https://civitai.com/articles/10372/civitai-2024-transparency-report) | HTML annual report (not DSA template); 2024 | uncertain |
+| SAP Community | SAP SE | [DSA report](https://pages.community.sap.com/resources-legal/dsa-transparency-report-2025) | Web/PDF; 17 Feb – 31 Dec 2025 | verified |
 
 ## Adult content
 
