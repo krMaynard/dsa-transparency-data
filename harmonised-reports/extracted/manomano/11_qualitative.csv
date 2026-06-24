@@ -1,0 +1,23 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"At ManoMano we moderate content at our own initiative for two reasons:
+- when a product falls out of the scope of our taxonomy (out of the DYI, tooling, gardening) 
+- when a product is deemed to be illicit or dangerous (Safety Gate, firearms, etc)"
+All,,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"The platform's content moderation pipeline for out-of-scope product identification rests on a two-stage architecture: automated taxonomic classification followed by rule-based enforcement. 
+
+In a first stage, every seller-listed product is subjected to a machine learning categorisation workflow composed of a retrieval model, which shortlists candidate leaf nodes from the platform's internal Product Information Management (PIM) taxonomy, and a supervised fine-tuned large language model (LLM) which assigns a definitive category path expressed as a hierarchical string (e.g., Plomberie > Robinetterie > Robinets). 
+
+The PIM taxonomy tree itself encodes a scope attribute at the category root level, distinguishing IN_SCOPE from OUT_OF_SCOPE nodes; when the LLM's predicted category resolves to a node whose scope is OUT_OF_SCOPE, the product is flagged accordingly. 
+Note that a complementary human review process enables the categorization into out of scope categories as well whenever business operators flag improper content into our databases.
+In a second, enforcement stage, products confirmed as out-of-scope receive the platform-internal inactive reason PRODUCT_DISALLOWED, which causes immediate delisting of the corresponding offer."
+All,,2025-01-01/2025-12-31,Qualitative description of the automated means,These means of detections are quite satisfactory from our standpoint as more han 98% of product moderation (out of scope reason) is automated via the above mechanism.
+All,,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"True positive rate : 79%
+Recall : 89%"
+All,,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,"We apply this moderation for two purposes:
+- Our own Terms and Conditions and/or Seller Contract when we detect a product falling out the scope of our taxonomy.
+- The laws and regulations when a product is illicit or dangerous"
+All,,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,Alongside the used of automated means we can conduct manual sample checks and manual suspension to ensure the better compliance of our catalogue of products.
+Only for VLOPs,,2025-01-01/2025-12-31,High-level description of the content moderation governance structure,n/a
+Only for VLOPs,,2025-01-01/2025-12-31,Qualifications of the human resources dedicated to content moderation,n/a
+Only for VLOPs,,2025-01-01/2025-12-31,Training given to human resources dedicated to content moderation,n/a
+Only for VLOPs,,2025-01-01/2025-12-31,Support given to human resources dedicated to content moderation,n/a
+Only for VLOPs,,2025-01-01/2025-12-31,Methodology used to compute the number of human resources dedicated to content moderation,n/a
