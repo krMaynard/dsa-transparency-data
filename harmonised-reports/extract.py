@@ -15,6 +15,7 @@ Re-run after adding files to raw/:  python3 extract.py
 from __future__ import annotations
 
 import csv
+import io
 import json
 import os
 import zipfile
@@ -105,7 +106,10 @@ def read_zipcsv(path: str) -> list[list[list[str]]]:
     with zipfile.ZipFile(path) as z:
         for info in z.namelist():
             base = os.path.basename(info)
-            if not base.lower().endswith(".csv") or info.startswith("__MACOSX"):
+            # Skip non-CSVs and macOS metadata (the __MACOSX/ dir and the
+            # AppleDouble "._name" sidecar files, which are binary, not CSV).
+            if (not base.lower().endswith(".csv") or info.startswith("__MACOSX")
+                    or base.startswith("._")):
                 continue
             nums = [int(n) for n in num_re.findall(base) if 1 <= int(n) <= 11]
             if not nums:
@@ -113,7 +117,9 @@ def read_zipcsv(path: str) -> list[list[list[str]]]:
             idx = nums[-1]  # the section number sits just before the title
             with z.open(info) as f:
                 text = f.read().decode("utf-8-sig", errors="replace")
-            rows = list(csv.reader(text.splitlines()))
+            # Parse via StringIO (not splitlines) so newlines *inside* quoted
+            # fields — common in the qualitative section — don't split a row.
+            rows = list(csv.reader(io.StringIO(text)))
             while rows and not any(c.strip() for c in rows[-1]):
                 rows.pop()
             out[idx] = rows
