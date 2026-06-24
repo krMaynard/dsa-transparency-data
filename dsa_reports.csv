@@ -7,8 +7,8 @@ Alibaba Cloud,Alibaba Cloud (Alibaba.com Singapore),"Web hosting, registrars, si
 AliExpress,Alibaba (AliExpress),Designated VLOPs / VLOSEs,likely,partial,Hub; latest H2 2025,Transparency center,https://www.aliexpress.com/p/transparencycenter/transparencyReport.html
 Amazon Store,Amazon EU S.à r.l.,Designated VLOPs / VLOSEs,likely,partial,HTML; Jul – Dec 2025,Report,https://trustworthyshopping.aboutamazon.com/eu-transparency-report-amazon-jul-dec-2025
 Apple App Store,Apple Distribution International,Designated VLOPs / VLOSEs,likely,partial,Hub + PDF,DSA hub,https://www.apple.com/legal/dsa/
-Apple Books,Apple Distribution International,"Creator, publishing, education & community",verified,yes,HTML + XLSX; 2024 & Feb 2026,Report,https://www.apple.com/legal/dsa/transparency/eu/books/2502/
-Apple Podcasts,Apple Distribution International,Audio / music streaming,verified,yes,HTML + XLSX; 2024 & Feb 2026,Report,https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
+Apple Books,Apple Distribution International,"Creator, publishing, education & community",verified,yes,HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template,Report,https://www.apple.com/legal/dsa/transparency/eu/books/2502/
+Apple Podcasts,Apple Distribution International,Audio / music streaming,verified,yes,HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template,Report,https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
 AutoScout24,AutoScout24 SE,"Classifieds, real estate & auto",verified,no,PDF (Art. 15/24); Jul – Dec 2024,PDF,https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf
 AWS,Amazon Web Services,"Web hosting, registrars, site builders & infrastructure",verified,no,PDF (Art. 15); covers AWS services,PDF,https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf
 Back Market,Back Market SAS,E-commerce marketplaces & retail,verified,no,PDF; Apr 2025 (semi-annual),PDF,https://assets.ctfassets.net/mmeshd7gafk1/1rtDZVxgD6BhehY82JVTiX/2aacbe1237b2aa49b869c20b982795a2/Transparency_Report_04.2025.pdf
@@ -85,7 +85,7 @@ Hostinger,Hostinger International Ltd.,"Web hosting, registrars, site builders &
 Hotels.com,"Hotels.com, L.P.","Travel, mobility, accommodation & events",verified,yes,PDF + XLSX; 2024 & 2025,Hub,https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act
 Hugging Face,Hugging Face SAS,Developer / software / hosting,likely,no,PDF; 2025,Content policy,https://huggingface.co/content-policy
 Hugging Face,Hugging Face SAS,Developer / software / hosting,likely,no,PDF; 2025,2025 PDF,https://cdn-media.huggingface.co/landing/assets/DSA_HF_2025.pdf
-iCloud Storage,Apple Distribution International,"Web hosting, registrars, site builders & infrastructure",verified,yes,HTML + XLSX; 2024 & Feb 2026,Report,https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/
+iCloud Storage,Apple Distribution International,"Web hosting, registrars, site builders & infrastructure",verified,yes,HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template,Report,https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/
 Idealista,Idealista S.A.U.,"Classifieds, real estate & auto",likely,no,HTML; Art. 15/24,DSA info,https://www.idealista.com/ayuda/articulos/informacion-de-idealista-en-cumplimiento-del-reglamento-de-servicios-digitales/
 idealo,idealo internet GmbH,E-commerce marketplaces & retail,likely,no,HTML; CY2025,DSA legal page,https://www.idealo.de/legal/dsa
 IMDb,"IMDb.com, Inc. (Amazon)","Social, messaging, community & video",verified,yes,"XLSX/CSV; 2024, H1 & H2 2025",DSA info,https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86
