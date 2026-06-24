@@ -1,0 +1,86 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Vinted Marketplace,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"We employ the following proactive content moderation efforts:
+
+1. Automated means: 
+- We use advanced algorithms to automatically detect and filter out prohibited content, such as counterfeit goods, illegal items, and inappropriate language. In some specific cases, we use automation also to moderate listings. 
+
+2. Manual review:
+- Content moderators: Aside from automated moderation decisions, a dedicated team of human moderators reviews reported content.
+- Community reports: Users can report suspicious or inappropriate content or accounts, which are then manually reviewed by the moderation team.
+- Notice and action mechanism: Individuals or entities, not necessarily users, can report illegal listings via a dedicated notice and takedown tool, which is then manually reviewed by the moderation team.  
+
+3. Prohibited listings and content:
+- We have a detailed list of prohibited items, including but not limited to counterfeit goods and stolen items. Listings that violate these rules are removed.
+- Content that promotes hate speech, violence, or any form of discrimination is also strictly prohibited and promptly removed when discovered or reported.
+
+4. User verification and behavior monitoring:
+- Profile verification: We verify user profiles to enhance trust and authenticity on the platform. In particular, traders that can trade on Vinted platforms are traced and required to provide certain business information about themselves and are enabled to provide certain mandatory information about the products they list on Vinted. 
+
+5. Content moderation policies and restrictions: Content moderation violation may entail the following restrictions: removal, visibility restriction of content; account suspension, or termination; suspend or terminate the provision of the service. The application of a given restriction is proportional to the gravity and frequency of the sanctioned conduct.  
+
+6. Educational efforts:
+- Guidelines and policies: We provide clear guidelines and policies to educate users about acceptable behavior and content.
+- Community engagement: We encourage a community-driven approach where users help maintain standards by reporting violations.
+
+7. Feedback and adaptation:
+- User feedback and quality checks: We incorporate user feedback and regularly carry out quality checks to continually improve its moderation practices. 
+- Regular updates: Policies and moderation tools are regularly updated to address new types of content and emerging threats."
+All,Vinted Marketplace,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"We engage in proactive content moderation to ensure compliance with applicable laws, platform Terms and Conditions, and community standards. These measures aim to prevent the dissemination of illegal content, reduce the availability of prohibited goods, and promote a safe and trustworthy online environment.
+
+Content moderation combines automated detection systems and human oversight. Automated systems are used to identify potentially non-compliant listings and content at scale, while human moderators assess context, verify suspected violations, and make final decisions in complex or borderline cases.
+
+Moderation actions may include removal of listings, restriction of visibility, restriction of service features, account suspension, or termination. The severity of measures applied is proportionate to the nature, gravity, and recurrence of the violation.
+
+We continuously review and update our moderation processes to respond to emerging risks, regulatory developments, and user feedback."
+All,Vinted Marketplace,2025-01-01/2025-12-31,Qualitative description of the automated means,"We use automated tools, including machine learning models and rule-based detection systems, to proactively identify content that may violate applicable laws or platform rules.
+
+These tools may:
+- Detect keywords, patterns, or metadata associated with prohibited goods or illegal activities
+- Identify images potentially linked to counterfeit or restricted products
+- Flag suspicious behavioral patterns
+- Automatically restrict or temporarily limit content pending human review
+- Automated systems are designed to prioritize content for review and, in clearly defined cases, may take immediate action where high confidence thresholds are met
+- Automated moderation does not operate in isolation; human moderators review cases where contextual assessment is required, or perform regular reviews to validate precision."
+All,Vinted Marketplace,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"We monitor the performance of automated moderation systems through internal quality assurance processes and periodic audits.
+
+Accuracy indicators may include:
+- Precision rates (proportion of correctly identified violations among flagged content)
+- False positive rates (content incorrectly flagged or removed)
+- False negative assessments identified through user reports or subsequent review
+- Reversal rates following human review or successful appeal
+
+As with all automated systems, there is a possibility of error. False positives may occur where lawful content is mistakenly flagged, and false negatives may occur where violative content is not immediately detected.
+
+To mitigate these risks, automated decisions are subject to:
+- Human oversight in non-obvious cases
+- Internal review mechanisms
+- User appeal processes
+- Ongoing system retraining and calibration
+
+Performance metrics are regularly evaluated and adjusted to maintain proportionality and minimize undue impact on lawful expression or trade."
+All,Vinted Marketplace,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,"Automated moderation tools are applied for the following purposes:
+
+- Detection and prevention of illegal content
+- Enforcement of the platform’s Terms and Conditions
+- Protection of users from fraud, scams, and harmful conduct
+- Prevention of repeat violations and circumvention attempts
+- Prioritization of high-risk content for expedited human review
+- Ensuring compliance with applicable legal obligations, including the Digital Services Act
+
+Automated systems are not used to make arbitrary decisions or to restrict lawful content without legal or policy basis."
+All,Vinted Marketplace,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,"We apply the following safeguards in relation to automated moderation:
+
+- Human oversight and review for context-dependent or complex cases
+- Clear internal escalation procedures for borderline decisions
+- User notification when content is removed or restricted
+- Access to internal complaint-handling mechanisms
+- Proportionality assessment before account-level sanctions
+- Regular audits and performance monitoring of automated tools
+- Continuous improvement and retraining of models to reduce bias and error
+
+Automated systems are designed and implemented in a manner consistent with principles of proportionality, necessity, transparency, and non-discrimination."
+Only for VLOPs,Vinted Marketplace,2025-01-01/2025-12-31,High-level description of the content moderation governance structure,n/a
+Only for VLOPs,Vinted Marketplace,2025-01-01/2025-12-31,Qualifications of the human resources dedicated to content moderation,n/a
+Only for VLOPs,Vinted Marketplace,2025-01-01/2025-12-31,Training given to human resources dedicated to content moderation,n/a
+Only for VLOPs,Vinted Marketplace,2025-01-01/2025-12-31,Support given to human resources dedicated to content moderation,n/a
+Only for VLOPs,Vinted Marketplace,2025-01-01/2025-12-31,Methodology used to compute the number of human resources dedicated to content moderation,n/a

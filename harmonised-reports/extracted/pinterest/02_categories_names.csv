@@ -1,0 +1,334 @@
+Category label,Category description,Category of illegal content / incompatible with the terms and conditions,Contextual information
+TOTAL,All the entries,TOTAL,"The total category is the sum of all of the below categories.
+
+Please note that where the categories and subcategories below indicate that no policies have been mapped to a particular area, this does not necessarily mean we do not enforce against that type of content. In some cases, enforcement for that content may be captured under a different category or subcategory."
+Category 1,Animal welfare,STATEMENT_CATEGORY_ANIMAL_WELFARE,"This category encompasses actions taken against accounts and content under our Community Guidelines, specifically our prohibited and regulated goods, services and activities policy and pursuant to our prohibited products policy under our Merchant Guidelines.
+
+We remove or limit the distribution of content and accounts offering, manufacturing, or promoting substances, products, activities, or exploitative practices that risk harm to animals. This includes those involving instructions, offers, glorification, or promotion of animal exploitation such as: 
+- The sale of wild animals or protected and endangered wildlife.
+- Corpses, animal parts or products derived from cat or dog parts, or protected and endangered wildlife, including ivory.
+- Irresponsible and harmful animal tourism or otherwise exploitative practices like organized animal fighting.
+
+We don’t allow the advertising of live animals or products designed to inflict physical harm on animals in the name of training. We also don’t allow products made from tortoise shell, ivory, coral, crocodile skin, pangolin, tiger, polar bear or sea otter fur, and other endangered wildlife. This includes medicinal products made from rhinos, tigers or Asiatic black bears. For a full list of prohibited wildlife products, please visit our partner, the World Wildlife Fund."
+Category 1a,Animal harm,KEYWORD_ANIMAL_HARM,"This subcategory encompasses violations related to protected or endangered wildlife and animal exploitation under our Community Guidelines, specifically our prohibited and regulated goods, services and activities policy and pursuant to our prohibited products policy under our Merchant Guidelines."
+Category 1b,Unlawful sale of animals,KEYWORD_UNLAWFUL_SALE_ANIMALS,"This subcategory encompasses violations of our prohibited and regulated goods, services and activities policy related to wildlife exploitation."
+Category 1c,Not captured by any other sub-category  ,KEYWORD_OTHER,We have not mapped any of our policies to this subcategory.
+Category 2,Consumer information infringements,STATEMENT_CATEGORY_CONSUMER_INFORMATION,"This category encompasses violations of our Advertising and Merchant Guidelines related to information merchants and advertisers are required to provide.
+
+Pinterest does not facilitate the purchase, sale, or delivery of goods. Merchants on Pinterest are required to provide clear information regarding product quality, pricing, delivery times, and return processes. Advertisers are also required to provide accurate information about product quality, delivery times, return processes, and services. "
+Category 2a,"Hidden advertisement or commercial communication, including by influencers ",KEYWORD_HIDDEN_ADVERTISEMENT,We have not mapped any of our policies to this subcategory.
+Category 2b,Insufficient information on traders ,KEYWORD_INSUFFICIENT_INFORMATION_ON_TRADERS,"This subcategory encompasses violations of our Merchant Guidelines related to incomplete merchant information, including missing contact information or no “about us” page, incomplete websites and broken social media links."
+Category 2c,Misleading information about the characteristics of the goods and services,KEYWORD_MISLEADING_INFO_GOODS_SERVICES,This subcategory encompasses violations of our Merchant Guidelines related to mismatched descriptions and missing product categories. 
+Category 2d,Misleading information about the consumer’s rights ,KEYWORD_MISLEADING_INFO_CONSUMER_RIGHTS,This subcategory encompasses violations of our Merchant Guidelines related to the findability and clarity of a merchant’s returns policy. 
+Category 2e,Non-compliance with pricing regulations  ,KEYWORD_NONCOMPLIANCE_PRICING,We have not mapped any of our policies to this subcategory.
+Category 2f,Not captured by any other sub-category ,KEYWORD_OTHER,"This subcategory encompasses violations of our Advertising and Merchant Guidelines related to incomplete registrations and those specific to return timelines. Additionally, it includes violations of our Unacceptable Business Practices guidelines related to the promotion of certain products, services or business models that are prohibited."
+Category 3,Cyber violence,STATEMENT_CATEGORY_CYBER_VIOLENCE,"This category encompasses violations of our Community Guidelines, specifically under our harassment and criticism policy. We remove or limit the distribution of content that insults, attacks or antagonizes individuals or groups of people, including: 
+- Cyberbullying
+- Content that is synthetically generated or manipulated to degrade and/or shame
+- Shaming people for their bodies or assumed sexual or romantic history
+- Sexual remarks about people’s bodies and solicitations or offers of sexual acts
+- Personal attacks with name-calling, profanity and other insulting language or imagery 
+- Mocking someone for experiencing sadness, grief, loss or outrage
+
+This category also includes content reported through our European Union Illegal Content Reporting Form for ""harassment"", including online stalking or sexual harassment and orders from EU Member States' authorities to provide information related to harassment, protective order violations and school shootings."
+Category 3a,Cyber bullying and intimidation,KEYWORD_CYBER_BULLYING_INTIMIDATION,"This subcategory encompasses violations of our Community Guidelines, specifically under our harassment and criticism policy, related to emotional shaming and derogatory criticism."
+Category 3b,Cyber harassment,KEYWORD_CYBER_HARASSMENT,"This subcategory encompasses violations of our Community Guidelines, specifically under our harassment and criticism policy and private information policy, related to derogatory criticism, sexual remarks, doxxing, and threats of doxxing.
+
+This subcategory also includes content reported through our European Union Illegal Content Reporting Form for ""harassment"", including online stalking or sexual harassment and orders from EU Member States' authorities to provide information related to harassment, protective order violations and school shootings."
+Category 3c,Cyber incitement to hatred or violence,KEYWORD_CYBER_INCITEMENT,We have not mapped any of our policies to this subcategory.
+Category 3d,Cyber stalking,KEYWORD_CYBER_STALKING,We have not mapped any of our policies to this subcategory.
+Category 3e,"Non-consensual (intimate) material sharing, including (image-based) sexual abuse (excluding content depicting minors)",KEYWORD_NON_CONSENSUAL_IMAGE_SHARING,We have not mapped any of our policies to this subcategory.
+Category 3f,Non-consensual sharing of material containing deepfake or similar technology using a third party's features (excluding content depicting minors),KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE,"This subcategory encompasses violations of our Community Guidelines, specifically under our harassment and criticism policy, related to synthetically generated or manipulated content designed to degrade and/or shame."
+Category 3g,Not captured by any other sub-category  ,KEYWORD_OTHER,We have not mapped any of our policies to this subcategory.
+Category 4,Cyber violence against women,STATEMENT_CATEGORY_CYBER_VIOLENCE_AGAINST_WOMEN,"Pinterest does not currently assess the gender or sex of users or those depicted in content. Relevant policies are reflected in the cyber violence category above, thus no volume will be reported for this category. "
+Category 4a,Cyber bullying and intimidation against girls,KEYWORD_BULLYING_AGAINST_GIRLS,We have not mapped any of our policies to this subcategory.
+Category 4b,Cyber harassment against women,KEYWORD_CYBER_HARASSMENT_AGAINST_WOMEN,We have not mapped any of our policies to this subcategory.
+Category 4c,Cyber stalking against women,KEYWORD_CYBER_STALKING_AGAINST_WOMEN,We have not mapped any of our policies to this subcategory.
+Category 4d,Gendered disinformation,KEYWORD_FEMALE_GENDERED_DISINFORMATION,We have not mapped any of our policies to this subcategory.
+Category 4e,Illegal incitement to violence and hatred against women,KEYWORD_INCITEMENT_AGAINST_WOMEN,We have not mapped any of our policies to this subcategory.
+Category 4f,"Non-consensual (intimate) material sharing against women, including (image-based) sexual abuse against women (excluding content depicting minors)",KEYWORD_NON_CONSENSUAL_IMAGE_SHARING_AGAINST_WOMEN,We have not mapped any of our policies to this subcategory.
+Category 4g,Non-consensual sharing of material containing deepfake or similar technology using a third party's features against women (excluding content depicting minors),KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE_AGAINST_WOMEN,We have not mapped any of our policies to this subcategory.
+Category 4h,Not captured by any other sub-category  ,KEYWORD_OTHER,We have not mapped any of our policies to this subcategory.
+Category 5,Data protection and privacy violations,STATEMENT_CATEGORY_DATA_PROTECTION_AND_PRIVACY_VIOLATIONS,"This category encompasses violations of our Community Guidelines, specifically under our private information policy. We don’t allow content or behavior that reveals personally identifiable information or other sensitive information. This includes, but is not limited to:
+- Personal identity documents and information, such as social security (SSNs), national identity numbers, passport information, or other government-issued IDs.
+- Private contact information such as residential addresses, email addresses, and phone numbers.
+- Health and medical records or other health-related data.
+- Online login information or account authentication data such as usernames, passwords, security questions and answers.
+- Photos of private people that they don’t want posted online.
+- Personal financial information, such as credit card or bank account numbers, or any financial account details.
+- Other private information considered personal or confidential.
+
+This subcategory also includes content reported through our European Union Illegal Content Reporting Form for ""violation of privacy"", which includes non-consensual sharing of private images. "
+Category 5a,Biometric data breach,KEYWORD_BIOMETRIC_DATA_BREACH,We have not mapped any of our policies to this subcategory.
+Category 5b,Data falsification,KEYWORD_DATA_FALSIFICATION,We have not mapped any of our policies to this subcategory.
+Category 5c,Missing processing ground for data,KEYWORD_MISSING_PROCESSING_GROUND,We have not mapped any of our policies to this subcategory.
+Category 5d,Right to be forgotten,KEYWORD_RIGHT_TO_BE_FORGOTTEN,"This subcategory encompasses violations of our Community Guidelines, specifically under our private information policy, related to photos of private people that they don’t want posted online."
+Category 5e,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our private information policy, regarding content or behavior that reveals personally identifiable information or other sensitive information, including:
+- Personal identity documents and information, such as social security (SSNs), national identity numbers, passport information, or other government-issued IDs
+- Private contact information such as residential addresses, email addresses, and phone numbers.
+- Health and medical records or other health-related data.
+- Online login information or account authentication data such as usernames, passwords, security questions and answers.
+- Personal financial information, such as credit card or bank account numbers, or any financial account details.
+- Other private information considered personal or confidential.
+
+This subcategory includes content reported through our European Union Illegal Content Reporting Form for ""violation of privacy"", which includes non-consensual sharing of private images. "
+Category 6,Illegal or harmful speech,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,"This category encompasses violations of our Community Guidelines, specifically under our hateful activities policy, which covers:
+- Slurs or negative generalizations (including caricatures)
+- Support for hate-based groups, figures, or ideologies, such as white supremacy or misogyny
+- Condoning or trivializing violence against an individual because of their protected group status, including public figures
+- Hate-based conspiracy theories and misinformation, such as Holocaust denial
+- Denial of an individual’s gender identity or sexual orientation
+- Support for conversion therapy and related programs
+- Mocking or attacking beliefs, sacred symbols, movements, or institutions associated with protected groups
+- Insensitive commentary about violence or discrimination suffered by protected groups 
+
+This category includes content reported through our European Union Illegal Content Reporting Form for ""affront to personal honor"" and ""hate speech, hateful acts and discrimination"", including insults, defamation, incitement to hatred, and violence or discrimination against protected and vulnerable groups."
+Category 6a,Defamation,KEYWORD_DEFAMATION,This subcategory encompasses content reported through our European Union Illegal Content Reporting Form for “affront to personal honor.” The affront to personal honor category includes insults or defamation.
+Category 6b,Discrimination,KEYWORD_DISCRIMINATION,"This subcategory encompasses violations of our Community Guidelines, specifically under our hateful activities policy, related to cultural appropriation and denial of an individual’s gender identity or sexual orientation.
+"
+Category 6c,Illegal incitement to violence and hatred based on protected characteristics (hate speech) ,KEYWORD_HATE_SPEECH,"This subcategory encompasses violations of our Community Guidelines, specifically under our hateful activities policy, related to:
+- Slurs or negative stereotypes, caricatures and generalizations
+- Support for hate groups and people promoting hateful activities, prejudice and conspiracy theories
+- Condoning or trivializing violence because of a victim’s membership in a vulnerable or protected group
+- Support for white supremacy, limiting women’s rights and other discriminatory ideas
+- Hate-based conspiracy theories and misinformation, like Holocaust denial
+- Attacks on individuals including public figures based on their membership in a vulnerable or protected group
+- Mocking or attacking the beliefs, sacred symbols, movements, or institutions of the protected or vulnerable groups
+
+Additionally it includes violations of our violence and threats policy specific to insensitive humor based on a protected category, and our adult sexual content and nudity policy specific to shaming remarks about people or their bodies.
+
+This subcategory also includes content reported through our European Union Illegal Content Reporting Form for “hate speech, hateful acts and discrimination"", including incitement to hatred, violence or discrimination against protected and vulnerable groups. "
+Category 6d,Not captured by any other sub-category  ,KEYWORD_OTHER,We have not mapped any of our policies to this subcategory.
+Category 7,Intellectual property infringements,STATEMENT_CATEGORY_INTELLECTUAL_PROPERTY_INFRINGEMENTS,"This category encompasses violations of our Copyright and Trademark policies. This category also includes violations of our Advertising Guidelines, specifically under our counterfeit goods policy."
+Category 7a,Copyright infringements,KEYWORD_COPYRIGHT_INFRINGEMENT,This subcategory encompasses violations of our Copyright Policy.
+Category 7b,Design infringements,KEYWORD_DESIGN_INFRINGEMENT,We have not mapped any of our policies to this subcategory.
+Category 7c,Geographical indications infringements,KEYWORD_GEOGRAPHIC_INDICATIONS_INFRINGEMENT,We have not mapped any of our policies to this subcategory.
+Category 7d,Patent infringements,KEYWORD_PATENT_INFRINGEMENT,We have not mapped any of our policies to this subcategory.
+Category 7e,Trade secret infringements,KEYWORD_TRADE_SECRET_INFRINGEMENT,We have not mapped any of our policies to this subcategory.
+Category 7f,Trademark infringements,KEYWORD_TRADEMARK_INFRINGEMENT,"This subcategory encompasses violations of our Trademark Policy, including the sale or promotion of counterfeit goods on Pinterest. We disable access to content that misleads others or infringes on trademark rights, and may suspend or terminate users who post or share such content.
+
+It also covers violations of our Advertising Guidelines related to counterfeit goods. We do not allow the advertising of knockoff products, brand-name replicas, or goods falsely promoted as authentic brand-name items.
+"
+Category 7g,Not captured by any other sub-category  ,KEYWORD_OTHER,We have not mapped any of our policies to this subcategory.
+Category 8,Negative effects on civic discourse or elections,STATEMENT_CATEGORY_NEGATIVE_EFFECTS_ON_CIVIC_DISCOURSE_OR_ELECTIONS,"This category encompasses violations of our Community Guidelines, specifically under our misinformation and violent actors policies. 
+
+It includes misinformation, disinformation, mal-information or the individuals or groups spreading or creating it. This includes health misinformation, climate misinformation, conspiracy theories and civic misinformation. We remove or limit distribution of false or misleading content that may harm users' or the public's well-being, safety or trust, including:
+- False or misleading content about individuals or protected groups that promotes fear, hate or prejudice
+- Content that originates from disinformation campaigns, including about climate change or civic participation
+- Factual information that's published or deliberately modified to erode trust or inflict harm, such as changing or omitting of context, date or time
+- Fabricated or meaningfully manipulated visual or audio content that erodes trust or causes harm
+
+Under our violent actors policy, we remove or limit content and accounts that encourage, glorify, or promote dangerous actors or groups and their activities.
+
+This category also covers violations of our Advertising and Merchant Guidelines related to political campaigning and products.
+
+Additionally, this includes content reported through our European Union Illegal Content Reporting Form under ""disinformation,"" which addresses deliberate disinformation targeting individuals or groups."
+Category 8a,"Misinformation, disinformation, foreign information manipulation and interference ",KEYWORD_MISINFORMATION_DISINFORMATION,"This subcategory encompasses violations of our Community Guidelines, specifically under our misinformation and violent actors policies. 
+
+It includes misinformation, disinformation, mal-information or the individuals or groups spreading or creating it. This includes health misinformation, climate misinformation, conspiracy theories and civic misinformation. We remove or limit distribution of false or misleading content that may harm users' or the public's well-being, safety or trust, including:
+- False or misleading content about individuals or protected groups that promotes fear, hate or prejudice
+- Content that originates from disinformation campaigns, including about climate change or civic participation
+- Factual information that's published or deliberately modified to erode trust or inflict harm, such as changing or omitting of context, date or time
+- Fabricated or meaningfully manipulated visual or audio content that erodes trust or causes harm
+
+Under our violent actors policy, we remove or limit content and accounts that encourage, glorify, or promote dangerous actors or groups and their activities.
+
+Additionally, this includes content reported through our European Union Illegal Content Reporting Form under ""disinformation,"" which addresses deliberate disinformation targeting individuals or groups."
+Category 8b,Violation of EU law relevant to civic discourse or elections ,KEYWORD_VIOLATION_EU_LAW,We have not mapped any of our policies to this subcategory.
+Category 8c,Violation of national law relevant to civic discourse or elections ,KEYWORD_VIOLATION_NATIONAL_LAW,We have not mapped any of our policies to this subcategory.
+Category 8d,Not captured by any other sub-category  ,KEYWORD_OTHER,This subcategory encompasses violations of our Advertising and Merchant Guidelines related to political campaigning and products.
+Category 9,Protection of minors ,STATEMENT_CATEGORY_PROTECTION_OF_MINORS,"This category encompasses violations of our Community Guidelines, specifically under our child safety, private information, and prohibited and regulated goods, services and activities policies. 
+
+We don't allow content including imagery, video, text or accounts that might exploit minors. Pinterest prohibits not only illegal child sexual abuse material but also any content that contributes to the sexualisation of minors. The types of content we remove include:
+- Illegal child sexual abuse material.
+- Sexualized imagery of minors, including sexualized poses, performances, settings, or attire.
+- Solicitation, sextortion and inappropriate interactions with minors.
+- Nudity and partial exposure of minors, including minors in underwear.
+- The intentional misuse of otherwise non-violating content depicting minors. 
+
+Under our prohibited and regulated goods, services and activities policy, we remove or limit the distribution of content and accounts involving dangerous goods, including harmful pranks or challenges that risk imminent physical harm or extreme emotional distress, especially if showing or encouraging the participation of minors.
+
+This category also includes age-gating restrictions on advertisements for certain products, such as alcohol, under our Advertising and Merchant Guidelines and violations of our Terms of Services related to underage users.
+
+Additionally, it covers content reported through our European Union Illegal Content Reporting Form as ""child sexual abuse material"" or ""harmful to minors,"" encompassing the dissemination or procurement of child pornographic content, and incitement of minors to undertake harmful or dangerous actions.
+
+This category further includes orders from EU Member States' authorities to provide information related to child endangerment and child sexual exploitation. "
+Category 9a,Age-specific restrictions concerning minors,KEYWORD_AGE_SPECIFIC_RESTRICTIONS_MINORS,"This subcategory encompasses violations of our Terms of Service related to underage users and violations of our Advertising and Merchant Guidelines related to alcohol. 
+
+It also includes violations of our Advertising Guidelines regarding the prohibition of images depicting minors in underwear, as well as images of minors in swimsuits unless accompanied by adults.
+"
+Category 9b,Child sexual abuse material,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL,"This subcategory encompasses violations of our Community Guidelines, specifically under our child safety policy, including:
+- Illegal child sexual abuse material.
+- Sexualized imagery of minors, including sexualized poses, performances, settings, or attire.
+- Solicitation, sextortion and inappropriate interactions with minors.
+- Nudity and partial exposure of minors, including minors in underwear.
+- The intentional misuse of otherwise non-violating content depicting minors. 
+
+This subcategory also includes content reported through our European Union Illegal Content Reporting Form for ""child sexual abuse material"" and orders from EU Member States' authorities to provide information related to child sexual exploitation. "
+Category 9c,Child sexual abuse material containing deepfake or similar technology,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL_DEEPFAKE,"This subcategory encompasses violations of our Community Guidelines, specifically under our child safety policy, related to synthetically generated content."
+Category 9d,Grooming/sexual enticement of minors ,KEYWORD_GROOMING_SEXUAL_ENTICEMENT_MINORS,"This subcategory encompasses violations of our Community Guidelines, specifically under our child safety policy, related to solicitation, sextortion and inappropriate interactions with minors, which includes (but is not limited to) grooming behaviors."
+Category 9e,Unsafe challenges,KEYWORD_UNSAFE_CHALLENGES,"This subcategory encompasses violations of our Community Guidelines, specifically under our prohibited and regulated goods policy, services and activities policy, related to harmful pranks or challenges that risk imminent physical harm or extreme emotional distress, especially if showing or encouraging the participation of minors."
+Category 9f,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations from our Community Guidelines, specifically under our child safety policy, regarding any content that contributes to the sexualization of minors.
+
+It also covers violations of our Community Guidelines under our prohibited and regulated goods policy related to substances or weapons use by minors.
+
+Additionally, it includes content reported through our European Union Illegal Content Reporting Form for ""harmful to minors"", which covers incitement of minors to engage in actions that put them in physical danger or to intentionally harm themselves, and orders from EU Member States' authorities to provide information related to child endangerment. "
+Category 10,Risk for public security ,STATEMENT_CATEGORY_RISK_FOR_PUBLIC_SECURITY,"This category encompasses violations of our Community Guidelines, specifically under our violent actors policy, related to terrorist organizations.
+
+It also includes violations of our Advertising Guidelines related to healthcare products or services. It also covers advertisements with claims about disease prevention or cure, or offering advice that may be unsafe, unreliable, or easily abused.
+
+Additionally, this category includes content reported through our European Union Illegal Content Reporting Form for ""promoting or condoning terrorist acts"" and orders from EU Member States' authorities to provide information related to drug trafficking, extortion, missing persons and national security and orders to act against illegal content related to terrorist content."
+Category 10a,Illegal organizations,KEYWORD_ILLEGAL_ORGANIZATIONS,This subcategory encompasses orders from EU Member States' authorities to provide information related to drug trafficking.
+Category 10b,Risk for environmental damage,KEYWORD_RISK_ENVIRONMENTAL_DAMAGE,We have not mapped any of our policies to this subcategory.
+Category 10c,Risk for public health,KEYWORD_RISK_PUBLIC_HEALTH,"This subcategory encompasses violations of our Advertising Guidelines, specifically related to healthcare products and services with claims about disease prevention or cure, or offering advice that may be unsafe, unreliable, or easily abused."
+Category 10d,Terrorist content,KEYWORD_TERRORIST_CONTENT,"This subcategory encompasses violations of our Community Guidelines, specifically under our violent actors policy, related to terrorist organizations. 
+
+It also includes content reported through our European Union Illegal Content Reporting Form for “promoting or condoning terrorist acts.”
+
+This also includes orders from EU Member States' authorities to act against illegal content related to terrorist content."
+Category 10e,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines related to the distribution of content and accounts that encourage, belong to, impersonate, praise, promote, or provide aid to dangerous actors or groups and their activities. This includes violent extremists.
+
+It also includes orders from EU Member States' authorities to provide information related to extortion, missing persons and national security."
+Category 11,Scams and/or fraud ,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,"This category encompasses violations of our Community Guidelines, specifically under our spam and impersonation policies, which prohibit accounts facilitating scams including those misappropriating the name, image, or identity of a person or organization. 
+
+It also includes violations of our Merchant Guidelines related to authenticity and scams.
+
+Additionally, this category includes orders from EU Member States' authorities to provide information related to fraud."
+Category 11a,Impersonation or account hijacking,KEYWORD_IMPERSONATION_ACCOUNT_HIJACKING,"This subcategory includes violations of our Community Guidelines related to impersonation, including accounts that impersonate or misrepresent their affiliation with any person or organization. We deactivate accounts that use the name, images, or other identifying information about a person or organization in a misleading or deceiving manner, as well as remove synthetically generated or manipulated content that impersonates a person or organization."
+Category 11b,Inauthentic accounts,KEYWORD_INAUTHENTIC_ACCOUNTS,"This subcategory encompasses violations of our Community Guidelines, specifically under our spam policy, related to account attributes or behaviors that indicate potentially inauthentic activity.
+
+It also includes violations of our Merchant Guidelines related to authenticity and scams, including but not limited to incomplete websites, inauthentic or plagiarized “about us” pages, or missing contact information. 
+
+Additionally, this subcategory includes orders from EU Member States' authorities to provide information related to fraud."
+Category 11c,Inauthentic listings,KEYWORD_INAUTHENTIC_LISTINGS,"This category includes violations of our Merchant Guidelines related to incomplete, inaccurate or nonexistent merchant information. It also includes violations of our spam policy related to Pin attributes and characteristics."
+Category 11d,Inauthentic user reviews,KEYWORD_INAUTHENTIC_USER_REVIEWS,We have not mapped any of our policies to this subcategory.
+Category 11e,Phishing,KEYWORD_PHISHING,"This subcategory encompasses violations of our Community Guidelines, specifically under our spam policy, related to phishing activities."
+Category 11f,Pyramid schemes,KEYWORD_PYRAMID_SCHEMES,We have not mapped any of our policies to this subcategory.
+Category 11g,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our spam policy, related to trends and attacks, spammy behavior in on-platform activity, off-platform violations (links, redirect paths), and domain attributes. 
+
+It also includes violations of our Merchant Guidelines related to product quality, price, delivery times and return processes."
+Category 12,Self-harm,STATEMENT_CATEGORY_SELF_HARM,"This category encompasses violations of our Community Guidelines, specifically under our self-injury and harmful behavior policy, related to content that displays, rationalizes or encourages self-harm including suicide, self-injury, eating disorders or substance abuse. We remove or limit the distribution of such content, including:
+
+- Self-harm instructions
+- Suicidal thinking and quotes
+- Graphic or otherwise triggering imagery or descriptions of self-harm
+- Self-harm promotion, assistance or encouragement
+- Mocking of people who self-harm or who have attempted or died by suicide
+- Content including diets and coaching that encourages disordered eating.
+- Images of accessories used to self-harm
+- Negative self-talk and insensitive humor about self-harming behavior
+- Suicide pacts, challenges and hoaxes
+
+This category also includes violations of our Merchant Guidelines related to body shaming through weight loss products.
+"
+Category 12a,Content promoting eating disorders,KEYWORD_CONTENT_PROMOTING_EATING_DISORDERS,"This subcategory encompasses violations of our Community Guidelines, specifically under our self-injury and harmful behavior policy related to eating disorders.
+
+It also includes violations of our Merchant Guidelines related to body shaming through weight loss products.
+"
+Category 12b,Self-mutilation,KEYWORD_SELF_MUTILATION,"This subcategory encompasses violations of our Community Guidelines, specifically under our self-injury and harmful behavior policy, related to self harm."
+Category 12c,Suicide,KEYWORD_SUICIDE,"This subcategory encompasses violations of our Community Guidelines, specifically under our self-injury and harmful behavior policy, related to suicide."
+Category 12d,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our self-injury and harmful behavior policy, that aren’t already covered in the above categories."
+Category 13,"Unsafe, non-compliant or prohibited products ",STATEMENT_CATEGORY_UNSAFE_AND_PROHIBITED_PRODUCTS,"This category encompasses violations of our Community Guidelines, specifically under our prohibited and regulated goods, services and activities policy. 
+
+We remove or limit the distribution of content and accounts involving instructions, offers, glorification, or promotion of:
+- Unauthorized sellers of regulated substances or products including alcohol, supplements, steroids or prescription-only drugs. This includes individuals and unverified, unapproved or rogue online pharmacies.
+- Unauthorized manufacturing, modification, access or use of regulated substances, products and their components including 3D-printed weapons, chemical precursors, pill presses, punches, and dies.
+- Marijuana, marijuana products, and paraphernalia.
+- Illicit or synthetic drugs.
+- Tobacco, nicotine or similar products, and paraphernalia.
+- Promotion of excessive drug or alcohol use.
+- Firearms, attachments, components, ammunition, and other regulated weapons.
+- Explosives, chemical or biological weapons
+
+We remove or limit the distribution of content and accounts related to harmful or deceptive practices and products, including instructions, and offers or promotion of:
+- Counterfeit documents or currency.
+- Stolen bank account or other personal information.
+- Social media or similar accounts and account credentials.
+- Hacking, cracking or bypassing safety or security measures.
+- Test cheating services or products.
+- Products or services for evading detection, enabling deception or privacy violation.
+- Exploitative financial practices including get-rich-quick schemes.
+- Online gambling and lotteries.
+
+This category also includes violations of our Advertising and Merchant Guidelines related to prohibited products. We prohibit the advertisement of a wide range of products or services such as weapons or tobacco. We also strictly regulate the advertisement of certain goods such as alcohol or baby formula.
+
+Additionally, included in this category is content reported through our European Union Illegal Content Reporting Form for ""illegal goods and services"", including the illegal sale of drugs, live animals or the illegal offer of services. "
+Category 13a,Prohibited or restricted products,KEYWORD_PROHIBITED_PRODUCTS,"This subcategory encompasses violations of our Community Guidelines, specifically under our prohibited and regulated goods, services and activities policy, related to dangerous goods, online gambling and lotteries, online pharmacies, unauthorized sellers of regulated substances or products, and sales of weapons and attachments.
+
+It also includes violations of our Merchant Guidelines related to prohibited products, as well as violations of our Advertising Guidelines concerning the advertising of prohibited products such as drugs and paraphernalia, illegal products, tobacco, or gambling products.
+
+Additionally, included in this subcategory is content reported through our European Union Illegal Content Reporting Form for “illegal goods and services”, including the illegal sale of drugs, live animals or the illegal offer of services. "
+Category 13b,Unsafe or non-compliant products,KEYWORD_UNSAFE_PRODUCTS,"This subcategory encompasses violations of our Community Guidelines, specifically under our prohibited and regulated goods, services and activities policy, related to counterfeit documents, harmful or deceptive products, and instructions for certain unlawful activities.
+
+It also includes violations of our country-specific Advertising Guidelines where we restrict advertising of supplements in certain countries."
+Category 13c,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our prohibited and regulated goods, services and activities policy related to exploitative financial practices including get-rich-quick schemes and glorification of illegal drug or weapon use.
+
+This category also includes violations of our Advertising Guidelines that don’t fit into other subcategories."
+Category 14,Violence ,STATEMENT_CATEGORY_VIOLENCE,"This category encompasses violations of our Community Guidelines, specifically under our violence and threats policy, our prohibited and regulated goods, services and activities policy and our violent actors policy.
+
+Under our violence and threats policy, we remove or limit the distribution of:
+- Content that shows the use of violence.
+- Content showing or purporting to show disturbing scenes from before, during, or after violent events.
+- Threats or language that glorifies violence.
+
+Under our violent actors policy, we remove or limit the distribution of content and accounts that encourage, belong to, impersonate, praise, promote, or provide aid to dangerous actors or groups and their activities. This includes:
+- Extremists.
+- Gangs and other criminal organizations.
+- Perpetrators of mass or serial violence.
+
+Under our prohibited and regulated goods, services and activities policy we remove or limit the distribution of content related to exploitative financial or labor practices, including human trafficking, slavery, servitude, and forced or compulsory labor.
+
+This category also includes violations of our Merchant and Advertising Guidelines, related to sensitive content.
+
+Additionally, included in this category is content reported through our European Union Illegal Content Reporting Form for “graphic violence,” “denying or condoning crimes against humanity” and “threatening commission of or condoning serious criminal offense.” These categories include denial of genocides, war crimes and other crimes against humanity, gore/graphic wounds and mutilation, beatings, excessive blood, and corpses. It also includes threats to commit serious criminal offense against individuals or their condemnation.
+
+This category also includes orders from EU Member States' authorities to provide information related to assault, domestic violence, human trafficking, kidnapping, murder and robbery. "
+Category 14a,Coordinated harm,KEYWORD_COORDINATED_HARM,"This subcategory includes violations of our Community Guidelines, specifically under our violent actors policy, related to content and accounts that provide aid to dangerous actors or groups and their activities.
+
+It also includes orders from EU Member States' authorities to provide information related to robbery. "
+Category 14b,General calls or incitement to violence and/or hatred,KEYWORD_INCITEMENT_VIOLENCE_HATRED,"This subcategory encompasses violations of our Community Guidelines related to threats or language that glorifies violence.
+
+It also includes content reported through our European Union Illegal Content Reporting Form for “threatening commission of or condoning serious criminal offense.” "
+Category 14c,Human exploitation,KEYWORD_HUMAN_EXPLOITATION,"This subcategory encompasses violations of our Community Guidelines, specifically under our prohibited and regulated goods, services and activities policy, concerning exploitative financial or labor practices related to human trafficking, slavery, servitude and forced or compulsory labor.
+
+It also includes orders from EU Member States' authorities to provide information related to kidnapping."
+Category 14d,Human trafficking,KEYWORD_HUMAN_TRAFFICKING,This subcategory encompasses orders from EU Member States' authorities to provide information related to human trafficking. 
+Category 14e,Trafficking in women and girls,KEYWORD_TRAFFICKING_WOMEN_GIRLS,We have not mapped any of our policies to this subcategory.
+Category 14f,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our violence and threats and violent actors policies, including content that shows the use of violence and content showing or purporting to show disturbing scenes from before, during, or after violent events.
+
+This subcategory also includes violations of our Merchant and Advertising Guidelines related to sensitive content.
+
+Addtionally, included in this category is content reported through our European Union Illegal Content Reporting Form for ""denying or condoning crimes against humanity"" and ""graphic violence"". These categories include denial of genocides, war crimes and other crimes against humanity, and gore/graphic wounds and mutilitation, beatings, excessive blood, and corpses.
+
+This subcategory also includes orders from EU Member States' authorities to provide information related to assault, domestic violence, and murder.  "
+Category 15,Other violation of provider’s terms and conditions,STATEMENT_CATEGORY_OTHER_VIOLATION_TC,"This category encompasses violations of our Community Guidelines, specifically under our adult sexual content and nudity policy. 
+
+We remove or limit the distribution of  sexual content or visible intimate body parts, including:
+- Sexually explicit depictions or descriptions.
+- Sexually suggestive depictions or descriptions.
+- Visible intimate body parts (e.g. genitals, anus, breasts or buttocks).
+- Promotion of erotic practices like BD/SM.
+- Promotion of commercial sexual services like escort services, sexual chats or webcams.
+- Instructions, tools or services for creating sexually explicit or nudity content (e.g. “nudifiers”).
+- Instructions, tools or services for intimate image abuse or financial sextortion.
+- Sexual enhancement products.
+- Non-consensual creation and/or distribution of intimate images including intimate image abuse (referred to as “NCII” or “IBSA”), upskirting, down-blousing and hidden camera images, or the threat to do so (referred to as “sextortion”). 
+
+This category also includes violations of our Advertising and Merchant Guidelines related to adult products and merchants which do not offer products directly, such as affiliated marketers or wholesale retailers.  
+"
+Category 15a,Adult sexual material,KEYWORD_ADULT_SEXUAL_MATERIAL,"This subcategory encompasses violations of our Community Guidelines under our adult sexual content and nudity policy, as well as violations of our Advertising and Merchant Guidelines related to adult content.
+"
+Category 15b,Age-specific restrictions,KEYWORD_AGE_SPECIFIC_RESTRICTIONS,We have not mapped any of our policies to this subcategory.
+Category 15c,Geographical requirements,KEYWORD_GEOGRAPHICAL_REQUIREMENTS,This subcategory encompasses violations of our Merchant Guidelines related to automotive merchants from countries which we do not currently support.
+Category 15d,Goods/services not permitted to be offered on the platform,KEYWORD_GOODS_SERVICES_NOT_PERMITTED,This subcategory encompasses violations of our Advertising and Merchant Guidelines related to restricted or prohibited services.
+Category 15e,Language requirements,KEYWORD_LANGUAGE_REQUIREMENTS,This subcategory encompasses violations of our Advertising Guidelines related to country specific guidelines on local languages.
+Category 15f,Nudity,KEYWORD_NUDITY,This subcategory encompasses violations of our Community Guidelines and our Merchant Guidelines related to nudity.
+Category 15g,Not captured by any other sub-category  ,KEYWORD_OTHER,"This subcategory encompasses violations of our Advertising and Merchant Guidelines related to standards we set for the editorial quality of advertising on Pinterest.
+
+It also includes violations of our Terms of Services related to users who abuse our notices or complaints channels by repeatedly submitting clearly unfounded notices or complaints.
+
+Additionally, this subcategory includes enforcement actions taken against content or accounts of users located in the EU, where the enforcement action is based on a violation of law outside the EU and its Member States."
+Category 16,Type of illegal content not specified by the public authority,STATEMENT_CATEGORY_NOT_SPECIFIED_ORDER,This category encompasses orders from EU Member States' authorities where the issuing authority omitted a reference to a legal ground.
+Category 17,Type of alleged illegal content not specified by the notifier,STATEMENT_CATEGORY_NOT_SPECIFIED_NOTICE,"This category encompasses notices received via our European Union Illegal Content Reporting Form where the alleged illegality cannot be deduced from the information provided by the reporter. 
+
+It also includes content reported through our European Union Illegal Content Reporting Form for ""nudity or pornography"" and ""other"". These categories include dissemination of pornographic content and behavior that does not match any of the categories listed in the form. We have included these in this category because there is no other appropriate category available."

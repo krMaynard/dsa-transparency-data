@@ -1,0 +1,249 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number,3499487,"Sheet 8 reports additional information regarding LinkedIn's automated systems for content moderation and measures of the precision, accuracy, and recall of those systems. 
+
+When users receive a statement under DSA Article 17 concerning a moderation action, the statement discloses whether the moderation decision was made by a human or LinkedIn’s automated system. Notices are sent by email and typically contain a link to a notice page containing additional information (for example, regarding the content at issue, the policy violated, the action LinkedIn has taken, and appeal and other redress information). LinkedIn reviews submitted appeals and notifies the user of its appeal decision.
+
+As provided by Commission Implementing Regulation (EU) 2024/2835, precision, accuracy, and recall percentages are reported in the [0,1] interval, rounded to the nearest hundredth. Percentages 99 percent and above are reported as .99."
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,507941,
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.99,"Accuracy is a measure of the proportion of correct moderation decisions made by LinkedIn's automated system -- including both decisions that a piece of content is violative and decisions that a piece of content is not violative. A high accuracy means fewer false positives and false negatives. 
+
+To calculate accuracy, LinkedIn takes the number of correct moderation decisions by the automated system (both that content is violative and non-violative), divided by the number of decisions made by the automated system during the reporting period. A moderation decision is incorrect if the automated system's moderation decision is overturned or changed as of the end of the reporting period. (For example, if the automated system evaluates a piece of content and determines it does not violate LinkedIn's policies, and the content is later restricted (e.g., because it is reported by a user and found to be violative, or otherwise restricted by LinkedIn), that counts against the system's accuracy. Likewise, if the automated system restricts a piece of content and the content is later reinstated following appeal, that also counts against the system's accuracy.) "
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.98,"Precision is a measure of the proportion of correct enforcement actions applied by LinkedIn's automated system (e.g. when the automated system decides to remove a piece of violative content or restrict an account). A high precision means fewer false positives.
+
+Estimated precision rates are based on the number of enforcement actions made by the automated system that are overturned following appeal (i.e. the automated system made an error). To calculate precision, LinkedIn takes one minus the number of enforcement actions by the automated system that were overturned, divided by the number of appealable enforcement actions made by the automated system during the reporting period. "
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.87,"Recall is a measure of the proportion of violative content found and actioned by LinkedIn's automated system, as opposed to other methods. A high recall means fewer false negatives (missed positives). 
+
+To calculate recall, LinkedIn takes the number of correct enforcement actions by the automated system, divided by the total number of correct enforcement actions by any method (whether human, automated system, or otherwise). Correct enforcement actions are computed by multiplying all machine enforcement actions with the precision computed as described above."
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Own-initiative,3499487,
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative,507457,
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.99,
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.98,
+All,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.87,
+"Only for providers of hosting services, including online platforms",Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Total,0,
+"Only for providers of hosting services, including online platforms",Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,1745,
+"Only for providers of hosting services, including online platforms",Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,N/A,"As noted in Sheet 4, LinkedIn did not resolve Article 16 notices via automated means during the reporting period. As a result, there is no accuracy of the automated means to report."
+"Only for providers of hosting services, including online platforms",Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,N/A,"As noted in Sheet 4, LinkedIn did not resolve Article 16 notices via automated means during the reporting period. As a result, there is no precision of the automated means to report."
+"Only for providers of hosting services, including online platforms",Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,N/A,"As noted in Sheet 4, LinkedIn did not resolve Article 16 notices via automated means during the reporting period. As a result, there is no recall of the automated means to report."
+Only for providers of online platforms,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Trusted Flagger,0,
+Only for providers of online platforms,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,9,
+Only for providers of online platforms,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,N/A,"As noted in Sheet 4, LinkedIn did not resolve Article 16 notices via automated means during the reporting period. As a result, there is no accuracy of the automated means to report."
+Only for providers of online platforms,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,N/A,"As noted in Sheet 4, LinkedIn did not resolve Article 16 notices via automated means during the reporting period. As a result, there is no precision of the automated means to report."
+Only for providers of online platforms,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,N/A,"As noted in Sheet 4, LinkedIn did not resolve Article 16 notices via automated means during the reporting period. As a result, there is no recall of the automated means to report."
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,bg,13359,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,cs,6600,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,da,4761,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,de,73329,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,el,2925,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,en,2221771,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,es,579249,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,et,401,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,fi,3465,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,fr,177627,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,ga,9,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,hr,3106,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,hu,4010,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,it,43669,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,lt,3299,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,lv,6760,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,mt,1,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,nl,80336,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,pl,23642,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,pt,18758,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,ro,19447,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,sk,2940,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,sl,693,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,sv,6707,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,1237,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,cs,1617,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,da,2354,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,de,16738,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,el,313,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,en,296185,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,es,40554,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,et,326,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fi,929,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fr,48684,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ga,2,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hr,452,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hu,442,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,it,12844,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lt,328,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lv,143,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,mt,1,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,nl,31263,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pl,5479,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pt,3080,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ro,4981,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sk,415,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sl,66,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,3724,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,bg,0.99,"LinkedIn uses two types of automated systems for content moderation relevant to this report: (1) LinkedIn uses an automated system to identify and remove policy-violating content (""System 1""); (2) LinkedIn uses an automated system to identify and restrict policy-violating accounts (e.g. fake accounts) (""System 2""). LinkedIn reports measures of the precision, accuracy, and recall of those systems by language of the content for the official languages of the EU.
+
+LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Bulgarian is not a supported language. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,bg,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,bg,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,cs,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,cs,0.95,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,cs,0.47,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,da,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,da,0.89,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,da,0.29,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,de,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,de,0.93,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,de,0.55,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,el,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,el,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,el,0.85,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,en,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,en,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,en,0.61,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,es,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,es,0.97,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,es,0.78,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,et,0.99,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Estonian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,et,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,et,0.23,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,fi,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,fi,0.89,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,fi,0.43,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,fr,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,fr,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,fr,0.55,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,ga,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Irish is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,ga,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Irish is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,ga,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Irish is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,hr,0.99,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Croatian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,hr,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,hr,0.87,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,hu,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,hu,0.97,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,hu,0.70,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,it,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,it,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,it,0.70,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,lt,0.99,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Lithuanian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,lt,0.91,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,lt,0.84,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,lv,0.99,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Latvian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,lv,0.75,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,lv,0.83,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,mt,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Maltese is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,mt,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Maltese is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,mt,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Maltese is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,nl,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,nl,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,nl,0.34,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,pl,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,pl,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,pl,0.54,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,pt,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,pt,0.97,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,pt,0.73,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,ro,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,ro,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,ro,0.59,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,sk,0.99,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Slovak is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,sk,0.88,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,sk,0.87,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,sl,0.99,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Slovenian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,sl,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,sl,0.87,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Accuracy,sv,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Precision,sv,0.95,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 1 - Automated content moderation system,Accuracy of the automated means - Recall,sv,0.35,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,bg,0.76,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Bulgarian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,bg,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,bg,0.77,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,cs,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,cs,0.93,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,cs,0.88,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,da,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,da,0.93,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,da,0.85,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,de,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,de,0.94,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,de,0.90,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,el,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,el,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,el,0.97,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,en,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,en,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,en,0.90,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,es,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,es,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,es,0.94,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,et,0.83,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Estonian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,et,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,et,0.84,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,fi,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,fi,0.93,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,fi,0.91,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,fr,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,fr,0.95,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,fr,0.83,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,ga,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Irish is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,ga,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Irish is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,ga,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Irish is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,hr,0.89,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Croatian is not a supported language.
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,hr,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,hr,0.86,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,hu,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,hu,0.94,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,hu,0.94,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,it,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,it,0.93,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,it,0.83,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,lt,0.94,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Lithuanian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,lt,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,lt,0.93,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,lv,0.98,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Latvian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,lv,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,lv,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,mt,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Maltese is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,mt,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Maltese is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,mt,N/A,"LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Maltese is not a supported language. 
+
+LinkedIn’s automated system did not act on a sufficient amount of content in Irish or Maltese during the reporting period to calculate accuracy, precision, or recall. "
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,nl,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,nl,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,nl,0.78,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,pl,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,pl,0.95,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,pl,0.86,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,pt,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,pt,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,pt,0.90,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,ro,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,ro,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,ro,0.81,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,sk,0.93,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Slovak is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,sk,0.94,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,sk,0.86,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,sl,0.94,LinkedIn’s website is currently available in and supports 15 of the 24 official languages of the EU (https://www.linkedin.com/help/linkedin/answer/a522175). Slovenian is not a supported language. 
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,sl,0.98,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,sl,0.96,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Accuracy,sv,0.99,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Precision,sv,0.91,
+Only for VLOPs,Linkedin,2025-07-01/2025-12-31,System 2 - Automated account moderation system,Accuracy of the automated means - Recall,sv,0.79,

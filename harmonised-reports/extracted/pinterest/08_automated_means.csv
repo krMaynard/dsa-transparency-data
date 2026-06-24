@@ -1,0 +1,71 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number,"186,189,428","This is the number of measures that we took using automated means. We take enforcement actions using automated tools and hybrid approaches (which combine elements of manual review and automated tools). For the purposes of this report, measures taken solely by automated means include both automated and hybrid enforcements.
+
+More information about our automated means can be found in the ""qualitative description of the automated means"" section on 11_qualitative tab."
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,"2,371,634","This is the number of measures that we did not take using automated means and are limited to what we classify as manual actions.
+
+Manual actions: We manually act on some content through our human review process. Content actioned through this process may include content identified internally, reported to us by trusted third parties, and flagged to us via our reporting flows."
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.92,"Accuracy provides an overview of how many overall decisions taken by our automation - both enforcements and non-enforcements - are correct. Our automated processes utilize a combination of signals and systems to inform content moderation decisions. Accordingly, we provide an aggregate measure of accuracy that reflects the overall performance of our automation.
+
+
+We calculate the indicator of accuracy for our automated content moderation measures as follows:
+Accuracy = (True Positives + True Negatives ) / (True positives + True Negatives + False Positives + False Negatives)
+
+Additional details about our approach can be found in the  11_qualitative tab."
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.96,"Precision reflects how often our automated enforcements are correct. Our automated processes utilize a combination of signals and systems to inform content moderation decisions. Accordingly, we provide an aggregate measure of precision that reflects the overall performance of our automation.
+
+We calculate the indicator of precision for our automated content moderation measures as follows:
+Precision = True Positives / (True Positives + False Positives)
+ 
+Additional details about our approach can be found in the  11_qualitative tab."
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.93,"Recall measures the proportion of policy violations successfully identified by automation. Our automated processes utilize a combination of signals and systems to inform content moderation decisions. Accordingly, we provide an aggregate measure of recall that reflects the overall performance of our automation.
+
+We calculate the indicator of recall for our automated content moderation measures as follows:
+Recall = True Positives / (True Positives + False Negatives)
+
+Additional details about our approach can be found in the  11_qualitative tab."
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Own-initiative,"183,242,050",
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative,"717,119",
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.92,"Accuracy provides an overview of how many overall decisions taken by our automation - both enforcements and non-enforcements - are correct. Our automated processes utilize a combination of signals and systems to inform content moderation decisions. Accordingly, we provide an aggregate measure of accuracy that reflects the overall performance of our automation.
+
+We calculate the indicator of accuracy for our automated content moderation measures as follows:
+Accuracy = (True Positives + True Negatives ) / (True positives + True Negatives + False Positives + False Negatives)
+
+Additional details about our approach can be found in the  11_qualitative tab."
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.96,"Precision reflects how often our automated enforcements are correct. Our automated processes utilize a combination of signals and systems to inform content moderation decisions. Accordingly, we provide an aggregate measure of precision that reflects the overall performance of our automation.
+
+We calculate the indicator of precision for our automated content moderation measures as follows:
+Precision = True Positives / (True Positives + False Positives)
+ 
+Additional details about our approach can be found in the  11_qualitative tab."
+All,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.93,"Recall measures the proportion of policy violations successfully identified by automation. Our automated processes utilize a combination of signals and systems to inform content moderation decisions. Accordingly, we provide an aggregate measure of recall that reflects the overall performance of our automation.
+
+We calculate the indicator of recall for our automated content moderation measures as follows:
+Recall = True Positives / (True Positives + False Negatives)
+
+Additional details about our approach can be found in the  11_qualitative tab."
+"Only for providers of hosting services, including online platforms",Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,0,Currently we do not use automated means to process NAM.
+"Only for providers of hosting services, including online platforms",Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,"7,618",All NAM reports are actioned manually.
+"Only for providers of hosting services, including online platforms",Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,Currently we do not use automated means to process NAM. 
+"Only for providers of hosting services, including online platforms",Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,Currently we do not use automated means to process NAM. 
+"Only for providers of hosting services, including online platforms",Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,Currently we do not use automated means to process NAM. 
+Only for providers of online platforms,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Trusted Flagger,0,Currently we do not use automated means to process NAM.
+Only for providers of online platforms,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,27,"All NAM reports are actioned manually, including those submitted by Trusted Flaggers."
+Only for providers of online platforms,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,Currently we do not use automated means to process NAM. 
+Only for providers of online platforms,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,Currently we do not use automated means to process NAM. 
+Only for providers of online platforms,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,Currently we do not use automated means to process NAM. 
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,bg,,We cannot include the data in these rows broken down by each Member State language because it does not align with the format of content on our platform – which is often visual – or the way our automated systems function.
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...],,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,sv,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,Pinterest,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,

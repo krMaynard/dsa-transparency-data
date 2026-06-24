@@ -1,0 +1,101 @@
+Category label,Category description,Category of illegal content / incompatible with the terms and conditions,Contextual information
+TOTAL,,TOTAL,
+Category 1,Animal welfare,STATEMENT_CATEGORY_ANIMAL_WELFARE,Content causing or promoting harmfull practices towards animals
+Category 1a,Animal harm,KEYWORD_ANIMAL_HARM,Content showing animal harm
+Category 1b,Unlawful sale of animals,KEYWORD_UNLAWFUL_SALE_ANIMALS,Prohibited sales of animals or sales of prohibited animals
+Category 1c,Not captured by any other sub-category,KEYWORD_OTHER,n/a
+Category 2,All the entries,STATEMENT_CATEGORY_CONSUMER_INFORMATION,Claim about a consumer law infrigement (by ManoMano and/or sellers)
+Category 2a,"Hidden advertisement or commercial communication, including by influencers",KEYWORD_HIDDEN_ADVERTISEMENT,"Promoting a product/service without clearly indicating that it is an advertisement (eg.: Sponsored Product, Flash Offers, etc.)"
+Category 2b,Insufficient information on traders,KEYWORD_INSUFFICIENT_INFORMATION_ON_TRADERS,"Missing mandatory information on the seller's page (eg.: contact details of manufacturer, economic operator, etc.)"
+Category 2c,Misleading information about the characteristics of the goods and services,KEYWORD_MISLEADING_INFO_GOODS_SERVICES,Misleading information about ManoMano's service / seller's product
+Category 2d,Misleading information about the consumer’s rights,KEYWORD_MISLEADING_INFO_CONSUMER_RIGHTS,"Misleading information about consumer rights (e.g.: right of withdrawal, legal guarantee)"
+Category 2e,Non-compliance with pricing regulations,KEYWORD_NONCOMPLIANCE_PRICING,"Non-compliance with product pricing regulations (e.g. display of the sale price which does not comply, false price reduction applied by a seller, etc)"
+Category 2f,Not captured by any other sub-category,KEYWORD_OTHER,n/a
+Category 3,Cyber violence,STATEMENT_CATEGORY_CYBER_VIOLENCE,Content related to violence online
+Category 3a,Cyber bullying and intimidation,KEYWORD_CYBER_BULLYING_INTIMIDATION,Content related to bulying or intimidating someone
+Category 3b,Cyber harassment,KEYWORD_CYBER_HARASSMENT,Content related to the harassment of someone or a group of people
+Category 3c,Cyber incitement to hatred or violence,KEYWORD_CYBER_INCITEMENT,Content incitating violence onlline
+Category 3d,Cyber stalking,KEYWORD_CYBER_STALKING,Content related to stalking someone
+Category 3e,"Non-consensual (intimate) material sharing, including (image-based) sexual abuse (excluding content depicting minors)",KEYWORD_NON_CONSENSUAL_IMAGE_SHARING,Sharing of personnal images without the permission of the owner
+Category 3f,Non-consensual sharing of material containing deepfake or similar technology using a third party's features (excluding content depicting minors),KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE,Creation of deepfakes impersonating someone without permission
+Category 3g,Not captured by any other sub-category,KEYWORD_OTHER,n/a
+Category 4,Cyber violence against women,STATEMENT_CATEGORY_CYBER_VIOLENCE_AGAINST_WOMEN,Content showing or promoting violence against women online
+Category 4a,Cyber bullying and intimidation against girls,KEYWORD_BULLYING_AGAINST_GIRLS,Content related to bulying or intimidating minors women
+Category 4b,Cyber harassment against women,KEYWORD_CYBER_HARASSMENT_AGAINST_WOMEN,Content related to bulying or intimidating women
+Category 4c,Cyber stalking against women,KEYWORD_CYBER_STALKING_AGAINST_WOMEN,Content related to stalking women
+Category 4d,Gendered disinformation,KEYWORD_FEMALE_GENDERED_DISINFORMATION,Content promoting false information on women
+Category 4e,Illegal incitement to violence and hatred against women,KEYWORD_INCITEMENT_AGAINST_WOMEN,Content incitating violence online against women
+Category 4f,"Non-consensual (intimate) material sharing against women, including (image-based) sexual abuse against women (excluding content depicting minors)",KEYWORD_NON_CONSENSUAL_IMAGE_SHARING_AGAINST_WOMEN,Sharing of personnal images without the permission of the owner
+Category 4g,Non-consensual sharing of material containing deepfake or similar technology using a third party's features against women (excluding content depicting minors),KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE_AGAINST_WOMEN,Creation of deepfakes impersonating someone without permission
+Category 4h,Not captured by any other sub-category,KEYWORD_OTHER,n/a
+Category 5,Data protection and privacy violations,STATEMENT_CATEGORY_DATA_PROTECTION_AND_PRIVACY_VIOLATIONS,"Issues related to misuse or mishandling of personal data, privacy violations."
+Category 5a,Biometric data breach,KEYWORD_BIOMETRIC_DATA_BREACH,Misuse or leak of biometric data like fingerprints or facial recognition.
+Category 5b,Data falsification,KEYWORD_DATA_FALSIFICATION,Fraudulent manipulation of data.
+Category 5c,Missing processing ground for data,KEYWORD_MISSING_PROCESSING_GROUND,Using personal data without legal basis (e.g. no consent).
+Category 5d,Right to be forgotten,KEYWORD_RIGHT_TO_BE_FORGOTTEN,Deletion of clients accounts
+Category 5e,Not captured by any other sub-category,KEYWORD_OTHER,Other privacy-related issues. Legal data access request and data deletion request
+Category 6,Illegal or harmful speech,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,Content that breaks the law or causes harm through speech.
+Category 6a,Defamation,KEYWORD_DEFAMATION,False statements that harm someone’s reputation.
+Category 6b,Discrimination,KEYWORD_DISCRIMINATION,"Attacks or unfair treatment based on race, gender, religion, etc."
+Category 6c,Illegal incitement to violence and hatred based on protected characteristics (hate speech),KEYWORD_HATE_SPEECH,Speech that incites hatred or violence.
+Category 6d,Not captured by any other sub-category,KEYWORD_OTHER,Other types of harmful or illegal speech.
+Category 7,Intellectual property infringements,STATEMENT_CATEGORY_INTELLECTUAL_PROPERTY_INFRINGEMENTS,Violations involving stolen or copied creative or commercial content.
+Category 7a,Copyright infringements,KEYWORD_COPYRIGHT_INFRINGEMENT,Using copyrighted material without permission.
+Category 7b,Design infringements,KEYWORD_DESIGN_INFRINGEMENT,Copying the look or design of a product illegally.
+Category 7c,Geographical indications infringements,KEYWORD_GEOGRAPHIC_INDICATIONS_INFRINGEMENT,"Falsely claiming a product comes from a specific region (e.g., fake Champagne)."
+Category 7d,Patent infringements,KEYWORD_PATENT_INFRINGEMENT,Using a patented invention without permission.
+Category 7e,Trade secret infringements,KEYWORD_TRADE_SECRET_INFRINGEMENT,Stealing or exposing confidential business info.
+Category 7f,Trademark infringements,KEYWORD_TRADEMARK_INFRINGEMENT,Misusing brand names or logos.
+Category 7g,Not captured by any other sub-category,KEYWORD_OTHER,Other intellectual property issues.
+Category 8,Negative effects on civic discourse or elections,STATEMENT_CATEGORY_NEGATIVE_EFFECTS_ON_CIVIC_DISCOURSE_OR_ELECTIONS,Threats to democratic debate or elections.
+Category 8a,"Misinformation, disinformation, foreign information manipulation and interference",KEYWORD_MISINFORMATION_DISINFORMATION,Spreading false or misleading information.
+Category 8b,Violation of EU law relevant to civic discourse or elections,KEYWORD_VIOLATION_EU_LAW,Content violating European Union laws.
+Category 8c,Violation of national law relevant to civic discourse or elections,KEYWORD_VIOLATION_NATIONAL_LAW,Content violating specific national laws.
+Category 8d,Not captured by any other sub-category,KEYWORD_OTHER,Other political or civic harms.
+Category 9,Protection of minors,STATEMENT_CATEGORY_PROTECTION_OF_MINORS,Content that harms or targets children or teens.
+Category 9a,Age-specific restrictions concerning minors,KEYWORD_AGE_SPECIFIC_RESTRICTIONS_MINORS,Inappropriate content for certain age groups.
+Category 9b,Child sexual abuse material,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL,Illegal sexual content involving children.
+Category 9c,Child sexual abuse material containing deepfake or similar technology,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL_DEEPFAKE,Fake child abuse imagery created with AI.
+Category 9d,Grooming/sexual enticement of minors,KEYWORD_GROOMING_SEXUAL_ENTICEMENT_MINORS,Adults trying to contact minors for sexual purposes.
+Category 9e,Unsafe challenges,KEYWORD_UNSAFE_CHALLENGES,Dangerous online challenges (e.g. viral dares).
+Category 9f,Not captured by any other sub-category,KEYWORD_OTHER,Other child safety issues.
+Category 10,Risk for public security,STATEMENT_CATEGORY_RISK_FOR_PUBLIC_SECURITY,Content that could harm society or public safety.
+Category 10a,Illegal organizations,KEYWORD_ILLEGAL_ORGANIZATIONS,"Content promoting banned groups (e.g., criminal or extremist)."
+Category 10b,Risk for environmental damage,KEYWORD_RISK_ENVIRONMENTAL_DAMAGE,Encouraging harm to the environment.
+Category 10c,Risk for public health,KEYWORD_RISK_PUBLIC_HEALTH,Spreading false or harmful health information.
+Category 10d,Terrorist content,KEYWORD_TERRORIST_CONTENT,Promoting terrorism or terrorist acts.
+Category 10e,Not captured by any other sub-category,KEYWORD_OTHER,Other public safety threats.
+Category 11,Scams and/or fraud,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,Deceptive practices to trick or steal from people.
+Category 11a,Impersonation or account hijacking,KEYWORD_IMPERSONATION_ACCOUNT_HIJACKING,Pretending to be someone else or hacking accounts.
+Category 11b,Inauthentic accounts,KEYWORD_INAUTHENTIC_ACCOUNTS,Fake accounts used to deceive.
+Category 11c,Inauthentic listings,KEYWORD_INAUTHENTIC_LISTINGS,Fake or misleading product listings.
+Category 11d,Inauthentic user reviews,KEYWORD_INAUTHENTIC_USER_REVIEWS,Fake reviews to promote or damage products/services.
+Category 11e,Phishing,KEYWORD_PHISHING,Tricking people into giving personal info.
+Category 11f,Pyramid schemes,KEYWORD_PYRAMID_SCHEMES,Fraudulent recruitment-based scams.
+Category 11g,Not captured by any other sub-category,KEYWORD_OTHER,Other types of scams or fraud.
+Category 12,Self-harm,STATEMENT_CATEGORY_SELF_HARM,Content that promotes or glorifies self-harm.
+Category 12a,Content promoting eating disorders,KEYWORD_CONTENT_PROMOTING_EATING_DISORDERS,"Encouraging anorexia, bulimia, etc."
+Category 12b,Self-mutilation,KEYWORD_SELF_MUTILATION,Encouraging people to hurt themselves.
+Category 12c,Suicide,KEYWORD_SUICIDE,Content that promotes or encourages suicide.
+Category 12d,Not captured by any other sub-category,KEYWORD_OTHER,Other self-harm content.
+Category 13,"Unsafe, non-compliant or prohibited products",STATEMENT_CATEGORY_UNSAFE_AND_PROHIBITED_PRODUCTS,Dangerous or banned items being promoted or sold.
+Category 13a,Prohibited or restricted products,KEYWORD_PROHIBITED_PRODUCTS,Products that are illegal to sell.
+Category 13b,Unsafe or non-compliant products,KEYWORD_UNSAFE_PRODUCTS,Items that can harm users or are not certified safe.
+Category 13c,Not captured by any other sub-category,KEYWORD_OTHER,Other product-related issues.
+Category 14,Violence,STATEMENT_CATEGORY_VIOLENCE,Content involving physical harm or exploitation.
+Category 14a,Coordinated harm,KEYWORD_COORDINATED_HARM,Organized efforts to hurt people or groups.
+Category 14b,General calls or incitement to violence and/or hatred,KEYWORD_INCITEMENT_VIOLENCE_HATRED,Encouraging others to attack or hate.
+Category 14c,Human exploitation,KEYWORD_HUMAN_EXPLOITATION,Forcing people into labor or abuse.
+Category 14d,Human trafficking,KEYWORD_HUMAN_TRAFFICKING,Illegally transporting people for exploitation.
+Category 14e,Trafficking in women and girls,KEYWORD_TRAFFICKING_WOMEN_GIRLS,Specific trafficking of females.
+Category 14f,Not captured by any other sub-category,KEYWORD_OTHER,Other violent or exploitative content.
+Category 15,Other violation of provider’s terms and conditions,STATEMENT_CATEGORY_OTHER_VIOLATION_TC,Other rule violations on the platform.
+Category 15a,Adult sexual material,KEYWORD_ADULT_SEXUAL_MATERIAL,Pornography or explicit adult content.
+Category 15b,Age-specific restrictions,KEYWORD_AGE_SPECIFIC_RESTRICTIONS,Content not suitable for certain age groups.
+Category 15c,Geographical requirements,KEYWORD_GEOGRAPHICAL_REQUIREMENTS,Content not allowed in some regions.
+Category 15d,Goods/services not permitted to be offered on the platform,KEYWORD_GOODS_SERVICES_NOT_PERMITTED,Selling items/services banned by the platform.
+Category 15e,Language requirements,KEYWORD_LANGUAGE_REQUIREMENTS,Content not meeting language rules.
+Category 15f,Nudity,KEYWORD_NUDITY,Images or videos showing nudity.
+Category 15g,Not captured by any other sub-category,KEYWORD_OTHER,Other violations of platform rules.
+Category 16,Type of illegal content not specified by the public authority,STATEMENT_CATEGORY_NOT_SPECIFIED_ORDER,Report or action issued without a specific category.
+Category 17,Type of alleged illegal content not specified by the notifier,STATEMENT_CATEGORY_NOT_SPECIFIED_NOTICE,Notice received with no detailed categorization.
