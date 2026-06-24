@@ -42,7 +42,60 @@ SOURCES = {
     "vinted":    ("vinted.xlsx", "xlsx"),
     "webde":     ("webde.xlsx", "xlsx"),
     "wikipedia": ("wikipedia.xls", "xls"),
+    # Added from the hub landing-page sweep (discover_hubs.py / download_hubs.py).
+    "ceneo":       ("ceneo.xlsx", "xlsx"),
+    "cloudflare":  ("cloudflare.xlsx", "xlsx"),
+    "duckduckgo":  ("duckduckgo.xlsx", "xlsx"),
+    "expedia":     ("expedia.xlsx", "xlsx"),
+    "hometogo":    ("hometogo.xlsx", "xlsx"),
+    "hostelworld": ("hostelworld.xlsx", "xlsx"),
+    "hostinger":   ("hostinger.xlsx", "xlsx"),
+    "hotelscom":   ("hotelscom.xlsx", "xlsx"),
+    "imdb":        ("imdb.zip", "zipcsv"),
+    "konami":      ("konami.xlsx", "xlsx"),
+    "lilo":        ("lilo.xlsx", "xlsx"),
+    "matchgroup":  ("matchgroup.xlsx", "xlsx"),
+    "niantic":     ("niantic.xlsx", "xlsx"),
+    "qwant":       ("qwant.xlsx", "xlsx"),
+    "roblox":      ("roblox.xlsx", "xlsx"),
+    "shopify":     ("shopify.xlsx", "xlsx"),
+    "skroutz":     ("skroutz.xlsx", "xlsx"),
+    "vrbo":        ("vrbo.xlsx", "xlsx"),
+    "yahoo":       ("yahoo.zip", "zipcsv"),
 }
+
+import re as _re
+# Leading/embedded section number, e.g. "1_report…", "… - 10. AMAR", "Part 11".
+_SEC_NUM = _re.compile(r"(?:^|[-\s_/])(\d{1,2})[._\s]")
+
+
+def _section_index(name: str) -> int | None:
+    nums = [int(n) for n in _SEC_NUM.findall(name) if 1 <= int(n) <= 11]
+    return nums[-1] if nums else None
+
+
+def _to_canonical(named: list[tuple[str, list[list[str]]]]) -> list[list[list[str]]]:
+    """Map (sheet/file name, rows) pairs to the 11 canonical section slots.
+
+    Prefer the section number parsed from the name (robust to omitted sections,
+    e.g. a non-VLOP that ships 1-8 + 11). Fall back to positional order only when
+    no name carries a number and exactly 11 are present.
+    """
+    idxs = [_section_index(n) for n, _ in named]
+    if all(i is not None for i in idxs) and len(set(idxs)) == len(idxs):
+        slots: list[list[list[str]]] = [[] for _ in SECTIONS]
+        for i, (_, rows) in zip(idxs, named):
+            if i and 1 <= i <= 11:
+                slots[i - 1] = rows
+        return slots
+    if len(named) == len(SECTIONS):  # positional fallback (unnumbered, full set)
+        return [rows for _, rows in named]
+    # Best effort: place the numbered ones, leave the rest empty.
+    slots = [[] for _ in SECTIONS]
+    for i, (_, rows) in zip(idxs, named):
+        if i and 1 <= i <= 11:
+            slots[i - 1] = rows
+    return slots
 
 
 def _clean(v: object) -> str:
@@ -53,22 +106,21 @@ def _clean(v: object) -> str:
     return str(v).strip()
 
 
-def read_xlsx(path: str) -> list[list[list[str]]]:
+def read_xlsx(path: str) -> list[tuple[str, list[list[str]]]]:
     import openpyxl
     wb = openpyxl.load_workbook(path, data_only=True)
     sheets = []
     for name in wb.sheetnames:
         ws = wb[name]
         rows = [[_clean(c) for c in row] for row in ws.iter_rows(values_only=True)]
-        # trim fully-empty trailing rows
-        while rows and not any(rows[-1]):
+        while rows and not any(rows[-1]):  # trim trailing empty rows
             rows.pop()
-        sheets.append(rows)
+        sheets.append((name, rows))
     wb.close()
     return sheets
 
 
-def read_xls(path: str) -> list[list[list[str]]]:
+def read_xls(path: str) -> list[tuple[str, list[list[str]]]]:
     import xlrd
     from xlrd.xldate import xldate_as_datetime
     wb = xlrd.open_workbook(path)
@@ -88,21 +140,13 @@ def read_xls(path: str) -> list[list[list[str]]]:
             rows.append(row)
         while rows and not any(rows[-1]):
             rows.pop()
-        sheets.append(rows)
+        sheets.append((sh.name, rows))
     return sheets
 
 
-def read_zipcsv(path: str) -> list[list[list[str]]]:
-    """Read the per-section CSVs from a zip, ordered by their section number.
-
-    The section index is the number immediately before the section title — at
-    the start of the name (``1_report_identification.csv``) or after a
-    separator (``… - 10. AMAR.csv``). We require a separator + trailing
-    punctuation so a stray digit in the name (e.g. the "2" in "H2") is ignored.
-    """
-    import re
-    num_re = re.compile(r"(?:^|[-\s_/])(\d{1,2})[._\s]")
-    out = {}
+def read_zipcsv(path: str) -> list[tuple[str, list[list[str]]]]:
+    """Read the per-section CSVs from a zip as (filename, rows) pairs."""
+    out = []
     with zipfile.ZipFile(path) as z:
         for info in z.namelist():
             base = os.path.basename(info)
@@ -111,10 +155,6 @@ def read_zipcsv(path: str) -> list[list[list[str]]]:
             if (not base.lower().endswith(".csv") or info.startswith("__MACOSX")
                     or base.startswith("._")):
                 continue
-            nums = [int(n) for n in num_re.findall(base) if 1 <= int(n) <= 11]
-            if not nums:
-                continue
-            idx = nums[-1]  # the section number sits just before the title
             with z.open(info) as f:
                 text = f.read().decode("utf-8-sig", errors="replace")
             # Parse via StringIO (not splitlines) so newlines *inside* quoted
@@ -122,8 +162,8 @@ def read_zipcsv(path: str) -> list[list[list[str]]]:
             rows = list(csv.reader(io.StringIO(text)))
             while rows and not any(c.strip() for c in rows[-1]):
                 rows.pop()
-            out[idx] = rows
-    return [out.get(i + 1, []) for i in range(len(SECTIONS))]
+            out.append((base, rows))
+    return out
 
 
 READERS = {"xlsx": read_xlsx, "xls": read_xls, "zipcsv": read_zipcsv}
@@ -138,19 +178,23 @@ def _trim_cols(rows: list[list[str]]) -> list[list[str]]:
     return [r[:width] for r in rows]
 
 
-# Indicator labels in section 1, across the locales we ingest (EN/DE/FR).
-_PROVIDER = ("service provider", "diensteanbieters", "fournisseur")
-_START = ("starting date", "beginn des berichtszeitraums", "date de début", "début")
-_END = ("ending date", "ende des berichtszeitraums", "date de fin", "fin")
+# Indicator labels in section 1, across the locales we ingest (EN/DE/FR/EL).
+_PROVIDER = ("service provider", "diensteanbieters", "fournisseur", "παρόχου")
+_START = ("starting date", "beginn des berichtszeitraums", "date de début",
+          "début", "έναρξης")
+_END = ("ending date", "ende des berichtszeitraums", "date de fin", "fin", "λήξης")
 
 
 def _ident(rows: list[list[str]]) -> dict:
-    """Pull provider name + reporting period from a section-1 table by matching
-    the (localised) indicator label; value is the last non-empty cell of the row."""
+    """Pull provider name + reporting period from a section-1 table. The label
+    column varies (some files drop the leading 'Applicability' column), so match
+    the (localised) indicator text anywhere in the row; the value is the last
+    non-empty cell."""
     out = {"provider": "", "period_start": "", "period_end": ""}
     for r in rows[1:]:
-        label = (r[2] if len(r) > 2 else "").lower()
+        cells = [c.lower() for c in r]
         val = next((c for c in reversed(r) if c), "")
+        label = " ".join(cells[:-1])  # everything but the value cell
         if any(k in label for k in _PROVIDER) and not out["provider"]:
             out["provider"] = val
         elif any(k in label for k in _START) and not out["period_start"]:
@@ -173,7 +217,7 @@ def _amar_total(rows: list[list[str]]) -> str:
 
 def extract_one(slug: str, fname: str, kind: str) -> dict:
     path = os.path.join(RAW, fname)
-    sheets = [_trim_cols(s) for s in READERS[kind](path)]
+    sheets = [_trim_cols(s) for s in _to_canonical(READERS[kind](path))]
     dest = os.path.join(OUT, slug)
     os.makedirs(dest, exist_ok=True)
     section_rows = {}

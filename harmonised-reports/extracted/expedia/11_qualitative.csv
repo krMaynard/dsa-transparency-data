@@ -1,0 +1,12 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Expedia,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"We aim to provide a safe, welcoming, and inclusive platform for all customers and suppliers by ensuring all content complies with standards, guidelines, and our terms & conditions. To that end, we use manual processes and automated tooling for content moderation. Potentially unacceptable content is quickly reviewed for removal and if we identify a pattern of misuse, we may also act against the supplier or customer account."
+All,Expedia,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"We use a number of automated models for the purpose of content moderation, alongside human intelligence to review flagged content and to make content removal determinations."
+All,Expedia,2025-01-01/2025-12-31,Qualitative description of the automated means,The accuracy of our models can be measured by comparing issues detected automatically against human verified sets.
+All,Expedia,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"These models use various indicators to detect inappropriate content and suspect accounts, which is typically manually reviewed by specially trained teams. We have a high degree of confidence in the accuracy of our automated models and review."
+All,Expedia,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,Automated means are used with a view to quickly detect potentially problematic content and reduce manual workload.
+All,Expedia,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,Teams using automated means typically run checks to ensure automated signals and inputs remain reliable.
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Support given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Methodology used to compute the number of human resources dedicated to content moderation,Free text

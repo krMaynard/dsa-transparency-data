@@ -1,0 +1,12 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Search,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"DuckDuckGo does not conduct “content moderation” as that term is defined in the Digital Services Act since content is not provided by ""Recipients of the service"" nor hosted by DuckDuckGo (“Recipients of the service” does not include the owners of websites indexed by the online search engine. DSA Recital 77). Search queries trigger systems that ensure the service works as intended. The outputs of these systems are not provided by a recipient of the service and DuckDuckGo does not provide capabilities for users to share content or interact with other users. DuckDuckGo's online search engine includes its ""Search Assist"" feature. Search Assist is an optional feature on the search engine results page that anonymously generates answers (so called AI-assisted answers) to search queries."
+All,Search,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"DuckDuckGo uses classifiers, keyword blocklists, and other methods to proactively identify and prevent linking to sources or generating illegal content on Search Assist. Users can also report any illegal or harmful content in AI-assisted answers via Search Assist, or the sources it links to by clicking the thumbs-down icon or by emailing DuckDuckGo."
+All,Search,2025-01-01/2025-12-31,Qualitative description of the automated means,
+All,Search,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,Free text
+All,Search,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,Free text
+All,Search,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Support given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Methodology used to compute the number of human resources dedicated to content moderation,Free text

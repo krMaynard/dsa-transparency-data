@@ -1,0 +1,104 @@
+Category label,Category description,Category of illegal content / incompatible with the terms and conditions,Contextual information
+TOTAL,All the entries,TOTAL,Roblox updated its Community Standards in 2026. References below are to our Community Standards applicable for the Reporting Period.
+Category 1,Animal welfare,STATEMENT_CATEGORY_ANIMAL_WELFARE,"We do not allow the depiction of extreme violence against living beings, including animals. Content depicting animal cruelty or torture is strictly prohibited and enforced under our Violent Content and Gore Community Standard. We do not currently have a method of providing data by reference to this specific category."
+Category 1a,Animal harm,KEYWORD_ANIMAL_HARM,
+Category 1b,Unlawful sale of animals,KEYWORD_UNLAWFUL_SALE_ANIMALS,
+Category 1c,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 2,Consumer information infringements,STATEMENT_CATEGORY_CONSUMER_INFORMATION,"This category primarily captures violations of our Advertising standard. Roblox requires that all advertising be clearly disclosed and compliant with applicable laws. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “Hidden advertisement or commercial communication, including by influencers.”"
+Category 2a,"Hidden advertisement or commercial communication, including by influencers",KEYWORD_HIDDEN_ADVERTISEMENT,Roblox’s Advertising Community Standard requires that all advertising content be clearly and conspicuously disclosed to users. Content that conceals its commercial nature violates this standard.
+Category 2b,Insufficient information on traders,KEYWORD_INSUFFICIENT_INFORMATION_ON_TRADERS,
+Category 2c,Misleading information about the characteristics of the goods and services,KEYWORD_MISLEADING_INFO_GOODS_SERVICES,
+Category 2d,Misleading information about the consumer’s rights,KEYWORD_MISLEADING_INFO_CONSUMER_RIGHTS,
+Category 2e,Non-compliance with pricing regulations,KEYWORD_NONCOMPLIANCE_PRICING,
+Category 2f,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 3,Cyber violence,STATEMENT_CATEGORY_CYBER_VIOLENCE,"Roblox enforces this category under our Threats, Bullying, and Harassment Community Standard. We prohibit content or behavior that is intended to harass, intimidate, or threaten others. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “Cyber bullying and intimidation” and “Cyber harassment”."
+Category 3a,Cyber bullying and intimidation,KEYWORD_CYBER_BULLYING_INTIMIDATION,"Enforced under the Threats, Bullying, and Harassment Community Standard. This includes targeted abuse, intimidation, and behavior intended to disturb or upset others."
+Category 3b,Cyber harassment,KEYWORD_CYBER_HARASSMENT,"Enforced under the Threats, Bullying, and Harassment Standard. This covers sustained or repetitive attempts to contact or abuse a user against their wishes."
+Category 3c,Cyber incitement to hatred or violence,KEYWORD_CYBER_INCITEMENT,
+Category 3d,Cyber stalking,KEYWORD_CYBER_STALKING,
+Category 3e,"Non-consensual (intimate) material sharing, including (image-based) sexual abuse (excluding content depicting minors)",KEYWORD_NON_CONSENSUAL_IMAGE_SHARING,
+Category 3f,Non-consensual sharing of material containing deepfake or similar technology using a third party's features (excluding content depicting minors),KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE,
+Category 3g,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 4,Cyber violence against women,STATEMENT_CATEGORY_CYBER_VIOLENCE_AGAINST_WOMEN,"While Roblox policies apply equally to all users regardless of gender, violations targeting women are enforced under Threats, Bullying, and Harassment and Discrimination, Slurs, and Hate Speech. We do not currently have a method of providing data by reference to this specific category."
+Category 4a,Cyber bullying and intimidation against girls,KEYWORD_BULLYING_AGAINST_GIRLS,
+Category 4b,Cyber harassment against women,KEYWORD_CYBER_HARASSMENT_AGAINST_WOMEN,
+Category 4c,Cyber stalking against women,KEYWORD_CYBER_STALKING_AGAINST_WOMEN,
+Category 4d,Gendered disinformation,KEYWORD_FEMALE_GENDERED_DISINFORMATION,
+Category 4e,Illegal incitement to violence and hatred against women,KEYWORD_INCITEMENT_AGAINST_WOMEN,
+Category 4f,"Non-consensual (intimate) material sharing against women, including (image-based) sexual abuse against women (excluding content depicting minors)",KEYWORD_NON_CONSENSUAL_IMAGE_SHARING_AGAINST_WOMEN,
+Category 4g,Non-consensual sharing of material containing deepfake or similar technology using a third party's features against women (excluding content depicting minors),KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE_AGAINST_WOMEN,
+Category 4h,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 5,Data protection and privacy violations,STATEMENT_CATEGORY_DATA_PROTECTION_AND_PRIVACY_VIOLATIONS,Roblox has implemented measures to prevent users from sharing personal information (outside of Trusted Connections) in accordance with our Sharing Personal Information Community Standard. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below.
+Category 5a,Biometric data breach,KEYWORD_BIOMETRIC_DATA_BREACH,
+Category 5b,Data falsification,KEYWORD_DATA_FALSIFICATION,
+Category 5c,Missing processing ground for data,KEYWORD_MISSING_PROCESSING_GROUND,
+Category 5d,Right to be forgotten,KEYWORD_RIGHT_TO_BE_FORGOTTEN,
+Category 5e,Not captured by any other sub-category,KEYWORD_OTHER,Roblox has implemented measures designed to prevent users from sharing personal information (outside of Trusted Connections) in accordance with our Sharing Personal Information Community Standard.
+Category 6,Illegal or harmful speech,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,"This category is enforced under our Discrimination, Slurs, and Hate Speech and Threats, Bullying, and Harassment Community Standards. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “Discrimination”."
+Category 6a,Defamation,KEYWORD_DEFAMATION,
+Category 6b,Discrimination,KEYWORD_DISCRIMINATION,"Enforced under the Discrimination, Slurs, and Hate Speech Community Standard. Roblox prohibits content or behavior that promotes hatred, violence, or discrimination against individuals or groups based on protected characteristics. This includes the use of slurs, the promotion of hate groups and ideologies, or any language intended to insult, degrade, or intimidate others based on their identity."
+Category 6c,Illegal incitement to violence and hatred based on protected characteristics (hate speech),KEYWORD_HATE_SPEECH,
+Category 6d,Not captured by any other sub-category,KEYWORD_OTHER,"Under the Threats, Bullying, and Harassment Community Standard, Roblox prohibits threats of physical harm in the real world. This includes direct or indirect threats against individuals, groups of people, or specific locations, as well as the glorification of violent acts."
+Category 7,Intellectual property infringements,STATEMENT_CATEGORY_INTELLECTUAL_PROPERTY_INFRINGEMENTS,Roblox enforces this under our Intellectual Property policy. We take action against infringing content on receipt of a valid copyright or trademark takedown request.
+Category 7a,Copyright infringements,KEYWORD_COPYRIGHT_INFRINGEMENT,
+Category 7b,Design infringements,KEYWORD_DESIGN_INFRINGEMENT,
+Category 7c,Geographical indications infringements,KEYWORD_GEOGRAPHIC_INDICATIONS_INFRINGEMENT,
+Category 7d,Patent infringements,KEYWORD_PATENT_INFRINGEMENT,
+Category 7e,Trade secret infringements,KEYWORD_TRADE_SECRET_INFRINGEMENT,
+Category 7f,Trademark infringements,KEYWORD_TRADEMARK_INFRINGEMENT,
+Category 7g,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 8,Negative effects on civic discourse or elections,STATEMENT_CATEGORY_NEGATIVE_EFFECTS_ON_CIVIC_DISCOURSE_OR_ELECTIONS,We do not currently have a method of providing data by reference to the specific sub-categories mentioned below. Roblox prohibits certain political content under the Political Figures and Entities Community Standard.
+Category 8a,"Misinformation, disinformation, foreign information manipulation and interference",KEYWORD_MISINFORMATION_DISINFORMATION,
+Category 8b,Violation of EU law relevant to civic discourse or elections,KEYWORD_VIOLATION_EU_LAW,
+Category 8c,Violation of national law relevant to civic discourse or elections,KEYWORD_VIOLATION_NATIONAL_LAW,
+Category 8d,Not captured by any other sub-category,KEYWORD_OTHER,"Under our Political Figures and Entities Community Standard, Roblox prohibits the depiction of political figures in their official capacity, including current or recent government officials and candidates for office, as well as content related to political parties, campaign materials, and the desecration of political symbols."
+Category 9,Protection of minors,STATEMENT_CATEGORY_PROTECTION_OF_MINORS,"This is a high-priority category enforced under various Community Standards, including Child Exploitation and Suicide, Self Injury, and Harmful Behavior. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “Grooming/sexual enticement of minors” and “Unsafe challenges”."
+Category 9a,Age-specific restrictions concerning minors,KEYWORD_AGE_SPECIFIC_RESTRICTIONS_MINORS,
+Category 9b,Child sexual abuse material,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL,
+Category 9c,Child sexual abuse material containing deepfake or similar technology,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL_DEEPFAKE,
+Category 9d,Grooming/sexual enticement of minors,KEYWORD_GROOMING_SEXUAL_ENTICEMENT_MINORS,Enforced under Child Exploitation. Any attempt to groom or sexually entice a minor is strictly prohibited and results in immediate termination and reporting.
+Category 9e,Unsafe challenges,KEYWORD_UNSAFE_CHALLENGES,"Enforced under Suicide, Self Injury, and Harmful Behavior. We prohibit content that encourages dangerous activities or challenges that risk physical injury."
+Category 9f,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 10,Risk for public security,STATEMENT_CATEGORY_RISK_FOR_PUBLIC_SECURITY,Enforced under Terrorism and Violent Extremism and Real-World Sensitive Events. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “Terrorist content”.
+Category 10a,Illegal organizations,KEYWORD_ILLEGAL_ORGANIZATIONS,
+Category 10b,Risk for environmental damage,KEYWORD_RISK_ENVIRONMENTAL_DAMAGE,
+Category 10c,Risk for public health,KEYWORD_RISK_PUBLIC_HEALTH,
+Category 10d,Terrorist content,KEYWORD_TERRORIST_CONTENT,"Enforced under the Terrorism and Violent Extremism Community Standard. We strictly prohibit content that incites, condones, supports, glorifies, or promotes any terrorist or extremist organisation or individual."
+Category 10e,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 11,Scams and/or fraud,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,"Enforced under the Cheating and Scams;
+Misusing Roblox Systems; Roblox Economy;
+Spam; and Threats, Bullying, and Harassment Community Standards. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “Impersonation or account hijacking”."
+Category 11a,Impersonation or account hijacking,KEYWORD_IMPERSONATION_ACCOUNT_HIJACKING,"Enforced under Threats, Bullying, and Harassment. We prohibit impersonating other users, celebrities, or employees."
+Category 11b,Inauthentic accounts,KEYWORD_INAUTHENTIC_ACCOUNTS,
+Category 11c,Inauthentic listings,KEYWORD_INAUTHENTIC_LISTINGS,
+Category 11d,Inauthentic user reviews,KEYWORD_INAUTHENTIC_USER_REVIEWS,
+Category 11e,Phishing,KEYWORD_PHISHING,
+Category 11f,Pyramid schemes,KEYWORD_PYRAMID_SCHEMES,
+Category 11g,Not captured by any other sub-category,KEYWORD_OTHER,Other types of scams and fraud are enforced under our Cheating and Scams Community Standard.
+Category 12,Self-harm,STATEMENT_CATEGORY_SELF_HARM,"Enforced under Suicide, Self Injury, and Harmful Behavior. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below so have reported by reference to the “Suicide” sub-category."
+Category 12a,Content promoting eating disorders,KEYWORD_CONTENT_PROMOTING_EATING_DISORDERS,
+Category 12b,Self-mutilation,KEYWORD_SELF_MUTILATION,
+Category 12c,Suicide,KEYWORD_SUICIDE,"Enforced under Suicide, Self Injury, and Harmful Behavior. We prohibit content that encourages, depicts, or glorifies suicide."
+Category 12d,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 13,"Unsafe, non-compliant or prohibited products",STATEMENT_CATEGORY_UNSAFE_AND_PROHIBITED_PRODUCTS,Enforced under Illegal and Regulated Goods and Activities. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “Prohibited or restricted products”.
+Category 13a,Prohibited or restricted products,KEYWORD_PROHIBITED_PRODUCTS,"Enforced under Illegal and Regulated Goods and Activities. This includes drugs, weapons, alcohol, and other regulated items."
+Category 13b,Unsafe or non-compliant products,KEYWORD_UNSAFE_PRODUCTS,
+Category 13c,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 14,Violence,STATEMENT_CATEGORY_VIOLENCE,Enforced under Violent Content and Gore. We do not currently have a method of providing data by reference to the specific sub-categories mentioned below with the exception of “General calls or incitement to violence and/or hatred”.
+Category 14a,Coordinated harm,KEYWORD_COORDINATED_HARM,
+Category 14b,General calls or incitement to violence and/or hatred,KEYWORD_INCITEMENT_VIOLENCE_HATRED,"Enforced under Violent Content and Gore. Roblox prohibits content containing extreme violence or serious physical and psychological abuse. This includes realistic depictions of extreme gore, animal cruelty, and the glorification of war crimes or torture."
+Category 14c,Human exploitation,KEYWORD_HUMAN_EXPLOITATION,
+Category 14d,Human trafficking,KEYWORD_HUMAN_TRAFFICKING,
+Category 14e,Trafficking in women and girls,KEYWORD_TRAFFICKING_WOMEN_GIRLS,
+Category 14f,Not captured by any other sub-category,KEYWORD_OTHER,
+Category 15,Other violation of provider’s terms and conditions,STATEMENT_CATEGORY_OTHER_VIOLATION_TC,"This category captures violations of specific Roblox policies not covered by the DSA categories above, enforced under the following Community Standards: Directing Users Off-Platform; Illegal and Regulated Goods and Activities; Misusing Roblox Systems; Profanity; and Romantic and Sexual Content."
+Category 15a,Adult sexual material,KEYWORD_ADULT_SEXUAL_MATERIAL,Enforced under Romantic and Sexual Content. We strictly prohibit sexually explicit content and nudity.
+Category 15b,Age-specific restrictions,KEYWORD_AGE_SPECIFIC_RESTRICTIONS,"Enforced under Directing Users Off-Platform. Roblox prohibits directing users to off-platform websites or services that are not specifically permitted by the platform. This includes sharing external URLs, QR codes, or using ""masked"" links to bypass safety filters."
+Category 15c,Geographical requirements,KEYWORD_GEOGRAPHICAL_REQUIREMENTS,
+Category 15d,Goods/services not permitted to be offered on the platform,KEYWORD_GOODS_SERVICES_NOT_PERMITTED,
+Category 15e,Language requirements,KEYWORD_LANGUAGE_REQUIREMENTS,Enforced under Profanity. We prohibit the use of profanity and offensive language.
+Category 15f,Nudity,KEYWORD_NUDITY,
+Category 15g,Not captured by any other sub-category,KEYWORD_OTHER,"Includes violations such as Contests and Sweepstakes (part of the Illegal and Regulated Goods and Activities Community Standard) and
+Disruptive Audio (part of the Misusing Roblox Systems Community Standard)."
+Category 16,Type of illegal content not specified by the public authority,STATEMENT_CATEGORY_NOT_SPECIFIED_ORDER,Used when a government order does not specify the category of illegality. Roblox reviews the content against all Community Standards.
+Category 17,Type of alleged illegal content not specified by the notifier,STATEMENT_CATEGORY_NOT_SPECIFIED_NOTICE,Used when a user report does not specify the category. Roblox reviews the content against all Community Standards.

@@ -1,0 +1,35 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Roblox Corporation,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"All moderation is anchored in Roblox’s Community Standards that set out what is and isn’t permitted on the platform. These standards are designed to be extremely robust, prohibit illegal activity and are organized around pillars such as Safety, Civility, Integrity, and Security. We do not proactively identify or remove content based on EU law at our own initiative. Consequently, all measures taken at our own initiative are for content incompatible with our terms and conditions, inclusive of Community Standards. 
+
+When Roblox determines that content or behavior violates its rules, it can implement a range of restrictions, including:
+
+- Warnings or educational notices;
+- Removal of offending content or experiences;
+- Temporary restrictions or suspensions; or
+- Permanent account‑level sanctions."
+All,Roblox Corporation,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"Proactive moderation is applied across various media types to enforce our Community Standards. Uploaded content, such as 3D assets and experiences, undergoes extensive review before publication. Voice chat is assessed in real-time for policy violations. Violations are categorized and actioned based on severity, ranging from warnings to account restrictions."
+All,Roblox Corporation,2025-01-01/2025-12-31,Qualitative description of the automated means,"Roblox employs a multi-modal automated moderation infrastructure designed to address the specific nature of immersive 3D content. This includes:
+
+1. 2D Visuals (Images & Video): We employ computer vision technology to scan 2D visual assets uploaded to experiences, including images and video, to proactively identify policy violations before publication.
+
+2. 3D Assets: For avatars, accessories, and meshes, we utilize a proprietary process that renders 3D assets from multiple angles. Computer vision models review these renderings to identify policy violations that might be hidden in a single view.
+
+3. Audio: A voice safety classifier utilizes Automatic Speech Recognition (ASR) to transcribe and analyze voice chat in near real-time across multiple languages.
+
+4. Recidivism: We utilize hash-matching technologies (digital fingerprinting) to detect and automatically block the re-upload of content previously determined to be incompatible with our terms and conditions, inclusive of our Community Standards.."
+All,Roblox Corporation,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"To ensure accuracy, models are specifically trained on Roblox-specific syntax and context that generic models might miss. Hash matching is also utilized to detect previously removed content to prevent reuploads of the same content, eliminating errors for known violations. Automated detections often feed into a hybrid system where content is reviewed by both automated and manual systems."
+All,Roblox Corporation,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,"The magnitude of content produced daily on Roblox demands scalable infrastructure and automated means to monitor the billions of pieces of content added to Roblox every day and block or remove content that violates our Community Standards. Automated means are deployed to improve the speed, scale, and effectiveness of safety systems. The precise purposes are to proactively detect and remove violating content before publication and prevent the re-upload of previously removed content.
+
+- Pre‑publication review of uploads: Images, meshes, audio, video, and other creator‑uploaded assets go through a multi‑step automated review pipeline before they can appear in an experience.
+
+- Voice moderation: A voice safety classifier moderates live voice chat in near real time across multiple languages, with interventions such as on‑screen warnings, time‑outs, and suspensions when violations are detected.
+
+- Proactive avatar moderation: All items uploaded to the Avatar Marketplace are proactively scanned and blocked if they violate the Community Standards."
+All,Roblox Corporation,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,"Roblox maintains a series of safeguards to ensure its automated systems do not operate in a vacuum by integrating human judgment at critical junctures. Human moderators help oversee and test ML models for quality and consistency, create high‑quality labeled datasets, and identify emerging slang/abbreviations so models stay accurate. 
+
+Furthermore, Roblox has a robust appeals process by which users can appeal moderation decisions. Roblox’s team will give the moderation decision a second look and make necessary adjustments to an account’s moderation status."
+Only for VLOPs,,,High-level description of the content moderation governance structure,
+Only for VLOPs,,,Qualifications of the human resources dedicated to content moderation,
+Only for VLOPs,,,Training given to human resources dedicated to content moderation,
+Only for VLOPs,,,Support given to human resources dedicated to content moderation,
+Only for VLOPs,,,Methodology used to compute the number of human resources dedicated to content moderation,

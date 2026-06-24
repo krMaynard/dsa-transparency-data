@@ -1,0 +1,12 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Cloudflare,2025-07-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,Cloudflare uses automation at its own initiative to detect phishing. See https://blog.cloudflare.com/how-cloudflare-is-using-automation-to-tackle-phishing/ for more information.
+All,Cloudflare,2025-07-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,See https://blog.cloudflare.com/how-cloudflare-is-using-automation-to-tackle-phishing/ for more information regarding Cloudflare's use of automation at its own initiative to detect phishing.
+All,Cloudflare,2025-07-01/2025-12-31,Qualitative description of the automated means,See https://blog.cloudflare.com/how-cloudflare-is-using-automation-to-tackle-phishing/ for more information regarding Cloudflare's use of automation at its own initiative to detect phishing.
+All,Cloudflare,2025-07-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,
+All,Cloudflare,2025-07-01/2025-12-31,Specification of the precise purposes to apply automated means,See https://blog.cloudflare.com/how-cloudflare-is-using-automation-to-tackle-phishing/ for more information regarding Cloudflare's use of automation at its own initiative to detect phishing.
+All,Cloudflare,2025-07-01/2025-12-31,Safeguards applied to the use of automated means,"See https://blog.cloudflare.com/how-cloudflare-is-using-automation-to-tackle-phishing/ for more information regarding safeguards, including rules to consider false positives and processes to diregard erroneous reports, in Cloudflare's use of this automation."
+Only for VLOPs,Cloudflare,2025-07-01/2025-12-31,High-level description of the content moderation governance structure,
+Only for VLOPs,Cloudflare,2025-07-01/2025-12-31,Qualifications of the human resources dedicated to content moderation,
+Only for VLOPs,Cloudflare,2025-07-01/2025-12-31,Training given to human resources dedicated to content moderation,
+Only for VLOPs,Cloudflare,2025-07-01/2025-12-31,Support given to human resources dedicated to content moderation,
+Only for VLOPs,Cloudflare,2025-07-01/2025-12-31,Methodology used to compute the number of human resources dedicated to content moderation,
