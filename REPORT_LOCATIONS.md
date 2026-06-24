@@ -378,7 +378,7 @@ negative result is not re-searched:
   ImmobilienScout24, Immowelt, SeLoger, Rightmove, Zoopla, Funda, Pap.fr,
   Logic-Immo, Otomoto, Standvirtual, Heycar, La Centrale, Hemnet, Daft.ie,
   Habitaclia, GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam,
-  GOG, EA, itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
+  GOG, EA, itch.io, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
   Odysee, Triller, Likee, Bigo Live, Tchibo, Bonprix, vidaXL, Conrad,
   eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
   Audible, Goodreads, Issuu, Flipboard, Kickstarter, Indiegogo, Ko-fi,
