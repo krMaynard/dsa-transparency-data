@@ -69,7 +69,7 @@ The best starting points for finding more report locations:
 | Viber | Rakuten Viber (Viber Media S.à r.l.) | [Report](https://www.viber.com/en/terms/eu-digital-services-act-dsa-transparency-report/) | HTML + tables; 18 Feb – 31 Dec 2025 | verified |
 | Flickr | SmugMug, Inc. | [Legal / Transparency](https://www.flickr.com/help/legal) | PDF + XLSX; 2024 & 2025 | verified |
 | Tumblr | Automattic Inc. | [Report](https://transparency.automattic.com/tumblr/digital-services-act/) | Web report + data; semi-annual | verified |
-| Dailymotion | Dailymotion SA | [Report](https://legal.dailymotion.com/en/transparency/transparency-report-on-prohibited-content-policys-enforcement/) | HTML; annual | verified |
+| Dailymotion | Dailymotion SA | [Report](https://legal.dailymotion.com/en/transparency/transparency-report-on-prohibited-content-policys-enforcement/) | XLSX (Annex I template) + HTML; annual | verified |
 | Vimeo | Vimeo.com, Inc. | [DSA page](https://vimeo.com/legal/transparency/dsa) | HTML; Art. 24(2) recipient disclosure (<45 M), semi-annual | uncertain |
 | Jeuxvideo.com | Webedia | [Report](https://www.jeuxvideo.com/transparence.htm) | Harmonised template (CSV/XLSX/PDF); 2024 & 2025 | likely |
 | Threads | Meta Platforms Ireland Ltd. | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | In Meta's non-VLOP DSA report; periodic | likely |
