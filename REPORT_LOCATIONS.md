@@ -117,6 +117,7 @@ The best starting points for finding more report locations:
 | Coolblue | Coolblue B.V. | [Report](https://www.coolblue.nl/transparantierapport) | HTML | likely |
 | Skroutz | Skroutz S.A. (Greece) | [DSA hub](https://www.skroutz.gr/digital-services-act) | PDF + Excel/ZIP; 2024 & 2025 | verified |
 | Ceneo | Ceneo.pl sp. z o.o. (Poland) | [DSA hub](https://info.ceneo.pl/dsa) | XLSX Annex I (EN + PL); 2024 & 2025 | verified |
+| x-kom | x-kom sp. z o.o. (Poland) | [DSA hub](https://www.x-kom.pl/dsa) | XLSX (harmonised template); 2024 | verified |
 | Discogs | Discogs (Zink Media, Inc.) | [Statement](https://support.discogs.com/hc/en-us/articles/12730436158349-EU-Digital-Services-Act-Statement) | HTML; 17 Feb 2024 – 16 Feb 2025 | likely |
 | Reverb | Reverb.com LLC | [DSA page](https://help.reverb.com/hc/en-us/articles/14017920631571-EU-Digital-Services-Act) | HTML; semi-annual | likely |
 | Depop | Depop Ltd | [DSA page](https://depophelp.zendesk.com/hc/en-gb/articles/13057572688273-EU-Digital-Services-Act) | HTML; 2025 | likely |
@@ -486,6 +487,15 @@ negative result is not re-searched:
   EU presence but **no findable DSA report** — Razer (RazerStore/Razer Gold) and
   Hotmart (Hotmart BV, Amsterdam). (Talabat, Careem and dubizzle report
   only via their global parents Delivery Hero / Uber Eats / OLX — already listed.)
+- **Russian / Belarusian (out of DSA scope — EU sanctions / no EU operations):**
+  Mail.ru, OK.ru/Odnoklassniki, Ozon, Wildberries, RuTube, Dzen, Rambler, Kufar,
+  Yango, Nebius.
+- **Other CEE / Baltic / Balkan (no findable report; many bot-blocked):** Media Expert,
+  RTV Euro AGD, Pracuj.pl, Otodom, Gratka, Slevomat, Datart,
+  Modivo/eobuwie, Answear, Bookline; ss.lv, Osta.ee, Skelbiu.lt, Aruodas.lt, City24,
+  Njuškalo (HR), Bolha (SI), Index Oglasi, Mimovrste, OLX.bg, Bazar.bg, Car.gr,
+  Spitogatos, Publi24, Lajumate, Kainos.lt, Varle.lt, Senukai; KupujemProdajem
+  (Serbia, non-EU).
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
