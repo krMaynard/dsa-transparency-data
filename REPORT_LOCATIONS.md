@@ -62,6 +62,8 @@ The best starting points for finding more report locations:
 | LINE | LY Corporation | [Report](https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/) | Excel (Art. 15); CY2025 | verified |
 | WeChat | Tencent International Service Europe B.V. | [2026 report](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2026) ([prior](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2025)) | HTML (Art. 15); 2024 & 2025 | verified |
 | IMDb | IMDb.com, Inc. (Amazon) | [DSA info](https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86) | XLSX/CSV; 2024, H1 & H2 2025 | verified |
+| Microsoft Teams / Skype | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304741) | PDF (Communications); Feb – Dec 2024 | verified |
+| Microsoft Community | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305901) | PDF; Feb – Dec 2024 | verified |
 | Reddit | Reddit, Inc. | [DSA info / Transparency Center](https://support.reddithelp.com/hc/en-us/articles/23595536875796-Digital-Services-Act-DSA-Information-for-EU-users) | PDF; semi-annual | likely |
 | Viber | Rakuten Viber (Viber Media S.à r.l.) | [Report](https://www.viber.com/en/terms/eu-digital-services-act-dsa-transparency-report/) | HTML + tables; 18 Feb – 31 Dec 2025 | verified |
 | Flickr | SmugMug, Inc. | [Legal / Transparency](https://www.flickr.com/help/legal) | PDF + XLSX; 2024 & 2025 | verified |
@@ -251,6 +253,9 @@ The best starting points for finding more report locations:
 | AWS | Amazon Web Services | [PDF](https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf) | PDF (Art. 15); covers AWS services | verified |
 | Tencent Cloud | Tencent Cloud International | [DSA page](https://www.tencentcloud.com/document/product/301/59018) | HTML + PDF; 2024 & 2025 | verified |
 | iCloud Storage | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
+| Microsoft Azure | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304935) | PDF; Feb – Dec 2024 | verified |
+| Microsoft OneDrive | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305905) | PDF; Feb – Dec 2024 | verified |
+| Microsoft Advertising | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305803) | PDF; Feb – Dec 2024 | verified |
 | Hetzner | Hetzner Online GmbH | [DSA page](https://www.hetzner.com/legal/digital-services-act/) | Contact/notice page only | uncertain |
 | Fastly | Fastly, Inc. | [DMCA/DSA](https://www.fastly.com/dmca-dsa) | Compliance notice only | uncertain |
 
@@ -270,6 +275,8 @@ The best starting points for finding more report locations:
 | Mozilla / Firefox | Mozilla Corporation | [Transparency](https://www.mozilla.org/en-US/about/policy/transparency/2024/) | DSA report; CY2024 | verified |
 | GMX | 1&1 Mail & Media GmbH | [Transparenzbericht](https://freephone.gmx.net/transparenzbericht) | ODS (Art. 15); 2024 & 2025 | verified |
 | Web.de | 1&1 Mail & Media GmbH | [Impressum](https://www.web.de/impressum/) ([2025 XLSX](https://s.uicdn.com/pih/legal/2025TransparencyReport.xlsx)) | XLSX (Art. 15); 2025 | verified |
+| Microsoft Edge | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304742) | PDF; Feb – Dec 2024 | verified |
+| Microsoft Outlook | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305703) | PDF; Feb – Dec 2024 | verified |
 
 ## Reviews & jobs
 
@@ -295,6 +302,8 @@ The best starting points for finding more report locations:
 | Civitai | Civitai, Inc. | [2024 report](https://civitai.com/articles/10372/civitai-2024-transparency-report) | HTML annual report (not DSA template); 2024 | uncertain |
 | SAP Community | SAP SE | [DSA report](https://pages.community.sap.com/resources-legal/dsa-transparency-report-2025) | Web/PDF; 17 Feb – 31 Dec 2025 | verified |
 | Apple Books | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/books/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
+| Microsoft Learn | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305903) | PDF; Feb – Dec 2024 | verified |
+| Microsoft Forms | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305902) | PDF; Feb – Dec 2024 | verified |
 | WEBTOON (LINE / Naver Webtoon) | WEBTOON Entertainment Inc. | [EU DSA notice](https://www.webtoons.com/en/notice/detail?noticeNo=3367) | HTML; Art. 15 + 24(2); CY2024 | verified |
 | Zepeto | Naver Z Corporation | [DSA page](https://support.zepeto.me/hc/en-us/articles/15675506191769-Digital-Services-Act) | HTML; Art. 24(2) disclosure | uncertain |
 
