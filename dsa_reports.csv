@@ -7,7 +7,10 @@ Alibaba Cloud,Alibaba Cloud (Alibaba.com Singapore),"Web hosting, registrars, si
 AliExpress,Alibaba (AliExpress),Designated VLOPs / VLOSEs,likely,partial,Hub; latest H2 2025,Transparency center,https://www.aliexpress.com/p/transparencycenter/transparencyReport.html
 Amazon Store,Amazon EU S.à r.l.,Designated VLOPs / VLOSEs,likely,partial,HTML; Jul – Dec 2025,Report,https://trustworthyshopping.aboutamazon.com/eu-transparency-report-amazon-jul-dec-2025
 Apple App Store,Apple Distribution International,Designated VLOPs / VLOSEs,likely,partial,Hub + PDF,DSA hub,https://www.apple.com/legal/dsa/
+Apple Books,Apple Distribution International,"Creator, publishing, education & community",verified,yes,HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template,Report,https://www.apple.com/legal/dsa/transparency/eu/books/2502/
+Apple Podcasts,Apple Distribution International,Audio / music streaming,verified,yes,HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template,Report,https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
 AutoScout24,AutoScout24 SE,"Classifieds, real estate & auto",verified,no,PDF (Art. 15/24); Jul – Dec 2024,PDF,https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf
+AWS,Amazon Web Services,"Web hosting, registrars, site builders & infrastructure",verified,no,PDF (Art. 15); covers AWS services,PDF,https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf
 Back Market,Back Market SAS,E-commerce marketplaces & retail,verified,no,PDF; Apr 2025 (semi-annual),PDF,https://assets.ctfassets.net/mmeshd7gafk1/1rtDZVxgD6BhehY82JVTiX/2aacbe1237b2aa49b869c20b982795a2/Transparency_Report_04.2025.pdf
 Behance,Adobe Inc.,"Creator, publishing, education & community",verified,no,HTML; 17 Feb – 31 Dec 2024,EU DSA report,https://www.adobe.com/trust/transparency/reports/eu-dsa-report.html
 Belvilla,Awaze Group,"Travel, mobility, accommodation & events",likely,no,PDF; Feb 2026,Report (Awaze group),https://www.novasol.com/digital-services-act
@@ -64,6 +67,7 @@ GitHub,"GitHub, Inc. (Microsoft)",Developer / software / hosting,verified,no,PDF
 GitHub,"GitHub, Inc. (Microsoft)",Developer / software / hosting,verified,no,PDF; Feb – Dec 2024,2024 PDF,https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/GitHub-DSA-Transparency-Report-Feb-Dec-2024.pdf
 Glassdoor,Glassdoor LLC,Reviews & jobs,likely,yes,XLSX; CY2024,XLSX,https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx
 Glovo,Glovoapp23 S.A. (Delivery Hero),Food delivery & gig / freelance,verified,no,PDF; 2025,Report,https://about.glovoapp.com/culture-and-values/transparency-report/
+GMX,1&1 Mail & Media GmbH,"Browsers, email & portals",verified,yes,ODS (Art. 15); 2024 & 2025,Transparenzbericht,https://freephone.gmx.net/transparenzbericht
 GoDaddy,GoDaddy Inc.,"Web hosting, registrars, site builders & infrastructure",likely,no,Web; 2024 & 2025,Disclosure,https://www.godaddy.com/legal/agreements/digital-services-act-disclosure
 Google Maps,Google Ireland,Designated VLOPs / VLOSEs,likely,partial,Hub; PDF + CSV,Transparency report,https://transparencyreport.google.com/?hl=en
 Google Play,Google Ireland,Designated VLOPs / VLOSEs,likely,partial,Hub; PDF + CSV,Transparency report,https://transparencyreport.google.com/?hl=en
@@ -81,8 +85,10 @@ Hostinger,Hostinger International Ltd.,"Web hosting, registrars, site builders &
 Hotels.com,"Hotels.com, L.P.","Travel, mobility, accommodation & events",verified,yes,PDF + XLSX; 2024 & 2025,Hub,https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act
 Hugging Face,Hugging Face SAS,Developer / software / hosting,likely,no,PDF; 2025,Content policy,https://huggingface.co/content-policy
 Hugging Face,Hugging Face SAS,Developer / software / hosting,likely,no,PDF; 2025,2025 PDF,https://cdn-media.huggingface.co/landing/assets/DSA_HF_2025.pdf
+iCloud Storage,Apple Distribution International,"Web hosting, registrars, site builders & infrastructure",verified,yes,HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template,Report,https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/
 Idealista,Idealista S.A.U.,"Classifieds, real estate & auto",likely,no,HTML; Art. 15/24,DSA info,https://www.idealista.com/ayuda/articulos/informacion-de-idealista-en-cumplimiento-del-reglamento-de-servicios-digitales/
 idealo,idealo internet GmbH,E-commerce marketplaces & retail,likely,no,HTML; CY2025,DSA legal page,https://www.idealo.de/legal/dsa
+IMDb,"IMDb.com, Inc. (Amazon)","Social, messaging, community & video",verified,yes,"XLSX/CSV; 2024, H1 & H2 2025",DSA info,https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86
 Indeed,"Indeed, Inc.",Reviews & jobs,likely,no,HTML; 16 Feb – 31 Dec 2024,Report,https://www.indeed.com/legal/digital-services-act-transparency-report
 Instagram,Meta Platforms Ireland,Designated VLOPs / VLOSEs,likely,partial,Hub; latest H2 2025,Meta regulatory reports,https://transparency.meta.com/reports/regulatory-transparency-reports/
 Interhome,Interhome Group (HomeToGo),"Travel, mobility, accommodation & events",likely,unknown,Annual; report referenced,Legal info,https://www.interhome.group/en-ch/legal-information
@@ -93,6 +99,7 @@ Kick,Kick Streaming Pty Ltd (Easygo),"Social, messaging, community & video",like
 Kleinanzeigen,Kleinanzeigen GmbH,"Classifieds, real estate & auto",likely,no,HTML hub + PDFs; semi-annual,Hub,https://themen.kleinanzeigen.de/transparenzbericht/
 Leboncoin,LBC France SAS (Adevinta),E-commerce marketplaces & retail,likely,no,PDF (FR),PDF,https://img.leboncoin.fr/api/v1/lbcpb2/documents/transparency_report-cover_page-FR_version.pdf?rule=cms_pdf
 Lilo,Lilo SAS (now Qwant),Search engines (non-VLOSE),verified,yes,HTML + Excel; Sep – Dec 2025,Report,https://lilo.org/rapport-transparence
+LINE,LY Corporation,"Social, messaging, community & video",verified,yes,Excel (Art. 15); CY2025,Report,https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/
 LinkedIn,LinkedIn Ireland,Designated VLOPs / VLOSEs,verified,yes,ZIP (harmonised template); Feb 2026 (H2 2025),Feb 2026 ZIP,https://content.linkedin.com/content/dam/help/tns/en/report/LinkedIn-February-2026-Digital-Services-Act-Transparency-Report.zip
 Lovoo,LOVOO GmbH,Dating,likely,no,PDF (DE); 2024,PDF,https://www.lovoo.com/de/wp-content/uploads/sites/4/2026/01/LOVOO_Transparenzbericht_2024.pdf
 Malt,Malt Community SAS,Food delivery & gig / freelance,likely,no,Web report; 2024 & 2025,Transparency,https://www.malt.fr/c/transparency
@@ -101,7 +108,9 @@ Marktplaats,Marktplaats B.V. (Adevinta),E-commerce marketplaces & retail,verifie
 "Match Group (Tinder, Hinge, OkCupid, Meetic, …)",Match Group,Dating,verified,yes,PDF + per-app Excel; 2024 & 2025,Resources,https://www.matchgroup-safety.com/resources
 MediaMarkt / Saturn,MediaMarktSaturn,E-commerce marketplaces & retail,likely,no,HTML,Report,https://www.mediamarkt.de/de/shop/dsa-transparenzbericht.html
 Medium,A Medium Corporation,"Creator, publishing, education & community",uncertain,unknown,HTML; DSA info/orders,DSA Information section,https://help.medium.com/hc/en-us/sections/21832701520791-Digital-Service-Act-DSA-Information
+Messenger / Instagram Direct,Meta Platforms Ireland,"Social, messaging, community & video",likely,unknown,In Meta's non-VLOP DSA report; periodic,Meta non-VLOP reports,https://transparency.meta.com/reports/regulatory-transparency-reports/
 Miniclip,Miniclip SA (Tencent),App stores & gaming,verified,unknown,Landing + ZIP; CY2025,Report,https://www.miniclip.com/dsa-transparency-report
+Mozilla / Firefox,Mozilla Corporation,"Browsers, email & portals",verified,unknown,DSA report; CY2024,Transparency,https://www.mozilla.org/en-US/about/policy/transparency/2024/
 Nextdoor,"Nextdoor Holdings, Inc.","Social, messaging, community & video",likely,no,HTML; periodic,Report,https://help.nextdoor.com/s/article/DSA-Transparency-Report
 "Niantic (Pokémon GO, …)",Niantic Inc.,App stores & gaming,verified,yes,Landing + Excel/PDF; CY2025,Report,https://nianticlabs.com/dsa-transparency
 Nintendo eShop,"Nintendo Co., Ltd.",App stores & gaming,verified,no,PDF; Feb 2025,DSA page,https://www.nintendo.com/en-gb/Legal-information/Digital-Services-Act-2522334.html
@@ -169,6 +178,10 @@ Vivastreet,Vivastreet (legal entity unverified),"Classifieds, real estate & auto
 Vivino,Vivino ApS,E-commerce marketplaces & retail,likely,no,HTML; semi-annual (Art. 24),Content moderation policy,https://www.vivino.com/legal/content-moderation-policy
 Vrbo,EG Vacation Rentals Ireland Ltd.,"Travel, mobility, accommodation & events",verified,yes,PDF + XLSX; 2024 & 2025,Hub,https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act
 Wattpad,Wattpad Corp. (Naver),"Creator, publishing, education & community",verified,no,HTML; to 31 Dec 2025,Report,https://policies.wattpad.com/transparency-report/
+Web.de,1&1 Mail & Media GmbH,"Browsers, email & portals",verified,yes,XLSX (Art. 15); 2025,Impressum,https://www.web.de/impressum/
+Web.de,1&1 Mail & Media GmbH,"Browsers, email & portals",verified,yes,XLSX (Art. 15); 2025,2025 XLSX,https://s.uicdn.com/pih/legal/2025TransparencyReport.xlsx
+WeChat,Tencent International Service Europe B.V.,"Social, messaging, community & video",verified,no,HTML (Art. 15); 2024 & 2025,2026 report,https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2026
+WeChat,Tencent International Service Europe B.V.,"Social, messaging, community & video",verified,no,HTML (Art. 15); 2024 & 2025,prior,https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2025
 Whatnot,Whatnot Inc.,E-commerce marketplaces & retail,verified,yes,PDF + XLSX; 2025 & 2026,EU DSA,https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act
 Wikipedia,Wikimedia Foundation,Designated VLOPs / VLOSEs,verified,yes,XLS (harmonised template); Feb 2026 (H2 2025),Feb 2026 XLS,https://foundation.wikimedia.org/wiki/File:Wikipedia_-_DSA_transparency_report_2026-02-28.xls
 Wix,Wix.com Ltd.,"Web hosting, registrars, site builders & infrastructure",verified,no,Web; CY2024,Report,https://support.wix.com/en/article/dsa-transparency-report-2024
@@ -178,6 +191,7 @@ X (Twitter),Twitter International Unlimited Co.,Designated VLOPs / VLOSEs,likely
 Xbox,Microsoft,App stores & gaming,verified,no,PDF; 2024,PDF,https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Xbox-platform-and-Xbox-Game-Studios-DSA-Transparency-Report-2024.pdf
 XNXX,WebGroup Czech Republic,Designated VLOPs / VLOSEs,likely,no,Mandatory-info page; prior PDF,Mandatory information,https://info.xnxx.com/legal/mandatory-information
 XVideos,WebGroup Czech Republic,Designated VLOPs / VLOSEs,likely,no,Mandatory-info page; prior PDF,Mandatory information,https://info.xvideos.net/legal/mandatory-information
+Yahoo (+ AOL),Yahoo International Limited,"Browsers, email & portals",verified,yes,HTML + PDF + CSV; 17 Feb – 31 Dec 2025,EU DSA hub,https://www.yahooinc.com/transparency/reports/eu-digital-services-act/index.html
 Yelp,Yelp Inc.,Reviews & jobs,likely,no,HTML; 2024 & 2025,Report,https://www.yelp-support.com/article/Yelp-DSA-Transparency-Report-2025?l=en_GB
 YouTube,Google Ireland,Designated VLOPs / VLOSEs,likely,partial,Hub; PDF + CSV,Transparency report,https://transparencyreport.google.com/?hl=en
 Yubo,Twelve App SAS,"Social, messaging, community & video",likely,unknown,Bi-annual T&S report (DSA-aligned),Transparency report,https://www.yubo.live/safety/transparency-report
