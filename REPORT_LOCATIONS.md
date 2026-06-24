@@ -121,6 +121,7 @@ The best starting points for finding more report locations:
 | home24 | home24 SE | [Impressum](https://www.home24.de/home24-impressum/) | Transparenzbericht; 2025/2026 | likely |
 | Conforama | Conforama France SA | [DSA page](https://www.conforama.fr/digital-service-act) | HTML DSA page; AMAR + notice | uncertain |
 | Whatnot | Whatnot Inc. | [EU DSA](https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act) | PDF + XLSX; 2025 & 2026 | verified |
+| FinCompare | FinCompare GmbH | [PDF](https://fincompare.de/wp-content/uploads/2024/12/Transparenzbericht-nach-Art.-15-DSA-Berichtszeitraum_-Januar-2024-%E2%80%93-Dezember-2024.pdf) | PDF (Art. 15); Jan – Dec 2024 | verified |
 | Tradera | Tradera Sweden AB | [Support](https://www.tradera.com/support) | Annual report (referenced in T&C) | likely |
 | Faire | Faire Wholesale, Inc. | [Report](https://www.faire.com/support/articles/20960200105115) | CSV; 2024 & 2025 | verified |
 | CDON | CDON AB | [Transparensrapport](https://cdon.se/cdon/transparensrapport/) | HTML; CY2025 | verified |
@@ -135,6 +136,7 @@ The best starting points for finding more report locations:
 | OLX | OLX B.V. (Prosus) | [Report](https://www.olx.pl/d/dsa-transparency-report/) | HTML; semi-annual | likely |
 | AutoScout24 | AutoScout24 SE | [PDF](https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf) | PDF (Art. 15/24); Jul – Dec 2024 | verified |
 | Idealista | Idealista S.A.U. | [DSA info](https://www.idealista.com/ayuda/articulos/informacion-de-idealista-en-cumplimiento-del-reglamento-de-servicios-digitales/) | HTML; Art. 15/24 | likely |
+| Vivastreet | Vivastreet (legal entity unverified) | [Transparency report](https://www.vivastreet.com/s/transparency_report) | HTML (Art. 15/24/42); CY2025 | verified |
 
 ## Travel, mobility, accommodation & events
 
@@ -398,6 +400,20 @@ negative result is not re-searched:
 - **B2B wholesale / trade directories (no report found):** Europages, Kompass,
   Visable/wlw, Kaufland marketplace, RS Components, Manutan, real.de, Hood.de,
   Yatego, Rakuten.de, Allegro Lokalnie, Solar.
+- **Sports / esports / fan communities (no report found):** Transfermarkt (Art. 11
+  contact only), Sofascore, FotMob, Futbin, FACEIT/EFG, ESEA, Challengermode,
+  Crunchyroll, DAZN, AniList, Kitsu.
+- **Music / audio streaming & creator (no report found; mostly below threshold):**
+  Tidal (process page only), Qobuz, Napster, Anghami, Audius, DistroKid, TuneCore,
+  CD Baby, Boomplay, Believe/Splice.
+- **Comparison portals (no report found):** Check24 (sub-45M, contact only), Verivox,
+  HolidayCheck, Travelcircus, Urlaubsguru, Zoover, Billiger-mietwagen, Wechselpilot,
+  Smava, Finanzcheck, Tarifcheck.
+- **National directories / classifieds (no full report found):** DoneDeal.ie,
+  Adverts.ie, Gumtree.ie (shared Distilled DSA portal — Art. 24(2)/notice only);
+  Gelbe Seiten, Das Örtliche, PagesJaunes/Solocal, Cylex, GoLocal, werkenntden,
+  Quoka, Deine-Tierwelt, Bazaraki, Locanto.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
-  Avito (not EU-operating).
+  Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
+  post-Brexit); Comparis (Switzerland).
