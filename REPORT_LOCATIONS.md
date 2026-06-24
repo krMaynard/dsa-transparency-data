@@ -477,6 +477,15 @@ negative result is not re-searched:
   gaming, barred in most EU states), Shaadi.com, BharatMatrimony, Jeevansathi,
   WazirX, CoinDCX, CoinSwitch (crypto → MiCA, not DSA), Naukri, BYJU'S, Unacademy,
   upGrad, JioCinema, JioSaavn, Gaana, Dailyhunt/Josh.
+- **Southeast Asia / Latin America / Middle East (out of scope or no report found):**
+  Almost all are region-only with no EU recipient base (out of DSA scope) — Shopee
+  (exited the EU 2022–23), Lazada, Grab, Gojek/Tokopedia, Traveloka, Carousell,
+  Zalora, Bukalapak; MercadoLibre (publishes a LatAm-scoped, non-DSA report),
+  Despegar, Rappi, Nubank, Globoplay, Magalu, Americanas; Noon, OpenSooq, dubizzle,
+  Namshi, Ounass, Property Finder, Bayut, Jumia (Africa), Yalla. A few have genuine
+  EU presence but **no findable DSA report** — Razer (RazerStore/Razer Gold) and
+  Hotmart (Hotmart BV, Amsterdam). (Talabat, Careem and dubizzle report
+  only via their global parents Delivery Hero / Uber Eats / OLX — already listed.)
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
