@@ -129,6 +129,7 @@ The best starting points for finding more report locations:
 | Whatnot | Whatnot Inc. | [EU DSA](https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act) | PDF + XLSX; 2025 & 2026 | verified |
 | FinCompare | FinCompare GmbH | [PDF](https://fincompare.de/wp-content/uploads/2024/12/Transparenzbericht-nach-Art.-15-DSA-Berichtszeitraum_-Januar-2024-%E2%80%93-Dezember-2024.pdf) | PDF (Art. 15); Jan – Dec 2024 | verified |
 | Tradera | Tradera Sweden AB | [Support](https://www.tradera.com/support) | Annual report (referenced in T&C) | likely |
+| Mercari | Mercari, Inc. | [Transparency](https://about.mercari.com/en/safety/transparency/) | PDF; half-yearly (DSA framing unconfirmed) | uncertain |
 | Faire | Faire Wholesale, Inc. | [Report](https://www.faire.com/support/articles/20960200105115) | CSV; 2024 & 2025 | verified |
 | CDON | CDON AB | [Transparensrapport](https://cdon.se/cdon/transparensrapport/) | HTML; CY2025 | verified |
 | Fyndiq | Fyndiq AB | [Transparensrapport](https://fyndiq.se/fyndiq/transparensrapport/) | HTML; CY2025 | verified |
@@ -197,6 +198,11 @@ The best starting points for finding more report locations:
 | GameDistribution | Azerion | [Report](https://static.gamedistribution.com/dsa-transparency-report.html) | HTML; CY2024 | verified |
 | Niantic (Pokémon GO, …) | Niantic Inc. | [Report](https://nianticlabs.com/dsa-transparency) | Landing + Excel/PDF; CY2025 | verified |
 | Chess.com | Chess.com, LLC | [DSA compliance](https://www.chess.com/article/view/digital-services-act-compliance) | HTML; Art. 24(2) MAU only | uncertain |
+| PlayStation Network | Sony Interactive Entertainment Network Europe | [DSA info](https://www.playstation.com/en-gb/legal/digital-service-act-information/) | ZIP; 2024 & 2025 | verified |
+| Riot Games | Riot Games Ltd. | [DSA report](https://support-leagueoflegends.riotgames.com/hc/en-us/articles/25972785684627) | XLSX; 2024 & 2025 | verified |
+| Square Enix | Square Enix Ltd. | [Online safety](https://www.square-enix-games.com/en_GB/documents/online-safety) | PDF (Art. 15); Feb 2025 | verified |
+| Konami | Konami Digital Entertainment | [EU DSA hub](https://legal.konami.com/kde/eudsa/) | XLSX/PDF; 2024 & 2025 | verified |
+| Nexon | Nexon | [DSA page](https://playersupport.nexon.com/hc/en-us/articles/46401329736084-Digital-Services-Act) | HTML hub | likely |
 
 ## Dating
 
@@ -280,6 +286,8 @@ The best starting points for finding more report locations:
 | Civitai | Civitai, Inc. | [2024 report](https://civitai.com/articles/10372/civitai-2024-transparency-report) | HTML annual report (not DSA template); 2024 | uncertain |
 | SAP Community | SAP SE | [DSA report](https://pages.community.sap.com/resources-legal/dsa-transparency-report-2025) | Web/PDF; 17 Feb – 31 Dec 2025 | verified |
 | Apple Books | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/books/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
+| WEBTOON (LINE / Naver Webtoon) | WEBTOON Entertainment Inc. | [EU DSA notice](https://www.webtoons.com/en/notice/detail?noticeNo=3367) | HTML; Art. 15 + 24(2); CY2024 | verified |
+| Zepeto | Naver Z Corporation | [DSA page](https://support.zepeto.me/hc/en-us/articles/15675506191769-Digital-Services-Act) | HTML; Art. 24(2) disclosure | uncertain |
 
 ## Adult content
 
@@ -442,6 +450,11 @@ negative result is not re-searched:
   Music; Google Chrome Web Store, Google Drive, Blogger, Google News, Google Photos,
   Waze (Google reports these only in its aggregate MAR disclosure); Amazon Prime Video,
   Amazon Music.
+- **Japanese / Korean platforms (no own DSA report found):** Rakuten Kobo, Pixiv/BOOTH/
+  Skeb, DMM, Niconico, Cookpad, Kakaku.com, Weverse (HYBE), Kakao Webtoon, KakaoPage,
+  Lezhin, Tappytoon, Tapas, AfreecaTV/SOOP, Watcha, Wavve, Naver, Bubble/Dear U.
+- **Game publishers / console (no report found):** Capcom, SEGA, Take-Two/Rockstar,
+  NCsoft, Netmarble, Pearl Abyss, Smilegate, Bandai Namco (Art. 11 contact only).
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating); Gumtree UK, MoneySuperMarket, Confused.com (UK,
