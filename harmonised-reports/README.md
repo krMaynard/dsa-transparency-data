@@ -14,8 +14,10 @@ template). These are the catalogue entries with `harmonised_template = yes` in
 | `extracted/<platform>/NN_<section>.csv` | One CSV per template section, normalised to the canonical English section order (1–11), regardless of the source format or sheet language. |
 | `manifest.json` | Per-platform record: source file, format, provider, reporting period, EU AMAR total, sections found, per-section data-row counts. |
 | `summary.csv` | Flat cross-platform headline table (provider · period · AMAR · row totals). |
-| `sources.csv` | Status of **every** `harmonised_template = yes` platform: `extracted`, `file-blocked`, or `hub-pending`. |
+| `sources.csv` | Status of **every** `harmonised_template = yes` platform: `extracted`, `format-variant`, `file-blocked`, or `hub-pending`. |
 | `extract.py` | The extractor — re-run after adding files to `raw/`. |
+| `discover_hubs.py` | Crawls the `hub-pending` landing pages for direct template-file links (writes `hub_candidates.json`). |
+| `download_hubs.py` | Downloads the curated latest file per hub-discovered platform into `raw/`. |
 
 ## The 11 sections (fixed template order)
 
@@ -28,15 +30,26 @@ Sheet names are sometimes localised (German for Web.de, French for Veepee), but
 the section *order* is fixed, so the extractor maps by position. This is the same
 table structure as the aggregated VLOP dataset (`t3`–`t11`).
 
-## Status (52 template platforms)
+## Status (52 template platforms — see `sources.csv`)
 
-- **8 extracted** — AboutYou, LinkedIn, ManoMano, Pinterest, Veepee, Vinted,
-  Web.de, Wikipedia (their catalogue URL is a direct file link).
-- **1 file-blocked** — Glassdoor's `.xlsx` URL returns a 403 bot-wall to this
-  fetcher (Cloudflare). Needs a real browser session.
-- **43 hub-pending** — the catalogue URL is a transparency *landing page*, not a
-  direct file. Extracting these needs per-site navigation (and some are EU
-  geo-fenced) to locate the actual template file. See `sources.csv`.
+- **27 extracted** — the 8 direct-file platforms plus 19 found by crawling the
+  landing pages (`discover_hubs.py`): Ceneo, Cloudflare, DuckDuckGo, Expedia,
+  HomeToGo, Hostelworld, Hostinger, Hotels.com, IMDb, Konami, Lilo, Match Group
+  (Tinder), Niantic (Pokémon GO), Qwant, Roblox, Shopify, Skroutz, Vrbo, Yahoo.
+  For multi-brand providers (Match Group, Niantic, Yahoo, DuckDuckGo, Expedia
+  family) we keep one representative/flagship file per catalogue platform.
+- **4 format-variant** — Discord (renumbers the sections), LINE (a 5-sheet
+  variant), WordPress.com (a different report: DMCA / government / IRU requests,
+  not the Annex I template), heise (a single combined CSV). Downloaded but not
+  forced into the canonical 11-section shape.
+- **1 file-blocked** — Glassdoor's `.xlsx` returns a 403 bot-wall.
+- **20 hub-pending** — landing pages with no static file link (JS-rendered or
+  the file sits behind a click), or that 403 a headless fetch. Need a real
+  browser session and/or EU egress.
+
+IMDb and Skroutz ship only sections 1–8 + 11 (no AMAR / human-resources); the
+extractor maps by the section number in each sheet/file name, so the omitted
+sections stay empty rather than shifting the others.
 
 ## Reproduce
 

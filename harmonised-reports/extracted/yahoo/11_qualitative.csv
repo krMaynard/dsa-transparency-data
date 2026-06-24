@@ -1,0 +1,33 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Search,2025-02-17/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"Where required by EU privacy laws, we respond to requests from individuals where it can be claimed that Yahoo search results contain information that may be inaccurate, no longer relevant, inadequate, or excessive in relation to the purposes for which the individual’s personal data was collected or processed. This is known as the ‘right to be forgotten’ (RTBF”). 
+
+We may block (“Dereference”) the links from appearing on Yahoo general search results pages in the EEA in response to a search for an individual’s name. "
+All,Search,2025-02-17/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"In response to valid requests from individuals, Yahoo assesses whether specific search results linked to their name are inaccurate, no longer relevant, inadequate or excessive in light of the purposes for which the personal data was processed. 
+
+Where these criteria are met, Yahoo Dereferences the relevant links from Yahoo general search engine results pages in the EEA/UK. "
+All,Search,2025-02-17/2025-12-31,Qualitative description of the automated means,"Yahoo may sometimes use generative AI tools to provide background research support to human review of RTBF cases relating to Yahoo Search results. 
+
+Trained RTBF specialists may use company-licensed generative AI tools to conduct an initial pre-screening. 
+
+These generative AI tools do not make decisions, take direct actions regarding search results, or communicate with users. 
+Human specialists are at all times fully responsible for the legal decision in each RTBF case and for any action taken. 
+
+Use of the generative AI tools for RTBF purposes is subject to periodic review and robust accuracy testing."
+All,Search,2025-02-17/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"As explained above, the generative AI tools do not make any decisions, take any direct actions regarding search results, or communicate with users.  As such, there is no automated action to qualitatively assess the accuracy of."
+All,Search,2025-02-17/2025-12-31,Specification of the precise purposes to apply automated means,"Yahoo uses the company-licensed generative AI tools mentioned above for the purpose of assisting with RTBF case management and to ensure consistency in the review process.  Specifically, the tools may be used to:
+
+(i) pre-screen RTBF cases that contain a higher number of URLs (typically more than five) to help structure the case file and identify potentially relevant factors; 
+
+(ii) extract and organise URLs from internal case management systems to ensure that all links identified by the data subject are captured and reviewed; and 
+
+(iii) generate a non-binding summary of publicly available information associated with the URLs (for example, an overview of the URL content, summary of facts presented in the content, and a preliminary assessment of the request against applicable RTBF criteria) to support the subsequent human balancing exercise. 
+"
+All,Search,2025-02-17/2025-12-31,Safeguards applied to the use of automated means,"Access to these tools is restricted to trained RTBF specialists. The tools are configured and deployed in secure enterprise environments approved by Yahoo’s internal security team, which reviews and periodically re-assesses this use of generative AI tools on an ongoing basis. 
+
+Use is specifically limited to defined tasks (such as case pre-screening, summarisation and URL organisation), with clear internal guidance that AI outputs are non-binding and must not be used to make, automate or execute final RTBF decisions. 
+"
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Support given to human resources dedicated to content moderation ,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Methodology used to compute the number of human resources dedicated to content moderation  ,Free text

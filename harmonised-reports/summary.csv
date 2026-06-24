@@ -1,9 +1,28 @@
 platform,provider,period_start,period_end,amar_eu_total,sections_found,total_data_rows
 aboutyou,ABOUT YOU SE & Co. KG,2024-12-04,2025-12-03,,11,668
+ceneo,Ceneo.pl Sp. z o.o.,2025-01-01,2025-12-31,,11,676
+cloudflare,"Cloudflare, Inc.",2025-07-01,2025-12-31,,11,670
+duckduckgo,"Duck Duck Go, Inc.",2025-01-01,2025-12-31,,11,668
+expedia,"Expedia, Inc.",2025-01-01,2025-12-31,,11,676
+hometogo,HomeToGo GmbH,2025-01-01,2025-12-31,,11,668
+hostelworld,Hostelworld.com Limited,2025-01-01,2025-12-31,,11,677
+hostinger,HOSTINGER INTERNATIONAL LIMITED,2025-02-17,2025-12-31,,11,1859
+hotelscom,"Hotels.com, L.P.",2025-01-01,2025-12-31,,11,671
+imdb,"IMDb.com, Inc.",2025-07-01,2025-12-31,,9,658
+konami,"Konami Digital Entertainment Co., Ltd (Konami, we or us).",2025-02-17,2025-12-31,,11,679
+lilo,,2025-09-01,2025-12-31,,11,670
 linkedin,"LinkedIn Ireland Unlimited Company (""LinkedIn"")",2025-07-01,2025-12-31,55200000,11,3244
 manomano,Colibri SAS (ManoMano),2025-01-01,2025-12-31,,11,669
+matchgroup,Tinder,2025-01-01,2025-12-31,,11,763
+niantic,"Niantic, Inc.",2025-01-01,2025-12-31,,11,668
 pinterest,Pinterest,2025-07-01,2025-12-31,84626800,11,654
+qwant,,2025-01-01,2025-12-31,,11,671
+roblox,Roblox Corporation,2025-01-01,2025-12-31,,11,616
+shopify,Shopify International Ltd.,2025-01-01,2025-12-31,,11,646
+skroutz,ΣΚΡΟΥΤΖ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΥΠΗΡΕΣΙΕΣ ΔΙΑΔΙΚΤΥΟΥ,2025-02-17,2025-12-31,,9,658
 veepee,Vente-privee.com,2025-01-01,2025-12-31,,11,2009
 vinted,Vinted,2025-01-01,2025-12-31,,11,669
+vrbo,EG Vacation Rentals Ireland Limited,2025-01-01,2025-12-31,,11,674
 webde,1&1 Mail & Media GmbH,2025-01-01,2025-12-31,,11,668
 wikipedia,Wikimedia Foundation,2025-07-01,2025-12-31,155663000,11,703
+yahoo,Yahoo International Limited ,2025-02-17,2025-12-31,,11,672

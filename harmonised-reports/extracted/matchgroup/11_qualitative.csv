@@ -1,0 +1,51 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Tinder,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"During the reporting period (1 January 2025 – 31 December 2025), Tinder engaged in own-initiative content moderation by proactively identifying policy violations and applying restrictions including 
+
+    (i) content removal and 
+    (ii) account-level bans. 
+
+Content was removed across multiple policy areas, and a portion of removals were executed using automated moderation. At the account level, Tinder bans users for policy violations; a majority of account actions were proactive and a substantial share were applied automatically. In addition to these restrictions, Tinder uses soft moderation measures, including warning prompts and in-app interventions, to encourage users to reconsider potentially harmful messages before sending and to facilitate reporting when users encounter concerning content.
+
+For additional information, please refer to Appendix I.A — Own-initiative content moderation (pp. 12–14); Our Approach to Content Moderation (pp. 9–10); Our Commitment to Safety — Safety features (pp. 6–8)."
+All,Tinder,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"Tinder detects allegedly illegal or terms-incompatible content and behavior through a combination of automated detection systems and user reporting, with human moderation used to review flagged content and accounts and to determine enforcement outcomes. 
+
+Automated detection includes features to detect spam or potentially inappropriate language in real time and, in some cases, encourage users to edit a message before it is sent; many spam-related enforcements are automated and informed by ML/AI and behavioral heuristics.
+
+Tinder also provides users and non-users with reporting channels to flag content or behavior for review, and moderators act on valid reports in line with Match Group’s policies and guidelines. Actions that flow from detection include content removal and account bans.
+
+For additional information, please refer to Our Approach to Content Moderation (pp. 9–10); Appendix I.A — Own-initiative content moderation (pp. 12–14); Appendix I.B — User reports (pp. 14–16)."
+All,Tinder,2025-01-01/2025-12-31,Qualitative description of the automated means,"Tinder uses automated means to support content moderation by assisting detection, prioritization, and enforcement, alongside human review. Automated tools help identify and flag potentially violative content and behavior, including systems designed to detect spam or potentially inappropriate language and to surface concerns for moderator attention. 
+
+In enforcement, certain action types (notably spam-related account enforcement) may be applied automatically, and automated systems can also be used to route items for human review rather than taking immediate action in all cases. More generally, Tinder employs human moderation assisted by machine learning and automation, with moderators making decisions in line with policies and guidelines, and with user reporting and complaint pathways supporting oversight and correction.
+
+Safeguards and oversight mechanisms include human involvement in moderation workflows and complaints/dispute processes for users to challenge outcomes.
+
+For additional information, please refer to Our Approach to Content Moderation (pp. 9–10); Appendix I.A — Own-initiative content moderation (pp. 12–14); Appendix I.D — Complaints and disputes (p. 18)."
+All,Tinder,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Automated systems are used to flag potentially violative content/behavior (including spam or potentially inappropriate language), and human moderators review flagged content and accounts and act according to Tinder's policies and guidelines. This human review layer functions as a primary safeguard against automated errors. 
+
+Tinder monitors the accuracy and performance of automated means used for content moderation through a combination of quantitative and qualitative indicators, supported by human oversight and quality assurance. These include outcomes of human review of content flagged by automated systems, appeal and reinstatement outcomes, where available, that may signal potential false positive, and sampling-based quality checks of automated decisions. Tinder also considers operational indicators relating to repeat or evasive behavior in assessing whether detection parameters remain effective. 
+
+An appeals process is available to users whose content was removed or whose accounts were banned; appeals are reviewed by a dedicated team of human reviewers separate from the moderation team, enabling Tinder to correct and refine automated content moderation as needed. 
+
+For additional information, please refer to Our Approach to Content Moderation (pp. 9–10); Appendix I.D — Complaints and disputes (p. 18); Our Commitment to Safety — Safety features (pp. 6–7)."
+All,Tinder,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,"Tinder applies automated means in content moderation to support: 
+
+(i) detection and identification of potentially violative content and behavior (including spam and potentially inappropriate language); 
+
+(ii) prevention through in-product warning prompts that encourage users to reconsider or edit certain messages before sending; 
+
+(iii) enforcement by enabling certain account actions to be taken automatically in specific contexts (including spam-related enforcement); and 
+
+(iv) prioritization and routing by surfacing automated flags and signals for moderator review, so human teams can focus on higher-priority cases and make decisions in line with Tinder’s policies and guidelines.
+
+For additional information, please refer to Our Approach to Content Moderation (pp. 9–10); Our Commitment to Safety — Safety features (pp. 6–7); Appendix I.A — Own-initiative content moderation (pp. 12–14)."
+All,Tinder,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,"Tinder applies safeguards around automated means for content moderation by pairing automation with human moderation and review and by maintaining user review and redress mechanisms. A human-led moderation approach is assisted by machine learning and automation, with moderators making enforcement decisions in line with Tinder’s policies and guidelines, including review of content and accounts surfaced through automated detection and user reports. Automated systems operate within risk-based parameters and are subject to quality assurance and monitoring processes intended to assess performance and identify potential error patterns. 
+
+To provide oversight and mitigate erroneous outcomes, Tinder offers an appeals process for users whose content was removed or accounts were banned; appeals are reviewed by a dedicated human review team separate from the moderation team, and this separation supports objective assessment and enables Tinder to correct and refine moderation outcomes as needed. Tinder monitors appeals volumes, reinstatements, and resolution times, reflecting ongoing monitoring of outcomes and user redress.
+
+For additional information, please refer to Our Approach to Content Moderation (pp. 9–10); Appendix I.D — Complaints and disputes (p. 18); Appendix I.B — User reports (pp. 14–16)."
+Only for VLOPs,Tinder,2025-01-01/2025-12-31,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,Tinder,2025-01-01/2025-12-31,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,Tinder,2025-01-01/2025-12-31,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,Tinder,2025-01-01/2025-12-31,Support given to human resources dedicated to content moderation,Free text
+Only for VLOPs,Tinder,2025-01-01/2025-12-31,Methodology used to compute the number of human resources dedicated to content moderation,Free text
