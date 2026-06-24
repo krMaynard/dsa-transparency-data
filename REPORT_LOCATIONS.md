@@ -136,7 +136,7 @@ The best starting points for finding more report locations:
 | OLX | OLX B.V. (Prosus) | [Report](https://www.olx.pl/d/dsa-transparency-report/) | HTML; semi-annual | likely |
 | AutoScout24 | AutoScout24 SE | [PDF](https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf) | PDF (Art. 15/24); Jul – Dec 2024 | verified |
 | Idealista | Idealista S.A.U. | [DSA info](https://www.idealista.com/ayuda/articulos/informacion-de-idealista-en-cumplimiento-del-reglamento-de-servicios-digitales/) | HTML; Art. 15/24 | likely |
-| Vivastreet | Datgrama / Adsxchange | [Transparency report](https://www.vivastreet.com/s/transparency_report) | HTML (Art. 15/24/42); CY2025 | verified |
+| Vivastreet | Vivastreet (legal entity unverified) | [Transparency report](https://www.vivastreet.com/s/transparency_report) | HTML (Art. 15/24/42); CY2025 | verified |
 
 ## Travel, mobility, accommodation & events
 
