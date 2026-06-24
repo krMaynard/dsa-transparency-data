@@ -117,6 +117,11 @@ The best starting points for finding more report locations:
 | Fruugo | Fruugo.com Ltd | [Compliance statement](https://www.fruugo.ie/help/detail/dsa-compliance-statement) | HTML; Jun – Dec 2025 | likely |
 | Vivino | Vivino ApS | [Content moderation policy](https://www.vivino.com/legal/content-moderation-policy) | HTML; semi-annual (Art. 24) | likely |
 | DocMorris | DocMorris N.V. | [DSA page](https://www.docmorris.de/digital-services-act) | HTML DSA page; contents unverified | uncertain |
+| Trendyol | DSM Grup / Trendyol Group | [2025 PDF](https://9be604a381897de8.mncdn.com/tymp/prod/documents/policy/TY_DSA_Report_2025.pdf) ([2024 PDF](https://cdn.dsmcdn.com/mobile/international/legal/transparency_report_2024.pdf)) | PDF; 2024 & 2025 | verified |
+| home24 | home24 SE | [Impressum](https://www.home24.de/home24-impressum/) | Transparenzbericht; 2025/2026 | likely |
+| Conforama | Conforama France SA | [DSA page](https://www.conforama.fr/digital-service-act) | HTML DSA page; AMAR + notice | uncertain |
+| Whatnot | Whatnot Inc. | [EU DSA](https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act) | PDF + XLSX; 2025 & 2026 | verified |
+| Tradera | Tradera Sweden AB | [Support](https://www.tradera.com/support) | Annual report (referenced in T&C) | likely |
 
 ## Classifieds, real estate & auto
 
@@ -163,6 +168,7 @@ The best starting points for finding more report locations:
 | Malt | Malt Community SAS | [Transparency](https://www.malt.fr/c/transparency) | Web report; 2024 & 2025 | likely |
 | Upwork | Upwork Global Inc. | [2025 report](https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours) | XLSX; 2024 & 2025 | likely |
 | Fiverr | Fiverr International Ltd. | [DSA overview](https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview) | HTML overview | uncertain |
+| Fixly | Fixly sp. z o.o. (OLX / Adevinta) | [Legal info](https://pomoc.fixly.pl/hc/pl/categories/34663617565725-Informacje-Prawne) | Web/PDF moderation report | likely |
 
 ## App stores & gaming
 
@@ -362,6 +368,20 @@ negative result is not re-searched:
   Kraken, Crypto.com, Bitpanda, Bybit, OKX.
 - **More travel / dating (no report found):** Holidu, Casamundo, Pierre & Vacances /
   Center Parcs, NockNock, Hily, Once, Lex, Her, Taimi, eHarmony, Jaumo, MeetMe, Twoo.
+- **Auctions / collectibles / resale (no full report found):** Catawiki (DSA pages,
+  no statistical report), BrickLink (Art. 24(2) notice only), StockX, GOAT, Chrono24,
+  Rebelle, Sellpy, Momox/Medimops, Ubup, The Saleroom, Drouot, Beatport, Grailed,
+  Heritage Auctions, Barnebys, Auctionet, Whisky Auctioneer.
+- **Crowdfunding / edtech (no report found; many out of scope):** GoFundMe, GoStudent,
+  Skillshare, Domestika (notice/contact only); Ulule, KissKissBankBank, Startnext,
+  Seedrs, Crowdcube, Companisto, Leetchi, FutureLearn, OpenClassrooms, edX, Coursera,
+  Babbel, Busuu, Preply, italki, Brilliant, Duolingo, MasterClass.
+- **More regional marketplaces / local-services / ticketing (no report found):**
+  Hepsiburada, Wayfair, Westwing, Maisons du Monde, La Redoute, Showroomprivé, BUT,
+  Sarenza, Fnac/Darty, bol.com, Allegro, Wish, JD/Ochama, Coupang, Vivense, Made.com,
+  mydealz/Pepper, MyHammer, Helpling, ProntoPro, StarOfService, Treatwell, Werkspot,
+  Cabify, Heetch, Gett, CTS Eventim, Viagogo, StubHub, TicketSwap, DICE, Fever,
+  Bandsintown, Songkick.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
