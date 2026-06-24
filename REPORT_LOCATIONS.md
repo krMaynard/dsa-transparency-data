@@ -122,6 +122,10 @@ The best starting points for finding more report locations:
 | Conforama | Conforama France SA | [DSA page](https://www.conforama.fr/digital-service-act) | HTML DSA page; AMAR + notice | uncertain |
 | Whatnot | Whatnot Inc. | [EU DSA](https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act) | PDF + XLSX; 2025 & 2026 | verified |
 | Tradera | Tradera Sweden AB | [Support](https://www.tradera.com/support) | Annual report (referenced in T&C) | likely |
+| Faire | Faire Wholesale, Inc. | [Report](https://www.faire.com/support/articles/20960200105115) | CSV; 2024 & 2025 | verified |
+| CDON | CDON AB | [Transparensrapport](https://cdon.se/cdon/transparensrapport/) | HTML; CY2025 | verified |
+| Fyndiq | Fyndiq AB | [Transparensrapport](https://fyndiq.se/fyndiq/transparensrapport/) | HTML; CY2025 | verified |
+| idealo | idealo internet GmbH | [DSA legal page](https://www.idealo.de/legal/dsa) | HTML; CY2025 | likely |
 
 ## Classifieds, real estate & auto
 
@@ -253,6 +257,7 @@ The best starting points for finding more report locations:
 | Behance | Adobe Inc. | [EU DSA report](https://www.adobe.com/trust/transparency/reports/eu-dsa-report.html) | HTML; 17 Feb – 31 Dec 2024 | verified |
 | Udemy | Udemy, Inc. | [DSA information](https://support.udemy.com/hc/en-us/articles/17923655139095-Digital-Services-Act-Information-European-Union-Users-Only) | HTML; CY2024 | verified |
 | Scribd (Everand, SlideShare) | Scribd, B.V. | [DSA section](https://support.scribd.com/hc/en-us/sections/23708444653588-Publication-of-Information-for-the-European-Digital-Services-Act) | HTML; from late 2024 | verified |
+| Civitai | Civitai, Inc. | [2024 report](https://civitai.com/articles/10372/civitai-2024-transparency-report) | HTML annual report (not DSA template); 2024 | uncertain |
 
 ## Adult content
 
@@ -311,7 +316,7 @@ negative result is not re-searched:
   (placeholder "coming soon"), FreeNow, Bandcamp (trader-info only).
 - **Registered as a DSA reporter in the EU database but own report page not located:**
   mobile.de, Willhaben, Fotocasa, Coches.net, Subito.
-- **No findable report:** Allegro, Bol.com, Idealo, Catawiki, Milanuncios, InfoJobs,
+- **No findable report:** Allegro, Bol.com, Catawiki, Milanuncios, InfoJobs,
   Omio, eDreams ODIGEO / Opodo, Agoda, Ticketmaster, See Tickets, Trainline,
   Flixbus, Hopper, Klook, Lastminute.com, TheFork,
   OpenTable, TaskRabbit, Freelancer.com, PeoplePerHour, Treatwell, Doctolib,
@@ -320,7 +325,7 @@ negative result is not re-searched:
   Habitaclia, GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam,
   GOG, EA, itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
   Odysee, Triller, Likee, Bigo Live, Tchibo, Bonprix, vidaXL, Conrad,
-  CDON, eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
+  eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
   Audible, Goodreads, Issuu, Flipboard, Kickstarter, Indiegogo, Ko-fi,
   Buy Me a Coffee, Coursera, Skillshare, Duolingo, Khan Academy, WeTransfer, Mega,
   pCloud, MediaFire, OpenSea, Rarible, Xing, Dribbble, 500px, Giphy, Storytel,
@@ -341,7 +346,7 @@ negative result is not re-searched:
   Showroomprivé, Privalia, Redbubble, TeePublic, Strava, Jodel.
 - **B2B / cross-border & national retail (no report found):** Alibaba.com marketplace
   (only Alibaba *Cloud* publishes one — see table), Made-in-China, DHgate, Banggood,
-  Wish, LightInTheBox, Joom, Faire, Ankorstore, Metro Markets, Mercateo/Unite,
+  Wish, LightInTheBox, Joom, Ankorstore, Metro Markets, Mercateo/Unite,
   Gmarket, La Redoute, Fnac/Darty, Empik.
 - **Health / grocery & quick-commerce (no report found):** Shop Apotheke / Redcare,
   Zur Rose, Picnic, Ocado, Getir, Gorillas, Flink, Flaschenpost, Knuspr/Rohlik,
@@ -381,6 +386,18 @@ negative result is not re-searched:
   Vivense, Made.com, mydealz/Pepper, MyHammer, Helpling, ProntoPro, StarOfService,
   Werkspot, Cabify, Heetch, Gett, CTS Eventim, Viagogo, StubHub, TicketSwap, DICE,
   Fever, Bandsintown, Songkick.
+- **Price-comparison engines (no report found):** PriceRunner, Kelkoo, Prisjakt,
+  PriceSpy, Billiger.de, Guenstiger.de, Hinta.fi/Vertaa, LeDénicheur, Twenga/LeGuide,
+  Shopzilla, Preisvergleich.de (Heureka publishes only the Art. 24(2) AMAR figure).
+- **AI chat / companion / generative (no report found; mostly below threshold):**
+  Character.AI, Replika, Janitor AI, Chai, SpicyChat, CrushOn.AI, Talkie, Perchance,
+  Midjourney, Leonardo.AI, Tensor.Art, PixAI, NightCafe.
+- **More adult platforms (fetch-blocked here; EC index lists only the 4 VLOPs):**
+  LiveJasmin, Chaturbate, Fansly, Cam4, BongaCams, Flirt4Free, MyDirtyHobby,
+  AdultWork, ManyVids, CamSoda, xHamster, YouPorn, RedTube, Brazzers.
+- **B2B wholesale / trade directories (no report found):** Europages, Kompass,
+  Visable/wlw, Kaufland marketplace, RS Components, Manutan, real.de, Hood.de,
+  Yatego, Rakuten.de, Allegro Lokalnie, Pigu, Solar.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
