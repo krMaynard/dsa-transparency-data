@@ -481,7 +481,7 @@ negative result is not re-searched:
   Almost all are region-only with no EU recipient base (out of DSA scope) — Shopee
   (exited the EU 2022–23), Lazada, Grab, Gojek/Tokopedia, Traveloka, Carousell,
   Zalora, Bukalapak; MercadoLibre (publishes a LatAm-scoped, non-DSA report),
-  Despegar, Rappi, Nubank, Globoplay, Magalu, Americanas; Noon, OpenSooq, dubizzle,
+  Despegar, Rappi, Nubank, Globoplay, Magalu, Americanas; Noon, OpenSooq,
   Namshi, Ounass, Property Finder, Bayut, Jumia (Africa), Yalla. A few have genuine
   EU presence but **no findable DSA report** — Razer (RazerStore/Razer Gold) and
   Hotmart (Hotmart BV, Amsterdam). (Talabat, Careem and dubizzle report
