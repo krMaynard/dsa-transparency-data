@@ -319,7 +319,7 @@ negative result is not re-searched:
   Logic-Immo, Otomoto, Standvirtual, Heycar, La Centrale, Hemnet, Daft.ie,
   Habitaclia, GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam,
   GOG, EA, itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
-  Odysee, Triller, Likee, Bigo Live, Home24, Tchibo, Bonprix, vidaXL, Conrad,
+  Odysee, Triller, Likee, Bigo Live, Tchibo, Bonprix, vidaXL, Conrad,
   CDON, eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
   Audible, Goodreads, Issuu, Flipboard, Kickstarter, Indiegogo, Ko-fi,
   Buy Me a Coffee, Coursera, Skillshare, Duolingo, Khan Academy, WeTransfer, Mega,
@@ -372,16 +372,15 @@ negative result is not re-searched:
   no statistical report), BrickLink (Art. 24(2) notice only), StockX, GOAT, Chrono24,
   Rebelle, Sellpy, Momox/Medimops, Ubup, The Saleroom, Drouot, Beatport, Grailed,
   Heritage Auctions, Barnebys, Auctionet, Whisky Auctioneer.
-- **Crowdfunding / edtech (no report found; many out of scope):** GoFundMe, GoStudent,
-  Skillshare, Domestika (notice/contact only); Ulule, KissKissBankBank, Startnext,
-  Seedrs, Crowdcube, Companisto, Leetchi, FutureLearn, OpenClassrooms, edX, Coursera,
-  Babbel, Busuu, Preply, italki, Brilliant, Duolingo, MasterClass.
+- **Crowdfunding / edtech (no report found; many out of scope):** GoStudent,
+  Domestika (notice/contact only); Ulule, KissKissBankBank, Startnext,
+  Seedrs, Crowdcube, Companisto, Leetchi, FutureLearn, OpenClassrooms, edX,
+  Babbel, Busuu, Preply, italki, Brilliant, MasterClass.
 - **More regional marketplaces / local-services / ticketing (no report found):**
-  Hepsiburada, Wayfair, Westwing, Maisons du Monde, La Redoute, Showroomprivé, BUT,
-  Sarenza, Fnac/Darty, bol.com, Allegro, Wish, JD/Ochama, Coupang, Vivense, Made.com,
-  mydealz/Pepper, MyHammer, Helpling, ProntoPro, StarOfService, Treatwell, Werkspot,
-  Cabify, Heetch, Gett, CTS Eventim, Viagogo, StubHub, TicketSwap, DICE, Fever,
-  Bandsintown, Songkick.
+  Hepsiburada, Wayfair, Westwing, Maisons du Monde, BUT, Sarenza, JD/Ochama, Coupang,
+  Vivense, Made.com, mydealz/Pepper, MyHammer, Helpling, ProntoPro, StarOfService,
+  Werkspot, Cabify, Heetch, Gett, CTS Eventim, Viagogo, StubHub, TicketSwap, DICE,
+  Fever, Bandsintown, Songkick.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
