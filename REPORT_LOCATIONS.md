@@ -64,6 +64,7 @@ The best starting points for finding more report locations:
 | IMDb | IMDb.com, Inc. (Amazon) | [DSA info](https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86) | XLSX/CSV; 2024, H1 & H2 2025 | verified |
 | Microsoft Teams / Skype | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304741) | PDF (Communications); Feb – Dec 2024 | verified |
 | Microsoft Community | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305901) | PDF; Feb – Dec 2024 | verified |
+| Microsoft Feedback Portal | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304743) | PDF; Feb – Dec 2024 | verified |
 | Reddit | Reddit, Inc. | [DSA info / Transparency Center](https://support.reddithelp.com/hc/en-us/articles/23595536875796-Digital-Services-Act-DSA-Information-for-EU-users) | PDF; semi-annual | likely |
 | Viber | Rakuten Viber (Viber Media S.à r.l.) | [Report](https://www.viber.com/en/terms/eu-digital-services-act-dsa-transparency-report/) | HTML + tables; 18 Feb – 31 Dec 2025 | verified |
 | Flickr | SmugMug, Inc. | [Legal / Transparency](https://www.flickr.com/help/legal) | PDF + XLSX; 2024 & 2025 | verified |
@@ -86,7 +87,7 @@ The best starting points for finding more report locations:
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
 | Spotify | Spotify AB | [Hub](https://www.spotify.com/safetyandprivacy/transparency) ([2025 reports](https://www.spotify.com/safetyandprivacy/file/eu_2025_dsa_report_introduction_spotify)) | Report files; Art. 15; CY2025 | verified |
-| SoundCloud | SoundCloud Ltd | [Hub](https://soundcloud.com/transparency-reports) ([2025 PDF](https://pages.soundcloud.com/en/transparency-reports/resources/SoundCloud_DSA_Report_2025_EN.pdf)) | PDF; 2025 | verified |
+| SoundCloud | SoundCloud Ltd | [Transparency reports](https://soundcloud.com/transparency-reports) | PDF; 2025 | verified |
 | Apple Podcasts | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
 
 ## E-commerce marketplaces & retail
@@ -107,7 +108,7 @@ The best starting points for finding more report locations:
 | Marktplaats | Marktplaats B.V. (Adevinta) | [PDF](https://statisch.marktplaats.nl/docs/Transparency_report_MP.pdf) | PDF; 17 Feb – 31 Dec 2024 | verified |
 | ManoMano | Colibri SAS | [XLSX](https://cdn.manomano.com/legal/reports/DSA_Transparency_Report_2025.xlsx) | XLSX; 2025 | verified |
 | Cdiscount | Cdiscount S.A. | [Hub](https://www.cdiscount.com/n-429993/pagesaurlfixe-arbo/rapport-de-transparence-dsa.html) | HTML hub | likely |
-| Leboncoin | LBC France SAS (Adevinta) | [PDF](https://img.leboncoin.fr/api/v1/lbcpb2/documents/transparency_report-cover_page-FR_version.pdf?rule=cms_pdf) | PDF (FR) | likely |
+| Leboncoin | LBC France SAS (Adevinta) | [PDF](https://img.leboncoin.fr/api/v1/lbcpb2/documents/transparency_report-cover_page-FR_version.pdf?rule=cms_pdf) | PDF (FR) | verified |
 | Rakuten France | Rakuten France SAS | [PDF](https://fr.shopping.rakuten.com/cdn/legal/DSA/Rapport_Transparence_1_v1/RAKUTEN_FRANCE_RAPPORT_TRANSPARENCE_2025.pdf) | PDF; 2025 | likely |
 | Boulanger | Boulanger SA | [PDF](https://www.boulanger.com/content/dam/Boulanger/juridique/mentions-legales/rapporttransparence-dsa-2024.pdf) | PDF; CY2024 | likely |
 | Carrefour Marketplace | Carrefour | [Legal notices](https://www.carrefour.fr/mentions-legales) | Linked report; FY2024 & FY2025 | likely |
@@ -197,6 +198,7 @@ The best starting points for finding more report locations:
 | Epic Games Store | Epic Games, Inc. | [Report](https://safety.epicgames.com/transparency-reports/european-union) | XLSX + hub; Feb 2024 – Feb 2025 | likely |
 | Twitch | Twitch Interactive (Amazon) | [Report](https://safety.twitch.tv/s/article/Twitch-DSA-Transparency-Report-February-2025) | HTML; Feb 2025 | likely |
 | Xbox | Microsoft | [PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Xbox-platform-and-Xbox-Game-Studios-DSA-Transparency-Report-2024.pdf) | PDF; 2024 | verified |
+| Microsoft Store | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305704) | PDF; Feb – Dec 2024 | verified |
 | Miniclip | Miniclip SA (Tencent) | [Report](https://www.miniclip.com/dsa-transparency-report) | Landing + ZIP; CY2025 | verified |
 | GameDistribution | Azerion | [Report](https://static.gamedistribution.com/dsa-transparency-report.html) | HTML; CY2024 | verified |
 | Niantic (Pokémon GO, …) | Niantic Inc. | [Report](https://nianticlabs.com/dsa-transparency) | Landing + Excel/PDF; CY2025 | verified |
@@ -223,7 +225,7 @@ The best starting points for finding more report locations:
 | Grindr | Grindr LLC | [Reports](https://help.grindr.com/hc/en-us/articles/38555862683795-Grindr-EU-Digital-Services-Act-Transparency-Reports) | PDF + Excel; annual | likely |
 | Feeld | Feeld Ltd | [DSA report](https://feeld.co/ask-feeld/member-resources/dsa) | ZIP; 2025 full year | verified |
 | Happn | happn SAS | [PDF](https://www.happn.com/customer-support/rapport_2ndTrimestre.pdf) | PDF; S2 2025 | verified |
-| Lovoo | LOVOO GmbH | [PDF](https://www.lovoo.com/de/wp-content/uploads/sites/4/2026/01/LOVOO_Transparenzbericht_2024.pdf) | PDF (DE); 2024 | likely |
+| Lovoo | LOVOO GmbH | [PDF](https://www.lovoo.com/de/wp-content/uploads/sites/4/2026/01/LOVOO_Transparenzbericht_2024.pdf) | PDF (DE); 2024 | verified |
 
 ## Developer / software / hosting
 
@@ -232,7 +234,7 @@ The best starting points for finding more report locations:
 | GitHub | GitHub, Inc. (Microsoft) | [Transparency Center](https://transparencycenter.github.com/) ([2024 PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/GitHub-DSA-Transparency-Report-Feb-Dec-2024.pdf)) | PDF; Feb – Dec 2024 | verified |
 | Cloudflare | Cloudflare, Inc. | [Transparency](https://www.cloudflare.com/transparency/) | XLSX (template); H2 2025 | verified |
 | WordPress.com | Automattic Inc. | [Report](https://transparency.automattic.com/wordpress-dot-com/digital-services-act/) | Web + CSV; Jul – Dec 2025 | verified |
-| Hugging Face | Hugging Face SAS | [Content policy](https://huggingface.co/content-policy) ([2025 PDF](https://cdn-media.huggingface.co/landing/assets/DSA_HF_2025.pdf)) | PDF; 2025 | likely |
+| Hugging Face | Hugging Face SAS | [Content policy](https://huggingface.co/content-policy) ([2025 PDF](https://cdn-media.huggingface.co/landing/assets/DSA_HF_2025.pdf)) | PDF; 2025 | verified |
 
 ## Web hosting, registrars, site builders & infrastructure
 
@@ -256,6 +258,9 @@ The best starting points for finding more report locations:
 | Microsoft Azure | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304935) | PDF; Feb – Dec 2024 | verified |
 | Microsoft OneDrive | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305905) | PDF; Feb – Dec 2024 | verified |
 | Microsoft Advertising | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305803) | PDF; Feb – Dec 2024 | verified |
+| Microsoft Advertising (Xandr) | Microsoft / Xandr | [PDF](https://go.microsoft.com/fwlink/?linkid=2305804) | PDF; May – Dec 2024 | verified |
+| Microsoft 365 Services | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305701) | PDF; Feb – Dec 2024 | verified |
+| Microsoft 365 Copilot | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305802) | PDF; Feb – Dec 2024 | verified |
 | Hetzner | Hetzner Online GmbH | [DSA page](https://www.hetzner.com/legal/digital-services-act/) | Contact/notice page only | uncertain |
 | Fastly | Fastly, Inc. | [DMCA/DSA](https://www.fastly.com/dmca-dsa) | Compliance notice only | uncertain |
 
@@ -304,6 +309,8 @@ The best starting points for finding more report locations:
 | Apple Books | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/books/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
 | Microsoft Learn | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305903) | PDF; Feb – Dec 2024 | verified |
 | Microsoft Forms | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305902) | PDF; Feb – Dec 2024 | verified |
+| Microsoft Designer | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304936) | PDF; Feb – Dec 2024 | verified |
+| Microsoft Whiteboard | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305705) | PDF; Feb – Dec 2024 | verified |
 | WEBTOON (LINE / Naver Webtoon) | WEBTOON Entertainment Inc. | [EU DSA notice](https://www.webtoons.com/en/notice/detail?noticeNo=3367) | HTML; Art. 15 + 24(2); CY2024 | verified |
 | Zepeto | Naver Z Corporation | [DSA page](https://support.zepeto.me/hc/en-us/articles/15675506191769-Digital-Services-Act) | HTML; Art. 24(2) disclosure | uncertain |
 
@@ -371,7 +378,7 @@ negative result is not re-searched:
   ImmobilienScout24, Immowelt, SeLoger, Rightmove, Zoopla, Funda, Pap.fr,
   Logic-Immo, Otomoto, Standvirtual, Heycar, La Centrale, Hemnet, Daft.ie,
   Habitaclia, GitLab, npm, PyPI, Docker Hub, SourceForge, Replit, Notion, Steam,
-  GOG, EA, itch.io, Microsoft Store, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
+  GOG, EA, itch.io, Amazon Appstore, Mastodon, VK, Deezer, Rumble,
   Odysee, Triller, Likee, Bigo Live, Tchibo, Bonprix, vidaXL, Conrad,
   eDarling/Parship, DeviantArt, Archive of Our Own, GoFundMe,
   Audible, Goodreads, Issuu, Flipboard, Kickstarter, Indiegogo, Ko-fi,
