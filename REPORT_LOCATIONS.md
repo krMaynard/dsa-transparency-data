@@ -397,7 +397,7 @@ negative result is not re-searched:
   AdultWork, ManyVids, CamSoda, xHamster, YouPorn, RedTube, Brazzers.
 - **B2B wholesale / trade directories (no report found):** Europages, Kompass,
   Visable/wlw, Kaufland marketplace, RS Components, Manutan, real.de, Hood.de,
-  Yatego, Rakuten.de, Allegro Lokalnie, Pigu, Solar.
+  Yatego, Rakuten.de, Allegro Lokalnie, Solar.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
   EU/EEA); Finn.no (Norway has not transposed the DSA into the EEA agreement);
   Avito (not EU-operating).
