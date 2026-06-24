@@ -55,6 +55,7 @@ _TEMPLATE_NARRATIVE = ("pdf", "html", "web", "legal page", "report + data")
 TEMPLATE_OVERRIDES = {
     "LinkedIn": "yes", "Pinterest": "yes", "Wikipedia": "yes",
     "XVideos": "no", "XNXX": "no",
+    "Civitai": "no",  # own annual report, not the EU Annex I template ("not DSA template")
     "AliExpress": "partial", "Amazon Store": "partial", "Apple App Store": "partial",
     "Booking.com": "partial", "Facebook": "partial", "Instagram": "partial",
     "Snapchat": "partial", "TikTok": "partial", "X (Twitter)": "partial",
