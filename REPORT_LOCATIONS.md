@@ -462,11 +462,11 @@ negative result is not re-searched:
   Skeb, DMM, Niconico, Cookpad, Kakaku.com, Weverse (HYBE), Kakao Webtoon, KakaoPage,
   Lezhin, Tappytoon, Tapas, AfreecaTV/SOOP, Watcha, Wavve, Naver, Bubble/Dear U.
 - **Game publishers / console (no report found):** Capcom, SEGA, Take-Two/Rockstar,
-  NCsoft, Netmarble, Pearl Abyss, Smilegate, Bandai Namco (Art. 11 contact only).
+  NCsoft, Netmarble, Pearl Abyss, Smilegate, Gameloft, Bandai Namco (Art. 11 contact only).
 - **Chinese platforms (no own DSA report found / heavily bot-blocked):** Miravia,
   Vova, Geekbuying, Tomtop, Zaful, Rosegal, PatPat, Cider, Newchic, Halara, Newme,
   Cupshe, Floryday, 1688, Taobao/Tmall, Sammydress; HoYoverse/Genshin (Cognosphere),
-  NetEase Games, Lilith, Moonton, Century Games, Gameloft, Kwai/Kuaishou,
+  NetEase Games, Lilith, Moonton, Century Games, Kwai/Kuaishou,
   Xiaohongshu/RED, Trip.com, QQ/QZone, Bilibili, Douyin; Vivo, Lenovo, Anker, TCL,
   Huawei Cloud.
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not
