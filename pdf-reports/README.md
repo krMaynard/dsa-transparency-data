@@ -2,27 +2,33 @@
 
 Original **PDF-format** DSA transparency reports for platforms that publish a
 narrative / per-section PDF instead of the Annex I machine-readable workbook, so
-they can't be extracted into the 1–11 template (see
-[`../harmonised-reports/sources.csv`](../harmonised-reports/sources.csv) — the
-`hub-pending` *non-template* group). Kept here as a faithful archive of the
-source documents.
+they can't be extracted into the 1–11 template. Kept here as a faithful archive
+of the source documents. Saved as `pdf-reports/<slug>/<file>.pdf`.
 
-Refresh with [`../download_pdfs.py`](../download_pdfs.py).
+Refresh with [`../download_pdfs.py`](../download_pdfs.py), which pulls:
+1. every **direct `.pdf` URL** in [`../dsa_reports.csv`](../dsa_reports.csv), and
+2. a small **EXTRA** set not catalogued as a single link — eToro's 8 per-section
+   PDFs, and the PDF companions Vestiaire/Whatnot ship next to their workbook.
 
-| Platform | Files | Source |
-|----------|-------|--------|
-| eToro | 8 per-section PDFs (`Transparency-reports-2…9`) | etoro.com DSA transparency page |
-| Eventbrite | `Eventbrite-2025-Transparency-Report.pdf` | eventbrite.com blog |
-| OVHcloud | `rapport_de_transparence_dsa_ovhcloud_2025.pdf` | corporate.ovhcloud.com |
-| Vestiaire Collective | `…2025-Transparency-Report.pdf` | Zendesk help-center attachment (PDF companion to the extracted XLSX) |
-| Whatnot | `Whatnot_DSA-Transparency-Report_2026.pdf`, `Whatnot_DSA-Report_2025.pdf` | Zendesk help-center attachments (PDF companions to the extracted XLSX) |
+Downloads that aren't a real PDF (a 403 bot-wall / HTML error page) are removed,
+not committed.
 
-eToro splits the report into per-section PDFs that mirror the template sections
-(2 categories, 3 member-state orders, 4 notices, 5 own-initiative, 6 overall
-figures, 7 internal complaints, 8 by country/language, 9 statements). Vestiaire
-and Whatnot also ship the harmonised XLSX, which is what
-[`../harmonised-reports/`](../harmonised-reports/) extracts; their PDFs are kept
-here only for completeness.
+## Archived (28 platforms, 37 PDFs)
+
+Airbnb · AutoScout24 · AWS · Back Market · BlaBlaCar · Bumble · Deliveroo ·
+eToro (8 per-section PDFs) · Eventbrite · FinCompare · GitHub · Happn ·
+Hugging Face · Leboncoin · Lovoo · Marktplaats · OVHcloud · Squarespace ·
+Start.gg / GroupMe · Trendyol (2024 + 2025) · Trivago · Trustpilot · Viator ·
+Wolt · Xbox · zooplus — plus the PDF companions for **Vestiaire Collective** and
+**Whatnot** (whose Annex I workbooks are extracted under
+[`../harmonised-reports/`](../harmonised-reports/)).
+
+## Not archived (bot-walled)
+
+**Boulanger** and **Rakuten France** sit behind Akamai/Cloudflare and reset or
+`403` a headless fetch — they need a real browser session / EU egress. Apple
+(App Store / Books / Podcasts / iCloud), GMX, Flickr and Riot publish the report
+as rendered HTML (no PDF file to archive).
 
 All files are public reports fetched with a browser User-Agent over HTTPS;
 nothing here is behind a login.
