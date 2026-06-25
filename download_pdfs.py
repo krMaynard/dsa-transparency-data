@@ -72,7 +72,10 @@ def targets() -> list[tuple[str, str, str]]:
             url = (r.get("url") or "").strip()
             if not url.lower().split("?")[0].endswith(".pdf"):
                 continue
-            slug = slugify(r["platform"])
+            platform = r.get("platform")
+            if not platform:                       # malformed / headerless row
+                continue
+            slug = slugify(platform)
             if (slug, url) in seen:
                 continue
             out.append((slug, _basename(url) or f"{slug}.pdf", url))
