@@ -32,7 +32,7 @@ table structure as the aggregated VLOP dataset (`t3`–`t11`).
 
 ## Status (54 template platforms — see `sources.csv`)
 
-- **29 extracted** — the 8 direct-file platforms, 19 found by crawling the
+- **29 platforms extracted** (30 report files — AboutYou ships two consecutive periods) — the 8 direct-file platforms, 19 found by crawling the
   landing pages (`discover_hubs.py`), and Carrefour + Dailymotion (provided
   directly): AboutYou, Carrefour, Ceneo, Cloudflare, Dailymotion, DuckDuckGo,
   Expedia, HomeToGo, Hostelworld, Hostinger, Hotels.com, IMDb, Konami, Lilo,

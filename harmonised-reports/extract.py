@@ -35,6 +35,7 @@ SECTIONS = [
 # platform slug -> (source filename in raw/, kind). kind: xlsx | xls | zipcsv
 SOURCES = {
     "aboutyou":  ("aboutyou.csv.xlsx", "xlsx"),
+    "aboutyou2": ("aboutyou2.xlsx", "xlsx"),  # AboutYou follow-on period (Dec 2025)
     "dailymotion": ("dailymotion.xlsx", "xlsx"),
     "carrefour": ("carrefour.xlsx", "xlsx"),
     "linkedin":  ("linkedin.zip", "zipcsv"),
