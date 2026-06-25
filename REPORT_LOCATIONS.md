@@ -123,7 +123,7 @@ The best starting points for finding more report locations:
 | x-kom | x-kom sp. z o.o. (Poland) | [DSA hub](https://www.x-kom.pl/dsa) | XLSX (harmonised template); 2024 | verified |
 | Discogs | Discogs (Zink Media, Inc.) | [Statement](https://support.discogs.com/hc/en-us/articles/12730436158349-EU-Digital-Services-Act-Statement) | HTML; 17 Feb 2024 – 16 Feb 2025 | likely |
 | Reverb | Reverb.com LLC | [DSA page](https://help.reverb.com/hc/en-us/articles/14017920631571-EU-Digital-Services-Act) | HTML; semi-annual | likely |
-| Depop | Depop Ltd | [DSA page](https://depophelp.zendesk.com/hc/en-gb/articles/13057572688273-EU-Digital-Services-Act) | HTML; 2025 | likely |
+| Depop | Depop Ltd | [DSA page](https://depophelp.zendesk.com/hc/en-gb/articles/13057572688273-EU-Digital-Services-Act) · [archived data](harmonised-reports/extracted/depop) | XLSX (harmonised template); 2025 | verified |
 | Fruugo | Fruugo.com Ltd | [Compliance statement](https://www.fruugo.ie/help/detail/dsa-compliance-statement) | HTML; Jun – Dec 2025 | likely |
 | Vivino | Vivino ApS | [Content moderation policy](https://www.vivino.com/legal/content-moderation-policy) | HTML; semi-annual (Art. 24) | likely |
 | DocMorris | DocMorris N.V. | [DSA page](https://www.docmorris.de/digital-services-act) | HTML DSA page; contents unverified | uncertain |
@@ -207,7 +207,7 @@ The best starting points for finding more report locations:
 | Riot Games | Riot Games Ltd. | [DSA report](https://support-leagueoflegends.riotgames.com/hc/en-us/articles/25972785684627) | XLSX; 2024 & 2025 | verified |
 | Square Enix | Square Enix Ltd. | [Online safety](https://www.square-enix-games.com/en_GB/documents/online-safety) | PDF (Art. 15); Feb 2025 | verified |
 | Konami | Konami Digital Entertainment | [EU DSA hub](https://legal.konami.com/kde/eudsa/) · [archived data](harmonised-reports/extracted/konami) | XLSX/PDF; 2024 & 2025 | verified |
-| Nexon | Nexon | [DSA page](https://playersupport.nexon.com/hc/en-us/articles/46401329736084-Digital-Services-Act) | HTML hub | likely |
+| Nexon | Nexon | [DSA page](https://playersupport.nexon.com/hc/en-us/articles/46401329736084-Digital-Services-Act) · [archived data](harmonised-reports/extracted/nexon) | XLSX (harmonised template); 2025 | verified |
 | Level Infinite (PUBG Mobile, Honor of Kings, Arena Breakout, …) | Proxima Beta Europe B.V. (Tencent) | [Arena Breakout report](https://eulaforgames.com/rule/202502110002/ALL) ([PUBG](https://support.pubg.com/hc/en-us/articles/28819731069721-EU-Digital-Services-Act-information)) | In-page Art. 15 per game; 2024 | verified |
 | Honor APPMarket | HONOR Device Co. | [DSA page](https://www.honor.com/uk/legal/dsa/) | HTML + annual reports; 2024 & 2025 | verified |
 | OPPO Community / Theme Store | Guangdong OPPO / HEYTAP | [Online safety](https://www.oppo.com/en/onlinesafety/) | HTML + annual PDF; 2024 | verified |

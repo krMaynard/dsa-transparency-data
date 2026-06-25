@@ -31,7 +31,7 @@ HARMONISED = {
     "Roblox": "roblox", "Shopify": "shopify", "Skroutz": "skroutz",
     "Veepee (vente-privee)": "veepee", "Vestiaire Collective": "vestiaire",
     "Vinted": "vinted", "Vrbo": "vrbo", "Web.de": "webde", "Whatnot": "whatnot",
-    "Wikipedia": "wikipedia", "Yahoo (+ AOL)": "yahoo",
+    "Wikipedia": "wikipedia", "Yahoo (+ AOL)": "yahoo", "Depop": "depop", "Nexon": "nexon",
 }
 # PDF-archive slugs that aren't slugify(platform).
 PDF_SLUG_OVERRIDE = {"eToro (social/copy-trading)": "etoro"}

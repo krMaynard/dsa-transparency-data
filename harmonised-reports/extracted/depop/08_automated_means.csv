@@ -1,0 +1,42 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number,21524,"The number of measures solely taken by automated means represents enforcement actions implemented without prior human review in defined and limited scenarios. The remaining measures reported in the template arise either from user-submitted notices or from proactive detection followed by human review. Accordingly, not all measures taken at Depop’s own initiative are solely automated."
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,59325,"The number of measures not taken by automated means reflects enforcement actions where the final decision was made by a human moderator. This includes measures following user notices and measures resulting from automated detection that were subsequently reviewed and decided by trained moderation personnel. These cases involve human assessment of context, intent, and policy application prior to enforcement."
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0,"The performance and accuracy of automated systems are monitored through a combination of human review outcomes, quality assurance processes, and appeal analysis.
+
+For content detected by automated means, subsequent human review outcomes are used as an indicator of alignment between automated signals and policy enforcement decisions. Metrics such as the proportion of automated flags resulting in confirmed violations, overturn rates following appeal, and QA sampling results are reviewed to identify potential over/under flagging.
+
+Where automated enforcement occurs without prior human review in defined scenarios, post-enforcement monitoring and appeal outcomes are used as performance indicators. Identified trends may result in threshold adjustments, workflow refinements, or model tuning.
+
+This approach allows Depop to assess the effectiveness of automated systems in practice, even where formal precision/recall metrics are not calculated or externally reported."
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0,
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0,
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Own-initiative,11473,
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative,48209,
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0,"For automated detection undertaken at Depop’s own initiative, human review outcomes and quality assurance sampling are used to assess alignment between automated signals and final enforcement decisions."
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0,
+All,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0,
+"Only for providers of hosting services, including online platforms",Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Total,0,
+"Only for providers of hosting services, including online platforms",Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,10551,
+"Only for providers of hosting services, including online platforms",Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,0,"Where automated tools support notice handling (for example through triage), subsequent human review outcomes and SLAs are used as indicators of performance."
+"Only for providers of hosting services, including online platforms",Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,0,
+"Only for providers of hosting services, including online platforms",Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,0,
+Only for providers of online platforms,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Trusted Flagger,0,
+Only for providers of online platforms,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,0,
+Only for providers of online platforms,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,0,
+Only for providers of online platforms,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,0,
+Only for providers of online platforms,Depop,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,0,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,bg,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,[...],,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,sv,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,N/A,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,

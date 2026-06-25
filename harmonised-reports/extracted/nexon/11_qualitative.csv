@@ -1,0 +1,34 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,NEXON Korea online game services,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"This report is prepared in the capacity of a hosting service provider within the meaning of Article 3(g) of Regulation (EU) 2022/2065 (Digital Services Act). 
+
+NEXON engages in content moderation on its own initiative to identify and address conduct that may violate its applicable terms and policies and impact the integrity of its services. 
+
+Content moderation measures may result in actions such as warnings, restrictions on specific functionalities or temporary suspensions, depending on the nature and severity of the conduct identified. 
+
+Moderation activities are conducted through a combination of internal detection processes, human assessment, and automated means.
+ 
+Users are able to submit inquiries, requests for review, and appeals regarding moderation actions through dedicated DSA-related support channels. Submissions received through these channels are reviewed by the relevant teams, who assess the information provided and determine the appropriate handling in accordance with applicable procedures."
+All,,YYYY-MM-DD/YYYY-MM-DD,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"Content moderation measures applied by NEXON on its own initiative consist of internal processes designed to identify and address a range of conduct that may violate applicable terms and policies. Such conduct may include, for example, the use of unauthorized programs or abnormal access methods, actions that disrupt fair gameplay, harmful or abusive communications, inappropriate user identifiers, or activities related to fraud or abusive transactions. 
+
+Depending on the nature and severity of the conduct identified, moderation measures may involve different types of restrictions, which may include suspension of access to services, limitations on the use of communication features, or separation of matchmaking. 
+
+Moderation activities may involve automated means, human assessment, or a combination thereof. The selection and application of moderation measures take into account contextual factors and are not limited to a single enforcement outcome for a given type of conduct. 
+
+Users are able to submit reports, inquiries, and requests for review regarding moderation actions through dedicated support channels. Submissions received through these channels may be subject to human review."
+All,,YYYY-MM-DD/YYYY-MM-DD,Qualitative description of the automated means,"Automated means are used by NEXON primarily to support the detection and identification of conduct that may violate applicable terms and policies. In most moderation cases for in-game services, enforcement actions following automated detection involve human assessment and decision-making.
+
+When there is a need for timely intervention to prevent ongoing misuse or to protect the integrity and security of the service, including cases of screening the use of unauthorized software and programs, or patterns intended to circumvent service safeguards, such automated measures may be applied directly. 
+
+Such measures may be applied repeatedly in response to automated or repeated access attempts associated with the same account, device, or access pattern, which may result in a high number of recorded automated measures despite their limited scope and purpose. 
+
+Notices submitted through our support channels are excluded from automated moderation and are subject to human review in accordance with applicable procedures."
+All,,YYYY-MM-DD/YYYY-MM-DD,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Automated detection is primarily used to support the identification of potentially relevant cases and does not independently determine most enforcement outcomes. Potential errors arising from automated detection are mitigated through human assessment. 
+
+In addition, users are provided with the ability to submit an appeal through established support channels. Feedback and outcomes from these processes contribute to the ongoing evaluation of automated means and serve as an additional mechanism to identify and address potential errors."
+All,,YYYY-MM-DD/YYYY-MM-DD,Specification of the precise purposes to apply automated means,"Automated means are applied for the limited purposes of supporting the detection and identification of conduct that may violate applicable terms and policies, facilitating subsequent human review, and, in specific circumstances, implementing technical access controls to prevent immediate misuse of the service. The use of automated means is complemented by human assessment and decision-making in moderation cases."
+All,,YYYY-MM-DD/YYYY-MM-DD,Safeguards applied to the use of automated means,"The performance of automated means may be reviewed and adjusted as part of ongoing oversight processes. Enforcement actions resulting from automated means may be subject to human review, and affected users are provided with the possibility to seek review or submit an appeal through NEXON's Player Support mechanisms, in accordance with applicable procedures."
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Support given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Methodology used to compute the number of human resources dedicated to content moderation,Free text
