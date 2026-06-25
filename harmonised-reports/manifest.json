@@ -46,6 +46,29 @@
     }
   },
   {
+    "platform": "bumble",
+    "source_file": "bumble.xlsx",
+    "format": "xlsx",
+    "provider": "Bumble Inc",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 8,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 221,
+      "notices": 22,
+      "own_initiative_illegal": 0,
+      "own_initiative_TC": 27,
+      "appeals_and_recidivism": 47,
+      "automated_means": 20,
+      "human_resources": 0,
+      "AMAR": 0,
+      "qualitative": 6
+    }
+  },
+  {
     "platform": "carrefour",
     "source_file": "carrefour.xlsx",
     "format": "xlsx",
@@ -173,6 +196,29 @@
       "report_identification": 5,
       "categories_names": 100,
       "member_states_orders": 189,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
+    "platform": "grindr",
+    "source_file": "grindr.xlsx",
+    "format": "xlsx",
+    "provider": "Grindr",
+    "period_start": "2025-02-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 1639,
       "notices": 91,
       "own_initiative_illegal": 90,
       "own_initiative_TC": 98,
@@ -575,6 +621,29 @@
     }
   },
   {
+    "platform": "vestiaire",
+    "source_file": "vestiaire.xlsx",
+    "format": "xlsx",
+    "provider": "Vestiaire Collective",
+    "period_start": "17/02/2025",
+    "period_end": "31/12/2025",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 451,
+      "notices": 94,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 100,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "vinted",
     "source_file": "vinted.xlsx",
     "format": "xlsx",
@@ -625,6 +694,29 @@
     "source_file": "webde.xlsx",
     "format": "xlsx",
     "provider": "1&1 Mail & Media GmbH",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
+    "platform": "whatnot",
+    "source_file": "whatnot.xlsx",
+    "format": "xlsx",
+    "provider": "Whatnot, Inc.",
     "period_start": "2025-01-01",
     "period_end": "2025-12-31",
     "amar_eu_total": "",
