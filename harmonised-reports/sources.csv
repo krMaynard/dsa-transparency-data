@@ -3,7 +3,7 @@ AboutYou,extracted,https://www.aboutyou.de/impressum
 Akamai,hub-pending,https://www.akamai.com/legal/eu-digital-services-act
 Apple Books,hub-pending,https://www.apple.com/legal/dsa/transparency/eu/books/2502/
 Apple Podcasts,hub-pending,https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
-"Bumble (Badoo, Fruitz)",hub-pending,https://support.bumble.com/hc/en-us/articles/28718583113757-Digital-Services-Act-Transparency-report
+"Bumble (Badoo, Fruitz)",extracted,https://support.bumble.com/hc/en-us/articles/28718583113757-Digital-Services-Act-Transparency-report
 Carrefour Marketplace,extracted,https://www.carrefour.fr/mentions-legales
 Ceneo,extracted,https://info.ceneo.pl/dsa
 Cloudflare,extracted,https://www.cloudflare.com/transparency/
@@ -18,7 +18,7 @@ Faire,hub-pending,https://www.faire.com/support/articles/20960200105115
 Flickr,hub-pending,https://www.flickr.com/help/legal
 Glassdoor,file-blocked,https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx
 GMX,hub-pending,https://freephone.gmx.net/transparenzbericht
-Grindr,hub-pending,https://help.grindr.com/hc/en-us/articles/38555862683795-Grindr-EU-Digital-Services-Act-Transparency-Reports
+Grindr,extracted,https://help.grindr.com/hc/en-us/articles/38555862683795-Grindr-EU-Digital-Services-Act-Transparency-Reports
 heise forums,format-variant,https://www.heise.de/Transparenz-nach-dem-Digital-Services-Act-DSA-10639819.html
 HomeToGo,extracted,https://www.hometogo.de/dsa/
 Hostelworld,extracted,https://www.hostelworld.com/legal/security-privacy/
@@ -44,11 +44,11 @@ Shopify,extracted,https://www.shopify.com/legal/p2b/legal-notices
 Skroutz,extracted,https://www.skroutz.gr/digital-services-act
 Upwork,hub-pending,https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours
 Veepee (vente-privee),extracted,https://aide.veepee.fr/article/1630-informations-reglementaires
-Vestiaire Collective,hub-pending,https://faq.vestiairecollective.com/hc/en-us/articles/34009544661393-EU-Digital-Services-Act
+Vestiaire Collective,extracted,https://faq.vestiairecollective.com/hc/en-us/articles/34009544661393-EU-Digital-Services-Act
 Vinted,extracted,https://www.vinted.com/safety
 Vrbo,extracted,https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act
 Web.de,extracted,https://www.web.de/impressum/
-Whatnot,hub-pending,https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act
+Whatnot,extracted,https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act
 Wikipedia,extracted,https://foundation.wikimedia.org/wiki/File:Wikipedia_-_DSA_transparency_report_2026-02-28.xls
 WordPress.com,format-variant,https://transparency.automattic.com/wordpress-dot-com/digital-services-act/
 x-kom,hub-pending,https://www.x-kom.pl/dsa

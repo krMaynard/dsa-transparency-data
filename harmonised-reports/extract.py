@@ -65,6 +65,12 @@ SOURCES = {
     "skroutz":     ("skroutz.xlsx", "xlsx"),
     "vrbo":        ("vrbo.xlsx", "xlsx"),
     "yahoo":       ("yahoo.zip", "zipcsv"),
+    # Added from the Zendesk help-center API sweep (browser-blocked landing pages
+    # whose attachment files resolve via /api/v2/help_center/.../attachments.json).
+    "bumble":      ("bumble.xlsx", "xlsx"),
+    "grindr":      ("grindr.xlsx", "xlsx"),
+    "vestiaire":   ("vestiaire.xlsx", "xlsx"),
+    "whatnot":     ("whatnot.xlsx", "xlsx"),
 }
 
 import re as _re

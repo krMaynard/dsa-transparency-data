@@ -1,0 +1,36 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number,162903,
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,1081075,
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,"99,7%",automated fraudulent account detection
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,"99,5%",automated fraudulent account detection
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Own-initiative,162903,"measures taken against listings / items (user selling counterfeit items, collusion, voucher abuse, free commission abuse, chargeback alert, return policy abuse, multiple accounts on the platform)"
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative,1061524,"includes measures taken against both listings/items and users (counterfeit items, misleading descriptions, prohibited items, items not aligned with Vestiaire Collective rules)"
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,"99,7%",automated fraudulent account detection
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,"99,5%",automated fraudulent account detection
+All,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,,not applicable
+"Only for providers of hosting services, including online platforms",Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Total,0,
+"Only for providers of hosting services, including online platforms",Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,19551,"includes measures taken against both listings/items and users (sellers proposing counterfeits or offensive behavior, misleading descriptions, prohibited items, items not aligned with Vestiaire Collective's rules)"
+"Only for providers of hosting services, including online platforms",Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,not applicable
+"Only for providers of hosting services, including online platforms",Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,not applicable
+"Only for providers of hosting services, including online platforms",Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,not applicable
+Only for providers of online platforms,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Trusted Flagger,0,
+Only for providers of online platforms,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,0,
+Only for providers of online platforms,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,0,
+Only for providers of online platforms,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,0,
+Only for providers of online platforms,Vestiaire Collective,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,0,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,bg,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,[...],,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,sv,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,,2025-02-17/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,

@@ -18,6 +18,7 @@ template). These are the catalogue entries with `harmonised_template = yes` in
 | `extract.py` | The extractor — re-run after adding files to `raw/`. |
 | `discover_hubs.py` | Crawls the `hub-pending` landing pages for direct template-file links (writes `hub_candidates.json`). |
 | `download_hubs.py` | Downloads the curated latest file per hub-discovered platform into `raw/`. |
+| `download_zendesk.py` | Downloads the template file for Zendesk-hosted hubs whose landing page is JS-rendered, via the help-center attachments JSON API (no browser needed). |
 
 ## The 11 sections (fixed template order)
 
@@ -32,25 +33,34 @@ table structure as the aggregated VLOP dataset (`t3`–`t11`).
 
 ## Status (54 template platforms — see `sources.csv`)
 
-- **29 platforms extracted** (30 report files — AboutYou ships two consecutive periods) — the 8 direct-file platforms, 19 found by crawling the
-  landing pages (`discover_hubs.py`), and Carrefour + Dailymotion (provided
-  directly): AboutYou, Carrefour, Ceneo, Cloudflare, Dailymotion, DuckDuckGo,
-  Expedia, HomeToGo, Hostelworld, Hostinger, Hotels.com, IMDb, Konami, Lilo,
-  LinkedIn, ManoMano, Match Group (Tinder), Niantic (Pokémon GO), Pinterest,
-  Qwant, Roblox, Shopify, Skroutz, Veepee, Vinted, Vrbo, Web.de, Wikipedia,
-  Yahoo. For multi-brand providers (Match Group, Niantic, Yahoo, DuckDuckGo,
-  Expedia family) we keep one representative/flagship file per catalogue
-  platform. (Carrefour Marketplace and Dailymotion were catalogued as
-  linked/HTML reports until their standardized XLSX files surfaced — both
-  corrected to `harmonised_template = yes`.)
+- **33 platforms extracted** (34 report files — AboutYou ships two consecutive periods) — the 8 direct-file platforms, 19 found by crawling the
+  landing pages (`discover_hubs.py`), Carrefour + Dailymotion (provided
+  directly), and 4 pulled from Zendesk help-center hubs via the attachments JSON
+  API (`download_zendesk.py`): AboutYou, Bumble, Carrefour, Ceneo, Cloudflare,
+  Dailymotion, DuckDuckGo, Expedia, Grindr, HomeToGo, Hostelworld, Hostinger,
+  Hotels.com, IMDb, Konami, Lilo, LinkedIn, ManoMano, Match Group (Tinder),
+  Niantic (Pokémon GO), Pinterest, Qwant, Roblox, Shopify, Skroutz, Veepee,
+  Vestiaire Collective, Vinted, Vrbo, Web.de, Whatnot, Wikipedia, Yahoo. For
+  multi-brand providers (Match Group, Niantic, Yahoo, DuckDuckGo, Expedia family)
+  we keep one representative/flagship file per catalogue platform. (Carrefour
+  Marketplace and Dailymotion were catalogued as linked/HTML reports until their
+  standardized XLSX files surfaced — both corrected to `harmonised_template = yes`.)
 - **4 format-variant** — Discord (renumbers the sections), LINE (a 5-sheet
   variant), WordPress.com (a different report: DMCA / government / IRU requests,
   not the Annex I template), heise (a single combined CSV). Downloaded but not
   forced into the canonical 11-section shape.
 - **1 file-blocked** — Glassdoor's `.xlsx` returns a 403 bot-wall.
-- **20 hub-pending** — landing pages with no static file link (JS-rendered or
-  the file sits behind a click), or that 403 a headless fetch. Need a real
-  browser session and/or EU egress.
+- **16 hub-pending** — two sub-groups:
+  - *Bot-walled* (Cloudflare/Akamai `403` to a headless fetch — need a real
+    browser session and/or EU egress): Akamai, Epic Games, Faire, Jeuxvideo,
+    Just Eat Takeaway, Upwork, x-kom.
+  - *Non-template formats* (the page loads but publishes the report as HTML or
+    PDF, not the Annex I workbook, so there is nothing to extract into 1–11):
+    Apple Books / Podcasts / iCloud (rendered HTML), eToro (split section PDFs),
+    Eventbrite & OVHcloud (narrative PDF), Flickr (no report file), GMX & Riot
+    Games (JS/custom). The PDF reports are archived under
+    [`../pdf-reports/`](../pdf-reports/). Candidates for reclassification to
+    `format-variant`.
 
 IMDb and Skroutz ship only sections 1–8 + 11 (no AMAR / human-resources); the
 extractor maps by the section number in each sheet/file name, so the omitted
@@ -60,7 +70,8 @@ sections stay empty rather than shifting the others.
 
 ```bash
 pip install openpyxl xlrd          # .xlsx and legacy .xls readers
-# (re-)download into raw/ as needed, then:
+python3 download_hubs.py           # curated landing-page files -> raw/
+python3 download_zendesk.py        # Zendesk help-center attachments -> raw/
 python3 extract.py                 # writes extracted/, manifest.json, summary.csv
 ```
 

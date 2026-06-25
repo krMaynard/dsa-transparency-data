@@ -1,0 +1,12 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Whatnot,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,We proactively engage in content moderation to maintain a trustworthy environment for buyers and sellers. This is primarily done in an automated fashion via the sophisticated systems we’ve built to serve our growing community.
+All,Whatnot,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"We take action against content, listings, and accounts. The vast majority of actions were for suspected fraudulent and scam-related behavior."
+All,Whatnot,2025-01-01/2025-12-31,Qualitative description of the automated means,"We utilize automated means for assisting in the identification of potential bots or scammers that erode trust in the Whatnot ecosystem. If we recognize such behaviors, we can prevent content from being created, remove content, suspend access to the service both temporarily and permanently, or prevent transactions from taking place."
+All,Whatnot,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,We look at the rate of appeals granted to indicate accuracy and possible error rate of automated means of content moderation.
+All,Whatnot,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,The purpose of our automated systems is to identify suspicious or harmful behavior in a fast and scalable manner.
+All,Whatnot,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,"To safeguard against potential errors from our automated tools, we rigorously test them before release, monitor their performance while in use, continually update them, and retire them as needed."
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Support given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Methodology used to compute the number of human resources dedicated to content moderation,Free text
