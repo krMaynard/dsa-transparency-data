@@ -61,7 +61,7 @@ The best starting points for finding more report locations:
 | Messenger / Instagram Direct | Meta Platforms Ireland | [Meta non-VLOP reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | In Meta's non-VLOP DSA report; periodic | likely |
 | LINE | LY Corporation | [Report](https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/) | Excel (Art. 15); CY2025 | verified |
 | WeChat | Tencent International Service Europe B.V. | [2026 report](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2026) ([prior](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2025)) | HTML (Art. 15); 2024 & 2025 | verified |
-| IMDb | IMDb.com, Inc. (Amazon) | [DSA info](https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86) | XLSX/CSV; 2024, H1 & H2 2025 | verified |
+| IMDb | IMDb.com, Inc. (Amazon) | [DSA info](https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86) · [archived data](harmonised-reports/extracted/imdb) | XLSX/CSV; 2024, H1 & H2 2025 | verified |
 | Microsoft Teams / Skype | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304741) | PDF (Communications); Feb – Dec 2024 | verified |
 | Microsoft Community | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305901) | PDF; Feb – Dec 2024 | verified |
 | Microsoft Feedback Portal | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304743) | PDF; Feb – Dec 2024 | verified |
@@ -69,7 +69,7 @@ The best starting points for finding more report locations:
 | Viber | Rakuten Viber (Viber Media S.à r.l.) | [Report](https://www.viber.com/en/terms/eu-digital-services-act-dsa-transparency-report/) | HTML + tables; 18 Feb – 31 Dec 2025 | verified |
 | Flickr | SmugMug, Inc. | [Legal / Transparency](https://www.flickr.com/help/legal) | PDF + XLSX; 2024 & 2025 | verified |
 | Tumblr | Automattic Inc. | [Report](https://transparency.automattic.com/tumblr/digital-services-act/) | Web report + data; semi-annual | verified |
-| Dailymotion | Dailymotion SA | [Report](https://legal.dailymotion.com/en/transparency/transparency-report-on-prohibited-content-policys-enforcement/) | XLSX (Annex I template) + HTML; annual | verified |
+| Dailymotion | Dailymotion SA | [Report](https://legal.dailymotion.com/en/transparency/transparency-report-on-prohibited-content-policys-enforcement/) · [archived data](harmonised-reports/extracted/dailymotion) | XLSX (Annex I template) + HTML; annual | verified |
 | Vimeo | Vimeo.com, Inc. | [DSA page](https://vimeo.com/legal/transparency/dsa) | HTML; Art. 24(2) recipient disclosure (<45 M), semi-annual | uncertain |
 | Jeuxvideo.com | Webedia | [Report](https://www.jeuxvideo.com/transparence.htm) | Harmonised template (CSV/XLSX/PDF); 2024 & 2025 | likely |
 | Threads | Meta Platforms Ireland Ltd. | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | In Meta's non-VLOP DSA report; periodic | likely |
@@ -77,10 +77,10 @@ The best starting points for finding more report locations:
 | Kick | Kick Streaming Pty Ltd (Easygo) | [DSA guide](https://help.kick.com/en/articles/12066402-digital-services-act-dsa-information-guide) | HTML guide referencing the report | likely |
 | Yubo | Twelve App SAS | [Transparency report](https://www.yubo.live/safety/transparency-report) | Bi-annual T&S report (DSA-aligned) | likely |
 | Quora | Quora, Inc. | [DSA Transparency section](https://help.quora.com/hc/en-us/sections/13296037150612-DSA-Transparency) | HTML section; full Art. 15 stats unconfirmed | uncertain |
-| Start.gg / GroupMe | Microsoft | [PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Social-Media-DSA-Transparency-Report-Feb-Dec-2024.pdf) | PDF; Feb – Dec 2024 | verified |
+| Start.gg / GroupMe | Microsoft | [PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Social-Media-DSA-Transparency-Report-Feb-Dec-2024.pdf) · [archived PDF](pdf-reports/start-gg-groupme) | PDF; Feb – Dec 2024 | verified |
 | heise forums | Heise Medien GmbH & Co. KG | [DSA transparency](https://www.heise.de/Transparenz-nach-dem-Digital-Services-Act-DSA-10639819.html) | CSV; annual (2024 & 2025) | verified |
 | gutefrage | gutefrage.net GmbH | [Transparenzbericht](https://www.gutefrage.net/company/transparenzbericht) | Annual Art. 15 report | likely |
-| eToro (social/copy-trading) | eToro (Europe) Ltd | [DSA transparency report](https://www.etoro.com/customer-service/regulation-license/dsa-transparency-report/) | PDF set (Art. 15/24 template) | verified |
+| eToro (social/copy-trading) | eToro (Europe) Ltd | [DSA transparency report](https://www.etoro.com/customer-service/regulation-license/dsa-transparency-report/) · [archived PDF](pdf-reports/etoro) | PDF set (Art. 15/24 template) | verified |
 
 ## Audio / music streaming
 
@@ -97,29 +97,29 @@ The best starting points for finding more report locations:
 | eBay | eBay Inc. | [Hub](https://www.ebayinc.com/company/digital-services-act/) | PDF; 17 Feb – 31 Dec 2024 | likely |
 | Etsy | Etsy, Inc. / Etsy Ireland UC | [Legal hub](https://www.etsy.com/legal/policy/eu-digital-services-act/1119915664620) | PDF; 2024 & 2025 | likely |
 | Otto | Otto GmbH & Co KGaA | [Hub](https://www.otto.de/shoppages/digital_services_act_transparency_reports_dsa) | Hub + PDFs; 2024 & 2025 | verified |
-| Vinted | Vinted UAB | [Safety hub](https://www.vinted.com/safety) ([2025 XLSX](https://marketplace-web-assets.vinted.com/assets/transparency-report/vinted-transparency-report-2025.xlsx)) | XLSX; 2024 & 2025 | verified |
-| Vestiaire Collective | Vestiaire Collective SA | [Report](https://faq.vestiairecollective.com/hc/en-us/articles/34009544661393-EU-Digital-Services-Act) | PDF + Excel; 2025 | verified |
+| Vinted | Vinted UAB | [Safety hub](https://www.vinted.com/safety) ([2025 XLSX](https://marketplace-web-assets.vinted.com/assets/transparency-report/vinted-transparency-report-2025.xlsx)) · [archived data](harmonised-reports/extracted/vinted) | XLSX; 2024 & 2025 | verified |
+| Vestiaire Collective | Vestiaire Collective SA | [Report](https://faq.vestiairecollective.com/hc/en-us/articles/34009544661393-EU-Digital-Services-Act) · [archived data](harmonised-reports/extracted/vestiaire) | PDF + Excel; 2025 | verified |
 | Decathlon Marketplace | Decathlon SE | [Hub](https://www.decathlon.fr/lp/i/rapport-annuel-de-transparence) | Hub + PDF; 2024 & 2025 | verified |
-| zooplus | zooplus SE | [Legal/DSA](https://www.zooplus.de/info/legal/DSA) ([PDF](https://corporate.zooplus.com/wp-content/uploads/2025/12/2025_DigitalServiceActTransparencyReporting_zooplus_signed.pdf)) | Signed PDF; Dec 2025 | verified |
-| Veepee (vente-privee) | Veepee | [Report](https://aide.veepee.fr/article/1630-informations-reglementaires) ([2026 XLSX](https://www.veepee.fr/docs/dsa/2025/fr/french_transparency_report_2026.xlsx)) | XLSX; 2024 & 2025 | verified |
-| AboutYou | ABOUT YOU SE & Co. KG | [Impressum](https://www.aboutyou.de/impressum) ([XLSX](https://www.aboutyou.de/assets/documents/Transparency_Report.csv.xlsx)) | XLSX (harmonised template); 2025/2026 | verified |
+| zooplus | zooplus SE | [Legal/DSA](https://www.zooplus.de/info/legal/DSA) ([PDF](https://corporate.zooplus.com/wp-content/uploads/2025/12/2025_DigitalServiceActTransparencyReporting_zooplus_signed.pdf)) · [archived PDF](pdf-reports/zooplus) | Signed PDF; Dec 2025 | verified |
+| Veepee (vente-privee) | Veepee | [Report](https://aide.veepee.fr/article/1630-informations-reglementaires) ([2026 XLSX](https://www.veepee.fr/docs/dsa/2025/fr/french_transparency_report_2026.xlsx)) · [archived data](harmonised-reports/extracted/veepee) | XLSX; 2024 & 2025 | verified |
+| AboutYou | ABOUT YOU SE & Co. KG | [Impressum](https://www.aboutyou.de/impressum) ([XLSX](https://www.aboutyou.de/assets/documents/Transparency_Report.csv.xlsx)) · [archived data](harmonised-reports/extracted/aboutyou) | XLSX (harmonised template); 2025/2026 | verified |
 | Refurbed | refurbed GmbH | [Report](https://refurbed.com/dsa-transparency-report/) | HTML; 17 Feb 2024 – 16 Feb 2025 | verified |
-| Back Market | Back Market SAS | [PDF](https://assets.ctfassets.net/mmeshd7gafk1/1rtDZVxgD6BhehY82JVTiX/2aacbe1237b2aa49b869c20b982795a2/Transparency_Report_04.2025.pdf) | PDF; Apr 2025 (semi-annual) | verified |
-| Marktplaats | Marktplaats B.V. (Adevinta) | [PDF](https://statisch.marktplaats.nl/docs/Transparency_report_MP.pdf) | PDF; 17 Feb – 31 Dec 2024 | verified |
-| ManoMano | Colibri SAS | [XLSX](https://cdn.manomano.com/legal/reports/DSA_Transparency_Report_2025.xlsx) | XLSX; 2025 | verified |
+| Back Market | Back Market SAS | [PDF](https://assets.ctfassets.net/mmeshd7gafk1/1rtDZVxgD6BhehY82JVTiX/2aacbe1237b2aa49b869c20b982795a2/Transparency_Report_04.2025.pdf) · [archived PDF](pdf-reports/back-market) | PDF; Apr 2025 (semi-annual) | verified |
+| Marktplaats | Marktplaats B.V. (Adevinta) | [PDF](https://statisch.marktplaats.nl/docs/Transparency_report_MP.pdf) · [archived PDF](pdf-reports/marktplaats) | PDF; 17 Feb – 31 Dec 2024 | verified |
+| ManoMano | Colibri SAS | [XLSX](https://cdn.manomano.com/legal/reports/DSA_Transparency_Report_2025.xlsx) · [archived data](harmonised-reports/extracted/manomano) | XLSX; 2025 | verified |
 | Cdiscount | Cdiscount S.A. | [Hub](https://www.cdiscount.com/n-429993/pagesaurlfixe-arbo/rapport-de-transparence-dsa.html) | HTML hub | likely |
-| Leboncoin | LBC France SAS (Adevinta) | [PDF](https://img.leboncoin.fr/api/v1/lbcpb2/documents/transparency_report-cover_page-FR_version.pdf?rule=cms_pdf) | PDF (FR) | verified |
+| Leboncoin | LBC France SAS (Adevinta) | [PDF](https://img.leboncoin.fr/api/v1/lbcpb2/documents/transparency_report-cover_page-FR_version.pdf?rule=cms_pdf) · [archived PDF](pdf-reports/leboncoin) | PDF (FR) | verified |
 | Rakuten France | Rakuten France SAS | [PDF](https://fr.shopping.rakuten.com/cdn/legal/DSA/Rapport_Transparence_1_v1/RAKUTEN_FRANCE_RAPPORT_TRANSPARENCE_2025.pdf) | PDF; 2025 | likely |
 | Boulanger | Boulanger SA | [PDF](https://www.boulanger.com/content/dam/Boulanger/juridique/mentions-legales/rapporttransparence-dsa-2024.pdf) | PDF; CY2024 | likely |
-| Carrefour Marketplace | Carrefour | [Legal notices](https://www.carrefour.fr/mentions-legales) | XLSX (Annex I template); FY2024 & FY2025 | likely |
+| Carrefour Marketplace | Carrefour | [Legal notices](https://www.carrefour.fr/mentions-legales) · [archived data](harmonised-reports/extracted/carrefour) | XLSX (Annex I template); FY2024 & FY2025 | likely |
 | eMAG | Dante International S.A. | [Report](https://www.emag.ro/info/raport-transparenta-dsa) | HTML + downloads; biannual | likely |
 | Notino | Notino s.r.o. | [Report](https://www.notino.com/dsa-transparency-report/) | HTML/PDF | likely |
 | MediaMarkt / Saturn | MediaMarktSaturn | [Report](https://www.mediamarkt.de/de/shop/dsa-transparenzbericht.html) | HTML | likely |
 | Galaxus / Digitec | Digitec Galaxus AG | [Report](https://www.galaxus.de/de/page/transparenzbericht-dsa-9020) | HTML (DE/AT) | likely |
 | Douglas | Douglas GmbH | [Report](https://www.douglas.de/de/cp/dsa-transparenzbericht/dsa-transparenzbericht) | HTML | likely |
 | Coolblue | Coolblue B.V. | [Report](https://www.coolblue.nl/transparantierapport) | HTML | likely |
-| Skroutz | Skroutz S.A. (Greece) | [DSA hub](https://www.skroutz.gr/digital-services-act) | PDF + Excel/ZIP; 2024 & 2025 | verified |
-| Ceneo | Ceneo.pl sp. z o.o. (Poland) | [DSA hub](https://info.ceneo.pl/dsa) | XLSX Annex I (EN + PL); 2024 & 2025 | verified |
+| Skroutz | Skroutz S.A. (Greece) | [DSA hub](https://www.skroutz.gr/digital-services-act) · [archived data](harmonised-reports/extracted/skroutz) | PDF + Excel/ZIP; 2024 & 2025 | verified |
+| Ceneo | Ceneo.pl sp. z o.o. (Poland) | [DSA hub](https://info.ceneo.pl/dsa) · [archived data](harmonised-reports/extracted/ceneo) | XLSX Annex I (EN + PL); 2024 & 2025 | verified |
 | x-kom | x-kom sp. z o.o. (Poland) | [DSA hub](https://www.x-kom.pl/dsa) | XLSX (harmonised template); 2024 | verified |
 | Discogs | Discogs (Zink Media, Inc.) | [Statement](https://support.discogs.com/hc/en-us/articles/12730436158349-EU-Digital-Services-Act-Statement) | HTML; 17 Feb 2024 – 16 Feb 2025 | likely |
 | Reverb | Reverb.com LLC | [DSA page](https://help.reverb.com/hc/en-us/articles/14017920631571-EU-Digital-Services-Act) | HTML; semi-annual | likely |
@@ -127,11 +127,11 @@ The best starting points for finding more report locations:
 | Fruugo | Fruugo.com Ltd | [Compliance statement](https://www.fruugo.ie/help/detail/dsa-compliance-statement) | HTML; Jun – Dec 2025 | likely |
 | Vivino | Vivino ApS | [Content moderation policy](https://www.vivino.com/legal/content-moderation-policy) | HTML; semi-annual (Art. 24) | likely |
 | DocMorris | DocMorris N.V. | [DSA page](https://www.docmorris.de/digital-services-act) | HTML DSA page; contents unverified | uncertain |
-| Trendyol | DSM Grup / Trendyol Group | [2025 PDF](https://9be604a381897de8.mncdn.com/tymp/prod/documents/policy/TY_DSA_Report_2025.pdf) ([2024 PDF](https://cdn.dsmcdn.com/mobile/international/legal/transparency_report_2024.pdf)) | PDF; 2024 & 2025 | verified |
+| Trendyol | DSM Grup / Trendyol Group | [2025 PDF](https://9be604a381897de8.mncdn.com/tymp/prod/documents/policy/TY_DSA_Report_2025.pdf) ([2024 PDF](https://cdn.dsmcdn.com/mobile/international/legal/transparency_report_2024.pdf)) · [archived PDF](pdf-reports/trendyol) | PDF; 2024 & 2025 | verified |
 | home24 | home24 SE | [Impressum](https://www.home24.de/home24-impressum/) | Transparenzbericht; 2025/2026 | likely |
 | Conforama | Conforama France SA | [DSA page](https://www.conforama.fr/digital-service-act) | HTML DSA page; AMAR + notice | uncertain |
-| Whatnot | Whatnot Inc. | [EU DSA](https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act) | PDF + XLSX; 2025 & 2026 | verified |
-| FinCompare | FinCompare GmbH | [PDF](https://fincompare.de/wp-content/uploads/2024/12/Transparenzbericht-nach-Art.-15-DSA-Berichtszeitraum_-Januar-2024-%E2%80%93-Dezember-2024.pdf) | PDF (Art. 15); Jan – Dec 2024 | verified |
+| Whatnot | Whatnot Inc. | [EU DSA](https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act) · [archived data](harmonised-reports/extracted/whatnot) · [archived PDF](pdf-reports/whatnot) | PDF + XLSX; 2025 & 2026 | verified |
+| FinCompare | FinCompare GmbH | [PDF](https://fincompare.de/wp-content/uploads/2024/12/Transparenzbericht-nach-Art.-15-DSA-Berichtszeitraum_-Januar-2024-%E2%80%93-Dezember-2024.pdf) · [archived PDF](pdf-reports/fincompare) | PDF (Art. 15); Jan – Dec 2024 | verified |
 | Tradera | Tradera Sweden AB | [Support](https://www.tradera.com/support) | Annual report (referenced in T&C) | likely |
 | Mercari | Mercari, Inc. | [Transparency](https://about.mercari.com/en/safety/transparency/) | PDF; half-yearly (DSA framing unconfirmed) | uncertain |
 | Faire | Faire Wholesale, Inc. | [Report](https://www.faire.com/support/articles/20960200105115) | CSV; 2024 & 2025 | verified |
@@ -145,7 +145,7 @@ The best starting points for finding more report locations:
 |----------|-------------------|------------|-----------------|------------|
 | Kleinanzeigen | Kleinanzeigen GmbH | [Hub](https://themen.kleinanzeigen.de/transparenzbericht/) | HTML hub + PDFs; semi-annual | likely |
 | OLX | OLX B.V. (Prosus) | [Report](https://www.olx.pl/d/dsa-transparency-report/) | HTML; semi-annual | likely |
-| AutoScout24 | AutoScout24 SE | [PDF](https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf) | PDF (Art. 15/24); Jul – Dec 2024 | verified |
+| AutoScout24 | AutoScout24 SE | [PDF](https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf) · [archived PDF](pdf-reports/autoscout24) | PDF (Art. 15/24); Jul – Dec 2024 | verified |
 | Idealista | Idealista S.A.U. | [DSA info](https://www.idealista.com/ayuda/articulos/informacion-de-idealista-en-cumplimiento-del-reglamento-de-servicios-digitales/) | HTML; Art. 15/24 | likely |
 | Vivastreet | Vivastreet (legal entity unverified) | [Transparency report](https://www.vivastreet.com/s/transparency_report) | HTML (Art. 15/24/42); CY2025 | verified |
 
@@ -153,22 +153,22 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Airbnb | Airbnb Ireland UC | [PDF](https://assets.airbnb.com/help/Airbnb_Ireland_UC_Transparency_Report_2025Feb14.pdf) | PDF; CY2024 | verified |
-| Expedia | Expedia, Inc. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) | PDF + XLSX; 2024 & 2025 | verified |
-| Hotels.com | Hotels.com, L.P. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) | PDF + XLSX; 2024 & 2025 | verified |
-| Vrbo | EG Vacation Rentals Ireland Ltd. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) | PDF + XLSX; 2024 & 2025 | verified |
-| Trivago | trivago N.V. | [DSA info](https://company.trivago.com/dsa-information/) ([PDF](https://company.trivago.com/wp-content/uploads/2025/03/trivago-DSA-Transparency-Report.pdf)) | PDF; Feb 2025 | verified |
+| Airbnb | Airbnb Ireland UC | [PDF](https://assets.airbnb.com/help/Airbnb_Ireland_UC_Transparency_Report_2025Feb14.pdf) · [archived PDF](pdf-reports/airbnb) | PDF; CY2024 | verified |
+| Expedia | Expedia, Inc. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) · [archived data](harmonised-reports/extracted/expedia) | PDF + XLSX; 2024 & 2025 | verified |
+| Hotels.com | Hotels.com, L.P. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) · [archived data](harmonised-reports/extracted/hotelscom) | PDF + XLSX; 2024 & 2025 | verified |
+| Vrbo | EG Vacation Rentals Ireland Ltd. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) · [archived data](harmonised-reports/extracted/vrbo) | PDF + XLSX; 2024 & 2025 | verified |
+| Trivago | trivago N.V. | [DSA info](https://company.trivago.com/dsa-information/) ([PDF](https://company.trivago.com/wp-content/uploads/2025/03/trivago-DSA-Transparency-Report.pdf)) · [archived PDF](pdf-reports/trivago) | PDF; Feb 2025 | verified |
 | Tripadvisor | Tripadvisor LLC | [Report](https://www.tripadvisor.com/TransparencyReport2025) | HTML; 2025 | likely |
-| Viator | Viator, Inc. | [PDF](https://assetlibrary.viator.com/m/523fc4a4d818e6fd/original/Viator_Inc_Digital_Services_Act_Transparency_Report_CY_2024.pdf) | PDF; CY2024 | verified |
-| Hostelworld | Hostelworld | [Security & privacy](https://www.hostelworld.com/legal/security-privacy/) | XLSX; 12 mo to 31 Dec 2025 | verified |
-| Eventbrite | Eventbrite Operations (IE) Ltd. | [PDF](https://www.eventbrite.com/blog/wp-content/uploads/2026/03/Eventbrite-2025-Transparency-Report.pdf) | PDF (EC template); 2024 & 2025 | verified |
-| BlaBlaCar | Comuto SA | [PDF](https://blog.blablacar.fr/wp-content/uploads/2025/02/2024-dsa-transparency-report-blablacar.pdf) | PDF; 2024 | verified |
+| Viator | Viator, Inc. | [PDF](https://assetlibrary.viator.com/m/523fc4a4d818e6fd/original/Viator_Inc_Digital_Services_Act_Transparency_Report_CY_2024.pdf) · [archived PDF](pdf-reports/viator) | PDF; CY2024 | verified |
+| Hostelworld | Hostelworld | [Security & privacy](https://www.hostelworld.com/legal/security-privacy/) · [archived data](harmonised-reports/extracted/hostelworld) | XLSX; 12 mo to 31 Dec 2025 | verified |
+| Eventbrite | Eventbrite Operations (IE) Ltd. | [PDF](https://www.eventbrite.com/blog/wp-content/uploads/2026/03/Eventbrite-2025-Transparency-Report.pdf) · [archived PDF](pdf-reports/eventbrite) | PDF (EC template); 2024 & 2025 | verified |
+| BlaBlaCar | Comuto SA | [PDF](https://blog.blablacar.fr/wp-content/uploads/2025/02/2024-dsa-transparency-report-blablacar.pdf) · [archived PDF](pdf-reports/blablacar) | PDF; 2024 | verified |
 | Kayak | KAYAK Software Corp. (Booking Holdings) | [Hub](https://www.kayak.ie/c/digital-services-act/) | PDF; 2026 | verified |
 | Uber Eats | Uber B.V. | [Legal page](https://www.uber.com/legal/en/document/?name=digital-services-act---uber-eats-transparency-report) | Legal page + Drive docs; 2024 & 2025 | verified |
 | Bolt | Bolt Technology OÜ | [Legal page](https://bolt.eu/en/legal/digital-services-act/) | Legal page; 17 Feb 2024 – 17 Feb 2025 | likely |
 | GetYourGuide | GetYourGuide GmbH / AG | [DSA page](https://www.getyourguide.com/c/dsa/) | HTML; 2024 (Art. 15/24/42) | likely |
 | Skyscanner | Skyscanner Ltd | [DSA hub](https://www.skyscanner.net/media/digital-services-act) | DSA hub (JS-rendered) | likely |
-| HomeToGo | HomeToGo SE | [DSA page](https://www.hometogo.de/dsa/) | XLSX; Art. 24(2) + removals | verified |
+| HomeToGo | HomeToGo SE | [DSA page](https://www.hometogo.de/dsa/) · [archived data](harmonised-reports/extracted/hometogo) | XLSX; Art. 24(2) + removals | verified |
 | Novasol | Awaze A/S | [Report](https://www.novasol.com/digital-services-act) | PDF; Feb 2026 (Awaze group) | verified |
 | Belvilla | Awaze Group | [Report (Awaze group)](https://www.novasol.com/digital-services-act) | PDF; Feb 2026 | likely |
 | Interhome | Interhome Group (HomeToGo) | [Legal info](https://www.interhome.group/en-ch/legal-information) | Annual; report referenced | likely |
@@ -178,9 +178,9 @@ The best starting points for finding more report locations:
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
 | Just Eat Takeaway (Lieferando, Thuisbezorgd) | Just Eat Takeaway.com N.V. | [Governance docs](https://www.justeattakeaway.com/governance/governance-documents/) | ZIP (template); 17 Feb – 31 Dec 2025 | verified |
-| Deliveroo | Deliveroo plc | [PDF](https://dpd-12774-s3.s3.eu-west-2.amazonaws.com/assets/7517/4559/3138/Deliveroo_DSA_Transparency_Report_April2025.pdf) | PDF; Apr 2025 | verified |
+| Deliveroo | Deliveroo plc | [PDF](https://dpd-12774-s3.s3.eu-west-2.amazonaws.com/assets/7517/4559/3138/Deliveroo_DSA_Transparency_Report_April2025.pdf) · [archived PDF](pdf-reports/deliveroo) | PDF; Apr 2025 | verified |
 | Glovo | Glovoapp23 S.A. (Delivery Hero) | [Report](https://about.glovoapp.com/culture-and-values/transparency-report/) | PDF; 2025 | verified |
-| Wolt | Wolt Enterprises Oy (DoorDash) | [PDF](https://assets.ctfassets.net/23u853certza/4UBct5Uy0IYtBe4xXSEclg/84a36c8226a026a23859abb166875db6/Wolt_DSA_Transparency_Report2025.pdf) | PDF; 17 Feb 2024 – 17 Feb 2025 | verified |
+| Wolt | Wolt Enterprises Oy (DoorDash) | [PDF](https://assets.ctfassets.net/23u853certza/4UBct5Uy0IYtBe4xXSEclg/84a36c8226a026a23859abb166875db6/Wolt_DSA_Transparency_Report2025.pdf) · [archived PDF](pdf-reports/wolt) | PDF; 17 Feb 2024 – 17 Feb 2025 | verified |
 | Delivery Hero (foodora, …) | Delivery Hero SE | [DSA statement](https://www.deliveryhero.com/digital-services-act/) | HTML; content-moderation report + AMAR | likely |
 | Malt | Malt Community SAS | [Transparency](https://www.malt.fr/c/transparency) | Web report; 2024 & 2025 | likely |
 | Upwork | Upwork Global Inc. | [2025 report](https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours) | XLSX; 2024 & 2025 | likely |
@@ -191,22 +191,22 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Roblox | Roblox Corporation | [Transparency](https://about.roblox.com/transparency) ([2025 PDF](https://about.roblox.com/pdf/eu-dsa-transparency-report-2025)) | PDF + XLSX/CSV; 2024 & 2025 | verified |
+| Roblox | Roblox Corporation | [Transparency](https://about.roblox.com/transparency) ([2025 PDF](https://about.roblox.com/pdf/eu-dsa-transparency-report-2025)) · [archived data](harmonised-reports/extracted/roblox) | PDF + XLSX/CSV; 2024 & 2025 | verified |
 | Ubisoft Connect | Ubisoft Entertainment SA | [Report](https://www.ubisoft.com/legal/documents/transparencyreport/en-US) | PDF; CY2024 | verified |
 | Nintendo eShop | Nintendo Co., Ltd. | [DSA page](https://www.nintendo.com/en-gb/Legal-information/Digital-Services-Act-2522334.html) | PDF; Feb 2025 | verified |
 | Samsung Galaxy Store | Samsung Electronics | [Regulatory info](https://www.samsung.com/uk/support/regulatory-information/) | PDF; Aug 2025 – Jan 2026 | verified |
 | Epic Games Store | Epic Games, Inc. | [Report](https://safety.epicgames.com/transparency-reports/european-union) | XLSX + hub; Feb 2024 – Feb 2025 | likely |
 | Twitch | Twitch Interactive (Amazon) | [Report](https://safety.twitch.tv/s/article/Twitch-DSA-Transparency-Report-February-2025) | HTML; Feb 2025 | likely |
-| Xbox | Microsoft | [PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Xbox-platform-and-Xbox-Game-Studios-DSA-Transparency-Report-2024.pdf) | PDF; 2024 | verified |
+| Xbox | Microsoft | [PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Xbox-platform-and-Xbox-Game-Studios-DSA-Transparency-Report-2024.pdf) · [archived PDF](pdf-reports/xbox) | PDF; 2024 | verified |
 | Microsoft Store | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305704) | PDF; Feb – Dec 2024 | verified |
 | Miniclip | Miniclip SA (Tencent) | [Report](https://www.miniclip.com/dsa-transparency-report) | Landing + ZIP; CY2025 | verified |
 | GameDistribution | Azerion | [Report](https://static.gamedistribution.com/dsa-transparency-report.html) | HTML; CY2024 | verified |
-| Niantic (Pokémon GO, …) | Niantic Inc. | [Report](https://nianticlabs.com/dsa-transparency) | Landing + Excel/PDF; CY2025 | verified |
+| Niantic (Pokémon GO, …) | Niantic Inc. | [Report](https://nianticlabs.com/dsa-transparency) · [archived data](harmonised-reports/extracted/niantic) | Landing + Excel/PDF; CY2025 | verified |
 | Chess.com | Chess.com, LLC | [DSA compliance](https://www.chess.com/article/view/digital-services-act-compliance) | HTML; Art. 24(2) MAU only | uncertain |
 | PlayStation Network | Sony Interactive Entertainment Network Europe | [DSA info](https://www.playstation.com/en-gb/legal/digital-service-act-information/) | ZIP; 2024 & 2025 | verified |
 | Riot Games | Riot Games Ltd. | [DSA report](https://support-leagueoflegends.riotgames.com/hc/en-us/articles/25972785684627) | XLSX; 2024 & 2025 | verified |
 | Square Enix | Square Enix Ltd. | [Online safety](https://www.square-enix-games.com/en_GB/documents/online-safety) | PDF (Art. 15); Feb 2025 | verified |
-| Konami | Konami Digital Entertainment | [EU DSA hub](https://legal.konami.com/kde/eudsa/) | XLSX/PDF; 2024 & 2025 | verified |
+| Konami | Konami Digital Entertainment | [EU DSA hub](https://legal.konami.com/kde/eudsa/) · [archived data](harmonised-reports/extracted/konami) | XLSX/PDF; 2024 & 2025 | verified |
 | Nexon | Nexon | [DSA page](https://playersupport.nexon.com/hc/en-us/articles/46401329736084-Digital-Services-Act) | HTML hub | likely |
 | Level Infinite (PUBG Mobile, Honor of Kings, Arena Breakout, …) | Proxima Beta Europe B.V. (Tencent) | [Arena Breakout report](https://eulaforgames.com/rule/202502110002/ALL) ([PUBG](https://support.pubg.com/hc/en-us/articles/28819731069721-EU-Digital-Services-Act-information)) | In-page Art. 15 per game; 2024 | verified |
 | Honor APPMarket | HONOR Device Co. | [DSA page](https://www.honor.com/uk/legal/dsa/) | HTML + annual reports; 2024 & 2025 | verified |
@@ -220,21 +220,21 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Match Group (Tinder, Hinge, OkCupid, Meetic, …) | Match Group | [Resources](https://www.matchgroup-safety.com/resources) | PDF + per-app Excel; 2024 & 2025 | verified |
-| Bumble (Badoo, Fruitz) | Bumble Inc. | [Hub](https://support.bumble.com/hc/en-us/articles/28718583113757-Digital-Services-Act-Transparency-report) ([2025 PDF](https://bumbcdn.com/i/big/dsa/bumble/dsa-transparency-report-2025.pdf)) | PDF + Annex; 2025 | verified |
-| Grindr | Grindr LLC | [Reports](https://help.grindr.com/hc/en-us/articles/38555862683795-Grindr-EU-Digital-Services-Act-Transparency-Reports) | PDF + Excel; annual | likely |
+| Match Group (Tinder, Hinge, OkCupid, Meetic, …) | Match Group | [Resources](https://www.matchgroup-safety.com/resources) · [archived data](harmonised-reports/extracted/matchgroup) | PDF + per-app Excel; 2024 & 2025 | verified |
+| Bumble (Badoo, Fruitz) | Bumble Inc. | [Hub](https://support.bumble.com/hc/en-us/articles/28718583113757-Digital-Services-Act-Transparency-report) ([2025 PDF](https://bumbcdn.com/i/big/dsa/bumble/dsa-transparency-report-2025.pdf)) · [archived data](harmonised-reports/extracted/bumble) · [archived PDF](pdf-reports/bumble-badoo-fruitz) | PDF + Annex; 2025 | verified |
+| Grindr | Grindr LLC | [Reports](https://help.grindr.com/hc/en-us/articles/38555862683795-Grindr-EU-Digital-Services-Act-Transparency-Reports) · [archived data](harmonised-reports/extracted/grindr) | PDF + Excel; annual | likely |
 | Feeld | Feeld Ltd | [DSA report](https://feeld.co/ask-feeld/member-resources/dsa) | ZIP; 2025 full year | verified |
-| Happn | happn SAS | [PDF](https://www.happn.com/customer-support/rapport_2ndTrimestre.pdf) | PDF; S2 2025 | verified |
-| Lovoo | LOVOO GmbH | [PDF](https://www.lovoo.com/de/wp-content/uploads/sites/4/2026/01/LOVOO_Transparenzbericht_2024.pdf) | PDF (DE); 2024 | verified |
+| Happn | happn SAS | [PDF](https://www.happn.com/customer-support/rapport_2ndTrimestre.pdf) · [archived PDF](pdf-reports/happn) | PDF; S2 2025 | verified |
+| Lovoo | LOVOO GmbH | [PDF](https://www.lovoo.com/de/wp-content/uploads/sites/4/2026/01/LOVOO_Transparenzbericht_2024.pdf) · [archived PDF](pdf-reports/lovoo) | PDF (DE); 2024 | verified |
 
 ## Developer / software / hosting
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| GitHub | GitHub, Inc. (Microsoft) | [Transparency Center](https://transparencycenter.github.com/) ([2024 PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/GitHub-DSA-Transparency-Report-Feb-Dec-2024.pdf)) | PDF; Feb – Dec 2024 | verified |
-| Cloudflare | Cloudflare, Inc. | [Transparency](https://www.cloudflare.com/transparency/) | XLSX (template); H2 2025 | verified |
+| GitHub | GitHub, Inc. (Microsoft) | [Transparency Center](https://transparencycenter.github.com/) ([2024 PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/GitHub-DSA-Transparency-Report-Feb-Dec-2024.pdf)) · [archived PDF](pdf-reports/github) | PDF; Feb – Dec 2024 | verified |
+| Cloudflare | Cloudflare, Inc. | [Transparency](https://www.cloudflare.com/transparency/) · [archived data](harmonised-reports/extracted/cloudflare) | XLSX (template); H2 2025 | verified |
 | WordPress.com | Automattic Inc. | [Report](https://transparency.automattic.com/wordpress-dot-com/digital-services-act/) | Web + CSV; Jul – Dec 2025 | verified |
-| Hugging Face | Hugging Face SAS | [Content policy](https://huggingface.co/content-policy) ([2025 PDF](https://cdn-media.huggingface.co/landing/assets/DSA_HF_2025.pdf)) | PDF; 2025 | verified |
+| Hugging Face | Hugging Face SAS | [Content policy](https://huggingface.co/content-policy) ([2025 PDF](https://cdn-media.huggingface.co/landing/assets/DSA_HF_2025.pdf)) · [archived PDF](pdf-reports/hugging-face) | PDF; 2025 | verified |
 
 ## Web hosting, registrars, site builders & infrastructure
 
@@ -242,17 +242,17 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Shopify | Shopify Inc. | [Legal notices](https://www.shopify.com/legal/p2b/legal-notices) | Hub: PDF + XLSX; CY2024 & 2025 | verified |
+| Shopify | Shopify Inc. | [Legal notices](https://www.shopify.com/legal/p2b/legal-notices) · [archived data](harmonised-reports/extracted/shopify) | Hub: PDF + XLSX; CY2024 & 2025 | verified |
 | Wix | Wix.com Ltd. | [Report](https://support.wix.com/en/article/dsa-transparency-report-2024) | Web; CY2024 | verified |
-| Squarespace | Squarespace, Inc. | [PDF](https://www.squarespace.com/s/Digital-Services-Act-Report-20250228.pdf) | PDF; 2024 | verified |
+| Squarespace | Squarespace, Inc. | [PDF](https://www.squarespace.com/s/Digital-Services-Act-Report-20250228.pdf) · [archived PDF](pdf-reports/squarespace) | PDF; 2024 | verified |
 | GoDaddy | GoDaddy Inc. | [Disclosure](https://www.godaddy.com/legal/agreements/digital-services-act-disclosure) | Web; 2024 & 2025 | likely |
-| OVHcloud | OVH Groupe SAS | [PDF](https://corporate.ovhcloud.com/sites/default/files/2025-04/rapport_de_transparence_dsa_ovhcloud_2025.pdf) | PDF + spreadsheet; 17 Feb – 31 Dec 2024 | verified |
-| Hostinger | Hostinger International Ltd. | [Report](https://www.hostinger.com/legal/dsa-transparency-report) | PDF + XLSX; 2024 – 2025 | verified |
+| OVHcloud | OVH Groupe SAS | [PDF](https://corporate.ovhcloud.com/sites/default/files/2025-04/rapport_de_transparence_dsa_ovhcloud_2025.pdf) · [archived PDF](pdf-reports/ovhcloud) | PDF + spreadsheet; 17 Feb – 31 Dec 2024 | verified |
+| Hostinger | Hostinger International Ltd. | [Report](https://www.hostinger.com/legal/dsa-transparency-report) · [archived data](harmonised-reports/extracted/hostinger) | PDF + XLSX; 2024 – 2025 | verified |
 | Akamai | Akamai Technologies, Inc. | [DSA hub](https://www.akamai.com/legal/eu-digital-services-act) | PDF/XLSX; 2024, H1 & H2 2025 | verified |
 | Vercel | Vercel Inc. | [Transparency](https://vercel.com/legal/transparency) | Web; 17 Feb – 15 Dec 2024 | verified |
 | Gandi | Gandi SAS | [Report](https://www.gandi.net/en-US/digital-service-act-transparency-report) | Web + PDF; 2024 & 2025 | verified |
 | Alibaba Cloud | Alibaba Cloud (Alibaba.com Singapore) | [DSA compliance](https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information) | PDF; 17 Feb 2024 – 16 Feb 2025 (cloud service, not the Alibaba.com marketplace) | verified |
-| AWS | Amazon Web Services | [PDF](https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf) | PDF (Art. 15); covers AWS services | verified |
+| AWS | Amazon Web Services | [PDF](https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf) · [archived PDF](pdf-reports/aws) | PDF (Art. 15); covers AWS services | verified |
 | Tencent Cloud | Tencent Cloud International | [DSA page](https://www.tencentcloud.com/document/product/301/59018) | HTML + PDF; 2024 & 2025 | verified |
 | iCloud Storage | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
 | Microsoft Azure | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304935) | PDF; Feb – Dec 2024 | verified |
@@ -268,18 +268,18 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| DuckDuckGo | DuckDuckGo, Inc. | [Regulatory reporting](https://duckduckgo.com/duckduckgo-help-pages/r-legal/regulatory-reporting) | XLSX (template); CY2025 (+ 2024 PDF) | verified |
-| Qwant | Qwant (France) | [Report](https://about.qwant.com/legal/rapport-de-transparence-qwant-2025/) | HTML + Excel + PDF; CY2025 | verified |
-| Lilo | Lilo SAS (now Qwant) | [Report](https://lilo.org/rapport-transparence) | HTML + Excel; Sep – Dec 2025 | verified |
+| DuckDuckGo | DuckDuckGo, Inc. | [Regulatory reporting](https://duckduckgo.com/duckduckgo-help-pages/r-legal/regulatory-reporting) · [archived data](harmonised-reports/extracted/duckduckgo) | XLSX (template); CY2025 (+ 2024 PDF) | verified |
+| Qwant | Qwant (France) | [Report](https://about.qwant.com/legal/rapport-de-transparence-qwant-2025/) · [archived data](harmonised-reports/extracted/qwant) | HTML + Excel + PDF; CY2025 | verified |
+| Lilo | Lilo SAS (now Qwant) | [Report](https://lilo.org/rapport-transparence) · [archived data](harmonised-reports/extracted/lilo) | HTML + Excel; Sep – Dec 2025 | verified |
 
 ## Browsers, email & portals
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Yahoo (+ AOL) | Yahoo International Limited | [EU DSA hub](https://www.yahooinc.com/transparency/reports/eu-digital-services-act/index.html) | HTML + PDF + CSV; 17 Feb – 31 Dec 2025 | verified |
+| Yahoo (+ AOL) | Yahoo International Limited | [EU DSA hub](https://www.yahooinc.com/transparency/reports/eu-digital-services-act/index.html) · [archived data](harmonised-reports/extracted/yahoo) | HTML + PDF + CSV; 17 Feb – 31 Dec 2025 | verified |
 | Mozilla / Firefox | Mozilla Corporation | [Transparency](https://www.mozilla.org/en-US/about/policy/transparency/2024/) | DSA report; CY2024 | verified |
 | GMX | 1&1 Mail & Media GmbH | [Transparenzbericht](https://freephone.gmx.net/transparenzbericht) | ODS (Art. 15); 2024 & 2025 | verified |
-| Web.de | 1&1 Mail & Media GmbH | [Impressum](https://www.web.de/impressum/) ([2025 XLSX](https://s.uicdn.com/pih/legal/2025TransparencyReport.xlsx)) | XLSX (Art. 15); 2025 | verified |
+| Web.de | 1&1 Mail & Media GmbH | [Impressum](https://www.web.de/impressum/) ([2025 XLSX](https://s.uicdn.com/pih/legal/2025TransparencyReport.xlsx)) · [archived data](harmonised-reports/extracted/webde) | XLSX (Art. 15); 2025 | verified |
 | Microsoft Edge | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304742) | PDF; Feb – Dec 2024 | verified |
 | Microsoft Outlook | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305703) | PDF; Feb – Dec 2024 | verified |
 
@@ -287,7 +287,7 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Trustpilot | Trustpilot A/S | [PDF](https://cdn.trustpilot.net/businesssite/Trustpilot-DSA-Transparency-Report-May-2025.pdf) | PDF; 17 Feb 2024 – 16 Feb 2025 | verified |
+| Trustpilot | Trustpilot A/S | [PDF](https://cdn.trustpilot.net/businesssite/Trustpilot-DSA-Transparency-Report-May-2025.pdf) · [archived PDF](pdf-reports/trustpilot) | PDF; 17 Feb 2024 – 16 Feb 2025 | verified |
 | Yelp | Yelp Inc. | [Report](https://www.yelp-support.com/article/Yelp-DSA-Transparency-Report-2025?l=en_GB) | HTML; 2024 & 2025 | likely |
 | Indeed | Indeed, Inc. | [Report](https://www.indeed.com/legal/digital-services-act-transparency-report) | HTML; 16 Feb – 31 Dec 2024 | likely |
 | Glassdoor | Glassdoor LLC | [XLSX](https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx) | XLSX; CY2024 | likely |
@@ -340,8 +340,8 @@ EC [DSA transparency page](https://digital-strategy.ec.europa.eu/en/policies/dsa
 | Booking.com | Booking.com B.V. | [DSA hub](https://www.booking.com/content/dsa.en-gb.html) | Hub; HTML/PDF | likely |
 | Facebook | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | Hub; latest H2 2025 | likely |
 | Instagram | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | Hub; latest H2 2025 | likely |
-| LinkedIn | LinkedIn Ireland | [Feb 2026 ZIP](https://content.linkedin.com/content/dam/help/tns/en/report/LinkedIn-February-2026-Digital-Services-Act-Transparency-Report.zip) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
-| Pinterest | Pinterest Europe | [Feb 2026 ZIP](https://cdn.sanity.io/files/26f0hyrt/pinpolicy_prod/2c552b2ce80a75c1f9e9741e83da8bdbb5028579.zip) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
+| LinkedIn | LinkedIn Ireland | [Feb 2026 ZIP](https://content.linkedin.com/content/dam/help/tns/en/report/LinkedIn-February-2026-Digital-Services-Act-Transparency-Report.zip) · [archived data](harmonised-reports/extracted/linkedin) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
+| Pinterest | Pinterest Europe | [Feb 2026 ZIP](https://cdn.sanity.io/files/26f0hyrt/pinpolicy_prod/2c552b2ce80a75c1f9e9741e83da8bdbb5028579.zip) · [archived data](harmonised-reports/extracted/pinterest) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
 | Snapchat | Snap Group Ltd | [H2 2025 report](https://values.snap.com/privacy/transparency/european-union-h2-2025) | HTML; H2 2025 | likely |
 | TikTok | TikTok Technology Ltd | [DSA hub](https://www.tiktok.com/transparency/en/dsa-transparency/) | Hub; latest H2 2025 | likely |
 | X (Twitter) | Twitter International Unlimited Co. | [DSA report](https://transparency.x.com/en/reports/dsa-transparency-report) | Hub + PDF; latest Feb 2026 | likely |
@@ -354,7 +354,7 @@ EC [DSA transparency page](https://digital-strategy.ec.europa.eu/en/policies/dsa
 | Zalando | Zalando SE | [Transparency hub](https://corporate.zalando.com/en/investor-relations/corporate-governance/transparency-hub) | Hub; latest H2 2025 | likely |
 | Shein | Roadget Business (Shein) | [DSA hub](https://euqs.shein.com/digital-service-act-a-1994.html) | Hub; latest H2 2025 | uncertain |
 | Temu | Whaleco / Elementary Innovation | [Transparency center](https://www.temu.com/transparency-center-reports.html) | Hub; Feb 2026 + PDFs | likely |
-| Wikipedia | Wikimedia Foundation | [Feb 2026 XLS](https://foundation.wikimedia.org/wiki/File:Wikipedia_-_DSA_transparency_report_2026-02-28.xls) | XLS (harmonised template); Feb 2026 (H2 2025) | verified |
+| Wikipedia | Wikimedia Foundation | [Feb 2026 XLS](https://foundation.wikimedia.org/wiki/File:Wikipedia_-_DSA_transparency_report_2026-02-28.xls) · [archived data](harmonised-reports/extracted/wikipedia) | XLS (harmonised template); Feb 2026 (H2 2025) | verified |
 | Pornhub | Aylo (Technius Ltd) | [DSA reports](https://help.pornhub.com/hc/en-us/sections/46212654665363-DSA-Transparency-Reports) | HTML; latest Feb 2026 | likely |
 | XVideos | WebGroup Czech Republic | [Mandatory information](https://info.xvideos.net/legal/mandatory-information) | Mandatory-info page; prior PDF | likely |
 | XNXX | WebGroup Czech Republic | [Mandatory information](https://info.xnxx.com/legal/mandatory-information) | Mandatory-info page; prior PDF | likely |

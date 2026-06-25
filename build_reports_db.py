@@ -158,9 +158,14 @@ def parse_markdown(md_text: str):
         if platform.lower() == "platform" or set(platform) <= {"-", ":"}:
             continue
 
-        links = LINK_RE.findall(url_cell)
-        if not links:  # plain-text fallback (no markdown link present)
-            links = [("", url_cell)]
+        # Split the cell's links: external report URLs vs. repo-relative links to
+        # the file(s) we archived in this repo (added by link_archives.py).
+        report_links, archived = [], []
+        for lbl, url in LINK_RE.findall(url_cell):
+            (report_links if url.strip().lower().startswith(("http://", "https://"))
+             else archived).append((lbl.strip(), url.strip()))
+        if not report_links:  # plain-text fallback (no markdown report link present)
+            report_links = [("", url_cell)]
 
         m = CONF_RE.match(confidence)
         if m:
@@ -176,7 +181,8 @@ def parse_markdown(md_text: str):
             "format_period": fmt,
             "confidence": conf_level,
             "confidence_note": conf_note,
-            "links": [(lbl.strip(), url.strip()) for lbl, url in links],
+            "links": report_links,
+            "archived": archived,
         }
 
 
@@ -226,9 +232,15 @@ def build_db(rows):
         conn.close()
 
 
+# Repo-relative archive links (added to REPORT_LOCATIONS.md by link_archives.py)
+# are exported as absolute GitHub URLs in the CSV's `archived` column.
+GITHUB_TREE = "https://github.com/krMaynard/dsa-transparency-data/tree/main/"
+
+
 def write_csv(rows):
     flat = []
     for r in sorted(rows, key=lambda r: (r["platform"].lower(), r["category"].lower())):
+        archived = "; ".join(GITHUB_TREE + rel.lstrip("/") for _, rel in r.get("archived", []))
         for label, url in r["links"]:
             flat.append({
                 "platform": r["platform"],
@@ -239,11 +251,12 @@ def write_csv(rows):
                 "format_period": r["format_period"],
                 "url_label": label,
                 "url": url,
+                "archived": archived,
             })
     with CSV_PATH.open("w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=[
             "platform", "company", "category", "confidence",
-            "harmonised_template", "format_period", "url_label", "url",
+            "harmonised_template", "format_period", "url_label", "url", "archived",
         ])
         w.writeheader()
         w.writerows(flat)
