@@ -36,6 +36,10 @@ TARGETS = {
     "vestiaire": "https://faq.vestiairecollective.com/hc/article_attachments/45307818834193",
     # help.whatnot.com article 23619888476557 — "Whatnot_2026_DSA.xlsx".
     "whatnot":   "https://help.whatnot.com/hc/article_attachments/43810812888717",
+    # depophelp.zendesk.com article 13057572688273 — direct CDN link in the body.
+    "depop":     "https://assets.depop.com/web/assets/help-center/depop-eu-dsa-transparency-report-2025.xlsx",
+    # playersupport.nexon.com article 46401329736084 — "2025 DSA Transparency Report_NEXON.xlsx".
+    "nexon":     "https://playersupport.nexon.com/hc/article_attachments/46401329467028",
 }
 
 

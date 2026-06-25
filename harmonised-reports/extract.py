@@ -71,6 +71,8 @@ SOURCES = {
     "grindr":      ("grindr.xlsx", "xlsx"),
     "vestiaire":   ("vestiaire.xlsx", "xlsx"),
     "whatnot":     ("whatnot.xlsx", "xlsx"),
+    "depop":       ("depop.xlsx", "xlsx"),
+    "nexon":       ("nexon.xlsx", "xlsx"),
 }
 
 import re as _re

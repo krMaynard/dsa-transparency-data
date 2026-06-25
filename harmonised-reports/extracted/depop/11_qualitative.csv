@@ -1,0 +1,125 @@
+Indicator,Value
+Summary of the content moderation engaged in at the providers’ own initiative,"Depop engages in proactive content moderation through a combination of soft moderation actions, automated detection systems and human review processes. These mechanisms are designed to identify potentially illegal or policy-violating content without relying solely on user reports.
+
+a. ML
+Depop uses machine learning models to detect potentially violative content, including text and image based signals. These systems flag content for review or prioritise items within moderation queues. 
+
+b. Automated Moderation Workflows
+Automated workflows are used to triage and route flagged content to appropriate review queues. In some lower-risk scenarios, predefined rules may trigger automated enforcement actions, subject to safeguards and appeal mechanisms.
+
+c. Manual Agent Review
+Human moderators review content flagged through automated systems, user reports and internal investigation. Moderators assess context and apply Depop’s policies to determine an appropriate and proportional action.
+
+d. Vistalworks & Unitary
+Depop uses third-party tooling to support detection and workflow management, including image recognition and content analysis technologies which are integrated into moderation processes.
+
+e. Keyword lists
+Keyword-based detection is used to identify potentially violative content based on predefined terms. These lists are regularly reviewed and updated to reflect emerging risks.
+
+f. Hash Matching Solutions
+Depop uses industry-standard hash matching technologies to detect known illegal content. This includes solutions provided by recognised organisations such as the Internet Watch Foundation (IWF) and the StopNCII solution provided by SWGfL. These tools match uploaded content against databases of confirmed illegal material.
+
+g. Secondary Investigation Moderation Queues for certain violations
+Certain high-risk violations are routed to specialised reviews queues for secondary investigation. These queues allow for deeper analysis and escalation where required.
+
+h. Soft Moderation Actions
+In addition to removal and restriction measures, Depop applies proportionate “soft moderation” interventions designed to prevent harm and promote policy awareness. These include warning messages delivered via email and in-app notifications, as well as contextual in-app prompts that remind users of community standards and acceptable language before or messages are sent.
+
+During the reporting period, Depop implemented refinements to its moderation framework, including adjustments to enforcement thresholds in certain lower-risk categories to promote proportionality and consistency. These refinements did not alter the underlying reporting methodology but may have influenced the volume and distribution of enforcement actions across specific categories during the year."
+Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"Depop does not rely solely on user reports to identify harmful or non-compliant content. We also take proactive steps to detect and address potential issues before they are reported by users.
+
+This includes automated systems that analyse activity on the platform to identify patterns or signals that may indicate breaches of applicable policies. These systems may flag content or accounts for review or prioritise them within moderation workflows. Depop also uses trusted third-party tools and keyword-based checks to help identify potentially risky terms or known harmful content.
+
+Where content is flagged through proactive detection, structured internal workflows determine how it is assessed and what action is taken. In most cases, flagged content is reviewed by trained moderation teams who evaluate context and apply Depop’s policies before a final decision is made. In certain clearly defined scenarios, automated rules may trigger immediate action, subject to safeguards and user appeals.
+
+Depop also conducts targeted proactive sweeps in specific risk areas and may take preventative measures, such as user education or warnings, where appropriate. These combined measures enable Depop to identify and mitigate risks early, reduce harm, and maintain a safe and compliant marketplace."
+Qualitative description of the automated means,"Depop uses a range of automated tools to support content moderation. These include machine learning systems designed to identify patterns or signals associated with potential policy violations, such as unusual behavioural activity or content characteristics that correlate with known risks. These systems are used primarily to detect and prioritise potentially problematic content at scale.
+
+Depop also applies rules-based checks and keyword detection mechanisms to flag specific terms, phrases, or behaviours that may indicate elevated risk. These controls are periodically reviewed and updated to reflect evolving trends and enforcement priorities.
+
+Automated tools operate as part of a broader moderation framework. They assist with detection and triage and are typically complemented by human review in complex or context-dependent cases. This approach enables scalable risk identification while maintaining appropriate oversight.
+Depop configures automated moderation systems using predefined parameters and thresholds that determine how content or accounts are handled.
+For machine learning and third-party image detection tools, confidence score thresholds are set for different risk categories (for example, nudity/sexual content, drugs, weapons, hate speech, violence, and other policy areas). When a model’s confidence score meets or exceeds a defined threshold, the content is routed into a moderation queue for human review. Thresholds are calibrated by category based on severity, risk profile, and performance monitoring.
+
+In limited and clearly defined scenarios, higher confidence thresholds are configured to trigger automated enforcement actions (such as removal or account restriction) without prior human intervention. These thresholds are materially higher than queue-routing thresholds and are subject to ongoing oversight and review.
+
+For counterfeit detection, automated parameters incorporate multiple signals, including brand, category, and price indicators. Listings that meet defined risk criteria are either routed for review or, where relevant thresholds are met, may contribute to cumulative enforcement mechanisms (such as repeat infringement workflows).
+
+Additional configurable parameters include:
+
+• Job creation thresholds (minimum confidence required to generate a moderation task)
+• Automated enforcement thresholds (higher confidence levels required to trigger automated account action)
+• Points accumulation thresholds for repeat infringements within defined time periods
+
+All thresholds and configurable settings are periodically evaluated and adjusted based on quality assurance findings, appeal outcomes, and evolving risk patterns."
+Qualitative description of indicators of accuracy and possible rate of error of automated means,"Depop monitors the performance of its automated moderation tools through a combination of regular review, human oversight, and outcome analysis. Automated signals are routinely assessed by specialist teams as part of manual review processes, helping to validate whether the tools are accurately identifying genuine policy risks. Feedback from these reviews is used to refine detection logic, keyword lists, and model behaviour over time.
+
+In certain clearly defined, high-confidence scenarios, automated systems may trigger enforcement actions without prior manual review. These scenarios are limited in scope and subject to ongoing monitoring to ensure they operate as intended. Outcomes, including appeal rates and reversal patterns, are reviewed to identify potential over- or under-enforcement and to support continuous improvement.
+
+As with all automated systems, there are inherent limitations. Tools may occasionally flag benign content that contains language associated with risk, or fail to identify content where harmful intent is subtle or emerging. To mitigate these risks, automated tools are primarily used to detect and prioritise potential violations, with human oversight and appeal mechanisms providing additional safeguards.
+
+This ongoing cycle of review, feedback, and adjustment is designed to maintain an appropriate level of accuracy while recognising and managing possible sources of error."
+Specification of the precise purposes to apply automated means,"Depop applies automated means within its moderation framework for clearly defined purposes. These include:
+
+a. Detection and prioritisation
+Automated systems are used to identify and surface content or accounts that may present elevated risk, enabling efficient review at scale.
+
+b. Enforcement in defined high-confidence scenarios
+In limited and clearly defined circumstances, automated rules may trigger enforcement actions, such as removal of content or restriction of user accounts, where predefined criteria are met. These scenarios are subject to monitoring and oversight.
+
+c. Escalation and risk-based workflows
+Automation is used to route certain cases into secondary investigation queues where additional review or specialist assessment is required.
+
+d. Cumulative policy enforcement
+Automated systems may support the application of enforcement where repeated policy violations are identified within a defined framework, ensuring consistent and proportionate handling of repeat infringements.
+
+e. Industry safety mechanisms
+Hash-matching technologies are used to detect known illegal content and prevent its dissemination.
+
+f. User communications
+Automation may be used to generate standardised communications to users regarding moderation actions taken.
+
+These purposes are designed to support scalable moderation while maintaining human oversight and appropriate safeguards."
+Safeguards applied to the use of automated means,"Depop applies multiple safeguards to ensure that automated moderation tools support platform safety without creating unfair or disproportionate outcomes. In the majority of cases automated systems are used to detect and prioritise potentially violative content, with enforcement decisions taken following human review. In a limited number of clearly defined scenarios, automated rules may trigger enforcement actions directly where predefined criteria are met. These scenarios are narrow in scope and subject to ongoing monitoring.
+
+Users are informed of enforcement actions and have the right to appeal moderation decisions. Appeals are reviewed by trained human moderators, providing an additional safeguard and independent reassessment. 
+
+Depop monitors key indicators across policy areas, including enforcement rates, appeal volumes, and appeal outcomes. These indicators help identify potential over/under enforcement and ensure alignment with policy intent. Where anomalous patterns are detected, they trigger further investigation, which may lead to workflow refinements, updated moderator guidance, or adjustments to automated rules and thresholds.
+Clear escalation pathways and review mechanisms are in place to ensure that issues are addressed promptly and proportionately, and that automated tools remain subject to continuous evaluation and improvement."
+High-level description of the content moderation governance structure,"Content moderation at Depop is owned and led by the Trust and Safety function, which holds overall responsibility for moderation strategy, operations, and outcomes. Trust and Safety oversees day-to-day moderation workflows and is accountable for the consistent and effective enforcement of Depop’s policies.
+
+Content policies are developed by a dedicated Policy team in collaboration with cross-functional stakeholders, including Trust and Safety, Customer Support, Seller Growth, Product, PR/Communications, Legal, and Brand teams. Final policy decisions are subject to senior leadership review and approval where appropriate.
+
+Policy development and moderation governance take into consideration regulatory and legal requirements, risk and harm mitigation, observability and consistency in enforcement, fairness and proportionality, and the protection of free expression.
+
+Trust and Safety works closely with Product, Engineering, and Data teams to design, operate, and improve moderation systems. Operational adjustments and workflow decisions are managed within Trust and Safety, while changes with broader impact are reviewed collaboratively with relevant stakeholders to ensure alignment with policy intent and regulatory expectations.
+
+Overall accountability for content moderation sits with Trust and Safety leadership, with executive oversight providing escalation pathways and strategic direction where required."
+Qualifications of the human resources dedicated to content moderation,"Depop’s content moderation activities are carried out by trained moderation professionals, including both internal teams and outsourced service providers operating under Depop’s direction and policies.
+
+Moderators are selected based on their ability to assess content accurately and apply platform policies consistently. The role requires strong analytical and critical thinking skills, attention to detail, and the ability to evaluate context when reviewing user-generated content and moderation decisions. Moderators must be able to interpret policy guidance, categorise issues correctly, and make proportionate decisions within defined frameworks.
+
+Strong written communication skills are essential, particularly in appeals and user-facing interactions, where moderators are required to provide clear, accurate, and empathetic explanations of decisions. Emotional intelligence and the ability to recognise and respond appropriately to user sentiment are important components of the role.
+
+Moderation professionals are also expected to be proficient in the use of internal tools and knowledge resources to investigate cases thoroughly, review prior enforcement actions, and ensure consistency with established policies. Language proficiency and cultural awareness support accurate interpretation of content across diverse user contexts.
+
+Collectively, these qualifications enable moderation teams to apply Depop’s policies fairly, consistently, and in alignment with regulatory expectations. In addition to frontline moderation teams, Depop’s internal Trust and Safety function includes specialist roles responsible for oversight, quality assurance, escalation handling, and strategic improvement of moderation systems. These roles typically have prior experience in trust and safety, content moderation, marketplace integrity, risk, or policy enforcement environments. Internal teams focus on policy interpretation, governance, complex or high-impact case review, quality monitoring, and the continuous improvement of moderation processes. This layered structure ensures operational consistency while maintaining strategic oversight and accountability.
+
+Ongoing training is delivered on a structured and recurring basis. Depop operates a “train-the-trainer” model, whereby internal Trust and Safety and CX specialists provide formal training sessions to designated trainers within outsourced moderation teams multiple times per quarter. These sessions cover policy updates, emerging risk trends, workflow adjustments, and quality findings. Local trainers then cascade training to frontline moderation personnel.
+In addition to scheduled sessions, targeted refresher training is provided whenever policies evolve, new risk areas emerge, or quality assurance monitoring identifies areas requiring reinforcement. This structured approach ensures BPO teams remain aligned with policy intent and enforcement standards over time."
+Training given to human resources dedicated to content moderation,"Moderation personnel receive structured onboarding before they are permitted to review live content. Initial training covers Depop’s content policies, enforcement standards, moderation tools, workflows, and escalation procedures. At the end of onboarding, moderators are required to complete an assessment and meet a defined competency threshold before independently moderating content. Where required standards are not met, additional training and refresher sessions are provided until competency is demonstrated.
+
+Ongoing training is delivered as policies evolve, new risk areas emerge, or moderation processes change. This includes refresher sessions, calibration exercises, and updates to guidance to support consistent application of policies. Quality assurance findings are also used to inform targeted retraining where needed.
+
+Depop conducts regular oversight of outsourced moderation operations, including structured “side-by-side” review sessions and site visits. These sessions provide opportunities to validate policy application, identify process improvements, and gather feedback from moderators on tooling and workflow effectiveness.
+
+In addition to frontline moderation teams, internal Trust and Safety personnel receive training relevant to their oversight and governance responsibilities. This includes onboarding on Depop’s policies, enforcement standards, workflows, and escalation mechanisms, as well as ongoing updates aligned with policy developments and emerging risks. Continuous learning and calibration processes support consistency and effective decision-making across the moderation function."
+Support given to human resources dedicated to content moderation,"Depop recognises that content moderation work can involve exposure to sensitive or harmful material and provides structured support to moderation personnel.
+
+Frontline moderation teams, including outsourced service providers operating under Depop’s policies, have access to wellbeing resources to support individuals and sustainable decision-making. These include structured physical and mental wellness programmes,  wellness programmes, access to support services, and dedicated wellbeing sessions away from live moderation activity. Scheduled breaks and workflow management controls are also in place to reduce fatigue and promote balanced workloads.
+
+Depop maintains regular oversight of moderation operations and works with service providers to ensure appropriate wellbeing standards are upheld.
+Internal Trust and Safety personnel are supported through wellbeing resources available across the organisation, including access to an Employee Assistance Programme and structured support sessions. Clear escalation pathways are in place to ensure that complex, sensitive, or high-impact cases can be raised to management and senior leadership for guidance. This ensures individuals are not required to manage difficult decisions in isolation and promotes responsible and proportionate outcomes."
+Methodology used to compute the number of human resources dedicated to content moderation,"The number of human resources dedicated to content moderation is calculated in full-time equivalent (FTE) units across the 2025 reporting period.
+The reported figure includes outsourced moderation staff dedicated to Depop’s moderation workflows and queues. Vendor headcount is captured based on the FTE capacity allocated to Depop during the reporting period. Resourcing levels are determined using a capacity-based workforce planning approach, which considers expected moderation volumes, task types, average handling times, and service level expectations. These inputs are used to ensure sufficient moderation capacity to operate workflows effectively and sustainably
+Workforce planning assumptions are reviewed periodically to reflect changes in platform activity, policy scope, automation performance, and emerging risks."

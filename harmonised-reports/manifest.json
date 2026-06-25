@@ -161,6 +161,29 @@
     }
   },
   {
+    "platform": "depop",
+    "source_file": "depop.xlsx",
+    "format": "xlsx",
+    "provider": "Depop",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 11,
+      "categories_names": 100,
+      "member_states_orders": 2467,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "duckduckgo",
     "source_file": "duckduckgo.xlsx",
     "format": "xlsx",
@@ -452,6 +475,29 @@
       "notices": 93,
       "own_initiative_illegal": 102,
       "own_initiative_TC": 103,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
+    "platform": "nexon",
+    "source_file": "nexon.xlsx",
+    "format": "xlsx",
+    "provider": "NEXON Korea Corporation",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 98,
+      "own_initiative_TC": 90,
       "appeals_and_recidivism": 47,
       "automated_means": 35,
       "human_resources": 6,
