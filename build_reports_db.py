@@ -33,6 +33,14 @@ SKIP_SECTIONS = {
 LINK_RE = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 CONF_RE = re.compile(r"^(verified|likely|uncertain)\b(.*)$", re.IGNORECASE)
 
+# Repo-relative archive links (added to REPORT_LOCATIONS.md by link_archives.py)
+# are exported as absolute GitHub URLs in the `archived` CSV column / DB field.
+GITHUB_TREE = "https://github.com/krMaynard/dsa-transparency-data/tree/main/"
+
+
+def archived_urls(row) -> str:
+    return "; ".join(GITHUB_TREE + rel.lstrip("/") for _, rel in row.get("archived", []))
+
 # Whether a report uses the EU harmonised machine-readable template
 # (Implementing Regulation (EU) 2024/2835, "Annex I" XLSX/CSV), which applies to
 # data collected from 1 Jul 2025 (first such reports due end of Feb 2026).
@@ -104,6 +112,7 @@ CREATE TABLE platform (
     confidence_note TEXT,
     harmonised_template TEXT NOT NULL DEFAULT 'unknown'
         CHECK (harmonised_template IN ('yes','no','partial','unknown')),
+    archived        TEXT,
     UNIQUE (name, category_id)
 );
 
@@ -162,8 +171,11 @@ def parse_markdown(md_text: str):
         # the file(s) we archived in this repo (added by link_archives.py).
         report_links, archived = [], []
         for lbl, url in LINK_RE.findall(url_cell):
-            (report_links if url.strip().lower().startswith(("http://", "https://"))
-             else archived).append((lbl.strip(), url.strip()))
+            lbl, url = lbl.strip(), url.strip()
+            if url.lower().startswith(("http://", "https://")):
+                report_links.append((lbl, url))
+            else:
+                archived.append((lbl, url))
         if not report_links:  # plain-text fallback (no markdown report link present)
             report_links = [("", url_cell)]
 
@@ -209,11 +221,12 @@ def build_db(rows):
             cur.execute(
                 """INSERT INTO platform
                    (name, company_id, category_id, format_period, confidence,
-                    confidence_note, harmonised_template)
-                   VALUES (?,?,?,?,?,?,?)""",
+                    confidence_note, harmonised_template, archived)
+                   VALUES (?,?,?,?,?,?,?,?)""",
                 (r["platform"], co_ids[r["company"]], cat_ids[r["category"]],
                  r["format_period"], r["confidence"], r["confidence_note"],
-                 harmonised_template(r["platform"], r["format_period"])),
+                 harmonised_template(r["platform"], r["format_period"]),
+                 archived_urls(r) or None),
             )
             pid = cur.lastrowid
             for label, url in r["links"]:
@@ -232,15 +245,10 @@ def build_db(rows):
         conn.close()
 
 
-# Repo-relative archive links (added to REPORT_LOCATIONS.md by link_archives.py)
-# are exported as absolute GitHub URLs in the CSV's `archived` column.
-GITHUB_TREE = "https://github.com/krMaynard/dsa-transparency-data/tree/main/"
-
-
 def write_csv(rows):
     flat = []
     for r in sorted(rows, key=lambda r: (r["platform"].lower(), r["category"].lower())):
-        archived = "; ".join(GITHUB_TREE + rel.lstrip("/") for _, rel in r.get("archived", []))
+        archived = archived_urls(r)
         for label, url in r["links"]:
             flat.append({
                 "platform": r["platform"],

@@ -54,12 +54,15 @@ def archive_links(platform: str) -> list[tuple[str, str]]:
 
 
 def main() -> None:
-    lines = open(MD, encoding="utf-8").read().split("\n")
+    with open(MD, encoding="utf-8") as f:
+        lines = f.read().split("\n")
     annotated = 0
     for i, line in enumerate(lines):
         if not line.startswith("|"):
             continue
-        cells = [c.strip() for c in line.split("|")][1:-1]
+        # Same robust split as build_reports_db.py — tolerate a missing trailing pipe.
+        raw = [c.strip() for c in line.split("|")]
+        cells = raw[1:-1] if raw and raw[-1] == "" else raw[1:]
         if len(cells) != 5 or cells[0].lower() == "platform" or set(cells[0]) <= {"-", ":"}:
             continue
         links = archive_links(cells[0])
@@ -70,7 +73,8 @@ def main() -> None:
         cells[2] += " · " + " · ".join(f"[{lbl}]({rel})" for lbl, rel in links)
         lines[i] = "| " + " | ".join(cells) + " |"
         annotated += 1
-    open(MD, "w", encoding="utf-8").write("\n".join(lines))
+    with open(MD, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
     print(f"annotated {annotated} catalogue rows with archive links")
 
 
