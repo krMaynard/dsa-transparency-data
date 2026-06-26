@@ -15,6 +15,7 @@ Re-run after adding files to raw/:  python3 extract.py
 from __future__ import annotations
 
 import csv
+import datetime
 import io
 import json
 import os
@@ -117,6 +118,13 @@ def _clean(v: object) -> str:
         return ""
     if isinstance(v, float) and v.is_integer():
         return str(int(v))
+    # Excel stores a "median time" duration as a serial; openpyxl (data_only)
+    # surfaces it as a datetime in 1900 (e.g. 1900-01-03 22:52:00). Render it as a
+    # real duration measured from the Excel epoch, not a bogus 1900 calendar date.
+    if isinstance(v, datetime.datetime) and v.year <= 1900:
+        return str(v - datetime.datetime(1899, 12, 30))
+    if isinstance(v, datetime.time):
+        return v.strftime("%H:%M:%S")
     return str(v).strip()
 
 
@@ -170,7 +178,14 @@ def read_zipcsv(path: str) -> list[tuple[str, list[list[str]]]]:
                     or base.startswith("._")):
                 continue
             with z.open(info) as f:
-                text = f.read().decode("utf-8-sig", errors="replace")
+                data = f.read()
+            # Most zips are UTF-8; some (e.g. Alibaba Cloud) are CP1252 — decode
+            # strict UTF-8 first, fall back to CP1252 so smart quotes/ellipses
+            # survive instead of becoming U+FFFD replacement chars.
+            try:
+                text = data.decode("utf-8-sig")
+            except UnicodeDecodeError:
+                text = data.decode("cp1252")
             # Parse via StringIO (not splitlines) so newlines *inside* quoted
             # fields — common in the qualitative section — don't split a row.
             rows = list(csv.reader(io.StringIO(text)))
