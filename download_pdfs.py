@@ -148,6 +148,13 @@ def main() -> None:
                     os.remove(dest)
                 except OSError:
                     pass
+            # don't leave an empty platform dir behind (link_archives would
+            # otherwise treat it as "archived" and emit a broken link)
+            try:
+                if not os.listdir(dest_dir):
+                    os.rmdir(dest_dir)
+            except OSError:
+                pass
             print(f"SKIP {slug:24} http={p.stdout or p.stderr.strip()}  {url[:60]}")
     print(f"\n{ok} archived, {bad} skipped (bot-walled / not a PDF)")
 
