@@ -1,0 +1,36 @@
+name: Notify API to re-vendor
+
+# When the catalogue / extracted reports change on main, poke the
+# transparency-report-api repo to re-vendor its snapshots immediately (instead
+# of waiting for that repo's nightly schedule). Requires a PAT secret
+# REVENDOR_DISPATCH_TOKEN with `contents:write` (or repo) scope on
+# transparency-report-api. If the secret is unset, the job self-skips, so the
+# nightly schedule remains the fallback and nothing breaks.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "dsa_reports.csv"
+      - "harmonised-reports/extracted/**"
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch data-updated to transparency-report-api
+        env:
+          TOKEN: ${{ secrets.REVENDOR_DISPATCH_TOKEN }}
+        run: |
+          if [ -z "$TOKEN" ]; then
+            echo "REVENDOR_DISPATCH_TOKEN not set — skipping instant trigger."
+            echo "(Set a PAT to enable it; the API repo's nightly schedule still runs.)"
+            exit 0
+          fi
+          code=$(curl -sS -o /dev/stderr -w "%{http_code}" -X POST \
+            -H "Authorization: Bearer $TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            https://api.github.com/repos/krMaynard/transparency-report-api/dispatches \
+            -d '{"event_type":"data-updated"}')
+          echo "dispatch HTTP $code"
+          [ "$code" = "204" ]
