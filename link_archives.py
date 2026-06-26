@@ -33,6 +33,8 @@ HARMONISED = {
     "Vinted": "vinted", "Vrbo": "vrbo", "Web.de": "webde", "Whatnot": "whatnot",
     "Wikipedia": "wikipedia", "Yahoo (+ AOL)": "yahoo", "Depop": "depop", "Nexon": "nexon",
     "Nintendo eShop": "nintendo", "Square Enix": "squareenix", "Alibaba Cloud": "alibabacloud",
+    # Format-variant workbooks mapped into the canonical sections via SHEET_MAP.
+    "Discord": "discord", "LINE": "line",
     # Miniclip ships one report per game in a single zip -> one extracted dir each.
     "Miniclip": ["miniclip-8-ball-pool", "miniclip-agar-io", "miniclip-baseball-clash",
                  "miniclip-mini-football", "miniclip-mini-tennis", "miniclip-paint-brawl",
@@ -69,8 +71,12 @@ def archive_links(platform: str) -> list[tuple[str, str]]:
 
 
 # Existing archive annotations, so a re-run reconciles (removes stale links whose
-# dir went away, adds new ones) rather than only appending.
-_ARCHIVE_RE = re.compile(r"(?: · \[archived[^\]]*\]\([^)]*\))+")
+# dir went away, adds new ones) rather than only appending. Match by the link
+# *target* (our repo-relative extracted/ or pdf-reports/ paths), not the label —
+# multi-file rows (e.g. Miniclip's per-game links) use the file name as the label,
+# so a label-based pattern would miss them and duplicate the links on re-run.
+_ARCHIVE_RE = re.compile(
+    r"(?: · \[[^\]]*\]\((?:harmonised-reports/extracted|pdf-reports)/[^)]*\))+")
 
 
 def main() -> None:

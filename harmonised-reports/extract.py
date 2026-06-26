@@ -79,6 +79,36 @@ SOURCES = {
     "alibabacloud": ("alibabacloud.zip", "zipcsv"),
     # One zip holding a full 11-section report per game -> one extracted dir each.
     "miniclip":    ("miniclip.zip", "zipmulti"),
+    # Format-variant reports: standard template *content*, but the sheet/file
+    # names don't carry the canonical section number (LINE) or carry a
+    # *renumbered* one (Discord). Mapped by name via SHEET_MAP (see below).
+    "line":        ("line.xlsx", "xlsx"),
+    "discord":     ("discord.zip", "zipcsv"),
+}
+
+# Sources whose sheet/file names can't be mapped by a parsed section number,
+# because they're unnumbered or renumbered. Map each sheet/file to a canonical
+# section (1..11) by a lower-cased name substring instead. List the most
+# specific keys first; the first match wins. Sections not listed stay empty.
+SHEET_MAP = {
+    # LINE (LY Corp) condenses the template into 5 named, unnumbered sheets.
+    # "own_initiative" carries the illegal-content category x restriction-type
+    # grid with no surface column -> section 5 (own-initiative, illegal content);
+    # "statements" is the free-text indicator/value table -> section 11.
+    "line": [
+        ("report_identification", 1), ("member_states_orders", 3),
+        ("notices", 4), ("own_initiative", 5), ("statements", 11),
+    ],
+    # Discord omits own-initiative-illegal (5), human resources (9) and AMAR (10),
+    # then renumbers what remains 5..8 — so its "5. Own Initiative TC" is really
+    # section 6, "6. Appeals" is 7, "7. Automated Means" is 8, "8. Qualitative" is
+    # 11. Map by name so the renumbering doesn't land rows in the wrong table.
+    "discord": [
+        ("report identification", 1), ("categories names", 2),
+        ("member states orders", 3), ("notices", 4),
+        ("own initiative tc", 6), ("appeals and recidivism", 7),
+        ("automated means", 8), ("qualitative", 11),
+    ],
 }
 
 import re as _re
@@ -112,6 +142,21 @@ def _to_canonical(named: list[tuple[str, list[list[str]]]]) -> list[list[list[st
     for i, (_, rows) in zip(idxs, named):
         if i and 1 <= i <= 11:
             slots[i - 1] = rows
+    return slots
+
+
+def _to_canonical_mapped(named: list[tuple[str, list[list[str]]]],
+                         mapping: list[tuple[str, int]]) -> list[list[list[str]]]:
+    """Map (sheet/file name, rows) pairs to the 11 canonical slots by matching a
+    lower-cased name substring against `mapping` (first match wins), for sources
+    whose names don't carry a usable canonical section number."""
+    slots: list[list[list[str]]] = [[] for _ in SECTIONS]
+    for name, rows in named:
+        low = name.lower()
+        for key, idx in mapping:
+            if key in low and 1 <= idx <= 11:
+                slots[idx - 1] = rows
+                break
     return slots
 
 
@@ -296,8 +341,10 @@ def _write_extracted(slug: str, fname: str, kind: str,
 
 
 def extract_one(slug: str, fname: str, kind: str) -> dict:
-    return _write_extracted(slug, fname, kind,
-                            _to_canonical(READERS[kind](os.path.join(RAW, fname))))
+    named = READERS[kind](os.path.join(RAW, fname))
+    canonical = (_to_canonical_mapped(named, SHEET_MAP[slug]) if slug in SHEET_MAP
+                 else _to_canonical(named))
+    return _write_extracted(slug, fname, kind, canonical)
 
 
 def main() -> None:

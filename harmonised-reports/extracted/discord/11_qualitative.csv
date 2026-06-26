@@ -1,0 +1,66 @@
+Applicability,Service,Reporting period,Indicator,Value 
+All,Discord,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"Discord publishes and maintains a comprehensive set of Community Guidelines that explain what content and behavior is and is not allowed on the platform. The Guidelines apply to all parts of the service, including content, behavior, servers, and apps. Our Policy Hub expands on these Guidelines, providing more information about our policies. 
+
+Discord is where people hang out before, during, and after playing games. For Discord’s DSA Transparency Report, we have combined our reported metrics across Discord. But Discord provides multiple ways for users to communicate, some of which constitute an Online Platform under DSA, and others which are a Hosting Service.
+
+We work hard to create an online environment that users want to be a part of and spend their time enjoying. To do that, we follow a three-tiered approach:
+
+   · User Controls: Discord’s product architecture provides each user with control over who they communicate with, what they see, what communities they join.
+   · Platform Moderation: Our community guidelines are enforced by Discord’s Trust & Safety team through a mix of proactive and reactive measures, supported by tooling and ML. For further discussion of those tools and methods, see 
+     Discord’s response to Question 3E below.
+   · Community Moderation: Server owners and community moderators, aided by moderation bots, define and enforce Community norms and behavior that go beyond the Discord Community Guidelines.
+
+This is also seen in our publicly available article about our Approach to Content Moderation. 
+
+All users have the ability to report behavior to Discord. User reports are processed by our Trust & Safety team for violative behavior so we can take enforcement actions where appropriate. When we see content that violates our policies, we take the appropriate action based on the severity of the violation. The result of our actions are conveyed to users through our Warning System and include: 
+
+   · Warning to the user that future violations may result in more severe consequences;
+   · Restricting user access to features (e.g., inability to send images on Discord after sending an image that violated a Discord policy);
+   · Content removal;
+   · Temporary suspension of user account;
+   · Permanent ban of user account.
+
+When a server is focused on or contains a lot of content that violates our policies, the owner of the server will receive a violation and the server may be removed or restricted. Just like user violations, the server owner will be provided a summary of the violation with more detail.
+
+Discord is also committed to working with industry partners and other organizations to support its safety efforts. Our Safety Reporting Network features a global partnership of trusted organizations who collaborate directly with Discord’s Safety team. Discord also contributes to and participates in industry-wide efforts such as the Lantern initiative, a first-of-its-kind signal sharing program for companies to enhance and strengthen how they detect attempts to sexually exploit and abuse children and teens online.
+"
+All,Discord,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"Discord employs a variety of proactive and reactive measures to moderate content and promote a safe environment. 
+
+Discord’s Trust & Safety team is trained to evaluate and act upon flagged and reported content to enforce our guidelines.
+
+Automated systems analyze user-generated content in certain circumstances and monitor for trends in user activity, either making initial assessments for violations of Discord's Community Guidelines, or flagging potential violations and unusual activity for further review by human moderators. Human moderators may perform secondary reviews to validate flagged content and address nuanced or context-specific cases.
+
+Discord also works hard to proactively identify harmful content and conduct so we can remove it and therefore expose fewer users to it. We work to prioritize the highest harm issues such as child safety or violent extremism. 
+
+We use a variety of techniques and technology to proactively identify harmful behavior, including:
+
+   · Image hashing and machine-learning powered technologies that help us identify known and unknown child sexual abuse material. We report child sexual abuse and other related content and perpetrators to the National Center for Missing & Exploited Children (NCMEC), which works with law enforcement to take appropriate action. 
+   · Machine learning models that use metadata and network patterns to identify bad actors or spaces with harmful content and activity.
+   · Human-led investigations based on flags from our detection tools or reports.
+
+We may use automated means to proactively identify harmful content on the platform and enforce our Terms of Service and Community Guidelines.
+As we continue to evolve our proactive efforts, our focus is on developing technologies to aid in the detection and removal of this harmful content as quickly as possible while respecting our users’ privacy. 
+
+For example, we have a dedicated team that has created and is now utilizing a new machine learning model that can detect previously unknown CSAM, and we have made this technology more widely available via open sourcing.  We will continue to innovate and collaborate with industry partners to address emerging challenges, and we collaborate closely with organizations like the National Center for Missing & Exploited Children (NCMEC) and Internet Watch Foundation. 
+
+Measures of Exposure
+
+Discord users often rely on the platform to talk and hang out with their friends while playing games. Users look to Discord’s subscription offering, Nitro, to enhance their experience with features like improved streaming quality or more ways to express themselves while messaging with friends. This communication often happens in real time such that Discord does not track the number of times a user may ""view"" a piece of content. Discord has developed methods to assess the effectiveness of its content moderation practices across its policies. These measures are robust, and assess the factors such as the responsiveness to user reports and the prevalence of harmful content on the platform. Discord has evolved its content moderation systems and practices as a result of DSA implementation.
+"
+All,Discord,2025-01-01/2025-12-31,Qualitative description of the automated means,Discord’s automated systems as described in 3E above.
+All,Discord,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Discord tracks the efficacy of its automated review tools, including the recall and precision of models, the outcomes, the number of false positives, the overall number of images detected by hash matching or novel-image models, and the proactivity rate. Discord uses this information to inform future improvements to its detection models and safety tools, review the efficacy of its interventions and existing tools, and gain insight into their current state of operation. 
+"
+All,Discord,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,Please refer to Discord's response to Question 3E above.
+All,Discord,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,"Please refer to Discord’s response to Question 3E for a summary of how Discord ensures the efficacy of its models and automated measures. 
+
+Discord's automated tools are designed to support the proactive and reactive identification of violations of Discord's policies. Depending on the type of content or method of detection, the decisions by Discord’s automated tools that result in user action may receive human review. 
+
+Discord continuously refines its models through regular updates to training data and comprehensive quality assurance reviews. This iterative process helps balance false positives (incorrectly flagged content) with false negatives (missed violations). By monitoring and adjusting these metrics, Discord works to maintain and improve accuracy in automated detection while minimizing incorrect content removals. Discord also updates its datasets on a cadence appropriate to their type and use case. In certain circumstances, Discord may conduct quality checks manually. Discord also performs A/B tests and ad-hoc retroactive studies to monitor decisions made based on its automated systems.
+
+
+"
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Support given to human resources dedicated to content moderation ,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Methodology used to compute the number of human resources dedicated to content moderation  ,Free text
