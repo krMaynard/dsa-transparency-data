@@ -260,6 +260,8 @@ def extract_multi(slug: str, fname: str) -> list[dict]:
         m = _re.match(r"(.+?)\s+\d{1,2}[._]", base)
         if m:
             products.setdefault(m.group(1).strip(), []).append((base, rows))
+    if not products:  # fail fast if the multi-product naming convention changed
+        raise ValueError(f"No '<product> N_section' reports found in {fname}")
     infos = []
     for product, named in sorted(products.items()):
         psl = f"{slug}-{_slugify(product)}"
