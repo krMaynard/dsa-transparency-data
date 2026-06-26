@@ -77,6 +77,8 @@ SOURCES = {
     "nintendo":    ("nintendo.xlsx", "xlsx"),
     "squareenix":  ("squareenix.xlsx", "xlsx"),
     "alibabacloud": ("alibabacloud.zip", "zipcsv"),
+    # One zip holding a full 11-section report per game -> one extracted dir each.
+    "miniclip":    ("miniclip.zip", "zipmulti"),
 }
 
 import re as _re
@@ -244,9 +246,30 @@ def _amar_total(rows: list[list[str]]) -> str:
     return ""
 
 
-def extract_one(slug: str, fname: str, kind: str) -> dict:
-    path = os.path.join(RAW, fname)
-    sheets = [_trim_cols(s) for s in _to_canonical(READERS[kind](path))]
+def _slugify(name: str) -> str:
+    return _re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
+
+
+def extract_multi(slug: str, fname: str) -> list[dict]:
+    """A single zip holding several products' reports (Miniclip ships one report
+    per game, each CSV named '<Game> N_section.csv'). Split by the product prefix
+    and emit one extracted dir + manifest entry per product."""
+    pairs = read_zipcsv(os.path.join(RAW, fname))  # [(basename, rows), ...]
+    products: dict[str, list[tuple[str, list[list[str]]]]] = {}
+    for base, rows in pairs:
+        m = _re.match(r"(.+?)\s+\d{1,2}[._]", base)
+        if m:
+            products.setdefault(m.group(1).strip(), []).append((base, rows))
+    infos = []
+    for product, named in sorted(products.items()):
+        psl = f"{slug}-{_slugify(product)}"
+        infos.append(_write_extracted(psl, fname, "zipmulti", _to_canonical(named)))
+    return infos
+
+
+def _write_extracted(slug: str, fname: str, kind: str,
+                     canonical: list[list[list[str]]]) -> dict:
+    sheets = [_trim_cols(s) for s in canonical]
     dest = os.path.join(OUT, slug)
     os.makedirs(dest, exist_ok=True)
     section_rows = {}
@@ -255,13 +278,11 @@ def extract_one(slug: str, fname: str, kind: str) -> dict:
         with open(os.path.join(dest, f"{i + 1:02d}_{name}.csv"), "w",
                   newline="", encoding="utf-8") as f:
             csv.writer(f).writerows(rows)
-        section_rows[name] = max(0, len(rows) - 1)  # minus header row
+        section_rows[name] = max(0, len(rows) - 1)
     ident = _ident(sheets[0]) if sheets and sheets[0] else {}
     amar = _amar_total(sheets[9]) if len(sheets) > 9 else ""
     return {
-        "platform": slug,
-        "source_file": fname,
-        "format": kind,
+        "platform": slug, "source_file": fname, "format": kind,
         "provider": ident.get("provider", ""),
         "period_start": ident.get("period_start", ""),
         "period_end": ident.get("period_end", ""),
@@ -272,6 +293,11 @@ def extract_one(slug: str, fname: str, kind: str) -> dict:
     }
 
 
+def extract_one(slug: str, fname: str, kind: str) -> dict:
+    return _write_extracted(slug, fname, kind,
+                            _to_canonical(READERS[kind](os.path.join(RAW, fname))))
+
+
 def main() -> None:
     os.makedirs(OUT, exist_ok=True)
     manifest = []
@@ -279,11 +305,12 @@ def main() -> None:
         if not os.path.exists(os.path.join(RAW, fname)):
             print(f"skip {slug}: {fname} not in raw/")
             continue
-        info = extract_one(slug, fname, kind)
-        manifest.append(info)
-        total = sum(info["data_rows_by_section"].values())
-        print(f"{slug:10} {kind:6} {info['sections_found']}/11 sections, "
-              f"{total} data rows")
+        infos = extract_multi(slug, fname) if kind == "zipmulti" else [extract_one(slug, fname, kind)]
+        manifest.extend(infos)
+        for info in infos:
+            total = sum(info["data_rows_by_section"].values())
+            print(f"{info['platform']:24} {kind:8} {info['sections_found']}/11 sections, "
+                  f"{total} data rows")
     with open(os.path.join(HERE, "manifest.json"), "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
     # Flat cross-platform summary of the headline identification fields.

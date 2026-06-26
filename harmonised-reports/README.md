@@ -33,13 +33,13 @@ table structure as the aggregated VLOP dataset (`t3`–`t11`).
 
 ## Status (54 template platforms — see `sources.csv`)
 
-- **38 platforms extracted** (39 report files — AboutYou ships two consecutive periods) — the 8 direct-file platforms, 19 found by crawling the
+- **39 platforms extracted** (47 report files — AboutYou ships two consecutive periods; Miniclip ships eight games) — the 8 direct-file platforms, 19 found by crawling the
   landing pages (`discover_hubs.py`), Carrefour + Dailymotion (provided
   directly), and 6 pulled from Zendesk help-center hubs via the article/attachments
   JSON API (`download_zendesk.py`): AboutYou, Alibaba Cloud, Bumble, Carrefour, Ceneo, Cloudflare,
   Dailymotion, Depop, DuckDuckGo, Expedia, Grindr, HomeToGo, Hostelworld, Hostinger,
   Hotels.com, IMDb, Konami, Lilo, LinkedIn, ManoMano, Match Group (Tinder),
-  Nexon, Niantic (Pokémon GO), Nintendo eShop, Pinterest, Qwant, Roblox, Shopify, Skroutz, Square Enix, Veepee,
+  Nexon, Miniclip (8 games), Niantic (Pokémon GO), Nintendo eShop, Pinterest, Qwant, Roblox, Shopify, Skroutz, Square Enix, Veepee,
   Vestiaire Collective, Vinted, Vrbo, Web.de, Whatnot, Wikipedia, Yahoo. For
   multi-brand providers (Match Group, Niantic, Yahoo, DuckDuckGo, Expedia family)
   we keep one representative/flagship file per catalogue platform. (Carrefour
