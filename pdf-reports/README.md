@@ -13,15 +13,22 @@ Refresh with [`../download_pdfs.py`](../download_pdfs.py), which pulls:
 Downloads that aren't a real PDF (a 403 bot-wall / HTML error page) are removed,
 not committed.
 
-## Archived (28 platforms, 37 PDFs)
+## Archived (53 platforms, 62 PDFs)
 
 Airbnb · AutoScout24 · AWS · Back Market · BlaBlaCar · Bumble · Deliveroo ·
-eToro (8 per-section PDFs) · Eventbrite · FinCompare · GitHub · Happn ·
-Hugging Face · Leboncoin · Lovoo · Marktplaats · OVHcloud · Squarespace ·
+eToro (8 per-section PDFs) · Eventbrite · Feeld · FinCompare · GitHub · Glovo ·
+Happn · Hugging Face · Kayak · Leboncoin · Lovoo · Marktplaats · Mercari ·
+**Microsoft** (16 per-service reports — 365 Copilot/Services, Advertising
+(+Xandr), Azure, Community, Designer, Edge, Feedback Portal, Forms, Learn,
+OneDrive, Outlook, Store, Teams/Skype, Whiteboard) + **Bing** · OnePlus ·
+OPPO · OVHcloud · PlayStation Network · Samsung Galaxy Store · Squarespace ·
 Start.gg / GroupMe · Trendyol (2024 + 2025) · Trivago · Trustpilot · Viator ·
 Wolt · Xbox · zooplus — plus the PDF companions for **Vestiaire Collective** and
 **Whatnot** (whose Annex I workbooks are extracted under
 [`../harmonised-reports/`](../harmonised-reports/)).
+
+The Microsoft per-service reports come from `go.microsoft.com/fwlink` redirects;
+the other hub-page PDFs were found by probing each un-archived landing page.
 
 ## Not archived (bot-walled)
 
