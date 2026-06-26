@@ -33,6 +33,10 @@ HARMONISED = {
     "Vinted": "vinted", "Vrbo": "vrbo", "Web.de": "webde", "Whatnot": "whatnot",
     "Wikipedia": "wikipedia", "Yahoo (+ AOL)": "yahoo", "Depop": "depop", "Nexon": "nexon",
     "Nintendo eShop": "nintendo", "Square Enix": "squareenix", "Alibaba Cloud": "alibabacloud",
+    # Miniclip ships one report per game in a single zip -> one extracted dir each.
+    "Miniclip": ["miniclip-8-ball-pool", "miniclip-agar-io", "miniclip-baseball-clash",
+                 "miniclip-mini-football", "miniclip-mini-tennis", "miniclip-paint-brawl",
+                 "miniclip-speed-stars", "miniclip-ultimate-golf"],
 }
 # PDF-archive slugs that aren't slugify(platform).
 PDF_SLUG_OVERRIDE = {"eToro (social/copy-trading)": "etoro"}
@@ -48,11 +52,16 @@ def _has_files(rel: str) -> bool:
 
 
 def archive_links(platform: str) -> list[tuple[str, str]]:
-    """(label, repo-relative path) for each *non-empty* archived artifact dir."""
+    """(label, repo-relative path) for each *non-empty* archived artifact dir.
+    A platform maps to one harmonised slug, or a list of them (Miniclip's games)."""
     out = []
     h = HARMONISED.get(platform)
-    if h and _has_files(f"harmonised-reports/extracted/{h}"):
-        out.append(("archived data", f"harmonised-reports/extracted/{h}"))
+    slugs = h if isinstance(h, list) else [h] if h else []
+    for s in slugs:
+        if _has_files(f"harmonised-reports/extracted/{s}"):
+            # label per-game when there are several (else just "archived data")
+            label = "archived data" if len(slugs) == 1 else s.split("-", 1)[-1].replace("-", " ")
+            out.append((label, f"harmonised-reports/extracted/{s}"))
     p = PDF_SLUG_OVERRIDE.get(platform) or slugify(platform)
     if _has_files(f"pdf-reports/{p}"):
         out.append(("archived PDF", f"pdf-reports/{p}"))
