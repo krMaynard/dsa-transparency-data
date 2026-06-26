@@ -207,6 +207,29 @@
     }
   },
   {
+    "platform": "discord",
+    "source_file": "discord.zip",
+    "format": "zipcsv",
+    "provider": "Discord",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 8,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 182,
+      "notices": 91,
+      "own_initiative_illegal": 0,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 20,
+      "human_resources": 0,
+      "AMAR": 0,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "duckduckgo",
     "source_file": "duckduckgo.xlsx",
     "format": "xlsx",
@@ -434,6 +457,29 @@
       "human_resources": 6,
       "AMAR": 4,
       "qualitative": 11
+    }
+  },
+  {
+    "platform": "line",
+    "source_file": "line.xlsx",
+    "format": "xlsx",
+    "provider": "LY Corporation",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 5,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 0,
+      "member_states_orders": 164,
+      "notices": 82,
+      "own_initiative_illegal": 89,
+      "own_initiative_TC": 0,
+      "appeals_and_recidivism": 0,
+      "automated_means": 0,
+      "human_resources": 0,
+      "AMAR": 0,
+      "qualitative": 12
     }
   },
   {

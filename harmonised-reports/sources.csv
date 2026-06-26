@@ -10,7 +10,7 @@ Ceneo,extracted,https://info.ceneo.pl/dsa
 Cloudflare,extracted,https://www.cloudflare.com/transparency/
 Dailymotion,extracted,https://legal.dailymotion.com/en/transparency/transparency-report-on-prohibited-content-policys-enforcement/
 Depop,extracted,https://depophelp.zendesk.com/hc/en-gb/articles/13057572688273-EU-Digital-Services-Act
-Discord,format-variant,https://discord.com/safety-transparency
+Discord,extracted,https://discord.com/safety-transparency
 DuckDuckGo,extracted,https://duckduckgo.com/duckduckgo-help-pages/r-legal/regulatory-reporting
 Epic Games Store,hub-pending,https://safety.epicgames.com/transparency-reports/european-union
 eToro (social/copy-trading),hub-pending,https://www.etoro.com/customer-service/regulation-license/dsa-transparency-report/
@@ -32,7 +32,7 @@ Jeuxvideo.com,hub-pending,https://www.jeuxvideo.com/transparence.htm
 "Just Eat Takeaway (Lieferando, Thuisbezorgd)",hub-pending,https://www.justeattakeaway.com/governance/governance-documents/
 Konami,extracted,https://legal.konami.com/kde/eudsa/
 Lilo,extracted,https://lilo.org/rapport-transparence
-LINE,format-variant,https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/
+LINE,extracted,https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/
 LinkedIn,extracted,https://content.linkedin.com/content/dam/help/tns/en/report/LinkedIn-February-2026-Digital-Services-Act-Transparency-Report.zip
 ManoMano,extracted,https://cdn.manomano.com/legal/reports/DSA_Transparency_Report_2025.xlsx
 "Match Group (Tinder, Hinge, OkCupid, Meetic, …)",extracted,https://www.matchgroup-safety.com/resources

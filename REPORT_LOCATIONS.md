@@ -57,9 +57,9 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Discord | Discord Netherlands B.V. | [Hub](https://discord.com/safety-transparency) | ZIP (machine-readable template); 2024 & 2025 | verified |
+| Discord | Discord Netherlands B.V. | [Hub](https://discord.com/safety-transparency) · [archived data](harmonised-reports/extracted/discord) | ZIP (machine-readable template); 2024 & 2025 | verified |
 | Messenger / Instagram Direct | Meta Platforms Ireland | [Meta non-VLOP reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | In Meta's non-VLOP DSA report; periodic | likely |
-| LINE | LY Corporation | [Report](https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/) | Excel (Art. 15); CY2025 | verified |
+| LINE | LY Corporation | [Report](https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/) · [archived data](harmonised-reports/extracted/line) | Excel (Art. 15); CY2025 | verified |
 | WeChat | Tencent International Service Europe B.V. | [2026 report](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2026) ([prior](https://safety.wechat.com/en_US/enforcement/transparency/wechat-dsa-transparency-report-2025)) | HTML (Art. 15); 2024 & 2025 | verified |
 | IMDb | IMDb.com, Inc. (Amazon) | [DSA info](https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86) · [archived data](harmonised-reports/extracted/imdb) | XLSX/CSV; 2024, H1 & H2 2025 | verified |
 | Microsoft Teams / Skype | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304741) · [archived PDF](pdf-reports/microsoft-teams-skype) | PDF (Communications); Feb – Dec 2024 | verified |
