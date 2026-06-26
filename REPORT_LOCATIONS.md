@@ -193,7 +193,7 @@ The best starting points for finding more report locations:
 |----------|-------------------|------------|-----------------|------------|
 | Roblox | Roblox Corporation | [Transparency](https://about.roblox.com/transparency) ([2025 PDF](https://about.roblox.com/pdf/eu-dsa-transparency-report-2025)) · [archived data](harmonised-reports/extracted/roblox) | PDF + XLSX/CSV; 2024 & 2025 | verified |
 | Ubisoft Connect | Ubisoft Entertainment SA | [Report](https://www.ubisoft.com/legal/documents/transparencyreport/en-US) | PDF; CY2024 | verified |
-| Nintendo eShop | Nintendo Co., Ltd. | [DSA page](https://www.nintendo.com/en-gb/Legal-information/Digital-Services-Act-2522334.html) | PDF; Feb 2025 | verified |
+| Nintendo eShop | Nintendo Co., Ltd. | [DSA page](https://www.nintendo.com/en-gb/Legal-information/Digital-Services-Act-2522334.html) · [archived data](harmonised-reports/extracted/nintendo) | XLSX (harmonised template); Feb 2026 | verified |
 | Samsung Galaxy Store | Samsung Electronics | [Regulatory info](https://www.samsung.com/uk/support/regulatory-information/) | PDF; Aug 2025 – Jan 2026 | verified |
 | Epic Games Store | Epic Games, Inc. | [Report](https://safety.epicgames.com/transparency-reports/european-union) | XLSX + hub; Feb 2024 – Feb 2025 | likely |
 | Twitch | Twitch Interactive (Amazon) | [Report](https://safety.twitch.tv/s/article/Twitch-DSA-Transparency-Report-February-2025) | HTML; Feb 2025 | likely |
@@ -205,7 +205,7 @@ The best starting points for finding more report locations:
 | Chess.com | Chess.com, LLC | [DSA compliance](https://www.chess.com/article/view/digital-services-act-compliance) | HTML; Art. 24(2) MAU only | uncertain |
 | PlayStation Network | Sony Interactive Entertainment Network Europe | [DSA info](https://www.playstation.com/en-gb/legal/digital-service-act-information/) | ZIP; 2024 & 2025 | verified |
 | Riot Games | Riot Games Ltd. | [DSA report](https://support-leagueoflegends.riotgames.com/hc/en-us/articles/25972785684627) | XLSX; 2024 & 2025 | verified |
-| Square Enix | Square Enix Ltd. | [Online safety](https://www.square-enix-games.com/en_GB/documents/online-safety) | PDF (Art. 15); Feb 2025 | verified |
+| Square Enix | Square Enix Ltd. | [Online safety](https://www.square-enix-games.com/en_GB/documents/online-safety) · [archived data](harmonised-reports/extracted/squareenix) | XLSX (harmonised template); 2025 | verified |
 | Konami | Konami Digital Entertainment | [EU DSA hub](https://legal.konami.com/kde/eudsa/) · [archived data](harmonised-reports/extracted/konami) | XLSX/PDF; 2024 & 2025 | verified |
 | Nexon | Nexon | [DSA page](https://playersupport.nexon.com/hc/en-us/articles/46401329736084-Digital-Services-Act) · [archived data](harmonised-reports/extracted/nexon) | XLSX (harmonised template); 2025 | verified |
 | Level Infinite (PUBG Mobile, Honor of Kings, Arena Breakout, …) | Proxima Beta Europe B.V. (Tencent) | [Arena Breakout report](https://eulaforgames.com/rule/202502110002/ALL) ([PUBG](https://support.pubg.com/hc/en-us/articles/28819731069721-EU-Digital-Services-Act-information)) | In-page Art. 15 per game; 2024 | verified |
@@ -251,7 +251,7 @@ The best starting points for finding more report locations:
 | Akamai | Akamai Technologies, Inc. | [DSA hub](https://www.akamai.com/legal/eu-digital-services-act) | PDF/XLSX; 2024, H1 & H2 2025 | verified |
 | Vercel | Vercel Inc. | [Transparency](https://vercel.com/legal/transparency) | Web; 17 Feb – 15 Dec 2024 | verified |
 | Gandi | Gandi SAS | [Report](https://www.gandi.net/en-US/digital-service-act-transparency-report) | Web + PDF; 2024 & 2025 | verified |
-| Alibaba Cloud | Alibaba Cloud (Alibaba.com Singapore) | [DSA compliance](https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information) | PDF; 17 Feb 2024 – 16 Feb 2025 (cloud service, not the Alibaba.com marketplace) | verified |
+| Alibaba Cloud | Alibaba Cloud (Alibaba.com Singapore) | [DSA compliance](https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information) · [archived data](harmonised-reports/extracted/alibabacloud) | ZIP (harmonised template) + PDF; 2026 (cloud service, not the Alibaba.com marketplace) | verified |
 | AWS | Amazon Web Services | [PDF](https://d1.awsstatic.com/legal/trust-and-safety-center/aws-eu-dsa-transparency-report.pdf) · [archived PDF](pdf-reports/aws) | PDF (Art. 15); covers AWS services | verified |
 | Tencent Cloud | Tencent Cloud International | [DSA page](https://www.tencentcloud.com/document/product/301/59018) | HTML + PDF; 2024 & 2025 | verified |
 | iCloud Storage | Apple Distribution International | [Report](https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/) | HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template | verified |
