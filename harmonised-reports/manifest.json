@@ -46,6 +46,29 @@
     }
   },
   {
+    "platform": "alibabacloud",
+    "source_file": "alibabacloud.zip",
+    "format": "zipcsv",
+    "provider": "Alibaba (Netherlands) B.V.",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "bumble",
     "source_file": "bumble.xlsx",
     "format": "xlsx",
@@ -529,6 +552,29 @@
     }
   },
   {
+    "platform": "nintendo",
+    "source_file": "nintendo.xlsx",
+    "format": "xlsx",
+    "provider": "Nintendo",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 95,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "pinterest",
     "source_file": "pinterest.zip",
     "format": "zipcsv",
@@ -641,6 +687,29 @@
       "human_resources": 0,
       "AMAR": 0,
       "qualitative": 11
+    }
+  },
+  {
+    "platform": "squareenix",
+    "source_file": "squareenix.xlsx",
+    "format": "xlsx",
+    "provider": "Square Enix Limited (\"Square Enix\")",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 18,
+      "notices": 576,
+      "own_initiative_illegal": 19,
+      "own_initiative_TC": 26,
+      "appeals_and_recidivism": 1,
+      "automated_means": 12,
+      "human_resources": 9,
+      "AMAR": 6,
+      "qualitative": 6
     }
   },
   {

@@ -73,6 +73,9 @@ SOURCES = {
     "whatnot":     ("whatnot.xlsx", "xlsx"),
     "depop":       ("depop.xlsx", "xlsx"),
     "nexon":       ("nexon.xlsx", "xlsx"),
+    "nintendo":    ("nintendo.xlsx", "xlsx"),
+    "squareenix":  ("squareenix.xlsx", "xlsx"),
+    "alibabacloud": ("alibabacloud.zip", "zipcsv"),
 }
 
 import re as _re

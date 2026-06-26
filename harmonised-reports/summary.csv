@@ -1,6 +1,7 @@
 platform,provider,period_start,period_end,amar_eu_total,sections_found,total_data_rows
 aboutyou,ABOUT YOU SE & Co. KG,2024-12-04,2025-12-03,,11,668
 aboutyou2,ABOUT YOU SE & Co. KG,2025-12-04,2025-12-31,,11,668
+alibabacloud,Alibaba (Netherlands) B.V.,2025-01-01,2025-12-31,,11,668
 bumble,Bumble Inc,2025-01-01,2025-12-31,,8,448
 carrefour,Carrefour Drive,2025-01-01,2025-12-31,,11,668
 ceneo,Ceneo.pl Sp. z o.o.,2025-01-01,2025-12-31,,11,676
@@ -22,11 +23,13 @@ manomano,Colibri SAS (ManoMano),2025-01-01,2025-12-31,,11,669
 matchgroup,Tinder,2025-01-01,2025-12-31,,11,763
 nexon,NEXON Korea Corporation,2025-01-01,2025-12-31,,11,668
 niantic,"Niantic, Inc.",2025-01-01,2025-12-31,,11,668
+nintendo,Nintendo,2025-01-01,2025-12-31,,11,672
 pinterest,Pinterest,2025-07-01,2025-12-31,84626800,11,654
 qwant,,2025-01-01,2025-12-31,,11,671
 roblox,Roblox Corporation,2025-01-01,2025-12-31,,11,616
 shopify,Shopify International Ltd.,2025-01-01,2025-12-31,,11,646
 skroutz,ΣΚΡΟΥΤΖ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΥΠΗΡΕΣΙΕΣ ΔΙΑΔΙΚΤΥΟΥ,2025-02-17,2025-12-31,,9,658
+squareenix,"Square Enix Limited (""Square Enix"")",2025-01-01,2025-12-31,,11,778
 veepee,Vente-privee.com,2025-01-01,2025-12-31,,11,2009
 vestiaire,Vestiaire Collective,17/02/2025,31/12/2025,,11,943
 vinted,Vinted,2025-01-01,2025-12-31,,11,669

@@ -36,6 +36,9 @@ TARGETS = {
     "skroutz":     "https://www.skroutz.gr/dsa-ekthesi-diafanias-periodos-anaforas-2025.xlsx",
     "wordpress":   "https://transparency.automattic.com/wp-content/uploads/2014/01/49ae2-wordpress.com-transparency-report-csv-files-jul-dec-2025.zip",
     "yahoo":       "https://s.yimg.com/cv/apiv2/default/20250828/DSA_Transparency_Report_Search_17_February_2025-31_December_2025.zip",
+    "nintendo":    "https://www.nintendo.com/eu/media/downloads/legal_1/DSA_Transparency_Report_as_at_27th_February_2026_27022026.xlsx",
+    "squareenix":  "https://static.square-enix-games.com/DSA_Transparency_Report_2025.xlsx",
+    "alibabacloud": "https://help-static-aliyun-doc.aliyuncs.com/file-manage-files/en-US/20260228/givrzs/EU+DSA+Transparency+Report+%282026%29_AlibabaCloud.zip",
 }
 
 

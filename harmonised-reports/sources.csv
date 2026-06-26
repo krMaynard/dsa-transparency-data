@@ -1,6 +1,7 @@
 platform,status,source_url
 AboutYou,extracted,https://www.aboutyou.de/impressum
 Akamai,hub-pending,https://www.akamai.com/legal/eu-digital-services-act
+Alibaba Cloud,extracted,https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information
 Apple Books,hub-pending,https://www.apple.com/legal/dsa/transparency/eu/books/2502/
 Apple Podcasts,hub-pending,https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
 "Bumble (Badoo, Fruitz)",extracted,https://support.bumble.com/hc/en-us/articles/28718583113757-Digital-Services-Act-Transparency-report
@@ -37,6 +38,7 @@ ManoMano,extracted,https://cdn.manomano.com/legal/reports/DSA_Transparency_Repor
 "Match Group (Tinder, Hinge, OkCupid, Meetic, …)",extracted,https://www.matchgroup-safety.com/resources
 Nexon,extracted,https://playersupport.nexon.com/hc/en-us/articles/46401329736084-Digital-Services-Act
 "Niantic (Pokémon GO, …)",extracted,https://nianticlabs.com/dsa-transparency
+Nintendo eShop,extracted,https://www.nintendo.com/en-gb/Legal-information/Digital-Services-Act-2522334.html
 OVHcloud,hub-pending,https://corporate.ovhcloud.com/sites/default/files/2025-04/rapport_de_transparence_dsa_ovhcloud_2025.pdf
 Pinterest,extracted,https://cdn.sanity.io/files/26f0hyrt/pinpolicy_prod/2c552b2ce80a75c1f9e9741e83da8bdbb5028579.zip
 Qwant,extracted,https://about.qwant.com/legal/rapport-de-transparence-qwant-2025/
@@ -44,6 +46,7 @@ Riot Games,hub-pending,https://support-leagueoflegends.riotgames.com/hc/en-us/ar
 Roblox,extracted,https://about.roblox.com/transparency
 Shopify,extracted,https://www.shopify.com/legal/p2b/legal-notices
 Skroutz,extracted,https://www.skroutz.gr/digital-services-act
+Square Enix,extracted,https://www.square-enix-games.com/en_GB/documents/online-safety
 Upwork,hub-pending,https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours
 Veepee (vente-privee),extracted,https://aide.veepee.fr/article/1630-informations-reglementaires
 Vestiaire Collective,extracted,https://faq.vestiairecollective.com/hc/en-us/articles/34009544661393-EU-Digital-Services-Act
