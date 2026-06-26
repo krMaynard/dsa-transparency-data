@@ -42,16 +42,26 @@ def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
+def _has_files(rel: str) -> bool:
+    d = os.path.join(HERE, rel)
+    return os.path.isdir(d) and any(not n.startswith(".") for n in os.listdir(d))
+
+
 def archive_links(platform: str) -> list[tuple[str, str]]:
-    """(label, repo-relative path) for each archived artifact of this platform."""
+    """(label, repo-relative path) for each *non-empty* archived artifact dir."""
     out = []
     h = HARMONISED.get(platform)
-    if h and os.path.isdir(os.path.join(HERE, "harmonised-reports", "extracted", h)):
+    if h and _has_files(f"harmonised-reports/extracted/{h}"):
         out.append(("archived data", f"harmonised-reports/extracted/{h}"))
     p = PDF_SLUG_OVERRIDE.get(platform) or slugify(platform)
-    if os.path.isdir(os.path.join(HERE, "pdf-reports", p)):
+    if _has_files(f"pdf-reports/{p}"):
         out.append(("archived PDF", f"pdf-reports/{p}"))
     return out
+
+
+# Existing archive annotations, so a re-run reconciles (removes stale links whose
+# dir went away, adds new ones) rather than only appending.
+_ARCHIVE_RE = re.compile(r"(?: · \[archived[^\]]*\]\([^)]*\))+")
 
 
 def main() -> None:
@@ -66,17 +76,16 @@ def main() -> None:
         cells = raw[1:-1] if raw and raw[-1] == "" else raw[1:]
         if len(cells) != 5 or cells[0].lower() == "platform" or set(cells[0]) <= {"-", ":"}:
             continue
+        base = _ARCHIVE_RE.sub("", cells[2]).rstrip()   # strip any prior annotation
         links = archive_links(cells[0])
-        if not links:
-            continue
-        if "harmonised-reports/extracted/" in cells[2] or "pdf-reports/" in cells[2]:
-            continue  # already annotated
-        cells[2] += " · " + " · ".join(f"[{lbl}]({rel})" for lbl, rel in links)
-        lines[i] = "| " + " | ".join(cells) + " |"
-        annotated += 1
+        new = base + ("" if not links else " · " + " · ".join(f"[{lbl}]({rel})" for lbl, rel in links))
+        if new != cells[2]:
+            cells[2] = new
+            lines[i] = "| " + " | ".join(cells) + " |"
+            annotated += 1
     with open(MD, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
-    print(f"annotated {annotated} catalogue rows with archive links")
+    print(f"reconciled {annotated} catalogue rows' archive links")
 
 
 if __name__ == "__main__":

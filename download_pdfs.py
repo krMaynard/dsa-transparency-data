@@ -47,6 +47,36 @@ EXTRA = {
                  "https://help.whatnot.com/hc/article_attachments/43810812885773"),
                 ("Whatnot_DSA-Report_2025.pdf",
                  "https://help.whatnot.com/hc/article_attachments/35856106968717")],
+    # Hub-page PDFs found by probing the un-archived landing pages (slug =
+    # slugify(catalogue platform) so the catalogue's archive link resolves).
+    # Microsoft publishes one PDF per service behind a go.microsoft.com/fwlink.
+    **{f"microsoft-{s}": [(f"microsoft-{s}.pdf", f"https://go.microsoft.com/fwlink/?linkid={lid}")]
+       for s, lid in (
+           ("365-copilot", 2305802), ("365-services", 2305701),
+           ("advertising", 2305803), ("advertising-xandr", 2305804),
+           ("azure", 2304935), ("community", 2305901), ("designer", 2304936),
+           ("edge", 2304742), ("feedback-portal", 2304743), ("forms", 2305902),
+           ("learn", 2305903), ("onedrive", 2305905), ("outlook", 2305703),
+           ("store", 2305704), ("teams-skype", 2304741), ("whiteboard", 2305705),
+       )},
+    "bing-vlose": [("Microsoft-Bing-EU-DSA-Report-2025-August.pdf",
+                    "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2025-August-Microsoft-Bing-EU-DSA-Report.pdf")],
+    "mercari": [("Mercari_2025_2H_Transparency_Report.pdf",
+                 "https://pj.mercari.com/transparency-report/2025_2H_TransparencyReport_EN.pdf")],
+    "kayak": [("Kayak-DSA-Transparency-Report-2026.pdf",
+               "https://content.r9cdn.net/wp-content/uploads/sites/192/2026/03/082e16ce8ae2912194ad215ac7f53568.pdf")],
+    "glovo": [("Glovo-2025-DSA-Statement.pdf",
+               "https://glovo-about.cdn.prismic.io/glovo-about/aJyA0KTt2nPbaRUx_2025_DSAStatementforpublication_glovo.docx.pdf")],
+    "feeld": [("Feeld-DSA-Transparency-Report-H1-2025.pdf",
+               "https://feeld-files.s3.eu-west-2.amazonaws.com/251024+FeTransparency+Report+DSA+H1+2025.pdf")],
+    "samsung-galaxy-store": [("Samsung-DSA-Annual-Transparency-Report-Feb-2026.pdf",
+                              "https://images.samsung.com/is/content/samsung/assets/regulatory-information/DSA-Annual-Transparency-Report-February-2026.pdf")],
+    "oneplus-community": [("OnePlus_DSA_Annual_Transparency_Report_2024.pdf",
+                           "https://www.oneplus.com/content/dam/oneplus/2025/global/onlinesafety/OnePlus_DSA_Annual_Transparency_Report_2024_1.pdf")],
+    "oppo-community-theme-store": [("OPPO_DSA_Annual_Transparency_Report_2024.pdf",
+                                    "https://www.oppo.com/content/dam/oppo_com/en/mkt/data-act/OPPO_DSA_Annual_Transparency_Report_2024.pdf")],
+    "playstation-network": [("SIE_Online_Safety_Report_2024.pdf",
+                             "https://sonyinteractive.com/uploads/2025/02/SIE_Online_Safety_Report_2024.pdf")],
 }
 
 
@@ -118,6 +148,13 @@ def main() -> None:
                     os.remove(dest)
                 except OSError:
                     pass
+            # don't leave an empty platform dir behind (link_archives would
+            # otherwise treat it as "archived" and emit a broken link)
+            try:
+                if not os.listdir(dest_dir):
+                    os.rmdir(dest_dir)
+            except OSError:
+                pass
             print(f"SKIP {slug:24} http={p.stdout or p.stderr.strip()}  {url[:60]}")
     print(f"\n{ok} archived, {bad} skipped (bot-walled / not a PDF)")
 
