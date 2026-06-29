@@ -66,6 +66,22 @@ CSV bundles contain the standard 11 tables:
 | 10 | Average Monthly Active Recipients (AMAR) |
 | 11 | Qualitative description |
 
+## CI
+
+GitHub Actions (`.github/workflows/ci.yml`) runs on every pull request and push
+to `main` (Python 3.11 & 3.12):
+
+- **`pyflakes`** over every tracked `.py`.
+- **Reproducibility** — re-derives every committed artifact from its sources
+  (`harmonised-reports/extract.py` from `raw/`, then `link_archives.py`, then
+  `build_reports_db.py`) and fails if anything drifts. So the extracted CSVs,
+  `manifest.json`/`summary.csv`, the archive links in `REPORT_LOCATIONS.md`, and
+  `dsa_reports.csv`/`.db` always match the scripts that produce them. If CI flags
+  drift, run those three scripts locally and commit the regenerated files.
+
+The network-dependent download/scrape scripts (`download_*.py`,
+`discover_hubs.py`) aren't exercised in CI.
+
 ## convert.py
 
 `convert.py` flattens tables 3–11 from all 33 services into a single compact JSON file used by a separate dashboard project. It writes to `../krMaynard.github.io/data/vlop-dsa.json` by default — adjust `OUT_FILE` in the script if you want it elsewhere.
