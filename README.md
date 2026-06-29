@@ -77,7 +77,12 @@ to `main` (Python 3.11 & 3.12):
   `build_reports_db.py`) and fails if anything drifts. So the extracted CSVs,
   `manifest.json`/`summary.csv`, the archive links in `REPORT_LOCATIONS.md`, and
   `dsa_reports.csv`/`.db` always match the scripts that produce them. If CI flags
-  drift, run those three scripts locally and commit the regenerated files.
+  drift, re-run those three scripts in order locally and commit the regenerated
+  files:
+
+  ```
+  python3 harmonised-reports/extract.py && python3 link_archives.py && python3 build_reports_db.py
+  ```
 
 The network-dependent download/scrape scripts (`download_*.py`,
 `discover_hubs.py`) aren't exercised in CI.
