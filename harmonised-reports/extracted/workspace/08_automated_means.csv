@@ -1,42 +1,182 @@
-Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,14126211,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,599503,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,14120080,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,580342,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,1,CSAM Hash Matching
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9999,Workspace File Access Classifier
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9895,Workspace Product Access Classifier
-All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,
-"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,1414,
-"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,2510,
-"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,0.7543,Copyright Automation
-"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,0.8156,Copyright Automation
-"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,0.8789,Copyright Automation
-Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,
-Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,,
-Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
-Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
-Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...],,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information,Surface
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,14126211,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,599503,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below.",Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below.",Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below.",Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,14120080,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,580342,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,1,CSAM Hash Matching,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9999,Workspace File Access Classifier,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9895,Workspace Product Access Classifier,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,,Core
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,1414,,Core
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,2510,,Core
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,0.7543,Copyright Automation,Core
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,0.8156,Copyright Automation,Core
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,0.8789,Copyright Automation,Core
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,,Core
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,,,Core
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,,Core
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,,Core
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...],,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,,Core
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,,Core
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,655976,,Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,1951669,,Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below.",Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below.",Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below.",Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,655976,,Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,1951669,,Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.926,Google Ads Safety Automated Classification System,Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.8876,Google Ads Safety Automated Classification System,Ads
+All,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.9984,Google Ads Safety Automated Classification System,Ads
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,,,Ads
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,,,Ads
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,,Ads
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,,Ads
+"Only for providers of hosting services, including online platforms",Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,,Ads
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,,Ads
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,,,Ads
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,,Ads
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,,Ads
+Only for providers of online platforms,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,cs,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,da,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,nl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,en,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,et,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fi,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,de,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,el,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hu,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ga,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,it,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,mt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ro,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sk,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,es,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,cs,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,da,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,nl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,en,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,et,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fi,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,de,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,el,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hu,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ga,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,it,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,mt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ro,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sk,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,es,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,,,Ads
+Only for VLOPs,Workspace,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,,,Ads

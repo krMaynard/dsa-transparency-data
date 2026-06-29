@@ -153,6 +153,15 @@ extractor + extracted/ + raw/ + catalogue + this skill; API repo: `SLUG_META`
 - **Row counts shrink between extract and seed.** The seeder drops aggregate
   "total" rows / mis-parsed junk and flags `is_total` (e.g. Gemini t8 35→30,
   t11 181→17). Fewer fact rows than CSV rows is correct, not data loss.
+- **`_Ads` sibling files are an ads-surface breakdown, not a duplicate.** A few
+  Google zips (Hotels, Workspace) ship `NN_<section>_Ads.csv` alongside the base
+  `NN_<section>.csv` for sections 6–8. Both label their `Applicability` column
+  `All`, but in Google's own VLOP reporting these are the additive, non-overlapping
+  **Core** and **Ads** surfaces (there is no aggregate `All` surface). `extract.py`
+  (`_merge_ads_surfaces`) folds the `_Ads` rows into the base section with a
+  trailing `Surface` column (`Core` for the base, `Ads` for the `_Ads` rows); the
+  API seeder reads that last cell. Don't "fix" the apparent section-number
+  collision by dropping the `_Ads` file — that silently discards the ads figures.
 - **A genuinely new platform type is fine.** Gemini had no matching catalogue
   category, so a new `## AI assistants & generative AI` section was added — the
   catalogue + API facet categories dynamically, so nothing else needs editing.
