@@ -35,6 +35,7 @@ HARMONISED = {
     "Nintendo eShop": "nintendo", "Square Enix": "squareenix", "Alibaba Cloud": "alibabacloud",
     # Format-variant workbooks mapped into the canonical sections via SHEET_MAP.
     "Discord": "discord", "LINE": "line",
+    "Gemini": "gemini", "NotebookLM": "notebooklm",
     # Miniclip ships one report per game in a single zip -> one extracted dir each.
     "Miniclip": ["miniclip-8-ball-pool", "miniclip-agar-io", "miniclip-baseball-clash",
                  "miniclip-mini-football", "miniclip-mini-tennis", "miniclip-paint-brawl",

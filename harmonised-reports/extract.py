@@ -84,6 +84,8 @@ SOURCES = {
     # *renumbered* one (Discord). Mapped by name via SHEET_MAP (see below).
     "line":        ("line.xlsx", "xlsx"),
     "discord":     ("discord.zip", "zipcsv"),
+    "gemini":      ("gemini.zip", "zipcsv"),
+    "notebooklm":  ("notebooklm.zip", "zipcsv"),
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,

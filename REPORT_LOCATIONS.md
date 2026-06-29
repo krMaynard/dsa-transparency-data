@@ -272,6 +272,13 @@ The best starting points for finding more report locations:
 | Qwant | Qwant (France) | [Report](https://about.qwant.com/legal/rapport-de-transparence-qwant-2025/) · [archived data](harmonised-reports/extracted/qwant) | HTML + Excel + PDF; CY2025 | verified |
 | Lilo | Lilo SAS (now Qwant) | [Report](https://lilo.org/rapport-transparence) · [archived data](harmonised-reports/extracted/lilo) | HTML + Excel; Sep – Dec 2025 | verified |
 
+## AI assistants & generative AI
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| Gemini | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/gemini) | ZIP (harmonised template); H2 2025 | verified |
+| NotebookLM | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/notebooklm) | ZIP (harmonised template); H2 2025 | verified |
+
 ## Browsers, email & portals
 
 | Platform | Operating company | Report URL | Format / period | Confidence |

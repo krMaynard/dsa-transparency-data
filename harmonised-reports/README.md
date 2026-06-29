@@ -54,13 +54,13 @@ left as `format-variant` and archived rather than mapped, since forcing them int
 
 ## Status (54 template platforms — see `sources.csv`)
 
-- **41 platforms extracted** (49 report files — AboutYou ships two consecutive periods; Miniclip ships eight games) — the 8 direct-file platforms, 19 found by crawling the
+- **43 platforms extracted** (51 report files — AboutYou ships two consecutive periods; Miniclip ships eight games) — the 8 direct-file platforms, 19 found by crawling the
   landing pages (`discover_hubs.py`), Carrefour + Dailymotion (provided
   directly), 6 pulled from Zendesk help-center hubs via the article/attachments
-  JSON API (`download_zendesk.py`), and Discord + LINE via `SHEET_MAP` (see below): AboutYou, Alibaba Cloud, Bumble, Carrefour, Ceneo, Cloudflare,
-  Dailymotion, Depop, Discord, DuckDuckGo, Expedia, Grindr, HomeToGo, Hostelworld, Hostinger,
+  JSON API (`download_zendesk.py`), Discord + LINE via `SHEET_MAP` (see below), and Gemini + NotebookLM (Google's harmonised-template ZIPs): AboutYou, Alibaba Cloud, Bumble, Carrefour, Ceneo, Cloudflare,
+  Dailymotion, Depop, Discord, DuckDuckGo, Expedia, Gemini, Grindr, HomeToGo, Hostelworld, Hostinger,
   Hotels.com, IMDb, Konami, Lilo, LINE, LinkedIn, ManoMano, Match Group (Tinder),
-  Nexon, Miniclip (8 games), Niantic (Pokémon GO), Nintendo eShop, Pinterest, Qwant, Roblox, Shopify, Skroutz, Square Enix, Veepee,
+  Nexon, Miniclip (8 games), Niantic (Pokémon GO), Nintendo eShop, NotebookLM, Pinterest, Qwant, Roblox, Shopify, Skroutz, Square Enix, Veepee,
   Vestiaire Collective, Vinted, Vrbo, Web.de, Whatnot, Wikipedia, Yahoo. For
   multi-brand providers (Match Group, Niantic, Yahoo, DuckDuckGo, Expedia family)
   we keep one representative/flagship file per catalogue platform. (Carrefour
