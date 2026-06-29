@@ -1,0 +1,39 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,6521,
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,48197,
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,6521,
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,48171,
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.998,Developer program policies automated system
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.999,Developer program policies automated system
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.878,Developer program policies automated system
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.975,User-posted reviews automated system
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.987,User-posted reviews automated system
+All,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.747,User-posted reviews automated system
+"Only for providers of hosting services, including online platforms",Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,,
+"Only for providers of hosting services, including online platforms",Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,79,
+"Only for providers of hosting services, including online platforms",Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
+"Only for providers of hosting services, including online platforms",Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
+"Only for providers of hosting services, including online platforms",Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
+Only for providers of online platforms,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,
+Only for providers of online platforms,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,3,
+Only for providers of online platforms,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
+Only for providers of online platforms,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
+Only for providers of online platforms,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...],,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,Chrome Web Store,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,

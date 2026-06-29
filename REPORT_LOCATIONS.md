@@ -57,6 +57,9 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Fitbit | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/fitbit) | ZIP (harmonised template); H2 2025 | verified |
+| Tenor | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/tenor) | ZIP (harmonised template); H2 2025 | verified |
+| Google Photos | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-photos) | ZIP (harmonised template); H2 2025 | verified |
 | Discord | Discord Netherlands B.V. | [Hub](https://discord.com/safety-transparency) · [archived data](harmonised-reports/extracted/discord) | ZIP (machine-readable template); 2024 & 2025 | verified |
 | Messenger / Instagram Direct | Meta Platforms Ireland | [Meta non-VLOP reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | In Meta's non-VLOP DSA report; periodic | likely |
 | LINE | LY Corporation | [Report](https://www.lycorp.co.jp/en/company/transparency/dsa-transparency/2025/) · [archived data](harmonised-reports/extracted/line) | Excel (Art. 15); CY2025 | verified |
@@ -94,6 +97,7 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Google Manufacturer Center | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/manufacturer-center) | ZIP (harmonised template); H2 2025 | verified |
 | eBay | eBay Inc. | [Hub](https://www.ebayinc.com/company/digital-services-act/) | PDF; 17 Feb – 31 Dec 2024 | likely |
 | Etsy | Etsy, Inc. / Etsy Ireland UC | [Legal hub](https://www.etsy.com/legal/policy/eu-digital-services-act/1119915664620) | PDF; 2024 & 2025 | likely |
 | Otto | Otto GmbH & Co KGaA | [Hub](https://www.otto.de/shoppages/digital_services_act_transparency_reports_dsa) | Hub + PDFs; 2024 & 2025 | verified |
@@ -153,6 +157,10 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Google Vacation Rentals | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/vacation-rentals) | ZIP (harmonised template); H2 2025 | verified |
+| Google Hotels | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-hotels) | ZIP (harmonised template); H2 2025 | verified |
+| Google Flights | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-flights) | ZIP (harmonised template); H2 2025 | verified |
+| Waze | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/waze) | ZIP (harmonised template); H2 2025 | verified |
 | Airbnb | Airbnb Ireland UC | [PDF](https://assets.airbnb.com/help/Airbnb_Ireland_UC_Transparency_Report_2025Feb14.pdf) · [archived PDF](pdf-reports/airbnb) | PDF; CY2024 | verified |
 | Expedia | Expedia, Inc. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) · [archived data](harmonised-reports/extracted/expedia) | PDF + XLSX; 2024 & 2025 | verified |
 | Hotels.com | Hotels.com, L.P. | [Hub](https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act) · [archived data](harmonised-reports/extracted/hotelscom) | PDF + XLSX; 2024 & 2025 | verified |
@@ -191,6 +199,7 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Chrome Web Store | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/chrome-web-store) | ZIP (harmonised template); H2 2025 | verified |
 | Roblox | Roblox Corporation | [Transparency](https://about.roblox.com/transparency) ([2025 PDF](https://about.roblox.com/pdf/eu-dsa-transparency-report-2025)) · [archived data](harmonised-reports/extracted/roblox) | PDF + XLSX/CSV; 2024 & 2025 | verified |
 | Ubisoft Connect | Ubisoft Entertainment SA | [Report](https://www.ubisoft.com/legal/documents/transparencyreport/en-US) | PDF; CY2024 | verified |
 | Nintendo eShop | Nintendo Co., Ltd. | [DSA page](https://www.nintendo.com/en-gb/Legal-information/Digital-Services-Act-2522334.html) · [archived data](harmonised-reports/extracted/nintendo) | XLSX (harmonised template); Feb 2026 | verified |
@@ -231,6 +240,14 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Google Colab | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/colab) | ZIP (harmonised template); H2 2025 | verified |
+| pub.dev | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/pubdev) | ZIP (harmonised template); H2 2025 | verified |
+| Google Workspace | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/workspace) | ZIP (harmonised template); H2 2025 | verified |
+| Google Wallet API | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/wallet-api) | ZIP (harmonised template); H2 2025 | verified |
+| Looker | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/looker) | ZIP (harmonised template); H2 2025 | verified |
+| Google Pay API | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-pay-api) | ZIP (harmonised template); H2 2025 | verified |
+| Google AI Developers Forum | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-ai-developer-forum) | ZIP (harmonised template); H2 2025 | verified |
+| GDP Forums (Google) | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/gdp-forums) | ZIP (harmonised template); H2 2025 | verified |
 | GitHub | GitHub, Inc. (Microsoft) | [Transparency Center](https://transparencycenter.github.com/) ([2024 PDF](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/GitHub-DSA-Transparency-Report-Feb-Dec-2024.pdf)) · [archived PDF](pdf-reports/github) | PDF; Feb – Dec 2024 | verified |
 | Cloudflare | Cloudflare, Inc. | [Transparency](https://www.cloudflare.com/transparency/) · [archived data](harmonised-reports/extracted/cloudflare) | XLSX (template); H2 2025 | verified |
 | WordPress.com | Automattic Inc. | [Report](https://transparency.automattic.com/wordpress-dot-com/digital-services-act/) | Web + CSV; Jul – Dec 2025 | verified |
@@ -242,6 +259,8 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Google Cloud Storage | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-cloud-storage) | ZIP (harmonised template); H2 2025 | verified |
+| Google Public DNS | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-public-dns) | ZIP (harmonised template); H2 2025 | verified |
 | Shopify | Shopify Inc. | [Legal notices](https://www.shopify.com/legal/p2b/legal-notices) · [archived data](harmonised-reports/extracted/shopify) | Hub: PDF + XLSX; CY2024 & 2025 | verified |
 | Wix | Wix.com Ltd. | [Report](https://support.wix.com/en/article/dsa-transparency-report-2024) | Web; CY2024 | verified |
 | Squarespace | Squarespace, Inc. | [PDF](https://www.squarespace.com/s/Digital-Services-Act-Report-20250228.pdf) · [archived PDF](pdf-reports/squarespace) | PDF; 2024 | verified |
@@ -272,6 +291,19 @@ The best starting points for finding more report locations:
 | Qwant | Qwant (France) | [Report](https://about.qwant.com/legal/rapport-de-transparence-qwant-2025/) · [archived data](harmonised-reports/extracted/qwant) | HTML + Excel + PDF; CY2025 | verified |
 | Lilo | Lilo SAS (now Qwant) | [Report](https://lilo.org/rapport-transparence) · [archived data](harmonised-reports/extracted/lilo) | HTML + Excel; Sep – Dec 2025 | verified |
 
+## AI assistants & generative AI
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| Gemini | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/gemini) | ZIP (harmonised template); H2 2025 | verified |
+| NotebookLM | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/notebooklm) | ZIP (harmonised template); H2 2025 | verified |
+
+## Advertising
+
+| Platform | Operating company | Report URL | Format / period | Confidence |
+|----------|-------------------|------------|-----------------|------------|
+| Google Ads | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-ads) | ZIP (harmonised template); H2 2025 | verified |
+
 ## Browsers, email & portals
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
@@ -297,6 +329,9 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
+| Google Classroom | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-classroom) | ZIP (harmonised template); H2 2025 | verified |
+| Google Help & Support | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-help-support) | ZIP (harmonised template); H2 2025 | verified |
+| Google News | Google Ireland Limited | [Transparency report](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](harmonised-reports/extracted/google-news) | ZIP (harmonised template); H2 2025 | verified |
 | Patreon | Patreon, Inc. | [DSA page](https://support.patreon.com/hc/en-us/articles/23684794051597-EU-Digital-Services-Act) | HTML; Art. 24 data, Jul – Dec 2025 | likely |
 | Medium | A Medium Corporation | [DSA Information section](https://help.medium.com/hc/en-us/sections/21832701520791-Digital-Service-Act-DSA-Information) | HTML; DSA info/orders | uncertain |
 | Fandom (Wikia) | Fandom, Inc. | [DSA hub](https://www.fandom.com/digital-services-act) ([2024 supplement](https://www.fandom.com/fandom-transparency-report-2024-dsa-supplement)) | HTML; 1 Feb 2024 – 31 Jan 2025 | verified |
