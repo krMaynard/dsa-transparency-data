@@ -86,6 +86,24 @@ SOURCES = {
     "discord":     ("discord.zip", "zipcsv"),
     "gemini":      ("gemini.zip", "zipcsv"),
     "notebooklm":  ("notebooklm.zip", "zipcsv"),
+    # Batch of Google services (H2 2025, non-VLOP, canonical numbered-CSV zips).
+    "pubdev":                    ("pubdev.zip", "zipcsv"),
+    "workspace":                 ("workspace.zip", "zipcsv"),
+    "wallet-api":                ("wallet-api.zip", "zipcsv"),
+    "looker":                    ("looker.zip", "zipcsv"),
+    "google-pay-api":            ("google-pay-api.zip", "zipcsv"),
+    "google-ai-developer-forum": ("google-ai-developer-forum.zip", "zipcsv"),
+    "gdp-forums":                ("gdp-forums.zip", "zipcsv"),
+    "vacation-rentals":          ("vacation-rentals.zip", "zipcsv"),
+    "google-hotels":             ("google-hotels.zip", "zipcsv"),
+    "google-flights":            ("google-flights.zip", "zipcsv"),
+    "tenor":                     ("tenor.zip", "zipcsv"),
+    "google-photos":             ("google-photos.zip", "zipcsv"),
+    "manufacturer-center":       ("manufacturer-center.zip", "zipcsv"),
+    "google-help-support":       ("google-help-support.zip", "zipcsv"),
+    "google-news":               ("google-news.zip", "zipcsv"),
+    "google-public-dns":         ("google-public-dns.zip", "zipcsv"),
+    "waze":                      ("waze.zip", "zipcsv"),
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,
@@ -225,6 +243,14 @@ def read_zipcsv(path: str) -> list[tuple[str, list[list[str]]]]:
             # AppleDouble "._name" sidecar files, which are binary, not CSV).
             if (not base.lower().endswith(".csv") or info.startswith("__MACOSX")
                     or base.startswith("._")):
+                continue
+            # Some Google reports (Hotels, Workspace) ship an ads-surface
+            # sub-breakdown of sections 6-8 as "NN_<section>_Ads.csv" alongside
+            # the canonical "NN_<section>.csv". The 11-section schema has one
+            # table per section and we never sum/alter reported values, so keep
+            # the canonical base file and skip the supplementary _Ads cut (it
+            # also collides on the section number, which would be nondeterministic).
+            if _re.match(r"\d+_.*_ads\.csv$", base.lower()):
                 continue
             with z.open(info) as f:
                 data = f.read()
