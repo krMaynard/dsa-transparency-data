@@ -24,6 +24,7 @@ import json
 import os
 import sqlite3
 import sys
+from contextlib import closing
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 # .claude/skills/add-dsa-report/ -> data-repo root is three levels up.
@@ -55,14 +56,18 @@ def main() -> None:
         fail(f"no extracted dir: {d}\n  -> add it to harmonised-reports/extract.py "
              f"SOURCES (+ SHEET_MAP if format-variant), then run extract.py")
     csvs = sorted(glob.glob(os.path.join(d, "[0-9]*_*.csv")))
-    with_rows = [os.path.basename(c) for c in csvs
-                 if sum(1 for _ in open(c, encoding="utf-8")) > 1]
+    with_rows = []
+    for c in csvs:
+        with open(c, encoding="utf-8") as fh:
+            if sum(1 for _ in fh) > 1:
+                with_rows.append(os.path.basename(c))
     if not with_rows:
         fail(f"extracted/{slug}: all {len(csvs)} section CSVs are empty")
     print(f"[data] extracted/{slug}: {len(with_rows)}/{len(csvs)} sections have rows")
     if os.path.exists(MANIFEST):
-        m = next((x for x in json.load(open(MANIFEST, encoding="utf-8"))
-                  if x["platform"] == slug), None)
+        with open(MANIFEST, encoding="utf-8") as fh:
+            manifest = json.load(fh)
+        m = next((x for x in manifest if x["platform"] == slug), None)
         if m:
             print(f"[data] manifest: provider={m.get('provider') or '?'} "
                   f"period={m['period_start']}..{m['period_end']} "
@@ -77,32 +82,32 @@ def main() -> None:
         print("        python seed.py --source data/vlop-dsa.json "
               "--report-locations data/report-locations.csv")
         return
-    db = sqlite3.connect(DB)
-    if name:
-        svc = db.execute("SELECT id, name, platform FROM services WHERE name = ?",
-                         (name,)).fetchone()
-    else:
-        svc = db.execute("SELECT id, name, platform FROM services WHERE name LIKE ?",
-                         (f"%{slug}%",)).fetchone()
-    if not svc:
-        who = f'name="{name}"' if name else f'slug~"{slug}"'
-        fail(f"no services row for {who} — check seed_harmonised.SLUG_META, then reseed")
-    sid, sname, splat = svc
-    print(f'[api] service: id={sid} name="{sname}" platform="{splat}"')
-    total = 0
-    for t in TABLES:
-        n = db.execute(f"SELECT COUNT(*) FROM {t} WHERE service_id = ?", (sid,)).fetchone()[0]
-        if n:
-            print(f"[api]   {t}: {n}")
-            total += n
-    if not total:
-        fail(f'service "{sname}" has no fact rows in any t3..t11 table')
-    rep = db.execute(
-        "SELECT period_start, period_end, tier FROM reports WHERE id = "
-        "(SELECT report_id FROM t4_notices WHERE service_id = ? LIMIT 1)", (sid,)).fetchone()
-    if rep:
-        print(f"[api] report: {rep[0]} .. {rep[1]}  tier={rep[2]}")
-    print(f'\nOK: "{sname}" is extracted and queryable ({total} fact rows across t3..t11).')
+    with closing(sqlite3.connect(DB)) as db:
+        if name:
+            svc = db.execute("SELECT id, name, platform FROM services WHERE name = ?",
+                             (name,)).fetchone()
+        else:
+            svc = db.execute("SELECT id, name, platform FROM services WHERE name LIKE ?",
+                             (f"%{slug}%",)).fetchone()
+        if not svc:
+            who = f'name="{name}"' if name else f'slug~"{slug}"'
+            fail(f"no services row for {who} — check seed_harmonised.SLUG_META, then reseed")
+        sid, sname, splat = svc
+        print(f'[api] service: id={sid} name="{sname}" platform="{splat}"')
+        total = 0
+        for t in TABLES:
+            n = db.execute(f"SELECT COUNT(*) FROM {t} WHERE service_id = ?", (sid,)).fetchone()[0]
+            if n:
+                print(f"[api]   {t}: {n}")
+                total += n
+        if not total:
+            fail(f'service "{sname}" has no fact rows in any t3..t11 table')
+        rep = db.execute(
+            "SELECT period_start, period_end, tier FROM reports WHERE id = "
+            "(SELECT report_id FROM t4_notices WHERE service_id = ? LIMIT 1)", (sid,)).fetchone()
+        if rep:
+            print(f"[api] report: {rep[0]} .. {rep[1]}  tier={rep[2]}")
+        print(f'\nOK: "{sname}" is extracted and queryable ({total} fact rows across t3..t11).')
 
 
 if __name__ == "__main__":
