@@ -239,6 +239,60 @@ def read_xls(path: str) -> list[tuple[str, list[list[str]]]]:
     return sheets
 
 
+_ADS_RE = _re.compile(r"\d+_.*_ads\.csv$", _re.I)
+
+
+def _stamp_surface(rows: list[list[str]], surface: str) -> list[list[str]]:
+    """Append a trailing 'Surface' column ('Surface' header + `surface` on each
+    data row), so a downstream loader can read the surface from the last cell."""
+    if not rows:
+        return rows
+    return [rows[0] + ["Surface"]] + [r + [surface] for r in rows[1:]]
+
+
+def _merge_ads_surfaces(
+        pairs: list[tuple[str, list[list[str]]]]) -> list[tuple[str, list[list[str]]]]:
+    """Some Google reports (Hotels, Workspace) split sections 6-8 into a base file
+    plus a sibling 'NN_<section>_Ads.csv'. Both label their leading 'Applicability'
+    column 'All', but in Google's own VLOP reporting these are the additive,
+    non-overlapping **Core** and **Ads** surfaces — there is no aggregate 'All'
+    surface row (summing one would double-count the other). So fold each _Ads file
+    into its base section, stamping a trailing 'Surface' column: the base rows are
+    'Core', the _Ads rows 'Ads'. Reports without an _Ads sibling are returned
+    unchanged (their single 'All' surface is the whole service)."""
+    ads_by_sec: dict[int, tuple[str, list[list[str]]]] = {}
+    base: list[tuple[str, list[list[str]]]] = []
+    for name, rows in pairs:
+        if _ADS_RE.match(name):
+            si = _section_index(name)
+            if si is not None:
+                ads_by_sec[si] = (name, rows)
+        else:
+            base.append((name, rows))
+    if not ads_by_sec:
+        return pairs
+    out: list[tuple[str, list[list[str]]]] = []
+    consumed: set[int] = set()
+    for name, rows in base:
+        si = _section_index(name)
+        ads_entry = ads_by_sec.get(si) if si is not None else None
+        if ads_entry is None:
+            out.append((name, rows))
+            continue
+        _, ads_rows = ads_entry
+        merged = _stamp_surface(rows, "Core")
+        merged += _stamp_surface(ads_rows, "Ads")[1:]  # ads data rows (drop header)
+        out.append((name, merged))
+        consumed.add(si)
+    # Defensive: an _Ads file with no base sibling (not present in our data) —
+    # keep it as its own Ads-surface section (under its original name) rather
+    # than silently dropping rows.
+    for si, (ads_name, rows) in ads_by_sec.items():
+        if si not in consumed:
+            out.append((ads_name, _stamp_surface(rows, "Ads")))
+    return out
+
+
 def read_zipcsv(path: str) -> list[tuple[str, list[list[str]]]]:
     """Read the per-section CSVs from a zip as (filename, rows) pairs."""
     out = []
@@ -249,14 +303,6 @@ def read_zipcsv(path: str) -> list[tuple[str, list[list[str]]]]:
             # AppleDouble "._name" sidecar files, which are binary, not CSV).
             if (not base.lower().endswith(".csv") or info.startswith("__MACOSX")
                     or base.startswith("._")):
-                continue
-            # Some Google reports (Hotels, Workspace) ship an ads-surface
-            # sub-breakdown of sections 6-8 as "NN_<section>_Ads.csv" alongside
-            # the canonical "NN_<section>.csv". The 11-section schema has one
-            # table per section and we never sum/alter reported values, so keep
-            # the canonical base file and skip the supplementary _Ads cut (it
-            # also collides on the section number, which would be nondeterministic).
-            if _re.match(r"\d+_.*_ads\.csv$", base.lower()):
                 continue
             with z.open(info) as f:
                 data = f.read()
@@ -273,7 +319,9 @@ def read_zipcsv(path: str) -> list[tuple[str, list[list[str]]]]:
             while rows and not any(c.strip() for c in rows[-1]):
                 rows.pop()
             out.append((base, rows))
-    return out
+    # Fold any ads-surface sub-breakdown files (Hotels, Workspace) into their base
+    # section, tagged Core/Ads, instead of dropping them.
+    return _merge_ads_surfaces(out)
 
 
 READERS = {"xlsx": read_xlsx, "xls": read_xls, "zipcsv": read_zipcsv}
