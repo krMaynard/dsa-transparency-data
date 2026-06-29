@@ -1,0 +1,56 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        # The .xlsx/.xls readers used by extract.py, plus the linter. The
+        # download/scrape scripts (download_*.py, discover_hubs.py) need network
+        # and aren't exercised here — CI only re-derives artifacts from raw/.
+        run: |
+          python -m pip install --upgrade pip
+          pip install openpyxl xlrd pyflakes
+
+      - name: Lint (pyflakes)
+        run: python -m pyflakes $(git ls-files '*.py')
+
+      - name: Re-derive artifacts from sources
+        # Regenerate every committed artifact from its source inputs: the
+        # extracted 1-11 CSVs (+ manifest/summary) from raw/, the archive links
+        # in REPORT_LOCATIONS.md, and dsa_reports.csv/.db from the catalogue.
+        run: |
+          python harmonised-reports/extract.py
+          python link_archives.py
+          python build_reports_db.py
+
+      - name: Assert artifacts are in sync with sources
+        # If anything changed — a modified artifact or a new untracked file (e.g.
+        # a freshly extracted platform) — a script's output drifted from what's
+        # committed. Re-run the three scripts above locally and commit the result.
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "::error::Committed artifacts are out of sync with their source scripts/inputs."
+            echo "Run: python harmonised-reports/extract.py && python link_archives.py && python build_reports_db.py"
+            echo "then commit the regenerated files. Drift:"
+            git status --porcelain
+            git diff
+            exit 1
+          fi
