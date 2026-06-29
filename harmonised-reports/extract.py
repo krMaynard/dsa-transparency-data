@@ -274,6 +274,11 @@ def _merge_ads_surfaces(
             continue
         si = _section_index(name)
         if si in _SURFACE_SECTIONS:
+            if si in ads_by_sec:
+                # Two ads files map to the same section — keeping only the last
+                # would silently drop the first, so warn rather than lose data.
+                print(f"WARNING: multiple ads-surface files for section {si} "
+                      f"({ads_by_sec[si][0]!r} and {name!r}); keeping {name!r}")
             ads_by_sec[si] = (name, rows)
         else:
             # An ads-surface file for a section that has no surface dimension
@@ -281,7 +286,8 @@ def _merge_ads_surfaces(
             # a surface-less table, so drop it and warn loudly — a human should
             # extend extract.py + the schema rather than ingest it blindly. (It is
             # neither folded nor kept, so it can't collide in _to_canonical.)
-            print(f"WARNING: ignoring ads-surface file {name!r} for section {si} "
+            where = f"section {si}" if si is not None else "an unparseable section"
+            print(f"WARNING: ignoring ads-surface file {name!r} for {where} "
                   f"— only sections {sorted(_SURFACE_SECTIONS)} carry a surface dimension")
     # Rebuild from `base` (not `pairs`): this both folds the matched ads sections
     # and excludes any skipped/dropped ads file. With no ads files at all, `base`

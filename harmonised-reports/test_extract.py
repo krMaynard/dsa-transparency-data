@@ -72,6 +72,17 @@ def test_ads_outside_surface_sections_is_ignored(capsys):
     assert "ignoring ads-surface file" in capsys.readouterr().out
 
 
+def test_multiple_ads_for_same_section_warns(capsys):
+    # Two ads files mapping to the same section: the dict keeps the last, so warn
+    # rather than silently drop the first.
+    base = ("6_own_initiative_TC.csv", _make(2))
+    ads1 = ("6_own_initiative_TC_Ads.csv", _make(1))
+    ads2 = ("6_other_Ads.csv", _make(1))  # also parses to section 6
+    out = extract._merge_ads_surfaces([base, ads1, ads2])
+    assert "multiple ads-surface files for section 6" in capsys.readouterr().out
+    assert len(out) == 1  # still folded into the one base section
+
+
 def test_orphan_ads_without_base_kept_as_ads_section():
     # An _Ads (section 7) with no base sibling is kept under its own name, tagged
     # Ads, rather than silently dropped.
