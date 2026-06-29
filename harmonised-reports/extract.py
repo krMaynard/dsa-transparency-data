@@ -260,13 +260,13 @@ def _merge_ads_surfaces(
     into its base section, stamping a trailing 'Surface' column: the base rows are
     'Core', the _Ads rows 'Ads'. Reports without an _Ads sibling are returned
     unchanged (their single 'All' surface is the whole service)."""
-    ads_by_sec: dict[int, list[list[str]]] = {}
+    ads_by_sec: dict[int, tuple[str, list[list[str]]]] = {}
     base: list[tuple[str, list[list[str]]]] = []
     for name, rows in pairs:
         if _ADS_RE.match(name):
             si = _section_index(name)
             if si is not None:
-                ads_by_sec[si] = rows
+                ads_by_sec[si] = (name, rows)
         else:
             base.append((name, rows))
     if not ads_by_sec:
@@ -275,19 +275,21 @@ def _merge_ads_surfaces(
     consumed: set[int] = set()
     for name, rows in base:
         si = _section_index(name)
-        ads_rows = ads_by_sec.get(si) if si is not None else None
-        if ads_rows is None:
+        ads_entry = ads_by_sec.get(si) if si is not None else None
+        if ads_entry is None:
             out.append((name, rows))
             continue
+        _, ads_rows = ads_entry
         merged = _stamp_surface(rows, "Core")
         merged += _stamp_surface(ads_rows, "Ads")[1:]  # ads data rows (drop header)
         out.append((name, merged))
         consumed.add(si)
     # Defensive: an _Ads file with no base sibling (not present in our data) —
-    # keep it as its own Ads-surface section rather than silently dropping rows.
-    for si, rows in ads_by_sec.items():
+    # keep it as its own Ads-surface section (under its original name) rather
+    # than silently dropping rows.
+    for si, (ads_name, rows) in ads_by_sec.items():
         if si not in consumed:
-            out.append((f"{si}_ads.csv", _stamp_surface(rows, "Ads")))
+            out.append((ads_name, _stamp_surface(rows, "Ads")))
     return out
 
 
