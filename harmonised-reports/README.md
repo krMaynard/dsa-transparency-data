@@ -54,10 +54,10 @@ left as `format-variant` and archived rather than mapped, since forcing them int
 
 ## Status (54 template platforms — see `sources.csv`)
 
-- **60 platforms extracted** (68 report files — AboutYou ships two consecutive periods; Miniclip ships eight games) — the 8 direct-file platforms, 19 found by crawling the
+- **66 platforms extracted** (74 report files — AboutYou ships two consecutive periods; Miniclip ships eight games) — the 8 direct-file platforms, 19 found by crawling the
   landing pages (`discover_hubs.py`), Carrefour + Dailymotion (provided
   directly), 6 pulled from Zendesk help-center hubs via the article/attachments
-  JSON API (`download_zendesk.py`), Discord + LINE via `SHEET_MAP` (see below), and a batch of **19 Google services** as canonical numbered-CSV ZIPs (Gemini, NotebookLM, Google Workspace, Looker, pub.dev, Tenor, Waze, Google News, Google Photos, Google Flights, Google Hotels, Google Vacation Rentals, Google Pay API, Google Wallet API, Google Manufacturer Center, Google Public DNS, Google Help & Support, Google AI Developers Forum, GDP Forums — Hotels and Workspace also ship an ads-surface `_Ads` sub-breakdown of sections 6–8, which the extractor skips in favour of the canonical base files): AboutYou, Alibaba Cloud, Bumble, Carrefour, Ceneo, Cloudflare,
+  JSON API (`download_zendesk.py`), Discord + LINE via `SHEET_MAP` (see below), and a batch of **25 Google services** as canonical numbered-CSV ZIPs (Gemini, NotebookLM, Google Workspace, Looker, pub.dev, Tenor, Waze, Google News, Google Photos, Google Flights, Google Hotels, Google Vacation Rentals, Google Pay API, Google Wallet API, Google Manufacturer Center, Google Public DNS, Google Help & Support, Google AI Developers Forum, GDP Forums, Google Ads, Google Classroom, Chrome Web Store, Google Cloud Storage, Google Colab, Fitbit — Hotels and Workspace also ship an ads-surface `_Ads` sub-breakdown of sections 6–8, which the extractor skips in favour of the canonical base files): AboutYou, Alibaba Cloud, Bumble, Carrefour, Ceneo, Cloudflare,
   Dailymotion, Depop, Discord, DuckDuckGo, Expedia, Gemini, Grindr, HomeToGo, Hostelworld, Hostinger,
   Hotels.com, IMDb, Konami, Lilo, LINE, LinkedIn, ManoMano, Match Group (Tinder),
   Nexon, Miniclip (8 games), Niantic (Pokémon GO), Nintendo eShop, NotebookLM, Pinterest, Qwant, Roblox, Shopify, Skroutz, Square Enix, Veepee,

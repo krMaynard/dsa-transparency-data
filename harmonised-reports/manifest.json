@@ -138,6 +138,29 @@
     }
   },
   {
+    "platform": "chrome-web-store",
+    "source_file": "chrome-web-store.zip",
+    "format": "zipcsv",
+    "provider": "Google",
+    "period_start": "2025-07-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 3920,
+      "notices": 140,
+      "own_initiative_illegal": 139,
+      "own_initiative_TC": 190,
+      "appeals_and_recidivism": 47,
+      "automated_means": 38,
+      "human_resources": 28,
+      "AMAR": 4,
+      "qualitative": 17
+    }
+  },
+  {
     "platform": "cloudflare",
     "source_file": "cloudflare.xlsx",
     "format": "xlsx",
@@ -158,6 +181,29 @@
       "human_resources": 6,
       "AMAR": 4,
       "qualitative": 11
+    }
+  },
+  {
+    "platform": "colab",
+    "source_file": "colab.zip",
+    "format": "zipcsv",
+    "provider": "Google",
+    "period_start": "2025-07-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 3920,
+      "notices": 140,
+      "own_initiative_illegal": 139,
+      "own_initiative_TC": 190,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 28,
+      "AMAR": 4,
+      "qualitative": 17
     }
   },
   {
@@ -276,6 +322,29 @@
     }
   },
   {
+    "platform": "fitbit",
+    "source_file": "fitbit.zip",
+    "format": "zipcsv",
+    "provider": "Google",
+    "period_start": "2025-07-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 3920,
+      "notices": 140,
+      "own_initiative_illegal": 139,
+      "own_initiative_TC": 190,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 28,
+      "AMAR": 4,
+      "qualitative": 17
+    }
+  },
+  {
     "platform": "gdp-forums",
     "source_file": "gdp-forums.zip",
     "format": "zipcsv",
@@ -322,8 +391,77 @@
     }
   },
   {
+    "platform": "google-ads",
+    "source_file": "google-ads.zip",
+    "format": "zipcsv",
+    "provider": "Google",
+    "period_start": "2025-07-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 3920,
+      "notices": 140,
+      "own_initiative_illegal": 139,
+      "own_initiative_TC": 190,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 28,
+      "AMAR": 4,
+      "qualitative": 17
+    }
+  },
+  {
     "platform": "google-ai-developer-forum",
     "source_file": "google-ai-developer-forum.zip",
+    "format": "zipcsv",
+    "provider": "Google",
+    "period_start": "2025-07-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 3920,
+      "notices": 140,
+      "own_initiative_illegal": 139,
+      "own_initiative_TC": 190,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 28,
+      "AMAR": 4,
+      "qualitative": 17
+    }
+  },
+  {
+    "platform": "google-classroom",
+    "source_file": "google-classroom.zip",
+    "format": "zipcsv",
+    "provider": "Google",
+    "period_start": "2025-07-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 3920,
+      "notices": 140,
+      "own_initiative_illegal": 139,
+      "own_initiative_TC": 190,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 28,
+      "AMAR": 4,
+      "qualitative": 17
+    }
+  },
+  {
+    "platform": "google-cloud-storage",
+    "source_file": "google-cloud-storage.zip",
     "format": "zipcsv",
     "provider": "Google",
     "period_start": "2025-07-01",

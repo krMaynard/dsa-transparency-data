@@ -104,6 +104,12 @@ SOURCES = {
     "google-news":               ("google-news.zip", "zipcsv"),
     "google-public-dns":         ("google-public-dns.zip", "zipcsv"),
     "waze":                      ("waze.zip", "zipcsv"),
+    "google-ads":                ("google-ads.zip", "zipcsv"),
+    "google-classroom":          ("google-classroom.zip", "zipcsv"),
+    "chrome-web-store":          ("chrome-web-store.zip", "zipcsv"),
+    "google-cloud-storage":      ("google-cloud-storage.zip", "zipcsv"),
+    "colab":                     ("colab.zip", "zipcsv"),
+    "fitbit":                    ("fitbit.zip", "zipcsv"),
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,
