@@ -240,6 +240,12 @@ def read_xls(path: str) -> list[tuple[str, list[list[str]]]]:
 
 
 _ADS_RE = _re.compile(r"\d+_.*_ads\.csv$", _re.I)
+# Only sections 6/7/8 carry a surface dimension downstream (t6/t7/t8 in the API
+# star schema). An ads-surface sub-breakdown is only meaningful for those; an
+# _Ads file for any other section can't be held as a surface and must not be
+# folded (it would concatenate Core+Ads rows into a surface-less table and
+# silently double-count). Keep this set in sync with the API seeder.
+_SURFACE_SECTIONS = {6, 7, 8}
 
 
 def _stamp_surface(rows: list[list[str]], surface: str) -> list[list[str]]:
@@ -263,14 +269,23 @@ def _merge_ads_surfaces(
     ads_by_sec: dict[int, tuple[str, list[list[str]]]] = {}
     base: list[tuple[str, list[list[str]]]] = []
     for name, rows in pairs:
-        if _ADS_RE.match(name):
-            si = _section_index(name)
-            if si is not None:
-                ads_by_sec[si] = (name, rows)
-        else:
+        if not _ADS_RE.match(name):
             base.append((name, rows))
-    if not ads_by_sec:
-        return pairs
+            continue
+        si = _section_index(name)
+        if si in _SURFACE_SECTIONS:
+            ads_by_sec[si] = (name, rows)
+        else:
+            # An ads-surface file for a section that has no surface dimension
+            # (or whose number didn't parse). Folding it would double-count into
+            # a surface-less table, so drop it and warn loudly — a human should
+            # extend extract.py + the schema rather than ingest it blindly. (It is
+            # neither folded nor kept, so it can't collide in _to_canonical.)
+            print(f"WARNING: ignoring ads-surface file {name!r} for section {si} "
+                  f"— only sections {sorted(_SURFACE_SECTIONS)} carry a surface dimension")
+    # Rebuild from `base` (not `pairs`): this both folds the matched ads sections
+    # and excludes any skipped/dropped ads file. With no ads files at all, `base`
+    # is every input pair in order, so the output equals the input.
     out: list[tuple[str, list[list[str]]]] = []
     consumed: set[int] = set()
     for name, rows in base:

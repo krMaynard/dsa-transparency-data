@@ -72,6 +72,8 @@ GitHub Actions (`.github/workflows/ci.yml`) runs on every pull request and push
 to `main` (Python 3.11 & 3.12):
 
 - **`pyflakes`** over every tracked `.py`.
+- **`pytest`** — unit tests for the extractor's ads-surface fold
+  (`harmonised-reports/test_extract.py`).
 - **Reproducibility** — re-derives every committed artifact from its sources
   (`harmonised-reports/extract.py` from `raw/`, then `link_archives.py`, then
   `build_reports_db.py`) and fails if anything drifts. So the extracted CSVs,
