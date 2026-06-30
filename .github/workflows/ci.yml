@@ -44,6 +44,7 @@ jobs:
           python link_archives.py
           python build_reports_db.py
           python apple-transparency/build_apple.py
+          python github-transparency/build_github.py
 
       - name: Assert artifacts are in sync with sources
         # If anything changed — a modified artifact or a new untracked file (e.g.
