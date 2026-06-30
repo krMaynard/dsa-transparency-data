@@ -25,6 +25,7 @@ from __future__ import annotations
 import argparse
 import csv
 import json
+import math
 import os
 import urllib.request
 
@@ -57,6 +58,8 @@ def _num(v):
         f = float(s)
     except ValueError:
         return None
+    if not math.isfinite(f):  # drop NaN / +-inf ("nan"/"inf" parse as float)
+        return None
     return int(f) if f.is_integer() else f
 
 
@@ -76,9 +79,12 @@ def build(raw_dir: str, source_url: str = SOURCE_URL) -> dict:
                 value = _num(r["value"])
                 if value is None:
                     continue  # blank / non-numeric cell — nothing to record
-                rows.append([r["period"].strip(), r["section"].strip(),
-                             r["category"].strip(), r["sub_category_1"].strip(),
-                             r["sub_category_2"].strip(), r["metric"].strip(), value])
+                # A short row leaves later columns as None (DictReader restval);
+                # coerce to "" before stripping so malformed rows don't crash.
+                rows.append([(r["period"] or "").strip(), (r["section"] or "").strip(),
+                             (r["category"] or "").strip(), (r["sub_category_1"] or "").strip(),
+                             (r["sub_category_2"] or "").strip(), (r["metric"] or "").strip(),
+                             value])
         periods.append(period)
     rows.sort(key=lambda x: (x[0], x[1], x[2], x[3], x[4], x[5]))
     return {
