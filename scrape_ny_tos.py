@@ -61,6 +61,14 @@ def _curl(url: str, dest: str | None = None) -> tuple[int, bytes]:
         cmd += ["-o", dest]
     cmd.append(url)
     p = subprocess.run(cmd, capture_output=True)
+    # A non-zero curl exit is a real transport failure (DNS/timeout/connection),
+    # not a login wall — the gated files return HTTP 200 (curl exit 0) with an
+    # HTML body, and are told apart by the %PDF magic check below. Raising here
+    # stops a transient network error from being mis-recorded as auth-required.
+    if p.returncode != 0:
+        raise RuntimeError(
+            f"curl failed (exit {p.returncode}) for {url}: "
+            f"{p.stderr.decode(errors='replace').strip()}")
     if dest:
         code = int(p.stdout.decode(errors="replace").strip() or 0)
         return code, b""
@@ -91,10 +99,12 @@ def parse_rows(html: str) -> list[dict]:
     out = []
     for tr in rows:
         def cell(field: str) -> str:
-            c = re.search(r"views-field-field-" + field + r'"[^>]*>(.*?)</td>',
+            c = re.search(r"views-field-field-" + field + r"\b[^>]*>(.*?)</td>",
                           tr, re.S)
             return c.group(1) if c else ""
-        href = re.search(r'href="([^"]*\.pdf)"', cell("media-file-1"))
+        # case-insensitive .pdf, tolerating a trailing ?query
+        href = re.search(r'href="([^"]*\.[pP][dD][fF](?:\?[^"]*)?)"',
+                         cell("media-file-1"))
         if not href:                       # header row / no file
             continue
         out.append({
@@ -162,10 +172,13 @@ def main() -> None:
         fn = local_filename(row, taken)
         dest = os.path.join(PDF_DIR, fn)
         code, _ = _curl(row["source_url"], dest)
-        magic = b""
+        # Read the downloaded file once (these policy PDFs are small): the leading
+        # bytes tell a real PDF from the login-page HTML, and the same bytes give
+        # the sha256/size — no second open, no dangling descriptor.
+        data = b""
         try:
             with open(dest, "rb") as fh:
-                magic = fh.read(4)
+                data = fh.read()
         except OSError:
             pass
         rec = {
@@ -175,8 +188,7 @@ def main() -> None:
             "upload_date": row["upload_date"],
             "source_url": row["source_url"],
         }
-        if magic == b"%PDF":
-            data = open(dest, "rb").read()
+        if data.startswith(b"%PDF"):
             rec.update(access="public", filename=fn, archived=REPO_RAW + fn,
                        sha256=hashlib.sha256(data).hexdigest(), bytes=len(data))
             ok += 1
