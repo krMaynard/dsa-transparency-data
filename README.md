@@ -4,6 +4,11 @@ Archive of EU [Digital Services Act](https://eur-lex.europa.eu/eli/reg/2022/2065
 
 Each report follows the DSA Implementing Regulation [(EU) 2025/40](https://eur-lex.europa.eu/eli/reg_impl/2025/40/oj) template (tables 1–11). Files are stored in their original publisher format (CSV bundle, `.xlsx`, or `.xls`).
 
+> **Also archived here:** New York's **Social Media Terms-of-Service reports**
+> (a different jurisdiction/format — narrative policy PDFs filed with the NY
+> Attorney General under the Stop Hiding Hate Act). See
+> [`ny-tos-reports/`](ny-tos-reports/) and [`ny_tos_reports.csv`](ny_tos_reports.csv).
+
 ## Layout
 
 ```
