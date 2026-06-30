@@ -242,6 +242,8 @@ def _parse_twitter(path: str) -> tuple[str, list[list]]:
                 if "grievances" in header and "url" in header:
                     body = tb[1:]
                 accounts_tbl = ("accounts suspended" in header)
+                if accounts_tbl:
+                    body = tb[1:]  # drop the header row explicitly
                 for r in body:
                     cat = _clean(r[0]) if r else ""
                     if not cat or _is_total(cat):
@@ -266,14 +268,21 @@ def _parse_twitter(path: str) -> tuple[str, list[list]]:
 
 
 # ── Moj / ShareChat static-HTML adapter ──────────────────────────────────────
-def _html_tables(path: str) -> list[list[str]]:
+def _html_tables(path: str) -> list[list[list[str]]]:
+    """Parse each <table> row-by-row, preserving empty cells so the grid stays
+    intact — a flattened, empty-filtered list would silently shift every later
+    cell into the wrong column if a value were ever blank."""
     txt = open(path, encoding="utf-8").read()
-    out = []
+    out: list[list[list[str]]] = []
     for tb in re.findall(r"<table[\s\S]*?</table>", txt, re.I):
-        cells = re.findall(r"<t[dh][^>]*>([\s\S]*?)</t[dh]>", tb, re.I)
-        cells = [html.unescape(re.sub(r"<[^>]+>", " ", c)) for c in cells]
-        cells = [re.sub(r"\s+", " ", c).strip() for c in cells]
-        out.append([c for c in cells if c])
+        rows = []
+        for tr in re.findall(r"<tr[\s\S]*?</tr>", tb, re.I):
+            cells = re.findall(r"<t[dh][^>]*>([\s\S]*?)</t[dh]>", tr, re.I)
+            cells = [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", c))).strip()
+                     for c in cells]
+            rows.append(cells)
+        if rows:
+            out.append(rows)
     return out
 
 
@@ -284,16 +293,13 @@ def _parse_html_report(path: str, platform: str) -> tuple[str, list[list]]:
         raise SystemExit(f"{path}: cannot derive period from filename")
     period = f"{int(mtok.group(2)):04d}-{_month_num(mtok.group(1)):02d}"
     rows: list[list] = []
-    tables = _html_tables(path)
-    # Table 0: law-enforcement — 3 labels then 3 values.
     le_metric = {"law enforcement requests received": "requests_received",
                  "requests where user data was provided": "data_provided"}
-    for tb in tables:
-        joined = " ".join(tb).lower()
-        if "law enforcement requests received" in joined and len(tb) >= 6:
-            half = len(tb) // 2
-            labels, vals = tb[:half], tb[half:]
-            for lab, val in zip(labels, vals):
+    for tb in _html_tables(path):
+        joined = " ".join(c for row in tb for c in row).lower()
+        # Law-enforcement: a label row followed by a value row (column-aligned).
+        if "law enforcement requests received" in joined and len(tb) >= 2:
+            for lab, val in zip(tb[0], tb[1]):
                 n = _int(val)
                 if n is None:
                     continue
@@ -303,21 +309,24 @@ def _parse_html_report(path: str, platform: str) -> tuple[str, list[list]]:
                     metric = "takedown_action"
                 if metric:
                     rows.append([platform, period, "law_enforcement", "", metric, "count", n])
+        # Total complaints: a single label + value.
         elif "total number of user complaints received" in joined:
-            n = _int(tb[-1])
-            if n is not None:
-                rows.append([platform, period, "complaints", "",
-                             "complaints_received", "count", n])
-        elif any("ban" in c.lower() for c in tb[:3]) and len(tb) >= 7:
-            # Ban matrix: 3 ban-type headers, then rows of [duration, v1, v2, v3].
+            for row in tb:
+                got = next((n for c in row if (n := _int(c)) is not None), None)
+                if got is not None:
+                    rows.append([platform, period, "complaints", "",
+                                 "complaints_received", "count", got])
+                    break
+        # Ban matrix: header ['', 'UGC ban', …]; each later row is [duration, v…].
+        elif any("ban" in c.lower() for c in tb[0]):
             types = [c.lower().replace(" ban", "").strip().replace(" ", "_") + "_ban"
-                     for c in tb[:3]]
-            rest = tb[3:]
-            for i in range(0, len(rest) - 3, 4):
-                duration = rest[i]
+                     for c in tb[0][1:] if c]
+            for row in tb[1:]:
+                if not row:
+                    continue
+                duration = row[0]
                 for j, t in enumerate(types):
-                    n = _int(rest[i + 1 + j])
-                    if n is not None:
+                    if j + 1 < len(row) and (n := _int(row[j + 1])) is not None:
                         rows.append([platform, period, "account_bans", duration,
                                      t, "count", n])
     return period, rows
