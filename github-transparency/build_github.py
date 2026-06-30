@@ -92,7 +92,9 @@ CONFIG = {
         dataset="appeals_trade_controls", gov="government", iso2="government_iso2_code",
         category="type", period=None, ranged=False, metrics=[("count", "count")]),
     "eu_dsa_mau.csv": dict(
-        dataset="eu_dsa_mau", gov=None, iso2=None, category=None, period="month", ranged=True,
+        # `service` (github vs npm) is the breakdown — without it the two series
+        # collapse to duplicate (year, month) keys with different values.
+        dataset="eu_dsa_mau", gov=None, iso2=None, category="service", period="month", ranged=True,
         metrics=[("average_mau", "average_mau")]),
 }
 
@@ -102,7 +104,11 @@ def _clean(v) -> str:
 
 
 def _parse_range(v):
-    """'0-249' / '0 - 249' -> (0, 249); plain int -> (n, n); blank -> (None, None)."""
+    """'0-249' / '0 - 249' -> (0, 249); plain int -> (n, n); blank -> (None, None).
+
+    Raises ValueError on a non-blank value that's neither an integer nor an
+    `int-int` range, so an upstream format change (e.g. '1000+', '<250') fails
+    the build loudly instead of silently dropping the row."""
     s = _clean(v).replace(",", "")
     if not s or s in ("-", "—", "N/A", "n/a"):
         return (None, None)
@@ -111,7 +117,7 @@ def _parse_range(v):
     m = re.match(r"(\d+)\s*[-–]\s*(\d+)$", s)
     if m:
         return (int(m.group(1)), int(m.group(2)))
-    return (None, None)
+    raise ValueError(f"unparseable range/integer value: {v!r}")
 
 
 def build(raw_dir: str, source_url: str = SOURCE_URL) -> dict:
@@ -122,7 +128,22 @@ def build(raw_dir: str, source_url: str = SOURCE_URL) -> dict:
         if not os.path.isfile(path):
             raise SystemExit(f"missing expected CSV: {path}")
         with open(path, encoding="utf-8-sig", newline="") as f:
-            for r in csv.DictReader(f):
+            reader = csv.DictReader(f)
+            # Validate the config against the actual headers up front, so an
+            # upstream column rename fails loudly instead of silently dropping data.
+            required = ["year"]
+            for k in ("period", "gov", "iso2", "category"):
+                if cfg.get(k):
+                    required.append(cfg[k])
+            if "metric_col" in cfg:
+                required += [cfg["metric_col"], cfg["value_col"]]
+            else:
+                required += [col for col, _ in cfg["metrics"]]
+            headers = reader.fieldnames or []
+            missing = [c for c in required if c not in headers]
+            if missing:
+                raise SystemExit(f"{fname}: missing expected columns {missing}; headers were {headers}")
+            for r in reader:
                 year = _clean(r.get("year"))
                 if not year.isdigit():
                     continue
