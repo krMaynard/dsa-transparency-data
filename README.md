@@ -76,7 +76,8 @@ to `main` (Python 3.11 & 3.12):
   (`harmonised-reports/test_extract.py`).
 - **Reproducibility** — re-derives every committed artifact from its sources
   (`harmonised-reports/extract.py` from `raw/`, then `link_archives.py`, then
-  `build_reports_db.py`) and fails if anything drifts. So the extracted CSVs,
+  `build_reports_db.py`, then `apple-transparency/build_apple.py`) and fails if
+  anything drifts. So the extracted CSVs,
   `manifest.json`/`summary.csv`, the archive links in `REPORT_LOCATIONS.md`, and
   `dsa_reports.csv`/`.db` always match the scripts that produce them. If CI flags
   drift, re-run those three scripts in order locally and commit the regenerated
