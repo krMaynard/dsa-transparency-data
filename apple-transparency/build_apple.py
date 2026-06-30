@@ -194,7 +194,9 @@ def load_zip(zip_path: str) -> dict:
 def build(tables: dict, source_url: str = SOURCE_URL) -> dict:
     periods: dict[str, int] = {}
     countries: dict[str, int] = {}
-    rtypes: dict[str, int] = {}
+    # Request-type ids are fixed by FILES order, so the schema lists all 10 types
+    # consistently even if a future report ships one of them empty.
+    rtypes = {slug: i for i, (slug, _) in enumerate(FILES.values())}
 
     def intern(d, key):
         if key not in d:
@@ -206,7 +208,9 @@ def build(tables: dict, source_url: str = SOURCE_URL) -> dict:
         recs = tables.get(fname)
         if recs is None:
             raise SystemExit(f"missing expected CSV in zip: {fname}")
-        headers = list(recs[0].keys()) if recs else []
+        if not recs:
+            continue  # header-only / empty file — no rows to map (no crash)
+        headers = list(recs[0].keys())
         norm_to_canon = {h: colmap[_norm(h)] for h in headers if _norm(h) in colmap}
         missing = set(colmap.values()) - set(norm_to_canon.values())
         if missing:
@@ -220,11 +224,14 @@ def build(tables: dict, source_url: str = SOURCE_URL) -> dict:
             for src, canon in norm_to_canon.items():
                 vals[canon] = _pct(r[src]) if canon == "pct_data_provided" else _num(r[src])
             rows.append([intern(periods, period), intern(countries, country),
-                         intern(rtypes, slug)] + [vals[m] for m in MEASURES])
+                         rtypes[slug]] + [vals[m] for m in MEASURES])
 
     ns_rows = []
     for fname, type_col in NS_FILES.items():
-        for r in tables.get(fname, []):
+        recs = tables.get(fname)
+        if recs is None:
+            raise SystemExit(f"missing expected CSV in zip: {fname}")
+        for r in recs:
             country = (r.get("Country/Region") or "").strip()
             period = _period_of(r)
             if not country or not period:
@@ -235,24 +242,29 @@ def build(tables: dict, source_url: str = SOURCE_URL) -> dict:
                             (r.get(type_col) or "").strip(),
                             req_lo, req_hi, acc_lo, acc_hi])
 
-    # Re-key periods chronologically (ids must be the chronological ordinal).
-    order = sorted(periods, key=_period_key)
-    remap = {periods[p]: i for i, p in enumerate(order)}
+    # Re-key periods chronologically (id = chronological ordinal) and countries
+    # alphabetically, so the ids — and thus the JSON — are stable regardless of the
+    # row order Apple happens to ship.
+    period_order = sorted(periods, key=_period_key)
+    period_remap = {periods[p]: i for i, p in enumerate(period_order)}
+    country_order = sorted(countries)
+    country_remap = {countries[c]: i for i, c in enumerate(country_order)}
     for row in rows:
-        row[0] = remap[row[0]]
+        row[0] = period_remap[row[0]]
+        row[1] = country_remap[row[1]]
     for row in ns_rows:
-        row[0] = remap[row[0]]
-    periods = {p: i for i, p in enumerate(order)}
+        row[0] = period_remap[row[0]]
+        row[1] = country_remap[row[1]]
 
     inv = lambda d: [k for k, _ in sorted(d.items(), key=lambda kv: kv[1])]
     return {
         "source": source_url,
         # `coverage` = latest period in the data (deterministic; no wall-clock, so
         # re-running on the same archive is byte-identical for the CI sync check).
-        "coverage": order[-1] if order else "",
+        "coverage": period_order[-1] if period_order else "",
         "measures": MEASURES,
-        "periods": inv(periods),
-        "countries": inv(countries),
+        "periods": period_order,
+        "countries": country_order,
         "request_types": inv(rtypes),
         "rows": rows,
         "ns_rows": ns_rows,
