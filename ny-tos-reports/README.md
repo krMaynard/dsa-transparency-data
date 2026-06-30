@@ -68,3 +68,42 @@ python3 scrape_ny_tos.py     # network required
 Walks every page of the AG index, downloads each publicly-served PDF (verifying
 the `%PDF` magic), and rewrites the catalogue. Like the other `download_*` /
 `scrape_*` scripts it hits the live web and is **not** run by CI.
+
+## Quantitative data (`extract_quant.py`)
+
+These filings follow **no shared template** — most are narrative policy / ToS
+documents, and only some embed enforcement-statistics tables, each in the
+company's own layout. `extract_quant.py` pulls the numeric tables out of the
+archived PDFs into a tidy long CSV/JSON — one row per numeric cell, so each
+table's shape is preserved as `table_label × row_label × column` without forcing
+a (non-existent) cross-company schema:
+
+```bash
+pip install pymupdf
+python3 extract_quant.py     # reads pdfs/, writes ny_tos_quant.csv / .json
+```
+
+Columns: `company`, `period`, `page`, `table_label`, `row_label`, `column`,
+`value`, `unit` (`count` / `percent`), `raw`.
+
+**Coverage (2025 Q3, 1,272 cells from 6 of the 11 archived reports):**
+
+| Report | Cells | Notes |
+|--------|------:|-------|
+| Strava | 1,104 | content-type × action matrix (6 columns: flagged/actioned × users/employees/technology) |
+| LinkedIn | 49 | by category (Hateful & derogatory / Dangerous orgs / False & misleading / Harassment) |
+| Discord | 38 | by the **Stop Hiding Hate Act categories** (hate speech/racism, extremism, disinformation, harassment, foreign interference) × action |
+| Naver | 37 | by category + flagging method |
+| Reddit | 24 | by violation type, with automation/user-report split + appeals |
+| Roblox | 20 | section totals (content actioned / removed / appeals) |
+
+The other five carry **no extractable enforcement statistics**: X, TikTok, Meta,
+and Vimeo are narrative ToS / policy text (no count tables), and **Snap** is an
+image-based PDF whose figures live in graphics (would need OCR). The script lists
+these explicitly rather than silently dropping them.
+
+Best-effort and **not run by CI** (needs `pymupdf`; PDF table detection is
+imperfect — cells whose label/header carries a stray 3+ digit run are dropped as
+melt artifacts). Spot-checked against the source PDFs (e.g. Strava
+*Harassment – Profile* = 6,665/6,522/0/143/12/0; Discord *Accounts Disabled*
+hate-speech = 279).
