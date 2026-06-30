@@ -5,7 +5,7 @@
     "page": 12,
     "table_label": "Individual Accounts Warned",
     "row_label": "(A) Hate speech or racism",
-    "column": "#",
+    "column": "",
     "value": 47795,
     "unit": "count",
     "raw": "47,795"
@@ -16,7 +16,7 @@
     "page": 12,
     "table_label": "Individual Accounts Warned",
     "row_label": "(B) Extremism or radicalization",
-    "column": "#",
+    "column": "",
     "value": 755,
     "unit": "count",
     "raw": "755"
@@ -27,7 +27,7 @@
     "page": 12,
     "table_label": "Individual Accounts Warned",
     "row_label": "(C) Disinformation or misinformation",
-    "column": "#",
+    "column": "",
     "value": 5,
     "unit": "count",
     "raw": "5"
@@ -38,7 +38,7 @@
     "page": 12,
     "table_label": "Individual Accounts Warned",
     "row_label": "(D) Harassment",
-    "column": "#",
+    "column": "",
     "value": 24441,
     "unit": "count",
     "raw": "24,441"
@@ -49,7 +49,7 @@
     "page": 13,
     "table_label": "Accounts Disabled",
     "row_label": "(A) Hate speech or racism",
-    "column": "#",
+    "column": "",
     "value": 279,
     "unit": "count",
     "raw": "279"
@@ -60,7 +60,7 @@
     "page": 13,
     "table_label": "Accounts Disabled",
     "row_label": "(B) Extremism or radicalization",
-    "column": "#",
+    "column": "",
     "value": 10689,
     "unit": "count",
     "raw": "10,689"
@@ -71,7 +71,7 @@
     "page": 13,
     "table_label": "Accounts Disabled",
     "row_label": "(C) Disinformation or misinformation",
-    "column": "#",
+    "column": "",
     "value": 0,
     "unit": "count",
     "raw": "0"
@@ -82,7 +82,7 @@
     "page": 13,
     "table_label": "Accounts Disabled",
     "row_label": "(D) Harassment",
-    "column": "#",
+    "column": "",
     "value": 1429,
     "unit": "count",
     "raw": "1,429"
@@ -93,7 +93,7 @@
     "page": 13,
     "table_label": "Server Member Warnings",
     "row_label": "(A) Hate speech or racism",
-    "column": "#",
+    "column": "",
     "value": 1164,
     "unit": "count",
     "raw": "1,164"
@@ -104,7 +104,7 @@
     "page": 13,
     "table_label": "Server Member Warnings",
     "row_label": "(B) Extremism or radicalization",
-    "column": "#",
+    "column": "",
     "value": 28494,
     "unit": "count",
     "raw": "28,494"
@@ -115,7 +115,7 @@
     "page": 13,
     "table_label": "Server Member Warnings",
     "row_label": "(C) Disinformation or misinformation",
-    "column": "#",
+    "column": "",
     "value": 1,
     "unit": "count",
     "raw": "1"
@@ -126,7 +126,7 @@
     "page": 13,
     "table_label": "Server Member Warnings",
     "row_label": "(D) Harassment",
-    "column": "#",
+    "column": "",
     "value": 662,
     "unit": "count",
     "raw": "662"
@@ -137,7 +137,7 @@
     "page": 13,
     "table_label": "Servers Removed Proactively",
     "row_label": "(A) Hate speech or racism",
-    "column": "#",
+    "column": "",
     "value": 174,
     "unit": "count",
     "raw": "174"
@@ -148,7 +148,7 @@
     "page": 13,
     "table_label": "Servers Removed Proactively",
     "row_label": "(B) Extremism or radicalization",
-    "column": "#",
+    "column": "",
     "value": 782,
     "unit": "count",
     "raw": "782"
@@ -159,7 +159,7 @@
     "page": 13,
     "table_label": "Servers Removed Proactively",
     "row_label": "(C) Disinformation or misinformation",
-    "column": "#",
+    "column": "",
     "value": 1,
     "unit": "count",
     "raw": "1"
@@ -170,7 +170,7 @@
     "page": 13,
     "table_label": "Servers Removed Proactively",
     "row_label": "(D) Harassment",
-    "column": "#",
+    "column": "",
     "value": 423,
     "unit": "count",
     "raw": "423"
@@ -181,7 +181,7 @@
     "page": 13,
     "table_label": "Servers Warned",
     "row_label": "(A) Hate speech or racism",
-    "column": "#",
+    "column": "",
     "value": 926,
     "unit": "count",
     "raw": "926"
@@ -192,7 +192,7 @@
     "page": 13,
     "table_label": "Servers Warned",
     "row_label": "(B) Extremism or radicalization",
-    "column": "#",
+    "column": "",
     "value": 27,
     "unit": "count",
     "raw": "27"
@@ -203,7 +203,7 @@
     "page": 13,
     "table_label": "Servers Warned",
     "row_label": "(C) Disinformation or misinformation",
-    "column": "#",
+    "column": "",
     "value": 0,
     "unit": "count",
     "raw": "0"
@@ -214,7 +214,7 @@
     "page": 13,
     "table_label": "Servers Warned",
     "row_label": "(D) Harassment",
-    "column": "#",
+    "column": "",
     "value": 130,
     "unit": "count",
     "raw": "130"
@@ -225,7 +225,7 @@
     "page": 14,
     "table_label": "Servers Removed Reactively",
     "row_label": "(A) Hate speech or racism",
-    "column": "#",
+    "column": "",
     "value": 22,
     "unit": "count",
     "raw": "22"
@@ -236,7 +236,7 @@
     "page": 14,
     "table_label": "Servers Removed Reactively",
     "row_label": "(B) Extremism or radicalization",
-    "column": "#",
+    "column": "",
     "value": 63,
     "unit": "count",
     "raw": "63"
@@ -247,7 +247,7 @@
     "page": 14,
     "table_label": "Servers Removed Reactively",
     "row_label": "(C) Disinformation or misinformation",
-    "column": "#",
+    "column": "",
     "value": 0,
     "unit": "count",
     "raw": "0"
@@ -258,7 +258,7 @@
     "page": 14,
     "table_label": "Servers Removed Reactively",
     "row_label": "(D) Harassment",
-    "column": "#",
+    "column": "",
     "value": 182,
     "unit": "count",
     "raw": "182"
@@ -269,7 +269,7 @@
     "page": 14,
     "table_label": "Total Servers Removed",
     "row_label": "(A) Hate speech or racism",
-    "column": "#",
+    "column": "",
     "value": 196,
     "unit": "count",
     "raw": "196"
@@ -280,7 +280,7 @@
     "page": 14,
     "table_label": "Total Servers Removed",
     "row_label": "(B) Extremism or radicalization",
-    "column": "#",
+    "column": "",
     "value": 845,
     "unit": "count",
     "raw": "845"
@@ -291,7 +291,7 @@
     "page": 14,
     "table_label": "Total Servers Removed",
     "row_label": "(C) Disinformation or misinformation",
-    "column": "#",
+    "column": "",
     "value": 1,
     "unit": "count",
     "raw": "1"
@@ -302,7 +302,7 @@
     "page": 14,
     "table_label": "Total Servers Removed",
     "row_label": "(D) Harassment",
-    "column": "#",
+    "column": "",
     "value": 605,
     "unit": "count",
     "raw": "605"
@@ -885,7 +885,7 @@
     "page": 9,
     "table_label": "Article",
     "row_label": "Job post",
-    "column": "5",
+    "column": "",
     "value": 32534,
     "unit": "count",
     "raw": "32,534"
@@ -896,7 +896,7 @@
     "page": 9,
     "table_label": "Article",
     "row_label": "Other (e.g. Pages, Groups, Events)",
-    "column": "5",
+    "column": "",
     "value": 84,
     "unit": "count",
     "raw": "84"
@@ -962,7 +962,7 @@
     "page": 9,
     "table_label": "CATEGORY",
     "row_label": "USER REPORT",
-    "column": "",
+    "column": "2025 3Q",
     "value": 176,
     "unit": "count",
     "raw": "176"
@@ -973,7 +973,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "BAND",
-    "column": "",
+    "column": "2025 3Q",
     "value": 1565,
     "unit": "count",
     "raw": "1,565"
@@ -984,7 +984,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "CHAT",
-    "column": "",
+    "column": "2025 3Q",
     "value": 107,
     "unit": "count",
     "raw": "107"
@@ -995,7 +995,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "CONTENTS",
-    "column": "",
+    "column": "2025 3Q",
     "value": 646,
     "unit": "count",
     "raw": "646"
@@ -1006,7 +1006,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "Hate Speech",
-    "column": "",
+    "column": "2025 3Q",
     "value": 523,
     "unit": "count",
     "raw": "523"
@@ -1017,7 +1017,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "Impersonation",
-    "column": "",
+    "column": "2025 3Q",
     "value": 2893,
     "unit": "count",
     "raw": "2,893"
@@ -1028,7 +1028,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "Machine Detection",
-    "column": "",
+    "column": "2025 3Q",
     "value": 23,
     "unit": "count",
     "raw": "23"
@@ -1039,7 +1039,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "Moderator Review",
-    "column": "",
+    "column": "2025 3Q",
     "value": 1044,
     "unit": "count",
     "raw": "1,044"
@@ -1050,7 +1050,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "Self-Harm",
-    "column": "",
+    "column": "2025 3Q",
     "value": 160,
     "unit": "count",
     "raw": "160"
@@ -1061,7 +1061,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "TOTAL",
-    "column": "",
+    "column": "2025 3Q",
     "value": 3082,
     "unit": "count",
     "raw": "3,082"
@@ -1072,7 +1072,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "Total",
-    "column": "",
+    "column": "2025 3Q",
     "value": 3576,
     "unit": "count",
     "raw": "3,576"
@@ -1083,7 +1083,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "Total",
-    "column": "",
+    "column": "2025 3Q",
     "value": 3082,
     "unit": "count",
     "raw": "3,082"
@@ -1094,7 +1094,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "USER",
-    "column": "",
+    "column": "2025 3Q",
     "value": 764,
     "unit": "count",
     "raw": "764"
@@ -1105,7 +1105,7 @@
     "page": 9,
     "table_label": "_ CATEGORY",
     "row_label": "User report",
-    "column": "",
+    "column": "2025 3Q",
     "value": 2015,
     "unit": "count",
     "raw": "2,015"
@@ -1116,7 +1116,7 @@
     "page": 10,
     "table_label": "CATEGORY",
     "row_label": "MACHINE DETECTION",
-    "column": "",
+    "column": "2025 3Q",
     "value": 23,
     "unit": "count",
     "raw": "23"
@@ -1127,7 +1127,7 @@
     "page": 10,
     "table_label": "CATEGORY",
     "row_label": "TOTAL",
-    "column": "",
+    "column": "2025 3Q",
     "value": 160,
     "unit": "count",
     "raw": "160"
@@ -1138,7 +1138,7 @@
     "page": 10,
     "table_label": "CATEGORY",
     "row_label": "TOTAL",
-    "column": "",
+    "column": "2025 3Q",
     "value": 2893,
     "unit": "count",
     "raw": "2,893"
@@ -1149,7 +1149,7 @@
     "page": 10,
     "table_label": "CATEGORY",
     "row_label": "USER REPORT",
-    "column": "",
+    "column": "2025 3Q",
     "value": 61,
     "unit": "count",
     "raw": "61"
@@ -1160,7 +1160,7 @@
     "page": 10,
     "table_label": "CATEGORY",
     "row_label": "USER REPORT",
-    "column": "",
+    "column": "2025 3Q",
     "value": 409,
     "unit": "count",
     "raw": "409"
@@ -1171,7 +1171,7 @@
     "page": 10,
     "table_label": "MODERATOR REVIEW",
     "row_label": "TOTAL",
-    "column": "1",
+    "column": "",
     "value": 523,
     "unit": "count",
     "raw": "523"
@@ -1182,7 +1182,7 @@
     "page": 10,
     "table_label": "_ CATEGORY",
     "row_label": "Hate Speech",
-    "column": "",
+    "column": "2025 3Q",
     "value": 25,
     "unit": "count",
     "raw": "25"
@@ -1193,7 +1193,7 @@
     "page": 11,
     "table_label": "CATEGORY",
     "row_label": "TOTAL",
-    "column": "",
+    "column": "2025 3Q",
     "value": 25,
     "unit": "count",
     "raw": "25"
@@ -1204,7 +1204,7 @@
     "page": 11,
     "table_label": "CATEGORY",
     "row_label": "USER REPORT",
-    "column": "",
+    "column": "2025 3Q",
     "value": 10,
     "unit": "count",
     "raw": "10"
@@ -1215,7 +1215,7 @@
     "page": 11,
     "table_label": "Self-Harm",
     "row_label": "Impersonation",
-    "column": "-",
+    "column": "",
     "value": 2066,
     "unit": "count",
     "raw": "2,066"
@@ -1226,7 +1226,7 @@
     "page": 11,
     "table_label": "Self-Harm",
     "row_label": "Total",
-    "column": "-",
+    "column": "",
     "value": 2091,
     "unit": "count",
     "raw": "2,091"
@@ -1237,7 +1237,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "BAND",
-    "column": "",
+    "column": "2025 3Q",
     "value": 797,
     "unit": "count",
     "raw": "797"
@@ -1248,7 +1248,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "CHAT",
-    "column": "",
+    "column": "2025 3Q",
     "value": 24,
     "unit": "count",
     "raw": "24"
@@ -1259,7 +1259,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "CONTENTS",
-    "column": "",
+    "column": "2025 3Q",
     "value": 12,
     "unit": "count",
     "raw": "12"
@@ -1270,7 +1270,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "Machine Detection",
-    "column": "",
+    "column": "2025 3Q",
     "value": 23,
     "unit": "count",
     "raw": "23"
@@ -1281,7 +1281,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "Moderator Review",
-    "column": "",
+    "column": "2025 3Q",
     "value": 1045,
     "unit": "count",
     "raw": "1,045"
@@ -1292,7 +1292,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "TOTAL",
-    "column": "",
+    "column": "2025 3Q",
     "value": 2068,
     "unit": "count",
     "raw": "2,068"
@@ -1303,7 +1303,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "Total",
-    "column": "",
+    "column": "2025 3Q",
     "value": 2091,
     "unit": "count",
     "raw": "2,091"
@@ -1314,7 +1314,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "USER",
-    "column": "",
+    "column": "2025 3Q",
     "value": 1235,
     "unit": "count",
     "raw": "1,235"
@@ -1325,7 +1325,7 @@
     "page": 11,
     "table_label": "_ CATEGORY",
     "row_label": "User report",
-    "column": "",
+    "column": "2025 3Q",
     "value": 1023,
     "unit": "count",
     "raw": "1,023"
@@ -1336,7 +1336,7 @@
     "page": 12,
     "table_label": "CATEGORY",
     "row_label": "MACHINE DETECTION",
-    "column": "",
+    "column": "2025 3Q",
     "value": 23,
     "unit": "count",
     "raw": "23"
@@ -1347,7 +1347,7 @@
     "page": 12,
     "table_label": "CATEGORY",
     "row_label": "TOTAL",
-    "column": "",
+    "column": "2025 3Q",
     "value": 2066,
     "unit": "count",
     "raw": "2,066"
@@ -1358,7 +1358,7 @@
     "page": 12,
     "table_label": "CATEGORY",
     "row_label": "USER REPORT",
-    "column": "",
+    "column": "2025 3Q",
     "value": 2,
     "unit": "count",
     "raw": "2"

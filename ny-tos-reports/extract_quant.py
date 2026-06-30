@@ -52,10 +52,10 @@ def _num(s):
     if s is None:
         return None, None
     t = s.strip().replace("​", "").replace(",", "")
-    m = re.fullmatch(r"(-?\d+(?:\.\d+)?)\s*%", t)
+    m = re.fullmatch(r"([+-]?\d+(?:\.\d+)?)\s*%", t)
     if m:
         return float(m.group(1)), "percent"
-    if re.fullmatch(r"-?\d+(?:\.\d+)?", t):
+    if re.fullmatch(r"[+-]?\d+(?:\.\d+)?", t):
         v = float(t)
         return (int(v) if v.is_integer() else v), "count"
     return None, None
@@ -65,10 +65,14 @@ def _clean(s):
     return (s or "").replace("​", "").replace("\n", " ").strip()
 
 
-def _has_long_digit_run(s):
-    """A label/header that itself carries a 3+ digit run is a melt artifact
-    (data bled into the header cell) — drop those cells, not real labels."""
-    return bool(re.search(r"\d{3,}", s or ""))
+def _is_numeric_artifact(s):
+    """True when a cell contains no letters in any script — i.e. it's bare
+    numbers/punctuation (a value that melted into a label or header slot), so it
+    should be dropped. Real labels/headers carry letters, so this keeps valid
+    labels that merely *contain* a number (years, "Section 1102", "2025 3Q",
+    "S895B", Korean/CJK labels) instead of dropping them."""
+    s = (s or "").replace("​", "").strip()
+    return bool(s) and re.search(r"[^\W\d_]", s, re.UNICODE) is None
 
 
 def melt_generic(slug, path):
@@ -78,30 +82,31 @@ def melt_generic(slug, path):
     tables that's the metric name itself (Discord), so it isn't lost.
     """
     out = []
-    doc = fitz.open(path)
-    for pi, page in enumerate(doc):
-        for tbl in page.find_tables().tables:
-            ex = tbl.extract()
-            if len(ex) < 2:
-                continue
-            header = [_clean(c) for c in ex[0]]
-            table_label = header[0] if header and not _has_long_digit_run(header[0]) else ""
-            for row in ex[1:]:
-                cells = [_clean(c) for c in row]
-                label = cells[0]
-                if not label or _has_long_digit_run(label):
+    with fitz.open(path) as doc:
+        for pi, page in enumerate(doc):
+            for tbl in page.find_tables().tables:
+                ex = tbl.extract()
+                if len(ex) < 2:
                     continue
-                for ci in range(1, len(cells)):
-                    v, unit = _num(cells[ci])
-                    if v is None:
+                header = [_clean(c) for c in ex[0]]
+                table_label = header[0] if header and not _is_numeric_artifact(header[0]) else ""
+                for row in ex[1:]:
+                    cells = [_clean(c) for c in row]
+                    if not cells:
                         continue
-                    col = header[ci] if ci < len(header) else ""
-                    if _has_long_digit_run(col):
-                        col = ""  # header cell got polluted by a melted value
-                    out.append(dict(company=slug, period=PERIOD, page=pi + 1,
-                                    table_label=table_label, row_label=label,
-                                    column=col, value=v, unit=unit, raw=cells[ci]))
-    doc.close()
+                    label = cells[0]
+                    if not label or _is_numeric_artifact(label):
+                        continue
+                    for ci in range(1, len(cells)):
+                        v, unit = _num(cells[ci])
+                        if v is None:
+                            continue
+                        col = header[ci] if ci < len(header) else ""
+                        if _is_numeric_artifact(col):
+                            col = ""  # header cell got polluted by a melted value
+                        out.append(dict(company=slug, period=PERIOD, page=pi + 1,
+                                        table_label=table_label, row_label=label,
+                                        column=col, value=v, unit=unit, raw=cells[ci]))
     return out
 
 
@@ -121,14 +126,13 @@ _STRAVA_COLS = ["total", "flagged_by_users", "flagged_by_employees",
 
 def parse_strava(slug, path):
     out = []
-    doc = fitz.open(path)
     lines = []
-    for page in doc:
-        for ln in page.get_text().splitlines():
-            t = ln.replace("​", "").replace("\xad", "").strip()
-            if t:
-                lines.append((page.number + 1, t))
-    doc.close()
+    with fitz.open(path) as doc:
+        for page in doc:
+            for ln in page.get_text().splitlines():
+                t = ln.replace("​", "").replace("\xad", "").strip()
+                if t:
+                    lines.append((page.number + 1, t))
 
     section = None
     label_parts = []
@@ -146,7 +150,7 @@ def parse_strava(slug, path):
             nums.append((pageno, int(v)))
             if len(nums) == 6:                       # a complete data row
                 label = " ".join(label_parts).strip(" .")
-                if label and not _has_long_digit_run(label):
+                if label and not _is_numeric_artifact(label):
                     for col, (pg, val) in zip(_STRAVA_COLS, nums):
                         out.append(dict(company=slug, period=PERIOD, page=pg,
                                         table_label=section, row_label=label,

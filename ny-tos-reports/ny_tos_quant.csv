@@ -1,32 +1,32 @@
 company,period,page,table_label,row_label,column,value,unit,raw
-discord-inc,2025 Q3,12,Individual Accounts Warned,(A) Hate speech or racism,#,47795,count,"47,795"
-discord-inc,2025 Q3,12,Individual Accounts Warned,(B) Extremism or radicalization,#,755,count,755
-discord-inc,2025 Q3,12,Individual Accounts Warned,(C) Disinformation or misinformation,#,5,count,5
-discord-inc,2025 Q3,12,Individual Accounts Warned,(D) Harassment,#,24441,count,"24,441"
-discord-inc,2025 Q3,13,Accounts Disabled,(A) Hate speech or racism,#,279,count,279
-discord-inc,2025 Q3,13,Accounts Disabled,(B) Extremism or radicalization,#,10689,count,"10,689"
-discord-inc,2025 Q3,13,Accounts Disabled,(C) Disinformation or misinformation,#,0,count,0
-discord-inc,2025 Q3,13,Accounts Disabled,(D) Harassment,#,1429,count,"1,429"
-discord-inc,2025 Q3,13,Server Member Warnings,(A) Hate speech or racism,#,1164,count,"1,164"
-discord-inc,2025 Q3,13,Server Member Warnings,(B) Extremism or radicalization,#,28494,count,"28,494"
-discord-inc,2025 Q3,13,Server Member Warnings,(C) Disinformation or misinformation,#,1,count,1
-discord-inc,2025 Q3,13,Server Member Warnings,(D) Harassment,#,662,count,662
-discord-inc,2025 Q3,13,Servers Removed Proactively,(A) Hate speech or racism,#,174,count,174
-discord-inc,2025 Q3,13,Servers Removed Proactively,(B) Extremism or radicalization,#,782,count,782
-discord-inc,2025 Q3,13,Servers Removed Proactively,(C) Disinformation or misinformation,#,1,count,1
-discord-inc,2025 Q3,13,Servers Removed Proactively,(D) Harassment,#,423,count,423
-discord-inc,2025 Q3,13,Servers Warned,(A) Hate speech or racism,#,926,count,926
-discord-inc,2025 Q3,13,Servers Warned,(B) Extremism or radicalization,#,27,count,27
-discord-inc,2025 Q3,13,Servers Warned,(C) Disinformation or misinformation,#,0,count,0
-discord-inc,2025 Q3,13,Servers Warned,(D) Harassment,#,130,count,130
-discord-inc,2025 Q3,14,Servers Removed Reactively,(A) Hate speech or racism,#,22,count,22
-discord-inc,2025 Q3,14,Servers Removed Reactively,(B) Extremism or radicalization,#,63,count,63
-discord-inc,2025 Q3,14,Servers Removed Reactively,(C) Disinformation or misinformation,#,0,count,0
-discord-inc,2025 Q3,14,Servers Removed Reactively,(D) Harassment,#,182,count,182
-discord-inc,2025 Q3,14,Total Servers Removed,(A) Hate speech or racism,#,196,count,196
-discord-inc,2025 Q3,14,Total Servers Removed,(B) Extremism or radicalization,#,845,count,845
-discord-inc,2025 Q3,14,Total Servers Removed,(C) Disinformation or misinformation,#,1,count,1
-discord-inc,2025 Q3,14,Total Servers Removed,(D) Harassment,#,605,count,605
+discord-inc,2025 Q3,12,Individual Accounts Warned,(A) Hate speech or racism,,47795,count,"47,795"
+discord-inc,2025 Q3,12,Individual Accounts Warned,(B) Extremism or radicalization,,755,count,755
+discord-inc,2025 Q3,12,Individual Accounts Warned,(C) Disinformation or misinformation,,5,count,5
+discord-inc,2025 Q3,12,Individual Accounts Warned,(D) Harassment,,24441,count,"24,441"
+discord-inc,2025 Q3,13,Accounts Disabled,(A) Hate speech or racism,,279,count,279
+discord-inc,2025 Q3,13,Accounts Disabled,(B) Extremism or radicalization,,10689,count,"10,689"
+discord-inc,2025 Q3,13,Accounts Disabled,(C) Disinformation or misinformation,,0,count,0
+discord-inc,2025 Q3,13,Accounts Disabled,(D) Harassment,,1429,count,"1,429"
+discord-inc,2025 Q3,13,Server Member Warnings,(A) Hate speech or racism,,1164,count,"1,164"
+discord-inc,2025 Q3,13,Server Member Warnings,(B) Extremism or radicalization,,28494,count,"28,494"
+discord-inc,2025 Q3,13,Server Member Warnings,(C) Disinformation or misinformation,,1,count,1
+discord-inc,2025 Q3,13,Server Member Warnings,(D) Harassment,,662,count,662
+discord-inc,2025 Q3,13,Servers Removed Proactively,(A) Hate speech or racism,,174,count,174
+discord-inc,2025 Q3,13,Servers Removed Proactively,(B) Extremism or radicalization,,782,count,782
+discord-inc,2025 Q3,13,Servers Removed Proactively,(C) Disinformation or misinformation,,1,count,1
+discord-inc,2025 Q3,13,Servers Removed Proactively,(D) Harassment,,423,count,423
+discord-inc,2025 Q3,13,Servers Warned,(A) Hate speech or racism,,926,count,926
+discord-inc,2025 Q3,13,Servers Warned,(B) Extremism or radicalization,,27,count,27
+discord-inc,2025 Q3,13,Servers Warned,(C) Disinformation or misinformation,,0,count,0
+discord-inc,2025 Q3,13,Servers Warned,(D) Harassment,,130,count,130
+discord-inc,2025 Q3,14,Servers Removed Reactively,(A) Hate speech or racism,,22,count,22
+discord-inc,2025 Q3,14,Servers Removed Reactively,(B) Extremism or radicalization,,63,count,63
+discord-inc,2025 Q3,14,Servers Removed Reactively,(C) Disinformation or misinformation,,0,count,0
+discord-inc,2025 Q3,14,Servers Removed Reactively,(D) Harassment,,182,count,182
+discord-inc,2025 Q3,14,Total Servers Removed,(A) Hate speech or racism,,196,count,196
+discord-inc,2025 Q3,14,Total Servers Removed,(B) Extremism or radicalization,,845,count,845
+discord-inc,2025 Q3,14,Total Servers Removed,(C) Disinformation or misinformation,,1,count,1
+discord-inc,2025 Q3,14,Total Servers Removed,(D) Harassment,,605,count,605
 discord-inc,2025 Q3,15,Account Action Reason,(A) Hate speech or racism,Appeals Granted,644,count,644
 discord-inc,2025 Q3,15,Account Action Reason,(A) Hate speech or racism,Appeals Submitted,10742,count,"10,742"
 discord-inc,2025 Q3,15,Account Action Reason,(B) Extremism or radicalization,Appeals Granted,10,count,10
@@ -79,50 +79,50 @@ linkedin-corporation,2025 Q3,9,,Other / miscellaneous,,6066,count,"6,066"
 linkedin-corporation,2025 Q3,9,,Post with images,,53553,count,"53,553"
 linkedin-corporation,2025 Q3,9,,Post with video,,27484,count,"27,484"
 linkedin-corporation,2025 Q3,9,,Text only,,102369,count,"102,369"
-linkedin-corporation,2025 Q3,9,Article,Job post,5,32534,count,"32,534"
-linkedin-corporation,2025 Q3,9,Article,"Other (e.g. Pages, Groups, Events)",5,84,count,84
+linkedin-corporation,2025 Q3,9,Article,Job post,,32534,count,"32,534"
+linkedin-corporation,2025 Q3,9,Article,"Other (e.g. Pages, Groups, Events)",,84,count,84
 linkedin-corporation,2025 Q3,10,,By LinkedIn content moderators,,176109,count,"176,109"
 linkedin-corporation,2025 Q3,10,,By LinkedIn systems,,13363,count,"13,363"
 linkedin-corporation,2025 Q3,10,,LinkedIn automated system,,167787,count,"167,787"
 linkedin-corporation,2025 Q3,10,,LinkedIn manual investigation,,574,count,574
 linkedin-corporation,2025 Q3,10,,Member report,,21110,count,"21,110"
-naver-corporation,2025 Q3,9,CATEGORY,USER REPORT,,176,count,176
-naver-corporation,2025 Q3,9,_ CATEGORY,BAND,,1565,count,"1,565"
-naver-corporation,2025 Q3,9,_ CATEGORY,CHAT,,107,count,107
-naver-corporation,2025 Q3,9,_ CATEGORY,CONTENTS,,646,count,646
-naver-corporation,2025 Q3,9,_ CATEGORY,Hate Speech,,523,count,523
-naver-corporation,2025 Q3,9,_ CATEGORY,Impersonation,,2893,count,"2,893"
-naver-corporation,2025 Q3,9,_ CATEGORY,Machine Detection,,23,count,23
-naver-corporation,2025 Q3,9,_ CATEGORY,Moderator Review,,1044,count,"1,044"
-naver-corporation,2025 Q3,9,_ CATEGORY,Self-Harm,,160,count,160
-naver-corporation,2025 Q3,9,_ CATEGORY,TOTAL,,3082,count,"3,082"
-naver-corporation,2025 Q3,9,_ CATEGORY,Total,,3576,count,"3,576"
-naver-corporation,2025 Q3,9,_ CATEGORY,Total,,3082,count,"3,082"
-naver-corporation,2025 Q3,9,_ CATEGORY,USER,,764,count,764
-naver-corporation,2025 Q3,9,_ CATEGORY,User report,,2015,count,"2,015"
-naver-corporation,2025 Q3,10,CATEGORY,MACHINE DETECTION,,23,count,23
-naver-corporation,2025 Q3,10,CATEGORY,TOTAL,,160,count,160
-naver-corporation,2025 Q3,10,CATEGORY,TOTAL,,2893,count,"2,893"
-naver-corporation,2025 Q3,10,CATEGORY,USER REPORT,,61,count,61
-naver-corporation,2025 Q3,10,CATEGORY,USER REPORT,,409,count,409
-naver-corporation,2025 Q3,10,MODERATOR REVIEW,TOTAL,1,523,count,523
-naver-corporation,2025 Q3,10,_ CATEGORY,Hate Speech,,25,count,25
-naver-corporation,2025 Q3,11,CATEGORY,TOTAL,,25,count,25
-naver-corporation,2025 Q3,11,CATEGORY,USER REPORT,,10,count,10
-naver-corporation,2025 Q3,11,Self-Harm,Impersonation,-,2066,count,"2,066"
-naver-corporation,2025 Q3,11,Self-Harm,Total,-,2091,count,"2,091"
-naver-corporation,2025 Q3,11,_ CATEGORY,BAND,,797,count,797
-naver-corporation,2025 Q3,11,_ CATEGORY,CHAT,,24,count,24
-naver-corporation,2025 Q3,11,_ CATEGORY,CONTENTS,,12,count,12
-naver-corporation,2025 Q3,11,_ CATEGORY,Machine Detection,,23,count,23
-naver-corporation,2025 Q3,11,_ CATEGORY,Moderator Review,,1045,count,"1,045"
-naver-corporation,2025 Q3,11,_ CATEGORY,TOTAL,,2068,count,"2,068"
-naver-corporation,2025 Q3,11,_ CATEGORY,Total,,2091,count,"2,091"
-naver-corporation,2025 Q3,11,_ CATEGORY,USER,,1235,count,"1,235"
-naver-corporation,2025 Q3,11,_ CATEGORY,User report,,1023,count,"1,023"
-naver-corporation,2025 Q3,12,CATEGORY,MACHINE DETECTION,,23,count,23
-naver-corporation,2025 Q3,12,CATEGORY,TOTAL,,2066,count,"2,066"
-naver-corporation,2025 Q3,12,CATEGORY,USER REPORT,,2,count,2
+naver-corporation,2025 Q3,9,CATEGORY,USER REPORT,2025 3Q,176,count,176
+naver-corporation,2025 Q3,9,_ CATEGORY,BAND,2025 3Q,1565,count,"1,565"
+naver-corporation,2025 Q3,9,_ CATEGORY,CHAT,2025 3Q,107,count,107
+naver-corporation,2025 Q3,9,_ CATEGORY,CONTENTS,2025 3Q,646,count,646
+naver-corporation,2025 Q3,9,_ CATEGORY,Hate Speech,2025 3Q,523,count,523
+naver-corporation,2025 Q3,9,_ CATEGORY,Impersonation,2025 3Q,2893,count,"2,893"
+naver-corporation,2025 Q3,9,_ CATEGORY,Machine Detection,2025 3Q,23,count,23
+naver-corporation,2025 Q3,9,_ CATEGORY,Moderator Review,2025 3Q,1044,count,"1,044"
+naver-corporation,2025 Q3,9,_ CATEGORY,Self-Harm,2025 3Q,160,count,160
+naver-corporation,2025 Q3,9,_ CATEGORY,TOTAL,2025 3Q,3082,count,"3,082"
+naver-corporation,2025 Q3,9,_ CATEGORY,Total,2025 3Q,3576,count,"3,576"
+naver-corporation,2025 Q3,9,_ CATEGORY,Total,2025 3Q,3082,count,"3,082"
+naver-corporation,2025 Q3,9,_ CATEGORY,USER,2025 3Q,764,count,764
+naver-corporation,2025 Q3,9,_ CATEGORY,User report,2025 3Q,2015,count,"2,015"
+naver-corporation,2025 Q3,10,CATEGORY,MACHINE DETECTION,2025 3Q,23,count,23
+naver-corporation,2025 Q3,10,CATEGORY,TOTAL,2025 3Q,160,count,160
+naver-corporation,2025 Q3,10,CATEGORY,TOTAL,2025 3Q,2893,count,"2,893"
+naver-corporation,2025 Q3,10,CATEGORY,USER REPORT,2025 3Q,61,count,61
+naver-corporation,2025 Q3,10,CATEGORY,USER REPORT,2025 3Q,409,count,409
+naver-corporation,2025 Q3,10,MODERATOR REVIEW,TOTAL,,523,count,523
+naver-corporation,2025 Q3,10,_ CATEGORY,Hate Speech,2025 3Q,25,count,25
+naver-corporation,2025 Q3,11,CATEGORY,TOTAL,2025 3Q,25,count,25
+naver-corporation,2025 Q3,11,CATEGORY,USER REPORT,2025 3Q,10,count,10
+naver-corporation,2025 Q3,11,Self-Harm,Impersonation,,2066,count,"2,066"
+naver-corporation,2025 Q3,11,Self-Harm,Total,,2091,count,"2,091"
+naver-corporation,2025 Q3,11,_ CATEGORY,BAND,2025 3Q,797,count,797
+naver-corporation,2025 Q3,11,_ CATEGORY,CHAT,2025 3Q,24,count,24
+naver-corporation,2025 Q3,11,_ CATEGORY,CONTENTS,2025 3Q,12,count,12
+naver-corporation,2025 Q3,11,_ CATEGORY,Machine Detection,2025 3Q,23,count,23
+naver-corporation,2025 Q3,11,_ CATEGORY,Moderator Review,2025 3Q,1045,count,"1,045"
+naver-corporation,2025 Q3,11,_ CATEGORY,TOTAL,2025 3Q,2068,count,"2,068"
+naver-corporation,2025 Q3,11,_ CATEGORY,Total,2025 3Q,2091,count,"2,091"
+naver-corporation,2025 Q3,11,_ CATEGORY,USER,2025 3Q,1235,count,"1,235"
+naver-corporation,2025 Q3,11,_ CATEGORY,User report,2025 3Q,1023,count,"1,023"
+naver-corporation,2025 Q3,12,CATEGORY,MACHINE DETECTION,2025 3Q,23,count,23
+naver-corporation,2025 Q3,12,CATEGORY,TOTAL,2025 3Q,2066,count,"2,066"
+naver-corporation,2025 Q3,12,CATEGORY,USER REPORT,2025 3Q,2,count,2
 reddit-inc,2025 Q3,6,Violation Type,Harassment,Actionability (reported/falgged vs. removed),0.6,percent,0.6%
 reddit-inc,2025 Q3,6,Violation Type,Harassment,Flagged by Reddit automation,58.6,percent,58.6%
 reddit-inc,2025 Q3,6,Violation Type,Harassment,User Reports,41.4,percent,41.4%
