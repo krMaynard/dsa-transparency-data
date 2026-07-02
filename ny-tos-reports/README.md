@@ -90,7 +90,7 @@ Columns: `company`, `period`, `page`, `table_label`, `row_label`, `column`,
 
 | Report | Cells | Notes |
 |--------|------:|-------|
-| Strava | 1,104 | content-type × action matrix (6 columns: flagged/actioned × users/employees/technology) |
+| Strava | 1,104 | category × content-format rows across its 5 data tables (flagged / actioned / actions-against-users / times-shared / appeals), 6 columns each |
 | LinkedIn | 49 | by category (Hateful & derogatory / Dangerous orgs / False & misleading / Harassment) |
 | Discord | 38 | by the **Stop Hiding Hate Act categories** (hate speech/racism, extremism, disinformation, harassment, foreign interference) × action |
 | Naver | 37 | by category + flagging method |
@@ -107,3 +107,22 @@ imperfect — cells whose label/header carries a stray 3+ digit run are dropped 
 melt artifacts). Spot-checked against the source PDFs (e.g. Strava
 *Harassment – Profile* = 6,665/6,522/0/143/12/0; Discord *Accounts Disabled*
 hate-speech = 279).
+
+## Normalized to the Stop Hiding Hate Act categories (`normalize_quant.py`)
+
+Only Discord reports in the statute's own five categories; everyone else uses
+their own taxonomy. `normalize_quant.py` maps each company's *category* labels
+onto the SHHA five via a curated, exhaustive, fail-loud disposition table and
+writes [`ny_tos_normalized.csv`](ny_tos_normalized.csv) (968 cells; stdlib-only,
+deterministic from `ny_tos_quant.csv`). Metrics are **not** normalized — they
+stay in each company's own terms and are not comparable across companies.
+
+**Read [`NORMALIZATION.md`](NORMALIZATION.md) before using this file** — it
+documents the full methodology, every mapping judgment (e.g. Reddit
+*Terrorism* → extremism ⚠), the coverage matrix, and the caveats (global-not-NY
+scope, one quarter only, Roblox contributes no rows, no company reports foreign
+political interference numbers).
+
+```bash
+python3 normalize_quant.py   # ny_tos_quant.csv → ny_tos_normalized.csv
+```
