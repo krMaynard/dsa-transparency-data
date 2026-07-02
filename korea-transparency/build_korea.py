@@ -83,8 +83,8 @@ NAVER_METRICS = {
 def _num(v) -> int | float | None:
     """Parse an API value: ints pass through; strings may carry commas; '-' and
     blanks mean not-reported (skipped, unlike a true 0 which is kept)."""
-    if v is None:
-        return None
+    if v is None or isinstance(v, bool):
+        return None  # bool is an int subclass — a JSON true/false is not a count
     if isinstance(v, (int, float)):
         return v
     s = str(v).strip().replace(",", "")
@@ -108,8 +108,11 @@ def _parse_kakao(path: str, year: int, half: int) -> list[list]:
         raise SystemExit(f"{path}: API payload not successful")
     period = f"{year}-H{half}"
     rows: list[list] = []
-    for r in payload["data"]["reports"]:
-        corp = KAKAO_CORPS.get(r.get("serviceCorp", ""), r.get("serviceCorp", ""))
+    # Safe nested access: format drift lands in the zero-rows guard below with a
+    # descriptive error instead of a bare KeyError/TypeError.
+    for r in (payload.get("data") or {}).get("reports") or []:
+        service_corp = r.get("serviceCorp") or ""
+        corp = KAKAO_CORPS.get(service_corp, service_corp)
         cat = _canon_kakao_category(r.get("enCategory") or r.get("category") or "")
         for field, metric in (("numberOfRequests", "requests"),
                               ("numberOfProcesses", "processed"),
@@ -125,7 +128,7 @@ def _parse_kakao(path: str, year: int, half: int) -> list[list]:
 def _parse_naver(path: str) -> list[list]:
     with open(path, encoding="utf-8") as f:
         payload = json.load(f)
-    stats = payload["specificAreaJson"]["statistics"]
+    stats = (payload.get("specificAreaJson") or {}).get("statistics") or []
     rows: list[list] = []
     for rec in stats:
         half = 1 if rec.get("period") == "상반기" else 2
@@ -163,6 +166,7 @@ def build(raw_dir: str) -> dict:
 
 
 def _download(raw_dir: str) -> None:
+    import time
     os.makedirs(raw_dir, exist_ok=True)
 
     def fetch(url: str, dest: str) -> None:
@@ -175,6 +179,7 @@ def _download(raw_dir: str) -> None:
     for year in KAKAO_YEARS:
         for half in (1, 2):
             fetch(KAKAO_URL.format(year=year, half=half), f"kakao-{year}-h{half}.json")
+            time.sleep(0.5)  # be polite: don't hammer the endpoint / trip bot protection
     fetch(NAVER_URL, "naver-statistics.json")
     print(f"downloaded {2 * len(KAKAO_YEARS) + 1} JSON payloads -> {raw_dir}")
 
