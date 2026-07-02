@@ -166,12 +166,12 @@ def parse_strava(slug, path):
             continue
         if in_header:
             # Skip the column-header word-wrap; the first data row is TOTAL.
-            if t == "TOTAL":
+            if t.strip(" .").upper() == "TOTAL":
                 in_header = False
                 label_parts = ["TOTAL"]
             continue
         v, unit = _num(t)
-        if unit == "count" and "." not in t:         # rows are integer counts
+        if unit == "count" and isinstance(v, int):   # rows are integer counts
             nums.append((pageno, int(v)))
             if len(nums) == 6:                       # a complete data row
                 label = " ".join(label_parts).strip(" .")
