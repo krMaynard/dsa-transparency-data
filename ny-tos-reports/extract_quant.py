@@ -110,18 +110,33 @@ def melt_generic(slug, path):
     return out
 
 
-# Strava lays its six enforcement tables out as a label line followed by exactly
-# six numeric lines (PyMuPDF can't reconstruct the grid). Each table's six
-# columns are the same shape; capture them positionally.
-_STRAVA_SECTIONS = {
-    "Flagged Items of Content": "flagged",
-    "Actioned Items of Content.": "actioned",
-    "Actioned Items of Content Resulting in User or Group of User Action":
-        "actioned_user_action",
-}
-_STRAVA_COLS = ["total", "flagged_by_users", "flagged_by_employees",
-                "flagged_by_technology", "actioned_by_employees",
-                "actioned_by_technology"]
+# Strava lays each enforcement table out as a label line followed by exactly six
+# numeric lines (PyMuPDF can't reconstruct the grid). The report has six tables;
+# five carry data (the impressions one is a prose "we don't track this" note).
+# Longest heading first so "…Resulting in…"/"…by User Sharing Data" match before
+# the bare "Actioned Items of Content" prefix. Each table's first data row is its
+# TOTAL row, so everything between the heading and the literal "TOTAL" line is
+# column-header word-wrap and gets skipped.
+_STRAVA_SHARED_COLS = ["flagged_by_users", "flagged_by_employees",
+                       "flagged_by_technology", "actioned_by_employees",
+                       "actioned_by_technology"]
+_STRAVA_SECTIONS = [
+    # (heading prefix, section key, column names for the 6 numeric cells)
+    ("Actioned Items of Content Resulting in User or Group of User Action",
+     "actioned_user_action", ["actions_against_users"] + _STRAVA_SHARED_COLS),
+    ("Actioned Items of Content by User Sharing Data",
+     "actioned_shared", ["times_shared"] + _STRAVA_SHARED_COLS),
+    ("Actioned Items by Impression Data",
+     "impressions", None),                       # no data: Strava doesn't track it
+    ("Actioned Items of Content",
+     "actioned", ["actioned_total"] + _STRAVA_SHARED_COLS),
+    ("Flagged Items of Content",
+     "flagged", ["flagged_total"] + _STRAVA_SHARED_COLS),
+    ("User Appeals of Strava Actions",
+     "appeals", ["appeals", "reversed_content_restored",
+                 "reversed_content_not_restored", "upheld_changed_enforcement",
+                 "upheld_no_change", "no_action"]),
+]
 
 
 def parse_strava(slug, path):
@@ -134,24 +149,34 @@ def parse_strava(slug, path):
                 if t:
                     lines.append((page.number + 1, t))
 
-    section = None
+    section, cols = None, None
+    in_header = False         # between a table heading and its TOTAL row
     label_parts = []
     nums = []
     for pageno, t in lines:
-        for name, key in _STRAVA_SECTIONS.items():
+        matched = False
+        for name, key, section_cols in _STRAVA_SECTIONS:
             if t.startswith(name):
-                section = key
+                section, cols = key, section_cols
+                in_header = True
                 label_parts, nums = [], []
+                matched = True
                 break
-        if section is None:
+        if matched or section is None or cols is None:
+            continue
+        if in_header:
+            # Skip the column-header word-wrap; the first data row is TOTAL.
+            if t == "TOTAL":
+                in_header = False
+                label_parts = ["TOTAL"]
             continue
         v, unit = _num(t)
-        if unit == "count":
+        if unit == "count" and "." not in t:         # rows are integer counts
             nums.append((pageno, int(v)))
             if len(nums) == 6:                       # a complete data row
                 label = " ".join(label_parts).strip(" .")
                 if label and not _is_numeric_artifact(label):
-                    for col, (pg, val) in zip(_STRAVA_COLS, nums):
+                    for col, (pg, val) in zip(cols, nums):
                         out.append(dict(company=slug, period=PERIOD, page=pg,
                                         table_label=section, row_label=label,
                                         column=col, value=val, unit="count",
@@ -160,7 +185,7 @@ def parse_strava(slug, path):
         else:
             if nums:                                 # text after a partial row → reset
                 label_parts, nums = [], []
-            # skip the verbose column-header sentences
+            # skip stray footer/header fragments
             if not t.lower().startswith("number of") and len(t) < 70:
                 label_parts.append(t)
     return out
