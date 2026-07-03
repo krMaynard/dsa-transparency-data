@@ -147,26 +147,236 @@ reddit-inc,2025 Q3,7,Sanction Type,Terrorism,% of appeals that resulted in a rev
 reddit-inc,2025 Q3,7,Sanction Type,Terrorism,% of appeals that resulted in a reversal of action,0.5,percent,0.5%
 reddit-inc,2025 Q3,7,Sanction Type,Terrorism,Appeals Volume,364,count,364
 reddit-inc,2025 Q3,7,Sanction Type,Terrorism,Appeals Volume,372,count,372
-roblox-corporation,2025 Q3,4,CATEGORY,Content total,TOTAL ACTIONS,317536,count,"317,536"
-roblox-corporation,2025 Q3,4,CATEGORY,Grand total,TOTAL ACTIONS,19948712,count,"19,948,712"
-roblox-corporation,2025 Q3,5,IDENTIFICATION SOURCE,Grand total,TOTAL ACTIONS,19948712,count,"19,948,712"
-roblox-corporation,2025 Q3,5,VIOLATION CATEGORY,Grand total,TOTAL ACTIONS,19948712,count,"19,948,712"
-roblox-corporation,2025 Q3,6,CATEGORY,Content total,TOTAL ACTIONS,317536,count,"317,536"
-roblox-corporation,2025 Q3,6,CATEGORY,Grand total,TOTAL ACTIONS,19948712,count,"19,948,712"
-roblox-corporation,2025 Q3,6,TYPE OF ACTION,Grand total,TOTAL ACTIONS,19948712,count,"19,948,712"
-roblox-corporation,2025 Q3,7,VIOLATION CATEGORY,Grand total,,19842852,count,"19,842,852"
-roblox-corporation,2025 Q3,8,TYPE OF ACTION,Grand total,ACTIONS WITH USER CONSEQUENCES,19842852,count,"19,842,852"
-roblox-corporation,2025 Q3,9,MEDIA TYPE,Grand total,CONTENT REMOVED,317536,count,"317,536"
-roblox-corporation,2025 Q3,9,VIOLATION CATEGORY,Grand total,CONTENT REMOVED,317536,count,"317,536"
-roblox-corporation,2025 Q3,10,"Discrimination, Slurs, and Hate Speech Terrorism and Violent Extremism Threats, Bullying, and Harassment",Grand total,,430858,count,"430,858"
-roblox-corporation,2025 Q3,10,"Discrimination, Slurs, and Hate Speech Terrorism and Violent Extremism Threats, Bullying, and Harassment",Grand total,,4581601,count,"4,581,601"
-roblox-corporation,2025 Q3,10,TYPE OF ACTION,Grand total,CONTENT REMOVED,317536,count,"317,536"
-roblox-corporation,2025 Q3,11,CATEGORY,Account,,12,count,12
-roblox-corporation,2025 Q3,11,CATEGORY,Account,,1090,count,"1,090"
-roblox-corporation,2025 Q3,11,CATEGORY,Content total,,24797,count,"24,797"
-roblox-corporation,2025 Q3,11,CATEGORY,Content total,,272251,count,"272,251"
-roblox-corporation,2025 Q3,11,CATEGORY,Grand total,,430858,count,"430,858"
-roblox-corporation,2025 Q3,11,CATEGORY,Grand total,,4581601,count,"4,581,601"
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Account / Chat,Total Actions,17156020,count,17156020
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Account / Voice,Total Actions,2475156,count,2475156
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Account total,Total Actions,19631176,count,19631176
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Ads,Total Actions,16,count,16
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Audio,Total Actions,80171,count,80171
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Avatar Item,Total Actions,82,count,82
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Community,Total Actions,1434,count,1434
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Image,Total Actions,213845,count,213845
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Model,Total Actions,1373,count,1373
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Place,Total Actions,6428,count,6428
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / User Profile,Total Actions,2531,count,2531
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content / Video,Total Actions,11656,count,11656
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Content total,Total Actions,317536,count,317536
+roblox-corporation,2025 Q3,4,Category × Media Type → Total Actions,Grand total,Total Actions,19948712,count,19948712
+roblox-corporation,2025 Q3,4,Violation Category → Total Flagged,"Discrimination, Slurs, and Hate Speech",Total Flagged,3419816,count,3419816
+roblox-corporation,2025 Q3,4,Violation Category → Total Flagged,Grand total,Total Flagged,19948712,count,19948712
+roblox-corporation,2025 Q3,4,Violation Category → Total Flagged,Terrorism and Violent Extremism,Total Flagged,14226,count,14226
+roblox-corporation,2025 Q3,4,Violation Category → Total Flagged,"Threats, Bullying, and Harassment",Total Flagged,16514670,count,16514670
+roblox-corporation,2025 Q3,5,Identification Source → Total Actions,Abuse Report,Total Actions,19640245,count,19640245
+roblox-corporation,2025 Q3,5,Identification Source → Total Actions,Grand total,Total Actions,19948712,count,19948712
+roblox-corporation,2025 Q3,5,Identification Source → Total Actions,Machine Detection,Total Actions,308385,count,308385
+roblox-corporation,2025 Q3,5,Identification Source → Total Actions,Moderator Review,Total Actions,82,count,82
+roblox-corporation,2025 Q3,5,Violation Category → Total Actions,"Discrimination, Slurs, and Hate Speech",Total Actions,3419816,count,3419816
+roblox-corporation,2025 Q3,5,Violation Category → Total Actions,Grand total,Total Actions,19948712,count,19948712
+roblox-corporation,2025 Q3,5,Violation Category → Total Actions,Terrorism and Violent Extremism,Total Actions,14226,count,14226
+roblox-corporation,2025 Q3,5,Violation Category → Total Actions,"Threats, Bullying & Harassment",Total Actions,16514670,count,16514670
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Account / Chat,Total Actions,17156020,count,17156020
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Account / Voice,Total Actions,2475156,count,2475156
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Account total,Total Actions,19631176,count,19631176
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Ads,Total Actions,16,count,16
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Audio,Total Actions,80171,count,80171
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Avatar Item,Total Actions,82,count,82
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Community,Total Actions,1434,count,1434
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Image,Total Actions,213845,count,213845
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Model,Total Actions,1373,count,1373
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Place,Total Actions,6428,count,6428
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / User Profile,Total Actions,2531,count,2531
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content / Video,Total Actions,11656,count,11656
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Content total,Total Actions,317536,count,317536
+roblox-corporation,2025 Q3,6,Category × Media Type → Total Actions (#2),Grand total,Total Actions,19948712,count,19948712
+roblox-corporation,2025 Q3,6,Type Of Action → Total Actions,Automated,Total Actions,19584734,count,19584734
+roblox-corporation,2025 Q3,6,Type Of Action → Total Actions,Grand total,Total Actions,19948712,count,19948712
+roblox-corporation,2025 Q3,6,Type Of Action → Total Actions,Manual,Total Actions,237866,count,237866
+roblox-corporation,2025 Q3,6,Type Of Action → Total Actions,Unclassified,Total Actions,126112,count,126112
+roblox-corporation,2025 Q3,7,Violation Category → Actions With User Consequences,"Discrimination, Slurs, and Hate Speech",Actions With User Consequences,3393157,count,3393157
+roblox-corporation,2025 Q3,7,Violation Category → Actions With User Consequences,Grand total,Actions With User Consequences,19842852,count,19842852
+roblox-corporation,2025 Q3,7,Violation Category → Actions With User Consequences,Terrorism and Violent Extremism,Actions With User Consequences,286,count,286
+roblox-corporation,2025 Q3,7,Violation Category → Actions With User Consequences,"Threats, Bullying & Harassment",Actions With User Consequences,16449409,count,16449409
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Account / Chat,Actions With User Consequences,17156020,count,17156020
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Account / Voice,Actions With User Consequences,2475156,count,2475156
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Account total,Actions With User Consequences,19631176,count,19631176
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Ads,Actions With User Consequences,0,count,0
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Audio,Actions With User Consequences,6932,count,6932
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Avatar Item,Actions With User Consequences,0,count,0
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Community,Actions With User Consequences,1434,count,1434
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Image,Actions With User Consequences,194945,count,194945
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Model,Actions With User Consequences,1100,count,1100
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Place,Actions With User Consequences,4535,count,4535
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / User Profile,Actions With User Consequences,2531,count,2531
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content / Video,Actions With User Consequences,199,count,199
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Content total,Actions With User Consequences,211676,count,211676
+roblox-corporation,2025 Q3,8,Category × Media Type → Actions With User Consequences,Grand total,Actions With User Consequences,19842852,count,19842852
+roblox-corporation,2025 Q3,8,Type Of Action → Actions With User Consequences,Automated,Actions With User Consequences,19481567,count,19481567
+roblox-corporation,2025 Q3,8,Type Of Action → Actions With User Consequences,Grand total,Actions With User Consequences,19842852,count,19842852
+roblox-corporation,2025 Q3,8,Type Of Action → Actions With User Consequences,Manual,Actions With User Consequences,235173,count,235173
+roblox-corporation,2025 Q3,8,Type Of Action → Actions With User Consequences,Unclassified,Actions With User Consequences,126112,count,126112
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Ads,Content Removed,16,count,16
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Audio,Content Removed,80171,count,80171
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Avatar Item,Content Removed,82,count,82
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Community,Content Removed,1434,count,1434
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Grand total,Content Removed,317536,count,317536
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Image,Content Removed,213845,count,213845
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Model,Content Removed,1373,count,1373
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Place,Content Removed,6428,count,6428
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,User Profile,Content Removed,2531,count,2531
+roblox-corporation,2025 Q3,9,Media Type → Content Removed,Video,Content Removed,11656,count,11656
+roblox-corporation,2025 Q3,9,Violation Category → Content Removed,"Discrimination, Slurs, and Hate Speech",Content Removed,206530,count,206530
+roblox-corporation,2025 Q3,9,Violation Category → Content Removed,Grand total,Content Removed,317536,count,317536
+roblox-corporation,2025 Q3,9,Violation Category → Content Removed,Terrorism and Violent Extremism,Content Removed,14037,count,14037
+roblox-corporation,2025 Q3,9,Violation Category → Content Removed,"Threats, Bullying & Harassment",Content Removed,96969,count,96969
+roblox-corporation,2025 Q3,10,Type Of Action → Content Removed,Automated,Content Removed,227436,count,227436
+roblox-corporation,2025 Q3,10,Type Of Action → Content Removed,Grand total,Content Removed,317536,count,317536
+roblox-corporation,2025 Q3,10,Type Of Action → Content Removed,Manual,Content Removed,87122,count,87122
+roblox-corporation,2025 Q3,10,Type Of Action → Content Removed,Unclassified,Content Removed,2978,count,2978
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,"Discrimination, Slurs, and Hate Speech",Approved Appeals,81350,count,81350
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,"Discrimination, Slurs, and Hate Speech",Total Appeals,582318,count,582318
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,Grand total,Approved Appeals,430858,count,430858
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,Grand total,Total Appeals,4581601,count,4581601
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,Terrorism and Violent Extremism,Approved Appeals,7056,count,7056
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,Terrorism and Violent Extremism,Total Appeals,20089,count,20089
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,"Threats, Bullying, and Harassment",Approved Appeals,342452,count,342452
+roblox-corporation,2025 Q3,10,Violation Category → Approved Appeals / Total Appeals,"Threats, Bullying, and Harassment",Total Appeals,3979194,count,3979194
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account / Account,Approved Appeals,12,count,12
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account / Account,Total Appeals,1090,count,1090
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account / Chat,Approved Appeals,362841,count,362841
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account / Chat,Total Appeals,3628612,count,3628612
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account / Voice,Approved Appeals,43208,count,43208
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account / Voice,Total Appeals,679648,count,679648
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account total,Approved Appeals,406061,count,406061
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Account total,Total Appeals,4309350,count,4309350
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Audio,Approved Appeals,4351,count,4351
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Audio,Total Appeals,10382,count,10382
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Avatar,Approved Appeals,9665,count,9665
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Avatar,Total Appeals,26962,count,26962
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Avatar Item,Approved Appeals,235,count,235
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Avatar Item,Total Appeals,1457,count,1457
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Community,Approved Appeals,0,count,0
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Community,Total Appeals,60,count,60
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Image,Approved Appeals,7238,count,7238
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Image,Total Appeals,26438,count,26438
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Model,Approved Appeals,22,count,22
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Model,Total Appeals,92,count,92
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Place,Approved Appeals,606,count,606
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Place,Total Appeals,1529,count,1529
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Text,Approved Appeals,2367,count,2367
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Text,Total Appeals,162222,count,162222
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Unclassified,Approved Appeals,48,count,48
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Unclassified,Total Appeals,42386,count,42386
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / User Profile,Approved Appeals,58,count,58
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / User Profile,Total Appeals,397,count,397
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Video,Approved Appeals,207,count,207
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content / Video,Total Appeals,326,count,326
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content total,Approved Appeals,24797,count,24797
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Content total,Total Appeals,272251,count,272251
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Grand total,Approved Appeals,430858,count,430858
+roblox-corporation,2025 Q3,11,Category × Media Type → Approved Appeals / Total Appeals,Grand total,Total Appeals,4581601,count,4581601
+snap-inc,2025 Q3,4,human_report,False Information,accounts_enforced_automated,593,count,593
+snap-inc,2025 Q3,4,human_report,False Information,accounts_enforced_human,113,count,113
+snap-inc,2025 Q3,4,human_report,False Information,content_enforced_automated,593,count,593
+snap-inc,2025 Q3,4,human_report,False Information,content_enforced_human,145,count,145
+snap-inc,2025 Q3,4,human_report,False Information,flagged_total,386210,count,386210
+snap-inc,2025 Q3,4,human_report,False Information,lock_appeals_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,False Information,lock_appeals_human,1,count,1
+snap-inc,2025 Q3,4,human_report,False Information,reinstated_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,False Information,reinstated_human,0,count,0
+snap-inc,2025 Q3,4,human_report,False Information,unique_viewer_rate_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,human_report,False Information,unique_viewer_rate_human_pct,0.01,percent,0.01
+snap-inc,2025 Q3,4,human_report,False Information,vvr_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,human_report,False Information,vvr_human_pct,3e-06,percent,3e-06
+snap-inc,2025 Q3,4,human_report,Harassment,accounts_enforced_automated,491972,count,491972
+snap-inc,2025 Q3,4,human_report,Harassment,accounts_enforced_human,624142,count,624142
+snap-inc,2025 Q3,4,human_report,Harassment,content_enforced_automated,604798,count,604798
+snap-inc,2025 Q3,4,human_report,Harassment,content_enforced_human,756736,count,756736
+snap-inc,2025 Q3,4,human_report,Harassment,flagged_total,3184734,count,3184734
+snap-inc,2025 Q3,4,human_report,Harassment,lock_appeals_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,Harassment,lock_appeals_human,700,count,700
+snap-inc,2025 Q3,4,human_report,Harassment,reinstated_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,Harassment,reinstated_human,17,count,17
+snap-inc,2025 Q3,4,human_report,Harassment,unique_viewer_rate_automated_pct,0.35,percent,0.35
+snap-inc,2025 Q3,4,human_report,Harassment,unique_viewer_rate_human_pct,1.93,percent,1.93
+snap-inc,2025 Q3,4,human_report,Harassment,vvr_automated_pct,0.000168,percent,0.000168
+snap-inc,2025 Q3,4,human_report,Harassment,vvr_human_pct,0.001135,percent,0.001135
+snap-inc,2025 Q3,4,human_report,Hate Speech,accounts_enforced_automated,18343,count,18343
+snap-inc,2025 Q3,4,human_report,Hate Speech,accounts_enforced_human,123835,count,123835
+snap-inc,2025 Q3,4,human_report,Hate Speech,content_enforced_automated,20679,count,20679
+snap-inc,2025 Q3,4,human_report,Hate Speech,content_enforced_human,144389,count,144389
+snap-inc,2025 Q3,4,human_report,Hate Speech,flagged_total,482240,count,482240
+snap-inc,2025 Q3,4,human_report,Hate Speech,lock_appeals_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,Hate Speech,lock_appeals_human,94,count,94
+snap-inc,2025 Q3,4,human_report,Hate Speech,reinstated_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,Hate Speech,reinstated_human,5,count,5
+snap-inc,2025 Q3,4,human_report,Hate Speech,unique_viewer_rate_automated_pct,0.01,percent,0.01
+snap-inc,2025 Q3,4,human_report,Hate Speech,unique_viewer_rate_human_pct,0.41,percent,0.41
+snap-inc,2025 Q3,4,human_report,Hate Speech,vvr_automated_pct,4e-06,percent,4e-06
+snap-inc,2025 Q3,4,human_report,Hate Speech,vvr_human_pct,0.000205,percent,0.000205
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,accounts_enforced_automated,54,count,54
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,accounts_enforced_human,468,count,468
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,content_enforced_automated,54,count,54
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,content_enforced_human,559,count,559
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,flagged_total,199245,count,199245
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,lock_appeals_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,lock_appeals_human,199,count,199
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,reinstated_automated,0,count,0
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,reinstated_human,1,count,1
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,unique_viewer_rate_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,unique_viewer_rate_human_pct,0.07,percent,0.07
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,vvr_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,human_report,Terrorism & Violent Extremism,vvr_human_pct,3.7e-05,percent,3.7e-05
+snap-inc,2025 Q3,4,proactive_detection,False Information,accounts_enforced_automated,0,count,0
+snap-inc,2025 Q3,4,proactive_detection,False Information,accounts_enforced_human,10,count,10
+snap-inc,2025 Q3,4,proactive_detection,False Information,content_enforced_automated,0,count,0
+snap-inc,2025 Q3,4,proactive_detection,False Information,content_enforced_human,10,count,10
+snap-inc,2025 Q3,4,proactive_detection,False Information,flagged_total,262,count,262
+snap-inc,2025 Q3,4,proactive_detection,False Information,lock_appeals_automated,0,count,0
+snap-inc,2025 Q3,4,proactive_detection,False Information,lock_appeals_human,1,count,1
+snap-inc,2025 Q3,4,proactive_detection,False Information,reinstated_automated,0,count,0
+snap-inc,2025 Q3,4,proactive_detection,False Information,reinstated_human,0,count,0
+snap-inc,2025 Q3,4,proactive_detection,False Information,unique_viewer_rate_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,False Information,unique_viewer_rate_human_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,False Information,vvr_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,False Information,vvr_human_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Harassment,accounts_enforced_automated,1428,count,1428
+snap-inc,2025 Q3,4,proactive_detection,Harassment,accounts_enforced_human,7670,count,7670
+snap-inc,2025 Q3,4,proactive_detection,Harassment,content_enforced_automated,1583,count,1583
+snap-inc,2025 Q3,4,proactive_detection,Harassment,content_enforced_human,8972,count,8972
+snap-inc,2025 Q3,4,proactive_detection,Harassment,flagged_total,12293,count,12293
+snap-inc,2025 Q3,4,proactive_detection,Harassment,lock_appeals_automated,13442,count,13442
+snap-inc,2025 Q3,4,proactive_detection,Harassment,lock_appeals_human,17,count,17
+snap-inc,2025 Q3,4,proactive_detection,Harassment,reinstated_automated,97,count,97
+snap-inc,2025 Q3,4,proactive_detection,Harassment,reinstated_human,1,count,1
+snap-inc,2025 Q3,4,proactive_detection,Harassment,unique_viewer_rate_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Harassment,unique_viewer_rate_human_pct,0.02,percent,0.02
+snap-inc,2025 Q3,4,proactive_detection,Harassment,vvr_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Harassment,vvr_human_pct,7e-06,percent,7e-06
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,accounts_enforced_automated,29,count,29
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,accounts_enforced_human,2029,count,2029
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,content_enforced_automated,32,count,32
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,content_enforced_human,2441,count,2441
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,flagged_total,3073,count,3073
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,lock_appeals_automated,1164,count,1164
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,lock_appeals_human,7,count,7
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,reinstated_automated,15,count,15
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,reinstated_human,1,count,1
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,unique_viewer_rate_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,unique_viewer_rate_human_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,vvr_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Hate Speech,vvr_human_pct,2e-06,percent,2e-06
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,accounts_enforced_automated,0,count,0
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,accounts_enforced_human,3754,count,3754
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,content_enforced_automated,0,count,0
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,content_enforced_human,5901,count,5901
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,flagged_total,12240,count,12240
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,lock_appeals_automated,38,count,38
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,lock_appeals_human,11,count,11
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,reinstated_automated,6,count,6
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,reinstated_human,1,count,1
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,unique_viewer_rate_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,unique_viewer_rate_human_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,vvr_automated_pct,0.0,percent,0.0
+snap-inc,2025 Q3,4,proactive_detection,Terrorism & Violent Extremism,vvr_human_pct,0.0,percent,0.0
 strava-inc,2025 Q3,3,flagged,Harassment,actioned_by_employees,1040,count,1040
 strava-inc,2025 Q3,3,flagged,Harassment,actioned_by_technology,30,count,30
 strava-inc,2025 Q3,3,flagged,Harassment,flagged_by_employees,7,count,7

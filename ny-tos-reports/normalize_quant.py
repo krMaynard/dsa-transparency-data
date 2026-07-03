@@ -111,10 +111,35 @@ DISPOSITIONS = {
         "MACHINE DETECTION": ("dimension",),
     },
     "roblox-corporation": {
-        # Only total-grain rows survived extraction (see NORMALIZATION.md);
-        # Roblox therefore contributes no normalized rows.
+        # Roblox's appendix explicitly equates its Community Standards to the
+        # statute's categories ("Extremism or Radicalization" ⇔ "Terrorism and
+        # Violent Extremism", etc.), so these mappings are the company's own.
+        "Discrimination, Slurs, and Hate Speech": ("map", "A"),
+        "Terrorism and Violent Extremism": ("map", "B"),
+        "Threats, Bullying, and Harassment": ("map", "D"),
+        "Threats, Bullying & Harassment": ("map", "D"),   # spelling varies
         "Grand total": ("total",), "Content total": ("total",),
-        "Account": ("dimension",),
+        "Account total": ("total",),
+        # Media-type / channel / detection-method / action-type breakdowns:
+        **{lab: ("dimension",) for lab in (
+            "Account", "Account / Account", "Account / Chat", "Account / Voice",
+            "Ads", "Audio", "Avatar Item", "Community", "Image", "Model",
+            "Place", "Unclassified", "User Profile", "Video",
+            "Content / Ads", "Content / Audio", "Content / Avatar",
+            "Content / Avatar Item", "Content / Community", "Content / Image",
+            "Content / Model", "Content / Place", "Content / Text",
+            "Content / Unclassified", "Content / User Profile",
+            "Content / Video",
+            "Abuse Report", "Machine Detection", "Moderator Review",
+            "Automated", "Manual",
+        )},
+    },
+    "snap-inc": {
+        # Snap's single enforcement table uses near-statute category names.
+        "Hate Speech": ("map", "A"),
+        "Terrorism & Violent Extremism": ("map", "B"),
+        "False Information": ("map", "C"),
+        "Harassment": ("map", "D"),
     },
     "strava-inc": {
         "Hateful Content": ("map", "A"),
