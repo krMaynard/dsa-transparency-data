@@ -87,8 +87,8 @@ def build(raw_dir: str) -> dict:
     registry = _read_registry(path)
     counts: dict[tuple[str, str], int] = {}
     for r in registry:
-        period = _period(r["民國年月"])
-        category = re.sub(r"\s+", " ", r["網站性質"]).strip() or "不詳"
+        period = _period(r.get("民國年月") or "")
+        category = re.sub(r"\s+", " ", r.get("網站性質") or "").strip() or "不詳"
         counts[(period, category)] = counts.get((period, category), 0) + 1
     rows = [["NPA-165", period, "dns_blocked_sites", category,
              "sites_blocked", "count", n]
