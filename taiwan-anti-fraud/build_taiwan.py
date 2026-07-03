@@ -119,12 +119,18 @@ def _download(raw_dir: str) -> None:
     new = [r for r in reader if (r.get("網域") or "").strip()]
     seen = set()
     merged: list[dict[str, str]] = []
+    # Normalise every cell to a stripped string for both the dedupe key and the
+    # sort key: a short row parses as None here but as "" after a write/re-read
+    # round-trip, which would otherwise defeat the dedupe and crash the sort.
+    def _key(r: dict[str, str]) -> tuple[str, ...]:
+        return tuple((r.get(c) or "").strip() for c in EXPECTED_HEADER)
+
     for r in new + old:  # fresh rows win; dedupe on the full row
-        key = tuple(r[c] for c in EXPECTED_HEADER)
+        key = _key(r)
         if key not in seen:
             seen.add(key)
             merged.append(r)
-    merged.sort(key=lambda r: tuple(r[c] for c in EXPECTED_HEADER))
+    merged.sort(key=_key)
     with open(path, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=EXPECTED_HEADER)
         writer.writeheader()
