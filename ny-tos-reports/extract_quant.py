@@ -210,7 +210,9 @@ _SNAP_MANNERS = {("Human", "Report"): "human_report",
 def parse_snap(slug, path):
     out = []
     with fitz.open(path) as doc:
-        page = next((p for p in doc if "Violative View Rate" in p.get_text()), None)
+        page = next((p for p in doc
+                     if "Violative View Rate" in p.get_text()
+                     and "Hate Speech" in p.get_text()), None)
         if page is None:
             return out
         pageno = page.number + 1
@@ -225,6 +227,8 @@ def parse_snap(slug, path):
         toks = t.split()
         vals = [_num(tok) for tok in toks]
         if toks and all(u is not None for _, u in vals):
+            if category is None or manner is None:
+                continue                         # stray page furniture before the table
             # an all-numeric line ("3,184,734 756,736" carries two cells)
             nums.extend(vals)
             if len(nums) >= len(_SNAP_COLS):
@@ -298,6 +302,7 @@ def parse_roblox(slug, path):
             if lines[j][1] in _ROBLOX_VALUE_HEADERS:
                 vals.append(lines[j][1]); j += 1
             elif (j + 1 < len(lines)
+                  and lines[j][0] == lines[j + 1][0]
                   and lines[j][1] + " " + lines[j + 1][1] in _ROBLOX_VALUE_HEADERS):
                 vals.append(lines[j][1] + " " + lines[j + 1][1]); j += 2
             else:
@@ -338,7 +343,7 @@ def parse_roblox(slug, path):
                 row_vals.append(v); k += 1
             if len(row_vals) != len(vals):
                 break
-            row_label = f"{group} / {label}" if group and "total" not in label else label
+            row_label = f"{group} / {label}" if group and "total" not in label.lower() else label
             for col, v in zip(vals, row_vals):
                 out.append(dict(company=slug, period=PERIOD, page=rpg,
                                 table_label=table, row_label=row_label,
