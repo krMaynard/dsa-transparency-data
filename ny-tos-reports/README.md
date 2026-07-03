@@ -86,20 +86,20 @@ python3 extract_quant.py     # reads pdfs/, writes ny_tos_quant.csv / .json
 Columns: `company`, `period`, `page`, `table_label`, `row_label`, `column`,
 `value`, `unit` (`count` / `percent`), `raw`.
 
-**Coverage (2025 Q3, 1,272 cells from 6 of the 11 archived reports):**
+**Coverage (2025 Q3, 1,482 cells from 7 of the 11 archived reports):**
 
 | Report | Cells | Notes |
 |--------|------:|-------|
-| Strava | 1,104 | category × content-format rows across its 5 data tables (flagged / actioned / actions-against-users / times-shared / appeals), 6 columns each |
+| Strava | 1,104 | category × content-format rows across its 5 data tables (flagged / actioned / actions-against-users / times-shared / appeals), 6 columns each — bespoke parser |
+| Roblox | 126 | per-category + media-type / detection-source / action-type tables (flagged / actioned / user consequences / removed / appeals) — bespoke parser |
+| Snap | 104 | 4 near-statute categories × Human-Report/Proactive-Detection × 13 measures (incl. Violative View Rates) — bespoke parser; its *policy* pages are screenshots but the data table is real text |
 | LinkedIn | 49 | by category (Hateful & derogatory / Dangerous orgs / False & misleading / Harassment) |
 | Discord | 38 | by the **Stop Hiding Hate Act categories** (hate speech/racism, extremism, disinformation, harassment, foreign interference) × action |
 | Naver | 37 | by category + flagging method |
 | Reddit | 24 | by violation type, with automation/user-report split + appeals |
-| Roblox | 20 | section totals (content actioned / removed / appeals) |
 
-The other five carry **no extractable enforcement statistics**: X, TikTok, Meta,
-and Vimeo are narrative ToS / policy text (no count tables), and **Snap** is an
-image-based PDF whose figures live in graphics (would need OCR). The script lists
+The other four carry **no extractable enforcement statistics**: X, TikTok, Meta,
+and Vimeo are narrative ToS / policy text (no count tables). The script lists
 these explicitly rather than silently dropping them.
 
 Best-effort and **not run by CI** (needs `pymupdf`; PDF table detection is
@@ -113,15 +113,16 @@ hate-speech = 279).
 Only Discord reports in the statute's own five categories; everyone else uses
 their own taxonomy. `normalize_quant.py` maps each company's *category* labels
 onto the SHHA five via a curated, exhaustive, fail-loud disposition table and
-writes [`ny_tos_normalized.csv`](ny_tos_normalized.csv) (968 cells; stdlib-only,
-deterministic from `ny_tos_quant.csv`). Metrics are **not** normalized — they
-stay in each company's own terms and are not comparable across companies.
+writes [`ny_tos_normalized.csv`](ny_tos_normalized.csv) (1,090 cells;
+stdlib-only, deterministic from `ny_tos_quant.csv`). Metrics are **not**
+normalized — they stay in each company's own terms and are not comparable
+across companies.
 
 **Read [`NORMALIZATION.md`](NORMALIZATION.md) before using this file** — it
 documents the full methodology, every mapping judgment (e.g. Reddit
-*Terrorism* → extremism ⚠), the coverage matrix, and the caveats (global-not-NY
-scope, one quarter only, Roblox contributes no rows, no company reports foreign
-political interference numbers).
+*Terrorism* → extremism ⚠; Roblox's mappings come from its own appendix
+cross-references), the coverage matrix, and the caveats (global-not-NY scope,
+one quarter only, no company reports foreign political interference numbers).
 
 ```bash
 python3 normalize_quant.py   # ny_tos_quant.csv → ny_tos_normalized.csv

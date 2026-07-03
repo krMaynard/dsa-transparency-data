@@ -97,6 +97,128 @@ reddit-inc,2025 Q3,hate_speech_or_racism,Hateful content,,category_total,Violati
 reddit-inc,2025 Q3,hate_speech_or_racism,Hateful content,,category_total,Violation Type,Flagged by Reddit automation,77.2,percent,6
 reddit-inc,2025 Q3,hate_speech_or_racism,Hateful content,,category_total,Violation Type,User Reports,22.8,percent,6
 reddit-inc,2025 Q3,hate_speech_or_racism,Hateful content,,category_total,Violation Type,Volume,98798,count,6
+roblox-corporation,2025 Q3,extremism_or_radicalization,Terrorism and Violent Extremism,,category_total,Violation Category → Actions With User Consequences,Actions With User Consequences,286,count,7
+roblox-corporation,2025 Q3,extremism_or_radicalization,Terrorism and Violent Extremism,,category_total,Violation Category → Approved Appeals / Total Appeals,Approved Appeals,7056,count,10
+roblox-corporation,2025 Q3,extremism_or_radicalization,Terrorism and Violent Extremism,,category_total,Violation Category → Approved Appeals / Total Appeals,Total Appeals,20089,count,10
+roblox-corporation,2025 Q3,extremism_or_radicalization,Terrorism and Violent Extremism,,category_total,Violation Category → Content Removed,Content Removed,14037,count,9
+roblox-corporation,2025 Q3,extremism_or_radicalization,Terrorism and Violent Extremism,,category_total,Violation Category → Total Actions,Total Actions,14226,count,5
+roblox-corporation,2025 Q3,extremism_or_radicalization,Terrorism and Violent Extremism,,category_total,Violation Category → Total Flagged,Total Flagged,14226,count,4
+roblox-corporation,2025 Q3,harassment,"Threats, Bullying & Harassment",,category_total,Violation Category → Actions With User Consequences,Actions With User Consequences,16449409,count,7
+roblox-corporation,2025 Q3,harassment,"Threats, Bullying & Harassment",,category_total,Violation Category → Content Removed,Content Removed,96969,count,9
+roblox-corporation,2025 Q3,harassment,"Threats, Bullying & Harassment",,category_total,Violation Category → Total Actions,Total Actions,16514670,count,5
+roblox-corporation,2025 Q3,harassment,"Threats, Bullying, and Harassment",,category_total,Violation Category → Approved Appeals / Total Appeals,Approved Appeals,342452,count,10
+roblox-corporation,2025 Q3,harassment,"Threats, Bullying, and Harassment",,category_total,Violation Category → Approved Appeals / Total Appeals,Total Appeals,3979194,count,10
+roblox-corporation,2025 Q3,harassment,"Threats, Bullying, and Harassment",,category_total,Violation Category → Total Flagged,Total Flagged,16514670,count,4
+roblox-corporation,2025 Q3,hate_speech_or_racism,"Discrimination, Slurs, and Hate Speech",,category_total,Violation Category → Actions With User Consequences,Actions With User Consequences,3393157,count,7
+roblox-corporation,2025 Q3,hate_speech_or_racism,"Discrimination, Slurs, and Hate Speech",,category_total,Violation Category → Approved Appeals / Total Appeals,Approved Appeals,81350,count,10
+roblox-corporation,2025 Q3,hate_speech_or_racism,"Discrimination, Slurs, and Hate Speech",,category_total,Violation Category → Approved Appeals / Total Appeals,Total Appeals,582318,count,10
+roblox-corporation,2025 Q3,hate_speech_or_racism,"Discrimination, Slurs, and Hate Speech",,category_total,Violation Category → Content Removed,Content Removed,206530,count,9
+roblox-corporation,2025 Q3,hate_speech_or_racism,"Discrimination, Slurs, and Hate Speech",,category_total,Violation Category → Total Actions,Total Actions,3419816,count,5
+roblox-corporation,2025 Q3,hate_speech_or_racism,"Discrimination, Slurs, and Hate Speech",,category_total,Violation Category → Total Flagged,Total Flagged,3419816,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,accounts_enforced_automated,593,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,accounts_enforced_human,113,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,content_enforced_automated,593,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,content_enforced_human,145,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,flagged_total,386210,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,lock_appeals_automated,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,lock_appeals_human,1,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,reinstated_automated,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,reinstated_human,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,unique_viewer_rate_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,unique_viewer_rate_human_pct,0.01,percent,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,vvr_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,human_report,vvr_human_pct,3e-06,percent,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,accounts_enforced_automated,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,accounts_enforced_human,10,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,content_enforced_automated,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,content_enforced_human,10,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,flagged_total,262,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,lock_appeals_automated,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,lock_appeals_human,1,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,reinstated_automated,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,reinstated_human,0,count,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,unique_viewer_rate_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,unique_viewer_rate_human_pct,0.0,percent,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,vvr_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,disinformation_or_misinformation,False Information,,category_total,proactive_detection,vvr_human_pct,0.0,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,accounts_enforced_automated,54,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,accounts_enforced_human,468,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,content_enforced_automated,54,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,content_enforced_human,559,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,flagged_total,199245,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,lock_appeals_automated,0,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,lock_appeals_human,199,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,reinstated_automated,0,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,reinstated_human,1,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,unique_viewer_rate_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,unique_viewer_rate_human_pct,0.07,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,vvr_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,human_report,vvr_human_pct,3.7e-05,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,accounts_enforced_automated,0,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,accounts_enforced_human,3754,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,content_enforced_automated,0,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,content_enforced_human,5901,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,flagged_total,12240,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,lock_appeals_automated,38,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,lock_appeals_human,11,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,reinstated_automated,6,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,reinstated_human,1,count,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,unique_viewer_rate_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,unique_viewer_rate_human_pct,0.0,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,vvr_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,extremism_or_radicalization,Terrorism & Violent Extremism,,category_total,proactive_detection,vvr_human_pct,0.0,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,accounts_enforced_automated,491972,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,accounts_enforced_human,624142,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,content_enforced_automated,604798,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,content_enforced_human,756736,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,flagged_total,3184734,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,lock_appeals_automated,0,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,lock_appeals_human,700,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,reinstated_automated,0,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,reinstated_human,17,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,unique_viewer_rate_automated_pct,0.35,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,unique_viewer_rate_human_pct,1.93,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,vvr_automated_pct,0.000168,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,human_report,vvr_human_pct,0.001135,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,accounts_enforced_automated,1428,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,accounts_enforced_human,7670,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,content_enforced_automated,1583,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,content_enforced_human,8972,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,flagged_total,12293,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,lock_appeals_automated,13442,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,lock_appeals_human,17,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,reinstated_automated,97,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,reinstated_human,1,count,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,unique_viewer_rate_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,unique_viewer_rate_human_pct,0.02,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,vvr_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,harassment,Harassment,,category_total,proactive_detection,vvr_human_pct,7e-06,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,accounts_enforced_automated,18343,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,accounts_enforced_human,123835,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,content_enforced_automated,20679,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,content_enforced_human,144389,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,flagged_total,482240,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,lock_appeals_automated,0,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,lock_appeals_human,94,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,reinstated_automated,0,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,reinstated_human,5,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,unique_viewer_rate_automated_pct,0.01,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,unique_viewer_rate_human_pct,0.41,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,vvr_automated_pct,4e-06,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,human_report,vvr_human_pct,0.000205,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,accounts_enforced_automated,29,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,accounts_enforced_human,2029,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,content_enforced_automated,32,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,content_enforced_human,2441,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,flagged_total,3073,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,lock_appeals_automated,1164,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,lock_appeals_human,7,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,reinstated_automated,15,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,reinstated_human,1,count,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,unique_viewer_rate_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,unique_viewer_rate_human_pct,0.0,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,vvr_automated_pct,0.0,percent,4
+snap-inc,2025 Q3,hate_speech_or_racism,Hate Speech,,category_total,proactive_detection,vvr_human_pct,2e-06,percent,4
 strava-inc,2025 Q3,disinformation_or_misinformation,False or misleading information,,category_total,actioned,actioned_by_employees,18,count,6
 strava-inc,2025 Q3,disinformation_or_misinformation,False or misleading information,,category_total,actioned,actioned_by_technology,0,count,6
 strava-inc,2025 Q3,disinformation_or_misinformation,False or misleading information,,category_total,actioned,actioned_total,18,count,6
