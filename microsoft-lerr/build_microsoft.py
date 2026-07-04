@@ -216,7 +216,7 @@ def parse_sheet(ws, period: str, section: str) -> list[tuple[str, str, str, str,
             continue
         got_any = False
         for metric, off in offsets:
-            v = _count(row[country_col + off]) if country_col + off < len(row) else None
+            v = _count(row[country_col + off]) if 0 <= country_col + off < len(row) else None
             if v is not None:
                 rows.append((period, section, country, metric, "count", v))
                 sums[metric] += v
@@ -230,7 +230,9 @@ def parse_sheet(ws, period: str, section: str) -> list[tuple[str, str, str, str,
     for metric, off in offsets:
         if section == "civil" and metric == "requests":
             continue
-        stated = _count(grid[total_ri][country_col + off])
+        total_row = grid[total_ri]
+        stated = (_count(total_row[country_col + off])
+                  if 0 <= country_col + off < len(total_row) else None)
         if stated is not None and stated != sums[metric]:
             known = KNOWN_TOTAL_MISMATCHES.get((period, section, metric))
             if known == (sums[metric], stated):
@@ -248,19 +250,21 @@ def build() -> list[tuple[str, str, str, str, str, int]]:
     for year, half in periods():
         path = os.path.join(RAW_DIR, f"LERR-{year}-{half}.xlsx")
         wb = openpyxl.load_workbook(path, read_only=True, data_only=True)
-        period = f"{year}-{half}"
-        for name in wb.sheetnames:
-            if name not in SECTIONS:
-                raise ValueError(f"{period}: unknown sheet {name!r} — extend SECTIONS")
-            if name == "Sheet1" and len(wb.sheetnames) > 1:
-                # "Sheet1" is the combined report only when it is the sole
-                # sheet (2016-H1); 2024-H2 also carries a tiny scratch Sheet1
-                # (a 2x4 chart-percentage pivot) next to the real sheets.
-                continue
-            section = SECTIONS[name]
-            sheet_period = PERIOD_OVERRIDES.get((period, section), period)
-            rows.extend(parse_sheet(wb[name], sheet_period, section))
-        wb.close()
+        try:
+            period = f"{year}-{half}"
+            for name in wb.sheetnames:
+                if name not in SECTIONS:
+                    raise ValueError(f"{period}: unknown sheet {name!r} — extend SECTIONS")
+                if name == "Sheet1" and len(wb.sheetnames) > 1:
+                    # "Sheet1" is the combined report only when it is the sole
+                    # sheet (2016-H1); 2024-H2 also carries a tiny scratch Sheet1
+                    # (a 2x4 chart-percentage pivot) next to the real sheets.
+                    continue
+                section = SECTIONS[name]
+                sheet_period = PERIOD_OVERRIDES.get((period, section), period)
+                rows.extend(parse_sheet(wb[name], sheet_period, section))
+        finally:
+            wb.close()
     rows.sort()
     return rows
 

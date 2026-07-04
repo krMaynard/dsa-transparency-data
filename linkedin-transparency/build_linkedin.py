@@ -38,6 +38,7 @@ wall-clock. ``--download`` refreshes raw/ from the live page. Pure stdlib.
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import re
@@ -88,12 +89,13 @@ def download() -> None:
 
 
 def _text(fragment: str) -> str:
-    return re.sub(r"\s+", " ", re.sub(r"<[^>]+>|&nbsp;|&amp;", " ", fragment)).strip()
+    no_tags = re.sub(r"<[^>]+>", " ", fragment)
+    return re.sub(r"\s+", " ", html.unescape(no_tags).replace("\xa0", " ")).strip()
 
 
 def _period(heading: str) -> str | None:
     """'2025: July-December' -> '2025-H2'; '2016: January-June' -> '2016-H1'."""
-    m = re.match(r"(\d{4}):\s*(January-June|July-December)", heading)
+    m = re.match(r"(\d{4}):\s*(January\s*[-\u2013\u2014]\s*June|July\s*[-\u2013\u2014]\s*December)", heading)
     if not m:
         return None
     return f"{m.group(1)}-{'H1' if m.group(2).startswith('January') else 'H2'}"
@@ -104,7 +106,7 @@ def _value(cell: str) -> tuple[int, int, bool]:
     s = cell.strip().replace(",", "")
     pct = s.endswith("%")
     s = s.rstrip("%").strip()
-    m = re.fullmatch(r"(\d+)\s*-\s*(\d+)", s)
+    m = re.fullmatch(r"(\d+)\s*[-\u2013\u2014]\s*(\d+)", s)
     if m:
         return int(m.group(1)), int(m.group(2)), pct
     return int(s), int(s), pct
@@ -145,11 +147,12 @@ def _us_table(table_rows: list[list[str]], period: str) -> list[Row]:
 
 
 def build() -> list[Row]:
-    html = open(RAW_PAGE, encoding="utf-8", errors="replace").read()
+    with open(RAW_PAGE, encoding="utf-8", errors="replace") as f:
+        page = f.read()
 
     # Walk headings and tables in document order; an h2 selects the section, an
     # h4 the reporting period, and each table binds to the current (h2, h4).
-    events = re.finditer(r"<h([1-6])[^>]*>(.*?)</h\1>|<table.*?</table>", html, re.S)
+    events = re.finditer(r"<h([1-6])[^>]*>(.*?)</h\1>|<table.*?</table>", page, re.S)
     section = period = None
     rows: list[Row] = []
     for m in events:
@@ -157,6 +160,7 @@ def build() -> list[Row]:
             heading = _text(m.group(2))
             if m.group(1) == "2":
                 section = heading
+                period = None  # never inherit a period across sections
             p = _period(heading)
             if p:
                 period = p
