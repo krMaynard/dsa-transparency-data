@@ -122,7 +122,7 @@ def _squash(text: str) -> str:
     return re.sub(r"\s+", "", text)
 
 
-def _pdf_text(path: str):
+def _pdf_text(path: str) -> tuple[str, list[tuple[str, str]]]:
     """(whitespace-squashed full text, normalised label->value table cells)."""
     import pdfplumber  # CI dependency; imported lazily like openpyxl elsewhere
     text_parts: list[str] = []
@@ -221,8 +221,8 @@ def _line_rows(raw_dir: str) -> list[list]:
     with open(path, encoding="utf-8") as f:
         raw = f.read()
     import html as html_mod
-    text = re.sub(r"<script.*?</script>", " ", raw, flags=re.DOTALL)
-    text = re.sub(r"<style.*?</style>", " ", text, flags=re.DOTALL)
+    text = re.sub(r"<script.*?</script>", " ", raw, flags=re.DOTALL | re.IGNORECASE)
+    text = re.sub(r"<style.*?</style>", " ", text, flags=re.DOTALL | re.IGNORECASE)
     text = _squash(html_mod.unescape(re.sub(r"<[^>]+>", " ", text)))
     period = "2024-08..2025-09"
     rows = [
@@ -267,7 +267,7 @@ def build(raw_dir: str) -> dict:
     rows += _google_rows(raw_dir)
     rows += _tiktok_rows(raw_dir)
     rows += _line_rows(raw_dir)
-    rows.sort(key=lambda x: (x[0], x[1], x[2], x[3], x[4], x[5]))
+    rows.sort(key=lambda x: x[:6])
     return {
         "source": "https://data.gov.tw/dataset/176455",
         "coverage": coverage,
