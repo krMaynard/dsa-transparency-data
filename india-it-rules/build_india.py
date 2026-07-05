@@ -73,14 +73,13 @@ _PINT = "https://policy.pinterest.com/en/india-transparency-report"
 
 
 def _google_months() -> list[tuple[int, int]]:
-    """Every month Google has filed, April 2021 → the latest published (extend the
-    end bound as new reports land; Google publishes on a ~1-month lag)."""
-    out = []
-    for y in range(2021, 2027):
-        for m in range(1, 13):
-            if (y == 2021 and m < 4) or (y == 2026 and m > 5):
-                continue
-            out.append((y, m))
+    """Every month Google has filed, April 2021 → the latest published (bump
+    `end` as new reports land; Google publishes on a ~1-month lag)."""
+    start, end = (2021, 4), (2026, 5)
+    out, y, m = [], *start
+    while (y, m) <= end:
+        out.append((y, m))
+        y, m = (y + 1, 1) if m == 12 else (y, m + 1)
     return out
 
 
@@ -429,11 +428,13 @@ def _parse_google(path: str) -> tuple[str, list[list]]:
     # everything after (up to the FAQ / automated-detection section) is removals.
     idx = full.find("Removal actions taken on complaints")
     comp, rem = (full[:idx], full[idx:]) if idx > 0 else (full, "")
-    for stop in ("Frequently asked", "automated detection", "Removal actions taken as a result"):
-        j = rem.find(stop)
-        if j > 200:
-            rem = rem[:j]
-            break
+    # Truncate the removals block at the next section heading — matched only at the
+    # start of a line, so the same phrases appearing inline in the intro prose (e.g.
+    # "…as a result of automated detection…") can't cut a short month's data short.
+    stop = re.search(r"\n\s*(?:Frequently asked|Removal actions taken as a result of "
+                     r"automated detection|Removal actions taken as a result)", rem, re.I)
+    if stop:
+        rem = rem[:stop.start()]
 
     def reasons(block: str) -> dict:
         out: dict[str, int] = {}
@@ -450,7 +451,11 @@ def _parse_google(path: str) -> tuple[str, list[list]]:
 
 
 # ── Pinterest single-page JSON adapter ────────────────────────────────────────
-_PINT_ACT = {"deactivated": "deactivated", "deactivations": "deactivations",
+# The grievance ('Reports') tables say "deactivated"; the proactive ('Voluntary
+# actions') tables say "deactivations" for the same measure — fold both to one
+# metric so a policy's series isn't split by wording (the `section` dimension
+# already distinguishes grievance vs. proactive).
+_PINT_ACT = {"deactivated": "deactivated", "deactivations": "deactivated",
              "limited distribution": "limited_distribution"}
 _PINT_CELL = re.compile(r"([\d,]+)\s+(deactivated|deactivations|limited distribution)")
 
@@ -485,27 +490,32 @@ def _parse_pinterest(path: str) -> tuple[str, list[list]]:
     'Reports' (grievance) and a 'Voluntary actions' (proactive) `pttable`, laid out
     as policy × object type (Pins/Boards/Accounts/Comments); each cell is a count
     per action ('4 deactivated 2 limited distribution')."""
-    txt = open(path, encoding="utf-8").read()
+    with open(path, encoding="utf-8") as f:
+        txt = f.read()
     m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', txt, re.S)
     if not m:
         raise SystemExit(f"{path}: no __NEXT_DATA__ payload")
-    blocks = json.loads(m.group(1))["props"]["pageProps"]["content"]["content"]
+    try:
+        blocks = json.loads(m.group(1))["props"]["pageProps"]["content"]["content"]
+    except (ValueError, KeyError, TypeError) as e:
+        raise SystemExit(f"{path}: unexpected __NEXT_DATA__ shape: {e}")
     rows: list[list] = []
     periods: set[str] = set()
-    for blk in blocks:
-        if blk.get("_type") != "accordion":
+    for blk in blocks or []:
+        if not isinstance(blk, dict) or blk.get("_type") != "accordion":
             continue
-        for tab in blk.get("accordionTabs", []):
-            mm = re.match(r"([A-Za-z]+)\s+(\d{4})", tab.get("accordionTabTitle", ""))
+        for tab in blk.get("accordionTabs") or []:
+            mm = re.match(r"([A-Za-z]+)\s+(\d{4})", tab.get("accordionTabTitle") or "")
             if not mm or not _is_month(mm.group(1)):
                 continue
             period = f"{int(mm.group(2)):04d}-{_month_num(mm.group(1)):02d}"
             periods.add(period)
-            for cont in tab.get("accordionTabContent", []):
+            for cont in tab.get("accordionTabContent") or []:
                 section = ""
-                for b in cont.get("dataContent", []):
+                for b in cont.get("dataContent") or []:
                     if b.get("_type") == "block" and b.get("style") == "h4":
-                        label = _clean("".join(c.get("text", "") for c in b.get("children", [])))
+                        kids = b.get("children") or []
+                        label = _clean("".join(c.get("text", "") for c in kids if isinstance(c, dict)))
                         section = label.lower().replace(" ", "_")
                     elif b.get("_type") == "pttable":
                         grid = _pint_grid(b["table"])
