@@ -78,7 +78,10 @@ def build(pdf_dir: str) -> dict:
         if meta is None:
             print(f"  (skipping {fname}: not in the catalogue)")
             continue
-        rows.extend(_page_rows(os.path.join(pdf_dir, fname), meta))
+        try:
+            rows.extend(_page_rows(os.path.join(pdf_dir, fname), meta))
+        except Exception as e:  # a corrupt/incomplete PDF shouldn't kill the whole run
+            print(f"  (error processing {fname}: {e})")
     rows.sort(key=lambda r: (r[1] or r[0], r[2], r[0], r[3]))
     periods = sorted({r[2] for r in rows})
     return {

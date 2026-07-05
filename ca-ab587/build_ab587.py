@@ -154,6 +154,11 @@ def _fetch(url: str, attempts: int = 6) -> bytes:
             with urllib.request.urlopen(req, timeout=120) as resp:
                 return resp.read()
         except Exception as e:  # transient network / reset — back off and retry
+            # A definitive 4xx (bad URL, forbidden, gone) won't change on retry —
+            # fail fast instead of burning the backoff budget. 408/429 stay retryable.
+            code = getattr(e, "code", None)
+            if isinstance(code, int) and 400 <= code < 500 and code not in (408, 429):
+                raise
             if i == attempts - 1:
                 raise
             print(f"  retry {i + 1} after {e}")
@@ -186,10 +191,7 @@ def _download(rows: list[dict], pdf_dir: str) -> int:
 
 
 def _refresh_listing() -> None:
-    req = urllib.request.Request(
-        LISTING_URL, headers={"User-Agent": "dsa-transparency-data/1.0"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        blob = resp.read()
+    blob = _fetch(LISTING_URL)  # reuse the retry/backoff — the listing host resets too
     os.makedirs(os.path.dirname(RAW_HTML), exist_ok=True)
     with open(RAW_HTML, "wb") as f:
         f.write(blob)
