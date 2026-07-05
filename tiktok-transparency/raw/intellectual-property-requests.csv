@@ -1,0 +1,94 @@
+﻿replication_info,entity,aspect,metric_name,period,period_value,policy,policy_value,task,task_value,location,location_value,result,base,date
+,LIGR,Copyright,Total IP Requests,half-year,Jul-Dec 2025,all,all,all,all,all,All,476553.0,,
+,LIGR,Copyright,Requests resulting in removal,half-year,Jul-Dec 2025,all,all,all,all,all,All,303413.0,,
+,LIGR,Copyright,Percentage of successful requests,half-year,Jul-Dec 2025,all,all,all,all,all,All,0.636682594,,
+,LIGR,Copyright,Total copyright removal requests,half-year,Jul-Dec 2025,all,all,all,all,all,All,401471.0,,
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jul-Dec 2025,all,all,all,all,all,All,253016.0,,
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jul-Dec 2025,all,all,all,all,all,All,0.630222357,,
+,LIGR,Copyright,Total trademark removal requests,half-year,Jul-Dec 2025,all,all,all,all,all,All,75082.0,,
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jul-Dec 2025,all,all,all,all,all,All,50397.0,,
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jul-Dec 2025,all,all,all,all,all,All,0.671226126,,
+,LIGR,Copyright,Invalid requests,half-year,Jul-Dec 2025,all,all,all,all,all,All,173140.0,,
+,LIGR,Copyright,Number of actions taken against accounts,half-year,Jul-Dec 2025,all,all,all,all,all,All,180695.0,,
+,LIGR,Copyright,Total trademark removal requests which involve counterfeits,half-year,Jul-Dec 2025,all,all,all,all,all,All,2836.0,,
+,LIGR,Copyright,Appeal success rate,half-year,Jul-Dec 2025,all,all,all,all,all,All,0.009825737,,
+,LIGR,Copyright,Total IP Requests,half-year,Jan-Jun 2025,all,all,all,all,all,All,405288.0,,
+,LIGR,Copyright,Requests resulting in removal,half-year,Jan-Jun 2025,all,all,all,all,all,All,260122.0,,
+,LIGR,Copyright,Percentage of successful requests,half-year,Jan-Jun 2025,all,all,all,all,all,All,0.6418,,
+,LIGR,Copyright,Total copyright removal requests,half-year,Jan-Jun 2025,all,all,all,all,all,All,342167.0,,
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jan-Jun 2025,all,all,all,all,all,All,218338.0,,
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jan-Jun 2025,all,all,all,all,all,All,0.6381,,
+,LIGR,Copyright,Total trademark removal requests,half-year,Jan-Jun 2025,all,all,all,all,all,All,63121.0,,
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jan-Jun 2025,all,all,all,all,all,All,41784.0,,
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jan-Jun 2025,all,all,all,all,all,All,0.662,,
+,LIGR,Copyright,Invalid requests,half-year,Jan-Jun 2025,all,all,all,all,all,All,145166.0,,
+,LIGR,Copyright,Number of actions taken against accounts,half-year,Jan-Jun 2025,all,all,all,all,all,All,246790.0,,
+,LIGR,Copyright,Total trademark removal requests which involve counterfeits,half-year,Jan-Jun 2025,all,all,all,all,all,All,2912.0,,
+,LIGR,Copyright,Appeal success rate,half-year,Jan-Jun 2025,all,all,all,all,all,All,0.0099,,
+,LIGR,Copyright,Total IP Requests,half-year,Jul-Dec 2024,all,all,all,all,all,All,322666.0,,
+,LIGR,Copyright,Requests resulting in removal,half-year,Jul-Dec 2024,all,all,all,all,all,All,223723.0,,
+,LIGR,Copyright,Percentage of successful requests,half-year,Jul-Dec 2024,all,all,all,all,all,All,0.6943,,
+,LIGR,Copyright,Total copyright removal requests,half-year,Jul-Dec 2024,all,all,all,all,all,All,280259.0,,
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jul-Dec 2024,all,all,all,all,all,All,194405.0,,
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jul-Dec 2024,all,all,all,all,all,All,0.6937,,
+,LIGR,Copyright,Total trademark removal requests,half-year,Jul-Dec 2024,all,all,all,all,all,All,42407.0,,
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jul-Dec 2024,all,all,all,all,all,All,29318.0,,
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jul-Dec 2024,all,all,all,all,all,All,0.6913,,
+,LIGR,Copyright,Invalid requests,half-year,Jul-Dec 2024,all,all,all,all,all,All,98943.0,,
+,LIGR,Copyright,Number of actions taken against accounts,half-year,Jul-Dec 2024,all,all,all,all,all,All,253309.0,,
+,LIGR,Copyright,Total trademark removal requests which involve counterfeits,half-year,Jul-Dec 2024,all,all,all,all,all,All,1908.0,,
+,LIGR,Copyright,Appeal success rate,half-year,Jul-Dec 2024,all,all,all,all,all,All,0.0137,,
+,LIGR,Copyright,Total IP Requests,half-year,Jan-Jun 2024,all,all,all,all,all,All,295125.0,,
+,LIGR,Copyright,Requests resulting in removal,half-year,Jan-Jun 2024,all,all,all,all,all,All,191438.0,,
+,LIGR,Copyright,Percentage of successful requests,half-year,Jan-Jun 2024,all,all,all,all,all,All,0.649,,
+,LIGR,Copyright,Total copyright removal requests,half-year,Jan-Jun 2024,all,all,all,all,all,All,266392.0,,
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jan-Jun 2024,all,all,all,all,all,All,173891.0,,
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jan-Jun 2024,all,all,all,all,all,All,0.653,,
+,LIGR,Copyright,Total trademark removal requests,half-year,Jan-Jun 2024,all,all,all,all,all,All,28733.0,,
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jan-Jun 2024,all,all,all,all,all,All,17547.0,,
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jan-Jun 2024,all,all,all,all,all,All,0.611,,
+,LIGR,Copyright,Total requests,half-year,Jul-Dec 2023,all,all,all,all,all,All,301743.0,,
+,LIGR,Copyright,Requests resulting in removal,half-year,Jul-Dec 2023,all,all,all,all,all,All,169588.0,,
+,LIGR,Copyright,Percentage of successful requests,half-year,Jul-Dec 2023,all,all,all,all,all,All,0.562,,
+,LIGR,Copyright,Total copyright removal requests,half-year,Jul-Dec 2023,all,all,all,all,all,All,272555.0,,
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jul-Dec 2023,all,all,all,all,all,All,152830.0,,
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jul-Dec 2023,all,all,all,all,all,All,0.561,,
+,LIGR,Copyright,Total trademark removal requests,half-year,Jul-Dec 2023,all,all,all,all,all,All,29188.0,,
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jul-Dec 2023,all,all,all,all,all,All,16758.0,,
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jul-Dec 2023,all,all,all,all,all,All,0.574,,
+,LIGR,Copyright,Requests resulting in removal,half-year,Jan-Jun 2023,all,all,all,all,all,All,128381.0,,20231010.0
+,LIGR,Copyright,Percentage of successful requests,half-year,Jan-Jun 2023,all,all,all,all,all,All,0.59,,20231010.0
+,LIGR,Copyright,Total copyright removal requests,half-year,Jan-Jun 2023,all,all,all,all,all,All,189564.0,,20231010.0
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jan-Jun 2023,all,all,all,all,all,All,113491.0,,20231010.0
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jan-Jun 2023,all,all,all,all,all,All,0.6,,20231010.0
+,LIGR,Copyright,Total trademark removal requests,half-year,Jan-Jun 2023,all,all,all,all,all,All,26633.0,,20231010.0
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jan-Jun 2023,all,all,all,all,all,All,14890.0,,20231010.0
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jan-Jun 2023,all,all,all,all,all,All,0.56,,20231010.0
+,LIGR,Copyright,Total requests,half-year,Jan-Jun 2023,all,all,all,all,all,All,216197.0,,20231010.0
+,LIGR,Copyright,Requests resulting in removal,half-year,Jul-Dec 2022,all,all,all,all,all,All,107103.0,,20230120.0
+,LIGR,Copyright,Percentage of successful requests,half-year,Jul-Dec 2022,all,all,all,all,all,All,0.572,,20230120.0
+,LIGR,Copyright,Total copyright removal requests,half-year,Jul-Dec 2022,all,all,all,all,all,All,168141.0,,20230120.0
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jul-Dec 2022,all,all,all,all,all,All,95479.0,,20230120.0
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jul-Dec 2022,all,all,all,all,all,All,0.568,,20230120.0
+,LIGR,Copyright,Total trademark removal requests,half-year,Jul-Dec 2022,all,all,all,all,all,All,19239.0,,20230120.0
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jul-Dec 2022,all,all,all,all,all,All,11624.0,,20230120.0
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jul-Dec 2022,all,all,all,all,all,All,0.604,,20230120.0
+,LIGR,Copyright,Total requests,half-year,Jul-Dec 2022,all,all,all,all,all,All,187380.0,,20230120.0
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jan-Jun 2022,all,all,all,all,all,All,0.698,,20230120.0
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jan-Jun 2022,all,all,all,all,all,All,0.645,,20230120.0
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jan-Jun 2022,all,all,all,all,all,All,65828.0,,20230120.0
+,LIGR,Copyright,Total copyright removal requests,half-year,Jan-Jun 2022,all,all,all,all,all,All,94267.0,,20230120.0
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jan-Jun 2022,all,all,all,all,all,All,7991.0,,20230120.0
+,LIGR,Copyright,Total trademark removal requests,half-year,Jan-Jun 2022,all,all,all,all,all,All,12392.0,,20230120.0
+,LIGR,Copyright,Requests resulting in removal,half-year,Jan-Jun 2022,all,all,all,all,all,All,73819.0,,20230120.0
+,LIGR,Copyright,Percentage of successful requests,half-year,Jan-Jun 2022,all,all,all,all,all,All,0.692,,20230120.0
+,LIGR,Copyright,Total requests,half-year,Jan-Jun 2022,all,all,all,all,all,All,106659.0,,20230120.0
+,LIGR,Copyright,Requests resulting in removal,half-year,Jul-Dec 2021,all,all,all,all,all,All,45841.0,,20230120.0
+,LIGR,Copyright,Percentage of successful requests,half-year,Jul-Dec 2021,all,all,all,all,all,All,0.816,,20230120.0
+,LIGR,Copyright,Total copyright removal requests,half-year,Jul-Dec 2021,all,all,all,all,all,All,49821.0,,20230120.0
+,LIGR,Copyright,Copyright requests resulting in removal,half-year,Jul-Dec 2021,all,all,all,all,all,All,40469.0,,20230120.0
+,LIGR,Copyright,Percentage of copyright requests resulting in removal,half-year,Jul-Dec 2021,all,all,all,all,all,All,0.812,,20230120.0
+,LIGR,Copyright,Total trademark removal requests,half-year,Jul-Dec 2021,all,all,all,all,all,All,6379.0,,20230120.0
+,LIGR,Copyright,Trademark requests resulting in removal,half-year,Jul-Dec 2021,all,all,all,all,all,All,5372.0,,20230120.0
+,LIGR,Copyright,Percentage of trademark requests resulting in removal,half-year,Jul-Dec 2021,all,all,all,all,all,All,0.842,,20230120.0
+,LIGR,Copyright,Total requests,half-year,Jul-Dec 2021,all,all,all,all,all,All,56200.0,,20230120.0
