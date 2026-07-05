@@ -144,9 +144,9 @@ Row = tuple[str, str, str, str, str, float]
 
 def _period(period_value: str) -> str:
     """'Jan-Jun 2019' -> '2019-H1'; 'Jul-Dec 2019' -> '2019-H2'."""
-    m = re.fullmatch(r"(Jan-Jun|Jul-Dec)\s+(\d{4})", period_value.strip())
+    m = re.fullmatch(r"(Jan-Jun|Jul-Dec)\s+(\d{4})", (period_value or "").strip())
     if not m:
-        raise SystemExit(f"unrecognised period_value: {period_value!r}")
+        raise ValueError(f"unrecognised period_value: {period_value!r}")
     return f"{m.group(2)}-{'H1' if m.group(1) == 'Jan-Jun' else 'H2'}"
 
 
@@ -154,7 +154,7 @@ def _value(raw: str, unit: str) -> float:
     v = float(raw)
     if unit == "count":
         if v != int(v):
-            raise SystemExit(f"non-integral count value: {raw!r}")
+            raise ValueError(f"non-integral count value: {raw!r}")
         return int(v)
     return v
 
@@ -168,14 +168,21 @@ def _read_stream(path: str, dataset: str, aspect: str,
         out: list[Row] = []
         for r in reader:
             if r["aspect"] != aspect:
-                raise SystemExit(f"{path}: unexpected aspect {r['aspect']!r}")
+                raise SystemExit(f"{path}:{reader.line_num}: unexpected aspect "
+                                 f"{r['aspect']!r}")
             label = (r["metric_name"] or "").strip()
             if label not in metrics:
-                raise SystemExit(f"{dataset}: unknown metric label {label!r}")
+                raise SystemExit(f"{path}:{reader.line_num}: unknown metric "
+                                 f"label {label!r}")
             key, unit = metrics[label]
             country = (r["location_value"] or "").strip() or "All"
-            out.append((dataset, _period(r["period_value"]), country, key, unit,
-                        _value(r["result"], unit)))
+            # _period/_value validate the row cells; add the CSV line number so
+            # a malformed value points straight at the offending row.
+            try:
+                period, value = _period(r["period_value"]), _value(r["result"], unit)
+            except (ValueError, TypeError) as e:
+                raise SystemExit(f"{path}:{reader.line_num}: {e}")
+            out.append((dataset, period, country, key, unit, value))
     if not out:
         raise SystemExit(f"{path}: parsed zero rows (format drift?)")
     return out
@@ -220,6 +227,8 @@ def main() -> int:
     if args.download:
         _download(args.raw)
     data = build(args.raw)
+    out_dir = os.path.dirname(os.path.abspath(args.out))
+    os.makedirs(out_dir, exist_ok=True)
     with open(args.out, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
         f.write("\n")
