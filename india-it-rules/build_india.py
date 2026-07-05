@@ -20,9 +20,10 @@ across units, and pin a `section` before aggregating (metrics aren't comparable
 across sections) — the same discipline as the Snap/GitHub tidy-long tables.
 
 Covered publishers: **Facebook, Instagram** (Meta PDF), **Twitter/X**
-(CDN PDF), **Moj, ShareChat** (static HTML), **Roblox** (CDN PDF). Google/YouTube,
-Snap and Telegram are excluded — their reports are browser-/account-gated
-(JS-rendered numbers or a login-gated bot) and aren't fetchable headless.
+(CDN PDF), **Moj, ShareChat** (static HTML), **Roblox** (CDN PDF),
+**Google/YouTube** (static GCS-bucket PDF, all SSMI surfaces, Apr 2021 →), and
+**Pinterest** (one JSON-in-HTML page, all months). Snap and Telegram are excluded
+(JS-rendered numbers / a login-gated bot); Reddit and Quora sit behind Cloudflare;
 WhatsApp (signed, expiring fbcdn links) is a planned fast-follow.
 
 Deterministic: builds purely from the archived raw/ files (rows sorted); no
@@ -32,6 +33,7 @@ Needs `pdfplumber` (PDF adapters); HTML adapters are pure stdlib.
 from __future__ import annotations
 
 import argparse
+import calendar
 import html
 import json
 import os
@@ -65,6 +67,21 @@ _TW = ("https://transparency.twitter.com/content/dam/transparency-twitter/"
        "country-reports/india/India-ITR-{m}-{y}.pdf")
 _META = "https://transparency.meta.com/sr/india-monthly-report-{slug}"
 _RBLX = "https://cms-media.roblox.com/assets/{slug}.pdf"
+_GOOG = ("https://storage.googleapis.com/transparencyreport/report-downloads/"
+         "india-intermediary-guidelines_{y}-{m}-1_{y}-{m}-{last}_en_v1.pdf")
+_PINT = "https://policy.pinterest.com/en/india-transparency-report"
+
+
+def _google_months() -> list[tuple[int, int]]:
+    """Every month Google has filed, April 2021 → the latest published (bump
+    `end` as new reports land; Google publishes on a ~1-month lag)."""
+    start, end = (2021, 4), (2026, 5)
+    out, y, m = [], *start
+    while (y, m) <= end:
+        out.append((y, m))
+        y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+    return out
+
 
 SOURCES: list[tuple[str, str, str]] = [
     # Meta (Facebook + Instagram) — slug = publication date (last day of the
@@ -112,6 +129,17 @@ SOURCES: list[tuple[str, str, str]] = [
         ("2026-03", "march-2026-india-information-technology-rules-report"),
         ("2026-04", "april-2026-india-information-technology-rules-report"),
         ("2026-05", "8fb0de4d-ac0b-4ce9-8925-197e12ecec64"))],
+    # Google / YouTube — static, text-embedded PDFs on a public GCS bucket, one
+    # per month (Apr 2021 →), covering all of Google's SSMI surfaces. Covered
+    # period is parsed from the PDF. The report layout was redesigned c. 2025
+    # (percentage lines → 'Category Count' tables); both eras are handled.
+    *[(f"google-{y:04d}-{m:02d}.pdf", "google",
+       _GOOG.format(y=y, m=m, last=calendar.monthrange(y, m)[1]))
+      for y, m in _google_months()],
+    # Pinterest — a single page carrying every month's tables, embedded as JSON in
+    # the Next.js payload (grievance 'Reports' + proactive 'Voluntary actions', by
+    # policy × object type). One archived HTML file; all periods parsed from it.
+    ("pinterest-india-transparency.html", "pinterest", _PINT),
 ]
 
 
@@ -376,6 +404,147 @@ def _parse_roblox(path: str) -> tuple[str, list[list]]:
     return period, rows
 
 
+# ── Google / YouTube PDF adapter ──────────────────────────────────────────────
+# Google reports two figures per month, each broken down by the same fixed set of
+# complaint reasons: complaints received from users, and removal actions taken on
+# those complaints. Reasons are matched by their known labels, so the parser is
+# indifferent to the layout switch (2021-era "Copyright: 26,707 (96.2%)" lines vs
+# the 2025-era "Category Count" table "Copyright 19,969").
+_GOOG_REASONS = ["Copyright", "Trademark", "Defamation", "Other Legal", "Counterfeit",
+                 "Circumvention", "Court Order", "Impersonation", "Graphic Sexual Content"]
+_GOOG_RE = re.compile(r"(" + "|".join(re.escape(c) for c in _GOOG_REASONS) + r")\s*:?\s*([\d,]+)")
+
+
+def _parse_google(path: str) -> tuple[str, list[list]]:
+    import pdfplumber
+    with pdfplumber.open(path) as pdf:
+        full = "\n".join((p.extract_text() or "") for p in pdf.pages)
+    mp = (re.search(r"period from\s+([A-Za-z]+)\s+\d+,\s*(\d{4})", full)
+          or re.search(r"Complaints received\s+([A-Za-z]+)\s+(\d{4})", full))
+    if not mp or not _is_month(mp.group(1)):
+        raise SystemExit(f"{path}: could not find covered period")
+    period = f"{int(mp.group(2)):04d}-{_month_num(mp.group(1)):02d}"
+    # Split at the removals heading: everything before is complaint-reason data,
+    # everything after (up to the FAQ / automated-detection section) is removals.
+    idx = full.find("Removal actions taken on complaints")
+    comp, rem = (full[:idx], full[idx:]) if idx > 0 else (full, "")
+    # Truncate the removals block at the next section heading — matched only at the
+    # start of a line, so the same phrases appearing inline in the intro prose (e.g.
+    # "…as a result of automated detection…") can't cut a short month's data short.
+    stop = re.search(r"\n\s*(?:Frequently asked|Removal actions taken as a result of "
+                     r"automated detection|Removal actions taken as a result)", rem, re.I)
+    if stop:
+        rem = rem[:stop.start()]
+
+    def reasons(block: str) -> dict:
+        out: dict[str, int] = {}
+        for m in _GOOG_RE.finditer(block):
+            out.setdefault(m.group(1), int(m.group(2).replace(",", "")))
+        return out
+
+    rows: list[list] = []
+    for cat, n in reasons(comp).items():
+        rows.append(["Google", period, "complaints_received", cat, "complaints", "count", n])
+    for cat, n in reasons(rem).items():
+        rows.append(["Google", period, "removal_actions", cat, "removal_actions", "count", n])
+    return period, rows
+
+
+# ── Pinterest single-page JSON adapter ────────────────────────────────────────
+# The grievance ('Reports') tables say "deactivated"; the proactive ('Voluntary
+# actions') tables say "deactivations" for the same measure — fold both to one
+# metric so a policy's series isn't split by wording (the `section` dimension
+# already distinguishes grievance vs. proactive).
+_PINT_ACT = {"deactivated": "deactivated", "deactivations": "deactivated",
+             "limited distribution": "limited_distribution"}
+_PINT_CELL = re.compile(r"([\d,]+)\s+(deactivated|deactivations|limited distribution)")
+
+
+def _pint_cell_text(cell: dict) -> str:
+    """A table cell's text lives in a nested draft.js-blocks JSON string."""
+    raw = cell.get("content")
+    if not raw:
+        return ""
+    try:
+        return " ".join(b.get("text", "") for b in json.loads(raw).get("blocks", [])).strip()
+    except (ValueError, AttributeError):
+        return ""
+
+
+def _pint_grid(table_json: str) -> list[list[str]]:
+    """Pinterest's `pttable` value is a JSON string: a list of row objects, each a
+    {columns:[cell,…]}; every cell carries its own row/column index. Rebuild the
+    dense grid so a blank cell can't shift the columns."""
+    grid: dict[tuple[int, int], str] = {}
+    maxr = maxc = 0
+    for ro in json.loads(table_json):
+        for c in ro.get("columns", []):
+            r, cc = c.get("row", 0), c.get("column", 0)
+            grid[(r, cc)] = _pint_cell_text(c)
+            maxr, maxc = max(maxr, r), max(maxc, cc)
+    return [[grid.get((r, cc), "") for cc in range(maxc + 1)] for r in range(maxr + 1)]
+
+
+def _parse_pinterest(path: str) -> tuple[str, list[list]]:
+    """One page holds every month. Each month is an `accordion` whose tabs carry a
+    'Reports' (grievance) and a 'Voluntary actions' (proactive) `pttable`, laid out
+    as policy × object type (Pins/Boards/Accounts/Comments); each cell is a count
+    per action ('4 deactivated 2 limited distribution')."""
+    with open(path, encoding="utf-8") as f:
+        txt = f.read()
+    m = re.search(r'<script id="__NEXT_DATA__"[^>]*>(.*?)</script>', txt, re.S)
+    if not m:
+        raise SystemExit(f"{path}: no __NEXT_DATA__ payload")
+    try:
+        blocks = json.loads(m.group(1))["props"]["pageProps"]["content"]["content"]
+    except (ValueError, KeyError, TypeError) as e:
+        raise SystemExit(f"{path}: unexpected __NEXT_DATA__ shape: {e}")
+    rows: list[list] = []
+    periods: set[str] = set()
+    for blk in blocks or []:
+        if not isinstance(blk, dict) or blk.get("_type") != "accordion":
+            continue
+        for tab in blk.get("accordionTabs") or []:
+            mm = re.match(r"([A-Za-z]+)\s+(\d{4})", tab.get("accordionTabTitle") or "")
+            if not mm or not _is_month(mm.group(1)):
+                continue
+            period = f"{int(mm.group(2)):04d}-{_month_num(mm.group(1)):02d}"
+            periods.add(period)
+            for cont in tab.get("accordionTabContent") or []:
+                section = ""
+                for b in cont.get("dataContent") or []:
+                    if b.get("_type") == "block" and b.get("style") == "h4":
+                        kids = b.get("children") or []
+                        label = _clean("".join(c.get("text", "") for c in kids if isinstance(c, dict)))
+                        section = label.lower().replace(" ", "_")
+                    elif b.get("_type") == "pttable":
+                        grid = _pint_grid(b["table"])
+                        if not grid:
+                            continue
+                        header = [_clean(x).lower() for x in grid[0]]
+                        if header and header[0] == "policy":
+                            objects = header[1:]
+                            for r in grid[1:]:
+                                cat = _clean(r[0])
+                                if not cat:
+                                    continue
+                                for ci, obj in enumerate(objects):
+                                    cell = r[ci + 1] if ci + 1 < len(r) else ""
+                                    for n, act in _PINT_CELL.findall(cell):
+                                        rows.append(["Pinterest", period, section, cat,
+                                                     f"{obj}_{_PINT_ACT[act]}", "count",
+                                                     int(n.replace(",", ""))])
+                        else:  # a small side table, e.g. "Pending IP form reports"
+                            for r in grid:
+                                if len(r) >= 2 and re.fullmatch(r"[\d,]+", r[1].strip()):
+                                    metric = _clean(r[0]).lower().replace(" ", "_")
+                                    rows.append(["Pinterest", period, section, "", metric,
+                                                 "count", int(r[1].replace(",", ""))])
+    if not rows:
+        raise SystemExit(f"{path}: parsed zero Pinterest rows")
+    return max(periods), rows
+
+
 # ── Moj / ShareChat static-HTML adapter ──────────────────────────────────────
 def _html_tables(path: str) -> list[list[list[str]]]:
     """Parse each <table> row-by-row, preserving empty cells so the grid stays
@@ -472,6 +641,10 @@ def build(raw_dir: str) -> dict:
             period, r = _parse_twitter(path)
         elif kind == "roblox":
             period, r = _parse_roblox(path)
+        elif kind == "google":
+            period, r = _parse_google(path)
+        elif kind == "pinterest":
+            period, r = _parse_pinterest(path)
         elif kind in ("moj", "sharechat"):
             platform = "Moj" if kind == "moj" else "ShareChat"
             period, r = _parse_html_report(path, platform)
@@ -486,7 +659,8 @@ def build(raw_dir: str) -> dict:
     return {
         "source": "https://www.meta.com/ + https://transparency.twitter.com/ + "
                    "https://help.mojapp.in/ + https://help.sharechat.com/ + "
-                   "https://about.roblox.com/",
+                   "https://about.roblox.com/ + https://transparencyreport.google.com/ + "
+                   "https://policy.pinterest.com/",
         "coverage": max(periods) if periods else None,
         "columns": COLUMNS,
         "rows": rows,
