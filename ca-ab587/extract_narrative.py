@@ -56,11 +56,22 @@ def _heading(text: str) -> str:
     return line if (line.isupper() or line.istitle()) else ""
 
 
+# Many of these filings position each glyph individually with no space characters,
+# so pdfplumber's default fixed word gap (x_tolerance=3) fails to detect word
+# boundaries and whole lines come out run-together ("Discordisexperimentingwith…").
+# A single fixed tolerance can't fit every filing (their font sizes vary, so one
+# value over-splits small text while under-splitting large text), so use pdfplumber's
+# font-size-relative gap instead: the space threshold scales with each glyph's size.
+# (A handful of pages still render each glyph 2–4× overlapping — "NNNNeeee…" — which
+# is the PDF's own doing and no tolerance can fix.)
+_X_TOLERANCE_RATIO = 0.1
+
+
 def _page_rows(path: str, meta: dict) -> list[list]:
     rows: list[list] = []
     with pdfplumber.open(path) as pdf:
         for i, page in enumerate(pdf.pages, start=1):
-            raw = page.extract_text() or ""
+            raw = page.extract_text(x_tolerance_ratio=_X_TOLERANCE_RATIO) or ""
             if len(_WS.sub("", raw)) < MIN_CHARS:
                 continue
             rows.append([meta["company"], meta.get("platform", ""),
