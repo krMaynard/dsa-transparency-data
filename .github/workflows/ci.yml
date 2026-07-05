@@ -55,6 +55,7 @@ jobs:
           python tiktok-transparency/build_tiktok.py
           python discord-transparency/build_discord.py
           python google-traffic/build_traffic.py
+          python android-security/build_android.py
 
       - name: Assert artifacts are in sync with sources
         # If anything changed — a modified artifact or a new untracked file (e.g.
@@ -63,7 +64,7 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             echo "::error::Committed artifacts are out of sync with their source scripts/inputs."
-            echo "Run: python harmonised-reports/extract.py && python link_archives.py && python build_reports_db.py && python apple-transparency/build_apple.py && python github-transparency/build_github.py && python snap-transparency/build_snap.py && python india-it-rules/build_india.py && python korea-transparency/build_korea.py && python taiwan-anti-fraud/build_taiwan.py && python google-user-data/build_userdata.py && python microsoft-lerr/build_microsoft.py && python linkedin-transparency/build_linkedin.py && python tiktok-transparency/build_tiktok.py && python discord-transparency/build_discord.py && python google-traffic/build_traffic.py"
+            echo "Run: python harmonised-reports/extract.py && python link_archives.py && python build_reports_db.py && python apple-transparency/build_apple.py && python github-transparency/build_github.py && python snap-transparency/build_snap.py && python india-it-rules/build_india.py && python korea-transparency/build_korea.py && python taiwan-anti-fraud/build_taiwan.py && python google-user-data/build_userdata.py && python microsoft-lerr/build_microsoft.py && python linkedin-transparency/build_linkedin.py && python tiktok-transparency/build_tiktok.py && python discord-transparency/build_discord.py && python google-traffic/build_traffic.py && python android-security/build_android.py"
             echo "then commit the regenerated files. Drift:"
             git status --porcelain
             git diff
