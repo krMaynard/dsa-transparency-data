@@ -165,7 +165,7 @@ def _clean(label: str) -> str:
     label = (label or "").replace("\n", " ")
     # Drop private-use-area glyphs (e.g. a bullet Roblox renders as U+E081) and
     # other control chars that some PDFs leak into cell text.
-    label = re.sub(r"[-\x00-\x1f]", " ", label)
+    label = re.sub(r"[\ue000-\uf8ff\x00-\x1f]", " ", label)
     label = re.sub(r"\s+", " ", label).strip()
     label = re.sub(r"^\d+\.\s*", "", label)          # leading "1." index
     label = re.sub(r"(?<=[a-z])\d+$", "", label)     # trailing footnote digit
@@ -319,15 +319,16 @@ def _roblox_period(full: str) -> str:
     The reporting-period start (not the 'Report Date' publication line) is the
     covered month; the month word is validated so a stray 4-digit run can't pose
     as a period."""
-    m = re.search(r"covers the period\s+([A-Za-z]+)\s+\d+\s*[-–].*?(\d{4})", full)
-    if not m:
-        m = re.search(r"Reporting Period:\s+([A-Za-z]+)\s+\d+,?\s+(\d{4})", full)
-    if m and _is_month(m.group(1)):
-        return f"{int(m.group(2)):04d}-{_month_num(m.group(1)):02d}"
+    # (regex, month-group, year-group, haystack). Each pattern is evaluated
+    # independently: a match whose captured word isn't a real month falls through
+    # to the next pattern rather than blocking it.
     head = full[:400]
-    for pat, mo_i, yr_i in ((r"\b(\d{4})\s+([A-Za-z]{3,9})\b", 2, 1),
-                            (r"\b([A-Za-z]{3,9})\s+(\d{4})\b", 1, 2)):
-        m = re.search(pat, head)
+    for pat, mo_i, yr_i, hay in (
+            (r"covers the period\s+([A-Za-z]+)\s+\d+\s*[-–].*?(\d{4})", 1, 2, full),
+            (r"Reporting Period:\s+([A-Za-z]+)\s+\d+,?\s+(\d{4})", 1, 2, full),
+            (r"\b(\d{4})\s+([A-Za-z]{3,9})\b", 2, 1, head),
+            (r"\b([A-Za-z]{3,9})\s+(\d{4})\b", 1, 2, head)):
+        m = re.search(pat, hay)
         if m and _is_month(m.group(mo_i)):
             return f"{int(m.group(yr_i)):04d}-{_month_num(m.group(mo_i)):02d}"
     raise SystemExit("Roblox: could not find covered period")
