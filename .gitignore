@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 .pytest_cache/
+
+# California AB 587: the ~100 report PDFs (~300 MB) are fetched on demand
+# (build_ab587.py --download), not mirrored in-repo — the catalogue points at
+# oag.ca.gov and the narratives JSON is extracted from them.
+ca-ab587/pdfs/
