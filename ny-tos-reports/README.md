@@ -127,3 +127,21 @@ one quarter only, no company reports foreign political interference numbers).
 ```bash
 python3 normalize_quant.py   # ny_tos_quant.csv → ny_tos_normalized.csv
 ```
+
+## Narrative full text (`extract_narrative.py`)
+
+The filings are **narrative policy documents** — prose, not just tables. While
+`extract_quant.py` pulls out the numbers, `extract_narrative.py` pulls out the
+**prose** so it can be full-text searched: for each publicly archived PDF in
+`pdfs/` it emits one tidy row per page —
+`[company, platform, period, page, heading, text]` — into
+[`ny_tos_narratives.json`](ny_tos_narratives.json) (488 pages across the 11
+public filings; deterministic from `pdfs/` + the catalogue). The API seeds this
+into a SQLite **FTS5** table behind `GET /api/narratives`, so a reader can
+search the actual language platforms use to describe their hate-speech,
+extremism, disinformation, harassment and foreign-political-interference
+policies, and jump to the page in the archived PDF.
+
+```bash
+python3 extract_narrative.py   # pdfs/*.pdf → ny_tos_narratives.json
+```
