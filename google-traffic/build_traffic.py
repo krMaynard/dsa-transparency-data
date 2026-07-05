@@ -96,9 +96,10 @@ def build(raw_dir: str) -> dict:
     # Sort deterministically: by start_date, then country, product (nulls last).
     rows.sort(key=lambda r: (r[3] is None, r[3] or "", r[0], r[2]))
     years = sorted({r[5] for r in rows if r[5]})
+    coverage = f"{years[0]}..{years[-1]}" if years else ""
     return {
         "source": OVERVIEW_URL,
-        "coverage": f"{years[0]}..{years[-1]}",
+        "coverage": coverage,
         "columns": COLUMNS,
         "rows": rows,
     }
@@ -115,9 +116,10 @@ def _download(raw_dir: str) -> None:
              if n.endswith(".csv") and not n.startswith("__MACOSX")]
     if len(names) != 1:
         raise SystemExit(f"expected exactly one CSV in the ZIP, found {names}")
+    csv_data = zf.read(names[0])
     with open(os.path.join(raw_dir, RAW_CSV), "wb") as f:
-        f.write(zf.read(names[0]))
-    print(f"downloaded {RAW_CSV} ({len(zf.read(names[0]))} bytes) from {DOWNLOAD_URL}")
+        f.write(csv_data)
+    print(f"downloaded {RAW_CSV} ({len(csv_data)} bytes) from {DOWNLOAD_URL}")
 
 
 def main() -> int:
