@@ -75,7 +75,7 @@ def _page_rows(path: str, period: str, kind: str, heading: str) -> list[list]:
     with pdfplumber.open(path) as pdf:
         for i, page in enumerate(pdf.pages, start=1):
             raw = page.extract_text() or ""
-            if len(raw.replace(" ", "").replace("\n", "")) < MIN_CHARS:
+            if len(_WS.sub("", raw)) < MIN_CHARS:  # count non-whitespace chars
                 continue
             text = _WS.sub(" ", raw).strip()
             rows.append(["European Commission", kind, period, i, heading, text])
@@ -95,7 +95,8 @@ def build(raw_dir: str) -> dict:
     periods = sorted({r[2] for r in rows})
     return {
         "source": SOURCE,
-        "coverage": f"{periods[0]}..{periods[-1]}" if periods else "",
+        "coverage": (f"{periods[0]}..{periods[-1]}" if len(periods) > 1
+                     else periods[0] if periods else ""),
         "columns": COLUMNS,
         "rows": rows,
     }
