@@ -130,9 +130,40 @@ def _parse_csv(text: str, period: str) -> list[Row]:
             unit, value = parsed
             out.append((period, section and _key(section), category,
                         _key(measure), unit, value))
+    out = _fix_2023q3_accounts_disabled(out, period)
     if not out:
         raise SystemExit(f"{period}: parsed zero rows (report format drift?)")
     return out
+
+
+def _fix_2023q3_accounts_disabled(out: list[Row], period: str) -> list[Row]:
+    """Correct one known publisher anomaly. In the **2023-Q3** report the
+    ``Accounts Disabled`` section's value column is shifted DOWN one row: Child
+    Safety's cell holds a stray ``Accounts Disabled`` label (dropped here as
+    non-numeric), every value lands on the category below its own, and a trailing
+    empty-category row carries the last category's count. Realigning the values
+    up one row makes them reconcile to the report's own published Total, which we
+    assert — so this can't silently mis-correct, and it auto-disables if Discord
+    ever re-issues a fixed CSV (the empty-category tell disappears). Discord's
+    error; the raw CSV stays archived verbatim.
+    """
+    if period != "2023-Q3":
+        return out
+    SECTION, DROPPED_HEAD, PUBLISHED_TOTAL = "accounts_disabled", "Child Safety", 260461
+    section_rows = [r for r in out if r[1] == SECTION]
+    if not any(r[2] == "" for r in section_rows):
+        return out  # anomaly (empty-category row) absent — nothing to correct
+    if section_rows[-1][2] != "":
+        raise SystemExit(f"{period}: {SECTION} shift-correction expects the "
+                         f"empty category to be the trailing row")
+    cats = [DROPPED_HEAD] + [r[2] for r in section_rows[:-1]]  # realign up one row
+    fixed = [(r[0], r[1], cats[i], r[3], r[4], r[5])
+             for i, r in enumerate(section_rows)]
+    total = sum(r[5] for r in fixed if r[4] == "count")
+    if total != PUBLISHED_TOTAL:
+        raise SystemExit(f"{period}: {SECTION} shift-correction sum {total:.0f} "
+                         f"!= published total {PUBLISHED_TOTAL}")
+    return [r for r in out if r[1] != SECTION] + fixed
 
 
 def build(raw_dir: str) -> dict:
