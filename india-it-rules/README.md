@@ -17,14 +17,17 @@ table — one row per measured value. This is net-new vs. the EU DSA data.
 | **Facebook, Instagram** | `transparency.meta.com/sr/india-monthly-report-<pubdate>` | PDF | One Meta PDF carries both surfaces (Tables 1–7). GAC table appears from 2023 (when the committee began operating). |
 | **Twitter / X** | `transparency.twitter.com/.../India-ITR-<Mon>-<YYYY>.pdf` | PDF | Grievances by issue type + accounts suspended. Reporting window is an offset 26th→25th period; `period` is labelled by the window's **end month**. |
 | **Moj, ShareChat** | `help.mojapp.in` / `help.sharechat.com/transparency-report/<month-year>/` | static HTML | Law-enforcement requests, total complaints, and the UGC/profile/comment **ban matrix** by duration. |
+| **Roblox** | `cms-media.roblox.com/assets/<slug>.pdf` (linked from `about.roblox.com/pdf/…`) | PDF | Grievance reports received + enforcement actions by policy category (Table 1) and a single **global** proactive-moderation total (Table 2 — worldwide, not India-only). First filed March 2025. A `-` cell (nil) reads as `0`; later months use a literal `0`. Asset slugs vary month-to-month (some add an `india-`/`-1` token, one is an opaque CDN key), so each is curated in `SOURCES`. **Feb 2026** brought a redesigned layout — a `Reporting Period:`/year-month cover header instead of the in-body "covers the period" line, a two-page grievance table (header repeated per page), and a **revised category taxonomy** (e.g. `Child Endangerment`, `Sexual Content`, `Terrorism or Violent Extremism` replacing the 2025 set) — so a cross-period category query spans two vocabularies; the adapter handles all three period phrasings. |
 
 **Not included.** Google/YouTube (JS-rendered SPA; CSV only via a client-side
 button), Snap (numbers JS-loaded), and Telegram (account-gated in-app bot) aren't
 fetchable headless — same wall that blocks TikTok. WhatsApp is a planned
 fast-follow (its fbcdn PDF links are signed/expiring, so they need a live index
-scrape rather than a templated URL). Moj/ShareChat redesigned their report layout
-in mid-2022 (and later moved Moj's pages to a JS shell), so v1 covers the
-consistent 2021–early-2022 static layout.
+scrape rather than a templated URL). LinkedIn files an India report too, but
+behind a JS-gated help-centre page; Koo (also an SSMI) shut down in 2024. Both
+are candidates once a headless fetch path exists. Moj/ShareChat redesigned their
+report layout in mid-2022 (and later moved Moj's pages to a JS shell), so v1
+covers the consistent 2021–early-2022 static layout.
 
 ## Layout
 
@@ -49,8 +52,8 @@ fails on drift.
 
 `[platform, period, section, category, metric, unit, value]`
 
-- **platform** — `Facebook` / `Instagram` / `Twitter` / `Moj` / `ShareChat`, plus
-  `Meta` for the report-level GAC orders (which cover both surfaces).
+- **platform** — `Facebook` / `Instagram` / `Twitter` / `Moj` / `ShareChat` /
+  `Roblox`, plus `Meta` for the report-level GAC orders (which cover both surfaces).
 - **period** — `YYYY-MM` of the covered month.
 - **section** — `content_actioned_proactive`, `grievances_received`,
   `grievances_tools_provided`, `grievances`, `accounts_actioned`, `gac_orders`,
@@ -58,9 +61,9 @@ fails on drift.
 - **category** — policy area / complaint category / ban duration (empty where the
   section has no breakdown).
 - **metric** — the specific measure within the section (e.g. `content_actioned`,
-  `proactive_rate`, `reports`, `grievances_received`, `urls_actioned`,
-  `accounts_suspended`, `orders_received`/`orders_complied`, `ugc_ban`,
-  `requests_received`).
+  `proactive_rate`, `reports`, `grievances_received`, `enforcement_actions`,
+  `urls_actioned`, `accounts_suspended`, `orders_received`/`orders_complied`,
+  `ugc_ban`, `requests_received`).
 - **unit** — `count` (exact integer), `approx_count` (Meta's abbreviated
   `2.3M`/`448.6K` proactive figures — the company's own rounded best-estimates,
   not exact), or `percent` (proactive-detection rates).
@@ -77,4 +80,5 @@ to the most-readable variant).
 Curated in `build_india.py`'s `SOURCES`. Add new reports there as publishers
 file them. Current coverage: Meta **2022-07 → 2023-09** (8 months), Twitter
 **2021-06 → 2022-10** (11 months), Moj **2021-06 → 2022-04** (5 months),
-ShareChat **2021-07 → 2022-04** (6 months). Expanding coverage is a follow-up.
+ShareChat **2021-07 → 2022-04** (6 months), Roblox **2025-03 → 2026-05**
+(15 months). Expanding coverage is a follow-up.

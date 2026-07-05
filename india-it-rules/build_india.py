@@ -19,11 +19,11 @@ or `percent` (proactive-detection rates, complaint-split percentages). Never sum
 across units, and pin a `section` before aggregating (metrics aren't comparable
 across sections) — the same discipline as the Snap/GitHub tidy-long tables.
 
-Covered publishers (v1): **Facebook, Instagram** (Meta PDF), **Twitter/X**
-(CDN PDF), **Moj, ShareChat** (static HTML). Google/YouTube, Snap and Telegram
-are excluded — their reports are browser-/account-gated (JS-rendered numbers or
-a login-gated bot) and aren't fetchable headless. WhatsApp (signed, expiring
-fbcdn links) is a planned fast-follow.
+Covered publishers: **Facebook, Instagram** (Meta PDF), **Twitter/X**
+(CDN PDF), **Moj, ShareChat** (static HTML), **Roblox** (CDN PDF). Google/YouTube,
+Snap and Telegram are excluded — their reports are browser-/account-gated
+(JS-rendered numbers or a login-gated bot) and aren't fetchable headless.
+WhatsApp (signed, expiring fbcdn links) is a planned fast-follow.
 
 Deterministic: builds purely from the archived raw/ files (rows sorted); no
 wall-clock. `--download` refreshes raw/ from the curated per-report URLs.
@@ -64,6 +64,7 @@ def _month_num(name: str) -> int:
 _TW = ("https://transparency.twitter.com/content/dam/transparency-twitter/"
        "country-reports/india/India-ITR-{m}-{y}.pdf")
 _META = "https://transparency.meta.com/sr/india-monthly-report-{slug}"
+_RBLX = "https://cms-media.roblox.com/assets/{slug}.pdf"
 
 SOURCES: list[tuple[str, str, str]] = [
     # Meta (Facebook + Instagram) — slug = publication date (last day of the
@@ -87,6 +88,30 @@ SOURCES: list[tuple[str, str, str]] = [
        f"https://help.sharechat.com/transparency-report/{my}/")
       for my in ("july-2021", "october-2021", "january-2022", "february-2022",
                  "march-2022", "april-2022")],
+    # Roblox — CDN PDF; covered period parsed from the document. Roblox's asset
+    # slugs are inconsistent month-to-month (some gain an `india-`/`-1` token), so
+    # the exact slug is curated per report while `roblox-YYYY-MM.pdf` names the
+    # archive. First filed for March 2025 (grievance officer appointed early 2025).
+    *[(f"roblox-{ym}.pdf", "roblox", _RBLX.format(slug=slug)) for ym, slug in (
+        ("2025-03", "march-2025-information-technology-rules-report"),
+        ("2025-04", "april-2025-information-technology-rules-report"),
+        ("2025-05", "may-2025-information-technology-rules-report-1"),
+        ("2025-06", "june-2025-information-technology-rules-report"),
+        ("2025-07", "july-2025-information-technology-rules-report"),
+        ("2025-08", "august-2025-india-information-technology-rules-report"),
+        ("2025-09", "september-2025-india-information-technology-rules-report"),
+        ("2025-10", "october-2025-india-information-technology-rules-report"),
+        ("2025-11", "november-2025-india-information-technology-rules-report"),
+        ("2025-12", "december-2025-india-information-technology-rules-report"),
+        # 2026: Feb onward is the redesigned layout (year-month cover header,
+        # two-page grievance table, revised taxonomy). May-2026's asset is an
+        # opaque CDN key (no templated filename), so refreshing it needs a live
+        # viewer-page scrape — the archived raw file is authoritative regardless.
+        ("2026-01", "january-2026-india-information-technology-rules-report"),
+        ("2026-02", "february-2026-india-information-technology-rules-report"),
+        ("2026-03", "march-2026-india-information-technology-rules-report"),
+        ("2026-04", "april-2026-india-information-technology-rules-report"),
+        ("2026-05", "8fb0de4d-ac0b-4ce9-8925-197e12ecec64"))],
 ]
 
 
@@ -97,6 +122,16 @@ def _int(s: str) -> int | None:
     if not re.fullmatch(r"-?\d+", s):
         return None
     return int(s)
+
+
+def _int_or_nil(s: str) -> int | None:
+    """Like `_int`, but a dash placeholder ('-', '—', '–', 'N/A') reads as an
+    explicit 0 rather than a parse miss — Roblox uses a dash for a nil count and
+    switched to a literal '0' in later months, so both should land as 0."""
+    t = (s or "").strip()
+    if t in ("-", "—", "–", "N/A", "n/a", "NA"):
+        return 0
+    return _int(t)
 
 
 def _approx(s: str) -> float | None:
@@ -127,7 +162,11 @@ def _clean(label: str) -> str:
     """Tidy a category label: de-concatenate is impossible post-hoc, but strip
     trailing footnote digits ('Illegal Activities3' -> 'Illegal Activities'),
     collapse whitespace/newlines, and drop a leading 'N.' index."""
-    label = re.sub(r"\s+", " ", (label or "").replace("\n", " ")).strip()
+    label = (label or "").replace("\n", " ")
+    # Drop private-use-area glyphs (e.g. a bullet Roblox renders as U+E081) and
+    # other control chars that some PDFs leak into cell text.
+    label = re.sub(r"[\ue000-\uf8ff\x00-\x1f]", " ", label)
+    label = re.sub(r"\s+", " ", label).strip()
     label = re.sub(r"^\d+\.\s*", "", label)          # leading "1." index
     label = re.sub(r"(?<=[a-z])\d+$", "", label)     # trailing footnote digit
     return label.strip()
@@ -267,6 +306,76 @@ def _parse_twitter(path: str) -> tuple[str, list[list]]:
     return period, rows
 
 
+# ── Roblox PDF adapter ────────────────────────────────────────────────────────
+def _is_month(name: str) -> bool:
+    return (name or "").strip().lower()[:3] in _MONTH3
+
+
+def _roblox_period(full: str) -> str:
+    """Covered month, robust to Roblox's three layouts:
+      * 2025 / Jan-2026 body — '…covers the period October 1 - 31 st, 2025';
+      * Feb-2026 — a 'Reporting Period: Feb 1, 2026 - Feb 28, 2026' header;
+      * Mar-2026 onward — a leading '2026 March' (year-month) cover title.
+    The reporting-period start (not the 'Report Date' publication line) is the
+    covered month; the month word is validated so a stray 4-digit run can't pose
+    as a period."""
+    # (regex, month-group, year-group, haystack). Each pattern is evaluated
+    # independently: a match whose captured word isn't a real month falls through
+    # to the next pattern rather than blocking it.
+    head = full[:400]
+    for pat, mo_i, yr_i, hay in (
+            (r"covers the period\s+([A-Za-z]+)\s+\d+\s*[-–].*?(\d{4})", 1, 2, full),
+            (r"Reporting Period:\s+([A-Za-z]+)\s+\d+,?\s+(\d{4})", 1, 2, full),
+            (r"\b(\d{4})\s+([A-Za-z]{3,9})\b", 2, 1, head),
+            (r"\b([A-Za-z]{3,9})\s+(\d{4})\b", 1, 2, head)):
+        m = re.search(pat, hay)
+        if m and _is_month(m.group(mo_i)):
+            return f"{int(m.group(yr_i)):04d}-{_month_num(m.group(mo_i)):02d}"
+    raise SystemExit("Roblox: could not find covered period")
+
+
+def _parse_roblox(path: str) -> tuple[str, list[list]]:
+    """Roblox's monthly report (from March 2025) has two tables: grievance reports
+    received + enforcement actions by category (Table 1), and a single global
+    proactive-content-moderation total (Table 2, explicitly worldwide, not just
+    India). A `-` cell means nil; later months switched to `0`. Both map to 0 so a
+    category's time series is gap-free. The Feb-2026 redesign splits Table 1 across
+    two pages (each repeating the header) and revised the category taxonomy — both
+    handled: every table whose header names 'number of reports' contributes rows."""
+    import pdfplumber
+    rows: list[list] = []
+    with pdfplumber.open(path) as pdf:
+        full = "\n".join((p.extract_text() or "") for p in pdf.pages)
+        period = _roblox_period(full)
+        for page in pdf.pages:
+            for tb in page.extract_tables():
+                if not tb:
+                    continue
+                header = " ".join(_clean(c) for c in tb[0]).lower()
+                # Table 1: grievances by category — [category, #reports, #actions].
+                if "number of reports" in header:
+                    for r in tb[1:]:
+                        cat = _clean(r[0]) if r and r[0] else ""
+                        if not cat or _is_total(cat):
+                            continue
+                        rep = _int_or_nil(r[1]) if len(r) > 1 else None
+                        act = _int_or_nil(r[2]) if len(r) > 2 else None
+                        if rep is not None:
+                            rows.append(["Roblox", period, "grievances", cat,
+                                         "grievances_received", "count", rep])
+                        if act is not None:
+                            rows.append(["Roblox", period, "grievances", cat,
+                                         "enforcement_actions", "count", act])
+                # Table 2: single global proactive-moderation total.
+                elif header.startswith("category") and "total" in header:
+                    for r in tb[1:]:
+                        n = _int(r[-1]) if r else None
+                        if n is not None:
+                            rows.append(["Roblox", period, "content_actioned_proactive",
+                                         "", "content_actioned", "count", n])
+    return period, rows
+
+
 # ── Moj / ShareChat static-HTML adapter ──────────────────────────────────────
 def _html_tables(path: str) -> list[list[list[str]]]:
     """Parse each <table> row-by-row, preserving empty cells so the grid stays
@@ -361,6 +470,8 @@ def build(raw_dir: str) -> dict:
             period, r = _parse_meta(path)
         elif kind == "twitter":
             period, r = _parse_twitter(path)
+        elif kind == "roblox":
+            period, r = _parse_roblox(path)
         elif kind in ("moj", "sharechat"):
             platform = "Moj" if kind == "moj" else "ShareChat"
             period, r = _parse_html_report(path, platform)
@@ -374,7 +485,8 @@ def build(raw_dir: str) -> dict:
     rows.sort(key=lambda x: (x[0], x[1], x[2], x[3], x[4], x[5]))
     return {
         "source": "https://www.meta.com/ + https://transparency.twitter.com/ + "
-                   "https://help.mojapp.in/ + https://help.sharechat.com/",
+                   "https://help.mojapp.in/ + https://help.sharechat.com/ + "
+                   "https://about.roblox.com/",
         "coverage": max(periods) if periods else None,
         "columns": COLUMNS,
         "rows": rows,
