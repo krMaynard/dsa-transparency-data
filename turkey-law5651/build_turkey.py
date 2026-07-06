@@ -248,6 +248,8 @@ def _parse_meta(path: str, platform: str) -> list[list]:
 
 _X_PCT = re.compile(r"^\d{1,3}(?:\.\d+)?%$")
 _X_NUMCELL = re.compile(r"^\d{1,3}(?:,\d{3})*$|^\d+$")
+# Tokens X uses when a category's action rate isn't reported (volume still is).
+_X_NA = {"n/a", "n/a%", "na", "-", "—", "–", ""}
 
 
 def _x_period(full: str, fname: str) -> str:
@@ -272,7 +274,8 @@ def _parse_x(path: str) -> list[list]:
     a table split over a page break isn't silently truncated."""
     fname = os.path.basename(path)
     texts: list[str] = []
-    cells: list[tuple[str, str, str]] = []
+    # (canonical issue, volume cell, action-rate cell or None if not reported)
+    cells: list[tuple[str, str, str | None]] = []
     with pdfplumber.open(path) as pdf:
         for p in pdf.pages:
             texts.append(p.extract_text(x_tolerance_ratio=_X_TOLERANCE_RATIO) or "")
@@ -285,26 +288,43 @@ def _parse_x(path: str) -> list[list]:
                     rate = (r[2] or "").strip()
                     if cat in ("Issue", ""):
                         continue
-                    if not _X_PCT.match(rate) or not _X_NUMCELL.match(vol.replace(" ", "")):
+                    canon = _X_CANON.get(cat.replace(" ", "").lower())
+                    vol_ok = bool(_X_NUMCELL.match(vol.replace(" ", "")))
+                    rate_pct = bool(_X_PCT.match(rate))
+                    if canon is None:
+                        # An unknown label that still looks like a data row (a
+                        # parseable count with a percent or an explicit
+                        # "not-available" rate) is a NEW issue category — fail
+                        # loud so it gets curated rather than silently dropped.
+                        # Anything else is a non-data table artifact — skip it.
+                        if vol_ok and (rate_pct or rate.lower() in _X_NA):
+                            raise ValueError(
+                                f"{fname}: unrecognised X issue category {cat!r}")
                         continue
-                    cells.append((cat, vol, rate))
+                    # Known issue: the request volume is the primary metric and
+                    # must parse (fail loud on drift). The action rate is
+                    # sometimes reported as "n/a" (e.g. Incapacitated users,
+                    # 2024 H1) — keep the volume, drop only the absent rate.
+                    if not vol_ok:
+                        raise ValueError(
+                            f"{fname}: malformed volume {vol!r} for known X "
+                            f"issue {cat!r}")
+                    cells.append((canon, vol, rate if rate_pct else None))
     period = _x_period("\n".join(texts), fname)
     if not cells:
         raise ValueError(f"{fname}: no issue-breakdown rows found")
 
     rows: list[list] = []
     seen: set[str] = set()
-    for cat, vol, rate in cells:
-        canon = _X_CANON.get(cat.replace(" ", "").lower())
-        if canon is None:
-            raise ValueError(f"{fname}: unrecognised X issue category {cat!r}")
+    for canon, vol, rate in cells:
         if canon in seen:
             raise ValueError(f"{fname}: duplicate X issue category {canon!r}")
         seen.add(canon)
         rows.append(["X", period, "individual_requests", canon,
-                     "requests", "count", int(vol.replace(",", ""))])
-        rows.append(["X", period, "individual_requests", canon,
-                     "action_rate", "percent", float(rate.rstrip("%"))])
+                     "requests", "count", _int(vol.replace(" ", ""))])
+        if rate is not None:
+            rows.append(["X", period, "individual_requests", canon,
+                         "action_rate", "percent", float(rate.rstrip("%"))])
     return rows
 
 
