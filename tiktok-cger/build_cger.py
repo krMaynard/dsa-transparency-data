@@ -116,7 +116,7 @@ def build(raw_zip: str, include_markets: bool = False) -> dict:
         if include_markets:
             row = row[:2] + [r[ix["Market"]].strip()] + row[2:]
         rows.append(row)
-    rows.sort(key=lambda x: (x[0], x[1], x[2], x[3], x[4], x[5]))
+    rows.sort(key=lambda x: tuple(x[:-2]))  # all dims (excl. unit+value); market-aware
     periods = sorted({x[0] for x in rows})
     cols = COLUMNS[:2] + (["market"] if include_markets else []) + COLUMNS[2:]
     return {
