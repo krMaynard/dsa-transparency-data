@@ -72,7 +72,7 @@ SLUGS = {
 # Glyphs in these PDFs are positioned individually with no space characters, so a
 # font-size-relative word gap is needed or whole lines extract run-together.
 _X_TOLERANCE_RATIO = 0.1
-_NUM = r"([\d.,]+)"  # a reported integer, possibly thousands-separated
+_NUM = r"(\d{1,3}(?:[.,]\d{3})+|\d+)"  # a reported integer, possibly thousands-separated
 
 _MONTHS = {m: i for i, m in enumerate(
     ["january", "february", "march", "april", "may", "june", "july", "august",
@@ -214,7 +214,7 @@ def build(raw_dir: str) -> dict:
         n_before = len(rows)
         rows.extend(_parse_meta(path, platform))
         print(f"  {fname}: {len(rows) - n_before} values")
-    rows.sort(key=lambda r: (r[0], r[1], r[2], r[4]))
+    rows.sort(key=lambda r: (r[0], r[1], r[2], r[3]))
     periods = sorted({r[1] for r in rows})
     return {
         "source": SOURCE,
