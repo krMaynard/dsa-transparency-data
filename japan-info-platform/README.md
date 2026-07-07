@@ -59,10 +59,36 @@ builder raises if a parsed annual total doesn't match):
   posts/removals/rate tables. Additional providers slot in as they publish their
   first Art. 28 statistics (expected H2 2026 onward).
 
+## Narrative (prose) — `build_japan_narratives.py`
+
+`build_japan.py` pulls the *numbers*; **`build_japan_narratives.py`** pulls the
+**prose** — how each service describes its purpose, rules, response to violations,
+detection (AI + human review), and the cross-service (共通編) sections on
+countering misinformation, FY2024 new initiatives, the monitoring framework and
+healthy-discourse work — so it can be full-text searched alongside the other
+report narratives in `transparency-report-api` (NY ToS, CA AB 587, DSA Table-11).
+
+The source report is **Japanese-only**, so each section is stored **bilingually**:
+a curated English translation followed by the Japanese original prose, both in one
+searchable `text` field. The translations are curated in the script (like
+`build_japan.py`'s expected-figure constants), keeping the build deterministic and
+offline; every section carries a `ja_check` phrase that must still appear on its
+page, so the build **fails loudly** if the vendored PDF drifts.
+
+Output `japan-narratives.json` is tidy-long — one row per section, columns
+`company, platform, period, page, heading, text` — matching the page-based
+narrative shape the API's `_build_narratives` loader expects (seeded under
+`source='japan'`).
+
+```bash
+python build_japan_narratives.py   # → japan-narratives.json (19 sections)
+```
+
 ## Refresh
 
 ```bash
-python build_japan.py     # re-parses raw/lycorp-transparency-2024.pdf
+python build_japan.py              # re-parses raw/lycorp-transparency-2024.pdf
+python build_japan_narratives.py   # re-parses the prose → japan-narratives.json
 ```
 
 MIC materials: hub
