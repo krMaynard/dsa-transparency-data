@@ -65,8 +65,8 @@ OSAR = {
 
 
 def _text(name: str) -> str:
-    doc = fitz.open(os.path.join(RAW, name))
-    return "\n".join(p.get_text() for p in doc)
+    with fitz.open(os.path.join(RAW, name)) as doc:
+        return "\n".join(p.get_text() for p in doc)
 
 
 # ── Stream 2a: Meta (Facebook / Instagram) per-category Singapore figures ──
@@ -74,27 +74,39 @@ def _text(name: str) -> str:
 # "created in Singapore that we took action on", and the Singapore
 # proactive-detection rate.
 def parse_meta(name: str):
-    """Yield (category, sg_content_actioned, sg_proactive_pct) per category."""
+    """Yield (category, sg_content_actioned, sg_proactive_pct) per category.
+
+    The count and the proactive rate for each category appear in separate
+    sentences, so they are parsed with two passes and paired positionally. Both
+    passes walk the document in the same per-category order; a length mismatch
+    means the two passes fell out of step, so we fail loudly rather than align
+    rates against the wrong categories.
+    """
     txt = re.sub(r"\s+", " ", _text(name))
-    # count + category
-    counts = {}
+    # (category, count), in document order — a list, so repeated category labels
+    # can't silently collapse.
+    scale = {"thousand": 1000, "million": 1_000_000, None: 1}
+    cats = []
     for m in re.finditer(
-        r"including (?:over|about) ([\d.]+) (thousand|million) pieces of content "
-        r"created in Singapore,? for violating (?:our )?Community Standards on n? ?"
-        r"([A-Za-z()&,:/ -]+?)\s*\d",
+        # count may be "over 215.6 thousand", "about 4 million" or a bare "808".
+        r"including (?:over |about )?([\d,.]+)(?: (thousand|million))? pieces of "
+        r"content created in Singapore,? for violating (?:our )?Community "
+        r"Standards on n? ?([A-Za-z()&,:/ -]+?)\s*\d",
         txt,
     ):
-        val = float(m.group(1)) * (1000 if m.group(2) == "thousand" else 1_000_000)
-        counts[_clean_cat(m.group(3))] = int(round(val))
-    # proactive rate, in the same per-category order as the counts appear
+        val = float(m.group(1).replace(",", "")) * scale[m.group(2)]
+        cats.append((_clean_cat(m.group(3)), int(round(val))))
     rates = re.findall(
         r"content created in Singapore, we proactively detected about ([\d.]+) ?percent",
         txt,
     )
-    cats = list(counts)
-    for i, cat in enumerate(cats):
-        pct = float(rates[i]) if i < len(rates) else None
-        yield cat, counts[cat], pct
+    if len(rates) != len(cats):
+        raise ValueError(
+            f"{name}: parsed {len(cats)} category counts but {len(rates)} "
+            f"proactive rates — the two passes are misaligned"
+        )
+    for (cat, count), pct in zip(cats, rates):
+        yield cat, count, float(pct)
 
 
 def _clean_cat(c: str) -> str:
@@ -114,7 +126,7 @@ def parse_youtube():
         if idx < 0:
             return []
         chunk = txt[idx: idx + 900]
-        rows = re.findall(r"([A-Za-z][A-Za-z ,/or]+?)\s*\n\s*([\d,]{2,})", chunk)
+        rows = re.findall(r"([A-Za-z][A-Za-z ,/]+?)\s*\n\s*([\d,]+)", chunk)
         out = []
         for name, num in rows:
             name = name.strip()
