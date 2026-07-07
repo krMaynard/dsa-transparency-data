@@ -471,11 +471,6 @@ def _parse_google(path: str) -> tuple[str, list[list]]:
 # zero cells render blank — so columns are mapped by header keyword (not position)
 # via a table extraction that preserves the grid, and blanks read as 0. Each
 # report is Total-validated (per-service Closed must sum to the reported Total).
-_GAC_MONTHS = {m: i for i, m in enumerate(
-    ["January", "February", "March", "April", "May", "June", "July", "August",
-     "September", "October", "November", "December"], 1)}
-
-
 def _gac_metric(header: str) -> str | None:
     """Map a GAC outcome-column header to a canonical metric by keyword. The
     'tt' ligature renders as a NUL byte in these PDFs ('Not Admi\\x00ed'), so
@@ -501,8 +496,8 @@ def _gac_num(cell: str) -> int:
 
 
 def _gac_service(cell: str) -> str:
-    # Strip trailing footnote markers (superscripts / asterisks / digits).
-    return re.sub(r"[¹²³⁴⁵⁶\*\d]+$", "", (cell or "").replace("\x00", "tt").strip()).strip()
+    # Strip trailing footnote markers (any superscript digit / asterisk / digit).
+    return re.sub(r"[⁰¹²³⁴⁵⁶⁷⁸⁹\*\d]+$", "", (cell or "").replace("\x00", "tt").strip()).strip()
 
 
 def _parse_google_gac(path: str) -> tuple[str, list[list]]:
@@ -514,28 +509,31 @@ def _parse_google_gac(path: str) -> tuple[str, list[list]]:
         e = re.search(r"([A-Z][a-z]+) (?:30|31), (\d{4})", flat)
         if not (s and e):
             raise SystemExit(f"{path}: could not parse GAC reporting window")
-        period = (f"{s.group(2)}-{_GAC_MONTHS[s.group(1)]:02d}.."
-                  f"{e.group(2)}-{_GAC_MONTHS[e.group(1)]:02d}")
+        period = (f"{s.group(2)}-{_month_num(s.group(1)):02d}.."
+                  f"{e.group(2)}-{_month_num(e.group(1)):02d}")
         for page in pdf.pages:
             for tb in page.extract_tables():
-                if not tb or (tb[0][0] or "").strip() != "Service":
+                if not tb or not tb[0] or (tb[0][0] or "").strip() != "Service":
                     continue
                 metrics = [_gac_metric(c) for c in tb[0][1:5]]
                 total_closed = None
                 svc_closed = 0
                 for r in tb[1:]:
+                    if not r:
+                        continue
                     svc = _gac_service(r[0])
                     if not svc:
                         continue
                     if svc == "Total":
-                        total_closed = _gac_num(r[1])
+                        total_closed = _gac_num(r[1]) if len(r) > 1 else 0
                         continue
                     for col, metric in enumerate(metrics, start=1):
-                        if metric:
+                        if metric and col < len(r):
+                            val = _gac_num(r[col])
                             rows.append(["Google", period, "gac_appeals", svc,
-                                         metric, "count", _gac_num(r[col])])
+                                         metric, "count", val])
                             if metric == "appeals_closed":
-                                svc_closed += _gac_num(r[col])
+                                svc_closed += val
                 # Fail loud if the per-service Closed figures don't reconcile with
                 # the report's own Total — a signal the table drifted.
                 if total_closed is not None and svc_closed != total_closed:
