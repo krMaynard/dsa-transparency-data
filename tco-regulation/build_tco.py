@@ -173,8 +173,10 @@ SOURCES: list[dict] = [
 
 
 def _pdf_text(path: str) -> str:
+    # Join pages with a newline so a word at a page boundary can't glue onto the
+    # first word of the next page (which would break an anchor check).
     with fitz.open(path) as doc:
-        return "".join(doc[i].get_text() for i in range(doc.page_count))
+        return "\n".join(page.get_text() for page in doc)
 
 
 def _norm(s: str) -> str:
@@ -197,7 +199,7 @@ def build(raw_dir: str) -> dict:
                          section, category, metric, unit, value])
     rows.sort(key=lambda r: (r[1], r[0], r[2], r[3], r[4], r[5]))
     years = sorted({y for r in rows for y in re.findall(r"\d{4}", r[2])})
-    coverage = years[0] if len(years) == 1 else f"{years[0]}..{years[-1]}"
+    coverage = (years[0] if len(years) == 1 else f"{years[0]}..{years[-1]}") if years else ""
     return {
         "source": "EU Regulation 2021/784 (Terrorist Content Online Regulation)",
         "coverage": coverage,
