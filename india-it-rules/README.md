@@ -63,14 +63,16 @@ fails on drift.
 - **section** — `content_actioned_proactive`, `grievances_received`,
   `grievances_tools_provided`, `grievances`, `accounts_actioned`, `gac_orders`,
   `complaints`, `account_bans`, `law_enforcement`; Google adds
-  `complaints_received` / `removal_actions`; Pinterest adds `reports` /
-  `voluntary_actions`.
+  `complaints_received` / `removal_actions` and `gac_appeals` (the half-yearly
+  Rule 3A(7) report of user appeals the Grievance Appellate Committee closed, by
+  Google service × outcome); Pinterest adds `reports` / `voluntary_actions`.
 - **category** — policy area / complaint reason / ban duration (empty where the
   section has no breakdown).
 - **metric** — the specific measure within the section (e.g. `content_actioned`,
   `proactive_rate`, `reports`, `grievances_received`, `enforcement_actions`,
   `urls_actioned`, `accounts_suspended`, `orders_received`/`orders_complied`,
-  `ugc_ban`, `requests_received`, Google's `complaints`/`removal_actions`,
+  `ugc_ban`, `requests_received`, Google's `complaints`/`removal_actions` and its
+  GAC `appeals_closed`/`appeals_rejected`/`appeals_allowed`/`appeals_not_admitted`,
   Pinterest's `pins_deactivated`/`pins_limited_distribution`/… per object type).
 - **unit** — `count` (exact integer), `approx_count` (Meta's abbreviated
   `2.3M`/`448.6K` proactive figures — the company's own rounded best-estimates,

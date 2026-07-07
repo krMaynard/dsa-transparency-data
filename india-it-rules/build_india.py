@@ -69,6 +69,8 @@ _META = "https://transparency.meta.com/sr/india-monthly-report-{slug}"
 _RBLX = "https://cms-media.roblox.com/assets/{slug}.pdf"
 _GOOG = ("https://storage.googleapis.com/transparencyreport/report-downloads/"
          "india-intermediary-guidelines_{y}-{m}-1_{y}-{m}-{last}_en_v1.pdf")
+_GAC = ("https://storage.googleapis.com/transparencyreport/report-downloads/"
+        "pdf-report-{slug}_en_v1.pdf")
 _PINT = "https://policy.pinterest.com/en/india-transparency-report"
 
 
@@ -140,6 +142,17 @@ SOURCES: list[tuple[str, str, str]] = [
     # the Next.js payload (grievance 'Reports' + proactive 'Voluntary actions', by
     # policy × object type). One archived HTML file; all periods parsed from it.
     ("pinterest-india-transparency.html", "pinterest", _PINT),
+    # Google — Grievance Appellate Committee (GAC) appeals report under IT Rules
+    # Rule 3A(7): user appeals the GAC closed, by Google service × outcome, filed
+    # half-yearly (Mar 2023 →). A separate report/section from the monthly SSMI
+    # figures above. Covered window is parsed from the PDF.
+    *[(f"google-gac-{ym}.pdf", "google_gac", _GAC.format(slug=slug)) for ym, slug in (
+        ("2023-03", "28_2023-3-1_2023-9-30"),
+        ("2023-10", "28_2023-10-1_2024-3-31"),
+        ("2024-04", "28_2024-4-1_2024-9-30"),
+        ("2024-10", "28_2024-10-1_2025-3-31"),
+        ("2025-04", "28_2025-4-1_2025-9-30"),
+        ("2025-10", "28_2025-10-1_2026-3-31"))],
 ]
 
 
@@ -450,6 +463,87 @@ def _parse_google(path: str) -> tuple[str, list[list]]:
     return period, rows
 
 
+# ── Google GAC (Grievance Appellate Committee) adapter ────────────────────────
+# The half-yearly IT Rules 3A(7) report: user appeals the GAC closed, broken down
+# by Google service × outcome. The template drifts across eras — the header
+# wording and column ORDER changed (2024-H2 onward reorders to Closed / Not
+# Admitted / Rejected / Allowed, and one report even misspells "Admitetd") and
+# zero cells render blank — so columns are mapped by header keyword (not position)
+# via a table extraction that preserves the grid, and blanks read as 0. Each
+# report is Total-validated (per-service Closed must sum to the reported Total).
+_GAC_MONTHS = {m: i for i, m in enumerate(
+    ["January", "February", "March", "April", "May", "June", "July", "August",
+     "September", "October", "November", "December"], 1)}
+
+
+def _gac_metric(header: str) -> str | None:
+    """Map a GAC outcome-column header to a canonical metric by keyword. The
+    'tt' ligature renders as a NUL byte in these PDFs ('Not Admi\\x00ed'), so
+    restore it first. Order matters: 'Admitted - Rejected'/'Admitted - Allowed'
+    contain 'admit', so the reject/allow checks must precede the not-admitted
+    check."""
+    low = (header or "").replace("\x00", "tt").lower()
+    if "closed" in low:
+        return "appeals_closed"
+    if "reject" in low:
+        return "appeals_rejected"
+    if "allow" in low:
+        return "appeals_allowed"
+    if "admit" in low:  # "Not Admitted" / "Not Admitted by GAC"
+        return "appeals_not_admitted"
+    return None
+
+
+def _gac_num(cell: str) -> int:
+    cell = (cell or "").strip()
+    m = re.match(r"([\d,]+)", cell)
+    return int(m.group(1).replace(",", "")) if m else 0  # blank cell = 0
+
+
+def _gac_service(cell: str) -> str:
+    # Strip trailing footnote markers (superscripts / asterisks / digits).
+    return re.sub(r"[¹²³⁴⁵⁶\*\d]+$", "", (cell or "").replace("\x00", "tt").strip()).strip()
+
+
+def _parse_google_gac(path: str) -> tuple[str, list[list]]:
+    import pdfplumber
+    rows: list[list] = []
+    with pdfplumber.open(path) as pdf:
+        flat = " ".join(" ".join((p.extract_text() or "") for p in pdf.pages).split())
+        s = re.search(r"([A-Z][a-z]+) 1, (\d{4})", flat)
+        e = re.search(r"([A-Z][a-z]+) (?:30|31), (\d{4})", flat)
+        if not (s and e):
+            raise SystemExit(f"{path}: could not parse GAC reporting window")
+        period = (f"{s.group(2)}-{_GAC_MONTHS[s.group(1)]:02d}.."
+                  f"{e.group(2)}-{_GAC_MONTHS[e.group(1)]:02d}")
+        for page in pdf.pages:
+            for tb in page.extract_tables():
+                if not tb or (tb[0][0] or "").strip() != "Service":
+                    continue
+                metrics = [_gac_metric(c) for c in tb[0][1:5]]
+                total_closed = None
+                svc_closed = 0
+                for r in tb[1:]:
+                    svc = _gac_service(r[0])
+                    if not svc:
+                        continue
+                    if svc == "Total":
+                        total_closed = _gac_num(r[1])
+                        continue
+                    for col, metric in enumerate(metrics, start=1):
+                        if metric:
+                            rows.append(["Google", period, "gac_appeals", svc,
+                                         metric, "count", _gac_num(r[col])])
+                            if metric == "appeals_closed":
+                                svc_closed += _gac_num(r[col])
+                # Fail loud if the per-service Closed figures don't reconcile with
+                # the report's own Total — a signal the table drifted.
+                if total_closed is not None and svc_closed != total_closed:
+                    raise SystemExit(f"{path}: GAC Closed sum {svc_closed} != "
+                                     f"reported Total {total_closed}")
+    return period, rows
+
+
 # ── Pinterest single-page JSON adapter ────────────────────────────────────────
 # The grievance ('Reports') tables say "deactivated"; the proactive ('Voluntary
 # actions') tables say "deactivations" for the same measure — fold both to one
@@ -643,6 +737,8 @@ def build(raw_dir: str) -> dict:
             period, r = _parse_roblox(path)
         elif kind == "google":
             period, r = _parse_google(path)
+        elif kind == "google_gac":
+            period, r = _parse_google_gac(path)
         elif kind == "pinterest":
             period, r = _parse_pinterest(path)
         elif kind in ("moj", "sharechat"):
