@@ -31,8 +31,9 @@ narrative corpora via the API's `_build_narratives`):
 - **platform** — the service the section is about (blank for the intro / the
   cross-service 共通編 sections).
 - **period** — the report's fiscal year, ``2024-04..2025-03``.
-- **page** — the 1-based PDF page where the section begins (a reference anchor;
-  the PDF isn't mirrored in-repo, so there's no deep link).
+- **page** — the printed page number where the section begins (which equals the
+  0-based PDF index for this report; a reference anchor — the PDF isn't mirrored
+  in-repo, so there's no deep link).
 - **heading** — an English section heading.
 - **text** — the English translation, then a blank line, then the Japanese
   original prose.
@@ -690,7 +691,7 @@ SECTIONS: list[dict] = [
 
 
 def _page_texts(pdf_path: str) -> list[str]:
-    """Whitespace-stripped text of every page (index = page number - 1)."""
+    """Whitespace-stripped text of every page (index = 0-based PDF page index)."""
     with fitz.open(pdf_path) as doc:
         return [re.sub(r"\s+", "", doc[i].get_text()) for i in range(doc.page_count)]
 
