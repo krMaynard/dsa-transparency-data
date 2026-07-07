@@ -13,34 +13,59 @@ There are two disclosure duties:
 - **Art. 21** — publish your deletion-request window (送信防止措置の申出窓口) and
   deletion criteria (実施基準). *Qualitative.* Live since ~late July 2025.
 - **Art. 28** — publish implementation-status **statistics** once a year, within
-  two months of fiscal-year end. Japan's FY ends 31 Mar, so the first mandatory
-  statistical cycle is **FY2025 (Apr 2025 – Mar 2026), due ~end May 2026**.
+  two months of fiscal-year end (Japan's FY ends 31 Mar).
 
-## Status of the data (as of this snapshot)
+## What's built (LY Corporation only)
 
 **Only LY Corporation currently publishes statistics.** Its **Media Transparency
-Report** (メディア透明性レポート) gives per-service post and deletion counts —
-split into self-detected vs. user-reported deletions — explicitly restructured to
-match the 情プラ法 施行規則 categories. The FY2024 edition (published May 2025) is
-archived here in `raw/lycorp-transparency-2024.pdf`
-(<https://www.lycorp.co.jp/ja/company/transparencyreport2024.pdf>). It is a
-**Japanese-only PDF** with no HTML/CSV data table.
+Report** (メディア透明性レポート, FY2024, published May 2025) gives, per service, a
+quarterly table (『四半期ごとの投稿件数・投稿削除件数及び投稿削除割合』) with the
+FY2024 quarters and the annual total. `build_japan.py` parses those five tables
+(archived in `raw/lycorp-transparency-2024.pdf`) into the tidy-long
+`japan-info-platform.json` (`columns` = `service, period, metric, unit, value`):
 
-**Google, Meta, TikTok and X** publish only the qualitative Art. 21 criteria /
-window pages — **no statistics yet**. There is **no common MIC template, no
-aggregated MIC dataset, and no CSV/JSON feed**; MIC's own collated PDFs
-(e.g. <https://www.soumu.go.jp/main_content/001031570.pdf>) are image-like and
-not text-extractable.
+- **Services**: Yahoo! Chiebukuro (知恵袋), Yahoo! Finance boards (ファイナンス
+  掲示板), LINE OpenChat (オープンチャット), LINE VOOM, Yahoo! News comments
+  (ヤフコメ).
+- **`period`**: the FY2024 quarters (`2024-04..2024-06` … `2025-01..2025-03`) and
+  the annual total (`2024-04..2025-03`).
+- **`metric`** / **`unit`**: `posts` (投稿件数, count), `posts_removed`
+  (投稿削除件数, count), `removal_rate` (投稿削除割合, percent).
 
-MIC materials:
-- Hub: <https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/ihoyugai.html>
-- English designation notice: <https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2025/4/30_3.html>
+FY2024 annual headline figures (verified against the report's prose summary — the
+builder raises if a parsed annual total doesn't match):
 
-## Why there's no builder yet
+| Service | Posts | Removed | Rate |
+|---|--:|--:|--:|
+| Yahoo! Chiebukuro | 66,199,309 | 444,727 | 0.7% |
+| Yahoo! Finance boards | 29,415,652 | 487,773 | 1.7% |
+| LINE OpenChat | 5,514,828,787 | 6,980,935 | 0.1% |
+| LINE VOOM | 403,331,897 | 3,055,002 | 0.8% |
+| Yahoo! News comments | 113,995,832 | 1,277,396 | 1.1% |
 
-A harmonised cross-platform dataset can't be assembled today: four of the five
-core providers publish no figures, and the one that does (LY Corp) is a
-heterogeneous Japanese-only PDF. This directory **archives the one real report**
-and documents the regime; a builder is deferred until the first Art. 28
-statistical disclosures land (expected H2 2026), at which point this can be
-modelled like the Türkiye Law 5651 single-platform dataset.
+### Caveats
+
+- **LY Corporation only.** Google, Meta, TikTok and X publish only the
+  qualitative Art. 21 criteria/window pages — **no statistics yet**. There is no
+  common MIC template, aggregated MIC dataset, or CSV/JSON feed to harmonise
+  against; MIC's own collated PDFs (e.g.
+  <https://www.soumu.go.jp/main_content/001031570.pdf>) are image-like and not
+  text-extractable.
+- `removal_rate` is a **percent** (posts-removed ÷ posts, per the report's own
+  definition) — never SUM it. Removals may act on posts from earlier years, so
+  the rate is an approximation of the current-year ratio (the report notes this).
+- The report also carries deletion-by-reason breakdowns and court/disclosure
+  request counts per service; this first pass captures the headline
+  posts/removals/rate tables. Additional providers slot in as they publish their
+  first Art. 28 statistics (expected H2 2026 onward).
+
+## Refresh
+
+```bash
+python build_japan.py     # re-parses raw/lycorp-transparency-2024.pdf
+```
+
+MIC materials: hub
+<https://www.soumu.go.jp/main_sosiki/joho_tsusin/d_syohi/ihoyugai.html> ·
+English designation notice
+<https://www.soumu.go.jp/main_sosiki/joho_tsusin/eng/pressrelease/2025/4/30_3.html>.
