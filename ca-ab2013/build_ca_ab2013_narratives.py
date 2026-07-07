@@ -55,7 +55,8 @@ _SECTIONS = [
 
 
 def build(pdf_path: str) -> dict:
-    flat = " ".join(" ".join(p.get_text() for p in fitz.open(pdf_path)).split())
+    with fitz.open(pdf_path) as doc:
+        flat = " ".join(" ".join(p.get_text() for p in doc).split())
     rows: list[list] = []
     for heading, start, end in _SECTIONS:
         i = flat.find(start)
