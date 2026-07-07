@@ -118,6 +118,7 @@ def parse_service(doc, page_idx: int, label: str, name: str):
 # 31 Mar 2026 (raw/youtube-japan-2025h2-{en,ja}.pdf). Transcribed from the report
 # tables; each breakdown is validated against its stated Total below.
 YT_SERVICE = "YouTube"
+YT_SOURCE = "https://transparencyreport.google.com/"
 YT_PERIOD = "2025-07-26..2026-03-31"
 
 # section, metric, unit, {category: value}, stated Total.
@@ -194,8 +195,10 @@ def main():
             rows.extend(parse_service(doc, page_idx, label, name))
     rows.extend(build_youtube())
     data = {
-        "source": SOURCE,
-        "coverage": LY_COVERAGE,
+        # Two providers on different report windows — keep a per-provider source
+        # map and a coverage envelope spanning both, rather than LY Corp's alone.
+        "sources": {"LY Corporation": SOURCE, "YouTube": YT_SOURCE},
+        "coverage": "2024-04..2026-03",
         "columns": COLUMNS,
         "rows": rows,
     }
