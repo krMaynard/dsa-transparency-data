@@ -169,6 +169,73 @@ SOURCES: list[dict] = [
             ["platform_enforcement", "Facebook", "review_proceedings", "count", 0],
         ],
     },
+    # Google — EU TCO Art. 7 transparency reports (whole-Google, across its
+    # services), one per calendar year, from the public GCS bucket
+    # (storage.googleapis.com/transparencyreport/report-downloads/pdf-report-26_*).
+    # Google reports exact counts (not banded), and its `content_removed_proactive`
+    # is terrorist/violent-extremist content removed under its own policies.
+    {
+        "pdf": "google-art7-2022.pdf",
+        "publisher": "Google",
+        "role": "platform",
+        "period": "2022",
+        "checks": ["Google received 0 Removal Orders from Competent Authorities",
+                   "1,401,390 items", "handled 15,295 complaints",
+                   "June 7, 2022 and December 31, 2022"],
+        "rows": [
+            ["platform_enforcement", "Google", "removal_orders_received", "count", 0],
+            ["platform_enforcement", "Google", "content_removed_via_orders", "count", 0],
+            ["platform_enforcement", "Google", "content_removed_proactive", "count", 1401390],
+            ["platform_enforcement", "Google", "appeals_received", "count", 15295],
+        ],
+    },
+    {
+        "pdf": "google-art7-2023.pdf",
+        "publisher": "Google",
+        "role": "platform",
+        "period": "2023",
+        "checks": ["Google received 0 Removal Orders from Competent Authorities",
+                   "16,317,868 items", "handled 61,853 complaints",
+                   "January 1, 2023 and December 31, 2023"],
+        "rows": [
+            ["platform_enforcement", "Google", "removal_orders_received", "count", 0],
+            ["platform_enforcement", "Google", "content_removed_via_orders", "count", 0],
+            ["platform_enforcement", "Google", "content_removed_proactive", "count", 16317868],
+            ["platform_enforcement", "Google", "appeals_received", "count", 61853],
+        ],
+    },
+    {
+        "pdf": "google-art7-2024.pdf",
+        "publisher": "Google",
+        "role": "platform",
+        "period": "2024",
+        "checks": ["received three Removal Orders", "55,306,499 items",
+                   "handled 81,799 complaints",
+                   "6,063 original enforcement decisions were overturned"],
+        "rows": [
+            ["platform_enforcement", "Google", "removal_orders_received", "count", 3],
+            ["platform_enforcement", "Google", "content_removed_proactive", "count", 55306499],
+            ["platform_enforcement", "Google", "appeals_received", "count", 81799],
+            ["platform_enforcement", "Google", "decisions_reversed", "count", 6063],
+        ],
+    },
+    {
+        "pdf": "google-art7-2025.pdf",
+        "publisher": "Google",
+        "role": "platform",
+        "period": "2025",
+        "checks": ["12 items of content were removed across Google",
+                   "181,341,358 items", "handled 215,840 complaints",
+                   "18,506 original enforcement decisions were overturned",
+                   "1 set of administrative review proceedings"],
+        "rows": [
+            ["platform_enforcement", "Google", "content_removed_via_orders", "count", 12],
+            ["platform_enforcement", "Google", "content_removed_proactive", "count", 181341358],
+            ["platform_enforcement", "Google", "appeals_received", "count", 215840],
+            ["platform_enforcement", "Google", "decisions_reversed", "count", 18506],
+            ["platform_enforcement", "Google", "review_proceedings", "count", 1],
+        ],
+    },
 ]
 
 
