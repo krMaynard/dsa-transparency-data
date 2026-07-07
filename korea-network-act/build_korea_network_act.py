@@ -39,6 +39,7 @@ from __future__ import annotations
 
 import json
 import os
+from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "korea-network-act.json")
@@ -158,8 +159,8 @@ def main():
     }
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
+        f.write("\n")
     print(f"wrote {OUT}: {len(rows)} rows")
-    from collections import Counter
     print("rows per section:", dict(Counter(r[2] for r in rows)))
 
 
