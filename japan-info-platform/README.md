@@ -15,14 +15,19 @@ There are two disclosure duties:
 - **Art. 28** — publish implementation-status **statistics** once a year, within
   two months of fiscal-year end (Japan's FY ends 31 Mar).
 
-## What's built (LY Corporation only)
+## What's built (LY Corporation + Google/YouTube)
 
-**Only LY Corporation currently publishes statistics.** Its **Media Transparency
-Report** (メディア透明性レポート, FY2024, published May 2025) gives, per service, a
-quarterly table (『四半期ごとの投稿件数・投稿削除件数及び投稿削除割合』) with the
-FY2024 quarters and the annual total. `build_japan.py` parses those five tables
-(archived in `raw/lycorp-transparency-2024.pdf`) into the tidy-long
-`japan-info-platform.json` (`columns` = `service, period, metric, unit, value`):
+**Two providers now publish statistics: LY Corporation and Google (YouTube).**
+`build_japan.py` writes the tidy-long `japan-info-platform.json`, whose `columns`
+are `service, period, section, category, metric, unit, value` — LY Corp's rows
+sit in section `posts_activity` (category `All`); YouTube's carry a `section` per
+report table and a `category` per reason (`Total` for the section aggregate).
+
+**LY Corporation** — its **Media Transparency Report** (メディア透明性レポート,
+FY2024, published May 2025) gives, per service, a quarterly table
+(『四半期ごとの投稿件数・投稿削除件数及び投稿削除割合』) with the FY2024 quarters and
+the annual total. `build_japan.py` parses those five tables (archived in
+`raw/lycorp-transparency-2024.pdf`):
 
 - **Services**: Yahoo! Chiebukuro (知恵袋), Yahoo! Finance boards (ファイナンス
   掲示板), LINE OpenChat (オープンチャット), LINE VOOM, Yahoo! News comments
@@ -31,6 +36,25 @@ FY2024 quarters and the annual total. `build_japan.py` parses those five tables
   the annual total (`2024-04..2025-03`).
 - **`metric`** / **`unit`**: `posts` (投稿件数, count), `posts_removed`
   (投稿削除件数, count), `removal_rate` (投稿削除割合, percent).
+
+**Google (YouTube)** — its **Japan Information Platform Act Transparency Report**
+(26 Jul 2025 – 31 Mar 2026, published May 2026; archived in
+`raw/youtube-japan-2025h2-{en,ja}.pdf`) gives Japan-specific figures, transcribed
+with each breakdown cross-checked against its stated Total (the builder raises on
+any mismatch). `period` is the report window `2025-07-26..2026-03-31`; the
+`section`s are:
+
+- `legal_requests` (requests received for Legal Removals, by reason),
+  `legal_extended_review_notifications`, `legal_items` (identified — Removed / Not
+  removed) and `legal_removals` (by reason) — the Art. 28 (i)(ii)/(iv) legal
+  stream;
+- `user_flags` (human flags by reason), `policy_removals` (videos removed by
+  reason), `policy_detection_source` (videos removed by first-detection source),
+  `suspensions` (channel terminations by reason) and `appeals`
+  (appeals / reinstatements) — the Art. 28 (iv) policy stream;
+- `platform` — headline figures: `monthly_active_users` (106.4M), qualified
+  Japanese-language `qualified_reviewers` (293), `expert_investigation_cases` (6),
+  `notifications_withheld` (0).
 
 FY2024 annual headline figures (verified against the report's prose summary — the
 builder raises if a parsed annual total doesn't match):
@@ -45,19 +69,26 @@ builder raises if a parsed annual total doesn't match):
 
 ### Caveats
 
-- **LY Corporation only.** Google, Meta, TikTok and X publish only the
-  qualitative Art. 21 criteria/window pages — **no statistics yet**. There is no
-  common MIC template, aggregated MIC dataset, or CSV/JSON feed to harmonise
-  against; MIC's own collated PDFs (e.g.
-  <https://www.soumu.go.jp/main_content/001031570.pdf>) are image-like and not
-  text-extractable.
-- `removal_rate` is a **percent** (posts-removed ÷ posts, per the report's own
-  definition) — never SUM it. Removals may act on posts from earlier years, so
-  the rate is an approximation of the current-year ratio (the report notes this).
-- The report also carries deletion-by-reason breakdowns and court/disclosure
-  request counts per service; this first pass captures the headline
-  posts/removals/rate tables. Additional providers slot in as they publish their
-  first Art. 28 statistics (expected H2 2026 onward).
+- **LY Corporation + Google (YouTube).** Meta, TikTok and X still publish only
+  the qualitative Art. 21 criteria/window pages — **no statistics yet**. There is
+  no common MIC template, aggregated MIC dataset, or CSV/JSON feed to harmonise
+  against, and the two providers' figures are **not comparable** (LY Corp reports
+  posts/removals per service and quarter; YouTube reports legal/policy actions by
+  reason for a different window). Additional providers slot in as they publish
+  their first Art. 28 statistics.
+- **Cross-section / cross-service care.** Metrics and units are never comparable
+  across `section`s (LY Corp `posts` vs YouTube `flags`/`videos_removed`/…), and
+  every YouTube section carries a `Total` category beside its breakdown, so
+  summing over `category` double-counts. Pin `service`, `section` **and**
+  `category` before aggregating.
+- `removal_rate` (LY Corp) is a **percent** (posts-removed ÷ posts, per the
+  report's own definition) — never SUM it. Removals may act on posts from earlier
+  years, so the rate approximates the current-year ratio (the report notes this).
+- YouTube's `policy_removals` and `policy_detection_source` are two cross-cuts of
+  the **same** 162,390 removed videos (by reason vs by first-detection source), so
+  their totals match by construction — don't add them together. Its global,
+  banded Violative View Rate (VVR) figures are qualitative context and aren't
+  ingested here.
 
 ## Narrative (prose) — `build_japan_narratives.py`
 
