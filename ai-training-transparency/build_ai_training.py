@@ -77,9 +77,11 @@ def _band_rank(value: str) -> int | None:
 
 
 # ── Microsoft-style markdown "data summary card" parser ─────────────────────
-# Fields are `**<code> <label>:** <value>` lines. We key off the stable numeric
-# codes so label wording drift doesn't matter.
-_MD_FIELD = re.compile(r"\*\*([\d.]+[A-Z]?)\s+[^:*]+:\*\*\s*(.+?)\s*$", re.M)
+# Fields are `**<code> <label>:** <value>` lines (statement fields end the label
+# with a colon; question fields like `2.1.1 …publicly available…?**` end it with a
+# question mark). We key off the stable numeric codes so label wording drift
+# doesn't matter, and accept either terminator so question fields aren't dropped.
+_MD_FIELD = re.compile(r"\*\*([\d.]+[A-Z]?)\s+[^*]+[?:]\*\*\s*(.+?)\s*$", re.M)
 
 _MD_MAP = {  # template code -> (section, field)
     "1.3.1.A": ("modality", "Text"),
@@ -98,7 +100,8 @@ _MD_MAP = {  # template code -> (section, field)
 
 
 def _parse_markdown(path: str, provider: str) -> list[list]:
-    text = open(path, encoding="utf-8").read()
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
     fields = {code: val for code, val in _MD_FIELD.findall(text)}
     model = fields.get("1.2.1", os.path.basename(path))
     released = fields.get("1.2.2", "")
