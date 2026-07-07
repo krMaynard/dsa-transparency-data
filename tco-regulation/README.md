@@ -52,6 +52,12 @@ reports archived in `raw/`. Two streams (`role`):
     Dangerous Organizations, Violence & Incitement, Coordinating Harm — that
     overlaps Meta's CSER, hence `approx_count`), 857.2k appeals, 156k reinstated,
     0 Art. 10 complaints, 0 reviews.
+  - **Google** (whole-Google, **2022–2025**, from the public GCS bucket
+    `storage.googleapis.com/transparencyreport/report-downloads/pdf-report-26_*`):
+    removal orders received (0 / 0 / 3 / 12-items), and exact proactive removals
+    of terrorist/extremist content that grew 1.4M → 16.3M → 55.3M → **181.3M**,
+    plus complaints handled (appeals) and decisions overturned. Google reports
+    exact counts (not banded), so `unit=count`.
 
 ### Method & caveats
 
