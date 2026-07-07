@@ -51,8 +51,9 @@ def _pdf_text(path: str) -> str:
 
 
 def _int(s: str) -> int:
-    """Parse a count that may use comma or space thousands separators."""
-    return int(re.sub(r"[ ,]", "", s.strip()))
+    """Parse an integer count that may use comma, dot (German, in the Austrian
+    reports) or space thousands separators."""
+    return int(re.sub(r"[ ,.]", "", s.strip()))
 
 
 def _need(text: str, pat: str, path: str, label: str) -> re.Match:
@@ -74,8 +75,10 @@ _TX_REASONS = re.compile(
     r"Spam,? Misleading and Scams|Spam, Deceptive Practices, and Scams|"
     r"Violent or Graphic): ([\d,]+) \(")
 
-# A "Rank / Country / Value" table row: rank, country name, space-separated count.
-_TX_COUNTRY = re.compile(r"\n\d+\n([A-Z][A-Za-z .'-]+?)\n([\d][\d ,]*)\n")
+# A "Rank / Country / Value" table row: rank, country name (any characters up to
+# the line end, so names with commas/parentheses/diacritics — e.g. "Congo,
+# Democratic Republic of the", "Türkiye" — aren't silently dropped), count.
+_TX_COUNTRY = re.compile(r"\n\d+\n([A-Z][^\n]+)\n([\d][\d ,]*)\n")
 
 
 def _slice(text: str, start_anchor: str, end_anchor: str) -> str:
@@ -133,9 +136,14 @@ def _parse_texas(path: str, period: str) -> list[list]:
         add("age_restrictions", "", "age_restrictions_applied", _int(m.group(1)))
 
     # Community-Guidelines enforcement headline figures — the full-layout reports
-    # (2024-H2, 2025-H1) only; 2025-H2 points to the global CGER instead.
+    # (2024-H2, 2025-H1) only; from 2025-H2 the report is reduced and points to
+    # the global CGER instead. Guard against silent data loss: if a report that
+    # predates the 2025-H2 reduction is missing the headline, the wording drifted.
     m = re.search(r"violating its Community Guidelines during the reporting "
                   r"period was ([\d,]+)", flat)
+    if not m and period < "2025-H2":
+        raise SystemExit(f"{os.path.basename(path)}: enforcement headline not "
+                         f"found for the full-layout report {period}")
     if m:
         add("enforcement", "", "videos_removed", _int(m.group(1)))
         a = _need(flat, r"number of appeals YouTube received[^0-9]*?was ([\d,]+)",
@@ -170,9 +178,12 @@ def _parse_texas(path: str, period: str) -> list[list]:
             metric = "flags" if section == "human_flags" else "videos_removed"
             add(section, cat, metric, n)
         # Video removals by country of upload (Rank / Country / Value table). The
-        # table prints as two side-by-side columns (two "Rank" headers), so a
-        # window from the first covers both; the strict row regex ignores non-rows.
-        i = text.find("Rank")
+        # table follows the reasons section, so search "Rank" from there (not the
+        # document start, where prose could match). It prints as two side-by-side
+        # columns (two "Rank" headers), so a window from the first covers both;
+        # the strict row regex ignores non-rows.
+        reason_idx = text.find("Video removals by reason")
+        i = text.find("Rank", reason_idx) if reason_idx >= 0 else -1
         for label, n in _TX_COUNTRY.findall(text[i:i + 1400]) if i >= 0 else []:
             add("removals_by_country", label.strip(), "videos_removed", _int(n))
         # Cross-check: the reason and detection breakdowns each partition the same
