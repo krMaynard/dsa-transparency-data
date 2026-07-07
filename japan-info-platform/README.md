@@ -15,13 +15,14 @@ There are two disclosure duties:
 - **Art. 28** — publish implementation-status **statistics** once a year, within
   two months of fiscal-year end (Japan's FY ends 31 Mar).
 
-## What's built (LY Corporation + Google/YouTube)
+## What's built (LY Corporation + Google/YouTube + Meta)
 
-**Two providers now publish statistics: LY Corporation and Google (YouTube).**
-`build_japan.py` writes the tidy-long `japan-info-platform.json`, whose `columns`
-are `service, period, section, category, metric, unit, value` — LY Corp's rows
-sit in section `posts_activity` (category `All`); YouTube's carry a `section` per
-report table and a `category` per reason (`Total` for the section aggregate).
+**Three providers now publish statistics: LY Corporation, Google (YouTube) and
+Meta.** `build_japan.py` writes the tidy-long `japan-info-platform.json`, whose
+`columns` are `service, period, section, category, metric, unit, value` — LY
+Corp's rows sit in section `posts_activity` (category `All`); YouTube's and
+Meta's carry a `section` per report table and a `category` per reason/violation
+type (`Total` for the section aggregate).
 
 **LY Corporation** — its **Media Transparency Report** (メディア透明性レポート,
 FY2024, published May 2025) gives, per service, a quarterly table
@@ -56,6 +57,33 @@ any mismatch). `period` is the report window `2025-07-26..2026-03-31`; the
   Japanese-language `qualified_reviewers` (293), `expert_investigation_cases` (6),
   `notifications_withheld` (0).
 
+**Meta** — its **Information Distribution Platform Act Annual Transparency
+Report** (30 Jul 2025 – 31 Mar 2026, published 31 May 2026; archived in
+`raw/meta-japan-idpa-2026.pdf`) reports its three designated services —
+**Facebook, Instagram and Threads** — *separately* (so `service` is one of those
+three). `period` is `2025-07-30..2026-03-31`; the figures are transcribed from
+the report tables (`build_meta()`), which are structural-checked only (see the
+caveat below — Meta's own totals don't reconcile). The `section`s are:
+
+- `requests_received`, `decisions_within_7d`, `decisions_after_7d`,
+  `requests_no_action` — the Art. 22 rights-report channel (Tables 2.2, 3.1.1–3),
+  `category` = a reporting reason (Portrait rights, Invasion of privacy, …);
+- `content_actions`, `account_actions` (Tables 4.2/4.3), `user_report_actions`
+  (5.3.1), `user_report_reviewed` (5.3.2, metrics `content_reported` +
+  `content_not_actioned`), `proactive_actions` (5.3.3) and `account_suspensions`
+  (5.4.2.1–3, metric per detection method — proactive/report/regulator/court) —
+  enforcement by **violation type** (`category` = Spam, Fraud and Deception,
+  Local Law Violations, …);
+- `appeals` (Table 7.1) — `category='All'`, one `metric` per appeal type
+  (`content_appeals`, `content_appeals_ai`, `content_appeal_reversals`, …);
+- `platform` (Table 1.4) — `content_pieces` + `monthly_active_users`, `unit`
+  `approx_count` (Meta reports these rounded, e.g. "4.2 billion").
+
+Two Meta tables are **omitted**: **5.3.4** (regulator requests) has a
+non-per-service "Requests" column and Meta itself flags (footnote 10) it cannot
+disaggregate content- vs account-actions, with internally inconsistent tiny
+counts; **5.3.5** (court orders) is all-zero ("None received").
+
 FY2024 annual headline figures (verified against the report's prose summary — the
 builder raises if a parsed annual total doesn't match):
 
@@ -69,18 +97,30 @@ builder raises if a parsed annual total doesn't match):
 
 ### Caveats
 
-- **LY Corporation + Google (YouTube).** Meta, TikTok and X still publish only
+- **LY Corporation + Google (YouTube) + Meta.** TikTok and X still publish only
   the qualitative Art. 21 criteria/window pages — **no statistics yet**. There is
   no common MIC template, aggregated MIC dataset, or CSV/JSON feed to harmonise
-  against, and the two providers' figures are **not comparable** (LY Corp reports
-  posts/removals per service and quarter; YouTube reports legal/policy actions by
-  reason for a different window). Additional providers slot in as they publish
-  their first Art. 28 statistics.
+  against, and the three providers' figures are **not comparable** (LY Corp
+  reports posts/removals per service and quarter; YouTube reports legal/policy
+  actions by reason; Meta reports content/account enforcement by violation type
+  per service — each on its own window). Additional providers slot in as they
+  publish their first Art. 28 statistics.
 - **Cross-section / cross-service care.** Metrics and units are never comparable
-  across `section`s (LY Corp `posts` vs YouTube `flags`/`videos_removed`/…), and
-  every YouTube section carries a `Total` category beside its breakdown, so
-  summing over `category` double-counts. Pin `service`, `section` **and**
-  `category` before aggregating.
+  across `section`s (LY Corp `posts` vs YouTube `flags`/`videos_removed`/… vs
+  Meta `actions`/`requests`/…), and every YouTube/Meta section carries a `Total`
+  category beside its breakdown, so summing over `category` double-counts. Pin
+  `service`, `section` **and** `category` before aggregating.
+- **Meta's totals don't reconcile — by design and by defect.** Meta's per-policy
+  breakdowns are the report's own *"most prevalent categories"* — an **illustrative
+  subset**, not a partition — so the `Total` category is a **superset**, not the
+  sum of the listed categories. And Meta's own figures don't fully add up even
+  where they should (per its logging-issue footnotes: Right-to-honor/Feelings-of-honor
+  and Trademark/Copyright reasons are combined; <30 requests went uncategorised;
+  `decisions_after_7d`'s Threads `Total` of 23 even sits *below* its Portrait-rights
+  category of 25). `build_meta()` therefore does **structural** validation only
+  (non-negative ints, well-formed per-service triples) — it deliberately does not
+  assert `Total == sum` or `Total >= category`. Meta reports its Table 1.4
+  platform figures **rounded** (`unit='approx_count'`).
 - `removal_rate` (LY Corp) is a **percent** (posts-removed ÷ posts, per the
   report's own definition) — never SUM it. Removals may act on posts from earlier
   years, so the rate approximates the current-year ratio (the report notes this).

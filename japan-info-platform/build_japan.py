@@ -188,16 +188,262 @@ def build_youtube():
     return rows
 
 
+# ── Meta (Facebook / Instagram / Threads) ────────────────────────────────────
+# Meta's inaugural Japan IDPA ("情プラ法") Annual Transparency Report, reporting
+# period 30 Jul 2025 – 31 Mar 2026 (published 31 May 2026, archived in
+# raw/meta-japan-idpa-2026.pdf). Facebook, Instagram and Threads are each
+# designated under the Act, so every quantitative table is per-service. Figures
+# are transcribed from the report tables below.
+#
+# Two source caveats, faithfully preserved rather than "fixed":
+#  * The per-policy breakdowns are the report's own "most prevalent categories"
+#    — an ILLUSTRATIVE SUBSET, not an exhaustive partition — so the listed
+#    categories do not sum to the stated Total (which covers "other violations"
+#    too). We record each listed category plus the stated Total (category
+#    ``Total``); never assume Total == sum(categories).
+#  * A few request tables (2.2, 3.1.x) don't reconcile exactly either, per the
+#    report's own logging-issue footnotes (Right-to-honor/Feelings-of-honor and
+#    Trademark/Copyright reporting reasons are combined; <30 requests went
+#    uncategorised). Transcribed as printed.
+# Two tables are OMITTED: 5.3.4 (regulator requests) has a non-per-service
+# "Requests" column and Meta itself flags (fn.10) it cannot disaggregate
+# content- vs account-actions, with internally inconsistent tiny counts; 5.3.5
+# (court orders) is all-zero ("None received"). Both are noted in the README.
+META_SERVICES = ["Facebook", "Instagram", "Threads"]
+META_SOURCE = "https://transparency.meta.com/"
+META_PERIOD = "2025-07-30..2026-03-31"
+
+# (section, metric, unit, {category: (facebook, instagram, threads)}). A
+# ``Total`` category holds the report's stated section total (a superset of the
+# listed categories, not their sum). Units are ``count`` except the Table 1.4
+# platform figures, which Meta reports rounded ("633.5 million") → approx_count.
+META_TABLES = [
+    # Table 1.4 — cumulative content + monthly active accounts (rounded).
+    ("platform", "content_pieces", "approx_count", {
+        "All": (633_500_000, 4_200_000_000, 550_300_000)}),
+    ("platform", "monthly_active_users", "approx_count", {
+        "All": (22_100_000, 82_000_000, 20_600_000)}),
+    # Table 2.2 — requests received through the IDPA channel, by reporting reason.
+    ("requests_received", "requests", "count", {
+        "Right to honor & Feelings of honor": (2458, 3070, 509),
+        "Invasion of privacy": (1126, 1274, 323),
+        "Peace in personal life": (814, 897, 190),
+        "Portrait rights": (251, 1869, 407),
+        "Right to one's name": (652, 321, 15),
+        "Right of publicity": (217, 43, 8),
+        "Trademarks, Copyrights, and neighboring rights": (1_338_662, 150_211, 2607),
+        "Business interests": (358, 222, 53),
+        "Total": (1_344_304, 156_048, 3705)}),
+    # Table 3.1.1 — requests actioned within 7 days.
+    ("decisions_within_7d", "requests_actioned", "count", {
+        "Right to honor & Feelings of honor": (354, 638, 63),
+        "Invasion of privacy": (203, 684, 97),
+        "Peace in personal life": (84, 272, 20),
+        "Portrait rights": (109, 932, 203),
+        "Right to one's name": (72, 118, 1),
+        "Right of publicity": (21, 7, 0),
+        "Trademarks, Copyrights, and neighboring rights": (647_624, 35_455, 850),
+        "Business interests": (33, 65, 6),
+        "Total": (648_391, 37_243, 1037)}),
+    # Table 3.1.2 — requests actioned after 7 days (specialist-consultation cases).
+    ("decisions_after_7d", "requests_actioned", "count", {
+        "Right to honor & Feelings of honor": (67, 436, 11),
+        "Invasion of privacy": (17, 41, 6),
+        "Peace in personal life": (4, 12, 2),
+        "Portrait rights": (25, 153, 25),
+        "Right to one's name": (9, 5, 0),
+        "Right of publicity": (1, 0, 0),
+        "Trademarks, Copyrights, and neighboring rights": (677, 563, 2),
+        "Business interests": (2, 8, 2),
+        "Total": (778, 1065, 23)}),
+    # Table 3.1.3 — requests that resulted in no action.
+    ("requests_no_action", "requests_no_action", "count", {
+        "Right to honor & Feelings of honor": (2037, 1996, 435),
+        "Invasion of privacy": (906, 549, 220),
+        "Peace in personal life": (726, 613, 168),
+        "Portrait rights": (117, 784, 179),
+        "Right to one's name": (571, 198, 14),
+        "Right of publicity": (195, 36, 8),
+        "Trademarks, Copyrights, and neighboring rights": (690_361, 114_193, 1755),
+        "Business interests": (323, 149, 45),
+        "Total": (695_135, 117_740, 2645)}),
+    # Table 4.2 — enforcement actions on content, by violation type.
+    ("content_actions", "actions", "count", {
+        "Local Law Violations": (11_890, 3741, 342),
+        "Adult Nudity and Sexual Activity": (73_810, 249_245, 48_486),
+        "Adult Sexual Exploitation": (8703, 10_440, 1540),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (37_021, 95_171, 115_445),
+        "Bullying and Harassment": (8904, 19_404, 18_161),
+        "Child Sexual Exploitation, Abuse, and Nudity": (55_620, 51_907, 7966),
+        "Dangerous Organizations and Individuals": (10_376, 7931, 1623),
+        "Fraud and Deception": (112_817, 25_229, 170_905),
+        "Hateful Conduct": (4156, 3189, 16_205),
+        "Human Exploitation": (36_456, 10_656, 1529),
+        "Intellectual Property": (39_321, 60_103, 2350),
+        "Restricted Goods and Services": (2285, 357, 642),
+        "Spam": (420_954, 151_519, 1_059_618),
+        "Suicide and Self-Injury": (11_949, 66_468, 3071),
+        "Violence and Incitement": (3566, 5116, 8274),
+        "Violent and Graphic Content": (584, 295, 69),
+        "Total": (891_693, 798_330, 1_461_097)}),
+    # Table 4.3 — enforcement actions on accounts, by violation type.
+    ("account_actions", "actions", "count", {
+        "Local Law Violations": (9, 336, 184),
+        "Account Integrity and Authentic Identity": (10_883_834, 3_827_805, 331_704),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (3271, 13_898, 270),
+        "Child Sexual Exploitation, Abuse, and Nudity": (12_775, 109_667, 177),
+        "Fraud and Deception": (49_801, 72_014, 896),
+        "Spam": (152_018, 513_073, 1047),
+        "Total": (11_199_182, 4_690_678, 334_361)}),
+    # Table 5.3.1 — content actioned after a user report, by reporting reason.
+    ("user_report_actions", "content_actioned", "count", {
+        "Adult Nudity and Sexual Activity": (11_117, 49_182, 3448),
+        "Adult Sexual Exploitation": (8464, 38_001, 3643),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (3592, 41_927, 5294),
+        "Bullying and Harassment": (4081, 14_756, 11_418),
+        "Child Sexual Exploitation, Abuse, and Nudity": (9294, 37_311, 2770),
+        "Dangerous Organizations and Individuals": (3875, 4050, 1810),
+        "Fraud and Deception": (10_647, 118_104, 29_949),
+        "Hateful Conduct": (5297, 10_455, 21_087),
+        "Human Exploitation": (727, 525, 109),
+        "Restricted Goods and Services": (242, 290, 275),
+        "Spam": (16, 5928, 0),
+        "Suicide and Self-Injury": (1353, 6930, 1193),
+        "Violence and Incitement": (3734, 5815, 7985),
+        "Violent and Graphic Content": (3325, 4996, 4037),
+        "Total": (67_022, 377_437, 94_030)}),
+    # Table 5.3.2 — content reported by users (reported vs not-actioned).
+    ("user_report_reviewed", "content_reported", "count", {
+        "Adult Nudity and Sexual Activity": (76_796, 405_752, 44_826),
+        "Adult Sexual Exploitation": (62_287, 152_350, 27_771),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (25_656, 160_534, 46_081),
+        "Bullying and Harassment": (143_117, 638_164, 266_241),
+        "Child Sexual Exploitation, Abuse, and Nudity": (45_647, 154_722, 20_432),
+        "Dangerous Organizations and Individuals": (76_273, 59_374, 26_925),
+        "Fraud and Deception": (105_305, 698_059, 221_633),
+        "Hateful Conduct": (139_949, 447_263, 348_039),
+        "Human Exploitation": (8158, 7247, 1712),
+        "Restricted Goods and Services": (8005, 17_150, 4278),
+        "Spam": (2760, 263_700, 8371),
+        "Suicide and Self-Injury": (12_948, 70_168, 11_264),
+        "Violence and Incitement": (79_900, 117_710, 82_855),
+        "Violent and Graphic Content": (66_212, 118_097, 33_455),
+        "Total": (870_017, 3_623_945, 1_174_925)}),
+    ("user_report_reviewed", "content_not_actioned", "count", {
+        "Adult Nudity and Sexual Activity": (65_679, 356_570, 41_378),
+        "Adult Sexual Exploitation": (53_823, 114_349, 24_128),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (22_064, 118_607, 40_787),
+        "Bullying and Harassment": (139_036, 623_408, 254_823),
+        "Child Sexual Exploitation, Abuse, and Nudity": (36_353, 117_411, 17_662),
+        "Dangerous Organizations and Individuals": (72_398, 55_324, 25_115),
+        "Fraud and Deception": (94_658, 579_955, 191_684),
+        "Hateful Conduct": (134_652, 436_808, 326_952),
+        "Human Exploitation": (7431, 6722, 1603),
+        "Restricted Goods and Services": (7763, 16_860, 4003),
+        "Spam": (2744, 257_772, 0),
+        "Suicide and Self-Injury": (11_595, 63_238, 10_071),
+        "Violence and Incitement": (76_166, 111_895, 74_870),
+        "Violent and Graphic Content": (62_887, 113_101, 29_418),
+        "Total": (802_359, 3_235_479, 1_067_189)}),
+    # Table 5.3.3 — content proactively detected + actioned, by violation type.
+    ("proactive_actions", "content_actioned", "count", {
+        "Adult Nudity and Sexual Activity": (71_739, 233_348, 46_999),
+        "Adult Sexual Exploitation": (7920, 8920, 1156),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (33_891, 70_307, 108_948),
+        "Bullying and Harassment": (2182, 2656, 1408),
+        "Child Sexual Exploitation, Abuse, and Nudity": (54_436, 44_764, 6459),
+        "Dangerous Organizations and Individuals": (9926, 7604, 1196),
+        "Fraud and Deception": (109_037, 19_689, 162_147),
+        "Hateful Conduct": (615, 574, 1410),
+        "Human Exploitation": (35_699, 9761, 1323),
+        "Intellectual Property": (16_231, 13_131, 139),
+        "Restricted Goods and Services": (1942, 257, 430),
+        "Spam": (419_218, 148_859, 1_052_737),
+        "Suicide and Self-Injury": (11_382, 63_345, 2538),
+        "Violence and Incitement": (1508, 2725, 902),
+        "Violent and Graphic Content": (517, 170, 33),
+        "Total": (822_163, 660_882, 1_390_718)}),
+]
+
+# Tables 5.4.2.1–5.4.2.3 — account suspensions by reason × how the violation was
+# detected. {service: {reason: (proactive, report_based, regulator, court)}}.
+META_SUSP_METRICS = ["suspensions_proactive", "suspensions_report_based",
+                     "suspensions_regulator", "suspensions_court_ordered"]
+META_SUSPENSIONS = {
+    "Facebook": {
+        "Account Integrity and Authentic Identity": (10_837_873, 45_961, 2, 0),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (1782, 1489, 0, 0),
+        "Child Sexual Exploitation, Abuse, and Nudity": (9931, 2844, 0, 0),
+        "Fraud and Deception": (39_528, 10_273, 4, 0),
+        "Spam": (122_504, 29_514, 0, 0),
+        "Total": (11_091_862, 107_312, 6, 0)},
+    "Instagram": {
+        "Account Integrity and Authentic Identity": (3_634_421, 193_384, 24, 0),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (5921, 7977, 0, 0),
+        "Child Sexual Exploitation, Abuse, and Nudity": (78_275, 31_392, 0, 0),
+        "Fraud and Deception": (31_365, 40_649, 117, 0),
+        "Spam": (449_543, 63_530, 1, 0),
+        "Total": (4_330_847, 359_494, 173, 0)},
+    "Threads": {
+        "Account Integrity and Authentic Identity": (318_353, 13_351, 9, 0),
+        "Adult Sexual Solicitation and Sexually Explicit Language": (139, 131, 0, 0),
+        "Child Sexual Exploitation, Abuse, and Nudity": (145, 32, 1, 0),
+        "Fraud and Deception": (632, 258, 4, 0),
+        "Spam": (886, 161, 0, 0),
+        "Total": (320_197, 13_974, 15, 0)},
+}
+
+# Table 7.1 — appeals, by appeal type. {metric: (facebook, instagram, threads)}.
+META_APPEALS = {
+    "content_appeals": (54_682, 70_297, 44_489),
+    "content_appeals_ai": (25_856, 56_200, 43_279),
+    "content_appeal_reversals": (18_485, 25_345, 14_479),
+    "content_appeal_reversals_ai": (10_189, 18_380, 13_827),
+    "account_appeals": (517_981, 1_379_466, 223_881),
+    "account_appeals_ai": (499_504, 1_298_216, 219_402),
+    "account_appeal_reversals": (127_713, 548_463, 139_175),
+    "account_appeal_reversals_ai": (121_411, 515_660, 138_118),
+}
+
+
+def build_meta():
+    rows = []
+    for section, metric, unit, catrows in META_TABLES:
+        for cat, triple in catrows.items():
+            for svc, val in zip(META_SERVICES, triple):
+                rows.append((svc, META_PERIOD, section, cat, metric, unit, val))
+    for svc, catrows in META_SUSPENSIONS.items():
+        for cat, vals in catrows.items():
+            for metric, val in zip(META_SUSP_METRICS, vals):
+                rows.append((svc, META_PERIOD, "account_suspensions", cat, metric, "count", val))
+    for metric, triple in META_APPEALS.items():
+        for svc, val in zip(META_SERVICES, triple):
+            rows.append((svc, META_PERIOD, "appeals", "All", metric, "count", val))
+    # Structural sanity only. We deliberately do NOT assert Total >= each
+    # category or Total == sum(categories): Meta's own figures don't reconcile
+    # (e.g. Table 3.1.2 lists Threads "Portrait rights"=25 above its stated
+    # Threads Total of 23, and Table 2.2's breakdown sums above its Total),
+    # per the report's documented logging-issue footnotes. Every value must be a
+    # non-negative int and every per-service triple well-formed.
+    for svc, period, section, cat, metric, unit, val in rows:
+        if not isinstance(val, int) or val < 0:
+            raise ValueError(f"Meta {section}/{svc}/{metric}/{cat}: bad value {val!r}")
+    return rows
+
+
 def main():
     rows = []
     with fitz.open(LY_PDF) as doc:
         for page_idx, label, name in SERVICES:
             rows.extend(parse_service(doc, page_idx, label, name))
     rows.extend(build_youtube())
+    rows.extend(build_meta())
     data = {
-        # Two providers on different report windows — keep a per-provider source
-        # map and a coverage envelope spanning both, rather than LY Corp's alone.
-        "sources": {"LY Corporation": SOURCE, "YouTube": YT_SOURCE},
+        # Three providers on different report windows — keep a per-provider
+        # source map and a coverage envelope spanning them all, rather than any
+        # single provider's window.
+        "sources": {"LY Corporation": SOURCE, "YouTube": YT_SOURCE,
+                    "Meta": META_SOURCE},
         "coverage": "2024-04..2026-03",
         "columns": COLUMNS,
         "rows": rows,
@@ -208,6 +454,7 @@ def main():
     from collections import Counter
     print("rows per service:", dict(Counter(r[0] for r in rows)))
     print("YouTube sections:", sorted({r[2] for r in rows if r[0] == YT_SERVICE}))
+    print("Meta sections:", sorted({r[2] for r in rows if r[0] in META_SERVICES}))
 
 
 if __name__ == "__main__":
