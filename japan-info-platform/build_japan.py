@@ -56,6 +56,7 @@ EXPECT_ANNUAL_POSTS = {
     "Yahoo! Finance boards": 29_415_652,
     "LINE OpenChat": 5_514_828_787,
     "LINE VOOM": 403_331_897,
+    "Yahoo! News comments": 113_995_832,
 }
 
 
@@ -73,12 +74,11 @@ _ROW = re.compile(
 )
 
 
-def parse_service(page_idx: int, label: str, name: str):
+def parse_service(doc, page_idx: int, label: str, name: str):
     # Some tables split across a page boundary (OpenChat), so read this page and
     # the next, then scope to this service's quarterly table.
-    with fitz.open(PDF) as doc:
-        txt = re.sub(r"\s+", " ", doc[page_idx].get_text() + " "
-                     + (doc[page_idx + 1].get_text() if page_idx + 1 < doc.page_count else ""))
+    txt = re.sub(r"\s+", " ", doc[page_idx].get_text() + " "
+                 + (doc[page_idx + 1].get_text() if page_idx + 1 < doc.page_count else ""))
     m0 = re.search(re.escape(f"[{label}]") + r"\s*四半期ごとの", txt)
     if not m0:
         raise ValueError(f"{name}: quarterly table not found on page {page_idx + 1}")
@@ -102,8 +102,9 @@ def parse_service(page_idx: int, label: str, name: str):
 
 def main():
     rows = []
-    for page_idx, label, name in SERVICES:
-        rows.extend(parse_service(page_idx, label, name))
+    with fitz.open(PDF) as doc:
+        for page_idx, label, name in SERVICES:
+            rows.extend(parse_service(doc, page_idx, label, name))
     data = {
         "source": SOURCE,
         "coverage": COVERAGE,
