@@ -408,16 +408,18 @@ META_APPEALS = {
 
 def build_meta():
     rows = []
+    # zip(..., strict=True) raises on any length mismatch, so a mistyped triple
+    # (e.g. a value dropped) fails loudly rather than silently truncating.
     for section, metric, unit, catrows in META_TABLES:
         for cat, triple in catrows.items():
-            for svc, val in zip(META_SERVICES, triple):
+            for svc, val in zip(META_SERVICES, triple, strict=True):
                 rows.append((svc, META_PERIOD, section, cat, metric, unit, val))
     for svc, catrows in META_SUSPENSIONS.items():
         for cat, vals in catrows.items():
-            for metric, val in zip(META_SUSP_METRICS, vals):
+            for metric, val in zip(META_SUSP_METRICS, vals, strict=True):
                 rows.append((svc, META_PERIOD, "account_suspensions", cat, metric, "count", val))
     for metric, triple in META_APPEALS.items():
-        for svc, val in zip(META_SERVICES, triple):
+        for svc, val in zip(META_SERVICES, triple, strict=True):
             rows.append((svc, META_PERIOD, "appeals", "All", metric, "count", val))
     # Structural sanity only. We deliberately do NOT assert Total >= each
     # category or Total == sum(categories): Meta's own figures don't reconcile
