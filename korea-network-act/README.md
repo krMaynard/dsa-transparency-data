@@ -10,51 +10,71 @@ sexual content" here spans illegally-filmed content (몰카), deepfake / "fake"
 images and videos, and child/youth sexual-abuse material (CSAM).
 
 **Google** publishes one report per calendar year, covering **Search and
-YouTube jointly** (there is no per-service split in the figures). This directory
-ingests Google's **2025** report — its sixth publication — archived in
-`raw/google-korea-network-act-2025.pdf`.
+YouTube jointly** (no per-service split). This directory ingests **all six
+reports published so far — 2020 → 2025** — archived in
+`raw/google-korea-network-act-YYYY.pdf`.
 
 ## What's built
 
-`build_korea_network_act.py` transcribes the single quantitative table (§II,
-p. 14 — the monthly Jan–Dec breakdown) into the tidy-long
-`korea-network-act.json`, whose `columns` are
-`publisher, period, section, category, metric, unit, value`:
+`build_korea_network_act.py` writes the tidy-long `korea-network-act.json`,
+whose `columns` are `publisher, period, section, category, metric, unit, value`.
+The reports come in two shapes:
 
-- **`period`** — monthly, `2025-01` … `2025-12`. The report's annual "Total"
-  column is used only to **validate** (each row's twelve months must sum to it),
-  never stored, so summing over `period` is a legitimate annual total.
-- **`section`** / **`category`** / **`metric`**:
-  - `requests_received` — removal requests by complainant type
-    (`Victims etc. (User Requests)` 21,859 + `Agency and Org (Gov Requests)`
-    93,421 = **115,280**); `metric='requests'`.
-  - `request_reasons` — the same 115,280 requests by reason
-    (`Illegal Photos and Videos` / `Fake Images and Videos` /
-    `Child or Youth Sexual Abuse Content`); `metric='requests'`.
-  - `processed_result` — the same 115,280 by outcome (`Removed Voluntarily by
-    the Company` 92,334; four `Not Removed - …` reasons totalling 22,946; two
-    all-zero `KCSC Assessment - …` rows); `metric='urls'`.
-  - `removal_reasons` — the 92,334 removed URLs by reason; `metric='urls_removed'`.
+### 2024 & 2025 — full monthly table (§II)
 
-Every breakdown is cross-checked against the report's stated totals — both the
-per-row annual total **and** the section grand total — and the build **raises**
-on any mismatch, so a mistranscription can't slip through.
+`period` is monthly (`YYYY-01` … `YYYY-12`). Four `section`s:
+
+- `requests_received` — removal requests by complainant type
+  (`Victims etc. (User Requests)` + `Agency and Org (Gov Requests)`),
+  `metric='requests'`.
+- `request_reasons` — the same requests by reason (`Illegal Photos and Videos` /
+  `Fake Images and Videos` / `Child or Youth Sexual Abuse Content`),
+  `metric='requests'`.
+- `processed_result` — the same requests by outcome (`Removed Voluntarily by the
+  Company`; four `Not Removed - …` reasons; two `KCSC Assessment - …` rows),
+  `metric='urls'`.
+- `removal_reasons` — the removed URLs by reason, `metric='urls_removed'`.
+
+The report's per-section "Total" rows are **dropped** (derivable), so within a
+section the categories partition it. 2025's monthly values were transcribed;
+2024's were extracted from the PDF's §II table and **re-validated** here (each
+row's twelve months are cross-checked against its printed annual total, and each
+section's categories against its grand total — the build raises on any mismatch).
+
+### 2020–2023 — prose-only headline figures
+
+These reports give only the year's aggregate URL counts (2020 covers just
+**10–31 Dec 2020**, the law's implementation date — 8 government requests / 61
+URLs). They go into an **`annual_summary`** section (`period` = the year `YYYY`,
+`category='All'`) with `metric` `urls_received` / `urls_removed`.
+
+`annual_summary` is **also** emitted for 2024/2025 (rolled up from their tables)
+so it holds one comparable **2020 → 2025** series:
+
+| Year | URLs received | URLs removed |
+|---|--:|--:|
+| 2020 (partial) | 61 | 42 |
+| 2021 | 31,281 | 18,294 |
+| 2022 | 47,162 | 38,908 |
+| 2023 | 90,616 | 81,593 |
+| 2024 | 158,052 | 142,211 |
+| 2025 | 115,280 | 92,334 |
 
 ### Caveats
 
-- **Sections are cross-cuts of the same requests, not additive.**
-  `requests_received`, `request_reasons` and `processed_result` are three cuts
-  of the same 115,280 requests; `removal_reasons` cuts the 92,334 removed. Pin a
-  `section` (and `metric`) before aggregating — never sum across sections.
-- **Categories partition their section.** The report's "Total" rows are dropped
-  (they're derivable), so within a section the categories are disjoint and sum
-  to the section total — summing over `category` within one section is a
-  legitimate grand total.
-- **Search + YouTube are reported jointly** — the figures aren't split by
-  product.
+- **Sections are cross-cuts, not additive.** The four monthly sections are cuts
+  of the same requests; `annual_summary` is a rollup of them. Pin a `section`
+  (and `metric`) before aggregating — never sum across sections, and don't sum
+  `annual_summary` together with the monthly sections.
+- **Mixed `period` granularity.** Monthly sections use `YYYY-MM`;
+  `annual_summary` uses `YYYY`. Summing over `period` within a monthly section
+  gives that year's annual total.
+- **Search + YouTube are reported jointly** — figures aren't split by product.
+- **2024's own totals don't perfectly reconcile** — requests-received 158,052 vs
+  processed 158,044 (a 8-URL discrepancy in Google's report), preserved rather
+  than "fixed".
 - Only Google publishes a machine-retrievable report in this format so far;
-  additional publishers/years slot in as they become available (the report is
-  Google's sixth annual publication — prior years are addable).
+  other designated OSPs' reports slot in as they become available.
 
 ## Refresh
 
@@ -63,4 +83,4 @@ python build_korea_network_act.py   # re-validates + writes korea-network-act.js
 ```
 
 Source: Google's South Korea Network Act & Telecommunications Business Act
-Transparency Report, <https://transparencyreport.google.com/report-downloads>.
+Transparency Reports, <https://transparencyreport.google.com/report-downloads>.
