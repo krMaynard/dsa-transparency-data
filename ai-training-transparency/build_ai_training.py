@@ -117,26 +117,57 @@ def _parse_markdown(path: str, provider: str) -> list[list]:
     return rows
 
 
-# ── Google (Gemini 3 Pro) — curated from the rendered form (checkbox bands are
-# not in the PDF text layer), verified with fail-loud anchors on the text. ────
-GOOGLE = {
-    "pdf": "google-gemini3pro-eu-training-summary.pdf",
-    "provider": "Google",
-    "model": "Gemini 3 Pro family",
-    "released": "November 2025",
-    "checks": ["The Gemini 3 Pro family of models", "November 2025",
-               "knowledge cut-off date for Gemini 3 Pro is 01 / 2025"],
-    "rows": [  # (section, field, value)
-        ("modality", "Text", "More than 10 trillion tokens"),
-        ("modality", "Image", "More than 1 billion images"),
-        ("modality", "Audio", "More than 1 million hours"),
-        ("modality", "Video", "More than 1 million hours"),
-        ("general", "data_cutoff", "01/2025"),
-        ("data_source", "publicly_available", "Yes"),
-        ("data_source", "commercially_licensed", "Yes"),
-        ("data_source", "third_party_private", "Yes"),
-    ],
-}
+# ── Curated-from-PDF providers — the size bands are checkbox selections (Google)
+# or laid out as form cells (Meta) rather than clean key/value text, so the row
+# values are curated from the rendered form and each is verified with fail-loud
+# anchors against the PDF's own text layer (the build raises if a report drifts).
+CURATED_PDF = [
+    {
+        "pdf": "google-gemini3pro-eu-training-summary.pdf",
+        "provider": "Google",
+        "model": "Gemini 3 Pro family",
+        "released": "November 2025",
+        "checks": ["The Gemini 3 Pro family of models", "November 2025",
+                   "knowledge cut-off date for Gemini 3 Pro is 01 / 2025"],
+        "rows": [  # (section, field, value)
+            ("modality", "Text", "More than 10 trillion tokens"),
+            ("modality", "Image", "More than 1 billion images"),
+            ("modality", "Audio", "More than 1 million hours"),
+            ("modality", "Video", "More than 1 million hours"),
+            ("general", "data_cutoff", "01/2025"),
+            ("data_source", "publicly_available", "Yes"),
+            ("data_source", "commercially_licensed", "Yes"),
+            ("data_source", "third_party_private", "Yes"),
+        ],
+    },
+    {
+        # Meta files on the AI Office's full template (text-layer, not checkboxes)
+        # and groups Image & Video as one "Perception" modality — recorded on both
+        # Image and Video rows with the combination noted. Meta reports every
+        # modality size in tokens. Its section-2 list adds crawled / user_data
+        # categories the other providers' summaries don't break out.
+        "pdf": "meta-muse-spark-eu-training-summary.pdf",
+        "provider": "Meta",
+        "model": "Muse Spark",
+        "released": "April 2026",
+        "checks": ["Muse Spark", "Meta Platforms Ireland", "Perception (Image & Video)",
+                   "More than 10 trillions tokens", "Up to Mar 2026"],
+        "rows": [
+            ("modality", "Text", "More than 10 trillion tokens"),
+            ("modality", "Image", "More than 10 trillion tokens (image & video combined)"),
+            ("modality", "Video", "More than 10 trillion tokens (image & video combined)"),
+            ("modality", "Audio", "More than 10 trillion tokens"),
+            ("modality", "Other", "Not applicable"),
+            ("general", "data_cutoff", "Up to Mar 2026"),
+            ("data_source", "publicly_available", "Yes"),
+            ("data_source", "commercially_licensed", "Yes"),
+            ("data_source", "third_party_private", "Yes"),
+            ("data_source", "crawled", "Yes"),
+            ("data_source", "user_data", "Yes"),
+            ("data_source", "synthetic", "Yes"),
+        ],
+    },
+]
 
 
 def _squash(s: str) -> str:
@@ -145,23 +176,25 @@ def _squash(s: str) -> str:
     return re.sub(r"[\s​‌‍﻿]+", "", s)
 
 
-def _parse_google(raw_dir: str) -> list[list]:
-    path = os.path.join(raw_dir, GOOGLE["pdf"])
+def _parse_curated_pdf(raw_dir: str, spec: dict) -> list[list]:
+    path = os.path.join(raw_dir, spec["pdf"])
     with fitz.open(path) as doc:
         text = _squash("\n".join(p.get_text() for p in doc))
-    for chk in GOOGLE["checks"]:
+    for chk in spec["checks"]:
         if _squash(chk) not in text:
-            raise ValueError(f"{GOOGLE['pdf']}: anchor {chk!r} not found — changed?")
+            raise ValueError(f"{spec['pdf']}: anchor {chk!r} not found — changed?")
     rows = []
-    for section, field, value in GOOGLE["rows"]:
+    for section, field, value in spec["rows"]:
         rank = _band_rank(value) if section == "modality" else None
-        rows.append([GOOGLE["provider"], GOOGLE["model"], GOOGLE["released"],
+        rows.append([spec["provider"], spec["model"], spec["released"],
                      section, field, value, rank])
     return rows
 
 
 def build(raw_dir: str) -> dict:
-    rows: list[list] = _parse_google(raw_dir)
+    rows: list[list] = []
+    for spec in CURATED_PDF:
+        rows += _parse_curated_pdf(raw_dir, spec)
     for path in sorted(glob.glob(os.path.join(raw_dir, "microsoft-*.md"))):
         rows += _parse_markdown(path, "Microsoft")
     rows.sort(key=lambda r: (r[0], r[1], r[3], r[4]))

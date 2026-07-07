@@ -29,6 +29,7 @@ Example comparison (Text training-data size):
 | Provider | Model | Text size | rank |
 |---|---|---|:--:|
 | Google | Gemini 3 Pro family | More than 10 trillion tokens | 3 |
+| Meta | Muse Spark | More than 10 trillion tokens | 3 |
 | Microsoft | phi-4 / Phi-4-multimodal / Phi-4-mini | 1 billion to 10 trillion tokens | 2 |
 
 ### Sources & method
@@ -40,13 +41,16 @@ self-publishes in its own format — so the builder reads two source shapes:
   `microsoft/<model>/data_summary_card.md`) — template fields as
   `**1.3.1.A Text training data size:** …` lines, parsed by their stable numeric
   codes (generic — new providers using the same markdown template parse for free).
-- **PDF** (Google, on its transparency-report bucket) — the size bands are
-  **checkbox** selections not in the PDF text layer, so Google's values are
-  **curated** from the rendered form and cross-checked with fail-loud anchors
-  against the PDF text (model name, market date, knowledge cut-off).
+- **PDF** (Google + Meta, on their transparency-report buckets) — the size bands
+  are **checkbox** selections (Google) or laid out as form cells (Meta) rather
+  than clean key/value text, so those values are **curated** from the rendered
+  form and cross-checked with fail-loud anchors against the PDF text (model name,
+  market date, cut-off). Meta groups Image & Video as one "Perception" modality
+  (recorded on both the Image and Video rows, combination noted) and its
+  section-2 list breaks out `crawled` / `user_data` sources the others don't.
 
-**Coverage is a starting, expandable set** (Google + Microsoft; 4 model entries).
-More providers slot in as their summaries are archived under `raw/`.
+**Coverage is a starting, expandable set** (Google + Meta + Microsoft; 5 model
+entries). More providers slot in as their summaries are archived under `raw/`.
 
 ## Refresh
 
