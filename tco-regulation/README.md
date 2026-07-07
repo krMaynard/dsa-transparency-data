@@ -54,10 +54,13 @@ reports archived in `raw/`. Two streams (`role`):
     0 Art. 10 complaints, 0 reviews.
   - **Google** (whole-Google, **2022–2025**, from the public GCS bucket
     `storage.googleapis.com/transparencyreport/report-downloads/pdf-report-26_*`):
-    removal orders received (0 / 0 / 3 / 12-items), and exact proactive removals
-    of terrorist/extremist content that grew 1.4M → 16.3M → 55.3M → **181.3M**,
-    plus complaints handled (appeals) and decisions overturned. Google reports
-    exact counts (not banded), so `unit=count`.
+    removal orders received (0 in 2022, 0 in 2023, 3 in 2024; 2025 gives only the
+    resulting **12 items** removed via orders, not an order count), and exact
+    proactive removals of terrorist/extremist content that grew
+    1.4M → 16.3M → 55.3M → **181.3M**, plus complaints handled (appeals) and
+    decisions overturned. Google reports exact counts (not banded), so
+    `unit=count`. Which Art. 7(3) metrics each year states varies with Google's
+    own report format (tidy-long tolerates the sparse coverage).
 
 ### Method & caveats
 
