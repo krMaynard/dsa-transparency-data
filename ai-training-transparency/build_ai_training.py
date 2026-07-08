@@ -258,6 +258,37 @@ CURATED_PDF = [
             ("data_source", "synthetic", "Yes"),
         ],
     },
+    {
+        # Hugging Face — SmolLM3, a fully-open model. Its Art. 53(1)(d) summary is
+        # published in a Hugging Face Space (a Gradio app) rather than a PDF, so we
+        # archive the Space's app.py (which embeds the filled template as HTML) and
+        # anchor-check against it. Text-only, ~11T tokens; public + synthetic data
+        # only (no crawling / licensing / user / private data).
+        "pdf": "smollm3-huggingface-eu-training-summary.txt",
+        "provider": "Hugging Face",
+        "model": "SmolLM3-3B",
+        "released": "July 2025",
+        "checks": [
+            "SmolLM3",
+            "more than 10 trillion tokens",
+            "11 trillion tokens",
+            "FineWeb2-HQ",
+        ],
+        "rows": [
+            ("modality", "Text", "More than 10 trillion tokens"),
+            ("modality", "Image", "Not applicable"),
+            ("modality", "Audio", "Not applicable"),
+            ("modality", "Video", "Not applicable"),
+            ("modality", "Other", "Not applicable"),
+            ("general", "data_cutoff", "02/2025"),
+            ("data_source", "publicly_available", "Yes"),
+            ("data_source", "commercially_licensed", "No"),
+            ("data_source", "third_party_private", "No"),
+            ("data_source", "crawled", "No"),
+            ("data_source", "user_data", "No"),
+            ("data_source", "synthetic", "Yes"),
+        ],
+    },
 ]
 
 
@@ -267,10 +298,16 @@ def _squash(s: str) -> str:
     return re.sub(r"[\s​‌‍﻿]+", "", s)
 
 
-def _parse_curated_pdf(raw_dir: str, spec: dict) -> list[list]:
+def _parse_curated(raw_dir: str, spec: dict) -> list[list]:
     path = os.path.join(raw_dir, spec["pdf"])
-    with fitz.open(path) as doc:
-        text = _squash("\n".join(p.get_text() for p in doc))
+    if path.lower().endswith(".pdf"):
+        with fitz.open(path) as doc:
+            text = _squash("\n".join(p.get_text() for p in doc))
+    else:
+        # An archived HTML/text summary (e.g. a Hugging Face Space's app.py, which
+        # embeds the filled template as HTML) rather than a PDF.
+        with open(path, encoding="utf-8") as f:
+            text = _squash(f.read())
     for chk in spec["checks"]:
         if _squash(chk) not in text:
             raise ValueError(f"{spec['pdf']}: anchor {chk!r} not found — changed?")
@@ -285,7 +322,7 @@ def _parse_curated_pdf(raw_dir: str, spec: dict) -> list[list]:
 def build(raw_dir: str) -> dict:
     rows: list[list] = []
     for spec in CURATED_PDF:
-        rows += _parse_curated_pdf(raw_dir, spec)
+        rows += _parse_curated(raw_dir, spec)
     for path in sorted(glob.glob(os.path.join(raw_dir, "microsoft-*.md"))):
         rows += _parse_markdown(path, "Microsoft")
     rows.sort(key=lambda r: (r[0], r[1], r[3], r[4]))
