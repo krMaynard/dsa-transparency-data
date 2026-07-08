@@ -110,6 +110,8 @@ SOURCES = {
     "google-cloud-storage":      ("google-cloud-storage.zip", "zipcsv"),
     "colab":                     ("colab.zip", "zipcsv"),
     "fitbit":                    ("fitbit.zip", "zipcsv"),
+    # Reddit — non-VLOP DSA report (2025), canonical numbered-CSV zip.
+    "reddit":                    ("reddit.zip", "zipcsv"),
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,

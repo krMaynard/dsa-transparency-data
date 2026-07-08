@@ -60,6 +60,7 @@ HARMONISED = {
     "Google Cloud Storage": "google-cloud-storage",
     "Google Colab": "colab",
     "Fitbit": "fitbit",
+    "Reddit": "reddit",
     # Miniclip ships one report per game in a single zip -> one extracted dir each.
     "Miniclip": ["miniclip-8-ball-pool", "miniclip-agar-io", "miniclip-baseball-clash",
                  "miniclip-mini-football", "miniclip-mini-tennis", "miniclip-paint-brawl",
