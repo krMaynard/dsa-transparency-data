@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <title>2023年1月全国网络举报受理情况</title>
+  <link rel="stylesheet" href="/libs/datepicker-master/css/datepicker.css">
+  <link rel="stylesheet" href="/libs/jquery-nice-select-1.1.0/css/nice-select.css">
+  <link rel="stylesheet" type="text/css" href="/style/main.css" />
+</head>
+
+<body>
+  <base target="_blank" />
+<script src="/js/jquery-1.11.0.min.js" type="text/javascript"></script>
+<script src="/js/jquery_cookie_min.js" type="text/javascript" charset="utf-8"></script>
+<script src="/js/my.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    var harmcategory = ""
+    $(function () {
+        // if (harmcategory == "") {
+            $.ajax({
+                type: "get",
+                //url: BS_URL+"/rpapi/portal/harmtype/get",
+                url: "/js/harmtype.js",
+                dataType: 'json',
+                success: function (data) {
+                    var z = eval(data)["result"]
+                    harmcategory=eval(JSON.stringify(z))
+                },
+                error: function (err) {
+                    console.log(err)
+                }
+            })
+        // }
+    })
+
+
+
+
+    //获取危害大类
+    function setbigharmcategory(category) {
+        $.each(harmcategory, function (i) {
+            var parentId = harmcategory[i]["parentId"]
+            if (parentId == 0 || parentId == "0") {
+                if (harmcategory[i]["id"] == ("00" + category)) {
+                    $.cookie('bigHarmType', "00" + category, {expires: date, path: '/', secure:true})
+                    return;
+                }
+            }
+        })
+    }
+
+
+
+
+    //获取危害小类
+    function getbigharmchildren() {
+        $.ajax({
+            type: "get",
+            url: "/js/harmtype.js",
+            dataType: 'json',
+            async:false,
+            success: function (data) {
+                var z = eval(data)["result"]
+                harmcategory=eval(JSON.stringify(z))
+
+            },
+            error: function (err) {
+                console.log(err)
+            }
+        })
+
+        var parentId = $.cookie('bigHarmType')
+        var smallharmlist = new Array()
+        $.each(harmcategory, function (i) {
+            var pId = harmcategory[i]["parentId"]
+            if (pId != 0 || pId != "0") {
+                if (parentId == pId) {
+                    var obj = new Object()
+                    obj.name = harmcategory[i]["typeName"]
+                    obj.value = harmcategory[i]["id"]
+                    console.log("危害小类："+harmcategory[i]["typeName"]+"........."+harmcategory[i]["id"])
+
+                    smallharmlist.push(obj)
+                }
+            }
+        })
+
+        return smallharmlist
+    }
+
+
+    //设置cookie失效时间
+    var date = new Date();
+    var minutes = 30;
+    date.setTime(date.getTime() + (minutes * 60 * 1000));
+
+    var searchtime = new Date();
+    var mm = 1;
+    searchtime.setTime(searchtime.getTime() + (mm * 60 * 1000));
+
+    function getParam(paramName) {
+        paramValue = "", isFound = !1;
+        if (this.location.search.indexOf("?") == 0 && this.location.search.indexOf("=") > 1) {
+            arrSource = unescape(this.location.search).substring(1, this.location.search.length).split("&"), i = 0;
+            while (i < arrSource.length && !isFound) arrSource[i].indexOf("=") > 0 && arrSource[i].split("=")[0].toLowerCase() == paramName.toLowerCase() && (paramValue = arrSource[i].split("=")[1], isFound = !0), i++
+        }
+        return paramValue == "" && (paramValue = null), paramValue
+    }
+
+    var tab = getParam("tab")
+
+
+    function toSearch() {
+        var condition=getVal("searchCondition")
+        if (condition.length>0){
+            $.cookie('mySearchCondition', condition,  {expires: date,path: '/', secure:true})
+        }
+
+        // $.ajax({
+        //     type:"get",
+        //     url:'',
+        //     data:{},
+        //     success:function(data){
+        window.location.href = "/search/search.html"
+
+        //     },
+        //     error:function(data,type, err){
+        //         console.log(data +" - "+type + ": " + err)
+        //     }
+        //
+        // });
+    }
+
+    function limitinput(ele, len) {
+        $(ele).bind('input propertychange', function () {
+            var tvalmum;
+            tvalnum = $(this).val().length;
+            if (tvalnum > len) {
+                var tval = $(this).val();
+                tval = tval.substring(0, len);
+                $(this).val(tval);
+            }
+        });
+    }
+
+
+
+    function to_notifition(obj) {
+        var wxxx=document.getElementById("wxxx")
+        var tzgg=document.getElementById("tzgg")
+
+        if (obj=="wxxx"){
+            $.cookie('wxxx', 'wxxx', {expires: date, path: '/', secure:true})
+            wxxx.className="lv1 focus"
+            tzgg.className=""
+        }if (obj==tzgg) {
+            wxxx.className=""
+            tzgg.className="lv1 focus"
+        }
+    }
+
+
+</script>
+<div class="header">
+    <div class="wrap">
+        <ul class="nav">
+            <script type="text/javascript">
+                if (tab == null){
+                    document.write('<li class="focus"><a href="/index.html">首页</a></li>')
+                }else{
+                    document.write('<li><a href="/index.html">首页</a></li>')
+                }           
+
+                if (tab == 2){
+                    document.write('<li class="focus"><a href="/wxxx/list1.html?tab=2">网信信息</a></li>')
+                }else{
+                    document.write('<li><a href="/wxxx/list1.html?tab=2">网信信息</a></li>')
+                }
+
+                if (tab == 3){
+                    document.write('<li class="focus"><a href="/tzgg/list1.html?tab=3">通知公告</a></li>')
+                }else{
+                    document.write('<li><a href="/tzgg/list1.html?tab=3">通知公告</a></li>')
+                }
+
+                if (tab == 4){
+                    document.write('<li class="focus"><a href="/jbzn.html?tab=4">举报指南</a></li>')
+                }else{
+                    document.write('<li><a href="/jbzn.html?tab=4">举报指南</a></li>')
+                }
+
+                if (tab == 6){
+                    document.write('<li class="focus"><a href="/jbcx.html?tab=6">举报查询</a></li>')
+                }else{
+                    document.write('<li><a href="/jbcx.html?tab=6">举报查询</a></li>')
+                }
+
+                if (tab == 5){
+                    document.write('<li class="focus"><a href="/jgjj.html?tab=5">机构简介</a></li>')
+                }else{
+                    document.write('<li><a href="/jgjj.html?tab=5">机构简介</a></li>')
+                }
+            </script>
+        </ul>
+        <form class="search" action="" method="GET" autocomplete="off">
+            <input type="text" id="searchCondition" name="">
+            <button class="btn default" id="search" name="search" type="button" onclick="toSearch()">搜索</button>
+        </form>
+    </div>
+</div>
+
+  <div class="breadcrumbs">
+    <div class="wrap">当前位置：<a href="/">首页</a> &gt;&gt; <a href="">通知公告</a></div>
+  </div>
+  <div class="wrap pl80 pr80">
+    <h1 class="article-title ta-c"><span>2023年1月全国网络举报受理情况<span></h1>
+    <div class="article-meta ta-c pb30">
+    <div class="article-share f-r">
+        <div class="title">分享：</div>
+        <div class="icon">
+          <a href="javascript:void(0)" onclick="return false;" onmouseover="showpic(0);"><img src="/style/icon-weixin.png"><div id="pic0" class="qr on" style="display:none"><br>
+					<div id="wx0" style=" position:relative;z-index:99999;"/></div>
+				</div></a>
+          <a target="_blank" href="javascript:void(0)" onclick="shareqq(this);"><img src="/style/icon-qq.png"></a>
+          <a target="_blank" href="javascript:void(0)" onclick="shareweibo(this);"><img src="/style/icon-weibo.png"></a>
+        </div>
+      </div>
+      <span>2023-02-15</span>
+      <span>来源：中央网信办举报中心</span>
+    </div>
+    <div class="article-body pl80 pr80">
+      <p style="text-align: center;"><img src="https://new.12377.cn/2023/60087414-03a1-48a4-a586-4ed476fb9f60.png" title="" alt="微信截图_20230215101552.png"/></p><p style="text-align: justify; text-indent: 2em;">2023年1月，中央网信办举报中心指导全国各级网信举报工作部门、主要网站平台受理网民举报色情、赌博、侵权、谣言等违法和不良信息1321.8万件，环比下降9.6%、同比下降10.3%。其中，中央网信办举报中心受理举报57.9万件，环比下降13.7%、同比增长58.5%；各地网信举报工作部门受理举报66.6万件，环比下降13.8%、同比下降32.1%；全国主要网站平台受理举报1197.4万件，环比下降9.2%、同比下降10.6%。</p><p style="text-align: justify; text-indent: 2em;">在全国主要网站平台受理的举报中，主要商业网站平台受理量占53.3%，达638.5万件。</p><p style="text-align: justify; text-indent: 2em;">目前全国各主要网站平台不断畅通举报渠道、受理处置网民举报。欢迎广大网民积极参与网络综合治理，共同维护清朗网络空间。</p><p style="text-align: justify; text-indent: 2em;">举报电话：12377</p><p style="text-align: justify; text-indent: 2em;">举报网址：www.12377.cn</p><p style="text-align: justify; text-indent: 2em;">官方微博、微信公众号：中央网信办举报中心</p><p style="text-align: justify; text-indent: 2em;">举报客户端：网络举报</p>
+    </div>
+  </div>
+  <script src="/libs/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+  <script src="/js/common.js"></script>
+  <script type="text/javascript">
+  </script>
+</body>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+ <script src="/js/jquery.qrcode.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+function showpic(index){
+	var url = window.location.href;
+    if($(eval("pic"+index)).css('display')=='block'){
+  		$(eval("wx"+index)).html('');
+  		$(eval("pic"+index)).css('display','none');
+      $(eval("pic"+index)).css('position','');
+      $(eval("pic"+index)).css('z-index','');
+		}else{
+  		$(eval("wx"+index)).qrcode({width:160,height:160,correctLevel:0,text:url});
+  		$(eval("pic"+index)).css('display','block');
+      $(eval("pic"+index)).css('position','absolute');
+      $(eval("pic"+index)).css('z-index','999');
+}}
+    
+function shareqq(obj){
+	var url = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url='+window.location.href;
+	$(obj).attr('href',url);
+	//obj.click();
+}
+
+function shareweibo(obj){
+	  var url = 'http://v.t.sina.com.cn/share/share.php?title=2023年1月全国网络举报受理情况&url='+window.location.href;
+	  $(obj).attr('href',url);
+	  //obj.click();
+}
+</script>
+</head>
+<div class="footer">中央网信办（国家互联网信息办公室）违法和不良信息举报中心 版权所有 <a href="https://beian.miit.gov.cn/">京ICP备15022452号</a></div>
+<script type="text/javascript">
+    //添加cookie
+    function setCookie(name,value){ 
+        var Days = 30;
+        var exp = new Date(); 
+        exp.setTime(exp.getTime() + Days*24*60*60*1000);
+        //document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString();
+        $.cookie(name, value, {expires: exp, path: '/', domain: '12377.cn', secure:true})
+    }
+
+	function getCookie(name){
+		var strcookie = document.cookie;//获取cookie字符串
+		var arrcookie = strcookie.split("; ");//分割
+		//遍历匹配
+		for ( var i = 0; i < arrcookie.length; i++) {
+		var arr = arrcookie[i].split("=");
+		if (arr[0] == name){
+		return arr[1];
+		}
+		}
+		return "";
+	}
+
+    var ck = getCookie("12377.cn");
+    if(ck == "undefined" || ck == null || ck == ''){
+        var std = new Date().getTime();
+        var rd = Math.floor(Math.random()*100);
+        setCookie("12377.cn",std + '' + rd );
+    }
+    
+    function pad2(n) { return n < 10 ? '0' + n : n }
+    function generateTimeReqestNumber() {
+    var date = new Date();
+    return date.getFullYear().toString() + pad2(date.getMonth() + 1) + pad2(date.getDate()) + pad2(date.getHours()) + pad2(date.getMinutes()) + pad2(date.getSeconds());
+    }
+
+    function guid() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
+            var r = Math.random() * 16 | 0,
+                v = c == 'x' ? r : (r & 0x3 | 0x8);
+            return v.toString(16);
+        });
+    }
+
+    var code;
+    function createCode() {
+        //var codeInput = document.getElementsByClassName("code")[0];
+        var codeArr = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+        var length = 6;
+        code = "";
+        for (var i = 0; i < length; i++) {
+            randomI = Math.floor(Math.random() * 36);
+            code += codeArr[randomI];
+        }
+        return code;
+    }
+    
+    userKey = guid();
+    console.log(userKey);
+    var ckguestkey = getCookie("guestKey");
+    console.log('======'+generateTimeReqestNumber());
+    if(ckguestkey == "undefined" || ckguestkey == null || ckguestkey == ''){
+         guestKey = generateTimeReqestNumber()+createCode();
+         setCookie("guestKey",guestKey);
+         console.log(guestKey);
+         //setCookie("userKey",userKey);
+         //console.log(userKey);
+    }
+   
+    t = new Date().getTime()+Math.random();
+    vist = '<script src="https://stats.12377.cn/js/visitor.js?time='+t+'"><//script>';
+    //vist = '<script src="https://stats.12377.cn:81/js/visitor.js?time='+t+'"><//script>';
+    document.write(vist);
+    console.log(vist)
+</script>
+
+</html>
