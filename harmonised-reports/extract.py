@@ -112,6 +112,7 @@ SOURCES = {
     "fitbit":                    ("fitbit.zip", "zipcsv"),
     # Reddit — non-VLOP DSA report (2025), canonical numbered-CSV zip.
     "reddit":                    ("reddit.zip", "zipcsv"),
+    "just-eat-takeaway":         ("just-eat-takeaway.zip", "zipcsv"),
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,
@@ -374,8 +375,14 @@ def _ident(rows: list[list[str]]) -> dict:
     out = {"provider": "", "period_start": "", "period_end": ""}
     for r in rows[1:]:
         cells = [c.lower() for c in r]
-        val = next((c for c in reversed(r) if c), "")
-        label = " ".join(cells[:-1])  # everything but the value cell
+        non_empty = [i for i, c in enumerate(r) if c]
+        if not non_empty:
+            continue
+        val_idx = non_empty[-1]          # value = last non-empty cell
+        val = r[val_idx]
+        # everything before the value cell; normalise snake_case labels
+        # (e.g. "name_of_the_service_provider") to the spaced form we match on.
+        label = " ".join(cells[:val_idx]).replace("_", " ")
         if any(k in label for k in _PROVIDER) and not out["provider"]:
             out["provider"] = val
         elif any(k in label for k in _START) and not out["period_start"]:

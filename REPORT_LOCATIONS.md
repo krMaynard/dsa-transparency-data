@@ -185,7 +185,7 @@ The best starting points for finding more report locations:
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| Just Eat Takeaway (Lieferando, Thuisbezorgd) | Just Eat Takeaway.com N.V. | [Governance docs](https://www.justeattakeaway.com/governance/governance-documents/) | ZIP (template); 17 Feb – 31 Dec 2025 | verified |
+| Just Eat Takeaway (Lieferando, Thuisbezorgd) | Just Eat Takeaway.com N.V. | [Governance docs](https://www.justeattakeaway.com/governance/governance-documents/) · [report zip](https://www.justeattakeaway.com/files/doc_downloads/2026/05/Just-Eat-Takeaway-com-DSA-Transparency-Report-2025.zip) · [archived data](harmonised-reports/extracted/just-eat-takeaway) | ZIP (harmonised template); 17 Feb – 31 Dec 2025 | verified |
 | Deliveroo | Deliveroo plc | [PDF](https://dpd-12774-s3.s3.eu-west-2.amazonaws.com/assets/7517/4559/3138/Deliveroo_DSA_Transparency_Report_April2025.pdf) · [archived PDF](pdf-reports/deliveroo) | PDF; Apr 2025 | verified |
 | Glovo | Glovoapp23 S.A. (Delivery Hero) | [Report](https://about.glovoapp.com/culture-and-values/transparency-report/) · [archived PDF](pdf-reports/glovo) | PDF; 2025 | verified |
 | Wolt | Wolt Enterprises Oy (DoorDash) | [PDF](https://assets.ctfassets.net/23u853certza/4UBct5Uy0IYtBe4xXSEclg/84a36c8226a026a23859abb166875db6/Wolt_DSA_Transparency_Report2025.pdf) · [archived PDF](pdf-reports/wolt) | PDF; 17 Feb 2024 – 17 Feb 2025 | verified |
