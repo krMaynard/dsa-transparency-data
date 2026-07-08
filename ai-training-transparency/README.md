@@ -35,7 +35,7 @@ Example comparison (Text training-data size):
 ### Sources & method
 
 There is **no single registry** of the *filled* summaries — each provider
-self-publishes in its own format — so the builder reads two source shapes:
+self-publishes in its own format — so the builder reads three source shapes:
 
 - **Markdown "data summary cards"** (Microsoft's convention on Hugging Face,
   `microsoft/<model>/data_summary_card.md`) — template fields as
@@ -54,13 +54,20 @@ self-publishes in its own format — so the builder reads two source shapes:
   ETH Zürich / EPFL / CSCS, ~15T tokens, public data only, no own crawler) and
   **Bielik** (SpeakLeash, a Polish LLM continued from Mistral 7B, own
   "Speakleash" crawler + synthetic + licensed data).
+- **Hugging Face Space** — **SmolLM3** (Hugging Face) publishes its summary in a
+  Gradio Space (an interactive `hf.space` app), not a PDF. We archive the
+  Space's `app.py` (which embeds the filled template as HTML) under `raw/` and
+  curate + anchor-check against it, same as the PDF providers. Text-only,
+  ~11T tokens, public + synthetic data only (no crawling / licensing / user /
+  private data).
 
 **Coverage is a starting, expandable set** (Google + Meta + Microsoft + OpenAI +
-Swiss AI + SpeakLeash; 8 model entries). More providers slot in as their
-summaries are archived under `raw/`. Notably, several Code-of-Practice
-signatories (Anthropic, Mistral, xAI) have **not** published the standardised
-template — they disclose training content only as free-form prose (model cards)
-or rely on the 2 Aug 2027 transitional deadline for pre-existing models.
+Swiss AI + SpeakLeash + Hugging Face; 9 model entries). More providers slot in
+as their summaries are archived under `raw/`. Notably, several Code-of-Practice
+signatories (Anthropic — incl. Fable 5 —, Mistral, xAI) have **not** published
+the standardised template — they disclose training content only as free-form
+prose (model cards) or rely on the 2 Aug 2027 transitional deadline for
+pre-existing models.
 
 ## Refresh
 
