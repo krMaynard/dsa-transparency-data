@@ -41,20 +41,26 @@ self-publishes in its own format — so the builder reads two source shapes:
   `microsoft/<model>/data_summary_card.md`) — template fields as
   `**1.3.1.A Text training data size:** …` lines, parsed by their stable numeric
   codes (generic — new providers using the same markdown template parse for free).
-- **PDF** (Google + Meta + OpenAI, on their transparency buckets) — the size
-  bands are **checkbox** selections (Google's don't render in the text layer;
-  Meta lays them out as form cells; OpenAI's ☒/☐ do render), so those values are
+- **PDF** (Google + Meta + OpenAI + Swiss AI + SpeakLeash, on their transparency
+  buckets / Hugging Face) — the size bands are **checkbox** selections (Google's
+  don't render in the text layer; Meta lays them out as form cells; OpenAI's and
+  Swiss AI's ☒/☐ render; Bielik uses a literal `X` marker), so those values are
   **curated** from the rendered form and cross-checked with fail-loud anchors
   against the PDF text (model name, market date, cut-off). Meta groups Image &
-  Video as one "Perception" modality (recorded on both the Image and Video rows,
-  combination noted) and its section-2 list breaks out `crawled` / `user_data`
-  sources; OpenAI files on the full template too (its `user_data` is Yes via
-  data from other products — ChatGPT/Codex — though model-interaction data was
-  not used).
+  Video as one "Perception" modality (recorded on both rows) and breaks out
+  `crawled` / `user_data`; OpenAI files on the full template (its `user_data` is
+  Yes via other products — ChatGPT/Codex — though model-interaction data was
+  not used). The two open/EU models are text-only: **Apertus** (Swiss AI —
+  ETH Zürich / EPFL / CSCS, ~15T tokens, public data only, no own crawler) and
+  **Bielik** (SpeakLeash, a Polish LLM continued from Mistral 7B, own
+  "Speakleash" crawler + synthetic + licensed data).
 
-**Coverage is a starting, expandable set** (Google + Meta + Microsoft + OpenAI;
-6 model entries). More providers slot in as their summaries are archived under
-`raw/`.
+**Coverage is a starting, expandable set** (Google + Meta + Microsoft + OpenAI +
+Swiss AI + SpeakLeash; 8 model entries). More providers slot in as their
+summaries are archived under `raw/`. Notably, several Code-of-Practice
+signatories (Anthropic, Mistral, xAI) have **not** published the standardised
+template — they disclose training content only as free-form prose (model cards)
+or rely on the 2 Aug 2027 transitional deadline for pre-existing models.
 
 ## Refresh
 
