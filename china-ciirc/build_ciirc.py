@@ -54,7 +54,8 @@ _UA = {"User-Agent": "Mozilla/5.0 (transparency-report-archiver)"}
 
 def _fetch(url: str) -> str:
     req = urllib.request.Request(url, headers=_UA)
-    raw = urllib.request.urlopen(req, timeout=30).read()
+    with urllib.request.urlopen(req, timeout=30) as response:
+        raw = response.read()
     m = re.search(rb"charset=[\"']?([\w-]+)", raw[:2000])
     enc = m.group(1).decode() if m else "utf-8"
     return raw.decode(enc, errors="replace")
@@ -113,7 +114,8 @@ def _parse_post(path: str) -> list[list]:
     period = re.search(r"ciirc-(20\d\d-\d\d)\.html$", path).group(1)
     # Some bulletins render each glyph space-separated ("1872.2 万件"), so match on
     # a fully whitespace-stripped copy.
-    text = re.sub(r"\s+", "", _plain(open(path, encoding="utf-8").read()))
+    with open(path, encoding="utf-8") as f:
+        text = re.sub(r"\s+", "", _plain(f.read()))
     rows = [[PUBLISHER, period, SECTION, "national_total", METRIC, "count", 0]]
 
     c = _CENTRAL.search(text)
