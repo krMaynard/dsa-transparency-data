@@ -68,7 +68,7 @@ The best starting points for finding more report locations:
 | Microsoft Teams / Skype | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304741) · [archived PDF](pdf-reports/microsoft-teams-skype) | PDF (Communications); Feb – Dec 2024 | verified |
 | Microsoft Community | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2305901) · [archived PDF](pdf-reports/microsoft-community) | PDF; Feb – Dec 2024 | verified |
 | Microsoft Feedback Portal | Microsoft | [PDF](https://go.microsoft.com/fwlink/?linkid=2304743) · [archived PDF](pdf-reports/microsoft-feedback-portal) | PDF; Feb – Dec 2024 | verified |
-| Reddit | Reddit, Inc. | [DSA info / Transparency Center](https://support.reddithelp.com/hc/en-us/articles/23595536875796-Digital-Services-Act-DSA-Information-for-EU-users) | PDF; semi-annual | likely |
+| Reddit | Reddit, Inc. | [DSA info](https://support.reddithelp.com/hc/en-us/articles/23595536875796-Digital-Services-Act-DSA-Information-for-EU-users) · [report zip](https://redditinc.com/hubfs/Reddit%20Inc/Content/Transparency%20Reports/dsa_transparency_report_reddit_2025.zip) · [archived data](harmonised-reports/extracted/reddit) | Harmonised template (Art. 15); CY2025 | verified |
 | Viber | Rakuten Viber (Viber Media S.à r.l.) | [Report](https://www.viber.com/en/terms/eu-digital-services-act-dsa-transparency-report/) | HTML + tables; 18 Feb – 31 Dec 2025 | verified |
 | Flickr | SmugMug, Inc. | [Legal / Transparency](https://www.flickr.com/help/legal) | PDF + XLSX; 2024 & 2025 | verified |
 | Tumblr | Automattic Inc. | [Report](https://transparency.automattic.com/tumblr/digital-services-act/) | Web report + data; semi-annual | verified |

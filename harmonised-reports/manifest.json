@@ -1311,6 +1311,29 @@
     }
   },
   {
+    "platform": "reddit",
+    "source_file": "reddit.zip",
+    "format": "zipcsv",
+    "provider": "Reddit Netherlands B.V.",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 101,
+      "member_states_orders": 2828,
+      "notices": 101,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 101,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "roblox",
     "source_file": "roblox.xlsx",
     "format": "xlsx",
