@@ -216,6 +216,10 @@ CURATED_PDF = [
         ],
         "rows": [
             ("modality", "Text", "More than 10 trillion tokens"),
+            ("modality", "Image", "Not applicable"),
+            ("modality", "Audio", "Not applicable"),
+            ("modality", "Video", "Not applicable"),
+            ("modality", "Other", "Not applicable"),
             ("general", "data_cutoff", "03/2024"),
             ("data_source", "publicly_available", "Yes"),
             ("data_source", "commercially_licensed", "No"),
@@ -241,6 +245,10 @@ CURATED_PDF = [
         ],
         "rows": [
             ("modality", "Text", "1 billion to 10 trillion tokens"),
+            ("modality", "Image", "Not applicable"),
+            ("modality", "Audio", "Not applicable"),
+            ("modality", "Video", "Not applicable"),
+            ("modality", "Other", "Not applicable"),
             ("general", "data_cutoff", "05/2025"),
             ("data_source", "publicly_available", "Yes"),
             ("data_source", "commercially_licensed", "Yes"),
