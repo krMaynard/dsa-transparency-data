@@ -199,6 +199,65 @@ CURATED_PDF = [
             ("data_source", "synthetic", "Yes"),
         ],
     },
+    {
+        # Swiss AI (ETH Zürich / EPFL / CSCS) — Apertus, a fully-open model
+        # trained only on publicly available data (opt-outs respected). Text-only,
+        # ~15T tokens. Checkboxes render (☒/☐). Note crawled = No: it used public
+        # datasets rather than running its own crawler.
+        "pdf": "apertus-swiss-ai-eu-training-summary.pdf",
+        "provider": "Swiss AI",
+        "model": "Apertus-70B",
+        "released": "September 2025",
+        "checks": [
+            "Apertus-70B",
+            "More than 10 trillions tokens",
+            "knowledge cutoff is 03/2024",
+            "Have you used publicly available datasets",
+        ],
+        "rows": [
+            ("modality", "Text", "More than 10 trillion tokens"),
+            ("modality", "Image", "Not applicable"),
+            ("modality", "Audio", "Not applicable"),
+            ("modality", "Video", "Not applicable"),
+            ("modality", "Other", "Not applicable"),
+            ("general", "data_cutoff", "03/2024"),
+            ("data_source", "publicly_available", "Yes"),
+            ("data_source", "commercially_licensed", "No"),
+            ("data_source", "third_party_private", "No"),
+            ("data_source", "crawled", "No"),
+            ("data_source", "user_data", "No"),
+            ("data_source", "synthetic", "No"),
+        ],
+    },
+    {
+        # SpeakLeash / ACK Cyfronet AGH — Bielik, a Polish open LLM continued
+        # from Mistral 7B v0.2. Text-only, 1B–10T-tokens band. Uses "X" as the
+        # checkbox marker rather than ☒. Own crawler ("Speakleash").
+        "pdf": "bielik-speakleash-eu-training-summary.pdf",
+        "provider": "SpeakLeash (Bielik)",
+        "model": "Bielik v3 11B",
+        "released": "December 2025",
+        "checks": [
+            "Bielik v3 11B",
+            "Mistral 7B",
+            "From 11/2022 to 05/2025",
+            "Speakleash",
+        ],
+        "rows": [
+            ("modality", "Text", "1 billion to 10 trillion tokens"),
+            ("modality", "Image", "Not applicable"),
+            ("modality", "Audio", "Not applicable"),
+            ("modality", "Video", "Not applicable"),
+            ("modality", "Other", "Not applicable"),
+            ("general", "data_cutoff", "05/2025"),
+            ("data_source", "publicly_available", "Yes"),
+            ("data_source", "commercially_licensed", "Yes"),
+            ("data_source", "third_party_private", "No"),
+            ("data_source", "crawled", "Yes"),
+            ("data_source", "user_data", "No"),
+            ("data_source", "synthetic", "Yes"),
+        ],
+    },
 ]
 
 
