@@ -177,8 +177,13 @@ CURATED_PDF = [
         "provider": "OpenAI",
         "model": "GPT-5.5",
         "released": "April 2026",
-        "checks": ["GPT-5.5", "OpenAI Ireland Ltd", "More than 10 trillion tokens",
-                   "Approximately 2018 – December 2025", "GPTBot"],
+        "checks": [
+            "GPT-5.5",
+            "OpenAI Ireland Ltd",
+            "More than 10 trillion tokens",
+            "Approximately 2018 – December 2025",
+            "GPTBot",
+        ],
         "rows": [
             ("modality", "Text", "More than 10 trillion tokens"),
             ("modality", "Image", "More than 1 billion images"),
