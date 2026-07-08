@@ -74,7 +74,10 @@ def _fetch_html(url: str) -> str:
     raw = _fetch(url)
     m = re.search(rb"charset=[\"']?([\w-]+)", raw[:3000])
     enc = m.group(1).decode() if m else "utf-8"
-    return raw.decode(enc, errors="replace")
+    try:
+        return raw.decode(enc, errors="replace")
+    except LookupError:  # unrecognised/misspelt charset declaration
+        return raw.decode("utf-8", errors="replace")
 
 
 # ── scrape (archives raw PDFs; not needed for a normal offline build) ──────────
@@ -99,13 +102,13 @@ def download(raw_dir: str) -> int:
         if os.path.exists(out) and os.path.getsize(out) > 1000:
             continue
         try:
-            with open(out, "wb") as f:
-                f.write(_fetch(BASE + path))
-            got += 1
+            data = _fetch(BASE + path)  # fetch first, so a failure leaves no file
         except urllib.error.HTTPError as e:  # a couple of listing links 404 at source
             print(f"  ! {key}: source link {path} returned {e.code}, skipping")
-            if os.path.exists(out):
-                os.remove(out)
+            continue
+        with open(out, "wb") as f:
+            f.write(data)
+        got += 1
     return got
 
 
@@ -205,7 +208,8 @@ def build(raw_dir: str) -> dict:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    desc = __doc__.splitlines()[0] if __doc__ else "Build the China 12321 dataset."
+    ap = argparse.ArgumentParser(description=desc)
     ap.add_argument("--raw", default=RAW)
     ap.add_argument("--out", default=OUT_JSON)
     ap.add_argument("--download", action="store_true",
