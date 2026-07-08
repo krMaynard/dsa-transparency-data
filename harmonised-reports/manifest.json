@@ -782,6 +782,29 @@
     }
   },
   {
+    "platform": "just-eat-takeaway",
+    "source_file": "just-eat-takeaway.zip",
+    "format": "zipcsv",
+    "provider": "justeattakeaway.com",
+    "period_start": "2025-02-17",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 37,
+      "human_resources": 3,
+      "AMAR": 2,
+      "qualitative": 19
+    }
+  },
+  {
     "platform": "konami",
     "source_file": "konami.xlsx",
     "format": "xlsx",
