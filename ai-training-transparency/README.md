@@ -41,16 +41,20 @@ self-publishes in its own format — so the builder reads two source shapes:
   `microsoft/<model>/data_summary_card.md`) — template fields as
   `**1.3.1.A Text training data size:** …` lines, parsed by their stable numeric
   codes (generic — new providers using the same markdown template parse for free).
-- **PDF** (Google + Meta, on their transparency-report buckets) — the size bands
-  are **checkbox** selections (Google) or laid out as form cells (Meta) rather
-  than clean key/value text, so those values are **curated** from the rendered
-  form and cross-checked with fail-loud anchors against the PDF text (model name,
-  market date, cut-off). Meta groups Image & Video as one "Perception" modality
-  (recorded on both the Image and Video rows, combination noted) and its
-  section-2 list breaks out `crawled` / `user_data` sources the others don't.
+- **PDF** (Google + Meta + OpenAI, on their transparency buckets) — the size
+  bands are **checkbox** selections (Google's don't render in the text layer;
+  Meta lays them out as form cells; OpenAI's ☒/☐ do render), so those values are
+  **curated** from the rendered form and cross-checked with fail-loud anchors
+  against the PDF text (model name, market date, cut-off). Meta groups Image &
+  Video as one "Perception" modality (recorded on both the Image and Video rows,
+  combination noted) and its section-2 list breaks out `crawled` / `user_data`
+  sources; OpenAI files on the full template too (its `user_data` is Yes via
+  data from other products — ChatGPT/Codex — though model-interaction data was
+  not used).
 
-**Coverage is a starting, expandable set** (Google + Meta + Microsoft; 5 model
-entries). More providers slot in as their summaries are archived under `raw/`.
+**Coverage is a starting, expandable set** (Google + Meta + Microsoft + OpenAI;
+6 model entries). More providers slot in as their summaries are archived under
+`raw/`.
 
 ## Refresh
 

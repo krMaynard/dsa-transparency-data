@@ -167,6 +167,33 @@ CURATED_PDF = [
             ("data_source", "synthetic", "Yes"),
         ],
     },
+    {
+        # OpenAI files on the AI Office's full template. Its checkboxes DO render
+        # in the text layer (☒/☐), so the modality bands and source flags are read
+        # straight from the selections; still curated + anchor-checked for drift.
+        # user_data: model-interaction data was NOT used (☒ No), but data from
+        # other products (ChatGPT, Codex) was (☒ Yes) — so the category is Yes.
+        "pdf": "openai-gpt55-eu-training-summary.pdf",
+        "provider": "OpenAI",
+        "model": "GPT-5.5",
+        "released": "April 2026",
+        "checks": ["GPT-5.5", "OpenAI Ireland Ltd", "More than 10 trillion tokens",
+                   "Approximately 2018 – December 2025", "GPTBot"],
+        "rows": [
+            ("modality", "Text", "More than 10 trillion tokens"),
+            ("modality", "Image", "More than 1 billion images"),
+            ("modality", "Audio", "More than 1 million hours"),
+            ("modality", "Video", "More than 1 million hours"),
+            ("modality", "Other", "Not applicable"),
+            ("general", "data_cutoff", "12/2025"),
+            ("data_source", "publicly_available", "Yes"),
+            ("data_source", "commercially_licensed", "Yes"),
+            ("data_source", "third_party_private", "Yes"),
+            ("data_source", "crawled", "Yes"),
+            ("data_source", "user_data", "Yes"),
+            ("data_source", "synthetic", "Yes"),
+        ],
+    },
 ]
 
 
