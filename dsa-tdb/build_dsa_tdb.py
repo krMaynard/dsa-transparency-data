@@ -145,9 +145,13 @@ def load_all(aggs_dir: str) -> pd.DataFrame:
             continue
         frames.append(pd.concat(
             [pd.read_csv(f, compression="gzip") for f in files], ignore_index=True))
+    if not frames:
+        raise SystemExit(f"no gzip partition files found under {aggs_dir}")
     df = pd.concat(frames, ignore_index=True)
     df["platform"] = df["platform_name"].map(_clean_platform)
-    df["period"] = pd.to_datetime(df["created_at"]).dt.strftime("%Y-%m")
+    # created_at is an ISO string ("2025-01-08T00:00:00.000Z"); slice the YYYY-MM
+    # prefix directly rather than round-tripping through datetime (much faster).
+    df["period"] = df["created_at"].str[:7]
     print(f"[dsa-tdb] loaded {len(df):,} aggregate rows across "
           f"{df['period'].nunique()} months, {df['platform'].nunique()} platforms",
           file=sys.stderr)
@@ -168,19 +172,25 @@ def build_rows(df: pd.DataFrame, top_platforms: int = 60) -> list[list]:
     df = df[df["platform"].isin(keep)]
 
     rows: list[list] = []
+    _COLS = ["section", "platform", "period", "category", "metric", "unit", "count"]
+
+    def emit(g, section: str) -> None:
+        # g must already carry a "category" column; stamp the constant columns and
+        # append as list-of-lists (vectorized — no per-row iterrows).
+        g = g.assign(section=section, metric="statements", unit="count")
+        g["count"] = g["count"].astype("int64")
+        rows.extend(g[_COLS].values.tolist())
 
     def single(section: str, col: str, label) -> None:
         sub = df[df[col].notna()]
         g = sub.groupby(["platform", "period", col])["count"].sum().reset_index()
-        for _, r in g.iterrows():
-            rows.append([section, r["platform"], r["period"], label(r[col]),
-                         "statements", "count", int(r["count"])])
+        g["category"] = g[col].map(label)
+        emit(g, section)
 
     # totals (category = All)
     gt = df.groupby(["platform", "period"])["count"].sum().reset_index()
-    for _, r in gt.iterrows():
-        rows.append(["totals", r["platform"], r["period"], "All",
-                     "statements", "count", int(r["count"])])
+    gt["category"] = "All"
+    emit(gt, "totals")
 
     single("by_category", "category", _cat)
     single("by_decision_ground", "decision_ground", lambda v: GROUND.get(v, v))
@@ -194,11 +204,11 @@ def build_rows(df: pd.DataFrame, top_platforms: int = 60) -> list[list]:
             continue
         sub = df[df[col] == True]  # noqa: E712 (pandas boolean mask)
         g = sub.groupby(["platform", "period"])["count"].sum().reset_index()
-        for _, r in g.iterrows():
-            rows.append(["by_decision_visibility", r["platform"], r["period"],
-                         lbl, "statements", "count", int(r["count"])])
+        g["category"] = lbl
+        emit(g, "by_decision_visibility")
 
-    # deterministic order
+    # deterministic order (and drop the numpy scalar types tolist() already
+    # unwrapped, so json.dump sees plain str/int)
     rows.sort(key=lambda r: (r[0], r[1], r[2], r[3]))
     return rows
 
