@@ -23,8 +23,10 @@ file is the curated, prioritized view.
 served from the NY AG webform host (`ag.ny.gov/system/files/webform/...`) that
 returns a login/redirect wall to non-browser clients, so our scraper catalogued
 them with a `source_url` only (`access=auth-required`). A browser session should
-open each URL, save the PDF, and drop it in `ny-tos-reports/archive/` so
-`extract_narrative.py` can index it.
+open each URL and save the PDF into `ny-tos-reports/pdfs/` (the dir
+`extract_narrative.py` reads, per its `PDF_DIR`), named to match the catalogue's
+`filename` column, then flip the row's `access` to `public` so the indexer
+picks it up.
 Full list: `ny_tos_reports.csv` (rows where `access=auth-required`).
 
 - **Agile Sports Technologies Inc (Hudl)** — 2025 Q3 — https://ag.ny.gov/system/files/webform/social_media_terms_of_service_re/95920/2025-q3-agile-sports-technologies-inc-policy.pdf
