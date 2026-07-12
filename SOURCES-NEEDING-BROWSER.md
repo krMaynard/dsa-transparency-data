@@ -81,7 +81,9 @@ loadable into the `t3`–`t11` star schema via `harmonised-reports/extract.py`),
 but the report file sits behind a page our scraper didn't traverse (a downloads
 hub, a JS gate, or a direct XLSX/CSV/ODS/PDF we haven't grabbed). Each is a
 ready-to-ingest platform once the file is in hand — highest value.
-Full list: `dsa_reports.csv` (rows with `harmonised_template=yes` and no `archived` link).
+Authoritative status: `harmonised-reports/sources.csv` (`status = hub-pending` are
+landing pages whose file link needs a browser/EU egress to reach; `file-blocked`
+is bot-walled). 16 of 54 template platforms are still un-extracted for this reason.
 
 - **Akamai** (Akamai Technologies, Inc.) — PDF/XLSX; 2024, H1 & H2 2025 — https://www.akamai.com/legal/eu-digital-services-act
 - **Apple Books** (Apple Distribution International) — HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template — https://www.apple.com/legal/dsa/transparency/eu/books/2502/
@@ -98,6 +100,13 @@ Full list: `dsa_reports.csv` (rows with `harmonised_template=yes` and no `archiv
 - **Upwork** (Upwork Global Inc.) — XLSX; 2024 & 2025 — https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours
 - **WordPress.com** (Automattic Inc.) — Web + CSV; Jul – Dec 2025 — https://transparency.automattic.com/wordpress-dot-com/digital-services-act/
 - **x-kom** (x-kom sp. z o.o. (Poland)) — XLSX (harmonised template); 2024 — https://www.x-kom.pl/dsa
+- **eToro** (eToro — social/copy-trading) — landing page JS-rendered — find the template file
+- **Eventbrite** (Eventbrite, Inc.) — landing page JS-rendered — find the template file
+- **OVHcloud** (OVH Groupe SAS) — landing page JS-rendered — find the template file
+
+(The three above are in `sources.csv` as `hub-pending` but don't carry a resolved
+URL in the API catalogue yet — a browser should locate each platform's DSA report
+file and add it to `harmonised-reports/raw/` for `extract.py`.)
 
 ---
 
@@ -118,6 +127,19 @@ Full list with URLs: `ca-ab587/ca_ab587_reports.csv`.
 Specific reports we know exist and want, but that resisted extraction. Each note
 comes from the dataset builder's own caveats.
 
+- **India IT Rules 2021 — publishers blocked by JS / anti-bot.** The monthly
+  compliance reports are ingested for Meta, Twitter/X, Moj, ShareChat, Roblox,
+  Google and Pinterest, but several significant intermediaries can't be fetched
+  headless (per `india-it-rules/README.md`). Each is a browser target that would
+  extend `india_metrics`:
+    - **TikTok** — India monthly page is JS-rendered (the wall behind several of these).
+    - **Snap** — India monthly compliance page loads its numbers via JS.
+    - **Reddit** and **Quora** — publish India pages but sit behind a Cloudflare challenge.
+    - **Josh (VerSe)** — renders its grievance data client-side.
+    - **WhatsApp** — a planned fast-follow: its report PDFs are signed/expiring
+      `fbcdn` links, so they need a live index scrape rather than a templated URL.
+    - **Telegram** — account-gated in-app bot, no published report page (may be a dead end).
+  New publishers are curated in `india-it-rules/build_india.py`'s `SOURCES`.
 - **Taiwan Anti-Fraud Act — Meta's statutory report.** The Art. 32/33 fraud-prevention
   透明度報告 for the designated platforms is retrievable for Google / LINE / TikTok
   but **Meta's is not** (the figures aren't in a fetchable page/PDF we could find).
@@ -133,17 +155,24 @@ comes from the dataset builder's own caveats.
   so far publish only the qualitative Art. 21 criteria**, no numbers. Re-check
   their Japan transparency pages for a quantitative Art. 28 filing. Would extend
   `japan_metrics`.
-- **EU AI Act training-data summaries — checkbox PDFs + more providers.** Google's
-  training-data size bands are **checkbox selections not in the PDF text layer**,
-  so they were transcribed from the *rendered* form (a browser renders the ticked
-  boxes reliably). Current coverage is Google + Meta + Microsoft + OpenAI; other
-  GPAI providers (e.g. Anthropic, Mistral, xAI, Amazon) publish the AI-Office
-  template and could be added. Would extend `ai_training_metrics`.
+- **EU AI Act training-data summaries — checkbox PDFs + non-template signatories.**
+  Google's training-data size bands are **checkbox selections not in the PDF text
+  layer**, so they were transcribed from the *rendered* form (a browser renders
+  the ticked boxes reliably) — the same trick would be needed for any other
+  provider that publishes the AI-Office template as a checkbox PDF. Current
+  coverage is Google + Meta + Microsoft + OpenAI + Swiss AI + SpeakLeash + Hugging
+  Face (9 model entries). Note: several Code-of-Practice signatories — **Anthropic
+  (incl. Fable 5), Mistral, xAI** — have **not** published the standardised
+  template at all; they disclose training content only as free-form prose (model
+  cards) or rely on the 2 Aug 2027 transitional deadline, so there's nothing
+  template-shaped to fetch yet — worth a periodic re-check, not a scrape target
+  today. Would extend `ai_training_metrics`.
 - **EU Terrorist Content Online Regulation (TCOR) — more Art. 7 / Art. 8 sources.**
   Coverage is a deliberate starting set (Commission COM(2024) 64 per-Member-State
-  orders; Spotify + Meta Art. 7 reports; Ireland's Coimisiún na Meán). More hosting
-  providers' Art. 7 reports and other Member States' Art. 8 authority reports exist
-  as archived PDFs to transcribe. Would extend `tco_metrics`.
+  orders; Spotify + Meta Art. 7 reports; Ireland's Coimisiún na Meán). Specific
+  Art. 7 platforms still to add: **X, TikTok, Google, Microsoft, LinkedIn** (…);
+  plus other Member States' Art. 8 authority reports. All exist as archived PDFs
+  to transcribe. Would extend `tco_metrics`.
 
 ---
 
