@@ -33,13 +33,20 @@ EU HTTP proxy Playwright routes through). Without it, a real browser still hits 
 ## 1. Give the session a browser (Playwright MCP)
 
 Claude Code drives a browser through an MCP server. The Microsoft **Playwright
-MCP** is the standard one (verify the current package name when you install):
+MCP** is the standard one (verify the current package name when you install). A
+version-controlled config template ships in this repo — just copy it:
 
 ```bash
-# installs Chromium + registers the MCP server for this project
-npx playwright install chromium
+cp .mcp.example.json .mcp.json     # Claude Code auto-loads .mcp.json in this repo
+npx playwright install chromium    # the browser itself
+```
+
+Or add it imperatively instead of the copy:
+
+```bash
 claude mcp add playwright -- npx @playwright/mcp@latest
-# to route through an EU proxy, add:  --proxy-server=http://EU_PROXY:PORT
+# EU-geofenced sources from a non-EU box: append  --proxy-server=http://EU_HOST:PORT
+# (edit the args in .mcp.example.json / .mcp.json to make it stick)
 ```
 
 That exposes `browser_navigate`, `browser_click`, `browser_snapshot`,

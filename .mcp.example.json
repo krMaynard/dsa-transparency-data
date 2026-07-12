@@ -1,0 +1,9 @@
+{
+  "_comment": "Browser MCP for the fetch backlog (see BROWSER-FETCH-RUNBOOK.md). Copy to .mcp.json so Claude Code auto-loads it in this repo:  cp .mcp.example.json .mcp.json  — then run:  npx playwright install chromium. For EU-geofenced sources from a non-EU box, add \"--proxy-server=http://EU_HOST:PORT\" to args (or route the whole box through an EU VPN).",
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp@latest"]
+    }
+  }
+}
