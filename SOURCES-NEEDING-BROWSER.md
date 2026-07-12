@@ -188,6 +188,57 @@ Full list: `dsa_reports.csv` (rows where `archived` is empty). Prioritize
 
 ---
 
+## G. Other report *types* — bot-walled clusters & not-yet-scouted regimes
+
+Beyond the individual datasets above, two frontiers where a browser earns its keep.
+
+### G1. Bot-walled platform clusters (report may exist — a browser should confirm & fetch)
+
+`REPORT_LOCATIONS.md` → **"Searched, not found / out of scope"** records the full
+scouting sweep. Most entries there are genuine dead ends (no report published, or
+the platform is out of DSA scope) — **not** worth a browser. But two clusters were
+marked *"no own report found **/ heavily bot-blocked**"*, meaning our headless
+scraper hit an anti-bot wall before it could even confirm whether a report exists.
+A browser (correct UA, EU egress, JS) should re-check each and grab any DSA report:
+
+- **Chinese e-commerce & gaming** (Shein-style fast-fashion + marketplaces + game
+  publishers): Miravia, Taobao/Tmall, 1688, Vova, Geekbuying, Zaful, Rosegal,
+  PatPat, Cider, Cupshe, Floryday; Douyin, Xiaohongshu/RED, Bilibili, Kwai/Kuaishou,
+  QQ/QZone, Trip.com; HoYoverse (Genshin), NetEase Games, Lilith, Moonton, Century
+  Games; Vivo, Lenovo, Anker, TCL, Huawei Cloud.
+- **CEE / Baltic / Balkan classifieds & retail** (many bot-blocked): Media Expert,
+  RTV Euro AGD, Otodom, Gratka, Modivo/eobuwie, Answear, Slevomat, Datart; ss.lv,
+  Osta.ee, Skelbiu.lt, Aruodas.lt, Njuškalo (HR), Bolha (SI), OLX.bg, Bazar.bg,
+  Car.gr, Spitogatos, Publi24, Kainos.lt, Varle.lt, Senukai.
+
+(Everything else in that section — Russian/sanctioned, Swiss/Norway/UK out-of-EEA,
+India-only real-money gaming, "Art. 11 contact only" — is out of scope; skip it.)
+
+### G2. Report-type regimes we've built as a *starting set* (scout for more filers)
+
+These datasets each cover one or two sources of a broader regime; a browser scout
+could find and fetch additional filers. Not blocked so much as **not yet mapped**:
+
+- **Regional content-moderation laws** (`regional_metrics`) — only **Texas HB 20**
+  (§120.053) and **Austria KoPl-G** (§4) are built. Other sub-national / national
+  content-moderation transparency statutes with platform filings exist (e.g. other
+  US-state laws; more EU member-state transitional laws) — each new statute is a
+  scout-then-extract task.
+- **Korea Network Act** (`korea_network_act_metrics`) — only **Google** (Search +
+  YouTube) is ingested; other Korean OSPs file annual illegal-sexual-content reports
+  under Art. 64-5 / Art. 22-5. Scout for their reports.
+- **California AB 2013** AI-training summaries (narratives) — only **Google**'s is
+  captured; other generative-AI providers must post AB 2013 summaries too (in force
+  Jan 2026). Scout oag.ca.gov / provider sites.
+
+_(Out of scope for a **browser** doc but noted for completeness: the DSA-TDB
+Statements-of-Reasons dataset could go deeper — the Commission also publishes an
+"advanced" aggregation and per-platform cuts, and the raw SoRs — and TikTok's CGER
+has a per-market cut in its source ZIP we didn't vendor. None of these need a
+browser, just more builder runs.)_
+
+---
+
 _Generated from the catalogue snapshots in `krmaynard/transparency-report-api`
 (`data/report-locations.csv`, `data/ny-tos-reports.csv`, `data/ca-ab587-reports.csv`),
 which mirror this repo's `dsa_reports.csv`, `ny_tos_reports.csv`, and
