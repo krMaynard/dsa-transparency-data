@@ -345,6 +345,29 @@
     }
   },
   {
+    "platform": "flickr",
+    "source_file": "flickr.xlsx",
+    "format": "xlsx",
+    "provider": "Flickr",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 107,
+      "member_states_orders": 181,
+      "notices": 93,
+      "own_initiative_illegal": 93,
+      "own_initiative_TC": 105,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "gdp-forums",
     "source_file": "gdp-forums.zip",
     "format": "zipcsv",
@@ -388,6 +411,29 @@
       "human_resources": 28,
       "AMAR": 4,
       "qualitative": 17
+    }
+  },
+  {
+    "platform": "glassdoor",
+    "source_file": "glassdoor.xlsx",
+    "format": "xlsx",
+    "provider": "Glassdoor",
+    "period_start": "2024-01-01",
+    "period_end": "2024-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 13
     }
   },
   {
@@ -778,6 +824,29 @@
       "automated_means": 35,
       "human_resources": 0,
       "AMAR": 0,
+      "qualitative": 11
+    }
+  },
+  {
+    "platform": "jeuxvideo",
+    "source_file": "jeuxvideo.xlsx",
+    "format": "xlsx",
+    "provider": "WEBEDIA pour le site JV (jeuxvideo.com)",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 6,
+      "categories_names": 100,
+      "member_states_orders": 182,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
       "qualitative": 11
     }
   },
@@ -1349,6 +1418,29 @@
       "notices": 101,
       "own_initiative_illegal": 90,
       "own_initiative_TC": 101,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
+    "platform": "riot",
+    "source_file": "riot.xlsx",
+    "format": "xlsx",
+    "provider": "Riot Games",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 182,
+      "notices": 93,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 102,
       "appeals_and_recidivism": 47,
       "automated_means": 35,
       "human_resources": 6,

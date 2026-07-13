@@ -113,6 +113,13 @@ SOURCES = {
     # Reddit — non-VLOP DSA report (2025), canonical numbered-CSV zip.
     "reddit":                    ("reddit.zip", "zipcsv"),
     "just-eat-takeaway":         ("just-eat-takeaway.zip", "zipcsv"),
+    # Browser-fetched from the SOURCES-NEEDING-BROWSER §C backlog. Each is the
+    # canonical numbered 11-section Annex I template (jeuxvideo in French, but the
+    # sheets carry the 1..11 numbering the extractor keys on).
+    "riot":        ("riot.xlsx", "xlsx"),        # Riot Games — 2025
+    "flickr":      ("flickr.xlsx", "xlsx"),      # Flickr (SmugMug) — 2025 Annex I
+    "jeuxvideo":   ("jeuxvideo.xlsx", "xlsx"),   # Jeuxvideo.com (Webedia) — 2025
+    "glassdoor":   ("glassdoor.xlsx", "xlsx"),   # Glassdoor — CY2024
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,

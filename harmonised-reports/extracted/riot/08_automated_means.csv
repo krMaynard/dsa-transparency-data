@@ -1,0 +1,36 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,The total number,1529078,"The total value represents all EU automated moderation activities, including automated penalties for violations of terms and conditions."
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,The total number,14370,"The total value represents all EU manual moderation activities, including manual penalties for terms and conditions violations, illegal content notices, and member state orders."
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,The total number,,
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,The total number,,
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,The total number,,
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means,Own-initiative,1529078,The total value represents all EU automated moderation activities related to violations of Riot Games' terms and conditions.
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative,13073,The total value represents all EU manual moderation activities related to violations of Riot Games' terms and conditions.
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,,
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,,
+All,Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,,
+"Only for providers of hosting services, including online platforms",Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Total,0,All EU illegal content notices are manually reviewed and actioned by a Player Support Agent. No automation is used.
+"Only for providers of hosting services, including online platforms",Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,1243,All EU illegal content notices are manually reviewed and actioned by a Player Support Agent. No automation is used.
+"Only for providers of hosting services, including online platforms",Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
+"Only for providers of hosting services, including online platforms",Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
+"Only for providers of hosting services, including online platforms",Hosting Service,2025-01-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
+Only for providers of online platforms,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of notices solely processed by automated means,NAM Trusted Flagger,,
+Only for providers of online platforms,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,,
+Only for providers of online platforms,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
+Only for providers of online platforms,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
+Only for providers of online platforms,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of measures solely taken by automated means,bg,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of measures solely taken by automated means,[...],,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of measures solely taken by automated means,sv,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
