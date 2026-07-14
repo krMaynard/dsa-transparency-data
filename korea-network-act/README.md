@@ -14,6 +14,27 @@ YouTube jointly** (no per-service split). This directory ingests **all six
 reports published so far — 2020 → 2025** — archived in
 `raw/google-korea-network-act-YYYY.pdf`.
 
+Two Korean OSPs — **Naver** and **Kakao** — are ingested alongside Google.
+Unlike Google's own-format report, they file the standardized 정보통신망법 §64-5 /
+전기통신사업법 §22-5 template with the KCC (now **KMCC**), which publishes each
+provider's PDF on its board 1156 (`raw/{naver,kakao}-korea-network-act-YYYY.pdf`,
+2020 → 2025). Those reports give the year's figures on the template rather than a
+monthly breakdown, so Naver and Kakao populate the comparable **`annual_summary`**
+series only. `received` is the report's 신고접수 소계 (validated against its
+피해자등 + 기관·단체 split); `removed` is the 삭제·접속차단 total (content deleted /
+access-blocked, including any removed after a 방심위/KCSC review). Their by-reason
+splits are *not* stored — the reports mark reasons as 중복계상(可) (a request may be
+double-counted across reasons), so they don't partition the total:
+
+| Year | Naver received / removed | Kakao received / removed |
+|------|--------------------------|--------------------------|
+| 2020 (partial) | 0 / 0 | 70 / 0 |
+| 2021 | 94 / 71 | 169 / 168 |
+| 2022 | 56 / 9 | 75 / 75 |
+| 2023 | 54 / 5 | 51 / 51 |
+| 2024 | 91 / 4 | 66 / 66 |
+| 2025 | 30 / 2 | 31 / 31 |
+
 ## What's built
 
 `build_korea_network_act.py` writes the tidy-long `korea-network-act.json`,

@@ -12,8 +12,22 @@ sexual-abuse material) and to publish an **annual transparency report** on them.
 **Google** publishes one report per calendar year covering **Search and YouTube
 jointly**. This builder ingests Google's six publications so far (2020 → 2025,
 archived in ``raw/google-korea-network-act-YYYY.pdf``) into a tidy-long
-``korea-network-act.json`` — ``{sources, publisher, coverage, columns, rows}``
+``korea-network-act.json`` — ``{sources, publishers, coverage, columns, rows}``
 with columns ``publisher, period, section, category, metric, unit, value``.
+
+Two Korean online-service providers — **Naver** and **Kakao** — are ingested
+alongside Google. Unlike Google's own-format report, they file the standardized
+정보통신망법 §64-5 / 전기통신사업법 §22-5 template with the KCC (now KMCC), which
+publishes each provider's PDF on its board 1156. Those reports give the year's
+figures on the standard template rather than Google's own monthly breakdown, so
+Naver and Kakao populate only the comparable **annual_summary** series
+(``urls_received`` / ``urls_removed``), transcribed from
+``raw/{naver,kakao}-korea-network-act-YYYY.pdf`` (2020 → 2025). ``received`` is
+the report's 신고접수 소계 (validated against its 피해자등 + 기관·단체 split);
+``removed`` is the 삭제·접속차단 total (content deleted / access-blocked by the
+provider, including any removed after a 방심위/KCSC review). Their by-reason
+splits are *not* stored: the reports mark reasons as 중복계상(可) — a request may be
+double-counted across reasons — so they don't partition the total.
 
 The reports come in two shapes:
  * **2024 and 2025** publish a full **monthly** table (§II) broken down by
@@ -154,6 +168,35 @@ ANNUAL = {
     2025: (115280, 92334),
 }
 
+# ── Naver & Kakao — the KMCC §64-5 template's annual figures ─────────────────
+# {publisher: {year: (urls_received, urls_removed)}}. Transcribed from each
+# provider's report PDF on KMCC board 1156 (archived in raw/) and visually
+# verified against the "3. 불법촬영물등의 신고접수 및 처리결과" table:
+#   received = 신고접수 소계 (== 피해자등 + 기관·단체, cross-checked per year);
+#   removed  = 삭제·접속차단 total (self-delete/block + any post-방심위 removal).
+# 2020 covers only 10–31 Dec 2020 (the law's implementation date), like Google's.
+PROVIDER_ANNUAL = {
+    "Naver": {2020: (0, 0), 2021: (94, 71), 2022: (56, 9),
+              2023: (54, 5), 2024: (91, 4), 2025: (30, 2)},
+    "Kakao": {2020: (70, 0), 2021: (169, 168), 2022: (75, 75),
+              2023: (51, 51), 2024: (66, 66), 2025: (31, 31)},
+}
+
+# Durable provenance: the KMCC board-1156 view page for each report (the
+# download.do?fileSeq link needs a session cookie + Referer, so the view page —
+# from which the fileSeq is re-resolvable — is the stable pointer). The PDFs
+# themselves are archived in raw/.
+_KMCC_VIEW = ("https://www.kmcc.go.kr/user.do?mode=view&page=A02061000"
+              "&dc=K02061000&boardId=1156&boardSeq=")
+PROVIDER_SOURCES = {
+    "Naver": {str(y): _KMCC_VIEW + s for y, s in
+              {2020: "51020", 2021: "53359", 2022: "55981",
+               2023: "62096", 2024: "67287", 2025: "69036"}.items()},
+    "Kakao": {str(y): _KMCC_VIEW + s for y, s in
+              {2020: "51006", 2021: "53360", 2022: "55964",
+               2023: "62105", 2024: "67277", 2025: "69027"}.items()},
+}
+
 
 def build_rows():
     rows = []
@@ -180,14 +223,21 @@ def build_rows():
     for year, (recv, removed) in sorted(ANNUAL.items()):
         rows.append((PUBLISHER, str(year), "annual_summary", "All", "urls_received", "count", recv))
         rows.append((PUBLISHER, str(year), "annual_summary", "All", "urls_removed", "count", removed))
+    # Naver & Kakao — annual_summary only (the KMCC template's yearly figures).
+    for pub, years in sorted(PROVIDER_ANNUAL.items()):
+        for year, (recv, removed) in sorted(years.items()):
+            if not 0 <= removed <= recv:  # a transcription typo can't pass this
+                raise ValueError(f"{pub} {year}: removed {removed} not in [0, {recv}]")
+            rows.append((pub, str(year), "annual_summary", "All", "urls_received", "count", recv))
+            rows.append((pub, str(year), "annual_summary", "All", "urls_removed", "count", removed))
     return rows
 
 
 def main():
     rows = build_rows()
     data = {
-        "sources": SOURCES,
-        "publisher": PUBLISHER,
+        "sources": {PUBLISHER: SOURCES, **PROVIDER_SOURCES},
+        "publishers": [PUBLISHER, *sorted(PROVIDER_ANNUAL)],
         "coverage": "2020-12..2025-12",
         "columns": ["publisher", "period", "section", "category", "metric", "unit", "value"],
         "rows": rows,
@@ -195,10 +245,11 @@ def main():
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, separators=(",", ":"))
         f.write("\n")
-    print(f"wrote {OUT}: {len(rows)} rows")
+    print(f"wrote {OUT}: {len(rows)} rows across {len(data['publishers'])} publishers")
     print("rows per section:", dict(Counter(r[2] for r in rows)))
-    print("annual urls_received:", {int(r[1]): r[6] for r in rows
-                                     if r[2] == "annual_summary" and r[4] == "urls_received"})
+    for pub in data["publishers"]:
+        print(f"{pub} annual urls_received:", {int(r[1]): r[6] for r in rows
+              if r[0] == pub and r[2] == "annual_summary" and r[4] == "urls_received"})
 
 
 if __name__ == "__main__":
