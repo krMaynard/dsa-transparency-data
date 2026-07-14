@@ -65,7 +65,14 @@ COMPLIANCE_METRICS = [
 def _raw_files() -> list[str]:
     if not os.path.isdir(RAW):
         return []
-    return [f for f in os.listdir(RAW) if not f.startswith(".") and f != "FETCH.md"]
+    # Only real files count as fetched sources — a browser's "Webpage, Complete"
+    # save drops an asset directory (e.g. findings_files/) beside the HTML, which
+    # must not be mistaken for a raw report.
+    return [
+        f
+        for f in os.listdir(RAW)
+        if os.path.isfile(os.path.join(RAW, f)) and not f.startswith(".") and f != "FETCH.md"
+    ]
 
 
 def parse_findings(raw_dir: str) -> list[list]:
