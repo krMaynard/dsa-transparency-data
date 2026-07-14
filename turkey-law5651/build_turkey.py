@@ -15,7 +15,7 @@ and access-blocking decisions notified to them. Two request streams are reported
   (Pharmaceuticals & Medical Devices Administration, Board of Advertisement, …),
   and court orders received through the Internet Access Providers Union (BTK/EGM).
 
-Two publishers are parsed, from their own static English PDFs:
+Three publishers are parsed:
 
 - **Meta** — Facebook and Instagram (``transparency.meta.com/sr/<slug>``). Five
   half-years, H1 2023 → H1 2025. Reports both request streams; the figures are
@@ -28,21 +28,29 @@ Two publishers are parsed, from their own static English PDFs:
   request volume and an action rate per category, so its rows carry a `category`
   the Meta rows leave blank. Read from the report's data table (``extract_tables``,
   gathered across page breaks so a table split over two pages isn't truncated).
+- **TikTok** — the standalone "Bireysel Talepler Raporu" (Individual Applications
+  Report) TikTok files for the BTK under Additional Article 4, published as a
+  Turkish-only HTML page (``tiktok.com/safety/tr-TR/transparency/btk-raporu``),
+  one collapsible section per half-year (2021 H1 → 2025 H2, no 2021 H2 filing).
+  It covers **only** the individual stream (Art. 9/9-A) — its tables report the
+  half-year's total applications received (Table 1) plus response and rejection
+  breakdowns — so, like X, it carries no `authority_requests` rows. As there is no
+  PDF/XLSX, the report data is embedded in the page's server-rendered JSON; the
+  builder parses a saved snapshot (``raw/tiktok-btk-raporu.html``) and stores the
+  headline ``applications_received`` per half-year.
 
-Other designated providers publish under Law 5651 too, but not in a retrievable
-machine-readable form: **TikTok** files no dedicated Türkiye report (its Turkish
-figures appear only inside its global Government Removal Requests report), and
-**Google / YouTube**'s Turkish local-representative reporting isn't offered as a
-standalone Law 5651 statistics file. They slot in as further parsers if a stable
-source appears.
+**Google / YouTube** publishes no standalone Law 5651 statistics file — its
+Turkish figures appear only inside the global transparency tool
+(``transparencyreport.google.com``) as a country slice — so it slots in as a
+further parser only if a stable standalone source appears.
 
 Tidy-long output — one row per measured value:
 
   platform, period, section, category, metric, unit, value
 
-`platform` is the reporting service (`Facebook` / `Instagram` / `X`); `period` is
-the reporting half-year (`2024 H2`), parsed from the report's stated coverage
-window; `section` is `individual_requests` (Art. 9/9-A) or `authority_requests`
+`platform` is the reporting service (`Facebook` / `Instagram` / `X` / `TikTok`);
+`period` is the reporting half-year (`2024 H2`), parsed from the report's stated
+coverage window; `section` is `individual_requests` (Art. 9/9-A) or `authority_requests`
 (Art. 8/8-A); `category` is the per-issue breakdown dimension (X only; blank for
 Meta's report-level totals); `unit` is `count` or `percent` (X action rates).
 Requests ≠ reported entities ≠ removed entities, and Meta's per-authority request
@@ -50,16 +58,18 @@ counts (`requests_icta`/`_consumer_policy`/`_court_orders`) are parts of
 `requests_total` — never sum a total with its parts, or a percent with anything;
 pin a `section`, `category` and `metric` before aggregating.
 
-Deterministic parse from the archived PDFs in ``raw/`` (rows sorted); no
-wall-clock. ``--download`` refreshes the raw PDFs from the publishers. Pure
-stdlib + pdfplumber.
+Deterministic parse from the archived sources in ``raw/`` — the Meta/X PDFs and
+TikTok's HTML snapshot (rows sorted); no wall-clock. ``--download`` refreshes them
+from the publishers. Pure stdlib + pdfplumber.
 """
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import re
+import urllib.parse
 
 import pdfplumber
 
@@ -95,6 +105,26 @@ X_SLUGS = {
     "x-2024-h1.pdf": "XTR-Jan-Jun-2024-English.pdf",
     "x-2024-h2.pdf": "XTR-Jul-Dec-2024-English.pdf",
     "x-2025-h1.pdf": "TRTR-July-2025-Public-Report-English.pdf",
+}
+
+# TikTok — the standalone "Bireysel Talepler Raporu" for the BTK (Additional
+# Article 4), a Turkish-only HTML page with one collapsible section per half-year.
+# There is no PDF/XLSX, so we parse a saved snapshot of the page; the report data
+# is embedded in its server-rendered JSON as `"title":"<period>","content":"<HTML
+# tables>"`. {Turkish section title -> canonical half-year}. No 2021 H2 filing
+# (the first report spans Oct 2020 – May 2021).
+TIKTOK_SOURCE = "https://www.tiktok.com/safety/tr-TR/transparency/btk-raporu"
+TIKTOK_RAW = "tiktok-btk-raporu.html"
+TIKTOK_PERIODS = {
+    "Eki 2020 - May 2021": "2021 H1",
+    "Oca - Haz 2022": "2022 H1",
+    "Tem - Ara 2022": "2022 H2",
+    "Oca - Haz 2023": "2023 H1",
+    "Tem - Ara 2023": "2023 H2",
+    "Oca - Haz 2024": "2024 H1",
+    "Tem - Ara 2024": "2024 H2",
+    "Oca - Haz 2025": "2025 H1",
+    "Tem - Ara 2025": "2025 H2",
 }
 
 # Glyphs in these PDFs are positioned individually with no space characters, so a
@@ -328,6 +358,37 @@ def _parse_x(path: str) -> list[list]:
     return rows
 
 
+# ── TikTok ──────────────────────────────────────────────────────────────────
+
+def _parse_tiktok(path: str) -> list[list]:
+    """Applications received per half-year from TikTok's BTK-report HTML snapshot.
+
+    TikTok reports only the individual stream (Art. 9/9-A). Each half-year's
+    ``content`` block holds Turkish HTML tables; Table 1 (``Talep Sayısı``) ends
+    in a ``Toplam`` (total) — the applications received. The page's JSON is
+    URL-encoded and repeats each block, so we decode, take the longest content per
+    period title, strip tags, and read that total. Fails loud if a present section
+    yields no total (the page layout drifted)."""
+    dec = urllib.parse.unquote(open(path, encoding="utf-8").read())
+    rows: list[list] = []
+    for title, period in TIKTOK_PERIODS.items():
+        best = ""
+        for m in re.finditer(r'"title":"' + re.escape(title) + r'","content":"(.*?)","', dec):
+            if len(m.group(1)) > len(best):
+                best = m.group(1)
+        if not best:
+            print(f"  (skipping TikTok {period}: '{title}' not in snapshot)")
+            continue
+        text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", best))).strip()
+        m = re.search(r"Talep [Ss]ay[ıi]s[ıi].*?Toplam\s+(\d[\d.,]*)", text)
+        if not m:
+            raise ValueError(f"TikTok {period}: no Table-1 (applications) total found")
+        total = int(m.group(1).replace(".", "").replace(",", ""))
+        rows.append(["TikTok", period, "individual_requests", "",
+                     "applications_received", "count", total])
+    return rows
+
+
 def build(raw_dir: str) -> dict:
     rows: list[list] = []
     for slug, (platform, fname) in sorted(META_SLUGS.items()):
@@ -346,6 +407,13 @@ def build(raw_dir: str) -> dict:
         n_before = len(rows)
         rows.extend(_parse_x(path))
         print(f"  {fname}: {len(rows) - n_before} values")
+    tpath = os.path.join(raw_dir, TIKTOK_RAW)
+    if os.path.isfile(tpath):
+        n_before = len(rows)
+        rows.extend(_parse_tiktok(tpath))
+        print(f"  {TIKTOK_RAW}: {len(rows) - n_before} values")
+    else:
+        print(f"  (skipping {TIKTOK_RAW}: not in {os.path.relpath(raw_dir, HERE)}/)")
     rows.sort(key=lambda r: (r[0], r[1], r[2], r[3], r[4]))
     periods = sorted({r[1] for r in rows})
     return {
@@ -375,6 +443,7 @@ def _download(raw_dir: str) -> None:
         fetch(_META_BASE + slug, fname)
     for fname, src in sorted(X_SLUGS.items()):
         fetch(_X_BASE + src, fname)
+    fetch(TIKTOK_SOURCE, TIKTOK_RAW)  # the Türkiye BTK report (one HTML page)
 
 
 def main() -> int:

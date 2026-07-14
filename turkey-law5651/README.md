@@ -40,15 +40,21 @@ but with no authority-request data. X's coverage windows are shifted (older
 reports run Dec–May / Jun–Nov), so the reporting half-year is derived from each
 report's **end date**.
 
-Other designated providers publish under Law 5651 too, but not in a retrievable
-machine-readable form and so are **not** included:
+**TikTok**, nine half-years **2021 H1 → 2025 H2** (no 2021 H2 filing; the first
+report spans Oct 2020 – May 2021) — the standalone **"Bireysel Talepler Raporu"**
+(Individual Applications Report) TikTok files for the BTK under Additional
+Article 4, published as a Turkish-only HTML page
+(`tiktok.com/safety/tr-TR/transparency/btk-raporu`), one collapsible section per
+half-year. Like X it covers **only** the individual stream (Art. 9/9-A); its
+tables give the half-year's total applications received plus response/rejection
+breakdowns, so the builder stores the headline `applications_received`. As there
+is no PDF/XLSX, the report data is embedded in the page's server-rendered JSON;
+the builder parses a saved snapshot (`raw/tiktok-btk-raporu.html`).
 
-- **TikTok** files no dedicated Türkiye Law 5651 report — its Turkish compliance
-  figures appear only inside its **global** Government Removal Requests report
-  (carried separately as `tiktok_metrics` in the API).
-- **Google / YouTube** publishes no Turkey-specific Law 5651 statistics file;
-  Turkish removals appear only in Google's **global** government-removals tool,
-  and YouTube isn't isolated within it.
+**Google / YouTube** publishes no Turkey-specific Law 5651 statistics file and so
+is **not** included: Turkish removals appear only in Google's **global**
+government-removals tool (`transparencyreport.google.com`), and YouTube isn't
+isolated within it.
 
 They slot in as further parsers if a stable statutory source appears.
 
