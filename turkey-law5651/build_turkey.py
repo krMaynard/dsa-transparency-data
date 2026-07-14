@@ -369,7 +369,8 @@ def _parse_tiktok(path: str) -> list[list]:
     URL-encoded and repeats each block, so we decode, take the longest content per
     period title, strip tags, and read that total. Fails loud if a present section
     yields no total (the page layout drifted)."""
-    dec = urllib.parse.unquote(open(path, encoding="utf-8").read())
+    with open(path, encoding="utf-8") as f:
+        dec = urllib.parse.unquote(f.read())
     rows: list[list] = []
     for title, period in TIKTOK_PERIODS.items():
         best = ""

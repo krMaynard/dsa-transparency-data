@@ -189,10 +189,10 @@ PROVIDER_ANNUAL = {
 _KMCC_VIEW = ("https://www.kmcc.go.kr/user.do?mode=view&page=A02061000"
               "&dc=K02061000&boardId=1156&boardSeq=")
 PROVIDER_SOURCES = {
-    "Naver": {y: _KMCC_VIEW + s for y, s in
+    "Naver": {str(y): _KMCC_VIEW + s for y, s in
               {2020: "51020", 2021: "53359", 2022: "55981",
                2023: "62096", 2024: "67287", 2025: "69036"}.items()},
-    "Kakao": {y: _KMCC_VIEW + s for y, s in
+    "Kakao": {str(y): _KMCC_VIEW + s for y, s in
               {2020: "51006", 2021: "53360", 2022: "55964",
                2023: "62105", 2024: "67277", 2025: "69027"}.items()},
 }
