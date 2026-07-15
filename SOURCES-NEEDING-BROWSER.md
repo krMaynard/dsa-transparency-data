@@ -127,6 +127,24 @@ Full list with URLs: `ca-ab587/ca_ab587_reports.csv`.
 Specific reports we know exist and want, but that resisted extraction. Each note
 comes from the dataset builder's own caveats.
 
+- **Australia eSafety BOSE — `www.esafety.gov.au` is WAF-walled.** The eSafety
+  Commissioner's **Basic Online Safety Expectations** transparency-notice findings
+  are a new intended dataset (scaffolded in `au-esafety/`), but the whole
+  `esafety.gov.au` origin **resets/hangs every datacenter-IP request** (HTTP/2
+  stream reset; HTTP/1.1 hang; static `/sites/default/files/…` PDFs included;
+  `web.archive.org` is also egress-blocked here) — a residential IP + real browser
+  is the unlock. First target: the **AI companion apps** findings (non-periodic
+  notices given 16 Oct 2025 to Character.AI, Nomi, Chai, Chub AI; report published
+  Mar 2026, survey figures revised Jul 2026):
+    - Findings report — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services/findings-october-2025
+    - AI-services hub — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services
+    - Media release — https://www.esafety.gov.au/newsroom/media-releases/esafety-report-shows-ai-companions-are-putting-children-at-risk
+  Save the rendered page (+ any PDF) into `au-esafety/raw/` per
+  `au-esafety/raw/FETCH.md`, then run `au-esafety/build_esafety.py` and wire it
+  into the API like the Singapore online-safety dataset. Further BOSE slices to
+  scout next: the CSEA messaging periodic-notice snapshots (Apple/Discord/Google/
+  Meta/Microsoft/Skype/Snap/WhatsApp) and the Social Media Minimum Age compliance
+  updates.
 - **India IT Rules 2021 — publishers blocked by JS / anti-bot.** The monthly
   compliance reports are ingested for Meta, Twitter/X, Moj, ShareChat, Roblox,
   Google and Pinterest, but several significant intermediaries can't be fetched
