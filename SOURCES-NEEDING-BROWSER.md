@@ -102,11 +102,14 @@ is bot-walled). 16 of 54 template platforms are still un-extracted for this reas
 - **x-kom** (x-kom sp. z o.o. (Poland)) — XLSX (harmonised template); 2024 — https://www.x-kom.pl/dsa
 - **eToro** (eToro — social/copy-trading) — landing page JS-rendered — find the template file
 - **Eventbrite** (Eventbrite, Inc.) — landing page JS-rendered — find the template file
-- **OVHcloud** (OVH Groupe SAS) — landing page JS-rendered — find the template file
 
-(The three above are in `sources.csv` as `hub-pending` but don't carry a resolved
+(The two above are in `sources.csv` as `hub-pending` but don't carry a resolved
 URL in the API catalogue yet — a browser should locate each platform's DSA report
 file and add it to `harmonised-reports/raw/` for `extract.py`.)
+
+**OVHcloud** (OVH Groupe SAS) is **done** — its report is a narrative PDF, not the
+harmonised template, so it was extracted into the standalone `ovhcloud-transparency/`
+dataset (archived PDF at `pdf-reports/ovhcloud/`) rather than the harmonised pipeline.
 
 ---
 
