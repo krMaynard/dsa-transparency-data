@@ -289,6 +289,78 @@ CURATED_PDF = [
             ("data_source", "synthetic", "Yes"),
         ],
     },
+    {
+        # xAI — Grok 4.5. Files on the AI Office's full template; its checkboxes
+        # render in the text layer (☒/☐), like OpenAI's, so the bands and source
+        # flags are read straight from the selections. Top band on all four
+        # modalities, and Yes to every data-source category (2.1–2.6). Notably the
+        # first filer that is *not* a Code-of-Practice signatory (3.1 = ☒ No) — it
+        # instead describes honouring opt-out signals directly.
+        "pdf": "xai-grok45-eu-training-summary.pdf",
+        "provider": "xAI",
+        "model": "Grok 4.5",
+        "released": "July 2026",
+        "checks": [
+            "Grok 4.5",
+            "xAI LLC",
+            "More than 10 trillions tokens",
+            "data collected no later than June 2026",
+            "xAI Web Crawler",
+        ],
+        "rows": [
+            ("modality", "Text", "More than 10 trillion tokens"),
+            ("modality", "Image", "More than 1 billion images"),
+            ("modality", "Audio", "More than 1 million hours"),
+            ("modality", "Video", "More than 1 million hours"),
+            ("modality", "Other", "Not applicable"),
+            ("general", "data_cutoff", "06/2026"),
+            ("data_source", "publicly_available", "Yes"),
+            ("data_source", "commercially_licensed", "Yes"),
+            ("data_source", "third_party_private", "Yes"),
+            ("data_source", "crawled", "Yes"),
+            ("data_source", "user_data", "Yes"),
+            ("data_source", "synthetic", "Yes"),
+        ],
+    },
+    {
+        # Bria — Bria 3.2, an image-generation model trained exclusively on
+        # commercially licensed data (the only filer so far with *both*
+        # publicly_available = No and crawled = No). Published as an HTML page on
+        # its own site rather than a PDF, so we archive the page and anchor-check
+        # against it, same as the Hugging Face Space.
+        #
+        # Bria did not tick the template's size bands: it wrote exact figures
+        # ("Up to 19.2 billion tokens", "479 million images") into the size cells
+        # instead. We record the band those figures fall in — so size_rank stays
+        # comparable — and keep the disclosed figure verbatim in the value, the
+        # same way Meta's combined image/video band is annotated.
+        #
+        # Audio/Video/Other are omitted rather than recorded as "Not applicable":
+        # Bria's table simply has no rows for them, so the summary doesn't
+        # actually say (unlike Apertus/SmolLM3, which state "Not applicable").
+        "pdf": "bria-3.2-eu-training-summary.html",
+        "provider": "Bria",
+        "model": "Bria 3.2",
+        "released": "June 2025",
+        "checks": [
+            "Bria 3.2",
+            "Bria Artificial Intelligence Ltd.",
+            "Up to 19.2 billion tokens",
+            "479 million images",
+            "Were crawlers used by the provider or on behalf of?",
+        ],
+        "rows": [
+            ("modality", "Text", "1 billion to 10 trillion tokens (reported as: up to 19.2 billion tokens)"),
+            ("modality", "Image", "1 million to 1 billion images (reported as: 479 million images)"),
+            ("general", "data_cutoff", "06/2025"),
+            ("data_source", "publicly_available", "No"),
+            ("data_source", "commercially_licensed", "Yes"),
+            ("data_source", "third_party_private", "No"),
+            ("data_source", "crawled", "No"),
+            ("data_source", "user_data", "No"),
+            ("data_source", "synthetic", "No"),
+        ],
+    },
 ]
 
 

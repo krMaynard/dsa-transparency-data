@@ -30,6 +30,8 @@ Example comparison (Text training-data size):
 |---|---|---|:--:|
 | Google | Gemini 3 Pro family | More than 10 trillion tokens | 3 |
 | Meta | Muse Spark | More than 10 trillion tokens | 3 |
+| xAI | Grok 4.5 | More than 10 trillion tokens | 3 |
+| Bria | Bria 3.2 | 1 billion to 10 trillion tokens (reported as: up to 19.2 billion tokens) | 2 |
 | Microsoft | phi-4 / Phi-4-multimodal / Phi-4-mini | 1 billion to 10 trillion tokens | 2 |
 
 ### Sources & method
@@ -41,16 +43,21 @@ self-publishes in its own format — so the builder reads three source shapes:
   `microsoft/<model>/data_summary_card.md`) — template fields as
   `**1.3.1.A Text training data size:** …` lines, parsed by their stable numeric
   codes (generic — new providers using the same markdown template parse for free).
-- **PDF** (Google + Meta + OpenAI + Swiss AI + SpeakLeash, on their transparency
-  buckets / Hugging Face) — the size bands are **checkbox** selections (Google's
-  don't render in the text layer; Meta lays them out as form cells; OpenAI's and
-  Swiss AI's ☒/☐ render; Bielik uses a literal `X` marker), so those values are
-  **curated** from the rendered form and cross-checked with fail-loud anchors
-  against the PDF text (model name, market date, cut-off). Meta groups Image &
+- **PDF** (Google + Meta + OpenAI + xAI + Swiss AI + SpeakLeash, on their
+  transparency buckets / Hugging Face) — the size bands are **checkbox**
+  selections (Google's don't render in the text layer; Meta lays them out as form
+  cells; OpenAI's, xAI's and Swiss AI's ☒/☐ render; Bielik uses a literal `X`
+  marker), so those values are **curated** from the rendered form and
+  cross-checked with fail-loud anchors against the PDF text (model name, market
+  date, cut-off). Meta groups Image &
   Video as one "Perception" modality (recorded on both rows) and breaks out
   `crawled` / `user_data`; OpenAI files on the full template (its `user_data` is
   Yes via other products — ChatGPT/Codex — though model-interaction data was
-  not used). The two open/EU models are text-only: **Apertus** (Swiss AI —
+  not used). **xAI** (Grok 4.5, placed on the Union market 14 Jul 2026) answers
+  Yes to *every* data-source category (2.1–2.6) and is the first filer here that
+  is **not** a Code-of-Practice signatory (3.1 = No) — it describes honouring
+  opt-out signals directly instead. The two open/EU models are text-only:
+  **Apertus** (Swiss AI —
   ETH Zürich / EPFL / CSCS, ~15T tokens, public data only, no own crawler) and
   **Bielik** (SpeakLeash, a Polish LLM continued from Mistral 7B, own
   "Speakleash" crawler + synthetic + licensed data).
@@ -60,14 +67,26 @@ self-publishes in its own format — so the builder reads three source shapes:
   curate + anchor-check against it, same as the PDF providers. Text-only,
   ~11T tokens, public + synthetic data only (no crawling / licensing / user /
   private data).
+- **HTML page** — **Bria 3.2** publishes its summary as a page on its own site
+  (`bria.ai/eu-policy`), so we archive the page under `raw/` and anchor-check
+  against it. An image-generation model trained **exclusively on commercially
+  licensed data** — the only filer so far with *both* `publicly_available` = No
+  and `crawled` = No. It also **didn't tick the size bands**: it wrote exact
+  figures ("Up to 19.2 billion tokens", "479 million images") into the size
+  cells, so we record the band those figures fall in (keeping `size_rank`
+  comparable) and preserve the disclosed figure verbatim in the value. Its
+  Audio/Video/Other rows are **omitted** rather than "Not applicable" — its table
+  simply has no rows for them, so the summary doesn't actually say.
 
 **Coverage is a starting, expandable set** (Google + Meta + Microsoft + OpenAI +
-Swiss AI + SpeakLeash + Hugging Face; 9 model entries). More providers slot in
-as their summaries are archived under `raw/`. Notably, several Code-of-Practice
-signatories (Anthropic — incl. Fable 5 —, Mistral, xAI) have **not** published
-the standardised template — they disclose training content only as free-form
-prose (model cards) or rely on the 2 Aug 2027 transitional deadline for
-pre-existing models.
+xAI + Swiss AI + SpeakLeash + Hugging Face + Bria; 11 model entries). More
+providers slot in as their summaries are archived under `raw/`. Notably, several
+Code-of-Practice signatories (Anthropic — incl. Fable 5 —, Mistral, Cohere,
+Aleph Alpha, Stability) have **not** published the standardised template — they
+disclose training content only as free-form prose (model cards) or rely on the
+2 Aug 2027 transitional deadline for pre-existing models. The inverse also holds:
+xAI filed the template **without** signing the Code of Practice, so the two
+commitments track each other loosely at best.
 
 ## Refresh
 
