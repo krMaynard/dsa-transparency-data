@@ -31,8 +31,8 @@ Example comparison (Text training-data size):
 | Google | Gemini 3 Pro family | More than 10 trillion tokens | 3 |
 | Meta | Muse Spark | More than 10 trillion tokens | 3 |
 | xAI | Grok 4.5 | More than 10 trillion tokens | 3 |
-| Microsoft | phi-4 / Phi-4-multimodal / Phi-4-mini | 1 billion to 10 trillion tokens | 2 |
 | Bria | Bria 3.2 | 1 billion to 10 trillion tokens (reported as: up to 19.2 billion tokens) | 2 |
+| Microsoft | phi-4 / Phi-4-multimodal / Phi-4-mini | 1 billion to 10 trillion tokens | 2 |
 
 ### Sources & method
 
