@@ -22,6 +22,7 @@ a flat catalogue + a mirror of the PDFs + a narrative full-text extraction.
 |--------|------|
 | `build_ab587.py` | Parses the archived listing (`raw/submissions.html`) into `ca_ab587_reports.csv`; `--download` refreshes the listing and mirrors every report PDF into `pdfs/` (with sha256 + size). |
 | `extract_narrative.py` | Pulls the prose of the `pdfs/` PDFs into `ca-ab587-narratives.json` (one row per page), matched to the catalogue by filename. |
+| `extract_quant.py` | Conservatively extracts auditable statutory-category statistics from 12 early filings into `ca_ab587_normalized.csv`; see `QUANTITATIVE.md`. |
 
 ## Layout
 
@@ -31,6 +32,7 @@ a flat catalogue + a mirror of the PDFs + a narrative full-text extraction.
 | `pdfs/*.pdf` | The mirrored report PDFs. |
 | `ca_ab587_reports.csv` | The catalogue (one row per filing). |
 | `ca-ab587-narratives.json` | The narrative full text, for search. |
+| `ca_ab587_normalized.csv` | Best-effort normalized enforcement cells from early filings. |
 
 ## Reproduce
 
@@ -38,6 +40,7 @@ a flat catalogue + a mirror of the PDFs + a narrative full-text extraction.
 python3 build_ab587.py --download   # refresh listing + mirror all PDFs
 python3 build_ab587.py              # rebuild the catalogue from raw/ + pdfs/
 python3 extract_narrative.py        # rebuild the narratives from pdfs/
+python3 extract_quant.py            # rebuild normalized statistics (PyMuPDF)
 ```
 
 Deterministic from `raw/submissions.html` + `pdfs/` (rows sorted; no wall-clock).

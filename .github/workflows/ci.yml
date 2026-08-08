@@ -27,7 +27,7 @@ jobs:
         # and aren't exercised here — CI only re-derives artifacts from raw/.
         run: |
           python -m pip install --upgrade pip
-          pip install openpyxl xlrd pdfplumber pyflakes pytest
+          pip install openpyxl xlrd pdfplumber pymupdf pyflakes pytest
 
       - name: Lint (pyflakes)
         run: python -m pyflakes $(git ls-files '*.py')
@@ -60,6 +60,9 @@ jobs:
           python au-esafety/build_esafety.py
           python ca-ab587/build_ab587.py
           python ca-ab587/extract_narrative.py
+          python ca-ab587/extract_quant.py
+          python state-tos-stats/build.py
+          python ai-training-transparency/build_ai_training.py
 
       - name: Assert artifacts are in sync with sources
         # If anything changed — a modified artifact or a new untracked file (e.g.

@@ -158,18 +158,16 @@ comes from the dataset builder's own caveats.
   so far publish only the qualitative Art. 21 criteria**, no numbers. Re-check
   their Japan transparency pages for a quantitative Art. 28 filing. Would extend
   `japan_metrics`.
-- **EU AI Act training-data summaries — checkbox PDFs + non-template signatories.**
-  Google's training-data size bands are **checkbox selections not in the PDF text
-  layer**, so they were transcribed from the *rendered* form (a browser renders
-  the ticked boxes reliably) — the same trick would be needed for any other
-  provider that publishes the AI-Office template as a checkbox PDF. Current
-  coverage is Google + Meta + Microsoft + OpenAI + Swiss AI + SpeakLeash + Hugging
-  Face (9 model entries). Note: several Code-of-Practice signatories — **Anthropic
-  (incl. Fable 5), Mistral, xAI** — have **not** published the standardised
-  template at all; they disclose training content only as free-form prose (model
-  cards) or rely on the 2 Aug 2027 transitional deadline, so there's nothing
-  template-shaped to fetch yet — worth a periodic re-check, not a scrape target
-  today. Would extend `ai_training_metrics`.
+- **EU AI Act training-data summaries — remaining major providers.** Current
+  coverage is 15 summary entries across 11 providers, including filled templates
+  newly recovered for EuroLLM and the Polish Ministry of Digital Affairs' PLLuM
+  base/instruct/chat families. xAI, Bria, OpenAI and Meta are already archived,
+  so they are no longer browser targets. Periodically re-check **Anthropic,
+  Mistral, Cohere, Aleph Alpha, Stability, NVIDIA, IBM, Amazon, Alibaba/Qwen and
+  DeepSeek** for provider-hosted Article 53(1)(d) templates. The AI Office says
+  the template is mandatory for new GPAI models and enforcement began 2 August
+  2026; pre-2-August-2025 models have until 2 August 2027. Checkbox PDFs may need
+  rendered visual verification. Would extend `ai_training_metrics`.
 - **EU Terrorist Content Online Regulation (TCOR) — more Art. 7 / Art. 8 sources.**
   Coverage is a deliberate starting set (Commission COM(2024) 64 per-Member-State
   orders; Spotify + Meta Art. 7 reports; Ireland's Coimisiún na Meán). Specific

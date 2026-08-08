@@ -8,6 +8,12 @@ Each report follows the DSA Implementing Regulation [(EU) 2025/40](https://eur-l
 > (a different jurisdiction/format — narrative policy PDFs filed with the NY
 > Attorney General under the Stop Hiding Hate Act). See
 > [`ny-tos-reports/`](ny-tos-reports/) and [`ny_tos_reports.csv`](ny_tos_reports.csv).
+>
+> California's parallel AB 587 filings and the jurisdiction-aware union of both
+> laws' enforcement statistics live in [`ca-ab587/`](ca-ab587/) and
+> [`state-tos-stats/`](state-tos-stats/). EU AI Act Article 53 training-content
+> summaries are cataloged in [`AI_ACT_REPORT_LOCATIONS.md`](AI_ACT_REPORT_LOCATIONS.md)
+> and normalized under [`ai-training-transparency/`](ai-training-transparency/).
 
 ## Layout
 
@@ -187,4 +193,3 @@ JS-rendered landing pages (tracked with per-platform status in
 `harmonised-reports/sources.csv`). These extracted reports are loaded into the
 companion [transparency-report-api](https://github.com/krMaynard/transparency-report-api)
 so the non-VLOP platforms are queryable alongside the VLOP dataset.
-
