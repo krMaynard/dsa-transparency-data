@@ -74,42 +74,21 @@ Full list: `dsa_reports.csv` (rows where `confidence=uncertain`).
 
 ---
 
-## C. Harmonised-template reports located but not yet pulled into the schema
+## C. Harmonised-template browser backlog — completed
 
-These are **`harmonised_template=yes`** (i.e. the EU Art. 15/24 template — directly
-loadable into the `t3`–`t11` star schema via `harmonised-reports/extract.py`),
-but the report file sits behind a page our scraper didn't traverse (a downloads
-hub, a JS gate, or a direct XLSX/CSV/ODS/PDF we haven't grabbed). Each is a
-ready-to-ingest platform once the file is in hand — highest value.
-Authoritative status: `harmonised-reports/sources.csv` (`status = hub-pending` are
-landing pages whose file link needs a browser/EU egress to reach; `file-blocked`
-is bot-walled). 16 of 54 template platforms are still un-extracted for this reason.
+The browser sweep resolved every source previously listed here. Canonical Annex
+I workbooks for Akamai, Flickr, Glassdoor, Jeuxvideo.com, Riot Games, Upwork, and
+x-kom are extracted into the 1–11 schema. GMX is covered by the combined GMX and
+WEB.DE workbook already stored as `webde`.
 
-- **Akamai** (Akamai Technologies, Inc.) — PDF/XLSX; 2024, H1 & H2 2025 — https://www.akamai.com/legal/eu-digital-services-act
-- **Apple Books** (Apple Distribution International) — HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template — https://www.apple.com/legal/dsa/transparency/eu/books/2502/
-- **Apple Podcasts** (Apple Distribution International) — HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template — https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
-- **Epic Games Store** (Epic Games, Inc.) — XLSX + hub; Feb 2024 – Feb 2025 — https://safety.epicgames.com/transparency-reports/european-union
-- **Faire** (Faire Wholesale, Inc.) — CSV; 2024 & 2025 — https://www.faire.com/support/articles/20960200105115
-- **Flickr** (SmugMug, Inc.) — PDF + XLSX; 2024 & 2025 — https://www.flickr.com/help/legal
-- **Glassdoor** (Glassdoor LLC) — XLSX; CY2024 — https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx
-- **GMX** (1&1 Mail & Media GmbH) — ODS (Art. 15); 2024 & 2025 — https://freephone.gmx.net/transparenzbericht
-- **heise forums** (Heise Medien GmbH & Co. KG) — CSV; annual (2024 & 2025) — https://www.heise.de/Transparenz-nach-dem-Digital-Services-Act-DSA-10639819.html
-- **iCloud Storage** (Apple Distribution International) — HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template — https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/
-- **Jeuxvideo.com** (Webedia) — Harmonised template (CSV/XLSX/PDF); 2024 & 2025 — https://www.jeuxvideo.com/transparence.htm
-- **Riot Games** (Riot Games Ltd.) — XLSX; 2024 & 2025 — https://support-leagueoflegends.riotgames.com/hc/en-us/articles/25972785684627
-- **Upwork** (Upwork Global Inc.) — XLSX; 2024 & 2025 — https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours
-- **WordPress.com** (Automattic Inc.) — Web + CSV; Jul – Dec 2025 — https://transparency.automattic.com/wordpress-dot-com/digital-services-act/
-- **x-kom** (x-kom sp. z o.o. (Poland)) — XLSX (harmonised template); 2024 — https://www.x-kom.pl/dsa
-- **eToro** (eToro — social/copy-trading) — landing page JS-rendered — find the template file
-- **Eventbrite** (Eventbrite, Inc.) — landing page JS-rendered — find the template file
-
-(The two above are in `sources.csv` as `hub-pending` but don't carry a resolved
-URL in the API catalogue yet — a browser should locate each platform's DSA report
-file and add it to `harmonised-reports/raw/` for `extract.py`.)
-
-**OVHcloud** (OVH Groupe SAS) is **done** — its report is a narrative PDF, not the
-harmonised template, so it was extracted into the standalone `ovhcloud-transparency/`
-dataset (archived PDF at `pdf-reports/ovhcloud/`) rather than the harmonised pipeline.
+The browser confirmed that the remaining publishers expose other formats rather
+than a complete machine-readable workbook: Apple Books, Apple Podcasts, and
+iCloud use rendered HTML; Epic Games Store, eToro, Eventbrite, and OVHcloud use
+PDFs; Faire publishes concatenated CSV tables with an incomplete category table;
+and heise forums and WordPress.com use custom CSV bundles. Those artifacts are
+archived and linked from `REPORT_LOCATIONS.md`, but are not forced into the
+canonical 1–11 schema. `harmonised-reports/sources.csv` is the authoritative
+status list and now has no `hub-pending` or `file-blocked` rows for this batch.
 
 ---
 
@@ -199,7 +178,7 @@ comes from the dataset builder's own caveats.
 
 ## F. The long tail — catalogued locations not yet archived
 
-Beyond the curated items above, **128 of 259** rows in the
+Beyond the curated items above, **117 of 259** rows in the
 report-locations catalogue have a known `url` but **no `archived` mirror** — we
 know *where* each platform publishes, but haven't captured the report itself.
 Most are ordinary pages a browser can save; a batch pass over these would let

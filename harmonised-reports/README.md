@@ -14,7 +14,7 @@ template). These are the catalogue entries with `harmonised_template = yes` in
 | `extracted/<platform>/NN_<section>.csv` | One CSV per template section, normalised to the canonical English section order (1–11), regardless of the source format or sheet language. |
 | `manifest.json` | Per-platform record: source file, format, provider, reporting period, EU AMAR total, sections found, per-section data-row counts. |
 | `summary.csv` | Flat cross-platform headline table (provider · period · AMAR · row totals). |
-| `sources.csv` | Status of **every** `harmonised_template = yes` platform: `extracted`, `format-variant`, `file-blocked`, or `hub-pending`. |
+| `sources.csv` | Status of every tracked harmonised-report candidate: `extracted`, `format-variant`, `not-harmonised-pdf-extracted`, `file-blocked`, or `hub-pending`. |
 | `extract.py` | The extractor — re-run after adding files to `raw/`. |
 | `discover_hubs.py` | Crawls the `hub-pending` landing pages for direct template-file links (writes `hub_candidates.json`). |
 | `download_hubs.py` | Downloads the curated latest file per hub-discovered platform into `raw/`. |
@@ -48,42 +48,25 @@ sheet to its canonical section by a name substring instead:
   section 6, "6. Appeals" is 7, "7. Automated Means" is 8 and "8. Qualitative" is
   11. Mapping by name keeps the renumbering from landing rows in the wrong table.
 
-Reports that aren't the harmonised template at all (heise, WordPress.com) are
-left as `format-variant` and archived rather than mapped, since forcing them into
-1–11 would invent structure the source doesn't have.
+Reports that do not expose a complete Annex I workbook are left as
+`format-variant` and archived rather than mapped. Forcing them into 1–11 would
+invent structure the publisher did not provide.
 
-## Status (54 template platforms — see `sources.csv`)
+## Status (86 catalogued sources — see `sources.csv`)
 
-- **68 platforms extracted** (76 report files — AboutYou ships two consecutive periods; Miniclip ships eight games) — the 8 direct-file platforms, 19 found by crawling the
-  landing pages (`discover_hubs.py`), Carrefour + Dailymotion (provided
-  directly), 6 pulled from Zendesk help-center hubs via the article/attachments
-  JSON API (`download_zendesk.py`), Discord + LINE via `SHEET_MAP` (see below), and a batch of **25 Google services** as canonical numbered-CSV ZIPs (Gemini, NotebookLM, Google Workspace, Looker, pub.dev, Tenor, Waze, Google News, Google Photos, Google Flights, Google Hotels, Google Vacation Rentals, Google Pay API, Google Wallet API, Google Manufacturer Center, Google Public DNS, Google Help & Support, Google AI Developers Forum, GDP Forums, Google Ads, Google Classroom, Chrome Web Store, Google Cloud Storage, Google Colab, Fitbit — Hotels and Workspace also ship an ads-surface `_Ads` sub-breakdown of sections 6–8, which the extractor folds into the base section as the `Ads` surface — the base rows become `Core`, since Google reports ads as an additive, non-overlapping surface, not part of an `All` total): AboutYou, Alibaba Cloud, Bumble, Carrefour, Ceneo, Cloudflare,
-  Dailymotion, Depop, Discord, DuckDuckGo, Expedia, Gemini, Grindr, HomeToGo, Hostelworld, Hostinger,
-  Hotels.com, IMDb, Just Eat Takeaway, Konami, Lilo, LINE, LinkedIn, ManoMano, Match Group (Tinder),
-  Nexon, Miniclip (8 games), Niantic (Pokémon GO), Nintendo eShop, NotebookLM, Pinterest, Qwant, Reddit, Roblox, Shopify, Skroutz, Square Enix, Veepee,
-  Vestiaire Collective, Vinted, Vrbo, Web.de, Whatnot, Wikipedia, Yahoo. For
-  multi-brand providers (Match Group, Niantic, Yahoo, DuckDuckGo, Expedia family)
-  we keep one representative/flagship file per catalogue platform. (Carrefour
-  Marketplace, Dailymotion, Depop, Nexon, Nintendo eShop, Square Enix and Alibaba Cloud were catalogued as linked/HTML/PDF reports
-  until their standardized XLSX files surfaced — all corrected to
-  `harmonised_template = yes`.)
-- **2 format-variant** — WordPress.com (a different report: DMCA / government /
-  IRU requests, not the Annex I template) and heise (a short free-form Art. 15
-  CSV summary with German free-text categories). Genuinely different report
-  types — archived but not forced into the canonical 11-section shape, because
-  mapping them would invent structure the source doesn't have.
-- **1 file-blocked** — Glassdoor's `.xlsx` returns a 403 bot-wall.
-- **16 hub-pending** — two sub-groups:
-  - *Bot-walled* (Cloudflare/Akamai `403` to a headless fetch — need a real
-    browser session and/or EU egress): Akamai, Epic Games, Faire, Jeuxvideo,
-    Just Eat Takeaway, Upwork, x-kom.
-  - *Non-template formats* (the page loads but publishes the report as HTML or
-    PDF, not the Annex I workbook, so there is nothing to extract into 1–11):
-    Apple Books / Podcasts / iCloud (rendered HTML), eToro (split section PDFs),
-    Eventbrite & OVHcloud (narrative PDF), Flickr (no report file), GMX & Riot
-    Games (JS/custom). The PDF reports are archived under
-    [`../pdf-reports/`](../pdf-reports/). Candidates for reclassification to
-    `format-variant`.
+- **76 extracted source entries**, producing **83 extracted report snapshots**.
+  AboutYou contributes a second reporting period and Miniclip contributes eight
+  game reports, while GMX and WEB.DE share one combined workbook. The latest
+  browser-only additions are Akamai (H2 2025), Upwork (2025), and x-kom (2024).
+- **9 format variants** are archived without canonical extraction: Apple Books,
+  Apple Podcasts, Epic Games Store, eToro, Eventbrite, Faire, heise forums,
+  iCloud Storage, and WordPress.com. Faire's downloads contain Annex I-style
+  tables concatenated into a single CSV, but the exported category table is
+  incomplete; the others are rendered HTML, narrative/split PDFs, or custom CSV
+  layouts.
+- **1 narrative PDF extracted separately**: OVHcloud, under
+  [`../ovhcloud-transparency/`](../ovhcloud-transparency/).
+- **0 browser-pending sources** in this catalogue batch.
 
 IMDb and Skroutz ship only sections 1–8 + 11 (no AMAR / human-resources); the
 extractor maps by the section number in each sheet/file name, so the omitted

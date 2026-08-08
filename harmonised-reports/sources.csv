@@ -1,9 +1,9 @@
 platform,status,source_url
 AboutYou,extracted,https://www.aboutyou.de/impressum
-Akamai,hub-pending,https://www.akamai.com/legal/eu-digital-services-act
+Akamai,extracted,https://www.akamai.com/legal/eu-digital-services-act
 Alibaba Cloud,extracted,https://www.alibabacloud.com/help/en/legal/latest/eu-digital-services-act-dsa-compliance-information
-Apple Books,hub-pending,https://www.apple.com/legal/dsa/transparency/eu/books/2502/
-Apple Podcasts,hub-pending,https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
+Apple Books,format-variant,https://www.apple.com/legal/dsa/transparency/eu/books/2502/
+Apple Podcasts,format-variant,https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
 "Bumble (Badoo, Fruitz)",extracted,https://support.bumble.com/hc/en-us/articles/28718583113757-Digital-Services-Act-Transparency-report
 Carrefour Marketplace,extracted,https://www.carrefour.fr/mentions-legales
 Ceneo,extracted,https://info.ceneo.pl/dsa
@@ -12,21 +12,21 @@ Dailymotion,extracted,https://legal.dailymotion.com/en/transparency/transparency
 Depop,extracted,https://depophelp.zendesk.com/hc/en-gb/articles/13057572688273-EU-Digital-Services-Act
 Discord,extracted,https://discord.com/safety-transparency
 DuckDuckGo,extracted,https://duckduckgo.com/duckduckgo-help-pages/r-legal/regulatory-reporting
-Epic Games Store,hub-pending,https://safety.epicgames.com/transparency-reports/european-union
-eToro (social/copy-trading),hub-pending,https://www.etoro.com/customer-service/regulation-license/dsa-transparency-report/
-Eventbrite,hub-pending,https://www.eventbrite.com/blog/wp-content/uploads/2026/03/Eventbrite-2025-Transparency-Report.pdf
+Epic Games Store,format-variant,https://safety.epicgames.com/transparency-reports/european-union
+eToro (social/copy-trading),format-variant,https://www.etoro.com/customer-service/regulation-license/dsa-transparency-report/
+Eventbrite,format-variant,https://www.eventbrite.com/blog/wp-content/uploads/2026/03/Eventbrite-2025-Transparency-Report.pdf
 Expedia,extracted,https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act
-Faire,hub-pending,https://www.faire.com/support/articles/20960200105115
+Faire,format-variant,https://www.faire.com/support/articles/20960200105115
 Flickr,extracted,https://docs.google.com/spreadsheets/d/1dOuiWYJEJlfUlhN8ovwcKC-dmUPHqhSz/export?format=xlsx
 Glassdoor,extracted,https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx
-GMX,hub-pending,https://freephone.gmx.net/transparenzbericht
+GMX,extracted,https://www.web.de/impressum/
 Grindr,extracted,https://help.grindr.com/hc/en-us/articles/38555862683795-Grindr-EU-Digital-Services-Act-Transparency-Reports
 heise forums,format-variant,https://www.heise.de/Transparenz-nach-dem-Digital-Services-Act-DSA-10639819.html
 HomeToGo,extracted,https://www.hometogo.de/dsa/
 Hostelworld,extracted,https://www.hostelworld.com/legal/security-privacy/
 Hostinger,extracted,https://www.hostinger.com/legal/dsa-transparency-report
 Hotels.com,extracted,https://legal.expediagroup.com/regulatory-and-compliance/digital-services-act
-iCloud Storage,hub-pending,https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/
+iCloud Storage,format-variant,https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/
 IMDb,extracted,https://help.imdb.com/article/imdb/general-information/digital-services-act-information/GDAKKSDKCPU25H86
 Jeuxvideo.com,extracted,https://docs.google.com/spreadsheets/d/14eCN-rWhjrjdvLYpO31F8zHVa6COt0HphrD90hKk700/export?format=xlsx
 "Just Eat Takeaway (Lieferando, Thuisbezorgd)",extracted,https://www.justeattakeaway.com/governance/governance-documents/
@@ -48,7 +48,7 @@ Roblox,extracted,https://about.roblox.com/transparency
 Shopify,extracted,https://www.shopify.com/legal/p2b/legal-notices
 Skroutz,extracted,https://www.skroutz.gr/digital-services-act
 Square Enix,extracted,https://www.square-enix-games.com/en_GB/documents/online-safety
-Upwork,hub-pending,https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours
+Upwork,extracted,https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours
 Veepee (vente-privee),extracted,https://aide.veepee.fr/article/1630-informations-reglementaires
 Vestiaire Collective,extracted,https://faq.vestiairecollective.com/hc/en-us/articles/34009544661393-EU-Digital-Services-Act
 Vinted,extracted,https://www.vinted.com/safety
@@ -57,7 +57,7 @@ Web.de,extracted,https://www.web.de/impressum/
 Whatnot,extracted,https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act
 Wikipedia,extracted,https://foundation.wikimedia.org/wiki/File:Wikipedia_-_DSA_transparency_report_2026-02-28.xls
 WordPress.com,format-variant,https://transparency.automattic.com/wordpress-dot-com/digital-services-act/
-x-kom,hub-pending,https://www.x-kom.pl/dsa
+x-kom,extracted,https://www.x-kom.pl/dsa
 Yahoo (+ AOL),extracted,https://www.yahooinc.com/transparency/reports/eu-digital-services-act/index.html
 Gemini,extracted,https://transparencyreport.google.com/report-downloads?hl=en
 NotebookLM,extracted,https://transparencyreport.google.com/report-downloads?hl=en

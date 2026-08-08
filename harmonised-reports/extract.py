@@ -120,6 +120,9 @@ SOURCES = {
     "flickr":      ("flickr.xlsx", "xlsx"),      # Flickr (SmugMug) — 2025 Annex I
     "jeuxvideo":   ("jeuxvideo.xlsx", "xlsx"),   # Jeuxvideo.com (Webedia) — 2025
     "glassdoor":   ("glassdoor.xlsx", "xlsx"),   # Glassdoor — CY2024
+    "akamai":      ("akamai-2025-h2.xlsx", "xlsx"),  # Akamai — H2 2025
+    "upwork":      ("upwork-2025.xlsx", "xlsx"),     # Upwork — CY2025
+    "xkom":        ("xkom.xlsx", "xlsx"),            # x-kom — CY2024
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,
@@ -144,6 +147,16 @@ SHEET_MAP = {
         ("member states orders", 3), ("notices", 4),
         ("own initiative tc", 6), ("appeals and recidivism", 7),
         ("automated means", 8), ("qualitative", 11),
+    ],
+    # Upwork is a non-VLOP and omits the VLOP-only human-resources and AMAR
+    # sheets. Its remaining nine sheets are named but unnumbered, so map them
+    # explicitly rather than shifting the final qualitative sheet into table 9.
+    "upwork": [
+        ("report_identification", 1), ("categories_names", 2),
+        ("member_states_orders", 3), ("notices", 4),
+        ("own_initiative_illegal", 5), ("own_initiative_tc", 6),
+        ("appeals_and_recidivism", 7), ("automated_means", 8),
+        ("qualitative", 11),
     ],
 }
 
@@ -368,10 +381,12 @@ def _trim_cols(rows: list[list[str]]) -> list[list[str]]:
 
 
 # Indicator labels in section 1, across the locales we ingest (EN/DE/FR/EL).
-_PROVIDER = ("service provider", "diensteanbieters", "fournisseur", "παρόχου")
+_PROVIDER = ("service provider", "diensteanbieters", "fournisseur", "παρόχου",
+             "dostawcy usług")
 _START = ("starting date", "beginn des berichtszeitraums", "date de début",
-          "début", "έναρξης")
-_END = ("ending date", "ende des berichtszeitraums", "date de fin", "fin", "λήξης")
+          "début", "έναρξης", "rozpoczęcia okresu sprawozdawczego")
+_END = ("ending date", "ende des berichtszeitraums", "date de fin", "fin", "λήξης",
+        "zakończenia okresu sprawozdawczego")
 
 
 def _ident(rows: list[list[str]]) -> dict:

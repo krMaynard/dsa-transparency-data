@@ -62,13 +62,44 @@ HARMONISED = {
     "Fitbit": "fitbit",
     "Reddit": "reddit",
     "Just Eat Takeaway (Lieferando, Thuisbezorgd)": "just-eat-takeaway",
+    "Akamai": "akamai",
+    "GMX": "webde",
+    "Upwork": "upwork",
+    "x-kom": "xkom",
     # Miniclip ships one report per game in a single zip -> one extracted dir each.
     "Miniclip": ["miniclip-8-ball-pool", "miniclip-agar-io", "miniclip-baseball-clash",
                  "miniclip-mini-football", "miniclip-mini-tennis", "miniclip-paint-brawl",
                  "miniclip-speed-stars", "miniclip-ultimate-golf"],
 }
 # PDF-archive slugs that aren't slugify(platform).
-PDF_SLUG_OVERRIDE = {"eToro (social/copy-trading)": "etoro"}
+PDF_SLUG_OVERRIDE = {
+    "eToro (social/copy-trading)": "etoro",
+    "Epic Games Store": "epic-games",
+}
+
+# Browser-fetched source artifacts that live in the harmonised raw archive.
+# Keep per-file links here for reports that are not extractable Annex I
+# workbooks, and for the original workbooks behind browser-only sources.
+RAW_ARCHIVES = {
+    "Akamai": [("archived XLSX", "akamai-2025-h2.xlsx")],
+    "Apple Books": [("archived HTML", "apple-books-2024.html")],
+    "Apple Podcasts": [("archived HTML", "apple-podcasts-2024.html")],
+    "Faire": [
+        ("archived CSV (2024)", "faire-2024.csv"),
+        ("archived CSV (2025)", "faire-2025.csv"),
+    ],
+    "heise forums": [
+        ("archived CSV (2024)", "heise-2024.csv"),
+        ("archived CSV (2025)", "heise-2025.csv"),
+    ],
+    "iCloud Storage": [("archived HTML", "apple-icloud-2024.html")],
+    "Upwork": [("archived XLSX", "upwork-2025.xlsx")],
+    "WordPress.com": [
+        ("archived HTML", "wordpress-2025-h2.html"),
+        ("archived CSV bundle", "wordpress-2025-h2.zip"),
+    ],
+    "x-kom": [("archived XLSX", "xkom.xlsx")],
+}
 
 
 def slugify(name: str) -> str:
@@ -94,6 +125,10 @@ def archive_links(platform: str) -> list[tuple[str, str]]:
     p = PDF_SLUG_OVERRIDE.get(platform) or slugify(platform)
     if _has_files(f"pdf-reports/{p}"):
         out.append(("archived PDF", f"pdf-reports/{p}"))
+    for label, filename in RAW_ARCHIVES.get(platform, []):
+        rel = f"harmonised-reports/raw/{filename}"
+        if os.path.isfile(os.path.join(HERE, rel)):
+            out.append((label, rel))
     return out
 
 
@@ -103,7 +138,7 @@ def archive_links(platform: str) -> list[tuple[str, str]]:
 # multi-file rows (e.g. Miniclip's per-game links) use the file name as the label,
 # so a label-based pattern would miss them and duplicate the links on re-run.
 _ARCHIVE_RE = re.compile(
-    r"(?: · \[[^\]]*\]\((?:harmonised-reports/extracted|pdf-reports)/[^)]*\))+")
+    r"(?: · \[[^\]]*\]\((?:harmonised-reports/(?:extracted|raw)|pdf-reports)/[^)]*\))+")
 
 
 def main() -> None:

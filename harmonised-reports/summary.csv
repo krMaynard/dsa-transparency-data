@@ -1,6 +1,7 @@
 platform,provider,period_start,period_end,amar_eu_total,sections_found,total_data_rows
 aboutyou,ABOUT YOU SE & Co. KG,2024-12-04,2025-12-03,,11,668
 aboutyou2,ABOUT YOU SE & Co. KG,2025-12-04,2025-12-31,,11,668
+akamai,Akamai Technologies,2025-07-01,2025-12-31,,11,676
 alibabacloud,Alibaba (Netherlands) B.V.,2025-01-01,2025-12-31,,11,668
 bumble,Bumble Inc,2025-01-01,2025-12-31,,8,448
 carrefour,Carrefour Drive,2025-01-01,2025-12-31,,11,668
@@ -67,6 +68,7 @@ shopify,Shopify International Ltd.,2025-01-01,2025-12-31,,11,646
 skroutz,ΣΚΡΟΥΤΖ ΑΝΩΝΥΜΗ ΕΤΑΙΡΕΙΑ ΥΠΗΡΕΣΙΕΣ ΔΙΑΔΙΚΤΥΟΥ,2025-02-17,2025-12-31,,9,658
 squareenix,"Square Enix Limited (""Square Enix"")",2025-01-01,2025-12-31,,11,778
 tenor,Google,2025-07-01,2025-12-31,,11,4631
+upwork,Upwork Global LLC,2025-01-01,2025-12-31,,9,627
 vacation-rentals,Google,2025-07-01,2025-12-31,,11,4625
 veepee,Vente-privee.com,2025-01-01,2025-12-31,,11,2009
 vestiaire,Vestiaire Collective,17/02/2025,31/12/2025,,11,943
@@ -78,4 +80,5 @@ webde,1&1 Mail & Media GmbH,2025-01-01,2025-12-31,,11,668
 whatnot,"Whatnot, Inc.",2025-01-01,2025-12-31,,11,668
 wikipedia,Wikimedia Foundation,2025-07-01,2025-12-31,155663000,11,703
 workspace,Google,2025-07-01,2025-12-31,,11,5008
+xkom,x-kom sp. z o.o.,2024-02-16,2024-12-31,,11,668
 yahoo,Yahoo International Limited ,2025-02-17,2025-12-31,,11,672

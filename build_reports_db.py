@@ -36,10 +36,16 @@ CONF_RE = re.compile(r"^(verified|likely|uncertain)\b(.*)$", re.IGNORECASE)
 # Repo-relative archive links (added to REPORT_LOCATIONS.md by link_archives.py)
 # are exported as absolute GitHub URLs in the `archived` CSV column / DB field.
 GITHUB_TREE = "https://github.com/krMaynard/dsa-transparency-data/tree/main/"
+GITHUB_BLOB = "https://github.com/krMaynard/dsa-transparency-data/blob/main/"
 
 
 def archived_urls(row) -> str:
-    return "; ".join(GITHUB_TREE + rel.lstrip("/") for _, rel in row.get("archived", []))
+    urls = []
+    for _, rel in row.get("archived", []):
+        clean = rel.lstrip("/")
+        base = GITHUB_BLOB if (HERE / clean).is_file() else GITHUB_TREE
+        urls.append(base + clean)
+    return "; ".join(urls)
 
 # Whether a report uses the EU harmonised machine-readable template
 # (Implementing Regulation (EU) 2024/2835, "Annex I" XLSX/CSV), which applies to
@@ -71,6 +77,13 @@ TEMPLATE_OVERRIDES = {
     "Google Shopping": "partial", "Google Search (VLOSE)": "partial",
     "Bing (VLOSE)": "partial", "Zalando": "partial", "Shein": "partial",
     "Temu": "partial", "Pornhub": "partial",
+    # Browser verification found only non-machine-readable report formats for
+    # these sources. They are archived, but must not be advertised as Annex I
+    # workbooks merely because their format text contains "CSV" or "template".
+    "Apple Books": "no", "Apple Podcasts": "no", "iCloud Storage": "no",
+    "Epic Games Store": "no", "Eventbrite": "no",
+    "eToro (social/copy-trading)": "no", "heise forums": "no",
+    "WordPress.com": "no",
 }
 
 
