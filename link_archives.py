@@ -80,6 +80,7 @@ HARMONISED = {
 PDF_SLUG_OVERRIDE = {
     "eToro (social/copy-trading)": "etoro",
     "Epic Games Store": "epic-games",
+    "OLX Bulgaria": "olx-bg",
 }
 
 # Browser-fetched source artifacts that live in the harmonised raw archive.

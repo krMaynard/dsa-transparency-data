@@ -43,56 +43,38 @@ adjustment to the child-survey data).
   explain how they are keeping Aussie kids safe*:
   <https://www.esafety.gov.au/newsroom/media-releases/esafety-requires-providers-of-ai-companion-chatbots-to-explain-how-they-are-keeping-aussie-kids-safe>
 
-## ⚠️ Status: source not yet fetched (browser-gated)
+## Status: browser-fetched and archived
 
-`www.esafety.gov.au` sits behind a WAF that **resets/hangs every request from a
-datacenter IP** (verified: HTTP/2 stream reset, HTTP/1.1 hang, static PDFs
-included; `web.archive.org` is also egress-blocked from the build sandbox). This
-is the "needs a residential IP + real browser" case documented in the repo's
-[`BROWSER-FETCH-RUNBOOK.md`](../BROWSER-FETCH-RUNBOOK.md). The source has been
-added to [`SOURCES-NEEDING-BROWSER.md`](../SOURCES-NEEDING-BROWSER.md) **Section
-E**.
+`www.esafety.gov.au` resets or hangs plain datacenter-IP requests, but the three
+primary pages were recovered through a real Chrome session on 8 August 2026 and
+saved under [`raw/`](raw/). `build_esafety.py` now emits the 22 audited numeric
+facts from the findings page: 10 user-report counts, four staffing figures, and
+eight survey percentages. Qualitative assessments remain in the source archive
+and are not coerced into numeric values.
 
-**Therefore no data rows are committed yet, and none are fabricated.** The
-report is largely a *qualitative* per-provider compliance assessment with a small
-number of survey statistics, so the exact per-provider Yes/No cells and the
-survey percentages must be read from the published report itself — not from press
-coverage — before they go in. See [`raw/FETCH.md`](raw/FETCH.md) for the exact
-retry-from-residential-box steps.
+## Output: `au-esafety-ai-companion.json` (tidy-long)
 
-## Intended output — `au-esafety-ai-companion.json` (tidy-long)
-
-Once `raw/` holds the fetched report, `build_esafety.py` emits the standard
+`build_esafety.py` emits the standard
 envelope (`{source, coverage, columns, rows}`) with columns:
 
 ```
 provider, period, section, category, metric, unit, value
 ```
 
-Planned `section`s (final taxonomy to be confirmed against the report):
+`section`s:
 
-- **`survey`** — eSafety's 2026 child-survey figures (`provider='All'`): share of
-  children who have used an AI companion / an AI companion-or-assistant
-  (`unit='percent'`), and the derived estimated number of children
-  (`unit='count'`). `period` = the survey window.
-- **`compliance`** — the per-provider assessment against each BOSE expectation
-  checked in the report (e.g. age assurance, self-harm/crisis-support referral,
-  protections against explicit material, reporting/complaint mechanisms).
-  Encoded as booleans (`unit='bool'`, `value` 0/1) where the report states a
-  clear Yes/No, keeping each expectation as its own `metric`. `period` = the
-  notice/response window.
-- **`provider_action`** — material remediation each provider took after the
-  notice (e.g. age-assurance changes, geo-blocking Australia, paywalling),
-  captured as flags where the report states them.
+- **`reports`:** confirmed global user reports by provider and harm category.
+- **`staff`:** staff responsible for trust and safety at 30 September 2025.
+- **`survey`:** eSafety's 2026 child-survey prevalence figures.
 
 Metric names are the report's own and are **not** comparable across providers or
 sections — pin `provider`, `section` **and** `metric` before any aggregation, and
 never mix `percent` / `count` / `bool` units.
 
-## Known published facts (context only — verify against the report before ingesting)
+## Published qualitative context
 
-These are drawn from eSafety's media release and reputable coverage, recorded
-here as *context to guide extraction*, **not** as committed dataset values:
+These source statements are retained as context and are not converted to numeric
+rows:
 
 - eSafety's 2026 survey (~1,950 children aged 10–17): **79%** had used an AI
   companion *or* AI assistant; **8%** had used an AI companion (~**200,000**
@@ -106,10 +88,7 @@ here as *context to guide extraction*, **not** as committed dataset values:
   moved AI-companion chat behind a paid subscription; Nomi committed to further
   age-assurance functionality.
 
-## API side (deferred until data exists)
+## API side
 
-When rows are produced, wire it into `transparency-report-api` the same way the
-Singapore online-safety dataset is (vendored JSON snapshot → `build_*_db` in
-`seed.py` → a `TableSpec` in `main.py` → a `/au-esafety` static page, English-only
-like `/singapore`). Not done here because seeding an empty table would ship
-untested code — it belongs in the same change that lands the real rows.
+The API already carries the same 22 AI-companion numeric rows alongside eSafety's
+CSEA periodic-report stream in `data/esafety-bose.json`.

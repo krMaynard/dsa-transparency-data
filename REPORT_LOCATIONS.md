@@ -133,7 +133,7 @@ The best starting points for finding more report locations:
 | DocMorris | DocMorris N.V. | [DSA page](https://www.docmorris.de/digital-services-act) | 404 as of 8 Aug 2026; prior DSA page unavailable | uncertain |
 | Trendyol | DSM Grup / Trendyol Group | [2025 PDF](https://9be604a381897de8.mncdn.com/tymp/prod/documents/policy/TY_DSA_Report_2025.pdf) ([2024 PDF](https://cdn.dsmcdn.com/mobile/international/legal/transparency_report_2024.pdf)) · [archived PDF](pdf-reports/trendyol) | PDF; 2024 & 2025 | verified |
 | home24 | home24 SE | [Impressum](https://www.home24.de/home24-impressum/) | Transparenzbericht; 2025/2026 | likely |
-| Conforama | Conforama France SA | [DSA page](https://www.conforama.fr/digital-service-act) | HTML DSA page; AMAR + notice | uncertain |
+| Conforama | Conforama France SA | [DSA report page](https://www.conforama.fr/informations/digital-service-act) · [archived PDF](pdf-reports/conforama) | PDF; CY2025 | verified |
 | Whatnot | Whatnot Inc. | [EU DSA](https://help.whatnot.com/hc/en-us/articles/23619888476557-Whatnot-The-EU-Digital-Services-Act) · [archived data](harmonised-reports/extracted/whatnot) · [archived PDF](pdf-reports/whatnot) | PDF + XLSX; 2025 & 2026 | verified |
 | FinCompare | FinCompare GmbH | [PDF](https://fincompare.de/wp-content/uploads/2024/12/Transparenzbericht-nach-Art.-15-DSA-Berichtszeitraum_-Januar-2024-%E2%80%93-Dezember-2024.pdf) · [archived PDF](pdf-reports/fincompare) | PDF (Art. 15); Jan – Dec 2024 | verified |
 | Tradera | Tradera Sweden AB | [Support](https://www.tradera.com/support) | Annual report (referenced in T&C) | likely |
@@ -149,6 +149,8 @@ The best starting points for finding more report locations:
 |----------|-------------------|------------|-----------------|------------|
 | Kleinanzeigen | Kleinanzeigen GmbH | [Hub](https://themen.kleinanzeigen.de/transparenzbericht/) | HTML hub + PDFs; semi-annual | likely |
 | OLX | OLX B.V. (Prosus) | [Report](https://www.olx.pl/d/dsa-transparency-report/) | HTML; semi-annual | likely |
+| OLX Bulgaria | OLX B.V. (Prosus) | [Report](https://help.olx.bg/olxbghelp/s/article/%D0%9E%D1%82%D1%87%D0%B5%D1%82-%D0%B7%D0%B0-%D0%BF%D1%80%D0%BE%D0%B7%D1%80%D0%B0%D1%87%D0%BD%D0%BE%D1%81%D1%82-%D0%BD%D0%B0-%D0%BC%D0%BE%D0%B4%D0%B5%D1%80%D0%B8%D1%80%D0%B0%D0%BD%D0%B5%D1%82%D0%BE) · [archived PDF](pdf-reports/olx-bg) | PDF (harmonised template); 2024 & 2025 | verified |
+| Otodom | OLX Group | [Report](https://pomoc.otodom.pl/otodomhelpcenter/s/article/Raport-przejrzystosci-moderacji) · [archived PDF](pdf-reports/otodom) | PDF (harmonised template); 2024 & 2025 | verified |
 | AutoScout24 | AutoScout24 SE | [PDF](https://assets.ctfassets.net/uaddx06iwzdz/4oZBiZrkfhU88u1wa3zUGk/bb5b98026b8146453087306641ed9dec/AutoScout24Transparenzbericht2024.pdf) · [archived PDF](pdf-reports/autoscout24) | PDF (Art. 15/24); Jul – Dec 2024 | verified |
 | Idealista | Idealista S.A.U. | [DSA info](https://www.idealista.com/ayuda/articulos/informacion-de-idealista-en-cumplimiento-del-reglamento-de-servicios-digitales/) | HTML; Art. 15/24 | likely |
 | Vivastreet | Vivastreet (legal entity unverified) | [Transparency report](https://www.vivastreet.com/s/transparency_report) | HTML (Art. 15/24/42); CY2025 | verified |
@@ -192,7 +194,7 @@ The best starting points for finding more report locations:
 | Delivery Hero (foodora, …) | Delivery Hero SE | [DSA statement](https://www.deliveryhero.com/digital-services-act/) | HTML; content-moderation report + AMAR | likely |
 | Malt | Malt Community SAS | [Transparency](https://www.malt.fr/c/transparency) | Web report; 2024 & 2025 | likely |
 | Upwork | Upwork Global Inc. | [2025 report](https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours) · [archived data](harmonised-reports/extracted/upwork) · [archived PDF](pdf-reports/upwork) · [archived XLSX](harmonised-reports/raw/upwork-2025.xlsx) | XLSX (harmonised template) + PDF; 2024 & 2025 | verified |
-| Fiverr | Fiverr International Ltd. | [DSA overview](https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview) | HTML overview; browser page unresolved | uncertain |
+| Fiverr | Fiverr International Ltd. | [DSA report hub](https://www.fiverr.com/legal-portal/community/dsa) | PDF; CY2024 (report hub challenge-blocked) | likely |
 | Fixly | Fixly sp. z o.o. (OLX / Adevinta) | [Legal info](https://pomoc.fixly.pl/hc/pl/categories/34663617565725-Informacje-Prawne) | Web/PDF moderation report | likely |
 
 ## App stores & gaming
@@ -541,10 +543,13 @@ negative result is not re-searched:
 - **Russian / Belarusian (out of DSA scope — EU sanctions / no EU operations):**
   Mail.ru, OK.ru/Odnoklassniki, Ozon, Wildberries, RuTube, Dzen, Rambler, Kufar,
   Yango, Nebius.
+- **CEE browser recoveries (8 August 2026):** Otodom and OLX Bulgaria each expose
+  2024 and 2025 DSA transparency-report PDFs through JavaScript-rendered help
+  centres. All four reports are archived in this repository.
 - **Other CEE / Baltic / Balkan (no findable report; many bot-blocked):** Media Expert,
-  RTV Euro AGD, Pracuj.pl, Otodom, Gratka, Slevomat, Datart,
+  RTV Euro AGD, Pracuj.pl, Gratka, Slevomat, Datart,
   Modivo/eobuwie, Answear, Bookline; ss.lv, Osta.ee, Skelbiu.lt, Aruodas.lt, City24,
-  Njuškalo (HR), Bolha (SI), Index Oglasi, Mimovrste, OLX.bg, Bazar.bg, Car.gr,
+  Njuškalo (HR), Bolha (SI), Index Oglasi, Mimovrste, Bazar.bg, Car.gr,
   Spitogatos, Publi24, Lajumate, Kainos.lt, Varle.lt, Senukai; KupujemProdajem
   (Serbia, non-EU).
 - **Out of scope:** Swiss-only platforms (tutti.ch, ricardo.ch, anibis.ch — not

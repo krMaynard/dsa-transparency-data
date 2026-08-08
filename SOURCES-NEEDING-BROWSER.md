@@ -52,7 +52,7 @@ Full list: `ny_tos_reports.csv` (rows where `access=auth-required`).
 
 ## B. JavaScript / help-center DSA pages — audited in Chrome
 
-The browser audit resolved ten of the twelve uncertain entries:
+The browser audit resolved eleven of the twelve uncertain entries:
 
 - **Vimeo** exposed 2024 and 2025 harmonised XLSX workbooks. Both are archived
   and extracted into the canonical 1–11 schema.
@@ -65,11 +65,15 @@ The browser audit resolved ten of the twelve uncertain entries:
 - **Zepeto** publishes an Art. 24(2) AMAR disclosure only, with a latest period
   ending in 2023.
 - **DocMorris** now returns a 404 at its catalogued DSA URL.
+- **Conforama** now exposes a 2025 Article 15 PDF from its rendered DSA page;
+  the report is archived under `pdf-reports/conforama/`.
 
-Two pages remain unresolved because Chrome returned no usable content:
+One page remains unresolved:
 
-- **Conforama** — https://www.conforama.fr/digital-service-act
-- **Fiverr** — https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview
+- **Fiverr:** the help-centre overview renders and Fiverr's own search result
+  confirms a 2024 DSA transparency report, but the actual report hub at
+  https://www.fiverr.com/legal-portal/community/dsa triggers a PerimeterX human
+  verification challenge before exposing the download.
 
 ---
 
@@ -92,13 +96,13 @@ status list and now has no `hub-pending` or `file-blocked` rows for this batch.
 
 ---
 
-## D. Bulk PDF archival — accessible but not mirrored
+## D. Bulk PDF archival: completed
 
 **California AB 587 Terms-of-Service reports.** All **100** filings are
-catalogued with a working `source_url` on `oag.ca.gov`, but the PDFs (~300 MB
-total) were **not** mirrored in-repo, so `archived`/`sha256`/`bytes` are blank
-and `extract_narrative.py` can't index them. A browser (or a patient fetcher)
-should download each PDF, store it, and backfill those columns.
+catalogued with a working `source_url` on `oag.ca.gov`. The complete PDF set is
+now mirrored under `ca-ab587/pdfs/`; `archived`, `sha256`, and `bytes` are
+populated for every row, and the 4,963-page narrative index is reproducible
+from the archive.
 Platforms (21): ArtStation, BAND, Discord, GitHub, Goodreads, Hudl, LinkedIn, Meta, Microsoft, Nextdoor, Peloton, Pinterest, Reddit, Roblox, Sketchfab, Snap, Strava, TikTok, Vimeo, X, YouTube.
 Full list with URLs: `ca-ab587/ca_ab587_reports.csv`.
 
@@ -109,20 +113,20 @@ Full list with URLs: `ca-ab587/ca_ab587_reports.csv`.
 Specific reports we know exist and want, but that resisted extraction. Each note
 comes from the dataset builder's own caveats.
 
-- **Australia eSafety BOSE — Chrome now reaches the previously WAF-walled page.** The eSafety
+- **Australia eSafety BOSE, completed in Chrome.** The eSafety
   Commissioner's **Basic Online Safety Expectations** transparency-notice findings
-  are a new intended dataset (scaffolded in `au-esafety/`), but the whole
-  `esafety.gov.au` origin still resets or hangs plain datacenter-IP requests, but
-  Chrome renders the findings page in full. The next capture target is the
-  **AI companion apps** findings (non-periodic
+  are now captured in `au-esafety/`. The `esafety.gov.au` origin still resets or
+  hangs plain datacenter-IP requests, while Chrome renders the findings page in
+  full. The capture covers the **AI companion apps** findings (non-periodic
   notices given 16 Oct 2025 to Character.AI, Nomi, Chai, Chub AI; report published
   Mar 2026, survey figures revised Jul 2026):
     - Findings report — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services/findings-october-2025
     - AI-services hub — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services
     - Media release — https://www.esafety.gov.au/newsroom/media-releases/esafety-report-shows-ai-companions-are-putting-children-at-risk
-  Save the rendered page and any linked PDF into `au-esafety/raw/` per
-  `au-esafety/raw/FETCH.md`, then run `au-esafety/build_esafety.py` and wire it
-  into the API like the Singapore online-safety dataset. Further BOSE slices to
+  The rendered findings page, hub and media release are now archived in
+  `au-esafety/raw/`, and `au-esafety/build_esafety.py` emits 22 audited numeric
+  rows. The API already exposes the same facts in its combined BOSE dataset.
+  Further BOSE slices to
   scout next: the CSEA messaging periodic-notice snapshots (Apple/Discord/Google/
   Meta/Microsoft/Skype/Snap/WhatsApp) and the Social Media Minimum Age compliance
   updates.
@@ -206,9 +210,15 @@ A browser (correct UA, EU egress, JS) should re-check each and grab any DSA repo
   QQ/QZone, Trip.com; HoYoverse (Genshin), NetEase Games, Lilith, Moonton, Century
   Games; Vivo, Lenovo, Anker, TCL, Huawei Cloud.
 - **CEE / Baltic / Balkan classifieds & retail** (many bot-blocked): Media Expert,
-  RTV Euro AGD, Otodom, Gratka, Modivo/eobuwie, Answear, Slevomat, Datart; ss.lv,
-  Osta.ee, Skelbiu.lt, Aruodas.lt, Njuškalo (HR), Bolha (SI), OLX.bg, Bazar.bg,
+  RTV Euro AGD, Gratka, Modivo/eobuwie, Answear, Slevomat, Datart; ss.lv,
+  Osta.ee, Skelbiu.lt, Aruodas.lt, Njuškalo (HR), Bolha (SI), Bazar.bg,
   Car.gr, Spitogatos, Publi24, Kainos.lt, Varle.lt, Senukai.
+
+  Chrome audit, 8 August 2026: **Otodom** and **OLX Bulgaria** were recoverable
+  from JavaScript-rendered Salesforce help centres. Both expose 2024 and 2025
+  PDFs; all four are archived under `pdf-reports/otodom/` and
+  `pdf-reports/olx-bg/`. Focused checks found no report for Miravia, Gratka,
+  Slevomat, ss.lv, Osta.ee or Njuškalo. The remaining names above stay queued.
 
 (Everything else in that section — Russian/sanctioned, Swiss/Norway/UK out-of-EEA,
 India-only real-money gaming, "Art. 11 contact only" — is out of scope; skip it.)
