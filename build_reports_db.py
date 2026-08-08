@@ -211,10 +211,24 @@ def parse_markdown(md_text: str):
         }
 
 
+def _logical_dump(path: Path) -> str:
+    """Return a version-independent representation of a SQLite database."""
+    conn = sqlite3.connect(path)
+    try:
+        return "\n".join(conn.iterdump())
+    finally:
+        conn.close()
+
+
 def build_db(rows):
-    if DB_PATH.exists():
-        DB_PATH.unlink()
-    conn = sqlite3.connect(DB_PATH)
+    # SQLite patch releases can lay out identical B-trees differently, which
+    # used to make CI rewrite the committed DB when the runner and author used
+    # different SQLite versions. Build beside the artifact, then retain the
+    # existing bytes when both databases have the same logical SQL dump.
+    tmp_path = DB_PATH.with_suffix(DB_PATH.suffix + ".tmp")
+    if tmp_path.exists():
+        tmp_path.unlink()
+    conn = sqlite3.connect(tmp_path)
     try:
         conn.executescript(SCHEMA)
         cur = conn.cursor()
@@ -253,9 +267,13 @@ def build_db(rows):
             t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
             for t in ("category", "company", "platform", "report_url")
         }
-        return counts
     finally:
         conn.close()
+    if DB_PATH.exists() and _logical_dump(DB_PATH) == _logical_dump(tmp_path):
+        tmp_path.unlink()
+    else:
+        tmp_path.replace(DB_PATH)
+    return counts
 
 
 def write_csv(rows):
