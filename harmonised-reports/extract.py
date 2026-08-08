@@ -123,6 +123,8 @@ SOURCES = {
     "akamai":      ("akamai-2025-h2.xlsx", "xlsx"),  # Akamai — H2 2025
     "upwork":      ("upwork-2025.xlsx", "xlsx"),     # Upwork — CY2025
     "xkom":        ("xkom.xlsx", "xlsx"),            # x-kom — CY2024
+    "vimeo-2024":  ("vimeo-2024.xlsx", "xlsx"),      # Vimeo — CY2024
+    "vimeo-2025":  ("vimeo-2025.xlsx", "xlsx"),      # Vimeo — CY2025
 }
 
 # Sources whose sheet/file names can't be mapped by a parsed section number,

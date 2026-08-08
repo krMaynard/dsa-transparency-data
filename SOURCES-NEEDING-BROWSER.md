@@ -50,36 +50,36 @@ Full list: `ny_tos_reports.csv` (rows where `access=auth-required`).
 
 ---
 
-## B. JavaScript / help-center DSA pages — need a browser to reach the actual report
+## B. JavaScript / help-center DSA pages — audited in Chrome
 
-These catalogue entries are marked **`confidence=uncertain`**: we found the
-platform's DSA landing page, but the actual figures/report file are behind
-JS-rendered help-center widgets, SPA routing, or a "download" control our
-static fetch can't follow. A browser should confirm the real report artifact
-(XLSX/CSV/PDF or the on-page numbers) and record the direct link.
-Full list: `dsa_reports.csv` (rows where `confidence=uncertain`).
+The browser audit resolved ten of the twelve uncertain entries:
 
-- **Chess.com** (Chess.com, LLC) — https://www.chess.com/article/view/digital-services-act-compliance
-- **Civitai** (Civitai, Inc.) — https://civitai.com/articles/10372/civitai-2024-transparency-report
-- **Conforama** (Conforama France SA) — https://www.conforama.fr/digital-service-act
-- **DocMorris** (DocMorris N.V.) — https://www.docmorris.de/digital-services-act
-- **Fastly** (Fastly, Inc.) — https://www.fastly.com/dmca-dsa
-- **Fiverr** (Fiverr International Ltd.) — https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview
-- **Hetzner** (Hetzner Online GmbH) — https://www.hetzner.com/legal/digital-services-act/
-- **Medium** (A Medium Corporation) — https://help.medium.com/hc/en-us/sections/21832701520791-Digital-Service-Act-DSA-Information
-- **Quora** (Quora, Inc.) — https://help.quora.com/hc/en-us/sections/13296037150612-DSA-Transparency
-- **Shein** (Roadget Business (Shein)) — https://euqs.shein.com/digital-service-act-a-1994.html
-- **Vimeo** (Vimeo.com, Inc.) — https://vimeo.com/legal/transparency/dsa
-- **Zepeto** (Naver Z Corporation) — https://support.zepeto.me/hc/en-us/articles/15675506191769-Digital-Services-Act
+- **Vimeo** exposed 2024 and 2025 harmonised XLSX workbooks. Both are archived
+  and extracted into the canonical 1–11 schema.
+- **SHEIN** exposed H1 and H2 2025 XLSX workbooks. H1 is archived and the
+  corrected 30 July 2026 H2 version replaces the earlier VLOP source workbook.
+- **Chess.com** is an Art. 24(2) monthly-active-recipient disclosure only.
+- **Civitai** is a general 2024 company/community report, not a DSA report.
+- **Fastly**, **Hetzner**, **Medium**, and **Quora** publish DSA information,
+  contact, notice, or orders pages, but no Art. 15 transparency report was found.
+- **Zepeto** publishes an Art. 24(2) AMAR disclosure only, with a latest period
+  ending in 2023.
+- **DocMorris** now returns a 404 at its catalogued DSA URL.
+
+Two pages remain unresolved because Chrome returned no usable content:
+
+- **Conforama** — https://www.conforama.fr/digital-service-act
+- **Fiverr** — https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview
 
 ---
 
 ## C. Harmonised-template browser backlog — completed
 
 The browser sweep resolved every source previously listed here. Canonical Annex
-I workbooks for Akamai, Flickr, Glassdoor, Jeuxvideo.com, Riot Games, Upwork, and
-x-kom are extracted into the 1–11 schema. GMX is covered by the combined GMX and
-WEB.DE workbook already stored as `webde`.
+I workbooks for Akamai, Flickr, Glassdoor, Jeuxvideo.com, Riot Games, Upwork,
+Vimeo, and x-kom are extracted into the 1–11 schema. Vimeo contributes two
+reporting periods. GMX is covered by the combined GMX and WEB.DE workbook
+already stored as `webde`.
 
 The browser confirmed that the remaining publishers expose other formats rather
 than a complete machine-readable workbook: Apple Books, Apple Podcasts, and
@@ -109,19 +109,18 @@ Full list with URLs: `ca-ab587/ca_ab587_reports.csv`.
 Specific reports we know exist and want, but that resisted extraction. Each note
 comes from the dataset builder's own caveats.
 
-- **Australia eSafety BOSE — `www.esafety.gov.au` is WAF-walled.** The eSafety
+- **Australia eSafety BOSE — Chrome now reaches the previously WAF-walled page.** The eSafety
   Commissioner's **Basic Online Safety Expectations** transparency-notice findings
   are a new intended dataset (scaffolded in `au-esafety/`), but the whole
-  `esafety.gov.au` origin **resets/hangs every datacenter-IP request** (HTTP/2
-  stream reset; HTTP/1.1 hang; static `/sites/default/files/…` PDFs included;
-  `web.archive.org` is also egress-blocked here) — a residential IP + real browser
-  is the unlock. First target: the **AI companion apps** findings (non-periodic
+  `esafety.gov.au` origin still resets or hangs plain datacenter-IP requests, but
+  Chrome renders the findings page in full. The next capture target is the
+  **AI companion apps** findings (non-periodic
   notices given 16 Oct 2025 to Character.AI, Nomi, Chai, Chub AI; report published
   Mar 2026, survey figures revised Jul 2026):
     - Findings report — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services/findings-october-2025
     - AI-services hub — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services
     - Media release — https://www.esafety.gov.au/newsroom/media-releases/esafety-report-shows-ai-companions-are-putting-children-at-risk
-  Save the rendered page (+ any PDF) into `au-esafety/raw/` per
+  Save the rendered page and any linked PDF into `au-esafety/raw/` per
   `au-esafety/raw/FETCH.md`, then run `au-esafety/build_esafety.py` and wire it
   into the API like the Singapore online-safety dataset. Further BOSE slices to
   scout next: the CSEA messaging periodic-notice snapshots (Apple/Discord/Google/
@@ -178,7 +177,7 @@ comes from the dataset builder's own caveats.
 
 ## F. The long tail — catalogued locations not yet archived
 
-Beyond the curated items above, **117 of 259** rows in the
+Beyond the curated items above, **111 of 259** rows across **104 platforms** in the
 report-locations catalogue have a known `url` but **no `archived` mirror** — we
 know *where* each platform publishes, but haven't captured the report itself.
 Most are ordinary pages a browser can save; a batch pass over these would let

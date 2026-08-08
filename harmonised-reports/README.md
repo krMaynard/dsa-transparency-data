@@ -52,12 +52,13 @@ Reports that do not expose a complete Annex I workbook are left as
 `format-variant` and archived rather than mapped. Forcing them into 1–11 would
 invent structure the publisher did not provide.
 
-## Status (86 catalogued sources — see `sources.csv`)
+## Status (87 catalogued sources — see `sources.csv`)
 
-- **76 extracted source entries**, producing **83 extracted report snapshots**.
+- **77 extracted source entries**, producing **85 extracted report snapshots**.
   AboutYou contributes a second reporting period and Miniclip contributes eight
   game reports, while GMX and WEB.DE share one combined workbook. The latest
-  browser-only additions are Akamai (H2 2025), Upwork (2025), and x-kom (2024).
+  browser-only additions are Akamai (H2 2025), Upwork (2025), Vimeo (2024 and
+  2025), and x-kom (2024).
 - **9 format variants** are archived without canonical extraction: Apple Books,
   Apple Podcasts, Epic Games Store, eToro, Eventbrite, Faire, heise forums,
   iCloud Storage, and WordPress.com. Faire's downloads contain Annex I-style

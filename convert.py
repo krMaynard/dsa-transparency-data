@@ -180,7 +180,11 @@ def read_xls_sheet(xls_path, sheet_name):
 
 def read_xlsx_sheet(xlsx_path, sheet_name):
     """Read a named sheet from an xlsx as a list of dicts (same contract as read_csv)."""
-    wb = openpyxl.load_workbook(xlsx_path, read_only=True, data_only=True)
+    # Preserve rich-text runs so publisher corrections such as SHEIN's
+    # strikethrough "50" followed by the replacement "45" do not flatten into
+    # the unparsable string "50 45".
+    wb = openpyxl.load_workbook(
+        xlsx_path, read_only=True, data_only=True, rich_text=True)
     if sheet_name not in wb.sheetnames:
         wb.close()
         return []
@@ -194,9 +198,24 @@ def read_xlsx_sheet(xlsx_path, sheet_name):
     for row in rows[1:]:
         d = {}
         for i, h in enumerate(headers):
-            d[h] = row[i] if i < len(row) else None
+            d[h] = _xlsx_current_value(row[i]) if i < len(row) else None
         result.append(d)
     return result
+
+
+def _xlsx_current_value(value):
+    """Return the current value from a numeric rich-text correction.
+
+    Some corrected workbooks retain the old and new number as separate inline
+    runs. The publisher puts the replacement last; normal prose rich text is
+    joined in full rather than truncated.
+    """
+    if not isinstance(value, openpyxl.cell.rich_text.CellRichText):
+        return value
+    parts = [part.text if hasattr(part, "text") else str(part) for part in value]
+    if len(parts) > 1 and all(re.fullmatch(r"[\s\d.,%+\-]+", part) for part in parts):
+        return parts[-1].strip()
+    return "".join(parts)
 
 
 def get(row, *keys):

@@ -66,6 +66,11 @@ HARMONISED = {
     "GMX": "webde",
     "Upwork": "upwork",
     "x-kom": "xkom",
+    "Flickr": "flickr",
+    "Glassdoor": "glassdoor",
+    "Jeuxvideo.com": "jeuxvideo",
+    "Riot Games": "riot",
+    "Vimeo": ["vimeo-2024", "vimeo-2025"],
     # Miniclip ships one report per game in a single zip -> one extracted dir each.
     "Miniclip": ["miniclip-8-ball-pool", "miniclip-agar-io", "miniclip-baseball-clash",
                  "miniclip-mini-football", "miniclip-mini-tennis", "miniclip-paint-brawl",
@@ -101,6 +106,15 @@ RAW_ARCHIVES = {
     "x-kom": [("archived XLSX", "xkom.xlsx")],
 }
 
+# Browser-fetched artifacts stored outside harmonised-reports/raw/. These use
+# explicit repo-relative paths because they belong to a VLOP or another dataset.
+EXTRA_ARCHIVES = {
+    "Shein": [
+        ("archived H1 2025 XLSX", "shein-transparency/raw/shein-2025-h1.xlsx"),
+        ("archived updated H2 2025 XLSX", "shein.xlsx"),
+    ],
+}
+
 
 def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
@@ -129,6 +143,9 @@ def archive_links(platform: str) -> list[tuple[str, str]]:
         rel = f"harmonised-reports/raw/{filename}"
         if os.path.isfile(os.path.join(HERE, rel)):
             out.append((label, rel))
+    for label, rel in EXTRA_ARCHIVES.get(platform, []):
+        if os.path.isfile(os.path.join(HERE, rel)):
+            out.append((label, rel))
     return out
 
 
@@ -138,7 +155,9 @@ def archive_links(platform: str) -> list[tuple[str, str]]:
 # multi-file rows (e.g. Miniclip's per-game links) use the file name as the label,
 # so a label-based pattern would miss them and duplicate the links on re-run.
 _ARCHIVE_RE = re.compile(
-    r"(?: · \[[^\]]*\]\((?:harmonised-reports/(?:extracted|raw)|pdf-reports)/[^)]*\))+")
+    r"(?: · \[[^\]]*\]\((?:harmonised-reports/(?:extracted|raw)|pdf-reports|shein-transparency/raw)/[^)]*\)"
+    r"| · \[[^\]]*\]\(shein\.xlsx\))+"
+)
 
 
 def main() -> None:
