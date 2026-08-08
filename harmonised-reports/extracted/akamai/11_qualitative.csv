@@ -1,0 +1,14 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,CDN/Hosting Services,2025-07-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,Akamai does not engage in content moderation on its own initiative.
+All,CDN/Hosting Services,2025-07-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,Akamai does not engage in content moderation on its own initiative.
+All,Hosting Services,2025-07-01/2025-12-31,Qualitative description of the automated means,"Akamai has integrated a third-party tool into the abuse email alias as part of the notice mechanism in place for hosting services.
+
+This tool is intended to help automatically categorize and digest emails received, as well as create and send a ticket to the publisher (Akamai customer) to take action on the notice received. The decision to take down the alleged illegal content is made by the customer, since if the content is not taken down at the origin, it may still be available even if Akamai blocks it on its end."
+All,Hosting Services,2025-07-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Not applicable. The third-party tool is used solely for administrative purposes (categorizing and routing notices), not for content moderation decisions. Accordingly, accuracy and error rate metrics do not apply."
+All,Hosting Services,2025-07-01/2025-12-31,Specification of the precise purposes to apply automated means,Akamai uses this third-party tool for the purpose of automatically categorizing the notices received and sending them to the correspondent customer to take action.
+All,Hosting Services,2025-07-01/2025-12-31,Safeguards applied to the use of automated means,"Customers are given the option to respond to contest or not contest the notice within a certain timeframe (depending on the abuse type), as well as allowing an automatic network restriction to be applied if they choose to not respond at all. It is worth noting that this process does not apply to all content categories, such as CSAM, trademarks and certain copyright infringements, as these are always processed manually. Akamai’s responsible teams constantly review the inbox manually."
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,High-level description of the content moderation governance structure,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Qualifications of the human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Training given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Support given to human resources dedicated to content moderation,Free text
+Only for VLOPs,,YYYY-MM-DD/YYYY-MM-DD,Methodology used to compute the number of human resources dedicated to content moderation,Free text

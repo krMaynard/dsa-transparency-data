@@ -1,0 +1,44 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Upwork Global LLC,2025-01-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"We monitor a range of signals: Account signals; Content posted on jobs, the Project Catalog, or in feedback; and Messages. 
+
+In 2025, we introduced automated detections for violations surfaced through end-of-contract feedback, attempts to direct pre-contract communication off the Upwork Global LLC in messages and attachments, and unauthorized bot usage. We also implemented real-time alerts for changes to two-step verification, enabling users to respond quickly to unauthorized activity and reduce account-takeover risk.
+
+To combat scams, we introduced new models and detection rules that strengthen risk identification and require high-risk clients to complete additional verification before interacting with freelancers.
+
+When we determine that a user has violated a policy, we apply proportional actions based on the nature and severity of the issue. Our goal is to provide clear outcomes for users and help prevent future issues wherever possible. 
+
+Enforcement actions include: 
+
+Educational or warning messages that notify the account holder of the policy violation and may remove content or request corrective updates.
+
+Temporary restrictions that limit account activity until the user completes specific steps, such as acknowledging rules, securing the account, or completing identity verification. These restrictions are tailored to the specific risk involved but generally prevent clients and freelancers from appearing in searches, posting jobs, submitting proposals, or sending and receiving payment.
+
+Permanent blocks that remove an account from active use and are used in instances of repeat or serious violations. In many cases account holders will still be able to log in and access past records but cannot take actions within the marketplace. If we suspect malicious intent, we may prevent the freelancer or client from accessing their account entirely.
+
+When we take enforcement action on an account, we email the user to explain what happened. We also show a message banner when they log in and display the violation in the Account Health Hub."
+All,Upwork Global LLC,2025-01-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"We run checks at key moments, including account creation, job posting, and messaging, to identify signs of malicious behavior.
+
+All new job posts, Project Catalog submissions, and negative freelancer feedback on the Upwork Global LLC are evaluated by language models trained using our policies. 
+
+Automated systems monitor messages for signs of fraud and scams. 
+
+If one of these systems identifies a potential violation, the content is either escalated to a human agent for review or enforced automatically. More information on these processes can be found in the sections that follow."
+All,Upwork Global LLC,2025-01-01/2025-12-31,Qualitative description of the automated means,"Because there is no one-size-fits-all approach, we rely on a mix of rule-based and machine-learning models. If bad actors attempt to mimic legitimate users, tailored verification pathways, including identity checks and human review, are used to confirm findings before accounts are permanently blocked. 
+
+Our automated systems evaluate and either accept or reject Project Catalog submissions without human review. For job posts, about 37.2% of takedowns surfaced by our automated models in 2025 were enforced automatically, while a human agent reviewed the remaining 62.8%. When we identified a potential violation through end-of-contract feedback, we always escalated it to a human agent for review.
+
+When we detect attempts to direct payment off of the Upwork Global LLC or share malware, we block the message and escalate the account to a human agent for enforcement review."
+All,Upwork Global LLC,2025-01-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Accuracy
+In this report, ""accuracy"" of suspensions is the same as precision, because we do not proactively predict or label non-violating content on the Upwork Global LLC.
+
+Precision
+Calculated as 98.11% overall using the number of enforcement actions that were not later overturned (e.g., because of a granted appeal or following an audit by a human reviewer) divided by the total number of automated enforcement actions. 
+
+Recall
+Calculated as 14.16% overall using the number of correct automated measures divided by all correctly enforced (i.e., not overturned) measures on the Upwork Global LLC."
+All,Upwork Global LLC,2025-01-01/2025-12-31,Specification of the precise purposes to apply automated means,"We have designed our systems in part to enable users to easily report issues, and in part to be proactive and find issues before those reports are needed. We have developed automated tools to detect and prevent policy violations, to complement expert review, and to reduce exposure to scams and other harms. 
+
+We aim to continuously monitor for, and anticipate, issues that could impact someone’s finances, personal data, and peace of mind."
+All,Upwork Global LLC,2025-01-01/2025-12-31,Safeguards applied to the use of automated means,"We calibrate automated content moderation based on system confidence and potential user impact. Higher-confidence, lower-impact issues may be handled fully through automation, while we route lower-confidence or higher-impact cases to trained reviewers for a final decision. 
+
+For example, automated models that evaluate whether job post content violates our policies must achieve a sustained accuracy rate of at least 90% for lower-severity actions, such as educational messages or restrictions that can be easily resolved in-product by the user. For permanent account blocks, these automated systems must reach a sustained accuracy rate of at least 95%."

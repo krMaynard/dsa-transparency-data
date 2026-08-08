@@ -46,6 +46,29 @@
     }
   },
   {
+    "platform": "akamai",
+    "source_file": "akamai-2025-h2.xlsx",
+    "format": "xlsx",
+    "provider": "Akamai Technologies",
+    "period_start": "2025-07-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 189,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
     "platform": "alibabacloud",
     "source_file": "alibabacloud.zip",
     "format": "zipcsv",
@@ -1564,6 +1587,29 @@
     }
   },
   {
+    "platform": "upwork",
+    "source_file": "upwork-2025.xlsx",
+    "format": "xlsx",
+    "provider": "Upwork Global LLC",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 9,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 80,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 20,
+      "human_resources": 0,
+      "AMAR": 0,
+      "qualitative": 6
+    }
+  },
+  {
     "platform": "vacation-rentals",
     "source_file": "vacation-rentals.zip",
     "format": "zipcsv",
@@ -1625,6 +1671,52 @@
       "notices": 94,
       "own_initiative_illegal": 90,
       "own_initiative_TC": 100,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
+    "platform": "vimeo-2024",
+    "source_file": "vimeo-2024.xlsx",
+    "format": "xlsx",
+    "provider": "Vimeo.com, Inc.",
+    "period_start": "2024-02-17",
+    "period_end": "2024-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
+    }
+  },
+  {
+    "platform": "vimeo-2025",
+    "source_file": "vimeo-2025.xlsx",
+    "format": "xlsx",
+    "provider": "Vimeo.com, Inc.",
+    "period_start": "2025-01-01",
+    "period_end": "2025-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
       "appeals_and_recidivism": 47,
       "automated_means": 35,
       "human_resources": 6,
@@ -1814,6 +1906,29 @@
       "human_resources": 28,
       "AMAR": 4,
       "qualitative": 17
+    }
+  },
+  {
+    "platform": "xkom",
+    "source_file": "xkom.xlsx",
+    "format": "xlsx",
+    "provider": "x-kom sp. z o.o.",
+    "period_start": "2024-02-16",
+    "period_end": "2024-12-31",
+    "amar_eu_total": "",
+    "sections_found": 11,
+    "data_rows_by_section": {
+      "report_identification": 5,
+      "categories_names": 100,
+      "member_states_orders": 181,
+      "notices": 91,
+      "own_initiative_illegal": 90,
+      "own_initiative_TC": 98,
+      "appeals_and_recidivism": 47,
+      "automated_means": 35,
+      "human_resources": 6,
+      "AMAR": 4,
+      "qualitative": 11
     }
   },
   {

@@ -1,4 +1,4 @@
-"""Unit tests for the ads-surface fold in extract.py (`_merge_ads_surfaces`).
+"""Unit tests for harmonised extraction and corrected VLOP workbook values.
 
 Google Hotels/Workspace ship an `NN_<section>_Ads.csv` sibling for sections 6-8;
 the extractor folds it into the base section, tagging a trailing `Surface` column
@@ -9,6 +9,12 @@ filename regex) so a future refactor can't silently regress the fold.
 Run: `python -m pytest harmonised-reports/test_extract.py`
 """
 import extract
+from pathlib import Path
+import sys
+
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
+import convert  # noqa: E402
 
 
 def _hdr(cols):
@@ -93,3 +99,21 @@ def test_orphan_ads_without_base_kept_as_ads_section():
     assert name == "7_appeals_and_recidivism_Ads.csv"
     assert rows[0][-1] == "Surface"
     assert all(r[-1] == "Ads" for r in rows[1:])
+
+
+def test_shein_rich_text_corrections_use_replacement_values():
+    rows = convert.read_xlsx_sheet(
+        Path(__file__).resolve().parents[1] / "shein.xlsx",
+        "7_appeals_and_recidivism",
+    )
+    disputes = [
+        row for row in rows
+        if convert.get(row, "Indicator") ==
+        "Number of disputes submitted to out-of-court dispute settlement bodies"
+    ]
+    values = {
+        convert.get(row, "Scope"): convert.parse_num(convert.get(row, "Value"))
+        for row in disputes
+    }
+    assert values["Total number"] == 45
+    assert values["Percentage of outcomes implemented"] == 100

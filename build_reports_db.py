@@ -36,10 +36,16 @@ CONF_RE = re.compile(r"^(verified|likely|uncertain)\b(.*)$", re.IGNORECASE)
 # Repo-relative archive links (added to REPORT_LOCATIONS.md by link_archives.py)
 # are exported as absolute GitHub URLs in the `archived` CSV column / DB field.
 GITHUB_TREE = "https://github.com/krMaynard/dsa-transparency-data/tree/main/"
+GITHUB_BLOB = "https://github.com/krMaynard/dsa-transparency-data/blob/main/"
 
 
 def archived_urls(row) -> str:
-    return "; ".join(GITHUB_TREE + rel.lstrip("/") for _, rel in row.get("archived", []))
+    urls = []
+    for _, rel in row.get("archived", []):
+        clean = rel.lstrip("/")
+        base = GITHUB_BLOB if (HERE / clean).is_file() else GITHUB_TREE
+        urls.append(base + clean)
+    return "; ".join(urls)
 
 # Whether a report uses the EU harmonised machine-readable template
 # (Implementing Regulation (EU) 2024/2835, "Annex I" XLSX/CSV), which applies to
@@ -71,6 +77,13 @@ TEMPLATE_OVERRIDES = {
     "Google Shopping": "partial", "Google Search (VLOSE)": "partial",
     "Bing (VLOSE)": "partial", "Zalando": "partial", "Shein": "partial",
     "Temu": "partial", "Pornhub": "partial",
+    # Browser verification found only non-machine-readable report formats for
+    # these sources. They are archived, but must not be advertised as Annex I
+    # workbooks merely because their format text contains "CSV" or "template".
+    "Apple Books": "no", "Apple Podcasts": "no", "iCloud Storage": "no",
+    "Epic Games Store": "no", "Eventbrite": "no",
+    "eToro (social/copy-trading)": "no", "heise forums": "no",
+    "WordPress.com": "no",
 }
 
 
@@ -198,10 +211,24 @@ def parse_markdown(md_text: str):
         }
 
 
+def _logical_dump(path: Path) -> str:
+    """Return a version-independent representation of a SQLite database."""
+    conn = sqlite3.connect(path)
+    try:
+        return "\n".join(conn.iterdump())
+    finally:
+        conn.close()
+
+
 def build_db(rows):
-    if DB_PATH.exists():
-        DB_PATH.unlink()
-    conn = sqlite3.connect(DB_PATH)
+    # SQLite patch releases can lay out identical B-trees differently, which
+    # used to make CI rewrite the committed DB when the runner and author used
+    # different SQLite versions. Build beside the artifact, then retain the
+    # existing bytes when both databases have the same logical SQL dump.
+    tmp_path = DB_PATH.with_suffix(DB_PATH.suffix + ".tmp")
+    if tmp_path.exists():
+        tmp_path.unlink()
+    conn = sqlite3.connect(tmp_path)
     try:
         conn.executescript(SCHEMA)
         cur = conn.cursor()
@@ -240,9 +267,13 @@ def build_db(rows):
             t: conn.execute(f"SELECT COUNT(*) FROM {t}").fetchone()[0]
             for t in ("category", "company", "platform", "report_url")
         }
-        return counts
     finally:
         conn.close()
+    if DB_PATH.exists() and _logical_dump(DB_PATH) == _logical_dump(tmp_path):
+        tmp_path.unlink()
+    else:
+        tmp_path.replace(DB_PATH)
+    return counts
 
 
 def write_csv(rows):

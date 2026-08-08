@@ -50,76 +50,59 @@ Full list: `ny_tos_reports.csv` (rows where `access=auth-required`).
 
 ---
 
-## B. JavaScript / help-center DSA pages — need a browser to reach the actual report
+## B. JavaScript / help-center DSA pages — audited in Chrome
 
-These catalogue entries are marked **`confidence=uncertain`**: we found the
-platform's DSA landing page, but the actual figures/report file are behind
-JS-rendered help-center widgets, SPA routing, or a "download" control our
-static fetch can't follow. A browser should confirm the real report artifact
-(XLSX/CSV/PDF or the on-page numbers) and record the direct link.
-Full list: `dsa_reports.csv` (rows where `confidence=uncertain`).
+The browser audit resolved eleven of the twelve uncertain entries:
 
-- **Chess.com** (Chess.com, LLC) — https://www.chess.com/article/view/digital-services-act-compliance
-- **Civitai** (Civitai, Inc.) — https://civitai.com/articles/10372/civitai-2024-transparency-report
-- **Conforama** (Conforama France SA) — https://www.conforama.fr/digital-service-act
-- **DocMorris** (DocMorris N.V.) — https://www.docmorris.de/digital-services-act
-- **Fastly** (Fastly, Inc.) — https://www.fastly.com/dmca-dsa
-- **Fiverr** (Fiverr International Ltd.) — https://help.fiverr.com/hc/en-us/articles/22578911624977-DSA-overview
-- **Hetzner** (Hetzner Online GmbH) — https://www.hetzner.com/legal/digital-services-act/
-- **Medium** (A Medium Corporation) — https://help.medium.com/hc/en-us/sections/21832701520791-Digital-Service-Act-DSA-Information
-- **Quora** (Quora, Inc.) — https://help.quora.com/hc/en-us/sections/13296037150612-DSA-Transparency
-- **Shein** (Roadget Business (Shein)) — https://euqs.shein.com/digital-service-act-a-1994.html
-- **Vimeo** (Vimeo.com, Inc.) — https://vimeo.com/legal/transparency/dsa
-- **Zepeto** (Naver Z Corporation) — https://support.zepeto.me/hc/en-us/articles/15675506191769-Digital-Services-Act
+- **Vimeo** exposed 2024 and 2025 harmonised XLSX workbooks. Both are archived
+  and extracted into the canonical 1–11 schema.
+- **SHEIN** exposed H1 and H2 2025 XLSX workbooks. H1 is archived and the
+  corrected 30 July 2026 H2 version replaces the earlier VLOP source workbook.
+- **Chess.com** is an Art. 24(2) monthly-active-recipient disclosure only.
+- **Civitai** is a general 2024 company/community report, not a DSA report.
+- **Fastly**, **Hetzner**, **Medium**, and **Quora** publish DSA information,
+  contact, notice, or orders pages, but no Art. 15 transparency report was found.
+- **Zepeto** publishes an Art. 24(2) AMAR disclosure only, with a latest period
+  ending in 2023.
+- **DocMorris** now returns a 404 at its catalogued DSA URL.
+- **Conforama** now exposes a 2025 Article 15 PDF from its rendered DSA page;
+  the report is archived under `pdf-reports/conforama/`.
 
----
+One page remains unresolved:
 
-## C. Harmonised-template reports located but not yet pulled into the schema
-
-These are **`harmonised_template=yes`** (i.e. the EU Art. 15/24 template — directly
-loadable into the `t3`–`t11` star schema via `harmonised-reports/extract.py`),
-but the report file sits behind a page our scraper didn't traverse (a downloads
-hub, a JS gate, or a direct XLSX/CSV/ODS/PDF we haven't grabbed). Each is a
-ready-to-ingest platform once the file is in hand — highest value.
-Authoritative status: `harmonised-reports/sources.csv` (`status = hub-pending` are
-landing pages whose file link needs a browser/EU egress to reach; `file-blocked`
-is bot-walled). 16 of 54 template platforms are still un-extracted for this reason.
-
-- **Akamai** (Akamai Technologies, Inc.) — PDF/XLSX; 2024, H1 & H2 2025 — https://www.akamai.com/legal/eu-digital-services-act
-- **Apple Books** (Apple Distribution International) — HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template — https://www.apple.com/legal/dsa/transparency/eu/books/2502/
-- **Apple Podcasts** (Apple Distribution International) — HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template — https://www.apple.com/legal/dsa/transparency/eu/podcasts/2502/
-- **Epic Games Store** (Epic Games, Inc.) — XLSX + hub; Feb 2024 – Feb 2025 — https://safety.epicgames.com/transparency-reports/european-union
-- **Faire** (Faire Wholesale, Inc.) — CSV; 2024 & 2025 — https://www.faire.com/support/articles/20960200105115
-- **Flickr** (SmugMug, Inc.) — PDF + XLSX; 2024 & 2025 — https://www.flickr.com/help/legal
-- **Glassdoor** (Glassdoor LLC) — XLSX; CY2024 — https://about-us.glassdoor.com/site-us/wp-content/uploads/sites/2/2025/10/2025_2025_Glassdoor-DSA-Transparency-Report-CY2024_x.xlsx
-- **GMX** (1&1 Mail & Media GmbH) — ODS (Art. 15); 2024 & 2025 — https://freephone.gmx.net/transparenzbericht
-- **heise forums** (Heise Medien GmbH & Co. KG) — CSV; annual (2024 & 2025) — https://www.heise.de/Transparenz-nach-dem-Digital-Services-Act-DSA-10639819.html
-- **iCloud Storage** (Apple Distribution International) — HTML report (17 Feb – 31 Dec 2024); also a Feb 2026 XLSX template — https://www.apple.com/legal/dsa/transparency/eu/icloud/2502/
-- **Jeuxvideo.com** (Webedia) — Harmonised template (CSV/XLSX/PDF); 2024 & 2025 — https://www.jeuxvideo.com/transparence.htm
-- **Riot Games** (Riot Games Ltd.) — XLSX; 2024 & 2025 — https://support-leagueoflegends.riotgames.com/hc/en-us/articles/25972785684627
-- **Upwork** (Upwork Global Inc.) — XLSX; 2024 & 2025 — https://www.upwork.com/blog/upworks-2025-transparency-report-our-ongoing-work-to-protect-yours
-- **WordPress.com** (Automattic Inc.) — Web + CSV; Jul – Dec 2025 — https://transparency.automattic.com/wordpress-dot-com/digital-services-act/
-- **x-kom** (x-kom sp. z o.o. (Poland)) — XLSX (harmonised template); 2024 — https://www.x-kom.pl/dsa
-- **eToro** (eToro — social/copy-trading) — landing page JS-rendered — find the template file
-- **Eventbrite** (Eventbrite, Inc.) — landing page JS-rendered — find the template file
-
-(The two above are in `sources.csv` as `hub-pending` but don't carry a resolved
-URL in the API catalogue yet — a browser should locate each platform's DSA report
-file and add it to `harmonised-reports/raw/` for `extract.py`.)
-
-**OVHcloud** (OVH Groupe SAS) is **done** — its report is a narrative PDF, not the
-harmonised template, so it was extracted into the standalone `ovhcloud-transparency/`
-dataset (archived PDF at `pdf-reports/ovhcloud/`) rather than the harmonised pipeline.
+- **Fiverr:** the help-centre overview renders and Fiverr's own search result
+  confirms a 2024 DSA transparency report, but the actual report hub at
+  https://www.fiverr.com/legal-portal/community/dsa triggers a PerimeterX human
+  verification challenge before exposing the download.
 
 ---
 
-## D. Bulk PDF archival — accessible but not mirrored
+## C. Harmonised-template browser backlog — completed
+
+The browser sweep resolved every source previously listed here. Canonical Annex
+I workbooks for Akamai, Flickr, Glassdoor, Jeuxvideo.com, Riot Games, Upwork,
+Vimeo, and x-kom are extracted into the 1–11 schema. Vimeo contributes two
+reporting periods. GMX is covered by the combined GMX and WEB.DE workbook
+already stored as `webde`.
+
+The browser confirmed that the remaining publishers expose other formats rather
+than a complete machine-readable workbook: Apple Books, Apple Podcasts, and
+iCloud use rendered HTML; Epic Games Store, eToro, Eventbrite, and OVHcloud use
+PDFs; Faire publishes concatenated CSV tables with an incomplete category table;
+and heise forums and WordPress.com use custom CSV bundles. Those artifacts are
+archived and linked from `REPORT_LOCATIONS.md`, but are not forced into the
+canonical 1–11 schema. `harmonised-reports/sources.csv` is the authoritative
+status list and now has no `hub-pending` or `file-blocked` rows for this batch.
+
+---
+
+## D. Bulk PDF archival: completed
 
 **California AB 587 Terms-of-Service reports.** All **100** filings are
-catalogued with a working `source_url` on `oag.ca.gov`, but the PDFs (~300 MB
-total) were **not** mirrored in-repo, so `archived`/`sha256`/`bytes` are blank
-and `extract_narrative.py` can't index them. A browser (or a patient fetcher)
-should download each PDF, store it, and backfill those columns.
+catalogued with a working `source_url` on `oag.ca.gov`. The complete PDF set is
+now mirrored under `ca-ab587/pdfs/`; `archived`, `sha256`, and `bytes` are
+populated for every row, and the 4,963-page narrative index is reproducible
+from the archive.
 Platforms (21): ArtStation, BAND, Discord, GitHub, Goodreads, Hudl, LinkedIn, Meta, Microsoft, Nextdoor, Peloton, Pinterest, Reddit, Roblox, Sketchfab, Snap, Strava, TikTok, Vimeo, X, YouTube.
 Full list with URLs: `ca-ab587/ca_ab587_reports.csv`.
 
@@ -130,21 +113,20 @@ Full list with URLs: `ca-ab587/ca_ab587_reports.csv`.
 Specific reports we know exist and want, but that resisted extraction. Each note
 comes from the dataset builder's own caveats.
 
-- **Australia eSafety BOSE — `www.esafety.gov.au` is WAF-walled.** The eSafety
+- **Australia eSafety BOSE, completed in Chrome.** The eSafety
   Commissioner's **Basic Online Safety Expectations** transparency-notice findings
-  are a new intended dataset (scaffolded in `au-esafety/`), but the whole
-  `esafety.gov.au` origin **resets/hangs every datacenter-IP request** (HTTP/2
-  stream reset; HTTP/1.1 hang; static `/sites/default/files/…` PDFs included;
-  `web.archive.org` is also egress-blocked here) — a residential IP + real browser
-  is the unlock. First target: the **AI companion apps** findings (non-periodic
+  are now captured in `au-esafety/`. The `esafety.gov.au` origin still resets or
+  hangs plain datacenter-IP requests, while Chrome renders the findings page in
+  full. The capture covers the **AI companion apps** findings (non-periodic
   notices given 16 Oct 2025 to Character.AI, Nomi, Chai, Chub AI; report published
   Mar 2026, survey figures revised Jul 2026):
     - Findings report — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services/findings-october-2025
     - AI-services hub — https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services
     - Media release — https://www.esafety.gov.au/newsroom/media-releases/esafety-report-shows-ai-companions-are-putting-children-at-risk
-  Save the rendered page (+ any PDF) into `au-esafety/raw/` per
-  `au-esafety/raw/FETCH.md`, then run `au-esafety/build_esafety.py` and wire it
-  into the API like the Singapore online-safety dataset. Further BOSE slices to
+  The rendered findings page, hub and media release are now archived in
+  `au-esafety/raw/`, and `au-esafety/build_esafety.py` emits 22 audited numeric
+  rows. The API already exposes the same facts in its combined BOSE dataset.
+  Further BOSE slices to
   scout next: the CSEA messaging periodic-notice snapshots (Apple/Discord/Google/
   Meta/Microsoft/Skype/Snap/WhatsApp) and the Social Media Minimum Age compliance
   updates.
@@ -199,7 +181,7 @@ comes from the dataset builder's own caveats.
 
 ## F. The long tail — catalogued locations not yet archived
 
-Beyond the curated items above, **128 of 259** rows in the
+Beyond the curated items above, **111 of 259** rows across **104 platforms** in the
 report-locations catalogue have a known `url` but **no `archived` mirror** — we
 know *where* each platform publishes, but haven't captured the report itself.
 Most are ordinary pages a browser can save; a batch pass over these would let
@@ -228,9 +210,15 @@ A browser (correct UA, EU egress, JS) should re-check each and grab any DSA repo
   QQ/QZone, Trip.com; HoYoverse (Genshin), NetEase Games, Lilith, Moonton, Century
   Games; Vivo, Lenovo, Anker, TCL, Huawei Cloud.
 - **CEE / Baltic / Balkan classifieds & retail** (many bot-blocked): Media Expert,
-  RTV Euro AGD, Otodom, Gratka, Modivo/eobuwie, Answear, Slevomat, Datart; ss.lv,
-  Osta.ee, Skelbiu.lt, Aruodas.lt, Njuškalo (HR), Bolha (SI), OLX.bg, Bazar.bg,
+  RTV Euro AGD, Gratka, Modivo/eobuwie, Answear, Slevomat, Datart; ss.lv,
+  Osta.ee, Skelbiu.lt, Aruodas.lt, Njuškalo (HR), Bolha (SI), Bazar.bg,
   Car.gr, Spitogatos, Publi24, Kainos.lt, Varle.lt, Senukai.
+
+  Chrome audit, 8 August 2026: **Otodom** and **OLX Bulgaria** were recoverable
+  from JavaScript-rendered Salesforce help centres. Both expose 2024 and 2025
+  PDFs; all four are archived under `pdf-reports/otodom/` and
+  `pdf-reports/olx-bg/`. Focused checks found no report for Miravia, Gratka,
+  Slevomat, ss.lv, Osta.ee or Njuškalo. The remaining names above stay queued.
 
 (Everything else in that section — Russian/sanctioned, Swiss/Norway/UK out-of-EEA,
 India-only real-money gaming, "Art. 11 contact only" — is out of scope; skip it.)
