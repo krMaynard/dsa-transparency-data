@@ -31,6 +31,8 @@ Example comparison (Text training-data size):
 | Google | Gemini 3 Pro family | More than 10 trillion tokens | 3 |
 | Meta | Muse Spark | More than 10 trillion tokens | 3 |
 | xAI | Grok 4.5 | More than 10 trillion tokens | 3 |
+| EuroLLM Team | EuroLLM 9B/22B family | 1 billion to 10 trillion tokens (4T reported) | 2 |
+| Polish Ministry of Digital Affairs | PLLuM 2512 base/chat/instruct families | 1 billion to 10 trillion tokens | 2 |
 | Bria | Bria 3.2 | 1 billion to 10 trillion tokens (reported as: up to 19.2 billion tokens) | 2 |
 | Microsoft | phi-4 / Phi-4-multimodal / Phi-4-mini | 1 billion to 10 trillion tokens | 2 |
 
@@ -77,12 +79,21 @@ self-publishes in its own format — so the builder reads three source shapes:
   comparable) and preserve the disclosed figure verbatim in the value. Its
   Audio/Video/Other rows are **omitted** rather than "Not applicable" — its table
   simply has no rows for them, so the summary doesn't actually say.
+- **Provider-hosted model-repository PDFs** — the Polish Ministry of Digital
+  Affairs publishes separate Polish-language templates for PLLuM 2512's base,
+  instruct, and chat families (11 model variants across the three summaries).
+  The EuroLLM team publishes one English template covering six 9B/22B variants.
+  All four are attached directly to their official Hugging Face model repos.
+  EuroLLM reports an exact four-trillion-token corpus; PLLuM reports the middle
+  size band and distinguishes the extra private fine-tuning data used by the
+  instruct/chat families from the base family.
 
 **Coverage is a starting, expandable set** (Google + Meta + Microsoft + OpenAI +
-xAI + Swiss AI + SpeakLeash + Hugging Face + Bria; 11 model entries). More
+xAI + Swiss AI + SpeakLeash + Hugging Face + Bria + EuroLLM + Poland's Ministry
+of Digital Affairs; 15 summary entries). More
 providers slot in as their summaries are archived under `raw/`. Notably, several
-Code-of-Practice signatories (Anthropic — incl. Fable 5 —, Mistral, Cohere,
-Aleph Alpha, Stability) have **not** published the standardised template — they
+Code-of-Practice signatories (Anthropic, Mistral, Cohere, Aleph Alpha,
+Stability) have **not** published a discoverable standardised template — they
 disclose training content only as free-form prose (model cards) or rely on the
 2 Aug 2027 transitional deadline for pre-existing models. The inverse also holds:
 xAI filed the template **without** signing the Code of Practice, so the two

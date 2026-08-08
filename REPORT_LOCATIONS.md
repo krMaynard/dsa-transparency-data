@@ -14,6 +14,9 @@ This file catalogues where those reports live, to extend the VLOP/VLOSE dataset 
 this repo. **The designated VLOPs/VLOSEs already archived here are not repeated** —
 see the repo [`README.md`](README.md) for that list.
 
+For the separate EU AI Act Article 53 training-content report catalog, see
+[`AI_ACT_REPORT_LOCATIONS.md`](AI_ACT_REPORT_LOCATIONS.md).
+
 ## How this was compiled
 
 Located via web search and verified by fetching the page/file where possible.
