@@ -171,11 +171,11 @@ Categories with at least one numeric datum in the normalized file:
    some broader (overcounting). The `original_label` column always preserves
    what the company actually reported.
 4. **Coverage is a floor, not a ceiling.** A missing cell means *no extractable
-   number*, not *no enforcement*: 4 of 11 public reports are narrative-only
-   (X, TikTok, Meta, Vimeo), and 18 of the 29 catalogued filings (including
-   **all of 2025 Q4**) are login-gated at the AG's site and not archived at
-   all. A missing *category* can also mean the company simply doesn't report
-   it (Roblox has no disinformation category).
+   number*, not *no enforcement*: 4 of the 11 Q3 reports used by this extractor
+   are narrative-only (X, TikTok, Meta, Vimeo), and quantitative extraction has
+   not yet been extended to the three newly released Q3 filings or the newly
+   released Q4 filings. A missing *category* can also mean the company simply
+   doesn't report it (Roblox has no disinformation category).
 5. **One quarter only.** Everything here is 2025 Q3. No trend can be drawn yet.
 6. **Grain discipline.** For Strava, use either `grain=category_total` or
    `grain=breakdown`, never both in one sum. Reddit's `percent` cells

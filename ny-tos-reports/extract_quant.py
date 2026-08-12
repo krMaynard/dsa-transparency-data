@@ -15,11 +15,13 @@ schema (the companies' taxonomies genuinely differ). ``table_label`` is the
 table's corner/header cell (e.g. Discord's "Accounts Disabled") so the metric
 isn't lost for 2-column tables where it sits in the header rather than a column.
 
-Coverage (2025 Q3): the eight reports that carry machine-readable enforcement
-data — Discord, Reddit, LinkedIn, Naver (generic table melt) and Strava, Snap,
-Roblox (bespoke text-layout parsers). The rest are narrative-only (X, TikTok,
-Meta, Vimeo — ToS text + policy descriptions, no enforcement counts); those are
-skipped and listed below.
+Coverage (2025 Q3): seven reports from the initially public batch that carry
+machine-readable enforcement data — Discord, Reddit, LinkedIn, Naver (generic
+table melt) and Strava, Snap, Roblox (bespoke text-layout parsers). Four reports
+from that batch are narrative-only (X, TikTok, Meta, Vimeo — ToS text + policy
+descriptions, no enforcement counts); those are skipped and listed below. The
+extractor has not yet been extended to the three additional Q3 filings or the
+Q4 filings released in August 2026.
 
 Re-run:  ``python3 extract_quant.py``  (reads ./pdfs, writes ny_tos_quant.csv/.json)
 """
