@@ -31,7 +31,7 @@ import json
 import os
 import re
 import subprocess
-from urllib.parse import urljoin
+from urllib.parse import unquote, urljoin, urlsplit
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(HERE, "ny-tos-reports")
@@ -90,6 +90,25 @@ def slugify(name: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
 
+def source_url(href: str) -> str:
+    """Return the public PDF URL, repairing an AG index redirect typo.
+
+    At least one row has been published as ``/index%2ephp/https%3A//ag.ny.gov/…``
+    even though the embedded ``/sites/default/files/…`` PDF is public.  Sending
+    the malformed href through Drupal lands on its login page, so recover the
+    absolute URL the row was evidently intended to contain.
+    """
+    decoded = unquote(ihtml.unescape(href))
+    marker = "https://ag.ny.gov/"
+    embedded = decoded.find(marker)
+    if embedded >= 0:
+        candidate = decoded[embedded:]
+        parts = urlsplit(candidate)
+        if parts.scheme == "https" and parts.netloc == "ag.ny.gov":
+            return candidate
+    return urljoin(BASE, href)
+
+
 def parse_rows(html: str) -> list[dict]:
     """Parse the AG reports table into raw {company, platform, period, ...} dicts."""
     m = re.search(r"<table.*?</table>", html, re.S)
@@ -112,7 +131,7 @@ def parse_rows(html: str) -> list[dict]:
             "platform": _clean(cell("child-companies")),
             "period": _clean(cell("submission-period")),
             "upload_date": _clean(cell("upload-date")),
-            "source_url": urljoin(BASE, href.group(1)),
+            "source_url": source_url(href.group(1)),
         })
     return out
 
@@ -207,7 +226,7 @@ def main() -> None:
 
     catalogue.sort(key=lambda r: (r["period"], r["company"], r["platform"]))
     with open(CSV_PATH, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=FIELDNAMES)
+        w = csv.DictWriter(f, fieldnames=FIELDNAMES, lineterminator="\n")
         w.writeheader()
         w.writerows(catalogue)
     with open(JSON_PATH, "w", encoding="utf-8") as f:

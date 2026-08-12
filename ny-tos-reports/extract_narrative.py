@@ -9,11 +9,10 @@ harassment and foreign political interference. The catalogue
 out the *numbers*; this script pulls out the **prose** so it can be full-text
 searched.
 
-For each **publicly archived** PDF in ``pdfs/`` (the login-gated filings aren't
-mirrored, so they're skipped), the text of each page is extracted and emitted as
-one tidy row. The page is the unit — a stable, citable anchor back into the
-archived PDF — and pages with almost no extractable text (covers, image-only
-pages) are dropped.
+For each **publicly archived** PDF in ``pdfs/``, the text of each page is
+extracted and emitted as one tidy row. The page is the unit — a stable, citable
+anchor back into the archived PDF — and pages with almost no extractable text
+(covers, image-only pages) are dropped.
 
 Tidy-long output — one row per page of prose:
 

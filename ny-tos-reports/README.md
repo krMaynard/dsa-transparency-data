@@ -31,26 +31,20 @@ Catalogue columns: `company`, `platform` (the child platform/brand, when the
 filing names one), `period` (`2025 Q3` / `2025 Q4`), `upload_date`, `access`,
 `source_url`, `filename`, `archived`, `sha256`, `bytes`.
 
-## Access note — 18 of 29 filings are login-gated at the source
+## Access note
 
-The AG serves the **older filings** from a public directory
-(`/sites/default/files/social-media-policy-report/…`) but serves **newer
-filings** from a private Drupal *webform* directory
-(`/system/files/webform/…`) that **302-redirects anonymous requests to a login
-page**. Those files are publicly *listed* on the index but cannot be downloaded
-without an account — almost certainly a misconfiguration on the AG's side
-(webform file uploads default to private in Drupal).
+The AG initially served 18 filings from a private Drupal *webform* directory
+that redirected anonymous requests to a login page. On 11 August 2026 it moved
+the files into its public report directory. All **29 filings** listed on the
+index are now mirrored here.
 
-So the catalogue records **all 29** filings, but only the **11 publicly
-downloadable** ones are mirrored here as PDFs:
+The scraper still records access explicitly so a future filing that is listed
+before its PDF becomes public remains visible in the catalogue:
 
 | `access` | Count | Meaning |
 |----------|-------|---------|
-| `public` | 11 | Mirrored under `pdfs/`; `archived`/`sha256`/`bytes` populated |
-| `auth-required` | 18 | Login-gated at source; catalogued with `source_url` only |
-
-If the AG later exposes the gated files publicly, re-running the scraper will
-pick them up automatically.
+| `public` | 29 | Mirrored under `pdfs/`; `archived`/`sha256`/`bytes` populated |
+| `auth-required` | 0 | Login-gated at source; catalogued with `source_url` only |
 
 ## Companies (29 filings)
 
@@ -86,7 +80,8 @@ python3 extract_quant.py     # reads pdfs/, writes ny_tos_quant.csv / .json
 Columns: `company`, `period`, `page`, `table_label`, `row_label`, `column`,
 `value`, `unit` (`count` / `percent`), `raw`.
 
-**Coverage (2025 Q3, 1,482 cells from 7 of the 11 archived reports):**
+**Coverage (2025 Q3, 1,482 cells from 7 filings; the extraction predates three
+additional Q3 PDFs released in August 2026):**
 
 | Report | Cells | Notes |
 |--------|------:|-------|
@@ -98,9 +93,13 @@ Columns: `company`, `period`, `page`, `table_label`, `row_label`, `column`,
 | Naver | 37 | by category + flagging method |
 | Reddit | 24 | by violation type, with automation/user-report split + appeals |
 
-The other four carry **no extractable enforcement statistics**: X, TikTok, Meta,
-and Vimeo are narrative ToS / policy text (no count tables). The script lists
-these explicitly rather than silently dropping them.
+The other four Q3 reports in that extraction carry **no extractable enforcement
+statistics**: X, TikTok, Meta, and Vimeo are narrative ToS / policy text (no
+count tables). The script lists these explicitly rather than silently dropping
+them. Quantitative extraction has not yet been extended to the three newly
+released Q3 filings or the Q4 filings; all Q3 and Q4 filings are nevertheless
+archived and catalogued, and every text-extractable filing is included in the
+narrative full-text dataset.
 
 Best-effort and **not run by CI** (needs `pymupdf`; PDF table detection is
 imperfect — cells whose label/header carries a stray 3+ digit run are dropped as
@@ -135,8 +134,9 @@ The filings are **narrative policy documents** — prose, not just tables. While
 **prose** so it can be full-text searched: for each publicly archived PDF in
 `pdfs/` it emits one tidy row per page —
 `[company, platform, period, page, heading, text]` — into
-[`ny_tos_narratives.json`](ny_tos_narratives.json) (488 pages across the 11
-public filings; deterministic from `pdfs/` + the catalogue). The API seeds this
+[`ny_tos_narratives.json`](ny_tos_narratives.json) (1,324 pages across 28
+text-extractable filings; Naver's image-only Q4 PDF is archived but yields no
+text; deterministic from `pdfs/` + the catalogue). The API seeds this
 into a SQLite **FTS5** table behind `GET /api/narratives`, so a reader can
 search the actual language platforms use to describe their hate-speech,
 extremism, disinformation, harassment and foreign-political-interference
