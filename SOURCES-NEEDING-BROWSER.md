@@ -164,7 +164,12 @@ comes from the dataset builder's own caveats.
   base/instruct/chat families. xAI, Bria, OpenAI and Meta are already archived,
   so they are no longer browser targets. Periodically re-check **Anthropic,
   Mistral, Cohere, Aleph Alpha, Stability, NVIDIA, IBM, Amazon, Alibaba/Qwen and
-  DeepSeek** for provider-hosted Article 53(1)(d) templates. The AI Office says
+  DeepSeek** for provider-hosted Article 53(1)(d) templates. **Domyn Small v1.0**
+  is a specific publication-gap target: its official model card and technical
+  report both claim a companion Article 53(1)(d) artefact, but a Chrome audit on
+  8 August 2026 found no link and no summary in the rendered model-repository
+  file tree. Re-check Domyn's model repository and official research site for a
+  newly attached or corrected link. The AI Office says
   the template is mandatory for new GPAI models and enforcement began 2 August
   2026; pre-2-August-2025 models have until 2 August 2027. Checkbox PDFs may need
   rendered visual verification. Would extend `ai_training_metrics`.
