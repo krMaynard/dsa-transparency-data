@@ -1,84 +1,84 @@
 Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,4117021,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,117395,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,4117021,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,116822,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,1,Content Review Automated System
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.93,Developer Risk Evaluation Automated System
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.93,User Reviews Automated System
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.94,User Reviews Automated System
-All,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.61,User Reviews Automated System
-"Only for providers of hosting services, including online platforms",Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,1614,
-"Only for providers of hosting services, including online platforms",Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
-Only for providers of online platforms,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,7,
-Only for providers of online platforms,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,11662,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hr,6153,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,cs,19766,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,da,4217,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,nl,23912,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,en,63641,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,et,1224,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fi,6534,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fr,97121,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,de,95758,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,el,15732,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hu,28001,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ga,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,it,69271,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lv,3081,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lt,4525,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,mt,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pl,82127,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pt,15919,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ro,55923,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sk,7723,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sl,1741,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,es,78498,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,10088,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,49,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hr,25,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,cs,125,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,da,19,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,nl,131,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,en,756,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,et,10,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fi,45,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fr,1445,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,de,4336,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,el,103,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hu,135,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ga,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,it,2893,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lv,23,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lt,29,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,mt,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pl,643,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pt,721,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ro,262,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sk,61,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sl,8,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,es,1363,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,43,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Accuracy,[...],,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Accuracy,sv,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Precision,bg,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Precision,sv,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Recall,bg,,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Recall,[...],,
-Only for VLOPs,Google Play,2025-07-01/2025-12-31,,Accuracy of the automated means - Recall,sv,,
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,4211285
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,120558
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,4211285
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,119435
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative 
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,1,Content Review Automated System
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative 
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative 
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.997,Developer Risk Evaluation Automated System
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative 
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.91,User Reviews Automated System
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.93,User Reviews Automated System
+All,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.6,User Reviews Automated System
+"Only for providers of hosting services, including online platforms",Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total
+"Only for providers of hosting services, including online platforms",Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,3421
+"Only for providers of hosting services, including online platforms",Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total
+"Only for providers of hosting services, including online platforms",Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total
+"Only for providers of hosting services, including online platforms",Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total
+Only for providers of online platforms,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger
+Only for providers of online platforms,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,123
+Only for providers of online platforms,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger
+Only for providers of online platforms,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger
+Only for providers of online platforms,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,8916
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,hr,4353
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,cs,14787
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,da,2729
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,nl,16840
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,en,48384
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,et,776
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,fi,4507
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,fr,68519
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,de,67058
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,el,11405
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,hu,18946
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,ga
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,it,47459
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,lv,2497
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,lt,3385
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,mt,2
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,pl,64506
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,pt,10904
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,ro,44728
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sk,5612
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sl,1153
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,es,51973
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,6676
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,bg,186
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,hr,131
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,cs,314
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,da,112
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,nl,440
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,en,9167
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,et,23
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,fi,104
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,fr,2122
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,de,1568
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,el,220
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,hu,372
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,ga,2
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,it,1102
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,lv,45
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,lt,73
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,mt,10
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,pl,1061
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,pt,369
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,ro,821
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sk,159
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sl,49
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,es,1529
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sv,262
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Accuracy,[...]
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Accuracy,sv
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Precision,bg
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Precision,sv
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Recall,bg
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Recall,[...]
+Only for VLOPs,Google Play,2026-01-01/2026-06-30,,Accuracy of the automated means - Recall,sv

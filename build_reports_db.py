@@ -63,20 +63,19 @@ _TEMPLATE_UNCLEAR = ("notice", "contact", "unverified", "unconfirmed",
                      "dsa info")
 _TEMPLATE_NARRATIVE = ("pdf", "html", "web", "legal page", "report + data")
 
-# Curated overrides (yes / no / partial / unknown). "partial" = the latest
-# (Feb 2026 / H2 2025) report uses the template though earlier ones were narrative
-# and the file was not directly verified.
+# Curated overrides (yes / no / partial / unknown). Current VLOP/VLOSE packages
+# have been verified against the harmonised Annex I files.
 TEMPLATE_OVERRIDES = {
-    "LinkedIn": "yes", "Pinterest": "yes", "Wikipedia": "yes",
-    "XVideos": "no", "XNXX": "no",
+    "AliExpress": "yes", "Amazon Store": "yes", "Apple App Store": "yes",
+    "Bing (VLOSE)": "yes", "Booking.com": "yes", "Facebook": "yes",
+    "Google Maps": "yes", "Google Multi-Services": "yes", "Google Play": "yes",
+    "Google Search (VLOSE)": "yes", "Google Shopping": "yes",
+    "Instagram": "yes", "LinkedIn": "yes", "Pinterest": "yes",
+    "Pornhub": "yes", "Shein": "yes", "Snapchat": "yes", "Temu": "yes",
+    "TikTok": "yes", "WhatsApp Channels": "yes", "Wikipedia": "yes",
+    "X (Twitter)": "yes", "XNXX": "yes", "XVideos": "yes", "YouTube": "yes",
+    "Zalando": "yes",
     "Civitai": "no",  # own annual report, not the EU Annex I template ("not DSA template")
-    "AliExpress": "partial", "Amazon Store": "partial", "Apple App Store": "partial",
-    "Booking.com": "partial", "Facebook": "partial", "Instagram": "partial",
-    "Snapchat": "partial", "TikTok": "partial", "X (Twitter)": "partial",
-    "YouTube": "partial", "Google Play": "partial", "Google Maps": "partial",
-    "Google Shopping": "partial", "Google Search (VLOSE)": "partial",
-    "Bing (VLOSE)": "partial", "Zalando": "partial", "Shein": "partial",
-    "Temu": "partial", "Pornhub": "partial",
     # Browser verification found only non-machine-readable report formats for
     # these sources. They are archived, but must not be advertised as Annex I
     # workbooks merely because their format text contains "CSV" or "template".

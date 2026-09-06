@@ -1,90 +1,90 @@
 Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,28307169,
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,2059689,
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.998 - 0.999,System level accuracy for Videos
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.98 - 0.98,System level accuracy for Comments
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.856 - 0.871,Automated Removal Precision
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0011 - 0.0013,Q3 Violative View Rate (VVR) for Videos
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0014 - 0.0015,Q4 Violative View Rate (VVR) for Videos
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0016 - 0.0021,H2 Violative View Rate (VVR) for Comments
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,28066848,
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,1881232,
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.998 - 0.999,System level accuracy for Videos
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.98 - 0.98,System level accuracy for Comments
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.856 - 0.871,Automated Removal Precision
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.0011 - 0.0013,Q3 Violative View Rate (VVR) for Videos
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.0014 - 0.0015,Q4 Violative View Rate (VVR) for Videos
-All,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.0016 - 0.0021,H2 Violative View Rate (VVR) for Comments
-"Only for providers of hosting services, including online platforms",YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,240321,
-"Only for providers of hosting services, including online platforms",YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,178440,
-"Only for providers of hosting services, including online platforms",YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
-"Only for providers of hosting services, including online platforms",YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
-"Only for providers of hosting services, including online platforms",YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
-Only for providers of online platforms,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,0,
-Only for providers of online platforms,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,84,
-Only for providers of online platforms,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
-Only for providers of online platforms,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
-Only for providers of online platforms,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,AT,632876,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,BE,1236592,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,BG,375631,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,HR,230845,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,CY,144221,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,CZ,618495,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,DK,570162,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,EE,159604,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,FI,595671,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,FR,3960036,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,DE,5039964,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,GR,593918,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,HU,336732,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,IE,791136,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,IT,2193872,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,LV,199983,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,LT,210336,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,LU,39107,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,MT,64080,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,NL,1918523,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,PL,1827610,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,PT,851917,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,RO,922752,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,SK,207294,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Number of measures solely taken by automated means ,SI,102851,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Number of measures solely taken by automated means ,ES,3053165,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Number of measures solely taken by automated means ,SE,1429796,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,AT,29170,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,BE,40696,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,BG,29173,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,HR,15217,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,CY,51976,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,CZ,50537,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,DK,24880,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,EE,10289,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,FI,33571,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,FR,253419,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,DE,359321,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,GR,35614,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,HU,29587,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,IE,32786,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,IT,189060,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,LV,19572,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,LT,23012,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,LU,2443,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,MT,16250,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,NL,136404,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,PL,208967,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,PT,45039,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,RO,130540,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,SK,17411,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,SI,7614,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ES,218083,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,SE,49058,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Accuracy,[...],,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Accuracy,sv,,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Precision,bg,,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Precision,sv,,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Recall,bg,,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Recall,[...],,
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,,Accuracy of the automated means - Recall,sv,,
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,34496297
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,1931541
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.998 - 0.999,System level accuracy for Videos
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.98 - 0.98,System level accuracy for Comments
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.874 - 0.896,Automated Removal Precision
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0017 - 0.0019,Q1 Violative View Rate (VVR) for Videos
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0015 - 0.0017,Q2 Violative View Rate (VVR) for Videos
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0013 - 0.0018,H1 Violative View Rate (VVR) for Comments
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,34244896
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,1760859
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.998 - 0.999,System level accuracy for Videos
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.98 - 0.98,System level accuracy for Comments
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.874 - 0.896,Automated Removal Precision
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.0017 - 0.0019,Q1 Violative View Rate (VVR) for Videos
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.0015 - 0.0017,Q2 Violative View Rate (VVR) for Videos
+All,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.0013 - 0.0018,H1 Violative View Rate (VVR) for Comments
+"Only for providers of hosting services, including online platforms",YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,251401
+"Only for providers of hosting services, including online platforms",YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,170659
+"Only for providers of hosting services, including online platforms",YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total
+"Only for providers of hosting services, including online platforms",YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total
+"Only for providers of hosting services, including online platforms",YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total
+Only for providers of online platforms,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,0
+Only for providers of online platforms,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,376
+Only for providers of online platforms,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger
+Only for providers of online platforms,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger
+Only for providers of online platforms,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,AT,790048
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,BE,1443452
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,BG,422962
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,HR,269365
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,CY,162998
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,CZ,722268
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,DK,683652
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,EE,182172
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,FI,683107
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,FR,5940854
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,DE,5840647
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,GR,793128
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,HU,454160
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,IE,898317
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,IT,2631061
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,LV,208292
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,LT,247080
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,LU,45197
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,MT,69376
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,NL,2051518
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,PL,2440457
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,PT,1032222
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,RO,1205517
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,SK,256445
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Number of measures solely taken by automated means ,SI,109123
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Number of measures solely taken by automated means ,ES,3353004
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Number of measures solely taken by automated means ,SE,1559875
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,AT,29329
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,BE,40969
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,BG,26019
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,HR,12890
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,CY,29119
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,CZ,43214
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,DK,45538
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,EE,11297
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,FI,23296
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,FR,263227
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,DE,318473
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,GR,31563
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,HU,27116
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,IE,35360
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,IT,191785
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,LV,14018
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,LT,20954
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,LU,2964
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,MT,11930
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,NL,102360
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,PL,244421
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,PT,36809
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,RO,121192
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,SK,14999
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,SI,6377
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,ES,172943
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,SE,53379
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Accuracy,[...]
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Accuracy,sv
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Precision,bg
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Precision,sv
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Recall,bg
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Recall,[...]
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,,Accuracy of the automated means - Recall,sv

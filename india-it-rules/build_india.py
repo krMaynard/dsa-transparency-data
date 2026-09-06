@@ -22,7 +22,8 @@ across sections) — the same discipline as the Snap/GitHub tidy-long tables.
 Covered publishers: **Facebook, Instagram** (Meta PDF), **Twitter/X**
 (CDN PDF), **Moj, ShareChat** (static HTML), **Roblox** (CDN PDF),
 **Google/YouTube** (static GCS-bucket PDF, all SSMI surfaces, Apr 2021 →), and
-**Pinterest** (one JSON-in-HTML page, all months). Snap and Telegram are excluded
+**Pinterest** (one JSON-in-HTML page, all months), and **Microsoft** (monthly
+PDFs, February 2024 →). Snap and Telegram are excluded
 (JS-rendered numbers / a login-gated bot); Reddit and Quora sit behind Cloudflare;
 WhatsApp (signed, expiring fbcdn links) is a planned fast-follow.
 
@@ -34,6 +35,7 @@ from __future__ import annotations
 
 import argparse
 import calendar
+import gzip
 import html
 import json
 import os
@@ -72,12 +74,13 @@ _GOOG = ("https://storage.googleapis.com/transparencyreport/report-downloads/"
 _GAC = ("https://storage.googleapis.com/transparencyreport/report-downloads/"
         "pdf-report-{slug}_en_v1.pdf")
 _PINT = "https://policy.pinterest.com/en/india-transparency-report"
+_MS = "https://go.microsoft.com/fwlink/?linkid={link_id}"
 
 
 def _google_months() -> list[tuple[int, int]]:
     """Every month Google has filed, April 2021 → the latest published (bump
     `end` as new reports land; Google publishes on a ~1-month lag)."""
-    start, end = (2021, 4), (2026, 5)
+    start, end = (2021, 4), (2026, 7)
     out, y, m = [], *start
     while (y, m) <= end:
         out.append((y, m))
@@ -142,6 +145,27 @@ SOURCES: list[tuple[str, str, str]] = [
     # the Next.js payload (grievance 'Reports' + proactive 'Voluntary actions', by
     # policy × object type). One archived HTML file; all periods parsed from it.
     ("pinterest-india-transparency.html", "pinterest", _PINT),
+    # Microsoft — monthly SSMI report.  The stable fwlink IDs come from
+    # Microsoft's jurisdictional-report index; the covered period is parsed
+    # from each PDF rather than trusted from this registry.
+    *[(f"microsoft-{ym}.pdf", "microsoft", _MS.format(link_id=link_id))
+      for ym, link_id in (
+        ("2024-02", 2264764), ("2024-03", 2265215),
+        ("2024-04", 2326445), ("2024-05", 2326444),
+        ("2024-06", 2326443), ("2024-07", 2326536),
+        ("2024-08", 2326644), ("2024-09", 2326643),
+        ("2024-10", 2326442), ("2024-11", 2326642),
+        ("2024-12", 2326641), ("2025-01", 2326640),
+        ("2025-02", 2326535), ("2025-03", 2316438),
+        ("2025-04", 2321487), ("2025-05", 2326440),
+        ("2025-06", 2330207), ("2025-07", 2333175),
+        ("2025-08", 2336200), ("2025-09", 2339064),
+        ("2025-10", 2343700), ("2025-11", 2346121),
+        ("2025-12", 2348306), ("2026-01", 2353933),
+        ("2026-02", 2358400), ("2026-03", 2361641),
+        ("2026-04", 2365271), ("2026-05", 2370069),
+        ("2026-06", 2373003), ("2026-07", 2378028),
+      )],
     # Google — Grievance Appellate Committee (GAC) appeals report under IT Rules
     # Rule 3A(7): user appeals the GAC closed, by Google service × outcome, filed
     # half-yearly (Mar 2023 →). A separate report/section from the monthly SSMI
@@ -702,6 +726,72 @@ def _parse_html_report(path: str, platform: str) -> tuple[str, list[list]]:
     return period, rows
 
 
+def _parse_microsoft(path: str) -> tuple[str, list[list]]:
+    """Parse Microsoft's monthly India SSMI summary and policy table.
+
+    The PDFs have used two visual layouts since February 2024, but both expose
+    the same two tables to pdfplumber.  After dropping blank layout cells, each
+    data row is simply ``label, complaints, complaint actions, proactive
+    actions``.  Totals are retained as a distinct summary section so they are
+    never accidentally mixed with the policy-category breakdown.
+    """
+    import pdfplumber
+
+    with pdfplumber.open(path) as pdf:
+        text = "\n".join(page.extract_text() or "" for page in pdf.pages)
+        tables = [table for page in pdf.pages for table in page.extract_tables()]
+
+    match = re.search(
+        r"(January|February|March|April|May|June|July|August|September|October|"
+        r"November|December)\s+1\s+(?:to|[-–—])\s+\1\s+\d{1,2},\s*(20\d{2})",
+        text,
+        re.I,
+    )
+    if not match:
+        raise SystemExit(f"{os.path.basename(path)}: cannot find reporting period")
+    period = f"{match.group(2)}-{_month_num(match.group(1)):02d}"
+
+    rows: list[list] = []
+    summary_found = False
+    policy_rows = 0
+    for table in tables:
+        for raw in table:
+            cells = [re.sub(r"\s+", " ", str(cell)).strip()
+                     for cell in raw if cell is not None and str(cell).strip()]
+            if len(cells) < 4:
+                continue
+            nums = [_int(cell) for cell in cells[1:]]
+            nums = [n for n in nums if n is not None]
+            if len(nums) < 3:
+                continue
+            label = cells[0]
+            complaints, complaint_actions, proactive_actions = nums[:3]
+            if re.search(r"20\d{2}", label):
+                if summary_found:
+                    continue
+                summary_found = True
+                for metric, value in (
+                    ("complaints_received", complaints),
+                    ("content_actioned_from_complaints", complaint_actions),
+                    ("content_actioned_proactively", proactive_actions),
+                ):
+                    rows.append(["Microsoft", period, "summary", "", metric, "count", value])
+            elif "content policy" not in label.lower() and "time period" not in label.lower():
+                policy_rows += 1
+                for metric, value in (
+                    ("complaints_received", complaints),
+                    ("content_actioned_from_complaints", complaint_actions),
+                    ("content_actioned_proactively", proactive_actions),
+                ):
+                    rows.append(["Microsoft", period, "content_policy", label,
+                                 metric, "count", value])
+    if not summary_found or policy_rows < 5:
+        raise SystemExit(
+            f"{os.path.basename(path)}: incomplete Microsoft parse "
+            f"(summary={summary_found}, policy rows={policy_rows})")
+    return period, rows
+
+
 # ── driver ────────────────────────────────────────────────────────────────────
 def _canon_categories(rows: list[list]) -> None:
     """pdfplumber preserves word spacing in some Meta PDFs and concatenates it in
@@ -739,6 +829,8 @@ def build(raw_dir: str) -> dict:
             period, r = _parse_google_gac(path)
         elif kind == "pinterest":
             period, r = _parse_pinterest(path)
+        elif kind == "microsoft":
+            period, r = _parse_microsoft(path)
         elif kind in ("moj", "sharechat"):
             platform = "Moj" if kind == "moj" else "ShareChat"
             period, r = _parse_html_report(path, platform)
@@ -754,7 +846,7 @@ def build(raw_dir: str) -> dict:
         "source": "https://www.meta.com/ + https://transparency.twitter.com/ + "
                    "https://help.mojapp.in/ + https://help.sharechat.com/ + "
                    "https://about.roblox.com/ + https://transparencyreport.google.com/ + "
-                   "https://policy.pinterest.com/",
+                   "https://policy.pinterest.com/ + https://www.microsoft.com/",
         "coverage": max(periods) if periods else None,
         "columns": COLUMNS,
         "rows": rows,
@@ -765,9 +857,16 @@ def _download(raw_dir: str) -> None:
     os.makedirs(raw_dir, exist_ok=True)
     for fname, _kind, url in SOURCES:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=120) as resp, \
-                open(os.path.join(raw_dir, fname), "wb") as f:
-            f.write(resp.read())
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            blob = resp.read()
+            # Pinterest began returning a gzip-encoded body without urllib
+            # transparently decoding it.  Archive the actual HTML, not the HTTP
+            # transfer representation.  The magic-byte check also covers
+            # intermediaries that omit Content-Encoding on the response.
+            if resp.headers.get("Content-Encoding", "").lower() == "gzip" or blob[:2] == b"\x1f\x8b":
+                blob = gzip.decompress(blob)
+        with open(os.path.join(raw_dir, fname), "wb") as f:
+            f.write(blob)
     print(f"downloaded {len(SOURCES)} reports -> {raw_dir}")
 
 

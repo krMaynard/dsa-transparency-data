@@ -1,6 +1,6 @@
 # DSA Transparency Data
 
-Archive of EU [Digital Services Act](https://eur-lex.europa.eu/eli/reg/2022/2065/oj) transparency reports for 33 services covering **H2 2025 (1 July – 31 December 2025)**, published February 2026. This covers every designated VLOP/VLOSE that reported for the period, plus lower-tier online platforms operated by VLOP parents (the non-VLOP Apple and Wikimedia services). Stripchat, designated in December 2023, was [de-designated in May 2025](https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses) and is therefore not included.
+Archive of EU [Digital Services Act](https://eur-lex.europa.eu/eli/reg/2022/2065/oj) transparency reports for 25 services covering **H1 2026 (1 January – 30 June 2026)**, published August 2026. This covers the designated VLOPs/VLOSEs with a current harmonised report available at refresh time. WhatsApp Channels is included following its designation; Wikipedia remains in the historical archive but is omitted from this snapshot because no H1 2026 edition was published by the refresh date. Stripchat, designated in December 2023, was [de-designated in May 2025](https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses) and is therefore not included.
 
 Each report follows the DSA Implementing Regulation [(EU) 2025/40](https://eur-lex.europa.eu/eli/reg_impl/2025/40/oj) template (tables 1–11). Files are stored in their original publisher format (CSV bundle, `.xlsx`, or `.xls`).
 
@@ -105,7 +105,7 @@ The network-dependent download/scrape scripts (`download_*.py`,
 
 ## convert.py
 
-`convert.py` flattens tables 3–11 from all 33 services into a single compact JSON file used by a separate dashboard project. It writes to `../krMaynard.github.io/data/vlop-dsa.json` by default — adjust `OUT_FILE` in the script if you want it elsewhere.
+`refresh_vlop.py` downloads and validates the current publisher files. `convert.py` then flattens tables 3–11 from all 25 services into the compact `vlop-dsa.json` file used by the API dashboard.
 
 ```
 python3 convert.py

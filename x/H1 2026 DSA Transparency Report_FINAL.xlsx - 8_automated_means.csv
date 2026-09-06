@@ -1,0 +1,51 @@
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,"15,728,416.00",
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,"2,168,086.00",
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,Validation pending
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.92,Precision reflects the percentage of automated removals of content that weren't overtuned following appeals.
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,Validation pending
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,"15,718,451.00",
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,"1,685,558.00",
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,Validation pending
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.92,Precision reflects the percentage of automated removals of content that weren't overtuned following appeals.
+All,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,Validation pending
+"Only for providers of hosting services, including online platforms",X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,"9,965.00",
+"Only for providers of hosting services, including online platforms",X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,"482,528.00",
+"Only for providers of hosting services, including online platforms",X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,Validation pending
+"Only for providers of hosting services, including online platforms",X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,0.99,
+"Only for providers of hosting services, including online platforms",X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,Validation pending
+Only for providers of online platforms,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,0,
+Only for providers of online platforms,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,"2,082",
+Only for providers of online platforms,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
+Only for providers of online platforms,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
+Only for providers of online platforms,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,de,"381,006.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,en,"6,648,277.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,es,"871,707.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,fr,"758,219.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,nl,"121,470.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,pt,"131,493.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,de,"208,128.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,en,"2,781,181.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,es,"334,241.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,fr,"487,075.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,nl,"68,885.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,pt,"54,764.00",
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,0.96,
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.90,
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,0.95,
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,0.95,
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,0.94,
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,0.96,
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,,Validation pending
+Only for VLOPs,X,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,,Validation pending

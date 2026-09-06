@@ -1,0 +1,145 @@
+Applicability,Service,Reporting period,Category of incompatibility with the provider's terms and conditions,"Description of the sub-category ""Other""",Number of measures taken at the provider's own initiative,Number of measures taken after detection with solely automated means,Visibility restriction Removal,Visibility restriction Disable,Visibility restriction Demoted,Visibility restriction Age restricted,Visibility restriction Interaction restricted,Visibility restriction Labelled,Visibility restriction Other,Monetary restriction Suspension,Monetary restriction Termination,Monetary restriction Other,Provision of the service Suspension,Provision of the service Termination,Account restriction Suspension,Account restriction Termination,Contextual Information on Number of measures taken at the provider's own initiative ,Contextual Information on Number of measures taken after detection with solely automated means ,Contextual Information on Visibility restriction Removal,Contextual Information on Visibility restriction Disable,Contextual Information on Visibility restriction Demoted,Contextual Information on Visibility restriction Age restricted,Contextual Information on Visibility restriction Interaction restricted,Contextual Information on Visibility restriction Labelled ,Contextual Information on Visibility restriction Other,Contextual Information on Monetary restriction Suspension,Contextual Information on Monetary restriction Termination,Contextual Information on Monetary restriction Other,Contextual Information on Provision of the service Suspension,Contextual Information on Provision of the service Termination,Contextual Information on Account restriction Suspension,Contextual Information on Account restriction Termination
+All,Pinterest,2026-01-01/2026-06-30,TOTAL,,"160,866,941","160,383,220","70,189,750","588,110","88,132,227","9,099",,,"28,093",,,,,,519,"1,919,143","This is the number of measures that have been taken at Pinterest's own initiative for violations of our Terms of Service. Own initiative means that the decision to impose a restriction on an account or content has not been preceded by an order from a Member State authority or a notice submitted through our European Union Illegal Content Reporting Form, including the IP reporting forms available through it.","This is the number of measures that were taken at Pinterest's own initiative using automated means. 
+
+More information about our automated means can be found in the ""qualitative description of the automated means"" section on 11_qualitative tab.","This restriction type includes deactivated boards, Pins and comments. When we deactivate content, that content is no longer available to anyone on the platform. Deactivation may also be referred to as “removal.”","This restriction type includes domain blocks, music mutes, ad rejections, and content or users blocked in territory.
+
+Domain blocks: We may block domains (links) that lead to content or are associated with content that may violate our policies.
+
+Music mutes: Pinterest works with a third-party partner to proactively and automatically identify audio that matches a file provided by a copyright holder to the third-party partner. When our third-party partner matches the digital signature of an audio file on Pinterest with a file in their library, the audio on the Pin is muted automatically. 
+
+Ad rejections: When an ad is rejected, it will not be shown to users. We may reject an ad before ever showing it to anyone, or after the campaign has already begun to run - for example, in response to a report from a user who saw the ad.
+
+Blocked in territory: We may restrict access to content within a relevant territory if it is determined to violate local law but does not violate our policies. The blocked in territory actions reported in this tab are limited to restrictions applied to content or accounts of users located in the EU, where the enforcement action was taken based on a violation of law outside the EU and its Member States.
+
+","This restriction type includes limited distribution of Pins, boards, and accounts. It also includes advertiser offboardings, merchant rejections and catalogue restrictions.
+
+Limiting distribution: When we limit the distribution of content, that content will continue to be accessible to the user who posted it, but it won’t be distributed through recommendation or discovery surfaces such as Pinterest search results or home feed.
+
+Advertiser offboarding: When we offboard an advertiser, they no longer have access to Pinterest’s advertising tools. This doesn’t affect their ability to use other, non-advertising Pinterest products.
+
+Catalogue restrictions: When we prevent the distribution of catalogues, they cannot be used in ads. When we limit the distribution of catalogues, they can only be allowed in ads if they comply with our Advertising Guidelines.","This restriction type includes ads limited approval solely or partially based on age.
+
+Limited approval: Limited approval means that an ad may run, but with restrictions - for example, it may only be shown to people over a certain age.
+",We have not mapped any enforcement types to this restriction category.,We have not mapped any enforcement types to this restriction category.,"This restriction type includes ads with limited approval based on any reason other than age. Limited approval means that an ad may run, but with restrictions - for example, it may only be shown to people in certain regions.",We have not mapped any enforcement types to this restriction category.,We have not mapped any enforcement types to this restriction category.,We have not mapped any enforcement types to this restriction category.,We have not mapped any enforcement types to this restriction category.,We have not mapped any enforcement types to this restriction category.,"This restriction type includes restrictions for copyright violations. When a user has received multiple complaints about certain copyright violations, we restrict the ability for the user to post and save content for 14 days so that they can audit their account and remove any further instances of infringement. This temporary restriction is applied manually and automatically lifts after the 14 day period; it acts as a final warning after which any further unrefuted claims of infringement on their account will result in account termination. 
+
+This restriction type also includes suspensions applied as a result of the  provision of manifestly unfounded complaints and notices.","This restriction type includes account deactivations.
+
+Any account, regardless of privacy settings, may be deactivated for violating our policies. When an account is deactivated, all of its Pins and boards are rendered unavailable. That means that if you search for them on Pinterest or click on an old link to their profile, that profile won’t show up anymore. Their Pins won’t appear anywhere on Pinterest and the deactivated user won’t be able to access their own Pins or boards, either.
+
+This restriction type also covers account deactivations imposed where a user frequently provides manifestly illegal content or repeatedly violates our policies."
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_ANIMAL_WELFARE,,"1,011,967","1,011,652","8,140",10,"1,003,817",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_ANIMAL_HARM,,"1,011,587","1,011,275","7,762",8,"1,003,817",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_UNLAWFUL_SALE_ANIMALS,,380,377,378,2,0,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_CONSUMER_INFORMATION,,"52,399","23,602",0,"32,983","19,390",1,,,25,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_HIDDEN_ADVERTISEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_INSUFFICIENT_INFORMATION_ON_TRADERS,,"27,108","19,281",0,"7,895","19,187",1,,,25,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_MISLEADING_INFO_GOODS_SERVICES,,"25,132","4,317",0,"25,088",44,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_MISLEADING_INFO_CONSUMER_RIGHTS,,114,1,0,0,114,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_NONCOMPLIANCE_PRICING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Advertising and Merchant Guidelines related to incomplete registrations and those specific to return timelines. Additionally, it includes violations of our Unacceptable Business Practices guidelines related to the promotion of certain products, services or business models that are prohibited.",45,3,0,0,45,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_CYBER_VIOLENCE,,"4,478,619","4,469,048","1,592,450",0,"2,886,093",0,,,0,,,,,,0,76,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CYBER_BULLYING_INTIMIDATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CYBER_HARASSMENT,,"3,526,102","3,517,285","1,068,402",0,"2,457,637",0,,,0,,,,,,0,63,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CYBER_INCITEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CYBER_STALKING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_NON_CONSENSUAL_IMAGE_SHARING,,"503,399","503,193","503,385",0,1,0,,,0,,,,,,0,13,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE,,"449,118","448,570","20,663",0,"428,455",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_CYBER_VIOLENCE_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_BULLYING_AGAINST_GIRLS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CYBER_HARASSMENT_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CYBER_STALKING_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_FEMALE_GENDERED_DISINFORMATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_INCITEMENT_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_NON_CONSENSUAL_IMAGE_SHARING_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_DATA_PROTECTION_AND_PRIVACY_VIOLATIONS,,"464,310","436,227","463,983",0,182,0,,,0,,,,,,0,145,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_BIOMETRIC_DATA_BREACH,,"240,723","237,698","240,723",0,0,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_DATA_FALSIFICATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_MISSING_PROCESSING_GROUND,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_RIGHT_TO_BE_FORGOTTEN,,"131,767","108,212","131,767",0,0,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our private information policy, regarding content or behavior that reveals personally identifiable information or other sensitive information, including:
+- Personal identity documents and information, such as social security (SSNs), national identity numbers, passport information, or other government-issued IDs
+- Private contact information such as residential addresses, email addresses, and phone numbers.
+- Health and medical records or other health-related data.
+- Online login information or account authentication data such as usernames, passwords, security questions and answers.
+- Personal financial information, such as credit card or bank account numbers, or any financial account details.
+- Other private information considered personal or confidential.","91,820","90,317","91,493",0,182,0,,,0,,,,,,0,145,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,,"5,174,632","5,165,443","20,834",0,"5,153,655",0,,,0,,,,,,0,143,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_DEFAMATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_DISCRIMINATION,,"177,588","177,336",654,0,"176,934",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_HATE_SPEECH,,"4,997,044","4,988,107","20,180",0,"4,976,721",0,,,0,,,,,,0,143,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_INTELLECTUAL_PROPERTY_INFRINGEMENTS,,"8,573,796","8,533,003","8,198,578","373,905",379,0,,,0,,,,,,499,435,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_COPYRIGHT_INFRINGEMENT,,"8,559,185","8,531,755","8,186,852","371,614",4,0,,,0,,,,,,498,217,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_DESIGN_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_GEOGRAPHIC_INDICATIONS_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_PATENT_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_TRADE_SECRET_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_TRADEMARK_INFRINGEMENT,,"14,611","1,248","11,726","2,291",375,0,,,0,,,,,,1,218,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_NEGATIVE_EFFECTS_ON_CIVIC_DISCOURSE_OR_ELECTIONS,,"223,821","163,063","64,293",476,"159,045",0,,,0,,,,,,0,7,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_MISINFORMATION_DISINFORMATION,,"163,700","163,040","4,651",0,"159,042",0,,,0,,,,,,0,7,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_VIOLATION_EU_LAW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_VIOLATION_NATIONAL_LAW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,This subcategory encompasses violations of our Advertising and Merchant Guidelines related to political campaigning and products.,"60,121",23,"59,642",476,3,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_PROTECTION_OF_MINORS,,"2,899,248","2,874,671","2,656,569",960,"191,606","2,176",,,0,,,,,,0,"47,937",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_AGE_SPECIFIC_RESTRICTIONS_MINORS,,"32,840","30,040",0,960,0,"2,176",,,0,,,,,,0,"29,704",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL,,"148,464","146,911","144,198",0,0,0,,,0,,,,,,0,"4,266",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL_DEEPFAKE,,"33,184","32,444","33,098",0,0,0,,,0,,,,,,0,86,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_GROOMING_SEXUAL_ENTICEMENT_MINORS,,"13,108","13,050","13,108",0,0,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_UNSAFE_CHALLENGES,,"173,281","173,115","172,539",0,742,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations from our Community Guidelines, specifically under our child safety policy, regarding any content that contributes to the sexualization of minors.
+
+It also covers violations of our Community Guidelines under our prohibited and regulated goods policy related to substances or weapons use by minors.","2,498,371","2,479,111","2,293,626",0,"190,864",0,,,0,,,,,,0,"13,881",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_RISK_FOR_PUBLIC_SECURITY,,"77,558","72,534","67,565","6,313","3,570",1,,,8,,,,,,0,101,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_ILLEGAL_ORGANIZATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_RISK_ENVIRONMENTAL_DAMAGE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_RISK_PUBLIC_HEALTH,,"6,322","3,003",0,"6,313",0,1,,,8,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_TERRORIST_CONTENT,,"66,878","65,189","63,625",0,"3,152",0,,,0,,,,,,0,101,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines related to the distribution of content and accounts that encourage, belong to, impersonate, praise, promote, or provide aid to dangerous actors or groups and their activities. This includes violent extremists.","4,358","4,342","3,940",0,418,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,,"2,024,753","2,010,729","15,223",666,"142,109",0,,,0,,,,,,0,"1,866,755",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_IMPERSONATION_ACCOUNT_HIJACKING,,"5,492","3,883","5,492",0,0,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_INAUTHENTIC_ACCOUNTS,,"2,910",53,0,0,"2,170",0,,,0,,,,,,0,740,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_INAUTHENTIC_LISTINGS,,"4,486",49,0,0,"4,442",0,,,0,,,,,,0,44,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_INAUTHENTIC_USER_REVIEWS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_PHISHING,,1,0,0,0,0,0,,,0,,,,,,0,1,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_PYRAMID_SCHEMES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our spam policy and prohibited and regulated goods, services, and activities policy, related to trends and attacks, spammy behavior in on-platform activity, off-platform violations (links, redirect paths), and domain attributes. 
+
+It also includes violations of our Merchant Guidelines related to product quality, price, delivery times and return processes.","2,011,864","2,006,744","9,731",666,"135,497",0,,,0,,,,,,0,"1,865,970",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_SELF_HARM,,"13,381,048","13,347,896","11,423,114","14,379","1,943,075",0,,,0,,,,,,0,480,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_CONTENT_PROMOTING_EATING_DISORDERS,,"4,767,406","4,751,059","4,672,354","14,379","80,673",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_SELF_MUTILATION,,"3,813,265","3,811,606","2,833,449",0,"979,816",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_SUICIDE,,"4,504,040","4,502,297","3,736,145",0,"767,895",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our self-injury and harmful behavior policy, that aren’t already covered in the above categories.","296,337","282,934","181,166",0,"114,691",0,,,0,,,,,,0,480,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_UNSAFE_AND_PROHIBITED_PRODUCTS,,"2,938,564","2,870,177","1,138,512","47,879","1,739,676","6,838",,,"5,360",,,,,,0,299,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_PROHIBITED_PRODUCTS,,"567,127","538,186","346,356","24,784","192,144","3,528",,,303,,,,,,0,12,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_UNSAFE_PRODUCTS,,"822,803","802,428","734,237","5,576","79,410","3,293",,,0,,,,,,0,287,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our prohibited and regulated goods, services and activities policy and our violence and threats policy related to exploitative financial practices including get-rich-quick schemes and glorification of illegal drug or weapon use.
+
+This category also includes violations of our Advertising Guidelines that don’t fit into other subcategories.
+","1,548,634","1,529,563","57,919","17,519","1,468,122",17,,,"5,057",,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_VIOLENCE,,"25,195,002","25,178,356","457,129",0,"24,737,722",0,,,0,,,,,,0,151,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_COORDINATED_HARM,,29,26,29,0,0,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_INCITEMENT_VIOLENCE_HATRED,,"8,432,764","8,425,244","52,548",0,"8,380,209",0,,,0,,,,,,0,7,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_HUMAN_EXPLOITATION,,0,0,0,0,0,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_HUMAN_TRAFFICKING,,"2,100","2,094","2,099",0,0,0,,,0,,,,,,0,1,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_TRAFFICKING_WOMEN_GIRLS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Community Guidelines, specifically under our violence and threats and violent actors policies, including content that shows the use of violence and content showing or purporting to show disturbing scenes from before, during, or after violent events.
+
+This subcategory also includes violations of our Merchant and Advertising Guidelines related to sensitive content.","16,760,109","16,750,992","402,453",0,"16,357,513",0,,,0,,,,,,0,143,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,STATEMENT_CATEGORY_OTHER_VIOLATION_TC,,"94,371,224","94,226,819","44,083,360","110,539","50,151,908",83,,,"22,700",,,,,,20,"2,614",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_ADULT_SEXUAL_MATERIAL,,"90,094,571","90,017,692","42,913,995","17,152","47,160,788",22,,,0,,,,,,0,"2,614",,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_AGE_SPECIFIC_RESTRICTIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_GEOGRAPHICAL_REQUIREMENTS,,18,1,0,0,18,0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_GOODS_SERVICES_NOT_PERMITTED,,"2,280",84,53,7,"2,220",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_LANGUAGE_REQUIREMENTS,,"45,132","19,869",0,"22,432",0,0,,,"22,700",,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_NUDITY,,"4,130,433","4,122,228","1,151,348","3,520","2,975,565",0,,,0,,,,,,0,0,,,,,,,,,,,,,,,,
+All,Pinterest,2026-01-01/2026-06-30,KEYWORD_OTHER,"This subcategory encompasses violations of our Advertising and Merchant Guidelines related to standards we set for the editorial quality of advertising on Pinterest.
+
+It also includes violations of our Terms of Services related to users who abuse our notices or complaints channels by repeatedly submitting clearly unfounded notices or complaints.
+
+Additionally, this subcategory includes enforcement actions taken against content or accounts of users located in the EU, where the enforcement action is based on a violation of law outside the EU and its Member States.","98,790","66,945","17,964","67,428","13,317",61,,,0,,,,,,20,0,,,,,,,,,,,,,,,,

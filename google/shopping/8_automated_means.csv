@@ -1,150 +1,141 @@
 Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,913352091,"Google Shopping metrics reflect content moderation actions taken on both unpaid content (e.g., free listings) and advertisements. This note applies to relevant metrics on this tab."
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,1259542052,
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,913352091,
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,1259541514,
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,1,Google Shopping Automated Classification System
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9987,Google Shopping Automated Classification System
-All,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,1,Google Shopping Automated Classification System
-"Only for providers of hosting services, including online platforms",Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,1103,
-"Only for providers of hosting services, including online platforms",Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
-Only for providers of online platforms,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,1,
-Only for providers of online platforms,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,5589,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hr,43,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,cs,1029051,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,da,135165,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,nl,432479,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,en,13712137,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,et,391,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fi,27485,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fr,2082084,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,de,13772901,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,el,110423,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hu,453096,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ga,1,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,it,3095644,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lv,155,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lt,60,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,mt,3,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pl,317844,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pt,127242,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ro,321415,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sk,324337,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sl,35,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,es,769831,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,92369,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,3,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hr,1,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,cs,9837,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,da,2666,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,nl,1055790,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,en,1485237,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,et,1,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fi,2892,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fr,1174157,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,de,7280295,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,el,33,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hu,44165,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ga,,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,it,2807051,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lv,,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lt,1,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,mt,,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pl,79275,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pt,2882,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ro,69650,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sk,8812,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sl,,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,es,372334,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,13664,
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,AT,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,BE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,BG,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,HR,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,CY,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,CZ,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,DK,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,EE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,FI,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,FR,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,DE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,GR,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,HU,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,IE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,IT,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,LV,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,LT,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,LU,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,MT,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NL,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,PL,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,PT,0.9998,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,RO,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,SK,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,SI,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ES,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,SE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,AT,0.9997,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,BE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,BG,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,HR,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,CY,0.9996,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,CZ,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,DK,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,EE,0.9998,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,FI,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,FR,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,DE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,GR,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,HU,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,IE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,IT,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,LV,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,LT,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,LU,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,MT,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NL,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,PL,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,PT,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,RO,0.9998,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,SK,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,SI,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ES,0.9998,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,SE,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,AT,0.9924,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,BE,0.9997,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,BG,0.9971,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,HR,0.9992,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,CY,0.9892,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,CZ,0.9978,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,DK,0.9989,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,EE,0.9994,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,FI,0.9978,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,FR,0.999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,DE,0.9988,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,GR,0.9982,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,HU,0.9992,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,IE,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,IT,0.9997,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,LV,1,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,LT,0.9986,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,LU,0.9994,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,MT,0.9996,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NL,0.9984,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,PL,0.9993,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,PT,0.9998,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,RO,0.9999,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,SK,0.9991,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,SI,0.9983,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ES,0.996,Google Shopping Automated Classification System
-Only for VLOPs,Google Shopping,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,SE,0.9996,Google Shopping Automated Classification System
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,640935582,"Google Shopping metrics reflect content moderation actions taken on both unpaid content (e.g., free listings) and advertisements. This note applies to relevant metrics on this tab."
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,1055125058
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,640935582
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,1055123955
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,1,Google Shopping Automated Classification System
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9987,Google Shopping Automated Classification System
+All,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,1,Google Shopping Automated Classification System
+"Only for providers of hosting services, including online platforms",Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total
+"Only for providers of hosting services, including online platforms",Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,2807
+"Only for providers of hosting services, including online platforms",Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total
+"Only for providers of hosting services, including online platforms",Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total
+"Only for providers of hosting services, including online platforms",Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total
+Only for providers of online platforms,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger
+Only for providers of online platforms,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,3
+Only for providers of online platforms,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger
+Only for providers of online platforms,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger
+Only for providers of online platforms,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,14720
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,hr,95
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,cs,851003
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,da,343569
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,nl,635144
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,en,27789804
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,et,699
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,fi,37677
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,fr,1161801
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,de,9093133
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,el,244118
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,hu,146754
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,ga,1
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,it,2620485
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,lv,188
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,lt,135
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,mt,29
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,pl,368286
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,pt,237627
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,ro,82861
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sk,139719
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sl,54
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,es,626634
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,130827
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,bg,4
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,hr,1
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,cs,12917
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,da,62278
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,nl,572033
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,en,1034368
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,et,1
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,fi,5519
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,fr,2914861
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,de,11424344
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,el,73
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,hu,1258
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,ga
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,it,2915136
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,lv,2
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,lt,1
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,mt
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,pl,127071
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,pt,4628
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,ro,1995
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sk,1423
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sl,2
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,es,1366663
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sv,19343
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.9998,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.9998,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.9999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,0.9996,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,0.9957,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,0.9913,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,0.9943,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.999,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,0.9708,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,0.9978,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,0.9989,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,0.9995,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,0.991,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,0.9979,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,0.9994,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,0.9984,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,1,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,0.9983,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,0.9985,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,0.9929,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,0.9946,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,0.9984,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,0.9988,Google Shopping Automated Classification System
+Only for VLOPs,Google Shopping,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,0.9975,Google Shopping Automated Classification System

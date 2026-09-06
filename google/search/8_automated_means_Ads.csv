@@ -1,36 +1,36 @@
 Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,32221309,
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,38008277,
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,32221309,
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,38008277,
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.9727,Google Ads Safety Automated Classification System
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9412,Google Ads Safety Automated Classification System
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.998,Google Ads Safety Automated Classification System
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,42131524
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,24463201
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,42131524
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,24463201
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.9832,Google Ads Safety Automated Classification System
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.967,Google Ads Safety Automated Classification System
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.9988,Google Ads Safety Automated Classification System
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv

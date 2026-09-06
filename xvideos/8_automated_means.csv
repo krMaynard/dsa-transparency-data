@@ -1,427 +1,516 @@
-Applicability,Service,"Reporting period",Section,Indicator,Scope,Value,"Contextual Information",Column1
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number",229270,,
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number",35949,13568,
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.8937,"Vercucy (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.095,"Vercucy (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.0106,"Vercucy (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.8934,"Safer (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.75,"Safer (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.001,"Safer (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.8696,"GoogleSafety (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.0435,"GoogleSafety (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.001,"GoogleSafety (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.3206,"GoogleSafety (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.0551,"GoogleSafety (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.0057,"GoogleSafety (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.4947,"Hive (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.0078,"Hive (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0.0109,"Hive (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","Total number",0.0337,"Hive (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","Total number",0.0049,"Hive (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","Total number",0,"Hive (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means",Own-initiative,229270,,
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means",Own-initiative,13568,,
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.8937,"Vercucy (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.095,"Vercucy (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.0106,"Vercucy (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.8934,"Safer (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.75,"Safer (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.001,"Safer (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.8696,"GoogleSafety (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.0435,"GoogleSafety (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.001,"GoogleSafety (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.3206,"GoogleSafety (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.0551,"GoogleSafety (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.0057,"GoogleSafety (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.4947,"Hive (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.0078,"Hive (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0.0109,"Hive (videos)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",Own-initiative,0.0337,"Hive (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",Own-initiative,0.0049,"Hive (images)",
-All,XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",Own-initiative,0,"Hive (images)",
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","NAM Total",0,,
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","NAM Total",22381,,
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","NAM Total",,"Not applicable",
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","NAM Total",,"Not applicable",
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","NAM Total",,"Not applicable",
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","NAM Trusted Flagger",0,,
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","NAM Trusted Flagger",0,,
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy","NAM Total",,"Not applicable",
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision","NAM Total",,"Not applicable",
-"Only for providers of hosting services, including online platforms",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall","NAM Total",,"Not applicable",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: es",36147,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: fr",19168,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: pt",9710,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: en",81896,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: de",6487,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: da",480,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: it",10626,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: pl",4151,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: ro",4856,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: cs",1195,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: nl",3895,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: hr",522,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: fi",1167,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: hu",1626,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: lt",99,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: sv",1800,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: sl",87,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: el",661,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: bg",1657,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: ga",50,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: et",26,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: sk",240,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: mt",1448,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures solely taken by automated means","Total number: lv",58,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: en",15517,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: cs",299,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: de",1277,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: pt",1328,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: et",18,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: es",4448,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: ro",279,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: sv",119,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: it",1155,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: pl",1249,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: fr",2741,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: nl",520,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: fi",62,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: da",67,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: hu",273,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: mt",8,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: sk",55,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: lt",16,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: sl",23,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: hr",36,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: bg",46,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: el",82,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: lv",11,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Number of measures not taken by automated means","Total number: ga",11,,
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0.5682,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.5375,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0.6105,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.7776,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0.3553,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.9366,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.6789,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0.2059,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.6912,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.8957,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ga,0.625,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hr,0.3284,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.5212,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.7283,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lt,0.4643,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0.2679,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",mt,0.75,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.6266,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.4602,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.6443,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.712,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sk,0.541,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0.5556,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.628,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",cs,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",da,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.0717,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0.2,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",et,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0.0909,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",it,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",nl,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pt,0.1,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ro,1,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sv,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",cs,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",da,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",el,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.0092,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0.0432,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",et,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fi,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0.0195,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ga,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lv,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",nl,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pt,0.0256,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0.0118,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sl,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sv,0,"Vercucy (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0.5556,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.508,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0.6346,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.7658,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0.3784,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.915,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.6734,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0.1692,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.7083,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.9621,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ga,0.5833,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hr,0.3333,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.5171,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.7502,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lt,0.3571,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0.2712,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",mt,0.7143,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.6004,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.434,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.6448,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.6978,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sk,0.5079,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0.5862,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.6061,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,1,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0.6667,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",cs,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",da,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",el,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.0011,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0.0108,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",et,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fi,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ga,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lv,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",nl,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pt,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sl,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sv,0,"Safer (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0.5778,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.538,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0.5679,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.7282,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0.3784,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.893,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.5435,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0.1563,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.6667,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.9635,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ga,0.4706,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hr,0.3529,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.5137,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.7046,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lt,0.4231,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0.2545,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",mt,0.7619,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.6273,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.4471,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.5326,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.6913,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sk,0.5333,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0.5185,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.6042,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",cs,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.0472,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",it,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",nl,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ro,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sl,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",cs,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",da,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",el,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.0013,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",et,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fi,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ga,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lv,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",nl,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pt,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sl,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sv,0,"GoogleSafety (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0.4849,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.3808,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0.2474,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.3156,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0.1747,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.4034,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.264,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",et,0.5385,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.297,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.2061,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ga,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hr,0.433,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.2247,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.2211,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lt,0.5714,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0.25,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",mt,0.7905,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.1945,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.4469,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.3074,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.6246,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sk,0.5015,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sl,0.913,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.2837,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",bg,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",cs,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",da,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.0667,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0.0333,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0.1667,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",it,0.3636,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",nl,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pt,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ro,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.0385,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0.0588,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,1,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,1,"GoogleSafety (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",bg,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0.5,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",da,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.4,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",el,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.5781,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.3786,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fi,0.5,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.4545,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.2917,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.2857,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.2667,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.2609,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",ro,0.3,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",sv,0.25,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",bg,0.04,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",cs,0.0315,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",da,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0.0065,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",el,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0.0059,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0.017,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",et,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fi,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0.0256,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ga,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hr,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",it,0.0095,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",lt,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",lv,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",mt,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",nl,0.0053,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0.0074,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pt,0.0257,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ro,0.021,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sk,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sl,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sv,0.0185,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0.0294,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",cs,0.015,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",da,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0.0077,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",el,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0.013,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0.0063,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",et,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fi,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0.0135,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ga,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0.0057,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lv,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",mt,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",nl,0.0034,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0.0036,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pt,0.0071,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0.0085,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sl,0,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sv,0.0069,"Hive (videos)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",cs,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",de,0.0743,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",en,0.0148,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",es,0.379,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",fr,0.0131,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",hu,0.0133,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",it,0.0178,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",lv,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",nl,0.318,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pl,0.2571,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Accuracy",pt,0.0128,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",bg,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",cs,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",da,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",de,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",el,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",en,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",es,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fi,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",fr,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hr,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",hu,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",it,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",lt,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",mt,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",nl,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pl,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",pt,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",ro,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sk,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sl,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Precision",sv,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",bg,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",cs,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",da,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",de,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",el,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",en,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",es,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",et,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fi,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",fr,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hr,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",hu,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",it,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lt,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",lv,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",nl,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pl,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",pt,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",ro,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sk,0,"Hive (images)",
-"Only for VLOPs",XVIDEOS.COM,2025-07-01/2025-12-31,"Use of automated means for content moderation","Accuracy of the automated means - Recall",sv,0,"Hive (images)",
+Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number,"171,250",
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,"26,390",
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.9305,Vercucy (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.1347,Vercucy (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0141,Vercucy (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.8244,Safer (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.4000,Safer (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0004,Safer (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.0000,OffLimit (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.0000,OffLimit (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0000,OffLimit (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.9437,StopNcii (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,1.0000,StopNcii (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0040,StopNcii (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.8916,GoogleSafety (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.0571,GoogleSafety (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0004,GoogleSafety (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.3440,GoogleSafety (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.2759,GoogleSafety (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0143,GoogleSafety (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.2508,Hive (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.0553,Hive (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0464,Hive (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,0.0058,Hive (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,0.0008,Hive (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,0.0000,Hive (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Own-initiative,"171,250",
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative,"17,378",
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.9305,Vercucy (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.1347,Vercucy (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0141,Vercucy (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.8244,Safer (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.4000,Safer (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0004,Safer (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.0000,OffLimit (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.0000,OffLimit (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0000,OffLimit (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.9437,StopNcii (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,1.0000,StopNcii (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0040,StopNcii (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.8916,GoogleSafety (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.0571,GoogleSafety (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0004,GoogleSafety (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.3440,GoogleSafety (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.2759,GoogleSafety (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0143,GoogleSafety (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.2508,Hive (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.0553,Hive (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0464,Hive (videos)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative,0.0058,Hive (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative,0.0008,Hive (images)
+All,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative,0.0000,Hive (images)
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,NAM Total,0,
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,NAM Total,"9,012",
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,Not applicable
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,Not applicable
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,Not applicable
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,NAM Trusted Flagger,0,
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,NAM Trusted Flagger,0,
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,Not applicable
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,Not applicable
+"Only for providers of hosting services,  including online platforms",XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,Not applicable
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: en,"51,700",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: cs,"1,283",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: es,"35,664",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: de,"5,525",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: ro,"3,067",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: hu,"1,190",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: pl,"4,347",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: it,"7,982",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: pt,"8,737",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: fr,"14,829",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: nl,"3,152",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: sv,"1,535",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: el,614,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: mt,326,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: et,81,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: bg,"3,808",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: sk,728,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: da,399,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: hr,426,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: fi,"1,442",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: lt,77,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: lv,99,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: ga,40,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,Total number: sl,68,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: en,"13,583",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: es,"2,352",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: nl,308,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: fr,"1,620",
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: it,629,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: pt,832,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: de,718,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: sk,27,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: sv,122,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: lv,13,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: pl,580,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: cs,204,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: hu,94,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: bg,36,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: mt,14,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: da,35,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: hr,18,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: ro,144,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: fi,35,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: el,50,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: ga,4,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: et,9,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: sl,7,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number: lt,12,
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,0.4878,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.8031,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.6757,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.8437,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.3818,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.9612,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.7700,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,0.6429,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,0.6818,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.8052,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,0.8333,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,0.7931,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,0.6457,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.7432,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,0.6923,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,0.6923,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,0.6154,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.6888,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,0.5828,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.7568,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.7548,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.8269,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,0.6250,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.6875,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.1301,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,0.1600,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,0.0714,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,0.1667,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,0.3333,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.0197,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0077,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0031,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0088,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0323,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.0000,Vercucy (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,0.4595,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.6991,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.5538,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.7514,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.3774,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.8493,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.7004,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,0.6400,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,0.5806,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.6799,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,0.7000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,0.7619,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,0.5926,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.7132,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,0.6154,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,0.7000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,0.5000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.6083,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,0.5115,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.6936,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.6588,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.6522,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,0.6923,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.5932,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.4000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.0008,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.0000,Safer (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.0000,OffLimit (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,0.8000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.8992,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.7179,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.8904,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.5161,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.9699,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.8019,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,0.6667,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,0.7500,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.7734,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,0.7143,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,0.8667,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,0.6311,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.7675,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,0.5000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,0.7778,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,0.6667,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.6858,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,0.6284,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.7925,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.8772,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.7407,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,0.7500,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.7679,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.0000,StopNcii (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,0.5263,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.7932,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.6912,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.8143,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.3818,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.9382,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.6980,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,0.6429,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,0.6970,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.6630,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,0.8750,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,0.7778,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,0.6379,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.7503,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,0.6923,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,0.6923,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,0.6154,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.6757,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,0.5762,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.7292,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.7380,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.8298,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,0.6000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.6667,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.0370,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.0004,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.0000,GoogleSafety (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,0.2625,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.3589,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.3615,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.3418,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.1422,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.4008,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.3340,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,0.4712,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.2307,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,0.0776,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,0.7198,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,0.3910,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.2151,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,0.6983,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,0.0404,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.2983,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,0.3217,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.3178,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.6568,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.5253,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,0.7778,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.1245,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.6667,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.2000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0000,GoogleSafety (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,0.5000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,0.4286,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,0.6667,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.2258,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.2934,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.1748,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.1224,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,0.4000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,0.4545,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.2051,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,0.5000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,0.1216,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,0.1625,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.1753,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.5167,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,0.5000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.1176,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,0.2857,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,0.2564,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,0.0208,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,0.0579,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.0444,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,0.1221,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,0.1333,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,0.5000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,0.1563,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,0.0850,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,0.1250,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,0.1639,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,0.1043,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,0.1000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,0.0476,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,0.1053,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.0704,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.0110,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,0.0198,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.0535,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0384,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0440,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,0.1538,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.0575,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0340,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0526,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.0380,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.0284,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0571,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,0.0000,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.0078,Hive (videos)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,0.5000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,0.0146,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,0.0017,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,0.0043,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,0.0095,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,0.0435,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,0.0075,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,0.0001,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,0.0000,Hive (images)
+Only for VLOPs,XVIDEOS.COM,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,0.0000,Hive (images)

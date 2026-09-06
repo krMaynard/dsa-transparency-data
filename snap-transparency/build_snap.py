@@ -47,6 +47,12 @@ SOURCES = {
     "2024-H2": ("Snap_Transparency_Report_H2-2024.csv",
                 "https://assets.ctfassets.net/kw9k15zxztrs/59JIr8caki5HjwkGRXXY2u/"
                 "9a009d4ee87d0217cc2e1bc8421a3f5b/Snap_Transparency_Report_H2-2024.csv"),
+    "2025-H1": ("Snap_Transparency_Report_H1-2025.csv",
+                "https://assets.ctfassets.net/kw9k15zxztrs/sRDtYERK1G2zbOpkRdJd8/"
+                "9f770e5a45b3f25bc9f6005cb97eff1c/Snap_Transparency_Report_H1-2025.csv"),
+    "2025-H2": ("Snap_Transparency_Report_H2-2025.csv",
+                "https://assets.ctfassets.net/kw9k15zxztrs/1ncoOGYz2vNUyyTly55DhF/"
+                "59a0a20ff9205a44540f8ca1666ba131/Snap_Transparency_Report_H2-2025.csv"),
 }
 
 

@@ -1,5 +1,5 @@
 Applicability,Service,Reporting period,Indicator,Value
-All,Google Search,2025-07-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"Across all products and services, we set clear policies for what is and is not acceptable on our platforms. These policies aim to ensure a safe and positive experience for our users and observe a high standard of quality and reliability for advertisers, publishers, and content creators alike. 
+All,Google Search,2026-01-01/2026-06-30,Summary of the content moderation engaged in at the providers’ own initiative,"Across all products and services, we set clear policies for what is and is not acceptable on our platforms. These policies aim to ensure a safe and positive experience for our users and observe a high standard of quality and reliability for advertisers, publishers, and content creators alike. 
 
 Content policies establish the rules of the road for what content can be created, uploaded, sent, shared, and monetised. These policies are used to guide content moderation and enforcement actions on our products. They also play an important role in maintaining a positive experience for everyone on our platforms no matter where they are in the world. 
 
@@ -19,7 +19,7 @@ Google services are wide-ranging and differ in their user bases, content hosted,
 
 In some cases, restriction of monetisation, by itself, is not an applicable enforcement action for a service, however, a different enforcement action (e.g., restriction of provision of the service) may prevent features from being monetised.
 
-Google considers 'measures' as actions taken on moderated videos, URLs, listings, accounts, and other content types, which are of a policy-violative nature or are delisted as a result of applicable law. Where feasible, the categories and sub-categories identified by the European Commission are used to group and report enforcement actions. However, some policies do not fully align with these sub-categories, and are thus reported using additional sub-categories (i.e. using the KEYWORD_OTHER option provided by the European Commission). For relevant services, we separately present metrics relating to advertisements impressed on those services (on the 6_own_initiative_Ads tab). While intermediary services are out-of scope for Art 15(1)b, actions taken on a legal basis in response to legal notices received about intermediary service content are reported under Art 15(1)c for completeness. Finally, metrics on actions taken that impact multiple Google services are included in the Multi-Services report. 
+Google considers 'measures' as actions taken on moderated videos, URLs, listings, accounts, and other content types, which are of a policy-violative nature or are delisted as a result of applicable law. Where feasible, the categories and sub-categories identified by the European Commission are used to group and report enforcement actions. However, some policies do not fully align with these sub-categories, and are thus reported using additional sub-categories (i.e. using the KEYWORD_OTHER option provided by the European Commission). For relevant services, we separately present metrics relating to advertisements impressed on those services (on the 6_own_initiative_Ads tab). While intermediary services are out-of-scope for Art 15(1)(b), actions taken on a legal basis in response to legal notices received about intermediary service content are reported under Art 15(1)(c) for completeness. Finally, metrics on actions taken that impact multiple Google services are included in the Multi-Services report. 
 
 For more information, see:
 - Google Transparency Center: https://transparency.google/our-policies/product-terms/
@@ -37,7 +37,7 @@ Google Search has a unique challenge in reporting a single level of granularity 
 - Profile Level Suspensions: Number of individual profiles suspended due to legal or policy violations.
 - Review Level Actions: Number of individual reviews taken action on due to policy violations.
 
-From this report onwards, Google Search is updating the reporting granularity from Incident Level Actions to Entity Level Actions. This is possible due to infrastructure upgrades, which allow systematic tracking of enforcement actions taken on unique entities rather than raw incident volumes. 
+From the February 2026 report onwards, Google Search is updating the reporting granularity from Incident Level Actions to Entity Level Actions. This is possible due to infrastructure upgrades, which allow systematic tracking of enforcement actions taken on unique entities rather than raw incident volumes. 
 
 Notes regarding content moderation actions taken at own initiative
 - Google Search is out-of-scope for Art 15(1)(b). However, actions taken on a legal basis in response to legal notices received about Search content are reported under Art 15(1)(c) for completeness. Policy violations may apply to some but not all Search products and features.
@@ -49,10 +49,10 @@ Notes regarding content moderation actions taken at own initiative
 
 For more information, see:
 - Content policies for Google Search: https://support.google.com/websearch/answer/10622781?hl=en#zippy=%2Chighly-personal-information 
-- Safebrowsing technology: https://support.google.com/interconnect/answer/7658604?hl=en&sjid=11779575786028716223-EU
+- Safe Browsing technology: https://support.google.com/interconnect/answer/7658604?hl=en&sjid=11779575786028716223-EU
 
 "
-All,Google Search,2025-07-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"There is a dedicated page on the Google Transparency Center to help users find ways to report harmful content on several of our services. Often the option to report will be found in the service itself or with its policies. Depending on the nature of the service and the potential policy violation, these user reports may be reviewed using automated tools, human review or a combination of both. 
+All,Google Search,2026-01-01/2026-06-30,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"There is a dedicated page on the Google Transparency Center to help users find ways to report harmful content on several of our services. Often the option to report will be found in the service itself or with its policies. Depending on the nature of the service and the potential policy violation, these user reports may be reviewed using automated tools, human review or a combination of both. 
 
 To enforce our policies at scale, Google relies on a combination of automated and human tools to spot problematic content. While automated systems can quickly identify and take action against spam and some violative content, human judgement is needed for the many decisions that require a more nuanced determination. The context in which a piece of content is created or shared is an important factor in any assessment about its quality or its purpose. Google is attentive to educational, scientific, artistic, and documentary contexts, including journalistic intent, where the content might otherwise violate our policies. Google escalates particularly complex cases to specially-trained experts. Additionally, Google uses a corpus of human-reviewed and removed content to train machine learning technology to flag new content that may also violate product policies. Using machine learning technology trained by human decisions enables our enforcement systems to adapt and become more effective over time. More information about how Google services use automated tools, often supplemented with human review, for content moderation, along with the indicators of accuracy of any fully automated tools is included in the sections below. 
 
@@ -60,17 +60,17 @@ For more information, see:
 - Google Transparency Center: https://transparency.google/intl/en_uk/tools-programs/reporting-and-appeals/
 
 Service-specific details
-Since Google Search does not host content in web results, and pages are created on the open web before any search engine can index them (or even, in some cases, have permission to crawl them), we do not have the ability to give amounts of time that an URL exists on the open web prior to that image (or the URL on which that image appears) being actioned by Google Search. End users on the service do not view a sizable proportion of illegal or incompatible content on the service in comparison to the overall volume of content indexed by the service within the reporting period. We only have a snapshot of the content on the URL at the time of crawling. Page content often changes between crawls, and we also do not have access to live content actually viewed by the user and hosted by the site. 
+Since Google Search does not host content in web results, and pages are created on the open web before any search engine can index them (or even, in some cases, have permission to crawl them), we do not have the ability to give amounts of time that a URL exists on the open web prior to that image (or the URL on which that image appears) being actioned by Google Search. End users on the service do not view a sizable proportion of illegal or incompatible content on the service in comparison to the overall volume of content indexed by the service within the reporting period. We only have a snapshot of the content on the URL at the time of crawling. Page content often changes between crawls, and we also do not have access to live content actually viewed by the user and hosted by the site. 
 
 "
-All,Google Search,2025-07-01/2025-12-31,Qualitative description of the automated means,"This section describes how Google uses automated tools, often supplemented with human review, for content moderation. 
+All,Google Search,2026-01-01/2026-06-30,Qualitative description of the automated means,"This section describes how Google uses automated tools, often supplemented with human review, for content moderation. 
 
 Automated tools used to process Legal-related Content Removal Requests 
 Automation plays a role in legal content moderation to help Google work at scale, and focus our efforts on actionable, authentic requests. There are a few ways that automation might be used while handling a removal request. The most common way is that Google uses automation to route a request to the right team. Google has subject matter experts in different types of content and languages, and using automation ensures the request is sent to the people best positioned to review it.
 
 Once content removal requests are routed efficiently, Google also uses automation to manage the millions of URLs (web page addresses) that are sent to Google for review every day, and to complement and streamline human review. As an example, Google receives a significant number of Google Search removal requests for URLs that are not included in Google's search index, which is the vast and continuously updated pool of web page addresses from which all search results are drawn. We have automated systems that detect such URLs in removal requests, enabling our teams and processes to focus on content that does appear on our services and address complex matters requiring human review. 
 
-Google also uses automation to process some legal notices. The vast majority of notices are copyright removal requests, largely from submitters with a well-established track record of submitting valid requests, allowing Google to be relatively confident in automating this processing. Certain requests to remove allegedly defamatory Local Reviews are also automatically processed. 
+Google also uses automation to process some legal notices. The vast majority of notices are copyright removal requests, largely from submitters with a well-established track record of submitting valid requests, allowing Google to be relatively confident in automating this processing. Certain requests to remove allegedly defamatory Local Reviews on Google Maps are also automatically processed, in addition to certain requests concerning data protection on Google Search. 
 
 Automated tools used to combat Child Sexual Abuse Material (CSAM)
 Google takes its responsibility to fight child sexual abuse and exploitation online very seriously. We do this by combatting CSAM across Google's services and by detecting instances of abuse and enforcing robust policies. We also partner with non-governmental organisations (NGOs) and others in industry coalitions to share proprietary technology and drive the industry forward. 
@@ -110,7 +110,7 @@ For more information, see:
 - Google Search Quality Rater Guidelines: https://services.google.com/fh/files/misc/hsw-sqrg.pdf 
 
 "
-All,Google Search,2025-07-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Where relevant and feasible, indicators of accuracy for automated tools used to process legal-related content removal requests, CSAM and advertisements are provided in relevant service-specific reports. While we report fully automated tools primarily on a language-agnostic basis, where applicable and feasible for this reporting period, the indicators of accuracy are also broken down by language. 
+All,Google Search,2026-01-01/2026-06-30,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Where relevant and feasible, indicators of accuracy for automated tools used to process legal-related content removal requests, CSAM and advertisements are provided in relevant service-specific reports. While we report fully automated tools primarily on a language-agnostic basis, where applicable and feasible for this reporting period, the indicators of accuracy are also broken down by language. 
 
 Unless otherwise stated, metrics are calculated using standard statistics definitions provided below:
 - Accuracy, defined as the proportion of all decisions that were correctly made by the automated system = (TP + TN) / (TP + TN + FP + FN)
@@ -121,31 +121,34 @@ Where TP = True Positives; TN = True Negatives; FP = False Positives; FN = False
 Automated tools used to process Legal-related Content Removal Requests 
 For relevant services, accuracy, precision and recall are provided for fully automated content moderation tools used to process legal-related content removal requests. These metrics are computed based on a quality assurance audit of global reviews performed by the automated systems. 
 
-As previously mentioned, intermediary services are out-of scope for Art 15(1)b and actions taken on a legal basis in response to legal notices received about intermediary service content are reported under Art 15(1)c for completeness. Therefore, accuracy indicators of fully automated content moderation tools used to process legal-related content removal requests on intermediary services are reported under 'own initiative' rather than 'NAM total' on the 8_automated_means tab. 
+As previously mentioned, intermediary services are out-of scope for Art 15(1)b and actions taken on a legal basis in response to legal notices received about intermediary service content are reported under Art 15(1)c for completeness. Therefore, accuracy indicators of fully automated content moderation tools used to process legal-related content removal requests on intermediary services are reported under 'own initiative' rather than 'NAM total' on the 8_automated_means tab.
+
+In the VLOP reports, accuracy, precision and recall metrics are provided for EU Member State languages where sufficient data exist to calculate meaningful metrics.
 
 Automated tools used to combat Child Sexual Abuse Materials (CSAM)
 For relevant services, precision is provided for fully automated content moderation tools used to restrict CSAM.
 
 False Positives reflect the number of automated actions that were later found to be incorrect and reversed following appeals from account owners in the EU while True Positives reflect the number of automated actions that were reviewed and upheld after appeal and those that were not subject to an appeal.
-Accuracy and recall metrics are not being reported due to infeasibility of identifying False Negatives (i.e. where violative content exists but it is not detected by automated means). Language breakdown is not applicable as moderated content is image-based. 
+
+Accuracy and recall metrics are not being reported for automated tools used to restrict CSAM due to the technical infeasibility of identifying False Negatives (i.e. where violative content exists but it is not detected by automated means). Identifying instances where an automated system failed to detect a violation would require exhaustive manual follow-up of millions of cases which were previously deemed to be compliant. Language breakdown is not applicable as moderated content is image-based.
 
 Automated tools that affect advertisements
-Within the Ads (hosting service provider) report, accuracy, precision and recall is reported across all automated content moderation decisions. For relevant services, Ads is reporting accuracy, precision and recall across all automated content moderation decisions on that particular service (on the 8_automated_means_Ads tab). 
+Within the Ads (hosting service provider) report, accuracy, precision and recall are reported across all automated content moderation decisions. For relevant services, Ads is reporting accuracy, precision and recall across all automated content moderation decisions on that particular service (on the 8_automated_means_Ads tab). 
 
 False Positives reflect the number of automated actions that were later found to be incorrect and reversed following appeals from advertisers in the EU while True Positives reflect the number of automated actions that were reviewed and upheld after appeal and those that were not subject to an appeal. False Negatives reflect instances where an automated system did not detect a violation, but action was subsequently taken following reports from EU users while True Negatives reflect instances where content was reviewed following EU user reports and found to be non-violative, in addition to instances where content was approved by the automated system and not subsequently reviewed. To determine if the automated system was right or wrong, Ads checks if automated decisions were overturned by human reviewers within 90 days following the ad's creation. 
  
 In the VLOP reports, accuracy, precision and recall metrics are provided for each EU Member State language where sufficient data exist to calculate meaningful metrics.
 
 Service-specific automated tools
-Google Search is reporting precision at launch for webspam classifiers. Precision is determined through human evaluation of a random sample, adhering to the standard statistics definition provided above. The average precision was calculated taking into account the volume of actions taken by each webspam classifier i.e. Average Precision = ∑(precision*volume).
+Google Search is reporting precision at launch for webspam classifiers. Precision is determined through human evaluation of a random sample, adhering to the standard statistics definition provided above. The average precision was calculated taking into account the volume of actions taken by each webspam classifier i.e. Average Precision = ∑(precision*volume) / ∑(volume).
 
-Search is unable to provide accuracy or recall metrics due to the extremely low incidence of policy-violating URLs within the vastness of open web content. 
-
-"
-All,Google Search,2025-07-01/2025-12-31,Specification of the precise purposes to apply automated means,"See response to 'Qualitative description of the automated means'. 
+Search is unable to provide accuracy or recall metrics due to the extremely low incidence of policy-violating URLs within the vastness of open web content. Using a representative sample of URLs that users interact with, Search calculated the prevalence of webspam to be <1%. Due to this extremely low prevalence of webspam, acquiring a statistically meaningful sample of False Negatives is technically infeasible. Identifying instances where an automated system failed to detect a violation would require exhaustive manual follow-up of millions of cases which were previously deemed to be compliant. 
 
 "
-All,Google Search,2025-07-01/2025-12-31,Safeguards applied to the use of automated means,"To enforce our policies at scale, Google relies on a combination of automated and human tools to spot problematic content. While automated systems can quickly identify and take action against spam and some violative content, human judgement is needed for the many decisions that require a more nuanced determination. The context in which a piece of content is created or shared is an important factor in any assessment about its quality or its purpose. Google is attentive to educational, scientific, artistic, and documentary contexts, including journalistic intent, where the content might otherwise violate our policies. Google escalates particularly complex cases to specially-trained experts. 
+All,Google Search,2026-01-01/2026-06-30,Specification of the precise purposes to apply automated means,"See response to 'Qualitative description of the automated means'. 
+
+"
+All,Google Search,2026-01-01/2026-06-30,Safeguards applied to the use of automated means,"To enforce our policies at scale, Google relies on a combination of automated and human tools to spot problematic content. While automated systems can quickly identify and take action against spam and some violative content, human judgement is needed for the many decisions that require a more nuanced determination. The context in which a piece of content is created or shared is an important factor in any assessment about its quality or its purpose. Google is attentive to educational, scientific, artistic, and documentary contexts, including journalistic intent, where the content might otherwise violate our policies. Google escalates particularly complex cases to specially-trained experts. 
 
 Additionally, Google uses a corpus of human-reviewed and removed content to train machine learning technology to flag new content that may also violate product policies. Using machine learning technology trained by human decisions enables our enforcement systems to adapt and become more effective over time. 
 
@@ -162,12 +165,12 @@ Service-specific automated tools
 Google Search employs a combination of automated technology and human oversight to enforce its policies and maintain the quality of its search results.
 
 "
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,High-level description of the content moderation governance structure,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Qualifications of the human resources dedicated to content moderation,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Training given to human resources dedicated to content moderation,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Support given to human resources dedicated to content moderation ,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Methodology used to compute the number of human resources dedicated to content moderation  ,
-All,Google Search,2025-07-01/2025-12-31,Information about Article 9 and 10 orders from Member States’ authorities,"While qualitative information about Art 9 and 10 orders from Member States' authorities is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 3_member_states_orders tab. 
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,High-level description of the content moderation governance structure
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Qualifications of the human resources dedicated to content moderation
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Training given to human resources dedicated to content moderation
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Support given to human resources dedicated to content moderation 
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Methodology used to compute the number of human resources dedicated to content moderation  
+All,Google Search,2026-01-01/2026-06-30,Information about Article 9 and 10 orders from Member States’ authorities,"While qualitative information about Art 9 and 10 orders from Member States' authorities is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 3_member_states_orders tab. 
 
 Article 9 and 10 Orders from Member States' authorities 
 Courts and government agencies in the EU regularly request that we remove information from Google services (Removal Orders). These requests are routed to the appropriate team(s) within Google who review these requests closely to determine if information should be removed because it may violate a law or our product policies. In addition, specific EU and Member State laws allow government agencies in the EU to request user information for civil, administrative, criminal, and national security purposes (User Data Disclosure Orders). Each request is carefully reviewed to make sure it satisfies applicable laws; this review and any subsequent enforcement requires human involvement. Metrics relating to Removal Orders and User Data Disclosure Orders received during the reporting period, conforming to the requirements of Article 9 and Article 10 of the DSA respectively and pertaining to the applicable service are provided in this report. In addition, metrics around orders received relating to advertisements, including where those advertisements may have appeared on one or more Google services, are provided in both the Ads and the Multi-Services report. Where relevant, the median time needed to confirm receipt and the median time needed to take action (or non-action) in response to Removal Orders and User Data Disclosure Orders is provided in hours. 
@@ -179,7 +182,7 @@ For more information, see:
 - Government Requests for User Information Transparency Report: https://transparencyreport.google.com/user-data/overview?hl=en
 
 "
-All,Google Search,2025-07-01/2025-12-31,Information about notices received through the notice and action mechanism,"While qualitative information about notices received through the notice and action mechanism is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 4_notices tab. 
+All,Google Search,2026-01-01/2026-06-30,Information about notices received through the notice and action mechanism,"While qualitative information about notices received through the notice and action mechanism is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 4_notices tab. 
 
 Notices received through notice and action mechanisms
 Google's content and product policies apply wherever you are in the world, but we also have processes in place to remove or restrict access to content based on local laws. Users, Trusted Flaggers (as defined by Article 22), and other entities can report content that they believe should be removed from Google's services under applicable laws. Action is taken on content that is deemed to violate applicable laws or Google policies.
@@ -194,7 +197,7 @@ For more information, see:
 - Trusted Flaggers under the DSA: https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa
 
 "
-All,Google Search,2025-07-01/2025-12-31,Information about complaints received through the internal complaint handling systems (i.e. appeals),"While qualitative information about complaints received through the internal complaint handling systems (i.e. appeals) is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recidivism and the 7_appeals_and_recidivism_Ads tabs.
+All,Google Search,2026-01-01/2026-06-30,Information about complaints received through the internal complaint handling systems (i.e. appeals),"While qualitative information about complaints received through the internal complaint handling systems (i.e. appeals) is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recidivism and the 7_appeals_and_recidivism_Ads tabs.
 
 Complaints received through internal complaint handling systems (i.e., appeals) 
 Google works hard to maintain services that are safe and vibrant. As with any system, we sometimes make mistakes, which may result in the unwarranted removal of content from or access to our services. To address that risk, where appropriate, we make it clear to users and/or creators that we have taken action on their content and provide them the opportunity to contest that decision through designated complaint-handling systems and give us clarifications. In addition, under the DSA, EU users can submit complaints about an action that Google did not take in response to a notice/flag that they previously submitted. 
@@ -206,9 +209,9 @@ Google works to provide complaint outcomes to users within a reasonable timefram
 For relevant services, we separately present metrics for complaints received relating to advertisements impressed on those services. However, complaints about actions taken in response to Article 16 notices that relate to advertisements (including where those advertisements may appear on one or more Google services), are provided in both the Ads and the Multi-Services report. 
 
 "
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Information about complaints received through out-of-court dispute settlements,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Information about Article 23 suspensions imposed to protect against misuse,
-All,Google Search,2025-07-01/2025-12-31,Other information,"Metrics presented in this report generally reflect our efforts and resources to moderate potentially illegal content and policy-violative content in the EU. However, most, but not all, of policy-violating content on Google Search and its features is moderated globally. Most content delisted from Google Search on legal grounds is content subject to copyright removal notifications, which are also processed globally. However, there are classes of delistings based on local law or local court orders that affect only certain country services, based on variance in laws between countries. 
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Information about complaints received through out-of-court dispute settlements
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Information about Article 23 suspensions imposed to protect against misuse
+All,Google Search,2026-01-01/2026-06-30,Other information,"Metrics presented in this report generally reflect our efforts and resources to moderate potentially illegal content and policy-violative content in the EU. However, most, but not all, of policy-violating content on Google Search and its features is moderated globally. Most content delisted from Google Search on legal grounds is content subject to copyright removal notifications, which are also processed globally. However, there are classes of delistings based on local law or local court orders that affect only certain country services, based on variance in laws between countries. 
 
 Metrics presented in this report generally reflect our efforts to moderate content throughout the full reporting period; in cases where that is not possible, we are looking to remediate this for future reports. 
 

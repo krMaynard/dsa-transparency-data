@@ -365,39 +365,41 @@ VLOP in May 2025 but still publishes.)
 
 ## Designated VLOPs / VLOSEs
 
-The 25 EU-designated Very Large Online Platforms / Search Engines (45 M+ EU users)
-— the ones whose full reports are archived elsewhere in this repo — included here
-for completeness. They report **semi-annually**; the first EU harmonised
-machine-readable (Annex I) reports were due **end of February 2026** (covering
-H2 2025), so reports up to Aug 2025 are narrative PDF/HTML. Aggregated index: the
+The EU-designated Very Large Online Platforms / Search Engines (45 M+ EU users)
+are included here for completeness. They report **semi-annually**; current H1
+2026 Annex I packages were published in August 2026. Wikipedia's latest located
+package remains H2 2025. Google Multi-Services is a reporting unit in Google's
+published package, rather than a separately designated service. Aggregated index: the
 EC [DSA transparency page](https://digital-strategy.ec.europa.eu/en/policies/dsa-brings-transparency).
 
 | Platform | Operating company | Report URL | Format / period | Confidence |
 |----------|-------------------|------------|-----------------|------------|
-| AliExpress | Alibaba (AliExpress) | [Transparency center](https://www.aliexpress.com/p/transparencycenter/transparencyReport.html) | Hub; latest H2 2025 | likely |
-| Amazon Store | Amazon EU S.à r.l. | [Report](https://trustworthyshopping.aboutamazon.com/eu-transparency-report-amazon-jul-dec-2025) | HTML; Jul – Dec 2025 | likely |
-| Apple App Store | Apple Distribution International | [DSA hub](https://www.apple.com/legal/dsa/) | Hub + PDF | likely |
-| Booking.com | Booking.com B.V. | [DSA hub](https://www.booking.com/content/dsa.en-gb.html) | Hub; HTML/PDF | likely |
-| Facebook | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | Hub; latest H2 2025 | likely |
-| Instagram | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) | Hub; latest H2 2025 | likely |
-| LinkedIn | LinkedIn Ireland | [Feb 2026 ZIP](https://content.linkedin.com/content/dam/help/tns/en/report/LinkedIn-February-2026-Digital-Services-Act-Transparency-Report.zip) · [archived data](harmonised-reports/extracted/linkedin) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
-| Pinterest | Pinterest Europe | [Feb 2026 ZIP](https://cdn.sanity.io/files/26f0hyrt/pinpolicy_prod/2c552b2ce80a75c1f9e9741e83da8bdbb5028579.zip) · [archived data](harmonised-reports/extracted/pinterest) | ZIP (harmonised template); Feb 2026 (H2 2025) | verified |
-| Snapchat | Snap Group Ltd | [H2 2025 report](https://values.snap.com/privacy/transparency/european-union-h2-2025) | HTML; H2 2025 | likely |
-| TikTok | TikTok Technology Ltd | [DSA hub](https://www.tiktok.com/transparency/en/dsa-transparency/) | Hub; latest H2 2025 | likely |
-| X (Twitter) | Twitter International Unlimited Co. | [DSA report](https://transparency.x.com/en/reports/dsa-transparency-report) | Hub + PDF; latest Feb 2026 | likely |
-| YouTube | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
-| Google Play | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
-| Google Maps | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
-| Google Shopping | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
-| Google Search (VLOSE) | Google Ireland | [Transparency report](https://transparencyreport.google.com/?hl=en) | Hub; PDF + CSV | likely |
-| Bing (VLOSE) | Microsoft Ireland | [EU DSA report](https://www.microsoft.com/en-us/corporate-responsibility/eu-dsa-report-bing) · [archived PDF](pdf-reports/bing-vlose) | Latest Feb 2026; prior PDF | likely |
-| Zalando | Zalando SE | [Transparency hub](https://corporate.zalando.com/en/investor-relations/corporate-governance/transparency-hub) | Hub; latest H2 2025 | likely |
-| Shein | Roadget Business (Shein) | [DSA hub](https://euqs.shein.com/digital-service-act-a-1994.html) · [archived H1 2025 XLSX](shein-transparency/raw/shein-2025-h1.xlsx) · [archived updated H2 2025 XLSX](shein.xlsx) | XLSX (harmonised template); H1 & H2 2025; H2 updated 30 Jul 2026 | verified |
-| Temu | Whaleco / Elementary Innovation | [Transparency center](https://www.temu.com/transparency-center-reports.html) | Hub; Feb 2026 + PDFs | likely |
+| AliExpress | Alibaba (AliExpress) | [H1 2026 ZIP](https://files.alicdn.com/tpsservice/474273ced7af5400e2be5c4d371ad158.zip) · [archived data](aliexpress) | ZIP (harmonised template); H1 2026 | verified |
+| Amazon Store | Amazon EU S.à r.l. | [H1 2026 report](https://trustworthyshopping.aboutamazon.com/eu-transparency-report-amazon-jan-jun-2026) · [archived data](amazon) | ZIP (harmonised template); H1 2026 | verified |
+| Apple App Store | Apple Distribution International | [H1 2026 XLSX](https://www.apple.com/legal/dsa/transparency/eu/App-Store-August-2026.xlsx) · [archived data](apple/app-store.xlsx) | XLSX (harmonised template); H1 2026 | verified |
+| Booking.com | Booking.com B.V. | [H1 2026 ZIP](https://q-xx.bstatic.com/data/mobile/DSA_Transparency_Report_-_7th_report_-_28_August_2026.zip) · [archived data](booking-com) | ZIP (harmonised template); H1 2026 | verified |
+| Facebook | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) · [archived data](meta/facebook) | CSV set (harmonised template); H1 2026 | verified |
+| Instagram | Meta Platforms Ireland | [Meta regulatory reports](https://transparency.meta.com/reports/regulatory-transparency-reports/) · [archived data](meta/instagram) | CSV set (harmonised template); H1 2026 | verified |
+| LinkedIn | LinkedIn Ireland | [H1 2026 ZIP](https://delivery-p143253-e1476319.adobeaemcloud.com/adobe/assets/urn:aaid:aem:5a48363c-f3e8-494e-8373-d3719fe2e64b/original/as/LinkedIn-August-2026-Digital-Services-Act-Transparency-Report%201.zip) · [archived data](microsoft/linkedin) | ZIP (harmonised template); H1 2026 | verified |
+| Pinterest | Pinterest Europe | [H1 2026 ZIP](https://cdn.sanity.io/files/26f0hyrt/pinpolicy_prod/a3222c3ee1b4b5a9385fc4194174751ec71d1cbb.zip) · [archived data](pinterest) | ZIP (harmonised template); H1 2026 | verified |
+| Snapchat | Snap Group Ltd | [H1 2026 XLSX](https://assets.ctfassets.net/kw9k15zxztrs/6x5387aq1lqbPysLxLJ2dd/1a6a4bf6918b6f98e41250d5f0fe570f/Snap_DSA_TR_H1_2026.xlsx) · [archived data](snapchat.xlsx) | XLSX (harmonised template); H1 2026 | verified |
+| TikTok | TikTok Technology Ltd | [H1 2026 ZIP](https://sf16-va.tiktokcdn.com/obj/eden-va2/zayvwlY_fjulyhwzuhy%5B/ljhwZthlaukjlkulzlp/DSA_H1_2026/TikTok%20DSA%20Transparency%20Report%20Jan-June%202026_.zip) · [archived data](tiktok) | ZIP (harmonised template); H1 2026 | verified |
+| X (Twitter) | Twitter International Unlimited Co. | [H1 2026 ZIP](https://transparency.x.com/content/dam/transparency-twitter/dsa/transparency-report/DSA-Transparency-Report-H1-2026.zip) · [archived data](x) | ZIP (harmonised template); H1 2026 | verified |
+| YouTube | Google Ireland | [Report downloads](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](google/youtube) | ZIP (harmonised template); H1 2026 | verified |
+| Google Play | Google Ireland | [Report downloads](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](google/play) | ZIP (harmonised template); H1 2026 | verified |
+| Google Maps | Google Ireland | [Report downloads](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](google/maps) | ZIP (harmonised template); H1 2026 | verified |
+| Google Multi-Services | Google Ireland | [Report downloads](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](google/multi-services) | ZIP (harmonised template); H1 2026 | verified |
+| Google Shopping | Google Ireland | [Report downloads](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](google/shopping) | ZIP (harmonised template); H1 2026 | verified |
+| Google Search (VLOSE) | Google Ireland | [Report downloads](https://transparencyreport.google.com/report-downloads?hl=en) · [archived data](google/search) | ZIP (harmonised template); H1 2026 | verified |
+| Bing (VLOSE) | Microsoft Ireland | [H1 2026 XLSX](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/CY2026-H1-Microsoft-Bing-EU-DSA-Report1.xlsx) · [archived data](microsoft/bing.xlsx) | XLSX (harmonised template); H1 2026 | verified |
+| Zalando | Zalando SE | [H1 2026 ZIP](https://corporate.zalando.com/sites/default/files/media-download/zalando-se_dsa-transparency-report-august-2026.zip) · [archived data](zalando) | ZIP (harmonised template); H1 2026 | verified |
+| Shein | Roadget Business (Shein) | [H1 2026 XLSX](https://shein.ltwebstatic.com/tinypic/2026/09/02/17883154343995654501.xlsx) · [archived data](shein.xlsx) | XLSX (harmonised template); H1 2026 | verified |
+| Temu | Whaleco / Elementary Innovation | [Transparency center](https://www.temu.com/transparency-center-reports.html) · [archived data](temu) | ZIP (harmonised template); H1 2026 | verified |
 | Wikipedia | Wikimedia Foundation | [Feb 2026 XLS](https://foundation.wikimedia.org/wiki/File:Wikipedia_-_DSA_transparency_report_2026-02-28.xls) · [archived data](harmonised-reports/extracted/wikipedia) | XLS (harmonised template); Feb 2026 (H2 2025) | verified |
-| Pornhub | Aylo (Technius Ltd) | [DSA reports](https://help.pornhub.com/hc/en-us/sections/46212654665363-DSA-Transparency-Reports) | HTML; latest Feb 2026 | likely |
-| XVideos | WebGroup Czech Republic | [Mandatory information](https://info.xvideos.net/legal/mandatory-information) | Mandatory-info page; prior PDF | likely |
-| XNXX | WebGroup Czech Republic | [Mandatory information](https://info.xnxx.com/legal/mandatory-information) | Mandatory-info page; prior PDF | likely |
+| WhatsApp Channels | WhatsApp Ireland Limited | [Transparency reports](https://www.whatsapp.com/legal/transparencyreports?lang=en) · [archived data](whatsapp-channels) | ZIP (harmonised template); H1 2026 | verified |
+| Pornhub | Aylo (Technius Ltd) | [H1 2026 ZIP](https://ei.phncdn.com/static/misc/legal/Pornhub_DSA_Transparency_Report_August_2026_1787935691.zip) · [archived data](pornhub) | ZIP (harmonised template); H1 2026 | verified |
+| XVideos | WebGroup Czech Republic | [H1 2026 ZIP](https://public-assets.xvideos-cdn.com/transparency/XVideos+-+Transparency+report+-+January-June+2026.zip) · [archived data](xvideos) | ZIP (harmonised template); H1 2026 | verified |
+| XNXX | WebGroup Czech Republic | [H1 2026 ZIP](https://public-assets.xnxx-cdn.com/transparency/XNXX+-+Transparency+report+-+January-June+2026.zip) · [archived data](xnxx) | ZIP (harmonised template); H1 2026 | verified |
 
 ## Searched, not found / out of scope
 

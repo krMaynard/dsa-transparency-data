@@ -1,0 +1,68 @@
+Applicability,Service,Reporting period,Indicator,Value
+All,Zalando,2026-01-01/2026-06-30,Summary of the content moderation engaged in at the providers’ own initiative,"Within Zalando, content moderation at the provider's own initiative during the reporting period applied to user boards (titles) and profiles (names, handles, bios). While these features were available during the reporting period, the creation of user profiles and general public discovery of user boards on Zalando are currently being phased out, and user boards will now only be accessible via direct link.
+
+This content was evaluated using a two-layer approach. First, an automated screening checks submissions against Zalando’s Community Guidelines; approved content is published immediately. If a potential violation is found, the system either automatically rejects it (in high-confidence cases) or routes it to human review for a final determination. 
+
+When content is rejected (not published), the user is promptly notified and given the opportunity to appeal.
+
+Zalando partners with external service providers for the automated moderation and outsourced human moderation."
+All,Zalando,2026-01-01/2026-06-30,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"Before going live on the platform, all applicable content (see summary above) is moderated against Zalando’s Community Guidelines. This significantly limits the exposure of users to non-compliant content on Zalando.
+
+Every content submission is first processed by a third-party vendor using AI models to detect potential violations, ensuring only compliant content is published on Zalando.
+
+High-confidence violations trigger an automatic rejection. Zalando performs regular quality assurance on these automated enforcements to continuously fine-tune the model and ensure high accuracy.
+
+In cases where a potential violation is flagged but the AI's confidence falls below the threshold, the content is routed to a separate external vendor for human review.
+
+Content can thus be rejected (visibility restriction: removal) either by automated means or after a human review."
+All,Zalando,2026-01-01/2026-06-30,Qualitative description of the automated means,"Zalando only applies fully automated content moderation for its own initiative moderation of user boards & profiles.
+
+A proactive, pre-publication screening system managed through a third-party service provider is employed. 
+
+This automated moderation relies on large language models (LLMs) configured to evaluate content against Zalando’s Community Guidelines.
+
+The system's parameters are defined by specific policy rules: content that clearly breaches these rules is automatically rejected, while medium confidence or ambiguous flags are routed to human moderators for manual review."
+All,Zalando,2026-01-01/2026-06-30,Qualitative description of indicators of accuracy and possible rate of error of automated means,"To measure the performance and error indicators of its automated moderation, Zalando employs a secondary human review methodology.
+
+Representative samples of both AI-generated decisions and unflagged content are automatically generated and sent into weekly dedicated queues for secondary human review.
+
+This methodology is used to automatically track key indicators of accuracy, precision, and recall.
+
+These ongoing quality reviews and output metrics are then utilized to update and refine content moderation policy and technology (e.g., adjusting automation thresholds)."
+All,Zalando,2026-01-01/2026-06-30,Specification of the precise purposes to apply automated means,"First, automated means are applied to promptly moderate submitted content. This ensures immediate publication of compliant content and faster action on potential violations.
+
+Second, automated moderation supports with scaling our content safely. By applying automated models and continuously monitoring and fine tuning these, Zalando builds capacity for scaling and future-proofing moderation while maintaining quality.
+
+Third, automated means support human decision making for cases routed to human review queues, ensuring consistent and fair policy application."
+All,Zalando,2026-01-01/2026-06-30,Safeguards applied to the use of automated means,"By consistently sampling AI decisions and applying a secondary human review quality methodology, Zalando maintains continuous insight into both over- and under-enforcement.
+
+Accuracy, precision, and recall are computed in real time and monitored weekly against established benchmarks. If performance drops, Zalando collaborates with vendors to conduct root-cause analyses and implement corrective actions, such as refining AI labels and policy prompts.
+
+Any rejected content decision can be appealed by the content provider, which is promptly reviewed by human moderators and actioned. The published content can also be reported subsequently through the Notice and Action mechanism."
+Only for VLOPs,Zalando,2026-01-01/2026-06-30,High-level description of the content moderation governance structure,"Zalando has a dedicated Trust & Safety (T&S) team to manage content moderation. The team’s primary responsibility is designing comprehensive policies and guidelines (e.g., Community Guidelines) and overseeing their application through moderation workflows for platform integrity.
+
+The T&S team manages Zalando’s own-initiative content moderation, the Notice and Action mechanism, and transparency reporting. Centralizing these proactive (own-initiative) and reactive (Notice and Action) moderation practices and compliance obligations ensures strict regulatory adherence while streamlining operations through closed feedback loops.
+
+Own-initiative moderation at Zalando is performed by outsourced human moderators directly managed by the Operational function within T&S. Moderation of content flagged via the Notice and Action mechanism is handled by a range of in-house Operational (Expert) teams specialized in different compliance topics, blended with outsourced support under the overarching oversight of T&S.
+
+T&S is part of Zalando’s Product organisation and works closely with Legal, Privacy, Compliance, and Public Policy on policy updates and escalations. Major policy updates, the evaluation of high-risk cases, and fundamental changes to our processes are subject to a documented review procedure conducted by our T&S Steering Committee."
+Only for VLOPs,Zalando,2026-01-01/2026-06-30,Qualifications of the human resources dedicated to content moderation,"Zalando has contracted a vendor for own-initiative human moderation as well as in-house resources for Notice and Action moderation (Expert Teams).
+
+The team members of the vendor are selected via our vendor operations function based on regional/cultural familiarity and professional experience in Trust and Safety operations, compliance, or investigations, covering roles from frontline content moderators to senior reviewers and QA. Furthermore, our contracts mandate baseline vetting, background screening consistent with local law, language-level assessments, and resilience testing in line with the wellness standards for T&S work.
+
+The in-house Expert teams specialize in different compliance topics relevant to Zalando, from Brand Protection to Product Safety, and more. These individuals possess higher education such as Bachelor and Master degrees, including qualified lawyers and have extensive content moderation or compliance operations experience.
+
+Overall, our human moderation qualifications span EQF Levels 4 through 7. Frontline vendor operations and QA structures align with Levels 4 and 5, ensuring robust technical proficiency. These are bolstered by our in-house Expert Teams, whose academic and professional credentials map to Levels 6 and 7, providing the high-level specialized knowledge required for complex compliance investigations."
+Only for VLOPs,Zalando,2026-01-01/2026-06-30,Training given to human resources dedicated to content moderation,"External Moderators (Own initiative moderation)
+External moderators complete a foundational T&S onboarding program covering core policies, prohibited content, user safety, privacy, data protection, and confidentiality. Where required, they also receive role-specific training on review tools, escalation pathways, and market-specific nuances.
+
+Ongoing training is delivered through a hybrid model shared between Zalando and the outsourced vendor. This curriculum includes policy refreshers, edge-case calibration, QA feedback loops, bias awareness, and regional or cultural context. To ensure consistency, Zalando runs scheduled calibration sessions to align decision thresholds across teams and tracks policy comprehension through regular assessments. All training materials are updated continuously to reflect new legislation or policy changes.
+
+In-House Expert Teams (Notice and Action)
+In-house Expert Teams undergo specialized onboarding and training tailored to their respective fields. Additionally, they receive ongoing training and refreshers on the Notice and Action process, Standard Operating Procedures (SOPs) for case handling, and tool utilization."
+Only for VLOPs,Zalando,2026-01-01/2026-06-30,Support given to human resources dedicated to content moderation ,"External Moderators (Own initiative moderation)
+The vendor provides comprehensive wellness support, including Employee Assistance Programs (EAPs), onsite trained physiologists, and content desensitization tools like blurring and audio muting where feasible. To mitigate the impact of egregious material, the vendor monitors workloads and routinely rotates moderators away from high-severity queues. Additionally, managers are trained to recognize signs of distress, and employees may opt out of specific content categories subject to operational requirements. To ensure accountability, the vendor provides Zalando with regular compliance reports covering routine check-ins, confidential counseling availability, and mandatory break protocols.
+
+In-House Expert Teams (Notice and Action)
+The Expert Teams have access to General Zalando Wellbeing services and employee assistance initiatives, such as psychological support and access to a company doctor."
+Only for VLOPs,Zalando,2026-01-01/2026-06-30,Methodology used to compute the number of human resources dedicated to content moderation  ,"Zalando determines its content moderation headcount by analyzing projected content volumes, required turnaround times, and market coverage. When launching new products or features, the company forecasts quarterly volumes based on anticipated user adoption rates. To ensure its moderation vendor meets established SLAs, Zalando calculates the exact staffing required to handle these projected workloads."

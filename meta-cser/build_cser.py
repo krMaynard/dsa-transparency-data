@@ -82,14 +82,20 @@ def _value(raw: str) -> tuple[str, float] | None:
     """Parse a CSER value cell into (unit, number), or None for an N/A cell.
 
     Counts come as `20,800,000` or `17600000`; rates as `94.40%`; the oldest
-    Prevalence estimates as `approximately 4%`. Fail loud on anything else so a
-    format shift can't slip through as a silent drop."""
+    Prevalence estimates as `approximately 4%`.  Meta began publishing values
+    below its display threshold as `<0.05%` in 2026; retain those as an explicit
+    `percent_upper_bound` rather than pretending the threshold is an exact
+    measurement. Fail loud on anything else so a format shift can't slip
+    through as a silent drop."""
     v = raw.strip()
     if v == "" or v.upper() == "N/A":
         return None
     m = re.fullmatch(r"(?:approximately\s+)?(\d+(?:\.\d+)?)%", v, re.I)
     if m:
         return "percent", float(m.group(1))
+    m = re.fullmatch(r"<(\d+(?:\.\d+)?)%", v)
+    if m:
+        return "percent_upper_bound", float(m.group(1))
     if re.fullmatch(r"[\d,]+", v):
         return "count", float(v.replace(",", ""))
     raise ValueError(f"unparseable CSER value {raw!r}")
@@ -172,6 +178,12 @@ def _download(raw_csv: str) -> None:
         raise RuntimeError(
             "GraphQL returned no csv.content — the doc_id may have rotated; "
             "re-derive it from the page's JS bundles (see module docstring)")
+    # Meta's feed historically returned a normal multiline CSV string.  In
+    # 2026 Q2 it began returning the same payload with line endings escaped as
+    # literal ``\\n`` sequences.  Normalize only that all-on-one-line variant;
+    # replacing escapes in an already-valid CSV could corrupt quoted prose.
+    if "\n" not in content and "\\n" in content:
+        content = content.replace("\\r\\n", "\n").replace("\\n", "\n")
     os.makedirs(os.path.dirname(raw_csv), exist_ok=True)
     with open(raw_csv, "w", encoding="utf-8", newline="") as f:
         f.write(content)

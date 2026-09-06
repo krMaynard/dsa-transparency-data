@@ -1,0 +1,91 @@
+﻿Applicability,Service,Reporting period,Category of illegal content,"Description of the sub-category ""Other""",Number of measures taken at the provider's own initiative,Number of measures taken after detection with solely automated means,Visibility restriction Removal,Visibility restriction Disable,Visibility restriction Demoted,Visibility restriction Age restricted,Visibility restriction Interaction restricted,Visibility restriction Labelled,Visibility restriction Other,Monetary restriction Suspension,Monetary restriction Termination,Monetary restriction Other,Provision of the service Suspension,Provision of the service Termination,Account restriction Suspension,Account restriction Termination,Contextual Information on Number of measures taken at the provider's own initiative,Contextual Information on Number of measures taken after detection with solely automated means,Contextual Information on Visibility restriction Removal,Contextual Information on Visibility restriction Disable,Contextual Information on Visibility restriction Demoted,Contextual Information on Visibility restriction Age restricted,Contextual Information on Visibility restriction Interaction restricted,Contextual Information on Visibility restriction Labelled,Contextual Information on Visibility restriction Other,Contextual Information on Monetary restriction Suspension,Contextual Information on Monetary restriction Termination,Contextual Information on Monetary restriction Other,Contextual Information on Provision of the service Suspension,Contextual Information on Provision of the service Termination,Contextual Information on Account restriction Suspension,Contextual Information on Account restriction Termination,original_index
+All,,YYYY-MM-DD/YYYY-MM-DD,TOTAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_ANIMAL_WELFARE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,1
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_ANIMAL_HARM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_UNLAWFUL_SALE_ANIMALS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,4
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_CONSUMER_INFORMATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,5
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_HIDDEN_ADVERTISEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,6
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_INSUFFICIENT_INFORMATION_ON_TRADERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,7
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_MISLEADING_INFO_GOODS_SERVICES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,8
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_MISLEADING_INFO_CONSUMER_RIGHTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,9
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_NONCOMPLIANCE_PRICING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_CYBER_VIOLENCE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,12
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CYBER_BULLYING_INTIMIDATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CYBER_HARASSMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,14
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CYBER_INCITEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,15
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CYBER_STALKING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_NON_CONSENSUAL_IMAGE_SHARING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,18
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,19
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_CYBER_VIOLENCE_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,20
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_BULLYING_AGAINST_GIRLS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,21
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CYBER_HARASSMENT_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CYBER_STALKING_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,23
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_FEMALE_GENDERED_DISINFORMATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,24
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_INCITEMENT_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_NON_CONSENSUAL_IMAGE_SHARING_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_NON_CONSENSUAL_MATERIAL_DEEPFAKE_AGAINST_WOMEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,27
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,28
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_DATA_PROTECTION_AND_PRIVACY_VIOLATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,29
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_BIOMETRIC_DATA_BREACH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_DATA_FALSIFICATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,31
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_MISSING_PROCESSING_GROUND,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,32
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_RIGHT_TO_BE_FORGOTTEN,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,33
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,34
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,35
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_DEFAMATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,36
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_DISCRIMINATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,37
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_HATE_SPEECH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,38
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,39
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_INTELLECTUAL_PROPERTY_INFRINGEMENTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,40
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_COPYRIGHT_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,41
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_DESIGN_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,42
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_GEOGRAPHIC_INDICATIONS_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,43
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_PATENT_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,44
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_TRADE_SECRET_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,45
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_TRADEMARK_INFRINGEMENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,46
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,47
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_NEGATIVE_EFFECTS_ON_CIVIC_DISCOURSE_OR_ELECTIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,48
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_MISINFORMATION_DISINFORMATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,49
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_VIOLATION_EU_LAW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,50
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_VIOLATION_NATIONAL_LAW,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,51
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,52
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_PROTECTION_OF_MINORS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,53
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_AGE_SPECIFIC_RESTRICTIONS_MINORS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,54
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,55
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CHILD_SEXUAL_ABUSE_MATERIAL_DEEPFAKE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,56
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_GROOMING_SEXUAL_ENTICEMENT_MINORS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,57
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_UNSAFE_CHALLENGES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,58
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,59
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_RISK_FOR_PUBLIC_SECURITY,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,60
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_ILLEGAL_ORGANIZATIONS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,61
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_RISK_ENVIRONMENTAL_DAMAGE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,62
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_RISK_PUBLIC_HEALTH,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,63
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_TERRORIST_CONTENT,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,64
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,65
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,66
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_IMPERSONATION_ACCOUNT_HIJACKING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,67
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_INAUTHENTIC_ACCOUNTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,68
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_INAUTHENTIC_LISTINGS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,69
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_INAUTHENTIC_USER_REVIEWS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,70
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_PHISHING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,71
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_PYRAMID_SCHEMES,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,72
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,73
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_SELF_HARM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,74
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_CONTENT_PROMOTING_EATING_DISORDERS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,75
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_SELF_MUTILATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,76
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_SUICIDE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,77
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,78
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_UNSAFE_AND_PROHIBITED_PRODUCTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,79
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_PROHIBITED_PRODUCTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,80
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_UNSAFE_PRODUCTS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,81
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,82
+All,,YYYY-MM-DD/YYYY-MM-DD,STATEMENT_CATEGORY_VIOLENCE,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,83
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_COORDINATED_HARM,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,84
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_INCITEMENT_VIOLENCE_HATRED,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,85
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_HUMAN_EXPLOITATION,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,86
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_HUMAN_TRAFFICKING,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,87
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_TRAFFICKING_WOMEN_GIRLS,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,88
+All,,YYYY-MM-DD/YYYY-MM-DD,KEYWORD_OTHER,"Text to detail the ""Other"" keyword.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,89

@@ -1,74 +1,77 @@
 Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,38837715,Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,287403,Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,158462,Host Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,,Host Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,6325115,URL Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,2703600763,URL Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,2675,Image Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,,Image Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Entity Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,60683,Entity Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,12,Partner Feed Item Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,21,Partner Feed Item Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Partner Feed Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,56,Partner Feed Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Profile Level Suspensions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,6870,Profile Level Suspensions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Review Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,537,Review Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,38837715,Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,287403,Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,158462,Host Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,,Host Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,6325115,URL Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,2703600763,URL Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,2675,Image Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,,Image Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Entity Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,60683,Entity Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,12,Partner Feed Item Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,21,Partner Feed Item Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Partner Feed Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,56,Partner Feed Domain Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Profile Level Suspensions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,6870,Profile Level Suspensions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Review Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,537,Review Level Actions
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.7543,Copyright Automation
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.8156,Copyright Automation
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.8789,Copyright Automation
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,,
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.985,Logged Webspam Classifiers
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,,
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,1,Online Travel Agency (OTA) disabler
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,1,Online Travel Agency (OTA) disabler
-All,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,1,Online Travel Agency (OTA) disabler
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
-"Only for providers of hosting services, including online platforms",Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
-Only for providers of online platforms,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...],,
-Only for VLOPs,Google Search,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,,
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,49967392,Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,208852,Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,283369,Host Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,,Host Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,6836588,URL Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,2789242458,URL Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,25401,Image Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,,Image Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Entity Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,43455,Entity Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,20,Partner Feed Item Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,11,Partner Feed Item Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Partner Feed Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,123,Partner Feed Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Profile Level Suspensions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,5664,Profile Level Suspensions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,,Review Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,730,Review Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,,"As total accuracy cannot be aggregated across different automated systems, where relevant, accuracy is provided under 'Own initiative' and 'NAM total' below."
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,,"As total precision cannot be aggregated across different automated systems, where relevant, precision is provided under 'Own initiative' and 'NAM total' below."
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,,"As total recall cannot be aggregated across different automated systems, where relevant, recall is provided under 'Own initiative' and 'NAM total' below."
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,49967392,Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,208852,Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,283369,Host Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,,Host Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,6836588,URL Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,2789242458,URL Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,25401,Image Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,,Image Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Entity Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,43455,Entity Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,20,Partner Feed Item Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,11,Partner Feed Item Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Partner Feed Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,123,Partner Feed Domain Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Profile Level Suspensions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,5664,Profile Level Suspensions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,,Review Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,730,Review Level Actions
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,0.9993,Copyright Automation
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9996,Copyright Automation
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,0.9995,Copyright Automation
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative 
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,0.9899,Logged Webspam Classifiers
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative 
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,1,Online Travel Agency (OTA) disabler
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,1,Online Travel Agency (OTA) disabler
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,1,Online Travel Agency (OTA) disabler
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,1,Right to be forgotten (RTBF)
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,1,Right to be forgotten (RTBF)
+All,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,1,Right to be forgotten (RTBF)
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total
+"Only for providers of hosting services, including online platforms",Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger
+Only for providers of online platforms,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,[...]
+Only for VLOPs,Google Search,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv

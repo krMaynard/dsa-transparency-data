@@ -66,7 +66,7 @@ OUT_JSON = os.path.join(HERE, "microsoft-lerr.json")
 
 ASSET_URL = "https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/Microsoft-LERR-{year}-{half}"
 FIRST_YEAR = 2013
-LAST = (2025, "H1")  # newest published period; extend as new halves appear
+LAST = (2025, "H2")  # newest published period; extend as new halves appear
 
 COLUMNS = ["period", "section", "country", "metric", "unit", "value"]
 

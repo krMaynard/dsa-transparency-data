@@ -2,7 +2,7 @@
 """
 Convert VLOP DSA report CSVs/xlsx (tables 3-11) to compact JSON for the krMaynard dashboard.
 Usage: python3 convert.py
-Output: ../krMaynard.github.io/data/vlop-dsa.json
+Output: ./vlop-dsa.json
 """
 
 import csv
@@ -14,7 +14,7 @@ import openpyxl
 import xlrd
 
 REPORTS_DIR = Path(__file__).parent
-OUT_FILE = REPORTS_DIR.parent / "krMaynard.github.io" / "data" / "vlop-dsa.json"
+OUT_FILE = REPORTS_DIR / "vlop-dsa.json"
 
 # Each entry has name, platform, and either dir (CSV directory) or xlsx (single xlsx file).
 SERVICE_DEFS = [
@@ -39,18 +39,16 @@ SERVICE_DEFS = [
     {"name": "App Store",        "xlsx": "apple/app-store.xlsx",   "platform": "Apple"},
     {"name": "Bing",             "xlsx": "microsoft/bing.xlsx",    "platform": "Microsoft"},
     {"name": "SHEIN",            "xlsx": "shein.xlsx",             "platform": "Shein"},
-    # Wikimedia's only designated VLOP is Wikipedia; the other wikis (Wikidata,
-    # Wikimedia Commons, Wikiversity, Wikivoyage, Wiktionary) are not
-    # DSA-designated and are excluded from the dataset.
-    {"name": "Wikipedia",        "xls":  "wikimedia/wikipedia.xls", "platform": "Wikimedia"},
+    # Wikipedia had not published a 2026-H1 harmonised report at refresh time.
     {"name": "Zalando",          "dir":  "zalando",                "platform": "Zalando"},
     {"name": "Temu",             "dir":  "temu",                   "platform": "Temu"},
-    {"name": "Snapchat",         "dir":  "snapchat",               "platform": "Snap"},
+    {"name": "Snapchat",         "xlsx": "snapchat.xlsx",          "platform": "Snap"},
+    {"name": "WhatsApp Channels","dir":  "whatsapp-channels",      "platform": "Meta"},
     # Adult-content VLOPs (designated Dec 2023 / Jul 2024). Stripchat was de-designated
     # in 2025 and is intentionally excluded.
-    {"name": "Pornhub",          "dir":  "PH_DSA_Transparency_Report_FH26_1776436263", "platform": "Aylo"},
-    {"name": "XVideos",          "dir":  "XVideos+-+Transparency+report+-+July-December+2025", "platform": "WebGroup Czech Republic"},
-    {"name": "XNXX",             "dir":  "XNXX+-+Transparency+report+-+July-December+2025",     "platform": "NKL Associates"},
+    {"name": "Pornhub",          "dir":  "pornhub",               "platform": "Aylo"},
+    {"name": "XVideos",          "dir":  "xvideos",               "platform": "WebGroup Czech Republic"},
+    {"name": "XNXX",             "dir":  "xnxx",                  "platform": "NKL Associates"},
 ]
 
 services = []
@@ -579,8 +577,8 @@ def main():
 
     out = {
         "meta": {
-            "period": "2025-07-01/2025-12-31",
-            "generated": "2026-05-13",
+            "period": "2026-01-01/2026-06-30",
+            "generated": "2026-09-05",
         },
         "services": services,
         "service_platforms": service_platforms,

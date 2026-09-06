@@ -1,363 +1,299 @@
 Applicability,Service,Reporting period,Section,Indicator,Scope,Value,Contextual Information
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,658814880,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,2043496,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,98.38%,The indicators are identical to the accuracy/precision/recall rate reported for own-initiative moderation (product compliance). This reflects the fact that automated enforcement is used solely for moderation actions carried out on Temu's initiative. 
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,99.45%,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,91.36%,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,96.79%,The indicators are identical to the accuracy/precision/recall rate reported for own-initiative moderation (IP). This reflects the fact that automated enforcement is used solely for moderation actions carried out on Temu's initiative. 
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,99.47%,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,32.08%,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,99.98%,The indicators are identical to the accuracy/precision/recall rate reported for own-initiative moderation (Review). This reflects the fact that automated enforcement is used solely for moderation actions carried out on Temu's initiative. 
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,98.81%,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,85.57%,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,658814880,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,1767629,
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,98.38%,"Accuracy rate of product compliance moderation
-
-This indicator reflects the accuracy of automated tools in classifying listings as prohibited/restricted or otherwise non-compliant, based on a statistically representative audit across all applicable official EU languages.
-
-Accuracy is estimated using a stratified sampling methodology, capturing both listings subject to direct automated enforcement and those not captured by direct automated enforcement (including listings enforced through human intervention and non-enforced listings). The resulting estimates are reported with a 95% confidence interval.
-
-To establish ground truth, sampled listings were validated through manual review, enabling the high-confidence identification of correct classifications (true positives and true negatives) as well as classification errors (false positives and false negatives). Sample results were weighted and extrapolated to the platform level to ensure that the reported accuracy figures reliably reflect the performance and scale of the automated detection and enforcement systems across the service."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,99.45%,"Precision rate of product compliance moderation
-
-This indicator reflects the precision of automated tools used to detect product listings that were prohibited, restricted, or otherwise non-compliant, measuring the proportion of listings flagged by automated systems that were confirmed as violating.
-
-Precision is estimated using a stratified sampling methodology covering automated enforcement outcomes across all applicable official EU languages. The resulting estimates are reported with a 95% confidence interval.
-
-To establish ground truth, sampled listings subject to direct automated enforcements were validated through manual review, enabling the identification of correct automated detections (true positives) and incorrect detections (false positives). Sample results were weighted and extrapolated to the platform level to ensure that the reported accuracy figures reliably reflect the performance and scale of the automated detection and enforcement systems across the service."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,91.36%,"Recall rate of product compliance moderation
-
-This indicator reflects the recall of automated tools used to detect product listings that were prohibited, restricted or otherwise non-compliant, measuring the proportion of violating listings that were correctly identified by automated systems.
-
-Recall is estimated using a stratified sampling methodology, capturing both listings subject to direct automated enforcement and those not captured by direct automated enforcement (including listings enforced through human intervention and non-enforced listings). The sampled listings covered all applicable official EU languages. The resulting estimates are reported with a 95% confidence interval.
-
-To establish ground truth, sampled listings were validated through manual review to identify violating content that was correctly detected (true positives) as well as violating content that was not detected by automated systems (false negatives).
-
-Sample results were weighted and extrapolated to the platform level to ensure that the reported recall figures reliably reflect the performance and coverage of the automated detection and enforcement systems across the service."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,96.79%,"Accuracy rate of IP moderation
-
-This indicator reflects the accuracy of automated tools in classifying listings as IP-infringing or compliant, based on a statistically representative audit across all applicable official EU languages.
-
-Accuracy is estimated using a stratified sampling methodology, capturing both  listings subject to direct automated enforcement and those not captured by direct automated enforcement (including listings enforced through human intervention and non-enforced listings). The resulting estimates are reported with a 95% confidence interval.
-
-To establish ground truth, sampled listings were validated through human review, enabling the high confidence identification of correct classifications (true positives and true negatives) as well as classification errors (false positives and false negatives).
-
-Sample results were weighted and extrapolated to the platform level to ensure that the reported accuracy figures reliably reflect the performance and scale of the automated detection systems across the service."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,99.47%,"Precision rate of IP moderation
-
-This indicator reflects the precision of automated tools used to detect IP-infringing listings, measuring the proportion of listings flagged by automated systems that were confirmed as infringing.
-
-Precision is estimated using a stratified sampling methodology covering automated enforcement outcomes across all applicable official EU languages. The resulting estimates are reported with a 95% confidence interval.
-
-To establish ground truth, sampled listings subject to direct automated enforcements were validated through human review, enabling the identification of correct automated detections (true positives) and incorrect detections (false positives).
-
-Sample results were weighted and extrapolated to the platform level to ensure that the reported precision figures reliably reflect the performance and scale of the automated detection and enforcement systems across the service."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,32.08%,"Recall rate of IP moderation
-
-This indicator reflects the recall of automated tools used to detect IP-infringing listings, measuring the proportion of infringing listings that were correctly identified by automated systems.
-
-Recall is estimated using a stratified sampling methodology, capturing both listings subject to direct automated enforcement and those not captured by direct automated enforcement (including listings enforced through human intervention and non-enforced listings). The sampled listings  covered all applicable official EU languages. The resulting estimates are reported with a 95% confidence interval.
-
-To establish ground truth, sampled listings were manually reviewed to identify infringing content that was correctly detected (true positives) as well as infringing content that was not detected by automated systems (false negatives).
-
-Sample results were weighted and extrapolated to the platform level to ensure that the reported recall figures reliably reflect the performance and coverage of the automated  detection and enforcement systems across the service. 
-
-The automated recall rate for IP moderation is lower than that of product compliance moderation because the latter often relies on deterministic, rule-based criteria¡ªwhere machines can clearly judge the presence or absence of specific requirements. In contrast, IP issues are primarily information-based with blurry boundaries, creating many edge cases that are difficult to automate with high certainty. Because IP moderation frequently requires human intervention to navigate these nuances, the system's automated recall cannot match the performance of product compliance moderation."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,99.98%,"Accuracy rate of review moderation
-
-This indicator reflects the accuracy of automated tools in classifying consumer reviews and comments as violative or compliant, based on a statistically representative audit conducted across all applicable official EU language.
-
-Accuracy is estimated using a random sampling methodology, capturing both reviews subject to direct automated enforcement and those not captured by direct automated enforcement (including reviews enforced through human intervention and non-enforced reviews). The resulting estimates are reported with a 95% confidence interval.
-
-To establish ground truth, sampled reviews were audited by human reviewers, enabling the high confidence identification of correct classifications (true positives and true negatives) as well as classification errors (false positives and false negatives). The indicators are then calculated based on the result of manual review."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,98.81%,"Precision rate of review moderation
-
-This indicator reflects the precision of automated tools used to detect violative reviews, measuring the proportion of reviews flagged by automated systems that were confirmed as violative.
-
-Precision is estimated using a random sampling methodology covering automated enforcement outcomes across applicable official EU languages.
-
-To establish ground truth, sampled reviews subject to direct automated enforcements were validated through manual review, enabling the identification of correct automated detections (true positives) and incorrect detections (false positives). The resulting estimates are reported with a 95% confidence interval. The indicators are then calculated based on the result of manual review."
-All,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,85.57%,"Recall rate of review moderation
-
-This indicator reflects the recall of automated tools used to detect violative reviews, measuring the proportion of violative reviews that were correctly identified by automated systems.
-
-Recall is estimated using a random sampling methodology, capturing both reviews subject to direct automated enforcement and those not captured by direct automated enforcement (including reviews enforced through human intervention and non-enforced reviews). The resulting estimates of samples are reported with a 95% confidence interval.
-
-To establish ground truth, sampled reviews were manually reviewed to identify violative reviews that were correctly detected (true positives) as well as violative reviews that were not detected by automated systems (false negatives). The indicators are then calculated based on the result of manual review."
-"Only for providers of hosting services, including online platforms",Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,0,"All NAM notices, whether submitted by Trusted Flaggers or otherwise, were reviewed manually by content moderators and therefore not processed through automated means."
-"Only for providers of hosting services, including online platforms",Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,155118,
-"Only for providers of hosting services, including online platforms",Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
-"Only for providers of hosting services, including online platforms",Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
-"Only for providers of hosting services, including online platforms",Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
-Only for providers of online platforms,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,0,"All NAM notices, whether submitted by Trusted Flaggers or otherwise, were reviewed manually by content moderators and therefore not processed through automated means."
-Only for providers of online platforms,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,6,
-Only for providers of online platforms,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
-Only for providers of online platforms,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
-Only for providers of online platforms,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,bg,985138,"The number of measures taken solely by automated means is assessed across all applicable official EU languages and encompasses both product listings and consumer reviews. Product listings are mapped to the primary language of the trader¡¯s business operations, based on their registered EU country of origin, reflecting the primary language of the trader¡¯s business operations and the original product input. Listings from non-EU traders are mapped to English, reflecting the primary language to which such listings are initially translated before further processing for EU markets.
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Total number,1603848715,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Total number,773028,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,96.83%,The indicators are identical to the accuracy/precision/recall rate reported for own-initiative moderation (product compliance). This reflects the fact that automated enforcement is used solely for moderation actions carried out on Temu's initiative. 
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,99.29%,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,91.31%,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,99.37%,The indicators are identical to the accuracy/precision/recall rate reported for own-initiative moderation (IP). This reflects the fact that automated enforcement is used solely for moderation actions carried out on Temu's initiative. 
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,99.23%,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,95.18%,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Total number,99.97%,The indicators are identical to the accuracy/precision/recall rate reported for own-initiative moderation (Review). This reflects the fact that automated enforcement is used solely for moderation actions carried out on Temu's initiative. 
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Total number,98.47%,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Total number,83.38%,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means ,Own-initiative ,1603848715,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,Own-initiative ,679526,
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,96.83%,Product Compliance
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,99.29%,Product Compliance
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,91.31%,Product Compliance
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,99.37%,IP
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,99.23%,IP
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,95.18%,IP
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,Own-initiative ,99.97%,Review
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,Own-initiative ,98.47%,Review
+All,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,Own-initiative ,83.38%,Review
+"Only for providers of hosting services, including online platforms",Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Total,0,"All NAM notices, whether submitted by Trusted Flaggers or otherwise, were reviewed manually by content moderators and therefore not processed through automated means."
+"Only for providers of hosting services, including online platforms",Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Total,108528,
+"Only for providers of hosting services, including online platforms",Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Total,,
+"Only for providers of hosting services, including online platforms",Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Total,,
+"Only for providers of hosting services, including online platforms",Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Total,,
+Only for providers of online platforms,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices solely processed by automated means ,NAM Trusted Flagger,0,"All NAM notices, whether submitted by Trusted Flaggers or otherwise, were reviewed manually by content moderators and therefore not processed through automated means."
+Only for providers of online platforms,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of notices not processed by automated means,NAM Trusted Flagger,4,
+Only for providers of online platforms,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,NAM Trusted Flagger,,
+Only for providers of online platforms,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,NAM Trusted Flagger,,
+Only for providers of online platforms,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,NAM Trusted Flagger,,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,bg,4110371,"The number of measures taken solely by automated means is assessed across all applicable official EU languages and encompasses both product listings and consumer reviews. Product listings are mapped to the primary language of the trader¡¯s business operations, based on their registered EU country of origin, reflecting the primary language of the trader¡¯s business operations and the original product input. Listings from non-EU traders are mapped to English, reflecting the primary language to which such listings are initially translated before further processing for EU markets.
 
 For consumer reviews, language attribution is derived from automated detection of review texts. "
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,cs,2216222,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,da,2026022,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,de,9825480,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,el,1406661,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,en,602754875,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,es,4758893,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,et,949967,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fi,1096322,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,fr,7496116,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ga,0,"The number of measures taken solely by automated means encompasses both product listings and consumer reviews. Product listings are mapped to the primary language of the traders¡¯ business operations, based on their registered EU country of origin; for Ireland, these are mapped to English, reflecting the operational reality that it is the most commonly used language in the country. Therefore, the count for product listings attributed to Irish (Gaeilge) is 0. However, consumer reviews are subject to automated language detection, and the figure reported in Column G accounts for reviews specifically identified by automated tools as Irish (Gaeilge), which is 0 during the reporting period."
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hr,1005371,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,hu,1751320,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,it,3522567,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lt,1338213,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,lv,803138,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,mt,1,"The number of measures taken solely by automated means encompasses both product listings and consumer reviews. During the reporting period, the platform did not host Maltese local traders; consequently, no listings were mapped to Maltese under the reporting approach, which maps product listings to the primary language of the traders' business operations, based on their registered EU country of origin. Therefore, the count for product listings attributed to Maltese is 0. However, consumer reviews are subject to automated language detection, and the figure reported in Column G accounts for reviews specifically identified by automated tools as Maltese."
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,nl,5824669,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pl,2668850,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,pt,1734031,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,ro,2272578,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sk,1414350,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sl,1045032,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures solely taken by automated means ,sv,1661015,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,bg,704,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,cs,2739,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,da,1623,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,de,18978,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,el,3196,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,en,1957519,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,es,4768,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,et,4566,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fi,1254,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,fr,14275,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ga,0,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hr,1311,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,hu,1792,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,it,4425,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lt,1332,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,lv,305,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,mt,0,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,nl,10469,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pl,5428,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,pt,1864,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,ro,2289,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sk,1577,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sl,1335,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Number of measures not taken by automated means,sv,1617,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,99.64%,Language breakdown in relation to the accuracy of automated tools in classifying listings as prohibited/restricted or otherwise non-compliant.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,98.82%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,98.86%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,98.79%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,98.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,98.30%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,98.50%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,99.71%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,99.16%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,97.93%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,,"Accuracy indicators for automated moderation of product listings are calculated according to the primary language of the traders' business operations, determined by their registered EU country of origin. As product listings from Irish local traders are mapped to English (reflecting the country's primary operational language), these figures are aggregated within the English-language accuracy metrics. Consequently, separate accuracy values for product listings by Irish local traders are not available. Following the EC Guidance, the relevant cell has been left blank."
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,99.66%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,98.85%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,98.96%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,99.60%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,99.88%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,,"Accuracy indicators for automated moderation of product listings are calculated according to the primary language of the traders¡¯ business operations, determined by their registered EU country of origin. During the reporting period, the platform did not host Maltese local traders; consequently, no listings were mapped to Maltese under the reporting approach. Therefore, accuracy values for product listings by Maltese local traders are not available. Following the EC Guidance, the relevant cell has been left blank.  "
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,98.75%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,98.51%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,98.59%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,99.20%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,99.12%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,99.55%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,98.78%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,99.74%,Language breakdown in relation to the precision of automated tools in classifying listings as prohibited/restricted or otherwise non-compliant.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,99.22%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,98.18%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,98.44%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,98.44%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,98.44%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,99.22%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,99.22%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,98.44%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,97.30%,Language breakdown in relation to the recall of automated tools in classifying listings as prohibited/restricted or otherwise non-compliant.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,93.57%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,94.87%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,94.93%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,92.37%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,90.86%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,92.97%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,99.19%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,94.81%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,94.93%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,97.55%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,93.22%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,94.84%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,97.86%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,99.65%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,94.31%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,91.43%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,92.15%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,95.67%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,94.14%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,96.49%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,93.25%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,99.83%,Language breakdown in relation to the accuracy of automated tools in classifying listings as IP-infringing.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,99.76%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,99.71%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,99.71%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,96.39%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,98.92%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,99.65%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,99.60%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,99.70%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,99.80%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,99.57%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,99.42%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,99.58%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,99.58%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,99.24%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,99.60%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,99.66%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,99.76%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,99.71%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,99.78%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,99.22%,Language breakdown in relation to the precision of automated tools in classifying listings as IP-infringing.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,99.22%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,99.74%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,98.96%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,98.96%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,99.22%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,98.70%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,98.18%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,99.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,99.22%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,89.27%,Language breakdown in relation to the recall of automated tools in classifying listings as IP-infringing.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,76.69%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,82.66%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,58.89%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,71.48%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,30.97%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,39.26%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,74.67%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,70.42%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,64.70%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,82.83%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,83.83%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,56.10%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,65.08%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,75.29%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,62.26%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,49.08%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,68.70%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,61.46%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,78.71%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,79.13%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,84.60%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,99.96%,Language breakdown in relation to the accuracy of automated tools in classifying consumer reviews as violative.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,99.97%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,99.97%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,99.96%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,99.82%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,99.93%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,99.95%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,100.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,99.97%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,99.89%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,99.93%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,100.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,99.97%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,99.96%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,99.96%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,99.98%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,100.00%,Language breakdown in relation to the precision of automated tools in classifying consumer reviews as violative.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,92.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,100.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,90.91%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,95.16%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,97.83%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,90.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,85.71%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,96.97%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,84.09%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,,"During the reporting period, no automated enforcement actions were taken on reviews in Irish (Gaeilge). Consequently, precision value is not available, and the relevant cell has been left blank in accordance with EC Guidanc "
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,92.59%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,84.62%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,98.67%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,95.83%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,46.60%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,100.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,100.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,95.24%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,96.88%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,90.91%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,86.27%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,84.21%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,84.62%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,41.18%,Language breakdown in relation to the recall of automated tools in classifying consumer reviews as violative.
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,54.76%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,47.17%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,49.18%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,62.11%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,60.75%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,34.95%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,66.67%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,68.09%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,45.12%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,,"During the reporting period, no automated enforcement actions were taken on reviews in Irish (Gaeilge). Consequently, recall value is not available, and the relevant cell has been left blank in accordance with EC Guidanc "
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,56.82%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,63.46%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,41.57%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,74.19%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,78.69%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,100.00%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,51.35%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,51.28%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,52.54%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,51.28%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,58.67%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,71.11%,
-Only for VLOPs,Temu,2025-07-01/2025-12-31,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,64.71%,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,cs,5787100,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,da,3487079,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,de,23830530,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,el,3962983,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,en,1466525738,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,es,11435147,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,et,2764910,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,fi,2875436,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,fr,13591420,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,ga,1,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,hr,3107505,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,hu,3380749,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,it,8772027,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,lt,2778565,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,lv,2917200,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,mt,2,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,nl,12205637,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,pl,10525599,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,pt,5720665,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,ro,4539173,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,sk,3854592,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,sl,2659759,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures solely taken by automated means,sv,4571620,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,bg,2054,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,cs,4105,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,da,4232,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,de,25077,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,el,2519,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,en,645433,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,es,5529,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,et,2478,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,fi,17159,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,fr,8357,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,ga,0,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,hr,2146,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,hu,4643,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,it,4793,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,lt,1528,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,lv,1664,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,mt,0,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,nl,8171,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,pl,17977,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,pt,3390,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,ro,3070,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sk,3001,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sl,2629,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Number of measures not taken by automated means,sv,2758,
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,99.72%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,99.86%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,99.86%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,99.64%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,99.87%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,96.16%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,99.69%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,99.81%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,99.70%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,99.59%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,99.64%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,99.80%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,99.59%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,99.65%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,99.84%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,99.87%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,99.76%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,99.73%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,99.87%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,99.86%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,99.84%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,99.84%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,99.22%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,99.22%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,99.48%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,99.42%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,99.81%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,99.78%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,99.72%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,99.83%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,89.35%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,99.61%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,99.89%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,99.25%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,99.56%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,99.26%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,99.77%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,99.45%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,99.24%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,99.74%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,99.85%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,99.72%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,99.84%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,99.78%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,99.77%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,99.88%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,99.82%,Product Compliance
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,99.71%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,99.98%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,99.98%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,99.27%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,99.71%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,99.93%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,99.71%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,99.96%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,99.71%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,99.72%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,99.94%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,99.96%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,99.98%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,99.97%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,99.22%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,99.22%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,99.22%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,99.74%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,99.48%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,87.94%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,98.81%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,98.10%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,98.59%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,99.09%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,95.16%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,92.51%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,98.34%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,98.60%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,96.75%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,85.42%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,98.42%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,88.51%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,80.69%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,98.34%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,98.61%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,98.90%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,98.85%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,99.22%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,98.23%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,98.58%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,98.85%,IP
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,bg,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,cs,99.96%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,da,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,de,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,el,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,en,99.87%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,es,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,et,99.98%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fi,99.95%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,fr,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ga,99.85%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hr,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,hu,99.95%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,it,99.93%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lt,99.96%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,lv,99.91%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,mt,100.00%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,nl,99.95%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pl,99.95%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,pt,99.93%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,ro,99.93%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sk,99.93%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sl,99.94%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Accuracy,sv,99.95%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,bg,95.80%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,cs,89.49%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,da,95.78%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,de,92.25%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,el,94.43%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,en,98.73%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,es,91.67%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,et,95.24%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fi,90.57%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,fr,90.97%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ga,100.00%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hr,88.70%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,hu,94.40%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,it,94.25%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lt,93.86%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,lv,68.50%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,mt,100.00%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,nl,89.38%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pl,91.30%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,pt,94.62%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,ro,89.69%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sk,90.60%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sl,84.21%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Precision,sv,91.89%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,bg,50.98%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,cs,52.51%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,da,54.18%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,de,53.24%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,el,57.20%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,en,74.28%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,es,53.89%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,et,75.47%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fi,53.93%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,fr,56.32%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ga,50.00%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hr,50.28%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,hu,54.62%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,it,66.41%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lt,61.90%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,lv,34.56%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,mt,100.00%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,nl,57.85%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pl,54.44%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,pt,56.55%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,ro,50.06%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sk,50.82%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sl,57.14%,Review
+Only for VLOPs,Temu,2026-01-01/2026-06-30,Use of automated means for content moderation,Accuracy of the automated means - Recall,sv,57.26%,Review

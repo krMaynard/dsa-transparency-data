@@ -1,5 +1,5 @@
 Applicability,Service,Reporting period,Indicator,Value
-All,YouTube,2025-07-01/2025-12-31,Summary of the content moderation engaged in at the providers’ own initiative,"Across all products and services, we set clear policies for what is and is not acceptable on our platforms. These policies aim to ensure a safe and positive experience for our users and observe a high standard of quality and reliability for advertisers, publishers, and content creators alike. 
+All,YouTube,2026-01-01/2026-06-30,Summary of the content moderation engaged in at the providers’ own initiative,"Across all products and services, we set clear policies for what is and is not acceptable on our platforms. These policies aim to ensure a safe and positive experience for our users and observe a high standard of quality and reliability for advertisers, publishers, and content creators alike. 
 
 Content policies establish the rules of the road for what content can be created, uploaded, sent, shared, and monetised. These policies are used to guide content moderation and enforcement actions on our products. They also play an important role in maintaining a positive experience for everyone on our platforms no matter where they are in the world. 
 
@@ -30,13 +30,13 @@ Over the years, YouTube has worked tirelessly to develop policies and products t
 For more information, see:
 - YouTube's Community Guidelines: https://support.google.com/youtube/answer/9288567?hl=en
 - Advertiser Friendly Guidelines: https://support.google.com/youtube/answer/6162278?hl=en 
-- Terminating users' channels: https://support.google.com/youtube/answer/2802168?hl=en&ref_topic=9387060https://support.google.com/youtube/answer/2802168?hl=en&ref_topic=9387060
+- Terminating users' channels: https://support.google.com/youtube/answer/2802168?hl=en&ref_topic=9387060
 - YouTube's strike system: https://support.google.com/youtube/answer/2802032?hl=en&ref_topic=9387060&sjid=11360385655166339459-NA
 - Age restrictions: https://support.google.com/youtube/answer/2802167?hl=en#:~:text=Sometimes%20content%20doesn%27t%20violate,other%20YouTube%20product%20or%20feature
 - Monetisation tools: https://support.google.com/youtube/answer/1311392?sjid=10274252533144414683-NC
 
 "
-All,YouTube,2025-07-01/2025-12-31,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"There is a dedicated page on the Google Transparency Center to help users find ways to report harmful content on several of our services. Often the option to report will be found in the service itself or with its policies. Depending on the nature of the service and the potential policy violation, these user reports may be reviewed using automated tools, human review or a combination of both. 
+All,YouTube,2026-01-01/2026-06-30,Meaningful and comprehensible information regarding content moderation engaged in at the providers' own initiative,"There is a dedicated page on the Google Transparency Center to help users find ways to report harmful content on several of our services. Often the option to report will be found in the service itself or with its policies. Depending on the nature of the service and the potential policy violation, these user reports may be reviewed using automated tools, human review or a combination of both. 
 
 To enforce our policies at scale, Google relies on a combination of automated and human tools to spot problematic content. While automated systems can quickly identify and take action against spam and some violative content, human judgement is needed for the many decisions that require a more nuanced determination. The context in which a piece of content is created or shared is an important factor in any assessment about its quality or its purpose. Google is attentive to educational, scientific, artistic, and documentary contexts, including journalistic intent, where the content might otherwise violate our policies. Google escalates particularly complex cases to specially-trained experts. Additionally, Google uses a corpus of human-reviewed and removed content to train machine learning technology to flag new content that may also violate product policies. Using machine learning technology trained by human decisions enables our enforcement systems to adapt and become more effective over time. More information about how Google services use automated tools, often supplemented with human review, for content moderation, along with the indicators of accuracy of any fully automated tools is included in the sections below. 
 
@@ -46,13 +46,13 @@ For more information, see:
 Service-specific details
 YouTube's Violative View Rate (VVR) is its North Star metric that estimates the proportion of video views that violate its Community Guidelines (excluding spam). Voluntarily published quarterly since 2021, with data dating back to 2017, YouTube closely monitors this metric to measure its progress on removing violative videos.
 
-In Q3 2025, VVR was 0.11-0.13% globally, and in Q4 2025, VVR was 0.14-0.15% globally. This means that out of every 10,000 views on YouTube in Q3, only 11-13 came from violative content and in Q4, only 14-15 came from violative content.
+In Q1 2026, VVR was 0.17-0.19% globally, and in Q2 2026, VVR was 0.15-0.17% globally. This means that out of every 10,000 views on YouTube in Q1, only 17-19 came from violative content and in Q2, only 15-17 came from violative content.
 
 For more information, see:
 YouTube's Community Guidelines Transparency Report: https://transparencyreport.google.com/youtube-policy/views
 
 "
-All,YouTube,2025-07-01/2025-12-31,Qualitative description of the automated means,"This section describes how Google and YouTube use automated tools, often supplemented with human review, for content moderation. 
+All,YouTube,2026-01-01/2026-06-30,Qualitative description of the automated means,"This section describes how Google and YouTube use automated tools, often supplemented with human review, for content moderation. 
 
 Automated tools used to combat Child Sexual Abuse Material (CSAM)
 Google takes its responsibility to fight child sexual abuse and exploitation online very seriously. We do this by combatting CSAM across Google's services and by detecting instances of abuse and enforcing robust policies. We also partner with non-governmental organisations (NGOs) and others in industry coalitions to share proprietary technology and drive the industry forward. 
@@ -104,7 +104,7 @@ For more information, see:
 - Hash Sharing: Violent Extremism: https://transparencyreport.google.com/youtube-policy/featured-policies/violent-extremism
 
 "
-All,YouTube,2025-07-01/2025-12-31,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Where relevant and feasible, indicators of accuracy for automated tools used to process legal-related content removal requests, CSAM and advertisements are provided in relevant service-specific reports. While we report fully automated tools primarily on a language-agnostic basis, where applicable and feasible for this reporting period, the indicators of accuracy are also broken down by language. 
+All,YouTube,2026-01-01/2026-06-30,Qualitative description of indicators of accuracy and possible rate of error of automated means,"Where relevant and feasible, indicators of accuracy for automated tools used to process legal-related content removal requests, CSAM and advertisements are provided in relevant service-specific reports. While we report fully automated tools primarily on a language-agnostic basis, where applicable and feasible for this reporting period, the indicators of accuracy are also broken down by language. 
 
 Unless otherwise stated, metrics are calculated using standard statistics definitions provided below:
 - Accuracy, defined as the proportion of all decisions that were correctly made by the automated system = (TP + TN) / (TP + TN + FP + FN)
@@ -115,16 +115,19 @@ Where TP = True Positives; TN = True Negatives; FP = False Positives; FN = False
 Automated tools used to process Legal-related Content Removal Requests 
 For relevant services, accuracy, precision and recall are provided for fully automated content moderation tools used to process legal-related content removal requests. These metrics are computed based on a quality assurance audit of global reviews performed by the automated systems. 
 
-As previously mentioned, intermediary services are out-of scope for Art 15(1)b and actions taken on a legal basis in response to legal notices received about intermediary service content are reported under Art 15(1)c for completeness. Therefore, accuracy indicators of fully automated content moderation tools used to process legal-related content removal requests on intermediary services are reported under 'own initiative' rather than 'NAM total' on the 8_automated_means tab. 
+As previously mentioned, intermediary services are out-of scope for Art 15(1)b and actions taken on a legal basis in response to legal notices received about intermediary service content are reported under Art 15(1)c for completeness. Therefore, accuracy indicators of fully automated content moderation tools used to process legal-related content removal requests on intermediary services are reported under 'own initiative' rather than 'NAM total' on the 8_automated_means tab.
+
+In the VLOP reports, accuracy, precision and recall metrics are provided for EU Member State languages where sufficient data exist to calculate meaningful metrics.
 
 Automated tools used to combat Child Sexual Abuse Materials (CSAM)
 For relevant services, precision is provided for fully automated content moderation tools used to restrict CSAM.
 
 False Positives reflect the number of automated actions that were later found to be incorrect and reversed following appeals from account owners in the EU while True Positives reflect the number of automated actions that were reviewed and upheld after appeal and those that were not subject to an appeal.
-Accuracy and recall metrics are not being reported due to infeasibility of identifying False Negatives (i.e. where violative content exists but it is not detected by automated means). Language breakdown is not applicable as moderated content is image-based. 
+
+Accuracy and recall metrics are not being reported for automated tools used to restrict CSAM due to the technical infeasibility of identifying False Negatives (i.e. where violative content exists but it is not detected by automated means). Identifying instances where an automated system failed to detect a violation would require exhaustive manual follow-up of millions of cases which were previously deemed to be compliant. Language breakdown is not applicable as moderated content is image-based.
 
 Automated tools that affect advertisements
-Within the Ads (hosting service provider) report, accuracy, precision and recall is reported across all automated content moderation decisions. For relevant services, Ads is reporting accuracy, precision and recall across all automated content moderation decisions on that particular service (on the 8_automated_means_Ads tab). 
+Within the Ads (hosting service provider) report, accuracy, precision and recall are reported across all automated content moderation decisions. For relevant services, Ads is reporting accuracy, precision and recall across all automated content moderation decisions on that particular service (on the 8_automated_means_Ads tab). 
 
 False Positives reflect the number of automated actions that were later found to be incorrect and reversed following appeals from advertisers in the EU while True Positives reflect the number of automated actions that were reviewed and upheld after appeal and those that were not subject to an appeal. False Negatives reflect instances where an automated system did not detect a violation, but action was subsequently taken following reports from EU users while True Negatives reflect instances where content was reviewed following EU user reports and found to be non-violative, in addition to instances where content was approved by the automated system and not subsequently reviewed. To determine if the automated system was right or wrong, Ads checks if automated decisions were overturned by human reviewers within 90 days following the ad's creation. 
  
@@ -138,10 +141,10 @@ For recall, YouTube is using its proprietary metric Violative View Rate (VVR). Y
 For more information about VVR, see: https://transparencyreport.google.com/youtube-policy/views
 
 "
-All,YouTube,2025-07-01/2025-12-31,Specification of the precise purposes to apply automated means,"See response to 'Qualitative description of the automated means'. 
+All,YouTube,2026-01-01/2026-06-30,Specification of the precise purposes to apply automated means,"See response to 'Qualitative description of the automated means'. 
 
 "
-All,YouTube,2025-07-01/2025-12-31,Safeguards applied to the use of automated means,"To enforce our policies at scale, Google relies on a combination of automated and human tools to spot problematic content. While automated systems can quickly identify and take action against spam and some violative content, human judgement is needed for the many decisions that require a more nuanced determination. The context in which a piece of content is created or shared is an important factor in any assessment about its quality or its purpose. Google is attentive to educational, scientific, artistic, and documentary contexts, including journalistic intent, where the content might otherwise violate our policies. Google escalates particularly complex cases to specially-trained experts. 
+All,YouTube,2026-01-01/2026-06-30,Safeguards applied to the use of automated means,"To enforce our policies at scale, Google relies on a combination of automated and human tools to spot problematic content. While automated systems can quickly identify and take action against spam and some violative content, human judgement is needed for the many decisions that require a more nuanced determination. The context in which a piece of content is created or shared is an important factor in any assessment about its quality or its purpose. Google is attentive to educational, scientific, artistic, and documentary contexts, including journalistic intent, where the content might otherwise violate our policies. Google escalates particularly complex cases to specially-trained experts. 
 
 Additionally, Google uses a corpus of human-reviewed and removed content to train machine learning technology to flag new content that may also violate product policies. Using machine learning technology trained by human decisions enables our enforcement systems to adapt and become more effective over time. 
 
@@ -173,7 +176,7 @@ For more information, see:
 - Review process: https://support.google.com/youtube/answer/13304829
 
 "
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,High-level description of the content moderation governance structure,"Good corporate governance is critical to our approach to content moderation. The foundation for managing this is a clear internal structure, together with accompanying processes and tools to manage the needs of Google's diverse products and services with consistency and appropriate flexibility.
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,High-level description of the content moderation governance structure,"Good corporate governance is critical to our approach to content moderation. The foundation for managing this is a clear internal structure, together with accompanying processes and tools to manage the needs of Google's diverse products and services with consistency and appropriate flexibility.
 
 Our governance structures include:
 
@@ -181,12 +184,12 @@ Our governance structures include:
 
 - Executive oversight: Senior management has direct oversight of content risks, ensures appropriate resourcing for dedicated teams, reviews significant incidents or escalations, and reports these items to the Board as necessary.
 
-- YouTube Trust and Safety: YouTube has built its own Trust and Safety team, with expertise in addressing the unique content challenges that arise on an open video-first service. Like Google's company-wide Trust and Safety organisation, YouTube Trust and Safety partners with members of our legal, operations, public policy, product management, and engineering teams to develop innovative ways to combat potentially harmful content. Hundreds of hours of new content are uploaded to YouTube every minute, and we use a combination of people and automated systems to detect problematic content at scale.
+- YouTube Trust and Safety: YouTube has built its own Trust and Safety team, with expertise in addressing the unique content challenges that arise on an open video-first service. Like Google's company-wide Trust and Safety organisation, YouTube Trust and Safety partners with members of our legal, operations, public policy, product management, and engineering teams to develop innovative ways to combat potentially harmful content. YouTube uses a combination of people and automated systems to detect and evaluate problematic content at scale.
 
 These governance structures work to identify and address the risk to users across the product lifecycle: from product development (where we embed user safety into the design of our products) to product launch, followed by ongoing monitoring and evaluation. This is enabled by internal policies, guidance, regular training, clear escalation paths, and processes designed to monitor emerging trends and address new harm vectors before they can become larger issues).
 
 "
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Qualifications of the human resources dedicated to content moderation,"Human reviewers or content moderators play a key role in content moderation at Google. Technology has become very helpful in identifying some kinds of problematic content (e.g., finding objects and patterns quickly and at scale in images, video, and audio), while humans are able to apply a more nuanced approach to assessing content. 
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Qualifications of the human resources dedicated to content moderation,"Human reviewers or content moderators play a key role in content moderation at Google. Technology has become very helpful in identifying some kinds of problematic content (e.g., finding objects and patterns quickly and at scale in images, video, and audio), while humans are able to apply a more nuanced approach to assessing content. 
 
 To safeguard against content actions that could potentially contribute to or exacerbate adverse impacts due to allowing or removing content, Google utilises international human rights standards to guide policy and enforcement decision-making, considering how content could adversely impact the rights of an individual, community, or society as a whole, or further the understanding of social, political, cultural, civic, and economic affairs. As an example of public interest-informed content moderation, Google carves out exceptions to enforcement guidelines for material that is Educational, Documentary, Scientific, and/or Artistic (EDSA). Content that falls under those exceptions are crucial to understanding the world and to chronicling history, whether it is documenting wars and revolutions or artistic expression that may include nudity. Consequently, Google takes great care in helping reviewers understand the EDSA exceptions when reviewing flagged content. 
 
@@ -202,10 +205,10 @@ For more information, please see:
 - Google Supplier Code of Conduct: https://about.google/company-info/supplier-code-of-conduct/
 
 "
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Training given to human resources dedicated to content moderation,"Google employees who work on sensitive content teams are offered subject matter specific training on a variety of topics. Employees working in sensitive content are required to complete a training on the Psychological Impact of Sensitive Content Review at the point of onboarding, and managers are required to complete an additional training on Supporting Teams who Work with Sensitive Content. Additional optional training opportunities include those on self-compassion, emotional agility, and subject matter specific training to provide a deeper dive into the unique challenges faced by each team. The training is generally conducted via e-learning with opportunities for live facilitated training. 
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Training given to human resources dedicated to content moderation,"Google employees who work on sensitive content teams are offered subject matter specific training on a variety of topics. Employees working in sensitive content are required to complete a training on the Psychological Impact of Sensitive Content Review at the point of onboarding, and managers are required to complete an additional training on Supporting Teams who Work with Sensitive Content. Additional optional training opportunities include those on self-compassion, emotional agility, and subject matter specific training to provide a deeper dive into the unique challenges faced by each team. The training is generally conducted via e-learning with opportunities for live facilitated training. 
 
 "
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Support given to human resources dedicated to content moderation ,"Wellbeing support
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Support given to human resources dedicated to content moderation ,"Wellbeing support
 Google is committed to supporting the wellness of its employees that work with sensitive content through comprehensive programs and resources. Google strives for safe and healthy working conditions for all employees exposed to sensitive content and is committed to ensuring they have the highest standard of support. Google has invested significantly in these teams by:
 
 - Providing access to on- and off-site counselling for workers who need it, dedicated wellness spaces, on-site specialist counsellor support in certain Google offices, and 24/7 phone support;
@@ -223,16 +226,16 @@ For more information on Google's research paper, see:
 https://research.google/pubs/testing-stylistic-interventions-to-reduce-emotional-impact-in-content-moderation-workers/
 
 "
-Only for VLOPs,YouTube,2025-07-01/2025-12-31,Methodology used to compute the number of human resources dedicated to content moderation  ,"Computing the human resources who evaluate content across Google services is a highly complex process. Content can be posted by users globally or reviewed by content moderators located globally. Content moderators may review content for multiple policy violations or focus on one specific topic; they may review content that appears across one or more services; and content assigned for their review may have been posted in several different languages. In some cases and where appropriate, translation tools may be used to assist in the review process and allow us to moderate content 24/7 and at scale. Accordingly, these metrics do not necessarily reflect the language that the content was ultimately reviewed in. 
+Only for VLOPs,YouTube,2026-01-01/2026-06-30,Methodology used to compute the number of human resources dedicated to content moderation  ,"Computing the human resources who evaluate content across Google services is a highly complex process. Content can be posted by users globally or reviewed by content moderators located globally. Content moderators may review content for multiple policy violations or focus on one specific topic; they may review content that appears across one or more services; and content assigned for their review may have been posted in several different languages. In some cases and where appropriate, translation tools may be used to assist in the review process and allow us to moderate content 24/7 and at scale. Accordingly, these metrics do not necessarily reflect the language that the content was ultimately reviewed in. 
 
-The number of internal moderators reflects full-time employees who supported content moderation activities (e.g. Trust & Safety content moderators, product managers, engineers) on YouTube as of 31 December 2025.
+The number of internal moderators reflects full-time employees who supported content moderation activities (e.g. Trust & Safety content moderators, product managers, engineers) on YouTube as of 30 June 2026.
 
 The number of external moderators reflects the full-time worker equivalent of the number of moderators required to support YouTube's projected content review hours. Vendors use their discretion to fulfil this requirement, therefore this may include both full- and part-time workers.
 
-The linguistic expertise of moderators supporting YouTube is reflected in the number of moderators attributed to each official EU language. The number of moderators with sufficient linguistic expertise attributed to each official EU language generally reflects moderators who were working as of 31 December 2025 and completed at least 10 reviews of content posted in an official EU Member State language during the reporting period. Included are employees, external moderators, temporary staff, and independent contractors. However, the data within the English language category includes a broader set of individuals who support content moderation activities (e.g., engineers, Trust & Safety product managers) in addition to those who completed at least 10 reviews in English during the reporting period. Moderators who review non-language content (e.g., an image) are included in the 'Agnostic' category. As some content moderators are multilingual and others moderate both language-based and language-agnostic content, adding the language and agnostic numbers, will overcount YouTube's total number of human resources working on content moderation.
+The linguistic expertise of moderators supporting YouTube is reflected in the number of moderators attributed to each official EU language. The number of moderators with sufficient linguistic expertise attributed to each official EU language generally reflects moderators who were working as of 30 June 2026 and completed at least 10 reviews of content posted in an official EU Member State language during the reporting period. Included are employees, external moderators, temporary staff, and independent contractors. However, the data within the English language category includes a broader set of individuals who support content moderation activities (e.g., engineers, Trust & Safety product managers) in addition to those who completed at least 10 reviews in English during the reporting period. Moderators who review non-language content (e.g., an image) are included in the 'Agnostic' category. As some content moderators are multilingual and others moderate both language-based and language-agnostic content, adding the language and agnostic numbers, will overcount YouTube's total number of human resources working on content moderation.
 
 "
-All,YouTube,2025-07-01/2025-12-31,Information about Article 9 and 10 orders from Member States’ authorities,"While qualitative information about Art 9 and 10 orders from Member States' authorities is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 3_member_states_orders tab. 
+All,YouTube,2026-01-01/2026-06-30,Information about Article 9 and 10 orders from Member States’ authorities,"While qualitative information about Art 9 and 10 orders from Member States' authorities is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 3_member_states_orders tab. 
 
 Article 9 and 10 Orders from Member States' authorities 
 Courts and government agencies in the EU regularly request that we remove information from Google services (Removal Orders). These requests are routed to the appropriate team(s) within Google who review these requests closely to determine if information should be removed because it may violate a law or our product policies. In addition, specific EU and Member State laws allow government agencies in the EU to request user information for civil, administrative, criminal, and national security purposes (User Data Disclosure Orders). Each request is carefully reviewed to make sure it satisfies applicable laws; this review and any subsequent enforcement requires human involvement. Metrics relating to Removal Orders and User Data Disclosure Orders received during the reporting period, conforming to the requirements of Article 9 and Article 10 of the DSA respectively and pertaining to the applicable service are provided in this report. In addition, metrics around orders received relating to advertisements, including where those advertisements may have appeared on one or more Google services, are provided in both the Ads and the Multi-Services report. Where relevant, the median time needed to confirm receipt and the median time needed to take action (or non-action) in response to Removal Orders and User Data Disclosure Orders is provided in hours. 
@@ -244,7 +247,7 @@ For more information, see:
 - Government Requests for User Information Transparency Report: https://transparencyreport.google.com/user-data/overview?hl=en
 
 "
-All,YouTube,2025-07-01/2025-12-31,Information about notices received through the notice and action mechanism,"While qualitative information about notices received through the notice and action mechanism is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 4_notices tab. 
+All,YouTube,2026-01-01/2026-06-30,Information about notices received through the notice and action mechanism,"While qualitative information about notices received through the notice and action mechanism is not specifically requested in the DSA Template, we are providing it here to aid interpretation of metrics provided on the 4_notices tab. 
 
 Notices received through notice and action mechanisms
 Google's content and product policies apply wherever you are in the world, but we also have processes in place to remove or restrict access to content based on local laws. Users, Trusted Flaggers (as defined by Article 22), and other entities can report content that they believe should be removed from Google's services under applicable laws. Action is taken on content that is deemed to violate applicable laws or Google policies.
@@ -259,7 +262,7 @@ For more information, see:
 - Trusted Flaggers under the DSA: https://digital-strategy.ec.europa.eu/en/policies/trusted-flaggers-under-dsa
 
 "
-All,YouTube,2025-07-01/2025-12-31,Information about complaints received through the internal complaint handling systems (i.e. appeals),"While qualitative information about complaints received through the internal complaint handling systems (i.e. appeals) is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recidivism and the 7_appeals_and_recidivism_Ads tabs.
+All,YouTube,2026-01-01/2026-06-30,Information about complaints received through the internal complaint handling systems (i.e. appeals),"While qualitative information about complaints received through the internal complaint handling systems (i.e. appeals) is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recidivism and the 7_appeals_and_recidivism_Ads tabs.
 
 Complaints received through internal complaint handling systems (i.e., appeals) 
 Google works hard to maintain services that are safe and vibrant. As with any system, we sometimes make mistakes, which may result in the unwarranted removal of content from or access to our services. To address that risk, where appropriate, we make it clear to users and/or creators that we have taken action on their content and provide them the opportunity to contest that decision through designated complaint-handling systems and give us clarifications. In addition, under the DSA, EU users can submit complaints about an action that Google did not take in response to a notice/flag that they previously submitted. 
@@ -273,7 +276,7 @@ For YouTube, appeals for each restriction type, if combined, will outnumber the 
 For relevant services, we separately present metrics for complaints received relating to advertisements impressed on those services. However, complaints about actions taken in response to Article 16 notices that relate to advertisements (including where those advertisements may appear on one or more Google services), are provided in both the Ads and the Multi-Services report. 
 
 "
-Only for providers of online platforms,YouTube,2025-07-01/2025-12-31,Information about complaints received through out-of-court dispute settlements,"While qualitative information about complaints received through out-of-court dispute settlements is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recividism tab.
+Only for providers of online platforms,YouTube,2026-01-01/2026-06-30,Information about complaints received through out-of-court dispute settlements,"While qualitative information about complaints received through out-of-court dispute settlements is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recividism tab.
 
 Out-of-court dispute settlements
 Out-of-court dispute settlement (ODS) bodies are independent bodies, certified by an EU Member State, to handle complaints referred by EU users. Further information about Google's approach to this requirement is available on the EU Out-of-Court Dispute Resolution Help Center. 
@@ -286,7 +289,7 @@ For more information, see:
 - EU Out-of-Court Dispute Resolution Help Center: https://support.google.com/european-union-digital-services-act-redress-options/answer/13535501?hl=en
 
 "
-Only for providers of online platforms,YouTube,2025-07-01/2025-12-31,Information about Article 23 suspensions imposed to protect against misuse,"While qualitative information about Article 23 suspensions imposed to protect against misuse is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recidivism and the 7_appeals_and_recidivism_Ads tabs. 
+Only for providers of online platforms,YouTube,2026-01-01/2026-06-30,Information about Article 23 suspensions imposed to protect against misuse,"While qualitative information about Article 23 suspensions imposed to protect against misuse is not specifically requested in the DSA Template, we are providing it here to aid interpretation of relevant metrics provided on the 7_appeals_and_recidivism and the 7_appeals_and_recidivism_Ads tabs. 
 
 Article 23 Suspensions imposed to protect against misuse 
 Requirements for Article 23 suspensions apply to Online Platforms but not Hosting Service Providers and Intermediary Service Providers more generally. To protect users from significant harm and unlawful activity, Google suspends user accounts when we detect egregious content (e.g., child abuse) or repeated violations of our services' policies. Suspended user accounts are unable to access Google products and, depending on the suspension reason, may not contribute to Google services or sometimes engage in specific Google processes (e.g., submission of complaints through dedicated complaint channels). Depending on the severity of the detected violation and involvement of legal enforcement authorities, users may receive a warning and/or remedial instructions to remove the violating content before their account is suspended. 
@@ -297,7 +300,7 @@ For more information, see:
 - Misuse Policy: https://support.google.com/legal-help-center/answer/13949470
 
 "
-All,YouTube,2025-07-01/2025-12-31,Other information,"Metrics presented in this report generally reflect our efforts and resources to moderate potentially illegal content and policy-violative content in the EU. Where that is not possible and we are reporting more broadly than the EU, we are looking to remediate this for future reports. In some cases, EEA metrics have been voluntarily provided.
+All,YouTube,2026-01-01/2026-06-30,Other information,"Metrics presented in this report generally reflect our efforts and resources to moderate potentially illegal content and policy-violative content in the EU. Where that is not possible and we are reporting more broadly than the EU, we are looking to remediate this for future reports. In some cases, EEA metrics have been voluntarily provided.
 
 Metrics presented in this report generally reflect our efforts to moderate content throughout the full reporting period; in cases where that is not possible, we are looking to remediate this for future reports. 
 

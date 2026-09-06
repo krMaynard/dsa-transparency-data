@@ -11,7 +11,7 @@ Category 2c,Misleading information about the characteristics of the goods and se
 Category 2d,Misleading information about the consumer’s rights ,KEYWORD_MISLEADING_INFO_CONSUMER_RIGHTS,
 Category 2e,Non-compliance with pricing regulations  ,KEYWORD_NONCOMPLIANCE_PRICING,
 Category 2f,Not captured by any other sub-category ,KEYWORD_OTHER,
-Category 3,Cyber violence,STATEMENT_CATEGORY_CYBER_VIOLENCE,"This category includes content that harasses, bullies or incites others to participate in these activities."
+Category 3,Cyber violence,STATEMENT_CATEGORY_CYBER_VIOLENCE,
 Category 3a,Cyber bullying and intimidation,KEYWORD_CYBER_BULLYING_INTIMIDATION,
 Category 3b,Cyber harassment,KEYWORD_CYBER_HARASSMENT,
 Category 3c,Cyber incitement to hatred or violence,KEYWORD_CYBER_INCITEMENT,
@@ -35,7 +35,7 @@ Category 5c,Missing processing ground for data,KEYWORD_MISSING_PROCESSING_GROUND
 Category 5d,Right to be forgotten,KEYWORD_RIGHT_TO_BE_FORGOTTEN,
 Category 5e,Not captured by any other sub-category  ,KEYWORD_OTHER,
 Category 5f,Not captured by any other sub-category  ,KEYWORD_OTHER,
-Category 6,Illegal or harmful speech,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,This category includes reports on discrimination and hate speech.
+Category 6,Illegal or harmful speech,STATEMENT_CATEGORY_ILLEGAL_OR_HARMFUL_SPEECH,"This category includes reports on discrimination, hate speech, harassment and bullying."
 Category 6a,Defamation,KEYWORD_DEFAMATION,
 Category 6b,Discrimination,KEYWORD_DISCRIMINATION,
 Category 6c,Illegal incitement to violence and hatred based on protected characteristics (hate speech) ,KEYWORD_HATE_SPEECH,
@@ -66,7 +66,7 @@ Category 10b,Risk for environmental damage,KEYWORD_RISK_ENVIRONMENTAL_DAMAGE,
 Category 10c,Risk for public health,KEYWORD_RISK_PUBLIC_HEALTH,
 Category 10d,Terrorist content,KEYWORD_TERRORIST_CONTENT,
 Category 10e,Not captured by any other sub-category  ,KEYWORD_OTHER,
-Category 11,Scams and/or fraud ,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,"This category includes content that is misleading, biased, deceiving or confusing to Booking.com users. "
+Category 11,Scams and/or fraud ,STATEMENT_CATEGORY_SCAMS_AND_FRAUD,"This category includes content that is misleading, deceiving or confusing to Booking.com users. "
 Category 11a,Impersonation or account hijacking,KEYWORD_IMPERSONATION_ACCOUNT_HIJACKING,
 Category 11b,Inauthentic accounts,KEYWORD_INAUTHENTIC_ACCOUNTS,
 Category 11c,Inauthentic listings,KEYWORD_INAUTHENTIC_LISTINGS,
@@ -92,7 +92,7 @@ Category 14c,Human exploitation,KEYWORD_HUMAN_EXPLOITATION,
 Category 14d,Human trafficking,KEYWORD_HUMAN_TRAFFICKING,
 Category 14e,Trafficking in women and girls,KEYWORD_TRAFFICKING_WOMEN_GIRLS,
 Category 14f,Not captured by any other sub-category  ,KEYWORD_OTHER,
-Category 15,Other violation of provider’s terms and conditions,STATEMENT_CATEGORY_OTHER_VIOLATION_TC,"This category includes Sexual Content, Overbookings, Guest Cancellations, Conflict of interest, Promotional content, Photo & Editorial guidelines, Partner Name Change, Offensive/shocking content and Nudity."
+Category 15,Other violation of provider’s terms and conditions,STATEMENT_CATEGORY_OTHER_VIOLATION_TC,"This category includes Sexual Content, Overbookings, Guest Cancellations, Conflict of interest, Promotional content, Photo & Editorial guidelines, Partner Name Change, Biased content, Offensive/shocking content and Nudity."
 Category 15a,Adult sexual material,KEYWORD_ADULT_SEXUAL_MATERIAL,
 Category 15b,Age-specific restrictions,KEYWORD_AGE_SPECIFIC_RESTRICTIONS,
 Category 15c,Geographical requirements,KEYWORD_GEOGRAPHICAL_REQUIREMENTS,
